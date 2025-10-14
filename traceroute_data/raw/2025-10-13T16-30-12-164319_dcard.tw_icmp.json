@@ -1,0 +1,134 @@
+{
+  "timestamp": "2025-10-13T16:30:12.164319",
+  "vantage_point": "university",
+  "target": "dcard.tw",
+  "target_ip": "104.19.248.7",
+  "protocol": "icmp",
+  "port": null,
+  "duration_seconds": 3.2,
+  "hops": [
+    {
+      "hop": 2,
+      "ip": "140.123.103.250",
+      "hostname": null,
+      "rtts": [
+        2.245,
+        2.194,
+        2.355
+      ],
+      "avg_rtt": 2.26,
+      "timeout": false
+    },
+    {
+      "hop": 3,
+      "ip": "140.123.9.249",
+      "hostname": null,
+      "rtts": [
+        2.187,
+        2.115,
+        3.171
+      ],
+      "avg_rtt": 2.49,
+      "timeout": false
+    },
+    {
+      "hop": 4,
+      "ip": "140.123.0.246",
+      "hostname": null,
+      "rtts": [
+        2.809,
+        2.698,
+        2.892
+      ],
+      "avg_rtt": 2.8,
+      "timeout": false
+    },
+    {
+      "hop": 5,
+      "ip": "140.130.252.251",
+      "hostname": null,
+      "rtts": [
+        3.639,
+        4.626,
+        3.174
+      ],
+      "avg_rtt": 3.81,
+      "timeout": false
+    },
+    {
+      "hop": 6,
+      "ip": "192.192.61.142",
+      "hostname": null,
+      "rtts": [
+        5.528,
+        5.534,
+        5.505
+      ],
+      "avg_rtt": 5.52,
+      "timeout": false
+    },
+    {
+      "hop": 7,
+      "ip": "192.192.61.20",
+      "hostname": null,
+      "rtts": [
+        7.019,
+        7.134,
+        7.112
+      ],
+      "avg_rtt": 7.09,
+      "timeout": false
+    },
+    {
+      "hop": 8,
+      "ip": "192.192.61.48",
+      "hostname": null,
+      "rtts": [
+        7.685,
+        7.438,
+        7.981
+      ],
+      "avg_rtt": 7.7,
+      "timeout": false
+    },
+    {
+      "hop": 9,
+      "ip": "192.192.68.62",
+      "hostname": null,
+      "rtts": [
+        8.471,
+        7.782,
+        7.91
+      ],
+      "avg_rtt": 8.05,
+      "timeout": false
+    },
+    {
+      "hop": 10,
+      "ip": "203.163.222.39",
+      "hostname": null,
+      "rtts": [
+        8.444,
+        9.078
+      ],
+      "avg_rtt": 8.76,
+      "timeout": false
+    },
+    {
+      "hop": 11,
+      "ip": "104.19.248.7",
+      "hostname": null,
+      "rtts": [
+        8.571,
+        11.687,
+        8.576
+      ],
+      "avg_rtt": 9.61,
+      "timeout": false
+    }
+  ],
+  "num_hops": 10,
+  "success": true,
+  "raw_output": " 1  192.168.50.1  2.742 ms  2.529 ms  2.311 ms\n 2  140.123.103.250  2.245 ms  2.194 ms  2.355 ms\n 3  140.123.9.249  2.187 ms  2.115 ms  3.171 ms\n 4  140.123.0.246  2.809 ms  2.698 ms  2.892 ms\n 5  140.130.252.251  3.639 ms  4.626 ms  3.174 ms\n 6  192.192.61.142  5.528 ms  5.534 ms  5.505 ms\n 7  192.192.61.20  7.019 ms  7.134 ms  7.112 ms\n 8  192.192.61.48  7.685 ms  7.438 ms  7.981 ms\n 9  192.192.68.62  8.471 ms  7.782 ms  7.910 ms\n10  203.163.222.39  8.444 ms *  9.078 ms\n11  104.19.248.7  8.571 ms  11.687 ms  8.576 ms\n",
+  "category": "ecommerce_tech"
+}

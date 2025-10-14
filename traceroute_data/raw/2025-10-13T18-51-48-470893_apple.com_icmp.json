@@ -1,0 +1,137 @@
+{
+  "timestamp": "2025-10-13T18:51:48.470893",
+  "vantage_point": "cht-mobile",
+  "target": "apple.com",
+  "target_ip": "17.253.144.10",
+  "protocol": "icmp",
+  "port": null,
+  "duration_seconds": 19.28,
+  "hops": [
+    {
+      "hop": 2,
+      "ip": "10.159.65.141",
+      "hostname": null,
+      "rtts": [
+        48.407,
+        268.447,
+        161.223
+      ],
+      "avg_rtt": 159.36,
+      "timeout": false
+    },
+    {
+      "hop": 3,
+      "ip": "10.159.65.81",
+      "hostname": null,
+      "rtts": [
+        51.841,
+        27.906,
+        22.39
+      ],
+      "avg_rtt": 34.05,
+      "timeout": false
+    },
+    {
+      "hop": 4,
+      "ip": "10.159.67.167",
+      "hostname": null,
+      "rtts": [
+        27.135,
+        45.44,
+        25.515
+      ],
+      "avg_rtt": 32.7,
+      "timeout": false
+    },
+    {
+      "hop": 5,
+      "ip": "10.159.67.178",
+      "hostname": null,
+      "rtts": [
+        30.343,
+        28.053,
+        30.951
+      ],
+      "avg_rtt": 29.78,
+      "timeout": false
+    },
+    {
+      "hop": 6,
+      "ip": "210.65.126.198",
+      "hostname": null,
+      "rtts": [
+        30.693,
+        28.569,
+        20.721
+      ],
+      "avg_rtt": 26.66,
+      "timeout": false
+    },
+    {
+      "hop": 7,
+      "ip": null,
+      "hostname": null,
+      "rtts": [],
+      "timeout": true
+    },
+    {
+      "hop": 8,
+      "ip": null,
+      "hostname": null,
+      "rtts": [],
+      "timeout": true
+    },
+    {
+      "hop": 9,
+      "ip": "220.128.12.5",
+      "hostname": null,
+      "rtts": [
+        41.094,
+        47.424,
+        27.837
+      ],
+      "avg_rtt": 38.79,
+      "timeout": false
+    },
+    {
+      "hop": 10,
+      "ip": "203.75.72.37",
+      "hostname": null,
+      "rtts": [
+        26.445,
+        31.562,
+        30.909
+      ],
+      "avg_rtt": 29.64,
+      "timeout": false
+    },
+    {
+      "hop": 11,
+      "ip": "203.69.110.113",
+      "hostname": null,
+      "rtts": [
+        26.906,
+        25.678,
+        32.596
+      ],
+      "avg_rtt": 28.39,
+      "timeout": false
+    },
+    {
+      "hop": 12,
+      "ip": "17.253.144.10",
+      "hostname": null,
+      "rtts": [
+        27.601,
+        35.281,
+        24.747
+      ],
+      "avg_rtt": 29.21,
+      "timeout": false
+    }
+  ],
+  "num_hops": 11,
+  "success": true,
+  "raw_output": " 1  172.20.10.1  5.456 ms  3.471 ms  6.393 ms\n 2  10.159.65.141  48.407 ms  268.447 ms  161.223 ms\n 3  10.159.65.81  51.841 ms  27.906 ms  22.390 ms\n 4  10.159.67.167  27.135 ms  45.440 ms  25.515 ms\n 5  10.159.67.178  30.343 ms  28.053 ms  30.951 ms\n 6  210.65.126.198  30.693 ms  28.569 ms  20.721 ms\n 7  * * *\n 8  * * *\n 9  220.128.12.5  41.094 ms  47.424 ms  27.837 ms\n10  203.75.72.37  26.445 ms  31.562 ms  30.909 ms\n11  203.69.110.113  26.906 ms  25.678 ms  32.596 ms\n12  17.253.144.10  27.601 ms  35.281 ms  24.747 ms\n",
+  "category": "cdn_global"
+}

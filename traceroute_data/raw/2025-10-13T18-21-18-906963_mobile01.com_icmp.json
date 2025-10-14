@@ -1,0 +1,113 @@
+{
+  "timestamp": "2025-10-13T18:21:18.906963",
+  "vantage_point": "cht-mobile",
+  "target": "mobile01.com",
+  "target_ip": "34.36.92.153",
+  "protocol": "icmp",
+  "port": null,
+  "duration_seconds": 19.36,
+  "hops": [
+    {
+      "hop": 2,
+      "ip": "10.159.65.141",
+      "hostname": null,
+      "rtts": [
+        95.293,
+        239.842,
+        262.587
+      ],
+      "avg_rtt": 199.24,
+      "timeout": false
+    },
+    {
+      "hop": 3,
+      "ip": "10.159.65.85",
+      "hostname": null,
+      "rtts": [
+        30.651,
+        37.033,
+        67.297
+      ],
+      "avg_rtt": 44.99,
+      "timeout": false
+    },
+    {
+      "hop": 4,
+      "ip": "10.159.67.167",
+      "hostname": null,
+      "rtts": [
+        22.846,
+        21.855,
+        38.345
+      ],
+      "avg_rtt": 27.68,
+      "timeout": false
+    },
+    {
+      "hop": 5,
+      "ip": "10.159.67.177",
+      "hostname": null,
+      "rtts": [
+        21.658,
+        30.77,
+        29.607
+      ],
+      "avg_rtt": 27.34,
+      "timeout": false
+    },
+    {
+      "hop": 6,
+      "ip": "210.65.126.194",
+      "hostname": null,
+      "rtts": [
+        27.743,
+        49.637,
+        41.456
+      ],
+      "avg_rtt": 39.61,
+      "timeout": false
+    },
+    {
+      "hop": 7,
+      "ip": null,
+      "hostname": null,
+      "rtts": [],
+      "timeout": true
+    },
+    {
+      "hop": 8,
+      "ip": null,
+      "hostname": null,
+      "rtts": [],
+      "timeout": true
+    },
+    {
+      "hop": 9,
+      "ip": "220.128.12.17",
+      "hostname": null,
+      "rtts": [
+        55.305,
+        27.32,
+        53.775
+      ],
+      "avg_rtt": 45.47,
+      "timeout": false
+    },
+    {
+      "hop": 10,
+      "ip": "34.36.92.153",
+      "hostname": null,
+      "rtts": [
+        51.711,
+        46.189,
+        30.077
+      ],
+      "avg_rtt": 42.66,
+      "timeout": false
+    }
+  ],
+  "num_hops": 9,
+  "success": true,
+  "raw_output": " 1  172.20.10.1  14.413 ms  6.738 ms  38.902 ms\n 2  10.159.65.141  95.293 ms  239.842 ms  262.587 ms\n 3  10.159.65.85  30.651 ms  37.033 ms  67.297 ms\n 4  10.159.67.167  22.846 ms  21.855 ms  38.345 ms\n 5  10.159.67.177  21.658 ms  30.770 ms  29.607 ms\n 6  210.65.126.194  27.743 ms  49.637 ms  41.456 ms\n 7  * * *\n 8  * * *\n 9  220.128.12.17  55.305 ms  27.320 ms  53.775 ms\n10  34.36.92.153  51.711 ms  46.189 ms  30.077 ms\n",
+  "category": "ecommerce_tech"
+}

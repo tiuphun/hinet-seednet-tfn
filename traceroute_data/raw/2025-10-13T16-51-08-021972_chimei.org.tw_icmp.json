@@ -1,0 +1,157 @@
+{
+  "timestamp": "2025-10-13T16:51:08.021972",
+  "vantage_point": "university",
+  "target": "chimei.org.tw",
+  "target_ip": "60.249.237.180",
+  "protocol": "icmp",
+  "port": null,
+  "duration_seconds": 45.55,
+  "hops": [
+    {
+      "hop": 2,
+      "ip": "140.123.103.250",
+      "hostname": null,
+      "rtts": [
+        2.528,
+        3.085,
+        2.205
+      ],
+      "avg_rtt": 2.61,
+      "timeout": false
+    },
+    {
+      "hop": 3,
+      "ip": "140.123.9.249",
+      "hostname": null,
+      "rtts": [
+        2.366,
+        2.34,
+        2.241
+      ],
+      "avg_rtt": 2.32,
+      "timeout": false
+    },
+    {
+      "hop": 4,
+      "ip": "140.123.0.246",
+      "hostname": null,
+      "rtts": [
+        3.216,
+        3.347,
+        2.83
+      ],
+      "avg_rtt": 3.13,
+      "timeout": false
+    },
+    {
+      "hop": 5,
+      "ip": "140.130.252.251",
+      "hostname": null,
+      "rtts": [
+        4.536,
+        3.496,
+        7.699
+      ],
+      "avg_rtt": 5.24,
+      "timeout": false
+    },
+    {
+      "hop": 6,
+      "ip": "211.22.226.198",
+      "hostname": null,
+      "rtts": [
+        4.673,
+        4.204,
+        4.671
+      ],
+      "avg_rtt": 4.52,
+      "timeout": false
+    },
+    {
+      "hop": 7,
+      "ip": null,
+      "hostname": null,
+      "rtts": [],
+      "timeout": true
+    },
+    {
+      "hop": 8,
+      "ip": "220.128.27.101",
+      "hostname": null,
+      "rtts": [
+        5.88,
+        6.8,
+        6.678
+      ],
+      "avg_rtt": 6.45,
+      "timeout": false
+    },
+    {
+      "hop": 9,
+      "ip": "168.95.229.189",
+      "hostname": null,
+      "rtts": [
+        6.223,
+        5.796,
+        7.236
+      ],
+      "avg_rtt": 6.42,
+      "timeout": false
+    },
+    {
+      "hop": 10,
+      "ip": null,
+      "hostname": null,
+      "rtts": [],
+      "timeout": true
+    },
+    {
+      "hop": 11,
+      "ip": null,
+      "hostname": null,
+      "rtts": [],
+      "timeout": true
+    },
+    {
+      "hop": 12,
+      "ip": null,
+      "hostname": null,
+      "rtts": [],
+      "timeout": true
+    },
+    {
+      "hop": 13,
+      "ip": "211.22.242.169",
+      "hostname": null,
+      "rtts": [
+        9.991,
+        10.467,
+        12.77
+      ],
+      "avg_rtt": 11.08,
+      "timeout": false
+    },
+    {
+      "hop": 14,
+      "ip": null,
+      "hostname": null,
+      "rtts": [],
+      "timeout": true
+    },
+    {
+      "hop": 15,
+      "ip": "211.22.242.169",
+      "hostname": null,
+      "rtts": [
+        165.836,
+        70.308
+      ],
+      "avg_rtt": 118.07,
+      "timeout": false
+    }
+  ],
+  "num_hops": 14,
+  "success": false,
+  "raw_output": " 1  192.168.50.1  2.789 ms  1.978 ms  2.353 ms\n 2  140.123.103.250  2.528 ms  3.085 ms  2.205 ms\n 3  140.123.9.249  2.366 ms  2.340 ms  2.241 ms\n 4  140.123.0.246  3.216 ms  3.347 ms  2.830 ms\n 5  140.130.252.251  4.536 ms  3.496 ms  7.699 ms\n 6  211.22.226.198  4.673 ms  4.204 ms  4.671 ms\n 7  * * *\n 8  220.128.27.101  5.880 ms  6.800 ms  6.678 ms\n 9  168.95.229.189  6.223 ms  5.796 ms  7.236 ms\n10  * * *\n11  * * *\n12  * * *\n13  211.22.242.169  9.991 ms  10.467 ms  12.770 ms\n14  * 211.22.242.169  138.157 ms !H *\n15  211.22.242.169  165.836 ms !H *  70.308 ms !H\n",
+  "category": "healthcare"
+}

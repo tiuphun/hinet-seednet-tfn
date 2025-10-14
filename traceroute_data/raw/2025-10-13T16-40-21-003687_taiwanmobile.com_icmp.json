@@ -1,0 +1,195 @@
+{
+  "timestamp": "2025-10-13T16:40:21.003687",
+  "vantage_point": "university",
+  "target": "taiwanmobile.com",
+  "target_ip": "124.29.151.21",
+  "protocol": "icmp",
+  "port": null,
+  "duration_seconds": 63.43,
+  "hops": [
+    {
+      "hop": 2,
+      "ip": "140.123.103.250",
+      "hostname": null,
+      "rtts": [
+        2.317,
+        2.234,
+        1.919
+      ],
+      "avg_rtt": 2.16,
+      "timeout": false
+    },
+    {
+      "hop": 3,
+      "ip": "140.123.9.249",
+      "hostname": null,
+      "rtts": [
+        2.228,
+        2.232,
+        2.287
+      ],
+      "avg_rtt": 2.25,
+      "timeout": false
+    },
+    {
+      "hop": 4,
+      "ip": "140.123.0.246",
+      "hostname": null,
+      "rtts": [
+        3.387,
+        3.474,
+        3.363
+      ],
+      "avg_rtt": 3.41,
+      "timeout": false
+    },
+    {
+      "hop": 5,
+      "ip": "140.130.252.251",
+      "hostname": null,
+      "rtts": [
+        4.373,
+        4.982,
+        4.041
+      ],
+      "avg_rtt": 4.47,
+      "timeout": false
+    },
+    {
+      "hop": 6,
+      "ip": "61.31.254.69",
+      "hostname": null,
+      "rtts": [
+        6.165,
+        5.486,
+        30.984
+      ],
+      "avg_rtt": 14.21,
+      "timeout": false
+    },
+    {
+      "hop": 7,
+      "ip": "60.199.27.121",
+      "hostname": null,
+      "rtts": [
+        7.504,
+        7.516,
+        8.193
+      ],
+      "avg_rtt": 7.74,
+      "timeout": false
+    },
+    {
+      "hop": 8,
+      "ip": "60.199.82.97",
+      "hostname": null,
+      "rtts": [
+        10.624,
+        10.566,
+        11.489
+      ],
+      "avg_rtt": 10.89,
+      "timeout": false
+    },
+    {
+      "hop": 9,
+      "ip": "60.199.82.5",
+      "hostname": null,
+      "rtts": [
+        11.241,
+        10.828,
+        11.765
+      ],
+      "avg_rtt": 11.28,
+      "timeout": false
+    },
+    {
+      "hop": 10,
+      "ip": "60.199.45.10",
+      "hostname": null,
+      "rtts": [
+        11.3,
+        12.161,
+        11.108
+      ],
+      "avg_rtt": 11.52,
+      "timeout": false
+    },
+    {
+      "hop": 11,
+      "ip": "61.31.51.30",
+      "hostname": null,
+      "rtts": [
+        11.481,
+        11.185,
+        11.394
+      ],
+      "avg_rtt": 11.35,
+      "timeout": false
+    },
+    {
+      "hop": 12,
+      "ip": "124.29.143.113",
+      "hostname": null,
+      "rtts": [
+        14.737,
+        13.655
+      ],
+      "avg_rtt": 14.2,
+      "timeout": false
+    },
+    {
+      "hop": 13,
+      "ip": null,
+      "hostname": null,
+      "rtts": [],
+      "timeout": true
+    },
+    {
+      "hop": 14,
+      "ip": null,
+      "hostname": null,
+      "rtts": [],
+      "timeout": true
+    },
+    {
+      "hop": 15,
+      "ip": null,
+      "hostname": null,
+      "rtts": [],
+      "timeout": true
+    },
+    {
+      "hop": 16,
+      "ip": null,
+      "hostname": null,
+      "rtts": [],
+      "timeout": true
+    },
+    {
+      "hop": 17,
+      "ip": null,
+      "hostname": null,
+      "rtts": [],
+      "timeout": true
+    },
+    {
+      "hop": 18,
+      "ip": null,
+      "hostname": null,
+      "rtts": [],
+      "timeout": true
+    },
+    {
+      "hop": 19,
+      "ip": null,
+      "hostname": null,
+      "rtts": [],
+      "timeout": true
+    }
+  ],
+  "num_hops": 18,
+  "success": false,
+  "raw_output": " 1  192.168.50.1  2.185 ms  1.892 ms  1.885 ms\n 2  140.123.103.250  2.317 ms  2.234 ms  1.919 ms\n 3  140.123.9.249  2.228 ms  2.232 ms  2.287 ms\n 4  140.123.0.246  3.387 ms  3.474 ms  3.363 ms\n 5  140.130.252.251  4.373 ms  4.982 ms  4.041 ms\n 6  61.31.254.69  6.165 ms  5.486 ms  30.984 ms\n 7  60.199.27.121  7.504 ms  7.516 ms  8.193 ms\n 8  60.199.82.97  10.624 ms  10.566 ms  11.489 ms\n 9  60.199.82.5  11.241 ms  10.828 ms  11.765 ms\n10  60.199.45.10  11.300 ms  12.161 ms  11.108 ms\n11  61.31.51.30  11.481 ms  11.185 ms  11.394 ms\n12  124.29.143.113  14.737 ms  13.655 ms *\n13  * * *\n14  * * *\n15  * * *\n16  * * *\n17  * * *\n18  * * *\n19  * * 124.29.151.21  16.183 ms\n",
+  "category": "telecom"
+}
