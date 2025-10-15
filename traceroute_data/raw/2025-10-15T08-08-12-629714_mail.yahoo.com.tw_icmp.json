@@ -1,0 +1,168 @@
+{
+  "timestamp": "2025-10-15T08:08:12.629714",
+  "vantage_point": "university",
+  "target": "mail.yahoo.com.tw",
+  "target_ip": "76.223.84.192",
+  "protocol": "icmp",
+  "port": null,
+  "duration_seconds": 54.4,
+  "hops": [
+    {
+      "hop": 2,
+      "ip": "140.123.103.250",
+      "hostname": null,
+      "rtts": [
+        2.275,
+        2.379,
+        2.601
+      ],
+      "avg_rtt": 2.42,
+      "timeout": false
+    },
+    {
+      "hop": 3,
+      "ip": "140.123.9.249",
+      "hostname": null,
+      "rtts": [
+        3.855,
+        2.252,
+        2.179
+      ],
+      "avg_rtt": 2.76,
+      "timeout": false
+    },
+    {
+      "hop": 4,
+      "ip": "140.123.0.246",
+      "hostname": null,
+      "rtts": [
+        3.051,
+        2.914,
+        5.11
+      ],
+      "avg_rtt": 3.69,
+      "timeout": false
+    },
+    {
+      "hop": 5,
+      "ip": "140.130.252.251",
+      "hostname": null,
+      "rtts": [
+        6.019,
+        7.512,
+        3.148
+      ],
+      "avg_rtt": 5.56,
+      "timeout": false
+    },
+    {
+      "hop": 6,
+      "ip": "192.192.61.142",
+      "hostname": null,
+      "rtts": [
+        5.099,
+        9.484,
+        5.462
+      ],
+      "avg_rtt": 6.68,
+      "timeout": false
+    },
+    {
+      "hop": 7,
+      "ip": "192.192.61.20",
+      "hostname": null,
+      "rtts": [
+        10.383,
+        7.35,
+        8.411
+      ],
+      "avg_rtt": 8.71,
+      "timeout": false
+    },
+    {
+      "hop": 8,
+      "ip": "192.192.61.48",
+      "hostname": null,
+      "rtts": [
+        14.216,
+        29.796,
+        8.688
+      ],
+      "avg_rtt": 17.57,
+      "timeout": false
+    },
+    {
+      "hop": 9,
+      "ip": "192.192.68.62",
+      "hostname": null,
+      "rtts": [
+        7.989,
+        8.062,
+        11.527
+      ],
+      "avg_rtt": 9.19,
+      "timeout": false
+    },
+    {
+      "hop": 10,
+      "ip": null,
+      "hostname": null,
+      "rtts": [],
+      "timeout": true
+    },
+    {
+      "hop": 11,
+      "ip": null,
+      "hostname": null,
+      "rtts": [],
+      "timeout": true
+    },
+    {
+      "hop": 12,
+      "ip": null,
+      "hostname": null,
+      "rtts": [],
+      "timeout": true
+    },
+    {
+      "hop": 13,
+      "ip": null,
+      "hostname": null,
+      "rtts": [],
+      "timeout": true
+    },
+    {
+      "hop": 14,
+      "ip": null,
+      "hostname": null,
+      "rtts": [],
+      "timeout": true
+    },
+    {
+      "hop": 15,
+      "ip": null,
+      "hostname": null,
+      "rtts": [],
+      "timeout": true
+    },
+    {
+      "hop": 16,
+      "ip": "76.223.84.192",
+      "hostname": null,
+      "rtts": [
+        22.175,
+        13.012,
+        16.039
+      ],
+      "avg_rtt": 17.08,
+      "timeout": false
+    }
+  ],
+  "num_hops": 15,
+  "success": true,
+  "raw_output": " 1  192.168.50.1  19.849 ms  4.659 ms  3.279 ms\n 2  140.123.103.250  2.275 ms  2.379 ms  2.601 ms\n 3  140.123.9.249  3.855 ms  2.252 ms  2.179 ms\n 4  140.123.0.246  3.051 ms  2.914 ms  5.110 ms\n 5  140.130.252.251  6.019 ms  7.512 ms  3.148 ms\n 6  192.192.61.142  5.099 ms  9.484 ms  5.462 ms\n 7  192.192.61.20  10.383 ms  7.350 ms  8.411 ms\n 8  192.192.61.48  14.216 ms  29.796 ms  8.688 ms\n 9  192.192.68.62  7.989 ms  8.062 ms  11.527 ms\n10  * * *\n11  * * *\n12  * * *\n13  * * *\n14  * * *\n15  * * *\n16  76.223.84.192  22.175 ms  13.012 ms  16.039 ms\n",
+  "category": "cdn_global",
+  "base_domain": "yahoo.com.tw",
+  "service_variant": "mail.yahoo.com.tw",
+  "is_bare_domain": false
+}

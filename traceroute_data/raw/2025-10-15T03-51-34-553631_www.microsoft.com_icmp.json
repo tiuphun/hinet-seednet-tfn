@@ -1,0 +1,128 @@
+{
+  "timestamp": "2025-10-15T03:51:34.553631",
+  "vantage_point": "university",
+  "target": "www.microsoft.com",
+  "target_ip": "23.39.61.232",
+  "protocol": "icmp",
+  "port": null,
+  "duration_seconds": 18.23,
+  "hops": [
+    {
+      "hop": 2,
+      "ip": "140.123.103.250",
+      "hostname": null,
+      "rtts": [
+        5.229,
+        2.816,
+        2.684
+      ],
+      "avg_rtt": 3.58,
+      "timeout": false
+    },
+    {
+      "hop": 3,
+      "ip": "140.123.9.249",
+      "hostname": null,
+      "rtts": [
+        4.718,
+        3.811,
+        2.667
+      ],
+      "avg_rtt": 3.73,
+      "timeout": false
+    },
+    {
+      "hop": 4,
+      "ip": "140.123.0.246",
+      "hostname": null,
+      "rtts": [
+        3.383,
+        5.201,
+        3.558
+      ],
+      "avg_rtt": 4.05,
+      "timeout": false
+    },
+    {
+      "hop": 5,
+      "ip": "140.130.252.251",
+      "hostname": null,
+      "rtts": [
+        3.961,
+        4.063,
+        3.601
+      ],
+      "avg_rtt": 3.88,
+      "timeout": false
+    },
+    {
+      "hop": 6,
+      "ip": "211.22.226.198",
+      "hostname": null,
+      "rtts": [
+        5.025,
+        4.535,
+        4.127
+      ],
+      "avg_rtt": 4.56,
+      "timeout": false
+    },
+    {
+      "hop": 7,
+      "ip": null,
+      "hostname": null,
+      "rtts": [],
+      "timeout": true
+    },
+    {
+      "hop": 8,
+      "ip": null,
+      "hostname": null,
+      "rtts": [],
+      "timeout": true
+    },
+    {
+      "hop": 9,
+      "ip": "220.128.2.193",
+      "hostname": null,
+      "rtts": [
+        17.069,
+        10.736,
+        10.795
+      ],
+      "avg_rtt": 12.87,
+      "timeout": false
+    },
+    {
+      "hop": 10,
+      "ip": "211.72.250.217",
+      "hostname": null,
+      "rtts": [
+        14.002,
+        11.374,
+        10.807
+      ],
+      "avg_rtt": 12.06,
+      "timeout": false
+    },
+    {
+      "hop": 11,
+      "ip": "23.39.61.232",
+      "hostname": null,
+      "rtts": [
+        10.812,
+        11.004,
+        22.761
+      ],
+      "avg_rtt": 14.86,
+      "timeout": false
+    }
+  ],
+  "num_hops": 10,
+  "success": true,
+  "raw_output": " 1  192.168.50.1  2.455 ms  4.372 ms  2.313 ms\n 2  140.123.103.250  5.229 ms  2.816 ms  2.684 ms\n 3  140.123.9.249  4.718 ms  3.811 ms  2.667 ms\n 4  140.123.0.246  3.383 ms  5.201 ms  3.558 ms\n 5  140.130.252.251  3.961 ms  4.063 ms  3.601 ms\n 6  211.22.226.198  5.025 ms  4.535 ms  4.127 ms\n 7  * * *\n 8  * * *\n 9  220.128.2.193  17.069 ms  10.736 ms  10.795 ms\n10  211.72.250.217  14.002 ms  11.374 ms  10.807 ms\n11  23.39.61.232  10.812 ms  11.004 ms  22.761 ms\n",
+  "category": "cdn_global",
+  "base_domain": "microsoft.com",
+  "service_variant": "www.microsoft.com",
+  "is_bare_domain": false
+}

@@ -1,0 +1,125 @@
+{
+  "timestamp": "2025-10-14T10:58:21.680545",
+  "vantage_point": "cht-mobile",
+  "target": "www.gov.taipei",
+  "target_ip": "163.29.207.130",
+  "protocol": "icmp",
+  "port": null,
+  "duration_seconds": 3.19,
+  "hops": [
+    {
+      "hop": 2,
+      "ip": "140.123.103.250",
+      "hostname": null,
+      "rtts": [
+        2.26,
+        2.474,
+        2.162
+      ],
+      "avg_rtt": 2.3,
+      "timeout": false
+    },
+    {
+      "hop": 3,
+      "ip": "140.123.9.249",
+      "hostname": null,
+      "rtts": [
+        2.423,
+        2.526,
+        2.736
+      ],
+      "avg_rtt": 2.56,
+      "timeout": false
+    },
+    {
+      "hop": 4,
+      "ip": "140.123.0.246",
+      "hostname": null,
+      "rtts": [
+        3.039,
+        3.35,
+        3.143
+      ],
+      "avg_rtt": 3.18,
+      "timeout": false
+    },
+    {
+      "hop": 5,
+      "ip": "140.130.252.251",
+      "hostname": null,
+      "rtts": [
+        3.762,
+        3.201,
+        3.601
+      ],
+      "avg_rtt": 3.52,
+      "timeout": false
+    },
+    {
+      "hop": 6,
+      "ip": "192.192.61.142",
+      "hostname": null,
+      "rtts": [
+        4.768,
+        5.741,
+        5.418
+      ],
+      "avg_rtt": 5.31,
+      "timeout": false
+    },
+    {
+      "hop": 7,
+      "ip": "192.192.61.37",
+      "hostname": null,
+      "rtts": [
+        7.026,
+        6.76,
+        8.31
+      ],
+      "avg_rtt": 7.37,
+      "timeout": false
+    },
+    {
+      "hop": 8,
+      "ip": "192.192.61.32",
+      "hostname": null,
+      "rtts": [
+        7.347,
+        8.224,
+        7.765
+      ],
+      "avg_rtt": 7.78,
+      "timeout": false
+    },
+    {
+      "hop": 9,
+      "ip": "192.192.61.209",
+      "hostname": null,
+      "rtts": [
+        7.778,
+        7.978,
+        7.923
+      ],
+      "avg_rtt": 7.89,
+      "timeout": false
+    },
+    {
+      "hop": 10,
+      "ip": "10.96.81.12",
+      "hostname": null,
+      "rtts": [
+        9.497,
+        18.006
+      ],
+      "avg_rtt": 13.75,
+      "timeout": false
+    }
+  ],
+  "num_hops": 9,
+  "success": false,
+  "raw_output": " 1  192.168.50.1  2.289 ms  1.996 ms  2.004 ms\n 2  140.123.103.250  2.260 ms  2.474 ms  2.162 ms\n 3  140.123.9.249  2.423 ms  2.526 ms  2.736 ms\n 4  140.123.0.246  3.039 ms  3.350 ms  3.143 ms\n 5  140.130.252.251  3.762 ms  3.201 ms  3.601 ms\n 6  192.192.61.142  4.768 ms  5.741 ms  5.418 ms\n 7  192.192.61.37  7.026 ms  6.760 ms  8.310 ms\n 8  192.192.61.32  7.347 ms  8.224 ms  7.765 ms\n 9  192.192.61.209  7.778 ms  7.978 ms  7.923 ms\n10  10.96.81.12  9.497 ms !X *  18.006 ms !X\n",
+  "category": "government_local",
+  "base_domain": "gov.taipei",
+  "service_variant": "www.gov.taipei",
+  "is_bare_domain": false
+}

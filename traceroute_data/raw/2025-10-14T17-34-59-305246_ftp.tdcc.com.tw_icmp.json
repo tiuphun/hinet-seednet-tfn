@@ -1,0 +1,142 @@
+{
+  "timestamp": "2025-10-14T17:34:59.305246",
+  "vantage_point": "university",
+  "target": "ftp.tdcc.com.tw",
+  "target_ip": "211.72.107.26",
+  "protocol": "icmp",
+  "port": null,
+  "duration_seconds": 30.37,
+  "hops": [
+    {
+      "hop": 2,
+      "ip": "140.123.103.250",
+      "hostname": null,
+      "rtts": [
+        2.511,
+        2.257,
+        3.0
+      ],
+      "avg_rtt": 2.59,
+      "timeout": false
+    },
+    {
+      "hop": 3,
+      "ip": "140.123.9.249",
+      "hostname": null,
+      "rtts": [
+        3.082,
+        2.997,
+        2.913
+      ],
+      "avg_rtt": 3.0,
+      "timeout": false
+    },
+    {
+      "hop": 4,
+      "ip": "140.123.0.246",
+      "hostname": null,
+      "rtts": [
+        4.888,
+        4.542,
+        4.976
+      ],
+      "avg_rtt": 4.8,
+      "timeout": false
+    },
+    {
+      "hop": 5,
+      "ip": "140.130.252.251",
+      "hostname": null,
+      "rtts": [
+        5.556,
+        4.721,
+        5.29
+      ],
+      "avg_rtt": 5.19,
+      "timeout": false
+    },
+    {
+      "hop": 6,
+      "ip": "211.22.226.198",
+      "hostname": null,
+      "rtts": [
+        4.694,
+        3.777,
+        4.213
+      ],
+      "avg_rtt": 4.23,
+      "timeout": false
+    },
+    {
+      "hop": 7,
+      "ip": null,
+      "hostname": null,
+      "rtts": [],
+      "timeout": true
+    },
+    {
+      "hop": 8,
+      "ip": null,
+      "hostname": null,
+      "rtts": [],
+      "timeout": true
+    },
+    {
+      "hop": 9,
+      "ip": "220.128.4.213",
+      "hostname": null,
+      "rtts": [
+        44.721,
+        13.586,
+        10.41
+      ],
+      "avg_rtt": 22.91,
+      "timeout": false
+    },
+    {
+      "hop": 10,
+      "ip": null,
+      "hostname": null,
+      "rtts": [],
+      "timeout": true
+    },
+    {
+      "hop": 11,
+      "ip": null,
+      "hostname": null,
+      "rtts": [],
+      "timeout": true
+    },
+    {
+      "hop": 12,
+      "ip": "202.39.144.49",
+      "hostname": null,
+      "rtts": [
+        27.017,
+        32.748,
+        32.513
+      ],
+      "avg_rtt": 30.76,
+      "timeout": false
+    },
+    {
+      "hop": 13,
+      "ip": "211.72.107.26",
+      "hostname": null,
+      "rtts": [
+        35.62,
+        13.189,
+        15.808
+      ],
+      "avg_rtt": 21.54,
+      "timeout": false
+    }
+  ],
+  "num_hops": 12,
+  "success": true,
+  "raw_output": " 1  192.168.50.1  2.781 ms  1.873 ms  1.900 ms\n 2  140.123.103.250  2.511 ms  2.257 ms  3.000 ms\n 3  140.123.9.249  3.082 ms  2.997 ms  2.913 ms\n 4  140.123.0.246  4.888 ms  4.542 ms  4.976 ms\n 5  140.130.252.251  5.556 ms  4.721 ms  5.290 ms\n 6  211.22.226.198  4.694 ms  3.777 ms  4.213 ms\n 7  * * *\n 8  * * *\n 9  220.128.4.213  44.721 ms  13.586 ms  10.410 ms\n10  * 168.95.208.45  21.471 ms  10.952 ms\n11  * * *\n12  202.39.144.49  27.017 ms  32.748 ms  32.513 ms\n13  211.72.107.26  35.620 ms  13.189 ms  15.808 ms\n",
+  "category": "financial_infra",
+  "base_domain": "tdcc.com.tw",
+  "service_variant": "ftp.tdcc.com.tw",
+  "is_bare_domain": false
+}

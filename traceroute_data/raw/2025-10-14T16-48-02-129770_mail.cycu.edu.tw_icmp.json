@@ -1,0 +1,150 @@
+{
+  "timestamp": "2025-10-14T16:48:02.129770",
+  "vantage_point": "university",
+  "target": "mail.cycu.edu.tw",
+  "target_ip": "140.135.66.65",
+  "protocol": "icmp",
+  "port": null,
+  "duration_seconds": 0.43,
+  "hops": [
+    {
+      "hop": 2,
+      "ip": "140.123.103.250",
+      "hostname": null,
+      "rtts": [
+        5.864,
+        21.402,
+        2.8
+      ],
+      "avg_rtt": 10.02,
+      "timeout": false
+    },
+    {
+      "hop": 3,
+      "ip": "140.123.9.249",
+      "hostname": null,
+      "rtts": [
+        2.419,
+        4.146,
+        2.493
+      ],
+      "avg_rtt": 3.02,
+      "timeout": false
+    },
+    {
+      "hop": 4,
+      "ip": "140.123.0.246",
+      "hostname": null,
+      "rtts": [
+        30.605,
+        17.307,
+        3.857
+      ],
+      "avg_rtt": 17.26,
+      "timeout": false
+    },
+    {
+      "hop": 5,
+      "ip": "211.79.57.25",
+      "hostname": null,
+      "rtts": [
+        5.348,
+        6.009,
+        7.184
+      ],
+      "avg_rtt": 6.18,
+      "timeout": false
+    },
+    {
+      "hop": 6,
+      "ip": "211.73.76.209",
+      "hostname": null,
+      "rtts": [
+        6.169,
+        19.106,
+        6.66
+      ],
+      "avg_rtt": 10.65,
+      "timeout": false
+    },
+    {
+      "hop": 7,
+      "ip": "211.73.76.198",
+      "hostname": null,
+      "rtts": [
+        4.717,
+        24.681,
+        5.291
+      ],
+      "avg_rtt": 11.56,
+      "timeout": false
+    },
+    {
+      "hop": 8,
+      "ip": "211.73.76.141",
+      "hostname": null,
+      "rtts": [
+        27.305,
+        10.466,
+        8.153
+      ],
+      "avg_rtt": 15.31,
+      "timeout": false
+    },
+    {
+      "hop": 9,
+      "ip": "211.73.76.150",
+      "hostname": null,
+      "rtts": [
+        23.613,
+        9.61,
+        13.813
+      ],
+      "avg_rtt": 15.68,
+      "timeout": false
+    },
+    {
+      "hop": 10,
+      "ip": "211.79.51.74",
+      "hostname": null,
+      "rtts": [
+        8.414,
+        24.112,
+        11.268
+      ],
+      "avg_rtt": 14.6,
+      "timeout": false
+    },
+    {
+      "hop": 11,
+      "ip": "140.135.1.30",
+      "hostname": null,
+      "rtts": [
+        11.278,
+        24.432,
+        12.659
+      ],
+      "avg_rtt": 16.12,
+      "timeout": false
+    },
+    {
+      "hop": 12,
+      "ip": "140.135.66.65",
+      "hostname": null,
+      "rtts": [
+        10.06,
+        19.506,
+        10.052
+      ],
+      "avg_rtt": 13.21,
+      "timeout": false
+    }
+  ],
+  "num_hops": 11,
+  "success": true,
+  "raw_output": " 1  192.168.50.1  13.404 ms  1.684 ms  2.030 ms\n 2  140.123.103.250  5.864 ms  21.402 ms  2.800 ms\n 3  140.123.9.249  2.419 ms  4.146 ms  2.493 ms\n 4  140.123.0.246  30.605 ms  17.307 ms  3.857 ms\n 5  211.79.57.25  5.348 ms  6.009 ms  7.184 ms\n 6  211.73.76.209  6.169 ms  19.106 ms  6.660 ms\n 7  211.73.76.198  4.717 ms  24.681 ms  5.291 ms\n 8  211.73.76.141  27.305 ms  10.466 ms  8.153 ms\n 9  211.73.76.150  23.613 ms  9.610 ms  13.813 ms\n10  211.79.51.74  8.414 ms  24.112 ms  11.268 ms\n11  140.135.1.30  11.278 ms  24.432 ms  12.659 ms\n12  140.135.66.65  10.060 ms  19.506 ms  10.052 ms\n",
+  "category": "universities",
+  "base_domain": "cycu.edu.tw",
+  "service_variant": "mail.cycu.edu.tw",
+  "is_bare_domain": false
+}

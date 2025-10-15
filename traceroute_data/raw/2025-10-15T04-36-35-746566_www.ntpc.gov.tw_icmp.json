@@ -1,0 +1,121 @@
+{
+  "timestamp": "2025-10-15T04:36:35.746566",
+  "vantage_point": "university",
+  "target": "www.ntpc.gov.tw",
+  "target_ip": "203.66.35.105",
+  "protocol": "icmp",
+  "port": null,
+  "duration_seconds": 9.2,
+  "hops": [
+    {
+      "hop": 2,
+      "ip": "140.123.103.250",
+      "hostname": null,
+      "rtts": [
+        2.921,
+        4.058,
+        2.676
+      ],
+      "avg_rtt": 3.22,
+      "timeout": false
+    },
+    {
+      "hop": 3,
+      "ip": "140.123.9.249",
+      "hostname": null,
+      "rtts": [
+        2.913,
+        2.677,
+        2.913
+      ],
+      "avg_rtt": 2.83,
+      "timeout": false
+    },
+    {
+      "hop": 4,
+      "ip": "140.123.0.246",
+      "hostname": null,
+      "rtts": [
+        5.461,
+        3.931,
+        4.409
+      ],
+      "avg_rtt": 4.6,
+      "timeout": false
+    },
+    {
+      "hop": 5,
+      "ip": "140.130.252.251",
+      "hostname": null,
+      "rtts": [
+        9.058,
+        4.228,
+        3.755
+      ],
+      "avg_rtt": 5.68,
+      "timeout": false
+    },
+    {
+      "hop": 6,
+      "ip": "211.22.226.198",
+      "hostname": null,
+      "rtts": [
+        5.876,
+        4.661,
+        4.218
+      ],
+      "avg_rtt": 4.92,
+      "timeout": false
+    },
+    {
+      "hop": 7,
+      "ip": null,
+      "hostname": null,
+      "rtts": [],
+      "timeout": true
+    },
+    {
+      "hop": 8,
+      "ip": "220.128.26.37",
+      "hostname": null,
+      "rtts": [
+        34.566,
+        8.428,
+        8.953
+      ],
+      "avg_rtt": 17.32,
+      "timeout": false
+    },
+    {
+      "hop": 9,
+      "ip": "211.22.229.89",
+      "hostname": null,
+      "rtts": [
+        5.532,
+        6.001,
+        8.786
+      ],
+      "avg_rtt": 6.77,
+      "timeout": false
+    },
+    {
+      "hop": 10,
+      "ip": "203.66.35.105",
+      "hostname": null,
+      "rtts": [
+        9.64,
+        7.278,
+        10.23
+      ],
+      "avg_rtt": 9.05,
+      "timeout": false
+    }
+  ],
+  "num_hops": 9,
+  "success": true,
+  "raw_output": " 1  192.168.50.1  7.232 ms  2.551 ms  2.387 ms\n 2  140.123.103.250  2.921 ms  4.058 ms  2.676 ms\n 3  140.123.9.249  2.913 ms  2.677 ms  2.913 ms\n 4  140.123.0.246  5.461 ms  3.931 ms  4.409 ms\n 5  140.130.252.251  9.058 ms  4.228 ms  3.755 ms\n 6  211.22.226.198  5.876 ms  4.661 ms  4.218 ms\n 7  * * *\n 8  220.128.26.37  34.566 ms  8.428 ms  8.953 ms\n 9  211.22.229.89  5.532 ms  6.001 ms  8.786 ms\n10  203.66.35.105  9.640 ms  7.278 ms  10.230 ms\n",
+  "category": "government_local",
+  "base_domain": "ntpc.gov.tw",
+  "service_variant": "www.ntpc.gov.tw",
+  "is_bare_domain": false
+}

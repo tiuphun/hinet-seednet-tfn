@@ -1,0 +1,164 @@
+{
+  "timestamp": "2025-10-14T13:53:32.530557",
+  "vantage_point": "cht-mobile",
+  "target": "www.chief.com.tw",
+  "target_ip": "202.55.247.128",
+  "protocol": "icmp",
+  "port": null,
+  "duration_seconds": 18.36,
+  "hops": [
+    {
+      "hop": 2,
+      "ip": "140.123.103.250",
+      "hostname": null,
+      "rtts": [
+        13.036,
+        2.264,
+        2.124
+      ],
+      "avg_rtt": 5.81,
+      "timeout": false
+    },
+    {
+      "hop": 3,
+      "ip": "140.123.9.249",
+      "hostname": null,
+      "rtts": [
+        2.256,
+        1.976,
+        3.858
+      ],
+      "avg_rtt": 2.7,
+      "timeout": false
+    },
+    {
+      "hop": 4,
+      "ip": "140.123.0.246",
+      "hostname": null,
+      "rtts": [
+        3.129,
+        2.867,
+        6.254
+      ],
+      "avg_rtt": 4.08,
+      "timeout": false
+    },
+    {
+      "hop": 5,
+      "ip": "140.130.252.251",
+      "hostname": null,
+      "rtts": [
+        4.114,
+        4.377,
+        4.543
+      ],
+      "avg_rtt": 4.34,
+      "timeout": false
+    },
+    {
+      "hop": 6,
+      "ip": "211.22.226.198",
+      "hostname": null,
+      "rtts": [
+        5.336,
+        6.339,
+        7.032
+      ],
+      "avg_rtt": 6.24,
+      "timeout": false
+    },
+    {
+      "hop": 7,
+      "ip": null,
+      "hostname": null,
+      "rtts": [],
+      "timeout": true
+    },
+    {
+      "hop": 8,
+      "ip": null,
+      "hostname": null,
+      "rtts": [],
+      "timeout": true
+    },
+    {
+      "hop": 9,
+      "ip": "220.128.2.129",
+      "hostname": null,
+      "rtts": [
+        16.934,
+        9.947,
+        10.102
+      ],
+      "avg_rtt": 12.33,
+      "timeout": false
+    },
+    {
+      "hop": 10,
+      "ip": "203.75.229.113",
+      "hostname": null,
+      "rtts": [
+        11.159,
+        11.078,
+        10.568
+      ],
+      "avg_rtt": 10.94,
+      "timeout": false
+    },
+    {
+      "hop": 11,
+      "ip": "103.123.253.13",
+      "hostname": null,
+      "rtts": [
+        9.455,
+        9.67,
+        9.367
+      ],
+      "avg_rtt": 9.5,
+      "timeout": false
+    },
+    {
+      "hop": 12,
+      "ip": "113.21.86.217",
+      "hostname": null,
+      "rtts": [
+        9.744,
+        9.138,
+        10.268
+      ],
+      "avg_rtt": 9.72,
+      "timeout": false
+    },
+    {
+      "hop": 13,
+      "ip": "113.21.86.218",
+      "hostname": null,
+      "rtts": [
+        9.69,
+        16.902,
+        23.497
+      ],
+      "avg_rtt": 16.7,
+      "timeout": false
+    },
+    {
+      "hop": 14,
+      "ip": "202.55.247.128",
+      "hostname": null,
+      "rtts": [
+        11.017,
+        9.493,
+        9.965
+      ],
+      "avg_rtt": 10.16,
+      "timeout": false
+    }
+  ],
+  "num_hops": 13,
+  "success": true,
+  "raw_output": " 1  192.168.50.1  4.836 ms  12.704 ms  17.598 ms\n 2  140.123.103.250  13.036 ms  2.264 ms  2.124 ms\n 3  140.123.9.249  2.256 ms  1.976 ms  3.858 ms\n 4  140.123.0.246  3.129 ms  2.867 ms  6.254 ms\n 5  140.130.252.251  4.114 ms  4.377 ms  4.543 ms\n 6  211.22.226.198  5.336 ms  6.339 ms  7.032 ms\n 7  * * *\n 8  * * *\n 9  220.128.2.129  16.934 ms  9.947 ms  10.102 ms\n10  203.75.229.113  11.159 ms  11.078 ms  10.568 ms\n11  103.123.253.13  9.455 ms  9.670 ms  9.367 ms\n12  113.21.86.217  9.744 ms  9.138 ms  10.268 ms\n13  113.21.86.218  9.690 ms  16.902 ms  23.497 ms\n14  202.55.247.128  11.017 ms  9.493 ms  9.965 ms\n",
+  "category": "telecom",
+  "base_domain": "chief.com.tw",
+  "service_variant": "www.chief.com.tw",
+  "is_bare_domain": false
+}

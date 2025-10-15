@@ -1,0 +1,150 @@
+{
+  "timestamp": "2025-10-15T07:53:01.405430",
+  "vantage_point": "university",
+  "target": "ns.thsrc.com.tw",
+  "target_ip": "124.219.1.131",
+  "protocol": "icmp",
+  "port": null,
+  "duration_seconds": 0.44,
+  "hops": [
+    {
+      "hop": 2,
+      "ip": "140.123.103.250",
+      "hostname": null,
+      "rtts": [
+        6.847,
+        4.338,
+        3.335
+      ],
+      "avg_rtt": 4.84,
+      "timeout": false
+    },
+    {
+      "hop": 3,
+      "ip": "140.123.9.249",
+      "hostname": null,
+      "rtts": [
+        2.499,
+        2.664,
+        27.101
+      ],
+      "avg_rtt": 10.75,
+      "timeout": false
+    },
+    {
+      "hop": 4,
+      "ip": "140.123.0.246",
+      "hostname": null,
+      "rtts": [
+        7.417,
+        10.765,
+        4.113
+      ],
+      "avg_rtt": 7.43,
+      "timeout": false
+    },
+    {
+      "hop": 5,
+      "ip": "140.130.252.251",
+      "hostname": null,
+      "rtts": [
+        6.027,
+        6.782,
+        5.219
+      ],
+      "avg_rtt": 6.01,
+      "timeout": false
+    },
+    {
+      "hop": 6,
+      "ip": "140.123.231.111",
+      "hostname": null,
+      "rtts": [
+        9.609,
+        11.368,
+        9.295
+      ],
+      "avg_rtt": 10.09,
+      "timeout": false
+    },
+    {
+      "hop": 7,
+      "ip": "211.76.96.177",
+      "hostname": null,
+      "rtts": [
+        9.359,
+        8.598,
+        7.85
+      ],
+      "avg_rtt": 8.6,
+      "timeout": false
+    },
+    {
+      "hop": 8,
+      "ip": "203.79.251.102",
+      "hostname": null,
+      "rtts": [
+        9.068,
+        9.176,
+        10.223
+      ],
+      "avg_rtt": 9.49,
+      "timeout": false
+    },
+    {
+      "hop": 9,
+      "ip": "203.79.208.129",
+      "hostname": null,
+      "rtts": [
+        10.259,
+        19.633,
+        8.3
+      ],
+      "avg_rtt": 12.73,
+      "timeout": false
+    },
+    {
+      "hop": 10,
+      "ip": "203.79.208.138",
+      "hostname": null,
+      "rtts": [
+        16.735,
+        13.221,
+        49.907
+      ],
+      "avg_rtt": 26.62,
+      "timeout": false
+    },
+    {
+      "hop": 11,
+      "ip": "60.244.126.106",
+      "hostname": null,
+      "rtts": [
+        13.152,
+        12.813,
+        12.514
+      ],
+      "avg_rtt": 12.83,
+      "timeout": false
+    },
+    {
+      "hop": 12,
+      "ip": "124.219.1.131",
+      "hostname": null,
+      "rtts": [
+        42.01,
+        12.04,
+        14.577
+      ],
+      "avg_rtt": 22.88,
+      "timeout": false
+    }
+  ],
+  "num_hops": 11,
+  "success": true,
+  "raw_output": " 1  192.168.50.1  17.923 ms  10.129 ms  3.777 ms\n 2  140.123.103.250  6.847 ms  4.338 ms  3.335 ms\n 3  140.123.9.249  2.499 ms  2.664 ms  27.101 ms\n 4  140.123.0.246  7.417 ms  10.765 ms  4.113 ms\n 5  140.130.252.251  6.027 ms  6.782 ms  5.219 ms\n 6  140.123.231.111  9.609 ms  11.368 ms  9.295 ms\n 7  211.76.96.177  9.359 ms  8.598 ms  7.850 ms\n 8  203.79.251.102  9.068 ms  9.176 ms  10.223 ms\n 9  203.79.208.129  10.259 ms  19.633 ms  8.300 ms\n10  203.79.208.138  16.735 ms  13.221 ms  49.907 ms\n11  60.244.126.106  13.152 ms  12.813 ms  12.514 ms\n12  124.219.1.131  42.010 ms  12.040 ms  14.577 ms\n",
+  "category": "critical_infra",
+  "base_domain": "thsrc.com.tw",
+  "service_variant": "ns.thsrc.com.tw",
+  "is_bare_domain": false
+}

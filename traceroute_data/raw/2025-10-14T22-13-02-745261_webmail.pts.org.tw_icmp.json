@@ -1,0 +1,137 @@
+{
+  "timestamp": "2025-10-14T22:13:02.745261",
+  "vantage_point": "university",
+  "target": "webmail.pts.org.tw",
+  "target_ip": "61.67.73.245",
+  "protocol": "icmp",
+  "port": null,
+  "duration_seconds": 3.24,
+  "hops": [
+    {
+      "hop": 2,
+      "ip": "140.123.103.250",
+      "hostname": null,
+      "rtts": [
+        2.292,
+        2.055,
+        2.119
+      ],
+      "avg_rtt": 2.16,
+      "timeout": false
+    },
+    {
+      "hop": 3,
+      "ip": "140.123.9.249",
+      "hostname": null,
+      "rtts": [
+        3.732,
+        2.141,
+        2.077
+      ],
+      "avg_rtt": 2.65,
+      "timeout": false
+    },
+    {
+      "hop": 4,
+      "ip": "140.123.0.246",
+      "hostname": null,
+      "rtts": [
+        2.947,
+        2.91,
+        2.75
+      ],
+      "avg_rtt": 2.87,
+      "timeout": false
+    },
+    {
+      "hop": 5,
+      "ip": "140.130.252.251",
+      "hostname": null,
+      "rtts": [
+        4.693,
+        3.328,
+        9.084
+      ],
+      "avg_rtt": 5.7,
+      "timeout": false
+    },
+    {
+      "hop": 6,
+      "ip": "192.192.61.142",
+      "hostname": null,
+      "rtts": [
+        20.489,
+        5.314,
+        5.147
+      ],
+      "avg_rtt": 10.32,
+      "timeout": false
+    },
+    {
+      "hop": 7,
+      "ip": "192.192.61.9",
+      "hostname": null,
+      "rtts": [
+        6.766,
+        5.807,
+        6.04
+      ],
+      "avg_rtt": 6.2,
+      "timeout": false
+    },
+    {
+      "hop": 8,
+      "ip": "192.192.61.30",
+      "hostname": null,
+      "rtts": [
+        7.643,
+        6.453,
+        6.391
+      ],
+      "avg_rtt": 6.83,
+      "timeout": false
+    },
+    {
+      "hop": 9,
+      "ip": "192.192.61.4",
+      "hostname": null,
+      "rtts": [
+        7.447,
+        7.741,
+        8.03
+      ],
+      "avg_rtt": 7.74,
+      "timeout": false
+    },
+    {
+      "hop": 10,
+      "ip": "192.192.61.209",
+      "hostname": null,
+      "rtts": [
+        8.224,
+        6.04,
+        8.88
+      ],
+      "avg_rtt": 7.71,
+      "timeout": false
+    },
+    {
+      "hop": 11,
+      "ip": "10.96.81.12",
+      "hostname": null,
+      "rtts": [
+        7.769,
+        29.939
+      ],
+      "avg_rtt": 18.85,
+      "timeout": false
+    }
+  ],
+  "num_hops": 10,
+  "success": false,
+  "raw_output": " 1  192.168.50.1  11.145 ms  1.993 ms  1.850 ms\n 2  140.123.103.250  2.292 ms  2.055 ms  2.119 ms\n 3  140.123.9.249  3.732 ms  2.141 ms  2.077 ms\n 4  140.123.0.246  2.947 ms  2.910 ms  2.750 ms\n 5  140.130.252.251  4.693 ms  3.328 ms  9.084 ms\n 6  192.192.61.142  20.489 ms  5.314 ms  5.147 ms\n 7  192.192.61.9  6.766 ms  5.807 ms  6.040 ms\n 8  192.192.61.30  7.643 ms  6.453 ms  6.391 ms\n 9  192.192.61.4  7.447 ms  7.741 ms  8.030 ms\n10  192.192.61.209  8.224 ms  6.040 ms  8.880 ms\n11  10.96.81.12  7.769 ms !X *  29.939 ms !X\n",
+  "category": "media",
+  "base_domain": "pts.org.tw",
+  "service_variant": "webmail.pts.org.tw",
+  "is_bare_domain": false
+}

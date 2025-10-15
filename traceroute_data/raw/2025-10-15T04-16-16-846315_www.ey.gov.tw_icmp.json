@@ -1,0 +1,135 @@
+{
+  "timestamp": "2025-10-15T04:16:16.846315",
+  "vantage_point": "university",
+  "target": "www.ey.gov.tw",
+  "target_ip": "203.66.32.136",
+  "protocol": "icmp",
+  "port": null,
+  "duration_seconds": 27.29,
+  "hops": [
+    {
+      "hop": 2,
+      "ip": "140.123.103.250",
+      "hostname": null,
+      "rtts": [
+        3.182,
+        25.699,
+        6.092
+      ],
+      "avg_rtt": 11.66,
+      "timeout": false
+    },
+    {
+      "hop": 3,
+      "ip": "140.123.9.249",
+      "hostname": null,
+      "rtts": [
+        3.756,
+        2.863,
+        2.684
+      ],
+      "avg_rtt": 3.1,
+      "timeout": false
+    },
+    {
+      "hop": 4,
+      "ip": "140.123.0.246",
+      "hostname": null,
+      "rtts": [
+        8.561,
+        6.565,
+        4.833
+      ],
+      "avg_rtt": 6.65,
+      "timeout": false
+    },
+    {
+      "hop": 5,
+      "ip": "140.130.252.251",
+      "hostname": null,
+      "rtts": [
+        9.01,
+        5.666,
+        6.802
+      ],
+      "avg_rtt": 7.16,
+      "timeout": false
+    },
+    {
+      "hop": 6,
+      "ip": "211.22.226.198",
+      "hostname": null,
+      "rtts": [
+        5.659,
+        4.439,
+        4.39
+      ],
+      "avg_rtt": 4.83,
+      "timeout": false
+    },
+    {
+      "hop": 7,
+      "ip": null,
+      "hostname": null,
+      "rtts": [],
+      "timeout": true
+    },
+    {
+      "hop": 8,
+      "ip": null,
+      "hostname": null,
+      "rtts": [],
+      "timeout": true
+    },
+    {
+      "hop": 9,
+      "ip": null,
+      "hostname": null,
+      "rtts": [],
+      "timeout": true
+    },
+    {
+      "hop": 10,
+      "ip": "220.128.13.13",
+      "hostname": null,
+      "rtts": [
+        21.242,
+        10.874,
+        12.776
+      ],
+      "avg_rtt": 14.96,
+      "timeout": false
+    },
+    {
+      "hop": 11,
+      "ip": "211.22.224.137",
+      "hostname": null,
+      "rtts": [
+        10.814,
+        11.094,
+        11.009
+      ],
+      "avg_rtt": 10.97,
+      "timeout": false
+    },
+    {
+      "hop": 12,
+      "ip": "203.66.32.136",
+      "hostname": null,
+      "rtts": [
+        10.98,
+        10.226,
+        10.064
+      ],
+      "avg_rtt": 10.42,
+      "timeout": false
+    }
+  ],
+  "num_hops": 11,
+  "success": true,
+  "raw_output": " 1  192.168.50.1  4.084 ms  4.828 ms  2.463 ms\n 2  140.123.103.250  3.182 ms  25.699 ms  6.092 ms\n 3  140.123.9.249  3.756 ms  2.863 ms  2.684 ms\n 4  140.123.0.246  8.561 ms  6.565 ms  4.833 ms\n 5  140.130.252.251  9.010 ms  5.666 ms  6.802 ms\n 6  211.22.226.198  5.659 ms  4.439 ms  4.390 ms\n 7  * * *\n 8  * * *\n 9  * * *\n10  220.128.13.13  21.242 ms  10.874 ms  12.776 ms\n11  211.22.224.137  10.814 ms  11.094 ms  11.009 ms\n12  203.66.32.136  10.980 ms  10.226 ms  10.064 ms\n",
+  "category": "government_central",
+  "base_domain": "ey.gov.tw",
+  "service_variant": "www.ey.gov.tw",
+  "is_bare_domain": false
+}

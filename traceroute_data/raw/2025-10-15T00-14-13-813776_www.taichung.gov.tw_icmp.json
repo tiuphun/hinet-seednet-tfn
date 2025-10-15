@@ -1,0 +1,128 @@
+{
+  "timestamp": "2025-10-15T00:14:13.813776",
+  "vantage_point": "university",
+  "target": "www.taichung.gov.tw",
+  "target_ip": "203.66.35.71",
+  "protocol": "icmp",
+  "port": null,
+  "duration_seconds": 18.24,
+  "hops": [
+    {
+      "hop": 2,
+      "ip": "140.123.103.250",
+      "hostname": null,
+      "rtts": [
+        3.494,
+        2.803,
+        2.574
+      ],
+      "avg_rtt": 2.96,
+      "timeout": false
+    },
+    {
+      "hop": 3,
+      "ip": "140.123.9.249",
+      "hostname": null,
+      "rtts": [
+        2.703,
+        3.768,
+        8.378
+      ],
+      "avg_rtt": 4.95,
+      "timeout": false
+    },
+    {
+      "hop": 4,
+      "ip": "140.123.0.246",
+      "hostname": null,
+      "rtts": [
+        5.311,
+        9.699,
+        3.296
+      ],
+      "avg_rtt": 6.1,
+      "timeout": false
+    },
+    {
+      "hop": 5,
+      "ip": "140.130.252.251",
+      "hostname": null,
+      "rtts": [
+        5.324,
+        3.9,
+        6.707
+      ],
+      "avg_rtt": 5.31,
+      "timeout": false
+    },
+    {
+      "hop": 6,
+      "ip": "211.22.226.198",
+      "hostname": null,
+      "rtts": [
+        4.092,
+        4.537,
+        4.059
+      ],
+      "avg_rtt": 4.23,
+      "timeout": false
+    },
+    {
+      "hop": 7,
+      "ip": null,
+      "hostname": null,
+      "rtts": [],
+      "timeout": true
+    },
+    {
+      "hop": 8,
+      "ip": null,
+      "hostname": null,
+      "rtts": [],
+      "timeout": true
+    },
+    {
+      "hop": 9,
+      "ip": "220.128.26.101",
+      "hostname": null,
+      "rtts": [
+        22.45,
+        6.643,
+        6.698
+      ],
+      "avg_rtt": 11.93,
+      "timeout": false
+    },
+    {
+      "hop": 10,
+      "ip": "211.22.228.209",
+      "hostname": null,
+      "rtts": [
+        32.725,
+        6.143,
+        7.273
+      ],
+      "avg_rtt": 15.38,
+      "timeout": false
+    },
+    {
+      "hop": 11,
+      "ip": "203.66.35.71",
+      "hostname": null,
+      "rtts": [
+        6.79,
+        6.433,
+        5.84
+      ],
+      "avg_rtt": 6.35,
+      "timeout": false
+    }
+  ],
+  "num_hops": 10,
+  "success": true,
+  "raw_output": " 1  192.168.50.1  2.770 ms  2.245 ms  2.555 ms\n 2  140.123.103.250  3.494 ms  2.803 ms  2.574 ms\n 3  140.123.9.249  2.703 ms  3.768 ms  8.378 ms\n 4  140.123.0.246  5.311 ms  9.699 ms  3.296 ms\n 5  140.130.252.251  5.324 ms  3.900 ms  6.707 ms\n 6  211.22.226.198  4.092 ms  4.537 ms  4.059 ms\n 7  * * *\n 8  * * *\n 9  220.128.26.101  22.450 ms  6.643 ms  6.698 ms\n10  211.22.228.209  32.725 ms  6.143 ms  7.273 ms\n11  203.66.35.71  6.790 ms  6.433 ms  5.840 ms\n",
+  "category": "government_local",
+  "base_domain": "taichung.gov.tw",
+  "service_variant": "www.taichung.gov.tw",
+  "is_bare_domain": false
+}

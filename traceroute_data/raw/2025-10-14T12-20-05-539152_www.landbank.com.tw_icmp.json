@@ -1,0 +1,121 @@
+{
+  "timestamp": "2025-10-14T12:20:05.539152",
+  "vantage_point": "cht-mobile",
+  "target": "www.landbank.com.tw",
+  "target_ip": "203.66.35.6",
+  "protocol": "icmp",
+  "port": null,
+  "duration_seconds": 9.19,
+  "hops": [
+    {
+      "hop": 2,
+      "ip": "140.123.103.250",
+      "hostname": null,
+      "rtts": [
+        7.705,
+        4.364,
+        2.558
+      ],
+      "avg_rtt": 4.88,
+      "timeout": false
+    },
+    {
+      "hop": 3,
+      "ip": "140.123.9.249",
+      "hostname": null,
+      "rtts": [
+        2.362,
+        2.908,
+        2.898
+      ],
+      "avg_rtt": 2.72,
+      "timeout": false
+    },
+    {
+      "hop": 4,
+      "ip": "140.123.0.246",
+      "hostname": null,
+      "rtts": [
+        3.604,
+        3.571,
+        3.353
+      ],
+      "avg_rtt": 3.51,
+      "timeout": false
+    },
+    {
+      "hop": 5,
+      "ip": "140.130.252.251",
+      "hostname": null,
+      "rtts": [
+        5.072,
+        5.537,
+        5.671
+      ],
+      "avg_rtt": 5.43,
+      "timeout": false
+    },
+    {
+      "hop": 6,
+      "ip": "211.22.226.198",
+      "hostname": null,
+      "rtts": [
+        7.479,
+        5.73,
+        6.87
+      ],
+      "avg_rtt": 6.69,
+      "timeout": false
+    },
+    {
+      "hop": 7,
+      "ip": null,
+      "hostname": null,
+      "rtts": [],
+      "timeout": true
+    },
+    {
+      "hop": 8,
+      "ip": "220.128.25.117",
+      "hostname": null,
+      "rtts": [
+        6.488,
+        7.711,
+        6.54
+      ],
+      "avg_rtt": 6.91,
+      "timeout": false
+    },
+    {
+      "hop": 9,
+      "ip": "211.22.228.145",
+      "hostname": null,
+      "rtts": [
+        5.98,
+        5.668,
+        6.082
+      ],
+      "avg_rtt": 5.91,
+      "timeout": false
+    },
+    {
+      "hop": 10,
+      "ip": "203.66.35.6",
+      "hostname": null,
+      "rtts": [
+        5.674,
+        6.612,
+        9.319
+      ],
+      "avg_rtt": 7.2,
+      "timeout": false
+    }
+  ],
+  "num_hops": 9,
+  "success": true,
+  "raw_output": " 1  192.168.50.1  7.400 ms  8.780 ms  4.477 ms\n 2  140.123.103.250  7.705 ms  4.364 ms  2.558 ms\n 3  140.123.9.249  2.362 ms  2.908 ms  2.898 ms\n 4  140.123.0.246  3.604 ms  3.571 ms  3.353 ms\n 5  140.130.252.251  5.072 ms  5.537 ms  5.671 ms\n 6  211.22.226.198  7.479 ms  5.730 ms  6.870 ms\n 7  * * *\n 8  220.128.25.117  6.488 ms  7.711 ms  6.540 ms\n 9  211.22.228.145  5.980 ms  5.668 ms  6.082 ms\n10  203.66.35.6  5.674 ms  6.612 ms  9.319 ms\n",
+  "category": "financial_banks",
+  "base_domain": "landbank.com.tw",
+  "service_variant": "www.landbank.com.tw",
+  "is_bare_domain": false
+}

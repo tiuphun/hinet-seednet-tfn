@@ -1,0 +1,147 @@
+{
+  "timestamp": "2025-10-14T17:36:13.458004",
+  "vantage_point": "university",
+  "target": "ns1.fisc.com.tw",
+  "target_ip": "203.66.154.10",
+  "protocol": "icmp",
+  "port": null,
+  "duration_seconds": 27.43,
+  "hops": [
+    {
+      "hop": 2,
+      "ip": "140.123.103.250",
+      "hostname": null,
+      "rtts": [
+        3.667,
+        4.025,
+        10.629
+      ],
+      "avg_rtt": 6.11,
+      "timeout": false
+    },
+    {
+      "hop": 3,
+      "ip": "140.123.9.249",
+      "hostname": null,
+      "rtts": [
+        5.322,
+        7.339,
+        2.893
+      ],
+      "avg_rtt": 5.18,
+      "timeout": false
+    },
+    {
+      "hop": 4,
+      "ip": "140.123.0.246",
+      "hostname": null,
+      "rtts": [
+        3.374,
+        6.145,
+        4.441
+      ],
+      "avg_rtt": 4.65,
+      "timeout": false
+    },
+    {
+      "hop": 5,
+      "ip": "140.130.252.251",
+      "hostname": null,
+      "rtts": [
+        4.959,
+        6.06,
+        41.456
+      ],
+      "avg_rtt": 17.49,
+      "timeout": false
+    },
+    {
+      "hop": 6,
+      "ip": "211.22.226.198",
+      "hostname": null,
+      "rtts": [
+        12.694,
+        10.119,
+        9.062
+      ],
+      "avg_rtt": 10.62,
+      "timeout": false
+    },
+    {
+      "hop": 7,
+      "ip": null,
+      "hostname": null,
+      "rtts": [],
+      "timeout": true
+    },
+    {
+      "hop": 8,
+      "ip": null,
+      "hostname": null,
+      "rtts": [],
+      "timeout": true
+    },
+    {
+      "hop": 9,
+      "ip": "220.128.4.217",
+      "hostname": null,
+      "rtts": [
+        22.854,
+        12.943,
+        13.671
+      ],
+      "avg_rtt": 16.49,
+      "timeout": false
+    },
+    {
+      "hop": 10,
+      "ip": "168.95.209.45",
+      "hostname": null,
+      "rtts": [
+        22.972,
+        17.612,
+        15.806
+      ],
+      "avg_rtt": 18.8,
+      "timeout": false
+    },
+    {
+      "hop": 11,
+      "ip": null,
+      "hostname": null,
+      "rtts": [],
+      "timeout": true
+    },
+    {
+      "hop": 12,
+      "ip": "210.65.93.5",
+      "hostname": null,
+      "rtts": [
+        15.625,
+        17.243,
+        43.572
+      ],
+      "avg_rtt": 25.48,
+      "timeout": false
+    },
+    {
+      "hop": 13,
+      "ip": "203.66.154.10",
+      "hostname": null,
+      "rtts": [
+        15.822,
+        13.397,
+        14.979
+      ],
+      "avg_rtt": 14.73,
+      "timeout": false
+    }
+  ],
+  "num_hops": 12,
+  "success": true,
+  "raw_output": " 1  192.168.50.1  14.776 ms  11.276 ms  3.955 ms\n 2  140.123.103.250  3.667 ms  4.025 ms  10.629 ms\n 3  140.123.9.249  5.322 ms  7.339 ms  2.893 ms\n 4  140.123.0.246  3.374 ms  6.145 ms  4.441 ms\n 5  140.130.252.251  4.959 ms  6.060 ms  41.456 ms\n 6  211.22.226.198  12.694 ms  10.119 ms  9.062 ms\n 7  * * *\n 8  * * *\n 9  220.128.4.217  22.854 ms  12.943 ms  13.671 ms\n10  168.95.209.45  22.972 ms  17.612 ms  15.806 ms\n11  * * *\n12  210.65.93.5  15.625 ms  17.243 ms  43.572 ms\n13  203.66.154.10  15.822 ms  13.397 ms  14.979 ms\n",
+  "category": "financial_infra",
+  "base_domain": "fisc.com.tw",
+  "service_variant": "ns1.fisc.com.tw",
+  "is_bare_domain": false
+}

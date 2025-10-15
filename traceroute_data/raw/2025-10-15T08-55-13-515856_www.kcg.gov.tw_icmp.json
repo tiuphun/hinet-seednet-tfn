@@ -1,0 +1,168 @@
+{
+  "timestamp": "2025-10-15T08:55:13.515856",
+  "vantage_point": "university",
+  "target": "www.kcg.gov.tw",
+  "target_ip": "223.200.91.227",
+  "protocol": "icmp",
+  "port": null,
+  "duration_seconds": 27.36,
+  "hops": [
+    {
+      "hop": 2,
+      "ip": "140.123.103.250",
+      "hostname": null,
+      "rtts": [
+        2.119,
+        5.027,
+        2.534
+      ],
+      "avg_rtt": 3.23,
+      "timeout": false
+    },
+    {
+      "hop": 3,
+      "ip": "140.123.9.249",
+      "hostname": null,
+      "rtts": [
+        2.981,
+        2.147,
+        2.107
+      ],
+      "avg_rtt": 2.41,
+      "timeout": false
+    },
+    {
+      "hop": 4,
+      "ip": "140.123.0.246",
+      "hostname": null,
+      "rtts": [
+        8.468,
+        2.866,
+        3.07
+      ],
+      "avg_rtt": 4.8,
+      "timeout": false
+    },
+    {
+      "hop": 5,
+      "ip": "140.130.252.251",
+      "hostname": null,
+      "rtts": [
+        3.976,
+        6.499,
+        3.998
+      ],
+      "avg_rtt": 4.82,
+      "timeout": false
+    },
+    {
+      "hop": 6,
+      "ip": "192.192.61.142",
+      "hostname": null,
+      "rtts": [
+        5.555,
+        5.889,
+        5.836
+      ],
+      "avg_rtt": 5.76,
+      "timeout": false
+    },
+    {
+      "hop": 7,
+      "ip": "192.192.61.9",
+      "hostname": null,
+      "rtts": [
+        5.67,
+        5.797,
+        6.01
+      ],
+      "avg_rtt": 5.83,
+      "timeout": false
+    },
+    {
+      "hop": 8,
+      "ip": "192.192.61.30",
+      "hostname": null,
+      "rtts": [
+        6.653,
+        6.829,
+        8.888
+      ],
+      "avg_rtt": 7.46,
+      "timeout": false
+    },
+    {
+      "hop": 9,
+      "ip": "192.192.61.4",
+      "hostname": null,
+      "rtts": [
+        8.087,
+        10.929,
+        11.645
+      ],
+      "avg_rtt": 10.22,
+      "timeout": false
+    },
+    {
+      "hop": 10,
+      "ip": "192.192.61.209",
+      "hostname": null,
+      "rtts": [
+        6.575,
+        6.846,
+        8.513
+      ],
+      "avg_rtt": 7.31,
+      "timeout": false
+    },
+    {
+      "hop": 11,
+      "ip": null,
+      "hostname": null,
+      "rtts": [],
+      "timeout": true
+    },
+    {
+      "hop": 12,
+      "ip": null,
+      "hostname": null,
+      "rtts": [],
+      "timeout": true
+    },
+    {
+      "hop": 13,
+      "ip": "10.96.81.12",
+      "hostname": null,
+      "rtts": [
+        8.263
+      ],
+      "avg_rtt": 8.26,
+      "timeout": false
+    },
+    {
+      "hop": 14,
+      "ip": null,
+      "hostname": null,
+      "rtts": [],
+      "timeout": true
+    },
+    {
+      "hop": 15,
+      "ip": "10.96.81.12",
+      "hostname": null,
+      "rtts": [
+        16.875,
+        14.832
+      ],
+      "avg_rtt": 15.85,
+      "timeout": false
+    }
+  ],
+  "num_hops": 14,
+  "success": false,
+  "raw_output": " 1  192.168.50.1  2.183 ms  32.756 ms  1.990 ms\n 2  140.123.103.250  2.119 ms  5.027 ms  2.534 ms\n 3  140.123.9.249  2.981 ms  2.147 ms  2.107 ms\n 4  140.123.0.246  8.468 ms  2.866 ms  3.070 ms\n 5  140.130.252.251  3.976 ms  6.499 ms  3.998 ms\n 6  192.192.61.142  5.555 ms  5.889 ms  5.836 ms\n 7  192.192.61.9  5.670 ms  5.797 ms  6.010 ms\n 8  192.192.61.30  6.653 ms  6.829 ms  8.888 ms\n 9  192.192.61.4  8.087 ms  10.929 ms  11.645 ms\n10  192.192.61.209  6.575 ms  6.846 ms  8.513 ms\n11  * 10.96.81.12  9.290 ms !X *\n12  * 10.96.81.12  10.863 ms !X *\n13  10.96.81.12  8.263 ms !X * *\n14  * 10.96.81.12  26.509 ms !X *\n15  10.96.81.12  16.875 ms !X *  14.832 ms !X\n",
+  "category": "government_local",
+  "base_domain": "kcg.gov.tw",
+  "service_variant": "www.kcg.gov.tw",
+  "is_bare_domain": false
+}

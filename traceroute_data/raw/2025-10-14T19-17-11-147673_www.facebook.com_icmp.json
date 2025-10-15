@@ -1,0 +1,186 @@
+{
+  "timestamp": "2025-10-14T19:17:11.147673",
+  "vantage_point": "university",
+  "target": "www.facebook.com",
+  "target_ip": "31.13.87.36",
+  "protocol": "icmp",
+  "port": null,
+  "duration_seconds": 0.32,
+  "hops": [
+    {
+      "hop": 2,
+      "ip": "140.123.103.250",
+      "hostname": null,
+      "rtts": [
+        2.636,
+        5.831,
+        2.638
+      ],
+      "avg_rtt": 3.7,
+      "timeout": false
+    },
+    {
+      "hop": 3,
+      "ip": "140.123.9.249",
+      "hostname": null,
+      "rtts": [
+        2.61,
+        2.33,
+        2.357
+      ],
+      "avg_rtt": 2.43,
+      "timeout": false
+    },
+    {
+      "hop": 4,
+      "ip": "140.123.0.246",
+      "hostname": null,
+      "rtts": [
+        3.214,
+        3.388,
+        2.835
+      ],
+      "avg_rtt": 3.15,
+      "timeout": false
+    },
+    {
+      "hop": 5,
+      "ip": "140.130.252.251",
+      "hostname": null,
+      "rtts": [
+        3.562,
+        3.986,
+        3.901
+      ],
+      "avg_rtt": 3.82,
+      "timeout": false
+    },
+    {
+      "hop": 6,
+      "ip": "192.192.61.142",
+      "hostname": null,
+      "rtts": [
+        6.08,
+        5.333,
+        6.155
+      ],
+      "avg_rtt": 5.86,
+      "timeout": false
+    },
+    {
+      "hop": 7,
+      "ip": "192.192.61.9",
+      "hostname": null,
+      "rtts": [
+        5.542,
+        5.65,
+        9.028
+      ],
+      "avg_rtt": 6.74,
+      "timeout": false
+    },
+    {
+      "hop": 8,
+      "ip": "192.192.61.30",
+      "hostname": null,
+      "rtts": [
+        7.002,
+        6.946,
+        8.23
+      ],
+      "avg_rtt": 7.39,
+      "timeout": false
+    },
+    {
+      "hop": 9,
+      "ip": "192.192.61.4",
+      "hostname": null,
+      "rtts": [
+        9.965,
+        8.067,
+        8.626
+      ],
+      "avg_rtt": 8.89,
+      "timeout": false
+    },
+    {
+      "hop": 10,
+      "ip": "192.192.61.209",
+      "hostname": null,
+      "rtts": [
+        6.669,
+        6.17,
+        6.448
+      ],
+      "avg_rtt": 6.43,
+      "timeout": false
+    },
+    {
+      "hop": 11,
+      "ip": "211.73.84.16",
+      "hostname": null,
+      "rtts": [
+        8.022,
+        8.512,
+        7.889
+      ],
+      "avg_rtt": 8.14,
+      "timeout": false
+    },
+    {
+      "hop": 12,
+      "ip": "129.134.55.108",
+      "hostname": null,
+      "rtts": [
+        9.738,
+        7.719,
+        7.738
+      ],
+      "avg_rtt": 8.4,
+      "timeout": false
+    },
+    {
+      "hop": 13,
+      "ip": "173.252.64.180",
+      "hostname": null,
+      "rtts": [
+        9.954,
+        8.074,
+        7.784
+      ],
+      "avg_rtt": 8.6,
+      "timeout": false
+    },
+    {
+      "hop": 14,
+      "ip": "129.134.59.220",
+      "hostname": null,
+      "rtts": [
+        10.268,
+        10.386,
+        10.423
+      ],
+      "avg_rtt": 10.36,
+      "timeout": false
+    },
+    {
+      "hop": 15,
+      "ip": "31.13.87.36",
+      "hostname": null,
+      "rtts": [
+        9.956,
+        7.738,
+        11.266
+      ],
+      "avg_rtt": 9.65,
+      "timeout": false
+    }
+  ],
+  "num_hops": 14,
+  "success": true,
+  "raw_output": " 1  192.168.50.1  11.614 ms  6.711 ms  2.241 ms\n 2  140.123.103.250  2.636 ms  5.831 ms  2.638 ms\n 3  140.123.9.249  2.610 ms  2.330 ms  2.357 ms\n 4  140.123.0.246  3.214 ms  3.388 ms  2.835 ms\n 5  140.130.252.251  3.562 ms  3.986 ms  3.901 ms\n 6  192.192.61.142  6.080 ms  5.333 ms  6.155 ms\n 7  192.192.61.9  5.542 ms  5.650 ms  9.028 ms\n 8  192.192.61.30  7.002 ms  6.946 ms  8.230 ms\n 9  192.192.61.4  9.965 ms  8.067 ms  8.626 ms\n10  192.192.61.209  6.669 ms  6.170 ms  6.448 ms\n11  211.73.84.16  8.022 ms  8.512 ms  7.889 ms\n12  129.134.55.108  9.738 ms  7.719 ms  7.738 ms\n13  173.252.64.180  9.954 ms  8.074 ms  7.784 ms\n14  129.134.59.220  10.268 ms  10.386 ms  10.423 ms\n15  31.13.87.36  9.956 ms  7.738 ms  11.266 ms\n",
+  "category": "cdn_global",
+  "base_domain": "facebook.com",
+  "service_variant": "www.facebook.com",
+  "is_bare_domain": false
+}

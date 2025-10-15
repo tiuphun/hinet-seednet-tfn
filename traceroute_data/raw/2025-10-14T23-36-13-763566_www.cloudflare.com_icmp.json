@@ -1,0 +1,133 @@
+{
+  "timestamp": "2025-10-14T23:36:13.763566",
+  "vantage_point": "university",
+  "target": "www.cloudflare.com",
+  "target_ip": "104.16.124.96",
+  "protocol": "icmp",
+  "port": null,
+  "duration_seconds": 9.27,
+  "hops": [
+    {
+      "hop": 2,
+      "ip": "140.123.103.250",
+      "hostname": null,
+      "rtts": [
+        6.68,
+        3.996,
+        2.922
+      ],
+      "avg_rtt": 4.53,
+      "timeout": false
+    },
+    {
+      "hop": 3,
+      "ip": "140.123.9.249",
+      "hostname": null,
+      "rtts": [
+        2.924,
+        3.925,
+        3.915
+      ],
+      "avg_rtt": 3.59,
+      "timeout": false
+    },
+    {
+      "hop": 4,
+      "ip": "140.123.0.246",
+      "hostname": null,
+      "rtts": [
+        3.475,
+        3.566,
+        4.758
+      ],
+      "avg_rtt": 3.93,
+      "timeout": false
+    },
+    {
+      "hop": 5,
+      "ip": "140.130.252.251",
+      "hostname": null,
+      "rtts": [
+        3.789,
+        3.926,
+        4.4
+      ],
+      "avg_rtt": 4.04,
+      "timeout": false
+    },
+    {
+      "hop": 6,
+      "ip": "192.192.61.142",
+      "hostname": null,
+      "rtts": [
+        6.845,
+        5.991,
+        7.626
+      ],
+      "avg_rtt": 6.82,
+      "timeout": false
+    },
+    {
+      "hop": 7,
+      "ip": "192.192.61.20",
+      "hostname": null,
+      "rtts": [
+        8.651,
+        10.556,
+        7.271
+      ],
+      "avg_rtt": 8.83,
+      "timeout": false
+    },
+    {
+      "hop": 8,
+      "ip": "192.192.61.48",
+      "hostname": null,
+      "rtts": [
+        8.056,
+        16.576,
+        8.397
+      ],
+      "avg_rtt": 11.01,
+      "timeout": false
+    },
+    {
+      "hop": 9,
+      "ip": "192.192.68.62",
+      "hostname": null,
+      "rtts": [
+        8.818,
+        10.901,
+        8.286
+      ],
+      "avg_rtt": 9.33,
+      "timeout": false
+    },
+    {
+      "hop": 10,
+      "ip": null,
+      "hostname": null,
+      "rtts": [],
+      "timeout": true
+    },
+    {
+      "hop": 11,
+      "ip": "104.16.124.96",
+      "hostname": null,
+      "rtts": [
+        37.832,
+        17.543,
+        8.256
+      ],
+      "avg_rtt": 21.21,
+      "timeout": false
+    }
+  ],
+  "num_hops": 10,
+  "success": true,
+  "raw_output": " 1  192.168.50.1  14.018 ms  2.814 ms  2.008 ms\n 2  140.123.103.250  6.680 ms  3.996 ms  2.922 ms\n 3  140.123.9.249  2.924 ms  3.925 ms  3.915 ms\n 4  140.123.0.246  3.475 ms  3.566 ms  4.758 ms\n 5  140.130.252.251  3.789 ms  3.926 ms  4.400 ms\n 6  192.192.61.142  6.845 ms  5.991 ms  7.626 ms\n 7  192.192.61.20  8.651 ms  10.556 ms  7.271 ms\n 8  192.192.61.48  8.056 ms  16.576 ms  8.397 ms\n 9  192.192.68.62  8.818 ms  10.901 ms  8.286 ms\n10  * * *\n11  104.16.124.96  37.832 ms  17.543 ms  8.256 ms\n",
+  "category": "cdn_global",
+  "base_domain": "cloudflare.com",
+  "service_variant": "www.cloudflare.com",
+  "is_bare_domain": false
+}

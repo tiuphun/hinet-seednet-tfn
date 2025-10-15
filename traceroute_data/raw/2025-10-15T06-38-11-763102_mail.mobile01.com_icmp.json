@@ -1,0 +1,198 @@
+{
+  "timestamp": "2025-10-15T06:38:11.763102",
+  "vantage_point": "university",
+  "target": "mail.mobile01.com",
+  "target_ip": "168.245.69.1",
+  "protocol": "icmp",
+  "port": null,
+  "duration_seconds": 58.6,
+  "hops": [
+    {
+      "hop": 2,
+      "ip": "140.123.103.250",
+      "hostname": null,
+      "rtts": [
+        3.663,
+        2.818,
+        2.736
+      ],
+      "avg_rtt": 3.07,
+      "timeout": false
+    },
+    {
+      "hop": 3,
+      "ip": "140.123.9.249",
+      "hostname": null,
+      "rtts": [
+        3.577,
+        5.544,
+        2.936
+      ],
+      "avg_rtt": 4.02,
+      "timeout": false
+    },
+    {
+      "hop": 4,
+      "ip": "140.123.0.246",
+      "hostname": null,
+      "rtts": [
+        3.792,
+        3.618,
+        3.454
+      ],
+      "avg_rtt": 3.62,
+      "timeout": false
+    },
+    {
+      "hop": 5,
+      "ip": "140.130.252.251",
+      "hostname": null,
+      "rtts": [
+        3.921,
+        3.888,
+        5.818
+      ],
+      "avg_rtt": 4.54,
+      "timeout": false
+    },
+    {
+      "hop": 6,
+      "ip": "192.192.61.142",
+      "hostname": null,
+      "rtts": [
+        9.589,
+        9.22,
+        6.716
+      ],
+      "avg_rtt": 8.51,
+      "timeout": false
+    },
+    {
+      "hop": 7,
+      "ip": "192.192.61.20",
+      "hostname": null,
+      "rtts": [
+        8.272,
+        7.322,
+        7.739
+      ],
+      "avg_rtt": 7.78,
+      "timeout": false
+    },
+    {
+      "hop": 8,
+      "ip": "192.192.61.48",
+      "hostname": null,
+      "rtts": [
+        8.141,
+        8.415,
+        7.803
+      ],
+      "avg_rtt": 8.12,
+      "timeout": false
+    },
+    {
+      "hop": 9,
+      "ip": "192.192.68.62",
+      "hostname": null,
+      "rtts": [
+        8.593,
+        8.447,
+        8.241
+      ],
+      "avg_rtt": 8.43,
+      "timeout": false
+    },
+    {
+      "hop": 10,
+      "ip": "65.49.108.1",
+      "hostname": null,
+      "rtts": [
+        20.637,
+        16.912
+      ],
+      "avg_rtt": 18.77,
+      "timeout": false
+    },
+    {
+      "hop": 11,
+      "ip": null,
+      "hostname": null,
+      "rtts": [],
+      "timeout": true
+    },
+    {
+      "hop": 12,
+      "ip": null,
+      "hostname": null,
+      "rtts": [],
+      "timeout": true
+    },
+    {
+      "hop": 13,
+      "ip": null,
+      "hostname": null,
+      "rtts": [],
+      "timeout": true
+    },
+    {
+      "hop": 14,
+      "ip": null,
+      "hostname": null,
+      "rtts": [],
+      "timeout": true
+    },
+    {
+      "hop": 15,
+      "ip": null,
+      "hostname": null,
+      "rtts": [],
+      "timeout": true
+    },
+    {
+      "hop": 16,
+      "ip": null,
+      "hostname": null,
+      "rtts": [],
+      "timeout": true
+    },
+    {
+      "hop": 17,
+      "ip": "206.126.237.61",
+      "hostname": null,
+      "rtts": [
+        183.306,
+        183.659,
+        182.342
+      ],
+      "avg_rtt": 183.1,
+      "timeout": false
+    },
+    {
+      "hop": 18,
+      "ip": null,
+      "hostname": null,
+      "rtts": [],
+      "timeout": true
+    },
+    {
+      "hop": 19,
+      "ip": "168.245.69.1",
+      "hostname": null,
+      "rtts": [
+        203.839,
+        184.127,
+        183.674
+      ],
+      "avg_rtt": 190.55,
+      "timeout": false
+    }
+  ],
+  "num_hops": 18,
+  "success": true,
+  "raw_output": " 1  192.168.50.1  14.324 ms  2.408 ms  2.277 ms\n 2  140.123.103.250  3.663 ms  2.818 ms  2.736 ms\n 3  140.123.9.249  3.577 ms  5.544 ms  2.936 ms\n 4  140.123.0.246  3.792 ms  3.618 ms  3.454 ms\n 5  140.130.252.251  3.921 ms  3.888 ms  5.818 ms\n 6  192.192.61.142  9.589 ms  9.220 ms  6.716 ms\n 7  192.192.61.20  8.272 ms  7.322 ms  7.739 ms\n 8  192.192.61.48  8.141 ms  8.415 ms  7.803 ms\n 9  192.192.68.62  8.593 ms  8.447 ms  8.241 ms\n10  65.49.108.1  20.637 ms  16.912 ms *\n11  * * 184.105.80.141  41.020 ms\n12  * 184.104.199.10  45.991 ms  43.332 ms\n13  * * *\n14  * * *\n15  * * *\n16  * * *\n17  206.126.237.61  183.306 ms  183.659 ms  182.342 ms\n18  * * *\n19  168.245.69.1  203.839 ms  184.127 ms  183.674 ms\n",
+  "category": "ecommerce_tech",
+  "base_domain": "mobile01.com",
+  "service_variant": "mail.mobile01.com",
+  "is_bare_domain": false
+}

@@ -1,0 +1,214 @@
+{
+  "timestamp": "2025-10-14T22:09:11.136205",
+  "vantage_point": "university",
+  "target": "mail.tvbs.com.tw",
+  "target_ip": "40.104.21.66",
+  "protocol": "icmp",
+  "port": null,
+  "duration_seconds": 36.55,
+  "hops": [
+    {
+      "hop": 2,
+      "ip": "140.123.103.250",
+      "hostname": null,
+      "rtts": [
+        2.983,
+        2.309,
+        3.149
+      ],
+      "avg_rtt": 2.81,
+      "timeout": false
+    },
+    {
+      "hop": 3,
+      "ip": "140.123.9.249",
+      "hostname": null,
+      "rtts": [
+        2.745,
+        2.449,
+        2.234
+      ],
+      "avg_rtt": 2.48,
+      "timeout": false
+    },
+    {
+      "hop": 4,
+      "ip": "140.123.0.246",
+      "hostname": null,
+      "rtts": [
+        3.244,
+        5.753,
+        3.621
+      ],
+      "avg_rtt": 4.21,
+      "timeout": false
+    },
+    {
+      "hop": 5,
+      "ip": "140.130.252.251",
+      "hostname": null,
+      "rtts": [
+        5.111,
+        4.439,
+        4.054
+      ],
+      "avg_rtt": 4.53,
+      "timeout": false
+    },
+    {
+      "hop": 6,
+      "ip": "192.192.61.142",
+      "hostname": null,
+      "rtts": [
+        6.808,
+        10.919,
+        5.806
+      ],
+      "avg_rtt": 7.84,
+      "timeout": false
+    },
+    {
+      "hop": 7,
+      "ip": "192.192.61.20",
+      "hostname": null,
+      "rtts": [
+        12.696,
+        7.615,
+        12.265
+      ],
+      "avg_rtt": 10.86,
+      "timeout": false
+    },
+    {
+      "hop": 8,
+      "ip": "192.192.61.48",
+      "hostname": null,
+      "rtts": [
+        25.96,
+        9.336,
+        8.058
+      ],
+      "avg_rtt": 14.45,
+      "timeout": false
+    },
+    {
+      "hop": 9,
+      "ip": "192.192.68.62",
+      "hostname": null,
+      "rtts": [
+        9.05,
+        10.202,
+        8.858
+      ],
+      "avg_rtt": 9.37,
+      "timeout": false
+    },
+    {
+      "hop": 10,
+      "ip": "203.163.222.15",
+      "hostname": null,
+      "rtts": [
+        17.21,
+        12.543,
+        9.252
+      ],
+      "avg_rtt": 13.0,
+      "timeout": false
+    },
+    {
+      "hop": 11,
+      "ip": "104.44.51.224",
+      "hostname": null,
+      "rtts": [
+        9.461,
+        10.957,
+        11.049
+      ],
+      "avg_rtt": 10.49,
+      "timeout": false
+    },
+    {
+      "hop": 12,
+      "ip": "104.44.23.161",
+      "hostname": null,
+      "rtts": [
+        13.235,
+        11.259,
+        12.965
+      ],
+      "avg_rtt": 12.49,
+      "timeout": false
+    },
+    {
+      "hop": 13,
+      "ip": "104.44.53.207",
+      "hostname": null,
+      "rtts": [
+        9.861,
+        15.369,
+        57.096
+      ],
+      "avg_rtt": 27.44,
+      "timeout": false
+    },
+    {
+      "hop": 14,
+      "ip": "104.44.48.24",
+      "hostname": null,
+      "rtts": [
+        14.536,
+        14.159,
+        15.719
+      ],
+      "avg_rtt": 14.8,
+      "timeout": false
+    },
+    {
+      "hop": 15,
+      "ip": null,
+      "hostname": null,
+      "rtts": [],
+      "timeout": true
+    },
+    {
+      "hop": 16,
+      "ip": null,
+      "hostname": null,
+      "rtts": [],
+      "timeout": true
+    },
+    {
+      "hop": 17,
+      "ip": null,
+      "hostname": null,
+      "rtts": [],
+      "timeout": true
+    },
+    {
+      "hop": 18,
+      "ip": null,
+      "hostname": null,
+      "rtts": [],
+      "timeout": true
+    },
+    {
+      "hop": 19,
+      "ip": "40.104.21.66",
+      "hostname": null,
+      "rtts": [
+        18.383,
+        9.719,
+        10.976
+      ],
+      "avg_rtt": 13.03,
+      "timeout": false
+    }
+  ],
+  "num_hops": 18,
+  "success": true,
+  "raw_output": " 1  192.168.50.1  2.673 ms  2.598 ms  1.876 ms\n 2  140.123.103.250  2.983 ms  2.309 ms  3.149 ms\n 3  140.123.9.249  2.745 ms  2.449 ms  2.234 ms\n 4  140.123.0.246  3.244 ms  5.753 ms  3.621 ms\n 5  140.130.252.251  5.111 ms  4.439 ms  4.054 ms\n 6  192.192.61.142  6.808 ms  10.919 ms  5.806 ms\n 7  192.192.61.20  12.696 ms  7.615 ms  12.265 ms\n 8  192.192.61.48  25.960 ms  9.336 ms  8.058 ms\n 9  192.192.68.62  9.050 ms  10.202 ms  8.858 ms\n10  203.163.222.15  17.210 ms  12.543 ms  9.252 ms\n11  104.44.51.224  9.461 ms  10.957 ms  11.049 ms\n12  104.44.23.161  13.235 ms  11.259 ms  12.965 ms\n13  104.44.53.207  9.861 ms  15.369 ms  57.096 ms\n14  104.44.48.24  14.536 ms  14.159 ms  15.719 ms\n15  * * *\n16  * * *\n17  * * *\n18  * * *\n19  40.104.21.66  18.383 ms  9.719 ms  10.976 ms\n",
+  "category": "media",
+  "base_domain": "tvbs.com.tw",
+  "service_variant": "mail.tvbs.com.tw",
+  "is_bare_domain": false
+}

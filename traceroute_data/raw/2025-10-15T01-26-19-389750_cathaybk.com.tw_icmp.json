@@ -1,0 +1,135 @@
+{
+  "timestamp": "2025-10-15T01:26:19.389750",
+  "vantage_point": "university",
+  "target": "cathaybk.com.tw",
+  "target_ip": "211.75.29.168",
+  "protocol": "icmp",
+  "port": null,
+  "duration_seconds": 27.29,
+  "hops": [
+    {
+      "hop": 2,
+      "ip": "140.123.103.250",
+      "hostname": null,
+      "rtts": [
+        2.7,
+        2.247,
+        2.126
+      ],
+      "avg_rtt": 2.36,
+      "timeout": false
+    },
+    {
+      "hop": 3,
+      "ip": "140.123.9.249",
+      "hostname": null,
+      "rtts": [
+        2.597,
+        2.058,
+        3.305
+      ],
+      "avg_rtt": 2.65,
+      "timeout": false
+    },
+    {
+      "hop": 4,
+      "ip": "140.123.0.246",
+      "hostname": null,
+      "rtts": [
+        2.795,
+        3.237,
+        3.124
+      ],
+      "avg_rtt": 3.05,
+      "timeout": false
+    },
+    {
+      "hop": 5,
+      "ip": "140.130.252.251",
+      "hostname": null,
+      "rtts": [
+        4.563,
+        5.263,
+        3.82
+      ],
+      "avg_rtt": 4.55,
+      "timeout": false
+    },
+    {
+      "hop": 6,
+      "ip": "211.22.226.198",
+      "hostname": null,
+      "rtts": [
+        4.021,
+        11.815,
+        29.155
+      ],
+      "avg_rtt": 15.0,
+      "timeout": false
+    },
+    {
+      "hop": 7,
+      "ip": null,
+      "hostname": null,
+      "rtts": [],
+      "timeout": true
+    },
+    {
+      "hop": 8,
+      "ip": null,
+      "hostname": null,
+      "rtts": [],
+      "timeout": true
+    },
+    {
+      "hop": 9,
+      "ip": "220.128.4.221",
+      "hostname": null,
+      "rtts": [
+        31.437,
+        12.858,
+        11.139
+      ],
+      "avg_rtt": 18.48,
+      "timeout": false
+    },
+    {
+      "hop": 10,
+      "ip": "168.95.210.29",
+      "hostname": null,
+      "rtts": [
+        11.532,
+        11.695,
+        10.302
+      ],
+      "avg_rtt": 11.18,
+      "timeout": false
+    },
+    {
+      "hop": 11,
+      "ip": null,
+      "hostname": null,
+      "rtts": [],
+      "timeout": true
+    },
+    {
+      "hop": 12,
+      "ip": "211.75.29.168",
+      "hostname": null,
+      "rtts": [
+        12.097,
+        10.793,
+        11.353
+      ],
+      "avg_rtt": 11.41,
+      "timeout": false
+    }
+  ],
+  "num_hops": 11,
+  "success": true,
+  "raw_output": " 1  192.168.50.1  3.032 ms  1.764 ms  1.887 ms\n 2  140.123.103.250  2.700 ms  2.247 ms  2.126 ms\n 3  140.123.9.249  2.597 ms  2.058 ms  3.305 ms\n 4  140.123.0.246  2.795 ms  3.237 ms  3.124 ms\n 5  140.130.252.251  4.563 ms  5.263 ms  3.820 ms\n 6  211.22.226.198  4.021 ms  11.815 ms  29.155 ms\n 7  * * *\n 8  * * *\n 9  220.128.4.221  31.437 ms  12.858 ms  11.139 ms\n10  168.95.210.29  11.532 ms  11.695 ms  10.302 ms\n11  * * *\n12  211.75.29.168  12.097 ms  10.793 ms  11.353 ms\n",
+  "category": "financial_banks",
+  "base_domain": "cathaybk.com.tw",
+  "service_variant": "cathaybk.com.tw",
+  "is_bare_domain": true
+}

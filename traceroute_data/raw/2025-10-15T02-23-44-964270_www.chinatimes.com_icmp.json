@@ -1,0 +1,137 @@
+{
+  "timestamp": "2025-10-15T02:23:44.964270",
+  "vantage_point": "university",
+  "target": "www.chinatimes.com",
+  "target_ip": "172.66.140.98",
+  "protocol": "icmp",
+  "port": null,
+  "duration_seconds": 3.22,
+  "hops": [
+    {
+      "hop": 2,
+      "ip": "140.123.103.250",
+      "hostname": null,
+      "rtts": [
+        2.224,
+        3.654,
+        2.802
+      ],
+      "avg_rtt": 2.89,
+      "timeout": false
+    },
+    {
+      "hop": 3,
+      "ip": "140.123.9.249",
+      "hostname": null,
+      "rtts": [
+        2.286,
+        2.345,
+        2.457
+      ],
+      "avg_rtt": 2.36,
+      "timeout": false
+    },
+    {
+      "hop": 4,
+      "ip": "140.123.0.246",
+      "hostname": null,
+      "rtts": [
+        3.392,
+        3.025,
+        3.255
+      ],
+      "avg_rtt": 3.22,
+      "timeout": false
+    },
+    {
+      "hop": 5,
+      "ip": "140.130.252.251",
+      "hostname": null,
+      "rtts": [
+        4.178,
+        3.82,
+        4.135
+      ],
+      "avg_rtt": 4.04,
+      "timeout": false
+    },
+    {
+      "hop": 6,
+      "ip": "192.192.61.142",
+      "hostname": null,
+      "rtts": [
+        5.873,
+        9.677,
+        5.939
+      ],
+      "avg_rtt": 7.16,
+      "timeout": false
+    },
+    {
+      "hop": 7,
+      "ip": "192.192.61.20",
+      "hostname": null,
+      "rtts": [
+        9.028,
+        9.428,
+        9.455
+      ],
+      "avg_rtt": 9.3,
+      "timeout": false
+    },
+    {
+      "hop": 8,
+      "ip": "192.192.61.48",
+      "hostname": null,
+      "rtts": [
+        10.288,
+        8.466,
+        8.064
+      ],
+      "avg_rtt": 8.94,
+      "timeout": false
+    },
+    {
+      "hop": 9,
+      "ip": "192.192.68.62",
+      "hostname": null,
+      "rtts": [
+        8.538,
+        10.089,
+        7.894
+      ],
+      "avg_rtt": 8.84,
+      "timeout": false
+    },
+    {
+      "hop": 10,
+      "ip": "203.163.222.39",
+      "hostname": null,
+      "rtts": [
+        9.401,
+        8.523
+      ],
+      "avg_rtt": 8.96,
+      "timeout": false
+    },
+    {
+      "hop": 11,
+      "ip": "172.66.140.98",
+      "hostname": null,
+      "rtts": [
+        17.401,
+        8.145,
+        8.882
+      ],
+      "avg_rtt": 11.48,
+      "timeout": false
+    }
+  ],
+  "num_hops": 10,
+  "success": true,
+  "raw_output": " 1  192.168.50.1  7.545 ms  3.415 ms  1.932 ms\n 2  140.123.103.250  2.224 ms  3.654 ms  2.802 ms\n 3  140.123.9.249  2.286 ms  2.345 ms  2.457 ms\n 4  140.123.0.246  3.392 ms  3.025 ms  3.255 ms\n 5  140.130.252.251  4.178 ms  3.820 ms  4.135 ms\n 6  192.192.61.142  5.873 ms  9.677 ms  5.939 ms\n 7  192.192.61.20  9.028 ms  9.428 ms  9.455 ms\n 8  192.192.61.48  10.288 ms  8.466 ms  8.064 ms\n 9  192.192.68.62  8.538 ms  10.089 ms  7.894 ms\n10  203.163.222.39  9.401 ms  8.523 ms *\n11  172.66.140.98  17.401 ms  8.145 ms  8.882 ms\n",
+  "category": "media",
+  "base_domain": "chinatimes.com",
+  "service_variant": "www.chinatimes.com",
+  "is_bare_domain": false
+}

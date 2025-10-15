@@ -1,0 +1,137 @@
+{
+  "timestamp": "2025-10-14T16:01:08.359181",
+  "vantage_point": "university",
+  "target": "www2.judicial.gov.tw",
+  "target_ip": "210.69.124.99",
+  "protocol": "icmp",
+  "port": null,
+  "duration_seconds": 5.44,
+  "hops": [
+    {
+      "hop": 2,
+      "ip": "140.123.103.250",
+      "hostname": null,
+      "rtts": [
+        56.734,
+        96.863,
+        13.989
+      ],
+      "avg_rtt": 55.86,
+      "timeout": false
+    },
+    {
+      "hop": 3,
+      "ip": "140.123.9.249",
+      "hostname": null,
+      "rtts": [
+        29.688,
+        20.624,
+        30.754
+      ],
+      "avg_rtt": 27.02,
+      "timeout": false
+    },
+    {
+      "hop": 4,
+      "ip": "140.123.0.246",
+      "hostname": null,
+      "rtts": [
+        18.998,
+        20.603,
+        45.207
+      ],
+      "avg_rtt": 28.27,
+      "timeout": false
+    },
+    {
+      "hop": 5,
+      "ip": "140.130.252.251",
+      "hostname": null,
+      "rtts": [
+        320.591,
+        407.113,
+        475.627
+      ],
+      "avg_rtt": 401.11,
+      "timeout": false
+    },
+    {
+      "hop": 6,
+      "ip": "192.192.61.142",
+      "hostname": null,
+      "rtts": [
+        353.997,
+        98.794,
+        10.378
+      ],
+      "avg_rtt": 154.39,
+      "timeout": false
+    },
+    {
+      "hop": 7,
+      "ip": "192.192.61.9",
+      "hostname": null,
+      "rtts": [
+        7.722,
+        23.549,
+        11.571
+      ],
+      "avg_rtt": 14.28,
+      "timeout": false
+    },
+    {
+      "hop": 8,
+      "ip": "192.192.61.30",
+      "hostname": null,
+      "rtts": [
+        9.433,
+        15.267,
+        21.08
+      ],
+      "avg_rtt": 15.26,
+      "timeout": false
+    },
+    {
+      "hop": 9,
+      "ip": "192.192.61.4",
+      "hostname": null,
+      "rtts": [
+        16.203,
+        10.022,
+        18.036
+      ],
+      "avg_rtt": 14.75,
+      "timeout": false
+    },
+    {
+      "hop": 10,
+      "ip": "192.192.61.209",
+      "hostname": null,
+      "rtts": [
+        12.62,
+        11.858,
+        9.071
+      ],
+      "avg_rtt": 11.18,
+      "timeout": false
+    },
+    {
+      "hop": 11,
+      "ip": "10.96.81.12",
+      "hostname": null,
+      "rtts": [
+        10.992,
+        19.572
+      ],
+      "avg_rtt": 15.28,
+      "timeout": false
+    }
+  ],
+  "num_hops": 10,
+  "success": false,
+  "raw_output": " 1  192.168.50.1  79.732 ms  96.212 ms  45.078 ms\n 2  140.123.103.250  56.734 ms  96.863 ms  13.989 ms\n 3  140.123.9.249  29.688 ms  20.624 ms  30.754 ms\n 4  140.123.0.246  18.998 ms  20.603 ms  45.207 ms\n 5  140.130.252.251  320.591 ms  407.113 ms  475.627 ms\n 6  192.192.61.142  353.997 ms  98.794 ms  10.378 ms\n 7  192.192.61.9  7.722 ms  23.549 ms  11.571 ms\n 8  192.192.61.30  9.433 ms  15.267 ms  21.080 ms\n 9  192.192.61.4  16.203 ms  10.022 ms  18.036 ms\n10  192.192.61.209  12.620 ms  11.858 ms  9.071 ms\n11  10.96.81.12  10.992 ms !X *  19.572 ms !X\n",
+  "category": "government_critical",
+  "base_domain": "judicial.gov.tw",
+  "service_variant": "www2.judicial.gov.tw",
+  "is_bare_domain": false
+}

@@ -1,0 +1,192 @@
+{
+  "timestamp": "2025-10-14T23:59:41.461883",
+  "vantage_point": "university",
+  "target": "www.mnd.gov.tw",
+  "target_ip": "13.107.246.73",
+  "protocol": "icmp",
+  "port": null,
+  "duration_seconds": 51.4,
+  "hops": [
+    {
+      "hop": 2,
+      "ip": "140.123.103.250",
+      "hostname": null,
+      "rtts": [
+        2.47,
+        2.147,
+        2.175
+      ],
+      "avg_rtt": 2.26,
+      "timeout": false
+    },
+    {
+      "hop": 3,
+      "ip": "140.123.9.249",
+      "hostname": null,
+      "rtts": [
+        2.834,
+        1.961,
+        2.37
+      ],
+      "avg_rtt": 2.39,
+      "timeout": false
+    },
+    {
+      "hop": 4,
+      "ip": "140.123.0.246",
+      "hostname": null,
+      "rtts": [
+        4.123,
+        2.989,
+        2.965
+      ],
+      "avg_rtt": 3.36,
+      "timeout": false
+    },
+    {
+      "hop": 5,
+      "ip": "140.130.252.251",
+      "hostname": null,
+      "rtts": [
+        3.565,
+        4.026,
+        4.893
+      ],
+      "avg_rtt": 4.16,
+      "timeout": false
+    },
+    {
+      "hop": 6,
+      "ip": "192.192.61.142",
+      "hostname": null,
+      "rtts": [
+        4.95,
+        5.625,
+        5.996
+      ],
+      "avg_rtt": 5.52,
+      "timeout": false
+    },
+    {
+      "hop": 7,
+      "ip": "192.192.61.20",
+      "hostname": null,
+      "rtts": [
+        7.789,
+        7.76,
+        10.122
+      ],
+      "avg_rtt": 8.56,
+      "timeout": false
+    },
+    {
+      "hop": 8,
+      "ip": "192.192.61.48",
+      "hostname": null,
+      "rtts": [
+        7.756,
+        8.039,
+        8.237
+      ],
+      "avg_rtt": 8.01,
+      "timeout": false
+    },
+    {
+      "hop": 9,
+      "ip": "192.192.68.62",
+      "hostname": null,
+      "rtts": [
+        7.5,
+        10.634,
+        7.78
+      ],
+      "avg_rtt": 8.64,
+      "timeout": false
+    },
+    {
+      "hop": 10,
+      "ip": "203.163.222.15",
+      "hostname": null,
+      "rtts": [
+        17.396,
+        51.357,
+        17.068
+      ],
+      "avg_rtt": 28.61,
+      "timeout": false
+    },
+    {
+      "hop": 11,
+      "ip": "104.44.51.226",
+      "hostname": null,
+      "rtts": [
+        8.744,
+        10.587,
+        17.005
+      ],
+      "avg_rtt": 12.11,
+      "timeout": false
+    },
+    {
+      "hop": 12,
+      "ip": "104.44.55.42",
+      "hostname": null,
+      "rtts": [
+        28.754,
+        8.568,
+        8.388
+      ],
+      "avg_rtt": 15.24,
+      "timeout": false
+    },
+    {
+      "hop": 13,
+      "ip": null,
+      "hostname": null,
+      "rtts": [],
+      "timeout": true
+    },
+    {
+      "hop": 14,
+      "ip": null,
+      "hostname": null,
+      "rtts": [],
+      "timeout": true
+    },
+    {
+      "hop": 15,
+      "ip": null,
+      "hostname": null,
+      "rtts": [],
+      "timeout": true
+    },
+    {
+      "hop": 16,
+      "ip": null,
+      "hostname": null,
+      "rtts": [],
+      "timeout": true
+    },
+    {
+      "hop": 17,
+      "ip": null,
+      "hostname": null,
+      "rtts": [],
+      "timeout": true
+    },
+    {
+      "hop": 18,
+      "ip": null,
+      "hostname": null,
+      "rtts": [],
+      "timeout": true
+    }
+  ],
+  "num_hops": 17,
+  "success": false,
+  "raw_output": " 1  192.168.50.1  2.025 ms  1.720 ms  1.928 ms\n 2  140.123.103.250  2.470 ms  2.147 ms  2.175 ms\n 3  140.123.9.249  2.834 ms  1.961 ms  2.370 ms\n 4  140.123.0.246  4.123 ms  2.989 ms  2.965 ms\n 5  140.130.252.251  3.565 ms  4.026 ms  4.893 ms\n 6  192.192.61.142  4.950 ms  5.625 ms  5.996 ms\n 7  192.192.61.20  7.789 ms  7.760 ms  10.122 ms\n 8  192.192.61.48  7.756 ms  8.039 ms  8.237 ms\n 9  192.192.68.62  7.500 ms  10.634 ms  7.780 ms\n10  203.163.222.15  17.396 ms  51.357 ms  17.068 ms\n11  104.44.51.226  8.744 ms  10.587 ms  17.005 ms\n12  104.44.55.42  28.754 ms  8.568 ms  8.388 ms\n13  * * *\n14  * * *\n15  * * *\n16  * * *\n17  * * *\n18  * * 13.107.246.73  8.175 ms\n",
+  "category": "government_central",
+  "base_domain": "mnd.gov.tw",
+  "service_variant": "www.mnd.gov.tw",
+  "is_bare_domain": false
+}

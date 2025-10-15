@@ -1,0 +1,225 @@
+{
+  "timestamp": "2025-10-15T06:34:57.297504",
+  "vantage_point": "university",
+  "target": "yes123.com.tw",
+  "target_ip": "168.63.250.12",
+  "protocol": "icmp",
+  "port": null,
+  "duration_seconds": 81.79,
+  "hops": [
+    {
+      "hop": 2,
+      "ip": "140.123.103.250",
+      "hostname": null,
+      "rtts": [
+        2.676,
+        2.662,
+        2.782
+      ],
+      "avg_rtt": 2.71,
+      "timeout": false
+    },
+    {
+      "hop": 3,
+      "ip": "140.123.9.249",
+      "hostname": null,
+      "rtts": [
+        2.899,
+        2.704,
+        2.761
+      ],
+      "avg_rtt": 2.79,
+      "timeout": false
+    },
+    {
+      "hop": 4,
+      "ip": "140.123.0.246",
+      "hostname": null,
+      "rtts": [
+        3.816,
+        3.72,
+        26.11
+      ],
+      "avg_rtt": 11.22,
+      "timeout": false
+    },
+    {
+      "hop": 5,
+      "ip": "140.130.252.251",
+      "hostname": null,
+      "rtts": [
+        4.196,
+        4.486,
+        4.249
+      ],
+      "avg_rtt": 4.31,
+      "timeout": false
+    },
+    {
+      "hop": 6,
+      "ip": "192.192.61.142",
+      "hostname": null,
+      "rtts": [
+        5.71,
+        6.066,
+        6.045
+      ],
+      "avg_rtt": 5.94,
+      "timeout": false
+    },
+    {
+      "hop": 7,
+      "ip": "192.192.61.20",
+      "hostname": null,
+      "rtts": [
+        7.663,
+        7.851,
+        7.594
+      ],
+      "avg_rtt": 7.7,
+      "timeout": false
+    },
+    {
+      "hop": 8,
+      "ip": "192.192.61.48",
+      "hostname": null,
+      "rtts": [
+        8.254,
+        7.924,
+        8.357
+      ],
+      "avg_rtt": 8.18,
+      "timeout": false
+    },
+    {
+      "hop": 9,
+      "ip": "192.192.68.62",
+      "hostname": null,
+      "rtts": [
+        8.676,
+        10.545,
+        8.899
+      ],
+      "avg_rtt": 9.37,
+      "timeout": false
+    },
+    {
+      "hop": 10,
+      "ip": "203.163.222.15",
+      "hostname": null,
+      "rtts": [
+        9.721,
+        8.887,
+        9.476
+      ],
+      "avg_rtt": 9.36,
+      "timeout": false
+    },
+    {
+      "hop": 11,
+      "ip": "104.44.51.226",
+      "hostname": null,
+      "rtts": [
+        10.062,
+        10.147,
+        9.883
+      ],
+      "avg_rtt": 10.03,
+      "timeout": false
+    },
+    {
+      "hop": 12,
+      "ip": null,
+      "hostname": null,
+      "rtts": [],
+      "timeout": true
+    },
+    {
+      "hop": 13,
+      "ip": null,
+      "hostname": null,
+      "rtts": [],
+      "timeout": true
+    },
+    {
+      "hop": 14,
+      "ip": null,
+      "hostname": null,
+      "rtts": [],
+      "timeout": true
+    },
+    {
+      "hop": 15,
+      "ip": null,
+      "hostname": null,
+      "rtts": [],
+      "timeout": true
+    },
+    {
+      "hop": 16,
+      "ip": "13.106.238.151",
+      "hostname": null,
+      "rtts": [
+        72.514,
+        63.749,
+        55.816
+      ],
+      "avg_rtt": 64.03,
+      "timeout": false
+    },
+    {
+      "hop": 17,
+      "ip": null,
+      "hostname": null,
+      "rtts": [],
+      "timeout": true
+    },
+    {
+      "hop": 18,
+      "ip": null,
+      "hostname": null,
+      "rtts": [],
+      "timeout": true
+    },
+    {
+      "hop": 19,
+      "ip": null,
+      "hostname": null,
+      "rtts": [],
+      "timeout": true
+    },
+    {
+      "hop": 20,
+      "ip": null,
+      "hostname": null,
+      "rtts": [],
+      "timeout": true
+    },
+    {
+      "hop": 21,
+      "ip": null,
+      "hostname": null,
+      "rtts": [],
+      "timeout": true
+    },
+    {
+      "hop": 22,
+      "ip": "168.63.250.12",
+      "hostname": null,
+      "rtts": [
+        51.691,
+        59.277,
+        51.236
+      ],
+      "avg_rtt": 54.07,
+      "timeout": false
+    }
+  ],
+  "num_hops": 21,
+  "success": true,
+  "raw_output": " 1  192.168.50.1  6.296 ms  4.529 ms  2.077 ms\n 2  140.123.103.250  2.676 ms  2.662 ms  2.782 ms\n 3  140.123.9.249  2.899 ms  2.704 ms  2.761 ms\n 4  140.123.0.246  3.816 ms  3.720 ms  26.110 ms\n 5  140.130.252.251  4.196 ms  4.486 ms  4.249 ms\n 6  192.192.61.142  5.710 ms  6.066 ms  6.045 ms\n 7  192.192.61.20  7.663 ms  7.851 ms  7.594 ms\n 8  192.192.61.48  8.254 ms  7.924 ms  8.357 ms\n 9  192.192.68.62  8.676 ms  10.545 ms  8.899 ms\n10  203.163.222.15  9.721 ms  8.887 ms  9.476 ms\n11  104.44.51.226  10.062 ms  10.147 ms  9.883 ms\n12  * * *\n13  * * *\n14  * * *\n15  * * *\n16  13.106.238.151  72.514 ms  63.749 ms  55.816 ms\n17  * * *\n18  * * *\n19  * * *\n20  * * *\n21  * * *\n22  168.63.250.12  51.691 ms  59.277 ms  51.236 ms\n",
+  "category": "ecommerce_tech",
+  "base_domain": "yes123.com.tw",
+  "service_variant": "yes123.com.tw",
+  "is_bare_domain": true
+}

@@ -1,0 +1,182 @@
+{
+  "timestamp": "2025-10-15T06:49:59.087101",
+  "vantage_point": "university",
+  "target": "cts.com.tw",
+  "target_ip": "3.5.159.3",
+  "protocol": "icmp",
+  "port": null,
+  "duration_seconds": 72.51,
+  "hops": [
+    {
+      "hop": 2,
+      "ip": "140.123.103.250",
+      "hostname": null,
+      "rtts": [
+        3.056,
+        3.335,
+        2.82
+      ],
+      "avg_rtt": 3.07,
+      "timeout": false
+    },
+    {
+      "hop": 3,
+      "ip": "140.123.9.249",
+      "hostname": null,
+      "rtts": [
+        9.162,
+        4.837,
+        2.741
+      ],
+      "avg_rtt": 5.58,
+      "timeout": false
+    },
+    {
+      "hop": 4,
+      "ip": "140.123.0.246",
+      "hostname": null,
+      "rtts": [
+        6.833,
+        7.306,
+        5.668
+      ],
+      "avg_rtt": 6.6,
+      "timeout": false
+    },
+    {
+      "hop": 5,
+      "ip": "140.130.252.251",
+      "hostname": null,
+      "rtts": [
+        6.914,
+        4.398,
+        3.848
+      ],
+      "avg_rtt": 5.05,
+      "timeout": false
+    },
+    {
+      "hop": 6,
+      "ip": "192.192.61.142",
+      "hostname": null,
+      "rtts": [
+        8.298,
+        5.888,
+        6.391
+      ],
+      "avg_rtt": 6.86,
+      "timeout": false
+    },
+    {
+      "hop": 7,
+      "ip": "192.192.61.20",
+      "hostname": null,
+      "rtts": [
+        9.47,
+        7.658,
+        7.909
+      ],
+      "avg_rtt": 8.35,
+      "timeout": false
+    },
+    {
+      "hop": 8,
+      "ip": "192.192.61.48",
+      "hostname": null,
+      "rtts": [
+        9.485,
+        8.981,
+        10.876
+      ],
+      "avg_rtt": 9.78,
+      "timeout": false
+    },
+    {
+      "hop": 9,
+      "ip": "192.192.68.62",
+      "hostname": null,
+      "rtts": [
+        9.589,
+        11.542,
+        10.818
+      ],
+      "avg_rtt": 10.65,
+      "timeout": false
+    },
+    {
+      "hop": 10,
+      "ip": null,
+      "hostname": null,
+      "rtts": [],
+      "timeout": true
+    },
+    {
+      "hop": 11,
+      "ip": null,
+      "hostname": null,
+      "rtts": [],
+      "timeout": true
+    },
+    {
+      "hop": 12,
+      "ip": null,
+      "hostname": null,
+      "rtts": [],
+      "timeout": true
+    },
+    {
+      "hop": 13,
+      "ip": null,
+      "hostname": null,
+      "rtts": [],
+      "timeout": true
+    },
+    {
+      "hop": 14,
+      "ip": null,
+      "hostname": null,
+      "rtts": [],
+      "timeout": true
+    },
+    {
+      "hop": 15,
+      "ip": null,
+      "hostname": null,
+      "rtts": [],
+      "timeout": true
+    },
+    {
+      "hop": 16,
+      "ip": null,
+      "hostname": null,
+      "rtts": [],
+      "timeout": true
+    },
+    {
+      "hop": 17,
+      "ip": null,
+      "hostname": null,
+      "rtts": [],
+      "timeout": true
+    },
+    {
+      "hop": 18,
+      "ip": "3.5.159.3",
+      "hostname": null,
+      "rtts": [
+        53.195,
+        52.385,
+        42.155
+      ],
+      "avg_rtt": 49.25,
+      "timeout": false
+    }
+  ],
+  "num_hops": 17,
+  "success": true,
+  "raw_output": " 1  192.168.50.1  2.706 ms  3.432 ms  2.890 ms\n 2  140.123.103.250  3.056 ms  3.335 ms  2.820 ms\n 3  140.123.9.249  9.162 ms  4.837 ms  2.741 ms\n 4  140.123.0.246  6.833 ms  7.306 ms  5.668 ms\n 5  140.130.252.251  6.914 ms  4.398 ms  3.848 ms\n 6  192.192.61.142  8.298 ms  5.888 ms  6.391 ms\n 7  192.192.61.20  9.470 ms  7.658 ms  7.909 ms\n 8  192.192.61.48  9.485 ms  8.981 ms  10.876 ms\n 9  192.192.68.62  9.589 ms  11.542 ms  10.818 ms\n10  * * *\n11  * * *\n12  * * *\n13  * * *\n14  * * *\n15  * * *\n16  * * *\n17  * * *\n18  3.5.159.3  53.195 ms  52.385 ms  42.155 ms\n",
+  "category": "media",
+  "base_domain": "cts.com.tw",
+  "service_variant": "cts.com.tw",
+  "is_bare_domain": true
+}

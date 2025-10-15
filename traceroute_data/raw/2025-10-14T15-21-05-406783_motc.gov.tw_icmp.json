@@ -1,0 +1,134 @@
+{
+  "timestamp": "2025-10-14T15:21:05.406783",
+  "vantage_point": "university",
+  "target": "motc.gov.tw",
+  "target_ip": "210.69.99.1",
+  "protocol": "icmp",
+  "port": null,
+  "duration_seconds": 3.3,
+  "hops": [
+    {
+      "hop": 2,
+      "ip": "140.123.103.250",
+      "hostname": null,
+      "rtts": [
+        4.59,
+        2.847,
+        2.57
+      ],
+      "avg_rtt": 3.34,
+      "timeout": false
+    },
+    {
+      "hop": 3,
+      "ip": "140.123.9.249",
+      "hostname": null,
+      "rtts": [
+        2.722,
+        3.774,
+        2.668
+      ],
+      "avg_rtt": 3.05,
+      "timeout": false
+    },
+    {
+      "hop": 4,
+      "ip": "140.123.0.246",
+      "hostname": null,
+      "rtts": [
+        4.893,
+        46.551,
+        3.214
+      ],
+      "avg_rtt": 18.22,
+      "timeout": false
+    },
+    {
+      "hop": 5,
+      "ip": "140.130.252.251",
+      "hostname": null,
+      "rtts": [
+        7.325,
+        5.723,
+        5.562
+      ],
+      "avg_rtt": 6.2,
+      "timeout": false
+    },
+    {
+      "hop": 6,
+      "ip": "192.192.61.142",
+      "hostname": null,
+      "rtts": [
+        7.891,
+        5.847,
+        6.306
+      ],
+      "avg_rtt": 6.68,
+      "timeout": false
+    },
+    {
+      "hop": 7,
+      "ip": "192.192.61.9",
+      "hostname": null,
+      "rtts": [
+        14.168,
+        5.709,
+        6.18
+      ],
+      "avg_rtt": 8.69,
+      "timeout": false
+    },
+    {
+      "hop": 8,
+      "ip": "192.192.61.30",
+      "hostname": null,
+      "rtts": [
+        6.747,
+        6.673,
+        7.359
+      ],
+      "avg_rtt": 6.93,
+      "timeout": false
+    },
+    {
+      "hop": 9,
+      "ip": "192.192.61.4",
+      "hostname": null,
+      "rtts": [
+        9.511,
+        16.325,
+        8.972
+      ],
+      "avg_rtt": 11.6,
+      "timeout": false
+    },
+    {
+      "hop": 10,
+      "ip": "192.192.61.209",
+      "hostname": null,
+      "rtts": [
+        8.475,
+        6.863,
+        6.516
+      ],
+      "avg_rtt": 7.28,
+      "timeout": false
+    },
+    {
+      "hop": 11,
+      "ip": "10.96.81.12",
+      "hostname": null,
+      "rtts": [
+        13.865,
+        15.175
+      ],
+      "avg_rtt": 14.52,
+      "timeout": false
+    }
+  ],
+  "num_hops": 10,
+  "success": false,
+  "raw_output": " 1  192.168.50.1  6.075 ms  10.831 ms  9.482 ms\n 2  140.123.103.250  4.590 ms  2.847 ms  2.570 ms\n 3  140.123.9.249  2.722 ms  3.774 ms  2.668 ms\n 4  140.123.0.246  4.893 ms  46.551 ms  3.214 ms\n 5  140.130.252.251  7.325 ms  5.723 ms  5.562 ms\n 6  192.192.61.142  7.891 ms  5.847 ms  6.306 ms\n 7  192.192.61.9  14.168 ms  5.709 ms  6.180 ms\n 8  192.192.61.30  6.747 ms  6.673 ms  7.359 ms\n 9  192.192.61.4  9.511 ms  16.325 ms  8.972 ms\n10  192.192.61.209  8.475 ms  6.863 ms  6.516 ms\n11  10.96.81.12  13.865 ms !X *  15.175 ms !X\n",
+  "category": "government_central"
+}

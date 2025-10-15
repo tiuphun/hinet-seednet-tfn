@@ -52,8 +52,8 @@ setup_environment() {
     mkdir -p "$DATA_DIR"/{raw,analysis,exports}
     
     # Check for required Python scripts
-    if [ ! -f "auto_traceroute.py" ]; then
-        echo_error "auto_traceroute.py not found"
+    if [ ! -f "topology_mapping.py" ]; then
+        echo_error "topology_mapping.py not found"
         exit 1
     fi
     
@@ -76,7 +76,7 @@ run_collection() {
     echo_info "Category: ${category:-ALL}"
     echo_info "Protocols: $protocols"
     
-    local cmd="python3 auto_traceroute.py \
+    local cmd="python3 topology_mapping.py \
         --vantage-point $vantage_point \
         --output-dir $DATA_DIR \
         --protocols $protocols \
@@ -107,7 +107,7 @@ run_quick_test() {
     
     echo_info "Running quick test collection (DNS resolvers only)..."
     
-    python3 auto_traceroute.py \
+    python3 topology_mapping.py \
         --vantage-point "$vantage_point" \
         --category dns_resolvers \
         --output-dir "${DATA_DIR}_test" \

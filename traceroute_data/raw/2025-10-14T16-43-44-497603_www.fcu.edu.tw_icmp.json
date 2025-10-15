@@ -1,0 +1,161 @@
+{
+  "timestamp": "2025-10-14T16:43:44.497603",
+  "vantage_point": "university",
+  "target": "www.fcu.edu.tw",
+  "target_ip": "3.169.55.34",
+  "protocol": "icmp",
+  "port": null,
+  "duration_seconds": 45.25,
+  "hops": [
+    {
+      "hop": 2,
+      "ip": "140.123.103.250",
+      "hostname": null,
+      "rtts": [
+        2.376,
+        1.946,
+        5.632
+      ],
+      "avg_rtt": 3.32,
+      "timeout": false
+    },
+    {
+      "hop": 3,
+      "ip": "140.123.9.249",
+      "hostname": null,
+      "rtts": [
+        2.649,
+        2.511,
+        2.175
+      ],
+      "avg_rtt": 2.44,
+      "timeout": false
+    },
+    {
+      "hop": 4,
+      "ip": "140.123.0.246",
+      "hostname": null,
+      "rtts": [
+        3.359,
+        3.682,
+        12.065
+      ],
+      "avg_rtt": 6.37,
+      "timeout": false
+    },
+    {
+      "hop": 5,
+      "ip": "140.130.252.251",
+      "hostname": null,
+      "rtts": [
+        5.743,
+        3.928,
+        3.752
+      ],
+      "avg_rtt": 4.47,
+      "timeout": false
+    },
+    {
+      "hop": 6,
+      "ip": "192.192.61.142",
+      "hostname": null,
+      "rtts": [
+        6.622,
+        5.819,
+        9.882
+      ],
+      "avg_rtt": 7.44,
+      "timeout": false
+    },
+    {
+      "hop": 7,
+      "ip": "192.192.61.20",
+      "hostname": null,
+      "rtts": [
+        12.057,
+        7.44,
+        9.687
+      ],
+      "avg_rtt": 9.73,
+      "timeout": false
+    },
+    {
+      "hop": 8,
+      "ip": "192.192.61.48",
+      "hostname": null,
+      "rtts": [
+        9.526,
+        8.349,
+        12.307
+      ],
+      "avg_rtt": 10.06,
+      "timeout": false
+    },
+    {
+      "hop": 9,
+      "ip": "192.192.68.62",
+      "hostname": null,
+      "rtts": [
+        10.934,
+        10.249,
+        10.168
+      ],
+      "avg_rtt": 10.45,
+      "timeout": false
+    },
+    {
+      "hop": 10,
+      "ip": null,
+      "hostname": null,
+      "rtts": [],
+      "timeout": true
+    },
+    {
+      "hop": 11,
+      "ip": null,
+      "hostname": null,
+      "rtts": [],
+      "timeout": true
+    },
+    {
+      "hop": 12,
+      "ip": null,
+      "hostname": null,
+      "rtts": [],
+      "timeout": true
+    },
+    {
+      "hop": 13,
+      "ip": null,
+      "hostname": null,
+      "rtts": [],
+      "timeout": true
+    },
+    {
+      "hop": 14,
+      "ip": null,
+      "hostname": null,
+      "rtts": [],
+      "timeout": true
+    },
+    {
+      "hop": 15,
+      "ip": "3.169.55.34",
+      "hostname": null,
+      "rtts": [
+        15.207,
+        9.501,
+        10.565
+      ],
+      "avg_rtt": 11.76,
+      "timeout": false
+    }
+  ],
+  "num_hops": 14,
+  "success": true,
+  "raw_output": " 1  192.168.50.1  2.504 ms  3.721 ms  2.693 ms\n 2  140.123.103.250  2.376 ms  1.946 ms  5.632 ms\n 3  140.123.9.249  2.649 ms  2.511 ms  2.175 ms\n 4  140.123.0.246  3.359 ms  3.682 ms  12.065 ms\n 5  140.130.252.251  5.743 ms  3.928 ms  3.752 ms\n 6  192.192.61.142  6.622 ms  5.819 ms  9.882 ms\n 7  192.192.61.20  12.057 ms  7.440 ms  9.687 ms\n 8  192.192.61.48  9.526 ms  8.349 ms  12.307 ms\n 9  192.192.68.62  10.934 ms  10.249 ms  10.168 ms\n10  * * *\n11  * * *\n12  * * *\n13  * * *\n14  * * *\n15  3.169.55.34  15.207 ms  9.501 ms  10.565 ms\n",
+  "category": "universities",
+  "base_domain": "fcu.edu.tw",
+  "service_variant": "www.fcu.edu.tw",
+  "is_bare_domain": false
+}

@@ -1,0 +1,114 @@
+{
+  "timestamp": "2025-10-15T07:56:21.241041",
+  "vantage_point": "university",
+  "target": "mail.krtco.com.tw",
+  "target_ip": "219.87.161.130",
+  "protocol": "icmp",
+  "port": null,
+  "duration_seconds": 0.16,
+  "hops": [
+    {
+      "hop": 2,
+      "ip": "140.123.103.250",
+      "hostname": null,
+      "rtts": [
+        2.441,
+        2.677,
+        2.779
+      ],
+      "avg_rtt": 2.63,
+      "timeout": false
+    },
+    {
+      "hop": 3,
+      "ip": "140.123.9.249",
+      "hostname": null,
+      "rtts": [
+        2.479,
+        2.755,
+        2.738
+      ],
+      "avg_rtt": 2.66,
+      "timeout": false
+    },
+    {
+      "hop": 4,
+      "ip": "140.123.0.246",
+      "hostname": null,
+      "rtts": [
+        3.177,
+        4.439,
+        3.48
+      ],
+      "avg_rtt": 3.7,
+      "timeout": false
+    },
+    {
+      "hop": 5,
+      "ip": "140.130.252.251",
+      "hostname": null,
+      "rtts": [
+        3.624,
+        4.388,
+        3.964
+      ],
+      "avg_rtt": 3.99,
+      "timeout": false
+    },
+    {
+      "hop": 6,
+      "ip": "61.31.254.69",
+      "hostname": null,
+      "rtts": [
+        6.82,
+        8.123,
+        8.988
+      ],
+      "avg_rtt": 7.98,
+      "timeout": false
+    },
+    {
+      "hop": 7,
+      "ip": "60.199.27.161",
+      "hostname": null,
+      "rtts": [
+        6.433,
+        6.032,
+        6.869
+      ],
+      "avg_rtt": 6.44,
+      "timeout": false
+    },
+    {
+      "hop": 8,
+      "ip": "60.199.27.166",
+      "hostname": null,
+      "rtts": [
+        6.009,
+        7.806,
+        6.501
+      ],
+      "avg_rtt": 6.77,
+      "timeout": false
+    },
+    {
+      "hop": 9,
+      "ip": "219.87.161.130",
+      "hostname": null,
+      "rtts": [
+        7.16,
+        8.63,
+        15.136
+      ],
+      "avg_rtt": 10.31,
+      "timeout": false
+    }
+  ],
+  "num_hops": 8,
+  "success": true,
+  "raw_output": " 1  192.168.50.1  2.352 ms  2.104 ms  2.117 ms\n 2  140.123.103.250  2.441 ms  2.677 ms  2.779 ms\n 3  140.123.9.249  2.479 ms  2.755 ms  2.738 ms\n 4  140.123.0.246  3.177 ms  4.439 ms  3.480 ms\n 5  140.130.252.251  3.624 ms  4.388 ms  3.964 ms\n 6  61.31.254.69  6.820 ms  8.123 ms  8.988 ms\n 7  60.199.27.161  6.433 ms  6.032 ms  6.869 ms\n 8  60.199.27.166  6.009 ms  7.806 ms  6.501 ms\n 9  219.87.161.130  7.160 ms  8.630 ms  15.136 ms\n",
+  "category": "critical_infra",
+  "base_domain": "krtco.com.tw",
+  "service_variant": "mail.krtco.com.tw",
+  "is_bare_domain": false
+}

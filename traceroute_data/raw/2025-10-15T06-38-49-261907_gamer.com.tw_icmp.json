@@ -1,0 +1,138 @@
+{
+  "timestamp": "2025-10-15T06:38:49.261907",
+  "vantage_point": "university",
+  "target": "gamer.com.tw",
+  "target_ip": "104.18.2.197",
+  "protocol": "icmp",
+  "port": null,
+  "duration_seconds": 0.25,
+  "hops": [
+    {
+      "hop": 2,
+      "ip": "140.123.103.250",
+      "hostname": null,
+      "rtts": [
+        2.987,
+        2.433,
+        2.79
+      ],
+      "avg_rtt": 2.74,
+      "timeout": false
+    },
+    {
+      "hop": 3,
+      "ip": "140.123.9.249",
+      "hostname": null,
+      "rtts": [
+        2.909,
+        2.735,
+        2.794
+      ],
+      "avg_rtt": 2.81,
+      "timeout": false
+    },
+    {
+      "hop": 4,
+      "ip": "140.123.0.246",
+      "hostname": null,
+      "rtts": [
+        4.951,
+        6.702,
+        3.296
+      ],
+      "avg_rtt": 4.98,
+      "timeout": false
+    },
+    {
+      "hop": 5,
+      "ip": "140.130.252.251",
+      "hostname": null,
+      "rtts": [
+        4.153,
+        4.023,
+        5.763
+      ],
+      "avg_rtt": 4.65,
+      "timeout": false
+    },
+    {
+      "hop": 6,
+      "ip": "192.192.61.142",
+      "hostname": null,
+      "rtts": [
+        6.139,
+        7.405,
+        9.196
+      ],
+      "avg_rtt": 7.58,
+      "timeout": false
+    },
+    {
+      "hop": 7,
+      "ip": "192.192.61.20",
+      "hostname": null,
+      "rtts": [
+        15.505,
+        14.23,
+        8.579
+      ],
+      "avg_rtt": 12.77,
+      "timeout": false
+    },
+    {
+      "hop": 8,
+      "ip": "192.192.61.48",
+      "hostname": null,
+      "rtts": [
+        8.173,
+        8.85,
+        8.691
+      ],
+      "avg_rtt": 8.57,
+      "timeout": false
+    },
+    {
+      "hop": 9,
+      "ip": "192.192.68.62",
+      "hostname": null,
+      "rtts": [
+        8.374,
+        8.067,
+        8.026
+      ],
+      "avg_rtt": 8.16,
+      "timeout": false
+    },
+    {
+      "hop": 10,
+      "ip": "203.163.222.39",
+      "hostname": null,
+      "rtts": [
+        12.776,
+        11.533,
+        9.199
+      ],
+      "avg_rtt": 11.17,
+      "timeout": false
+    },
+    {
+      "hop": 11,
+      "ip": "104.18.2.197",
+      "hostname": null,
+      "rtts": [
+        8.106,
+        14.69,
+        9.959
+      ],
+      "avg_rtt": 10.92,
+      "timeout": false
+    }
+  ],
+  "num_hops": 10,
+  "success": true,
+  "raw_output": " 1  192.168.50.1  2.806 ms  2.838 ms  2.569 ms\n 2  140.123.103.250  2.987 ms  2.433 ms  2.790 ms\n 3  140.123.9.249  2.909 ms  2.735 ms  2.794 ms\n 4  140.123.0.246  4.951 ms  6.702 ms  3.296 ms\n 5  140.130.252.251  4.153 ms  4.023 ms  5.763 ms\n 6  192.192.61.142  6.139 ms  7.405 ms  9.196 ms\n 7  192.192.61.20  15.505 ms  14.230 ms  8.579 ms\n 8  192.192.61.48  8.173 ms  8.850 ms  8.691 ms\n 9  192.192.68.62  8.374 ms  8.067 ms  8.026 ms\n10  203.163.222.39  12.776 ms  11.533 ms  9.199 ms\n11  104.18.2.197  8.106 ms  14.690 ms  9.959 ms\n",
+  "category": "ecommerce_tech",
+  "base_domain": "gamer.com.tw",
+  "service_variant": "gamer.com.tw",
+  "is_bare_domain": true
+}

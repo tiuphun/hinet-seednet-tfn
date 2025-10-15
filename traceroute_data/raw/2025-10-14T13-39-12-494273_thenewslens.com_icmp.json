@@ -1,0 +1,138 @@
+{
+  "timestamp": "2025-10-14T13:39:12.494273",
+  "vantage_point": "cht-mobile",
+  "target": "thenewslens.com",
+  "target_ip": "34.54.142.250",
+  "protocol": "icmp",
+  "port": null,
+  "duration_seconds": 0.27,
+  "hops": [
+    {
+      "hop": 2,
+      "ip": "140.123.103.250",
+      "hostname": null,
+      "rtts": [
+        7.249,
+        3.073,
+        2.872
+      ],
+      "avg_rtt": 4.4,
+      "timeout": false
+    },
+    {
+      "hop": 3,
+      "ip": "140.123.9.249",
+      "hostname": null,
+      "rtts": [
+        4.118,
+        4.286,
+        2.69
+      ],
+      "avg_rtt": 3.7,
+      "timeout": false
+    },
+    {
+      "hop": 4,
+      "ip": "140.123.0.246",
+      "hostname": null,
+      "rtts": [
+        3.455,
+        3.225,
+        3.692
+      ],
+      "avg_rtt": 3.46,
+      "timeout": false
+    },
+    {
+      "hop": 5,
+      "ip": "140.130.252.251",
+      "hostname": null,
+      "rtts": [
+        6.547,
+        5.289,
+        3.48
+      ],
+      "avg_rtt": 5.11,
+      "timeout": false
+    },
+    {
+      "hop": 6,
+      "ip": "192.192.61.142",
+      "hostname": null,
+      "rtts": [
+        41.209,
+        7.399,
+        8.257
+      ],
+      "avg_rtt": 18.96,
+      "timeout": false
+    },
+    {
+      "hop": 7,
+      "ip": "192.192.61.20",
+      "hostname": null,
+      "rtts": [
+        9.286,
+        13.63,
+        9.097
+      ],
+      "avg_rtt": 10.67,
+      "timeout": false
+    },
+    {
+      "hop": 8,
+      "ip": "192.192.61.184",
+      "hostname": null,
+      "rtts": [
+        8.201,
+        12.131,
+        8.592
+      ],
+      "avg_rtt": 9.64,
+      "timeout": false
+    },
+    {
+      "hop": 9,
+      "ip": "192.192.61.203",
+      "hostname": null,
+      "rtts": [
+        8.371,
+        8.185,
+        8.517
+      ],
+      "avg_rtt": 8.36,
+      "timeout": false
+    },
+    {
+      "hop": 10,
+      "ip": "72.14.196.229",
+      "hostname": null,
+      "rtts": [
+        9.038,
+        9.509,
+        9.302
+      ],
+      "avg_rtt": 9.28,
+      "timeout": false
+    },
+    {
+      "hop": 11,
+      "ip": "34.54.142.250",
+      "hostname": null,
+      "rtts": [
+        8.748,
+        8.081,
+        8.282
+      ],
+      "avg_rtt": 8.37,
+      "timeout": false
+    }
+  ],
+  "num_hops": 10,
+  "success": true,
+  "raw_output": " 1  192.168.50.1  2.891 ms  2.126 ms  3.738 ms\n 2  140.123.103.250  7.249 ms  3.073 ms  2.872 ms\n 3  140.123.9.249  4.118 ms  4.286 ms  2.690 ms\n 4  140.123.0.246  3.455 ms  3.225 ms  3.692 ms\n 5  140.130.252.251  6.547 ms  5.289 ms  3.480 ms\n 6  192.192.61.142  41.209 ms  7.399 ms  8.257 ms\n 7  192.192.61.20  9.286 ms  13.630 ms  9.097 ms\n 8  192.192.61.184  8.201 ms  12.131 ms  8.592 ms\n 9  192.192.61.203  8.371 ms  8.185 ms  8.517 ms\n10  72.14.196.229  9.038 ms  9.509 ms  9.302 ms\n11  34.54.142.250  8.748 ms  8.081 ms  8.282 ms\n",
+  "category": "media",
+  "base_domain": "thenewslens.com",
+  "service_variant": "thenewslens.com",
+  "is_bare_domain": true
+}

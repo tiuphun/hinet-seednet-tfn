@@ -1,0 +1,188 @@
+{
+  "timestamp": "2025-10-15T04:14:34.017183",
+  "vantage_point": "university",
+  "target": "smtp.sinica.edu.tw",
+  "target_ip": "140.109.4.80",
+  "protocol": "icmp",
+  "port": null,
+  "duration_seconds": 18.35,
+  "hops": [
+    {
+      "hop": 2,
+      "ip": "140.123.103.250",
+      "hostname": null,
+      "rtts": [
+        3.404,
+        2.796,
+        3.703
+      ],
+      "avg_rtt": 3.3,
+      "timeout": false
+    },
+    {
+      "hop": 3,
+      "ip": "140.123.9.249",
+      "hostname": null,
+      "rtts": [
+        2.785,
+        2.678,
+        4.779
+      ],
+      "avg_rtt": 3.41,
+      "timeout": false
+    },
+    {
+      "hop": 4,
+      "ip": "140.123.0.246",
+      "hostname": null,
+      "rtts": [
+        3.494,
+        5.731,
+        3.594
+      ],
+      "avg_rtt": 4.27,
+      "timeout": false
+    },
+    {
+      "hop": 5,
+      "ip": "140.130.252.251",
+      "hostname": null,
+      "rtts": [
+        5.641,
+        4.868,
+        4.554
+      ],
+      "avg_rtt": 5.02,
+      "timeout": false
+    },
+    {
+      "hop": 6,
+      "ip": "192.192.61.142",
+      "hostname": null,
+      "rtts": [
+        5.525,
+        7.922,
+        7.491
+      ],
+      "avg_rtt": 6.98,
+      "timeout": false
+    },
+    {
+      "hop": 7,
+      "ip": "192.192.61.9",
+      "hostname": null,
+      "rtts": [
+        5.251,
+        5.291,
+        5.793
+      ],
+      "avg_rtt": 5.45,
+      "timeout": false
+    },
+    {
+      "hop": 8,
+      "ip": "192.192.61.30",
+      "hostname": null,
+      "rtts": [
+        6.655,
+        9.422,
+        6.442
+      ],
+      "avg_rtt": 7.51,
+      "timeout": false
+    },
+    {
+      "hop": 9,
+      "ip": "192.192.61.4",
+      "hostname": null,
+      "rtts": [
+        9.289,
+        7.308,
+        7.509
+      ],
+      "avg_rtt": 8.04,
+      "timeout": false
+    },
+    {
+      "hop": 10,
+      "ip": "192.192.61.209",
+      "hostname": null,
+      "rtts": [
+        7.243,
+        6.275,
+        6.093
+      ],
+      "avg_rtt": 6.54,
+      "timeout": false
+    },
+    {
+      "hop": 11,
+      "ip": "10.96.81.4",
+      "hostname": null,
+      "rtts": [
+        7.632,
+        7.981,
+        8.102
+      ],
+      "avg_rtt": 7.91,
+      "timeout": false
+    },
+    {
+      "hop": 12,
+      "ip": "202.169.174.50",
+      "hostname": null,
+      "rtts": [
+        7.894,
+        21.175,
+        8.963
+      ],
+      "avg_rtt": 12.68,
+      "timeout": false
+    },
+    {
+      "hop": 13,
+      "ip": "202.169.174.2",
+      "hostname": null,
+      "rtts": [
+        28.551,
+        8.35,
+        8.571
+      ],
+      "avg_rtt": 15.16,
+      "timeout": false
+    },
+    {
+      "hop": 14,
+      "ip": null,
+      "hostname": null,
+      "rtts": [],
+      "timeout": true
+    },
+    {
+      "hop": 15,
+      "ip": null,
+      "hostname": null,
+      "rtts": [],
+      "timeout": true
+    },
+    {
+      "hop": 16,
+      "ip": "140.109.4.80",
+      "hostname": null,
+      "rtts": [
+        9.792,
+        8.631,
+        8.822
+      ],
+      "avg_rtt": 9.08,
+      "timeout": false
+    }
+  ],
+  "num_hops": 15,
+  "success": true,
+  "raw_output": " 1  192.168.50.1  10.451 ms  2.524 ms  2.687 ms\n 2  140.123.103.250  3.404 ms  2.796 ms  3.703 ms\n 3  140.123.9.249  2.785 ms  2.678 ms  4.779 ms\n 4  140.123.0.246  3.494 ms  5.731 ms  3.594 ms\n 5  140.130.252.251  5.641 ms  4.868 ms  4.554 ms\n 6  192.192.61.142  5.525 ms  7.922 ms  7.491 ms\n 7  192.192.61.9  5.251 ms  5.291 ms  5.793 ms\n 8  192.192.61.30  6.655 ms  9.422 ms  6.442 ms\n 9  192.192.61.4  9.289 ms  7.308 ms  7.509 ms\n10  192.192.61.209  7.243 ms  6.275 ms  6.093 ms\n11  10.96.81.4  7.632 ms  7.981 ms  8.102 ms\n12  202.169.174.50  7.894 ms  21.175 ms  8.963 ms\n13  202.169.174.2  28.551 ms  8.350 ms  8.571 ms\n14  * * *\n15  * * *\n16  140.109.4.80  9.792 ms  8.631 ms  8.822 ms\n",
+  "category": "education_network",
+  "base_domain": "sinica.edu.tw",
+  "service_variant": "smtp.sinica.edu.tw",
+  "is_bare_domain": false
+}

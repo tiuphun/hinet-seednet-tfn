@@ -1,0 +1,223 @@
+{
+  "timestamp": "2025-10-15T06:51:06.045268",
+  "vantage_point": "university",
+  "target": "www.cts.com.tw",
+  "target_ip": "3.175.207.74",
+  "protocol": "icmp",
+  "port": null,
+  "duration_seconds": 63.68,
+  "hops": [
+    {
+      "hop": 2,
+      "ip": "140.123.103.250",
+      "hostname": null,
+      "rtts": [
+        2.494,
+        5.78,
+        2.71
+      ],
+      "avg_rtt": 3.66,
+      "timeout": false
+    },
+    {
+      "hop": 3,
+      "ip": "140.123.9.249",
+      "hostname": null,
+      "rtts": [
+        6.146,
+        2.95,
+        2.903
+      ],
+      "avg_rtt": 4.0,
+      "timeout": false
+    },
+    {
+      "hop": 4,
+      "ip": "140.123.0.246",
+      "hostname": null,
+      "rtts": [
+        7.675,
+        3.687,
+        3.563
+      ],
+      "avg_rtt": 4.98,
+      "timeout": false
+    },
+    {
+      "hop": 5,
+      "ip": "140.130.252.251",
+      "hostname": null,
+      "rtts": [
+        9.412,
+        5.78,
+        7.321
+      ],
+      "avg_rtt": 7.5,
+      "timeout": false
+    },
+    {
+      "hop": 6,
+      "ip": "192.192.61.142",
+      "hostname": null,
+      "rtts": [
+        6.371,
+        6.376,
+        6.351
+      ],
+      "avg_rtt": 6.37,
+      "timeout": false
+    },
+    {
+      "hop": 7,
+      "ip": "192.192.61.20",
+      "hostname": null,
+      "rtts": [
+        10.067,
+        7.829,
+        9.805
+      ],
+      "avg_rtt": 9.23,
+      "timeout": false
+    },
+    {
+      "hop": 8,
+      "ip": "192.192.61.48",
+      "hostname": null,
+      "rtts": [
+        13.679,
+        8.502,
+        9.244
+      ],
+      "avg_rtt": 10.47,
+      "timeout": false
+    },
+    {
+      "hop": 9,
+      "ip": "192.192.68.62",
+      "hostname": null,
+      "rtts": [
+        17.496,
+        18.561,
+        16.696
+      ],
+      "avg_rtt": 17.58,
+      "timeout": false
+    },
+    {
+      "hop": 10,
+      "ip": "210.176.44.177",
+      "hostname": null,
+      "rtts": [
+        24.073,
+        12.967,
+        9.901
+      ],
+      "avg_rtt": 15.65,
+      "timeout": false
+    },
+    {
+      "hop": 11,
+      "ip": "202.84.230.89",
+      "hostname": null,
+      "rtts": [
+        13.704,
+        12.4,
+        11.843
+      ],
+      "avg_rtt": 12.65,
+      "timeout": false
+    },
+    {
+      "hop": 12,
+      "ip": "202.84.143.161",
+      "hostname": null,
+      "rtts": [
+        23.238,
+        22.518,
+        22.213
+      ],
+      "avg_rtt": 22.66,
+      "timeout": false
+    },
+    {
+      "hop": 13,
+      "ip": "202.84.157.37",
+      "hostname": null,
+      "rtts": [
+        26.713,
+        26.852,
+        26.88
+      ],
+      "avg_rtt": 26.81,
+      "timeout": false
+    },
+    {
+      "hop": 14,
+      "ip": null,
+      "hostname": null,
+      "rtts": [],
+      "timeout": true
+    },
+    {
+      "hop": 15,
+      "ip": null,
+      "hostname": null,
+      "rtts": [],
+      "timeout": true
+    },
+    {
+      "hop": 16,
+      "ip": null,
+      "hostname": null,
+      "rtts": [],
+      "timeout": true
+    },
+    {
+      "hop": 17,
+      "ip": null,
+      "hostname": null,
+      "rtts": [],
+      "timeout": true
+    },
+    {
+      "hop": 18,
+      "ip": null,
+      "hostname": null,
+      "rtts": [],
+      "timeout": true
+    },
+    {
+      "hop": 19,
+      "ip": null,
+      "hostname": null,
+      "rtts": [],
+      "timeout": true
+    },
+    {
+      "hop": 20,
+      "ip": null,
+      "hostname": null,
+      "rtts": [],
+      "timeout": true
+    },
+    {
+      "hop": 21,
+      "ip": "3.175.207.74",
+      "hostname": null,
+      "rtts": [
+        32.499,
+        27.309,
+        26.359
+      ],
+      "avg_rtt": 28.72,
+      "timeout": false
+    }
+  ],
+  "num_hops": 20,
+  "success": true,
+  "raw_output": " 1  192.168.50.1  8.434 ms  3.020 ms  5.240 ms\n 2  140.123.103.250  2.494 ms  5.780 ms  2.710 ms\n 3  140.123.9.249  6.146 ms  2.950 ms  2.903 ms\n 4  140.123.0.246  7.675 ms  3.687 ms  3.563 ms\n 5  140.130.252.251  9.412 ms  5.780 ms  7.321 ms\n 6  192.192.61.142  6.371 ms  6.376 ms  6.351 ms\n 7  192.192.61.20  10.067 ms  7.829 ms  9.805 ms\n 8  192.192.61.48  13.679 ms  8.502 ms  9.244 ms\n 9  192.192.68.62  17.496 ms  18.561 ms  16.696 ms\n10  210.176.44.177  24.073 ms  12.967 ms  9.901 ms\n11  202.84.230.89  13.704 ms  12.400 ms  11.843 ms\n12  202.84.143.161  23.238 ms  22.518 ms  22.213 ms\n13  202.84.157.37  26.713 ms  26.852 ms  26.880 ms\n14  * * *\n15  * * *\n16  * * *\n17  * * *\n18  * * *\n19  * * *\n20  * * *\n21  3.175.207.74  32.499 ms  27.309 ms  26.359 ms\n",
+  "category": "media",
+  "base_domain": "cts.com.tw",
+  "service_variant": "www.cts.com.tw",
+  "is_bare_domain": false
+}

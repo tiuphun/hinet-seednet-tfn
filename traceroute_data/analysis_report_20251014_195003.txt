@@ -1,0 +1,296 @@
+================================================================================
+TAIWAN ISP TOPOLOGY MAPPING - ENHANCED ANALYSIS REPORT
+================================================================================
+
+SUMMARY STATISTICS
+--------------------------------------------------------------------------------
+Total traceroutes: 785
+Successful: 158 (20.1%)
+Failed: 627
+
+SERVICE COVERAGE ANALYSIS
+--------------------------------------------------------------------------------
+
+president.gov.tw
+  Services tested: 2
+  Successful: 2
+  Success rate: 33.3%
+  Working services: www.president.gov.tw, www2.president.gov.tw
+
+ey.gov.tw
+  Services tested: 1
+  Successful: 1
+  Success rate: 33.3%
+  Working services: www.ey.gov.tw
+
+hccg.gov.tw
+  Services tested: 1
+  Successful: 1
+  Success rate: 33.3%
+  Working services: www.hccg.gov.tw
+
+cycu.edu.tw
+  Services tested: 2
+  Successful: 2
+  Success rate: 33.3%
+  Working services: mail.cycu.edu.tw, cycu.edu.tw
+
+bot.com.tw
+  Services tested: 2
+  Successful: 2
+  Success rate: 33.3%
+  Working services: www.bot.com.tw, mail.bot.com.tw
+
+megabank.com.tw
+  Services tested: 3
+  Successful: 3
+  Success rate: 33.3%
+  Working services: megabank.com.tw, api.megabank.com.tw, www.megabank.com.tw
+
+landbank.com.tw
+  Services tested: 2
+  Successful: 2
+  Success rate: 33.3%
+  Working services: www.landbank.com.tw, ftp.landbank.com.tw
+
+firstbank.com.tw
+  Services tested: 3
+  Successful: 3
+  Success rate: 33.3%
+  Working services: mail.firstbank.com.tw, firstbank.com.tw, www.firstbank.com.tw
+
+cathaybk.com.tw
+  Services tested: 1
+  Successful: 1
+  Success rate: 33.3%
+  Working services: cathaybk.com.tw
+
+esunbank.com.tw
+  Services tested: 2
+  Successful: 2
+  Success rate: 33.3%
+  Working services: esunbank.com.tw, www.esunbank.com.tw
+
+skbank.com.tw
+  Services tested: 3
+  Successful: 3
+  Success rate: 33.3%
+  Working services: mail.skbank.com.tw, www.skbank.com.tw, www2.skbank.com.tw
+
+twse.com.tw
+  Services tested: 3
+  Successful: 3
+  Success rate: 33.3%
+  Working services: mail.twse.com.tw, app.twse.com.tw, www.twse.com.tw
+
+tdcc.com.tw
+  Services tested: 3
+  Successful: 3
+  Success rate: 33.3%
+  Working services: mail.tdcc.com.tw, www.tdcc.com.tw, ftp.tdcc.com.tw
+
+fisc.com.tw
+  Services tested: 3
+  Successful: 3
+  Success rate: 33.3%
+  Working services: smtp.fisc.com.tw, ns1.fisc.com.tw, www.fisc.com.tw
+
+24h.pchome.com.tw
+  Services tested: 1
+  Successful: 1
+  Success rate: 33.3%
+  Working services: 24h.pchome.com.tw
+
+momoshop.com.tw
+  Services tested: 3
+  Successful: 3
+  Success rate: 33.3%
+  Working services: app.momoshop.com.tw, momoshop.com.tw, www.momoshop.com.tw
+
+shopee.tw
+  Services tested: 2
+  Successful: 2
+  Success rate: 33.3%
+  Working services: shopee.tw, api.shopee.tw
+
+yes123.com.tw
+  Services tested: 2
+  Successful: 2
+  Success rate: 33.3%
+  Working services: yes123.com.tw, mail.yes123.com.tw
+
+mobile01.com
+  Services tested: 3
+  Successful: 3
+  Success rate: 33.3%
+  Working services: www.mobile01.com, mobile01.com, mail.mobile01.com
+
+ptt.cc
+  Services tested: 2
+  Successful: 2
+  Success rate: 33.3%
+  Working services: ptt.cc, www.ptt.cc
+
+dcard.tw
+  Services tested: 3
+  Successful: 3
+  Success rate: 33.3%
+  Working services: www.dcard.tw, mail.dcard.tw, dcard.tw
+
+gamer.com.tw
+  Services tested: 2
+  Successful: 2
+  Success rate: 33.3%
+  Working services: mail.gamer.com.tw, gamer.com.tw
+
+udn.com
+  Services tested: 1
+  Successful: 1
+  Success rate: 33.3%
+  Working services: udn.com
+
+tvbs.com.tw
+  Services tested: 3
+  Successful: 3
+  Success rate: 33.3%
+  Working services: tvbs.com.tw, www.tvbs.com.tw, mail.tvbs.com.tw
+
+settv.com.tw
+  Services tested: 1
+  Successful: 1
+  Success rate: 33.3%
+  Working services: www.settv.com.tw
+
+cts.com.tw
+  Services tested: 1
+  Successful: 1
+  Success rate: 33.3%
+  Working services: cts.com.tw
+
+ftv.com.tw
+  Services tested: 3
+  Successful: 3
+  Success rate: 33.3%
+  Working services: www.ftv.com.tw, mail.ftv.com.tw, ftv.com.tw
+
+thenewslens.com
+  Services tested: 1
+  Successful: 1
+  Success rate: 33.3%
+  Working services: thenewslens.com
+
+cht.com.tw
+  Services tested: 1
+  Successful: 1
+  Success rate: 33.3%
+  Working services: www.cht.com.tw
+
+seednet.net
+  Services tested: 1
+  Successful: 1
+  Success rate: 33.3%
+  Working services: seednet.net
+
+
+CORE ROUTERS (appearing in 10+ paths)
+--------------------------------------------------------------------------------
+1. 140.123.103.250
+   Appearances: 200
+   Unique targets: 200
+   Avg hop position: 2.0
+
+2. 140.123.9.249
+   Appearances: 200
+   Unique targets: 200
+   Avg hop position: 3.0
+
+3. 140.123.0.246
+   Appearances: 197
+   Unique targets: 197
+   Avg hop position: 4.0
+
+4. 140.130.252.251
+   Appearances: 190
+   Unique targets: 190
+   Avg hop position: 5.0
+
+5. 192.192.61.142
+   Appearances: 121
+   Unique targets: 121
+   Avg hop position: 6.0
+
+6. 192.192.61.20
+   Appearances: 77
+   Unique targets: 77
+   Avg hop position: 7.0
+
+7. 192.192.61.48
+   Appearances: 57
+   Unique targets: 57
+   Avg hop position: 8.0
+
+8. 10.96.81.12
+   Appearances: 57
+   Unique targets: 37
+   Avg hop position: 12.9
+
+9. 211.22.226.198
+   Appearances: 55
+   Unique targets: 55
+   Avg hop position: 6.0
+
+10. 192.192.68.62
+   Appearances: 51
+   Unique targets: 51
+   Avg hop position: 9.0
+
+11. 192.192.61.209
+   Appearances: 39
+   Unique targets: 39
+   Avg hop position: 9.5
+
+12. 192.192.61.9
+   Appearances: 24
+   Unique targets: 24
+   Avg hop position: 7.0
+
+13. 192.192.61.37
+   Appearances: 20
+   Unique targets: 20
+   Avg hop position: 7.0
+
+14. 192.192.61.32
+   Appearances: 20
+   Unique targets: 20
+   Avg hop position: 8.0
+
+15. 192.192.61.30
+   Appearances: 19
+   Unique targets: 19
+   Avg hop position: 8.0
+
+16. 192.192.61.4
+   Appearances: 19
+   Unique targets: 19
+   Avg hop position: 9.0
+
+17. 192.192.61.184
+   Appearances: 15
+   Unique targets: 15
+   Avg hop position: 8.0
+
+18. 192.192.61.203
+   Appearances: 15
+   Unique targets: 15
+   Avg hop position: 9.0
+
+19. 72.14.196.229
+   Appearances: 15
+   Unique targets: 15
+   Avg hop position: 10.0
+
+20. 203.163.222.39
+   Appearances: 11
+   Unique targets: 11
+   Avg hop position: 10.0
+

@@ -1,0 +1,135 @@
+{
+  "timestamp": "2025-10-15T01:28:53.509031",
+  "vantage_point": "university",
+  "target": "www.fubon.com",
+  "target_ip": "60.251.170.11",
+  "protocol": "icmp",
+  "port": null,
+  "duration_seconds": 27.33,
+  "hops": [
+    {
+      "hop": 2,
+      "ip": "140.123.103.250",
+      "hostname": null,
+      "rtts": [
+        3.039,
+        2.796,
+        3.161
+      ],
+      "avg_rtt": 3.0,
+      "timeout": false
+    },
+    {
+      "hop": 3,
+      "ip": "140.123.9.249",
+      "hostname": null,
+      "rtts": [
+        3.018,
+        2.946,
+        2.438
+      ],
+      "avg_rtt": 2.8,
+      "timeout": false
+    },
+    {
+      "hop": 4,
+      "ip": "140.123.0.246",
+      "hostname": null,
+      "rtts": [
+        4.738,
+        3.463,
+        4.997
+      ],
+      "avg_rtt": 4.4,
+      "timeout": false
+    },
+    {
+      "hop": 5,
+      "ip": "140.130.252.251",
+      "hostname": null,
+      "rtts": [
+        4.076,
+        4.112,
+        3.774
+      ],
+      "avg_rtt": 3.99,
+      "timeout": false
+    },
+    {
+      "hop": 6,
+      "ip": "211.22.226.198",
+      "hostname": null,
+      "rtts": [
+        4.406,
+        4.097,
+        3.973
+      ],
+      "avg_rtt": 4.16,
+      "timeout": false
+    },
+    {
+      "hop": 7,
+      "ip": null,
+      "hostname": null,
+      "rtts": [],
+      "timeout": true
+    },
+    {
+      "hop": 8,
+      "ip": null,
+      "hostname": null,
+      "rtts": [],
+      "timeout": true
+    },
+    {
+      "hop": 9,
+      "ip": "220.128.4.225",
+      "hostname": null,
+      "rtts": [
+        20.93,
+        12.388,
+        11.919
+      ],
+      "avg_rtt": 15.08,
+      "timeout": false
+    },
+    {
+      "hop": 10,
+      "ip": "168.95.210.29",
+      "hostname": null,
+      "rtts": [
+        10.017,
+        17.618,
+        20.687
+      ],
+      "avg_rtt": 16.11,
+      "timeout": false
+    },
+    {
+      "hop": 11,
+      "ip": null,
+      "hostname": null,
+      "rtts": [],
+      "timeout": true
+    },
+    {
+      "hop": 12,
+      "ip": "60.251.170.11",
+      "hostname": null,
+      "rtts": [
+        19.244,
+        38.092,
+        11.445
+      ],
+      "avg_rtt": 22.93,
+      "timeout": false
+    }
+  ],
+  "num_hops": 11,
+  "success": true,
+  "raw_output": " 1  192.168.50.1  14.472 ms  8.607 ms  2.164 ms\n 2  140.123.103.250  3.039 ms  2.796 ms  3.161 ms\n 3  140.123.9.249  3.018 ms  2.946 ms  2.438 ms\n 4  140.123.0.246  4.738 ms  3.463 ms  4.997 ms\n 5  140.130.252.251  4.076 ms  4.112 ms  3.774 ms\n 6  211.22.226.198  4.406 ms  4.097 ms  3.973 ms\n 7  * * *\n 8  * * *\n 9  220.128.4.225  20.930 ms  12.388 ms  11.919 ms\n10  168.95.210.29  10.017 ms  17.618 ms  20.687 ms\n11  * * *\n12  60.251.170.11  19.244 ms  38.092 ms  11.445 ms\n",
+  "category": "financial_banks",
+  "base_domain": "fubon.com",
+  "service_variant": "www.fubon.com",
+  "is_bare_domain": false
+}

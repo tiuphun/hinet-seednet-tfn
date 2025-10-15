@@ -1,0 +1,130 @@
+{
+  "timestamp": "2025-10-14T21:13:18.707642",
+  "vantage_point": "university",
+  "target": "www.esunbank.com.tw",
+  "target_ip": "61.220.45.161",
+  "protocol": "icmp",
+  "port": null,
+  "duration_seconds": 30.29,
+  "hops": [
+    {
+      "hop": 2,
+      "ip": "140.123.103.250",
+      "hostname": null,
+      "rtts": [
+        2.75,
+        2.796,
+        2.6
+      ],
+      "avg_rtt": 2.72,
+      "timeout": false
+    },
+    {
+      "hop": 3,
+      "ip": "140.123.9.249",
+      "hostname": null,
+      "rtts": [
+        2.953,
+        2.849,
+        4.321
+      ],
+      "avg_rtt": 3.37,
+      "timeout": false
+    },
+    {
+      "hop": 4,
+      "ip": "140.123.0.246",
+      "hostname": null,
+      "rtts": [
+        3.552,
+        6.501,
+        3.81
+      ],
+      "avg_rtt": 4.62,
+      "timeout": false
+    },
+    {
+      "hop": 5,
+      "ip": "140.130.252.251",
+      "hostname": null,
+      "rtts": [
+        4.188,
+        7.296,
+        3.903
+      ],
+      "avg_rtt": 5.13,
+      "timeout": false
+    },
+    {
+      "hop": 6,
+      "ip": "211.22.226.198",
+      "hostname": null,
+      "rtts": [
+        7.592,
+        5.135,
+        4.713
+      ],
+      "avg_rtt": 5.81,
+      "timeout": false
+    },
+    {
+      "hop": 7,
+      "ip": null,
+      "hostname": null,
+      "rtts": [],
+      "timeout": true
+    },
+    {
+      "hop": 8,
+      "ip": null,
+      "hostname": null,
+      "rtts": [],
+      "timeout": true
+    },
+    {
+      "hop": 9,
+      "ip": "220.128.4.217",
+      "hostname": null,
+      "rtts": [
+        22.491,
+        13.01,
+        12.425
+      ],
+      "avg_rtt": 15.98,
+      "timeout": false
+    },
+    {
+      "hop": 10,
+      "ip": null,
+      "hostname": null,
+      "rtts": [],
+      "timeout": true
+    },
+    {
+      "hop": 11,
+      "ip": null,
+      "hostname": null,
+      "rtts": [],
+      "timeout": true
+    },
+    {
+      "hop": 12,
+      "ip": "61.220.45.161",
+      "hostname": null,
+      "rtts": [
+        24.811,
+        15.542,
+        14.297
+      ],
+      "avg_rtt": 18.22,
+      "timeout": false
+    }
+  ],
+  "num_hops": 11,
+  "success": true,
+  "raw_output": " 1  192.168.50.1  9.405 ms  2.469 ms  5.496 ms\n 2  140.123.103.250  2.750 ms  2.796 ms  2.600 ms\n 3  140.123.9.249  2.953 ms  2.849 ms  4.321 ms\n 4  140.123.0.246  3.552 ms  6.501 ms  3.810 ms\n 5  140.130.252.251  4.188 ms  7.296 ms  3.903 ms\n 6  211.22.226.198  7.592 ms  5.135 ms  4.713 ms\n 7  * * *\n 8  * * *\n 9  220.128.4.217  22.491 ms  13.010 ms  12.425 ms\n10  * 168.95.209.45  11.978 ms  10.615 ms\n11  * * *\n12  61.220.45.161  24.811 ms  15.542 ms  14.297 ms\n",
+  "category": "financial_banks",
+  "base_domain": "esunbank.com.tw",
+  "service_variant": "www.esunbank.com.tw",
+  "is_bare_domain": false
+}

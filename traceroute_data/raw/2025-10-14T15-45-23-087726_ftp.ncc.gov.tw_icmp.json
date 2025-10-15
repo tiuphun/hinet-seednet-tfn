@@ -1,0 +1,125 @@
+{
+  "timestamp": "2025-10-14T15:45:23.087726",
+  "vantage_point": "university",
+  "target": "ftp.ncc.gov.tw",
+  "target_ip": "211.79.138.109",
+  "protocol": "icmp",
+  "port": null,
+  "duration_seconds": 3.3,
+  "hops": [
+    {
+      "hop": 2,
+      "ip": "140.123.103.250",
+      "hostname": null,
+      "rtts": [
+        3.785,
+        3.757,
+        3.626
+      ],
+      "avg_rtt": 3.72,
+      "timeout": false
+    },
+    {
+      "hop": 3,
+      "ip": "140.123.9.249",
+      "hostname": null,
+      "rtts": [
+        3.86,
+        4.602,
+        4.754
+      ],
+      "avg_rtt": 4.41,
+      "timeout": false
+    },
+    {
+      "hop": 4,
+      "ip": "140.123.0.246",
+      "hostname": null,
+      "rtts": [
+        6.536,
+        4.508,
+        11.083
+      ],
+      "avg_rtt": 7.38,
+      "timeout": false
+    },
+    {
+      "hop": 5,
+      "ip": "140.130.252.251",
+      "hostname": null,
+      "rtts": [
+        7.097,
+        30.042,
+        19.133
+      ],
+      "avg_rtt": 18.76,
+      "timeout": false
+    },
+    {
+      "hop": 6,
+      "ip": "192.192.61.142",
+      "hostname": null,
+      "rtts": [
+        7.809,
+        6.821,
+        6.061
+      ],
+      "avg_rtt": 6.9,
+      "timeout": false
+    },
+    {
+      "hop": 7,
+      "ip": "192.192.61.37",
+      "hostname": null,
+      "rtts": [
+        11.554,
+        11.204,
+        11.378
+      ],
+      "avg_rtt": 11.38,
+      "timeout": false
+    },
+    {
+      "hop": 8,
+      "ip": "192.192.61.32",
+      "hostname": null,
+      "rtts": [
+        7.482,
+        7.789,
+        25.468
+      ],
+      "avg_rtt": 13.58,
+      "timeout": false
+    },
+    {
+      "hop": 9,
+      "ip": "192.192.61.209",
+      "hostname": null,
+      "rtts": [
+        10.542,
+        9.607,
+        10.638
+      ],
+      "avg_rtt": 10.26,
+      "timeout": false
+    },
+    {
+      "hop": 10,
+      "ip": "10.96.81.12",
+      "hostname": null,
+      "rtts": [
+        23.717,
+        14.199
+      ],
+      "avg_rtt": 18.96,
+      "timeout": false
+    }
+  ],
+  "num_hops": 9,
+  "success": false,
+  "raw_output": " 1  192.168.50.1  2.657 ms  2.002 ms  2.801 ms\n 2  140.123.103.250  3.785 ms  3.757 ms  3.626 ms\n 3  140.123.9.249  3.860 ms  4.602 ms  4.754 ms\n 4  140.123.0.246  6.536 ms  4.508 ms  11.083 ms\n 5  140.130.252.251  7.097 ms  30.042 ms  19.133 ms\n 6  192.192.61.142  7.809 ms  6.821 ms  6.061 ms\n 7  192.192.61.37  11.554 ms  11.204 ms  11.378 ms\n 8  192.192.61.32  7.482 ms  7.789 ms  25.468 ms\n 9  192.192.61.209  10.542 ms  9.607 ms  10.638 ms\n10  10.96.81.12  23.717 ms !X *  14.199 ms !X\n",
+  "category": "government_central",
+  "base_domain": "ncc.gov.tw",
+  "service_variant": "ftp.ncc.gov.tw",
+  "is_bare_domain": false
+}

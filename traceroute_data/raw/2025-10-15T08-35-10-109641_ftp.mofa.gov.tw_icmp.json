@@ -1,0 +1,125 @@
+{
+  "timestamp": "2025-10-15T08:35:10.109641",
+  "vantage_point": "university",
+  "target": "ftp.mofa.gov.tw",
+  "target_ip": "210.69.210.1",
+  "protocol": "icmp",
+  "port": null,
+  "duration_seconds": 3.23,
+  "hops": [
+    {
+      "hop": 2,
+      "ip": "140.123.103.250",
+      "hostname": null,
+      "rtts": [
+        3.019,
+        3.582,
+        3.788
+      ],
+      "avg_rtt": 3.46,
+      "timeout": false
+    },
+    {
+      "hop": 3,
+      "ip": "140.123.9.249",
+      "hostname": null,
+      "rtts": [
+        2.852,
+        2.69,
+        2.806
+      ],
+      "avg_rtt": 2.78,
+      "timeout": false
+    },
+    {
+      "hop": 4,
+      "ip": "140.123.0.246",
+      "hostname": null,
+      "rtts": [
+        3.453,
+        3.379,
+        4.122
+      ],
+      "avg_rtt": 3.65,
+      "timeout": false
+    },
+    {
+      "hop": 5,
+      "ip": "140.130.252.251",
+      "hostname": null,
+      "rtts": [
+        4.515,
+        4.07,
+        5.696
+      ],
+      "avg_rtt": 4.76,
+      "timeout": false
+    },
+    {
+      "hop": 6,
+      "ip": "192.192.61.142",
+      "hostname": null,
+      "rtts": [
+        6.363,
+        18.04,
+        10.861
+      ],
+      "avg_rtt": 11.75,
+      "timeout": false
+    },
+    {
+      "hop": 7,
+      "ip": "192.192.61.37",
+      "hostname": null,
+      "rtts": [
+        7.791,
+        8.713,
+        7.465
+      ],
+      "avg_rtt": 7.99,
+      "timeout": false
+    },
+    {
+      "hop": 8,
+      "ip": "192.192.61.32",
+      "hostname": null,
+      "rtts": [
+        12.411,
+        9.045,
+        12.254
+      ],
+      "avg_rtt": 11.24,
+      "timeout": false
+    },
+    {
+      "hop": 9,
+      "ip": "192.192.61.209",
+      "hostname": null,
+      "rtts": [
+        8.032,
+        8.506,
+        8.525
+      ],
+      "avg_rtt": 8.35,
+      "timeout": false
+    },
+    {
+      "hop": 10,
+      "ip": "10.96.81.12",
+      "hostname": null,
+      "rtts": [
+        10.193,
+        19.547
+      ],
+      "avg_rtt": 14.87,
+      "timeout": false
+    }
+  ],
+  "num_hops": 9,
+  "success": false,
+  "raw_output": " 1  192.168.50.1  11.406 ms  6.107 ms  2.900 ms\n 2  140.123.103.250  3.019 ms  3.582 ms  3.788 ms\n 3  140.123.9.249  2.852 ms  2.690 ms  2.806 ms\n 4  140.123.0.246  3.453 ms  3.379 ms  4.122 ms\n 5  140.130.252.251  4.515 ms  4.070 ms  5.696 ms\n 6  192.192.61.142  6.363 ms  18.040 ms  10.861 ms\n 7  192.192.61.37  7.791 ms  8.713 ms  7.465 ms\n 8  192.192.61.32  12.411 ms  9.045 ms  12.254 ms\n 9  192.192.61.209  8.032 ms  8.506 ms  8.525 ms\n10  10.96.81.12  10.193 ms !X *  19.547 ms !X\n",
+  "category": "government_central",
+  "base_domain": "mofa.gov.tw",
+  "service_variant": "ftp.mofa.gov.tw",
+  "is_bare_domain": false
+}

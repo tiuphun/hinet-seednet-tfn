@@ -1,0 +1,125 @@
+{
+  "timestamp": "2025-10-15T04:28:44.540384",
+  "vantage_point": "university",
+  "target": "www2.mohw.gov.tw",
+  "target_ip": "203.65.100.138",
+  "protocol": "icmp",
+  "port": null,
+  "duration_seconds": 3.23,
+  "hops": [
+    {
+      "hop": 2,
+      "ip": "140.123.103.250",
+      "hostname": null,
+      "rtts": [
+        2.634,
+        2.693,
+        2.771
+      ],
+      "avg_rtt": 2.7,
+      "timeout": false
+    },
+    {
+      "hop": 3,
+      "ip": "140.123.9.249",
+      "hostname": null,
+      "rtts": [
+        4.699,
+        2.725,
+        2.726
+      ],
+      "avg_rtt": 3.38,
+      "timeout": false
+    },
+    {
+      "hop": 4,
+      "ip": "140.123.0.246",
+      "hostname": null,
+      "rtts": [
+        3.635,
+        3.398,
+        5.806
+      ],
+      "avg_rtt": 4.28,
+      "timeout": false
+    },
+    {
+      "hop": 5,
+      "ip": "140.130.252.251",
+      "hostname": null,
+      "rtts": [
+        4.304,
+        4.74,
+        4.113
+      ],
+      "avg_rtt": 4.39,
+      "timeout": false
+    },
+    {
+      "hop": 6,
+      "ip": "192.192.61.142",
+      "hostname": null,
+      "rtts": [
+        5.57,
+        7.716,
+        5.619
+      ],
+      "avg_rtt": 6.3,
+      "timeout": false
+    },
+    {
+      "hop": 7,
+      "ip": "192.192.61.37",
+      "hostname": null,
+      "rtts": [
+        9.638,
+        8.105,
+        9.008
+      ],
+      "avg_rtt": 8.92,
+      "timeout": false
+    },
+    {
+      "hop": 8,
+      "ip": "192.192.61.32",
+      "hostname": null,
+      "rtts": [
+        8.389,
+        10.152,
+        9.342
+      ],
+      "avg_rtt": 9.29,
+      "timeout": false
+    },
+    {
+      "hop": 9,
+      "ip": "192.192.61.209",
+      "hostname": null,
+      "rtts": [
+        15.255,
+        11.729,
+        7.77
+      ],
+      "avg_rtt": 11.58,
+      "timeout": false
+    },
+    {
+      "hop": 10,
+      "ip": "10.96.81.12",
+      "hostname": null,
+      "rtts": [
+        9.647,
+        9.385
+      ],
+      "avg_rtt": 9.52,
+      "timeout": false
+    }
+  ],
+  "num_hops": 9,
+  "success": false,
+  "raw_output": " 1  192.168.50.1  16.083 ms  14.501 ms  4.859 ms\n 2  140.123.103.250  2.634 ms  2.693 ms  2.771 ms\n 3  140.123.9.249  4.699 ms  2.725 ms  2.726 ms\n 4  140.123.0.246  3.635 ms  3.398 ms  5.806 ms\n 5  140.130.252.251  4.304 ms  4.740 ms  4.113 ms\n 6  192.192.61.142  5.570 ms  7.716 ms  5.619 ms\n 7  192.192.61.37  9.638 ms  8.105 ms  9.008 ms\n 8  192.192.61.32  8.389 ms  10.152 ms  9.342 ms\n 9  192.192.61.209  15.255 ms  11.729 ms  7.770 ms\n10  10.96.81.12  9.647 ms !X *  9.385 ms !X\n",
+  "category": "government_central",
+  "base_domain": "mohw.gov.tw",
+  "service_variant": "www2.mohw.gov.tw",
+  "is_bare_domain": false
+}

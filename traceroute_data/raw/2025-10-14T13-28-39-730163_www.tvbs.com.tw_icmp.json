@@ -1,0 +1,133 @@
+{
+  "timestamp": "2025-10-14T13:28:39.730163",
+  "vantage_point": "cht-mobile",
+  "target": "www.tvbs.com.tw",
+  "target_ip": "203.69.138.215",
+  "protocol": "icmp",
+  "port": null,
+  "duration_seconds": 9.65,
+  "hops": [
+    {
+      "hop": 2,
+      "ip": "140.123.103.250",
+      "hostname": null,
+      "rtts": [
+        19.248,
+        7.048,
+        3.7
+      ],
+      "avg_rtt": 10.0,
+      "timeout": false
+    },
+    {
+      "hop": 3,
+      "ip": "140.123.9.249",
+      "hostname": null,
+      "rtts": [
+        14.905,
+        13.586,
+        53.54
+      ],
+      "avg_rtt": 27.34,
+      "timeout": false
+    },
+    {
+      "hop": 4,
+      "ip": "140.123.0.246",
+      "hostname": null,
+      "rtts": [
+        8.632,
+        16.317,
+        22.495
+      ],
+      "avg_rtt": 15.81,
+      "timeout": false
+    },
+    {
+      "hop": 5,
+      "ip": "140.130.252.251",
+      "hostname": null,
+      "rtts": [
+        17.772,
+        29.39,
+        91.984
+      ],
+      "avg_rtt": 46.38,
+      "timeout": false
+    },
+    {
+      "hop": 6,
+      "ip": "211.22.226.198",
+      "hostname": null,
+      "rtts": [
+        6.797,
+        19.578,
+        8.711
+      ],
+      "avg_rtt": 11.7,
+      "timeout": false
+    },
+    {
+      "hop": 7,
+      "ip": null,
+      "hostname": null,
+      "rtts": [],
+      "timeout": true
+    },
+    {
+      "hop": 8,
+      "ip": "220.128.9.222",
+      "hostname": null,
+      "rtts": [
+        11.647,
+        13.904,
+        11.686
+      ],
+      "avg_rtt": 12.41,
+      "timeout": false
+    },
+    {
+      "hop": 9,
+      "ip": "220.128.9.89",
+      "hostname": null,
+      "rtts": [
+        16.446,
+        16.835,
+        11.805
+      ],
+      "avg_rtt": 15.03,
+      "timeout": false
+    },
+    {
+      "hop": 10,
+      "ip": "203.69.140.17",
+      "hostname": null,
+      "rtts": [
+        19.929,
+        15.917,
+        55.882
+      ],
+      "avg_rtt": 30.58,
+      "timeout": false
+    },
+    {
+      "hop": 11,
+      "ip": "203.69.138.215",
+      "hostname": null,
+      "rtts": [
+        27.474,
+        41.736,
+        19.528
+      ],
+      "avg_rtt": 29.58,
+      "timeout": false
+    }
+  ],
+  "num_hops": 10,
+  "success": true,
+  "raw_output": " 1  192.168.50.1  2.655 ms  5.507 ms  8.734 ms\n 2  140.123.103.250  19.248 ms  7.048 ms  3.700 ms\n 3  140.123.9.249  14.905 ms  13.586 ms  53.540 ms\n 4  140.123.0.246  8.632 ms  16.317 ms  22.495 ms\n 5  140.130.252.251  17.772 ms  29.390 ms  91.984 ms\n 6  211.22.226.198  6.797 ms  19.578 ms  8.711 ms\n 7  * * *\n 8  220.128.9.222  11.647 ms  13.904 ms  11.686 ms\n 9  220.128.9.89  16.446 ms  16.835 ms  11.805 ms\n10  203.69.140.17  19.929 ms  15.917 ms  55.882 ms\n11  203.69.138.215  27.474 ms  41.736 ms  19.528 ms\n",
+  "category": "media",
+  "base_domain": "tvbs.com.tw",
+  "service_variant": "www.tvbs.com.tw",
+  "is_bare_domain": false
+}

@@ -1,0 +1,137 @@
+{
+  "timestamp": "2025-10-14T20:03:12.901242",
+  "vantage_point": "university",
+  "target": "mail.npa.gov.tw",
+  "target_ip": "117.56.51.124",
+  "protocol": "icmp",
+  "port": null,
+  "duration_seconds": 3.24,
+  "hops": [
+    {
+      "hop": 2,
+      "ip": "140.123.103.250",
+      "hostname": null,
+      "rtts": [
+        6.845,
+        2.878,
+        2.622
+      ],
+      "avg_rtt": 4.11,
+      "timeout": false
+    },
+    {
+      "hop": 3,
+      "ip": "140.123.9.249",
+      "hostname": null,
+      "rtts": [
+        2.693,
+        2.691,
+        4.725
+      ],
+      "avg_rtt": 3.37,
+      "timeout": false
+    },
+    {
+      "hop": 4,
+      "ip": "140.123.0.246",
+      "hostname": null,
+      "rtts": [
+        4.848,
+        3.731,
+        3.971
+      ],
+      "avg_rtt": 4.18,
+      "timeout": false
+    },
+    {
+      "hop": 5,
+      "ip": "140.130.252.251",
+      "hostname": null,
+      "rtts": [
+        6.111,
+        4.134,
+        4.065
+      ],
+      "avg_rtt": 4.77,
+      "timeout": false
+    },
+    {
+      "hop": 6,
+      "ip": "192.192.61.142",
+      "hostname": null,
+      "rtts": [
+        6.312,
+        10.595,
+        8.248
+      ],
+      "avg_rtt": 8.38,
+      "timeout": false
+    },
+    {
+      "hop": 7,
+      "ip": "192.192.61.9",
+      "hostname": null,
+      "rtts": [
+        7.231,
+        10.711,
+        6.899
+      ],
+      "avg_rtt": 8.28,
+      "timeout": false
+    },
+    {
+      "hop": 8,
+      "ip": "192.192.61.30",
+      "hostname": null,
+      "rtts": [
+        8.759,
+        7.101,
+        9.009
+      ],
+      "avg_rtt": 8.29,
+      "timeout": false
+    },
+    {
+      "hop": 9,
+      "ip": "192.192.61.4",
+      "hostname": null,
+      "rtts": [
+        9.462,
+        8.425,
+        8.071
+      ],
+      "avg_rtt": 8.65,
+      "timeout": false
+    },
+    {
+      "hop": 10,
+      "ip": "192.192.61.209",
+      "hostname": null,
+      "rtts": [
+        7.06,
+        6.554,
+        6.993
+      ],
+      "avg_rtt": 6.87,
+      "timeout": false
+    },
+    {
+      "hop": 11,
+      "ip": "10.96.81.12",
+      "hostname": null,
+      "rtts": [
+        10.746,
+        16.898
+      ],
+      "avg_rtt": 13.82,
+      "timeout": false
+    }
+  ],
+  "num_hops": 10,
+  "success": false,
+  "raw_output": " 1  192.168.50.1  14.659 ms  4.463 ms  2.265 ms\n 2  140.123.103.250  6.845 ms  2.878 ms  2.622 ms\n 3  140.123.9.249  2.693 ms  2.691 ms  4.725 ms\n 4  140.123.0.246  4.848 ms  3.731 ms  3.971 ms\n 5  140.130.252.251  6.111 ms  4.134 ms  4.065 ms\n 6  192.192.61.142  6.312 ms  10.595 ms  8.248 ms\n 7  192.192.61.9  7.231 ms  10.711 ms  6.899 ms\n 8  192.192.61.30  8.759 ms  7.101 ms  9.009 ms\n 9  192.192.61.4  9.462 ms  8.425 ms  8.071 ms\n10  192.192.61.209  7.060 ms  6.554 ms  6.993 ms\n11  10.96.81.12  10.746 ms !X *  16.898 ms !X\n",
+  "category": "government_critical",
+  "base_domain": "npa.gov.tw",
+  "service_variant": "mail.npa.gov.tw",
+  "is_bare_domain": false
+}

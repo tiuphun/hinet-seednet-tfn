@@ -1,0 +1,133 @@
+{
+  "timestamp": "2025-10-14T14:33:58.978639",
+  "vantage_point": "cht-mobile",
+  "target": "www.metro.taipei",
+  "target_ip": "104.18.11.245",
+  "protocol": "icmp",
+  "port": null,
+  "duration_seconds": 6.26,
+  "hops": [
+    {
+      "hop": 2,
+      "ip": "140.123.103.250",
+      "hostname": null,
+      "rtts": [
+        3.844,
+        2.838,
+        6.144
+      ],
+      "avg_rtt": 4.28,
+      "timeout": false
+    },
+    {
+      "hop": 3,
+      "ip": "140.123.9.249",
+      "hostname": null,
+      "rtts": [
+        5.088,
+        2.689,
+        3.305
+      ],
+      "avg_rtt": 3.69,
+      "timeout": false
+    },
+    {
+      "hop": 4,
+      "ip": "140.123.0.246",
+      "hostname": null,
+      "rtts": [
+        3.386,
+        3.108,
+        3.331
+      ],
+      "avg_rtt": 3.27,
+      "timeout": false
+    },
+    {
+      "hop": 5,
+      "ip": "140.130.252.251",
+      "hostname": null,
+      "rtts": [
+        3.906,
+        9.312,
+        4.13
+      ],
+      "avg_rtt": 5.78,
+      "timeout": false
+    },
+    {
+      "hop": 6,
+      "ip": "192.192.61.142",
+      "hostname": null,
+      "rtts": [
+        5.76,
+        7.401,
+        8.148
+      ],
+      "avg_rtt": 7.1,
+      "timeout": false
+    },
+    {
+      "hop": 7,
+      "ip": "192.192.61.20",
+      "hostname": null,
+      "rtts": [
+        7.748,
+        7.775,
+        7.68
+      ],
+      "avg_rtt": 7.73,
+      "timeout": false
+    },
+    {
+      "hop": 8,
+      "ip": "192.192.61.48",
+      "hostname": null,
+      "rtts": [
+        11.039,
+        8.55,
+        9.994
+      ],
+      "avg_rtt": 9.86,
+      "timeout": false
+    },
+    {
+      "hop": 9,
+      "ip": "192.192.68.62",
+      "hostname": null,
+      "rtts": [
+        8.924,
+        14.096,
+        21.843
+      ],
+      "avg_rtt": 14.95,
+      "timeout": false
+    },
+    {
+      "hop": 10,
+      "ip": null,
+      "hostname": null,
+      "rtts": [],
+      "timeout": true
+    },
+    {
+      "hop": 11,
+      "ip": "104.18.11.245",
+      "hostname": null,
+      "rtts": [
+        21.07,
+        12.026,
+        9.974
+      ],
+      "avg_rtt": 14.36,
+      "timeout": false
+    }
+  ],
+  "num_hops": 10,
+  "success": true,
+  "raw_output": " 1  192.168.50.1  2.364 ms  7.992 ms  2.508 ms\n 2  140.123.103.250  3.844 ms  2.838 ms  6.144 ms\n 3  140.123.9.249  5.088 ms  2.689 ms  3.305 ms\n 4  140.123.0.246  3.386 ms  3.108 ms  3.331 ms\n 5  140.130.252.251  3.906 ms  9.312 ms  4.130 ms\n 6  192.192.61.142  5.760 ms  7.401 ms  8.148 ms\n 7  192.192.61.20  7.748 ms  7.775 ms  7.680 ms\n 8  192.192.61.48  11.039 ms  8.550 ms  9.994 ms\n 9  192.192.68.62  8.924 ms  14.096 ms  21.843 ms\n10  * * 203.163.222.39  19.496 ms\n11  104.18.11.245  21.070 ms  12.026 ms  9.974 ms\n",
+  "category": "critical_infra",
+  "base_domain": "metro.taipei",
+  "service_variant": "www.metro.taipei",
+  "is_bare_domain": false
+}

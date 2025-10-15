@@ -1,0 +1,144 @@
+{
+  "timestamp": "2025-10-15T00:24:06.608534",
+  "vantage_point": "university",
+  "target": "cdc.gov.tw",
+  "target_ip": "61.57.41.148",
+  "protocol": "icmp",
+  "port": null,
+  "duration_seconds": 9.28,
+  "hops": [
+    {
+      "hop": 2,
+      "ip": "140.123.103.250",
+      "hostname": null,
+      "rtts": [
+        2.873,
+        2.61,
+        3.561
+      ],
+      "avg_rtt": 3.01,
+      "timeout": false
+    },
+    {
+      "hop": 3,
+      "ip": "140.123.9.249",
+      "hostname": null,
+      "rtts": [
+        5.283,
+        2.455,
+        2.96
+      ],
+      "avg_rtt": 3.57,
+      "timeout": false
+    },
+    {
+      "hop": 4,
+      "ip": "140.123.0.246",
+      "hostname": null,
+      "rtts": [
+        6.321,
+        4.047,
+        3.366
+      ],
+      "avg_rtt": 4.58,
+      "timeout": false
+    },
+    {
+      "hop": 5,
+      "ip": "140.130.252.251",
+      "hostname": null,
+      "rtts": [
+        4.952,
+        8.561,
+        5.289
+      ],
+      "avg_rtt": 6.27,
+      "timeout": false
+    },
+    {
+      "hop": 6,
+      "ip": "192.192.61.142",
+      "hostname": null,
+      "rtts": [
+        6.013,
+        5.645,
+        10.078
+      ],
+      "avg_rtt": 7.25,
+      "timeout": false
+    },
+    {
+      "hop": 7,
+      "ip": "192.192.61.9",
+      "hostname": null,
+      "rtts": [
+        5.925,
+        5.751,
+        5.371
+      ],
+      "avg_rtt": 5.68,
+      "timeout": false
+    },
+    {
+      "hop": 8,
+      "ip": "192.192.61.30",
+      "hostname": null,
+      "rtts": [
+        8.365,
+        6.575,
+        9.058
+      ],
+      "avg_rtt": 8.0,
+      "timeout": false
+    },
+    {
+      "hop": 9,
+      "ip": "192.192.61.4",
+      "hostname": null,
+      "rtts": [
+        12.63,
+        21.272,
+        9.935
+      ],
+      "avg_rtt": 14.61,
+      "timeout": false
+    },
+    {
+      "hop": 10,
+      "ip": "192.192.61.209",
+      "hostname": null,
+      "rtts": [
+        6.264,
+        9.444,
+        7.429
+      ],
+      "avg_rtt": 7.71,
+      "timeout": false
+    },
+    {
+      "hop": 11,
+      "ip": null,
+      "hostname": null,
+      "rtts": [],
+      "timeout": true
+    },
+    {
+      "hop": 12,
+      "ip": "10.96.81.12",
+      "hostname": null,
+      "rtts": [
+        18.408,
+        18.742
+      ],
+      "avg_rtt": 18.58,
+      "timeout": false
+    }
+  ],
+  "num_hops": 11,
+  "success": false,
+  "raw_output": " 1  192.168.50.1  2.806 ms  2.018 ms  2.203 ms\n 2  140.123.103.250  2.873 ms  2.610 ms  3.561 ms\n 3  140.123.9.249  5.283 ms  2.455 ms  2.960 ms\n 4  140.123.0.246  6.321 ms  4.047 ms  3.366 ms\n 5  140.130.252.251  4.952 ms  8.561 ms  5.289 ms\n 6  192.192.61.142  6.013 ms  5.645 ms  10.078 ms\n 7  192.192.61.9  5.925 ms  5.751 ms  5.371 ms\n 8  192.192.61.30  8.365 ms  6.575 ms  9.058 ms\n 9  192.192.61.4  12.630 ms  21.272 ms  9.935 ms\n10  192.192.61.209  6.264 ms  9.444 ms  7.429 ms\n11  * 10.96.81.12  13.022 ms !X *\n12  10.96.81.12  18.408 ms !X *  18.742 ms !X\n",
+  "category": "government_critical",
+  "base_domain": "cdc.gov.tw",
+  "service_variant": "cdc.gov.tw",
+  "is_bare_domain": true
+}

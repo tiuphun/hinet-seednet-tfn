@@ -1,0 +1,213 @@
+{
+  "timestamp": "2025-10-14T11:04:03.183709",
+  "vantage_point": "cht-mobile",
+  "target": "smtp.kcg.gov.tw",
+  "target_ip": "223.200.91.225",
+  "protocol": "icmp",
+  "port": null,
+  "duration_seconds": 63.38,
+  "hops": [
+    {
+      "hop": 2,
+      "ip": "140.123.103.250",
+      "hostname": null,
+      "rtts": [
+        2.342,
+        2.607,
+        2.351
+      ],
+      "avg_rtt": 2.43,
+      "timeout": false
+    },
+    {
+      "hop": 3,
+      "ip": "140.123.9.249",
+      "hostname": null,
+      "rtts": [
+        2.147,
+        3.275,
+        2.277
+      ],
+      "avg_rtt": 2.57,
+      "timeout": false
+    },
+    {
+      "hop": 4,
+      "ip": "140.123.0.246",
+      "hostname": null,
+      "rtts": [
+        3.371,
+        2.941,
+        3.571
+      ],
+      "avg_rtt": 3.29,
+      "timeout": false
+    },
+    {
+      "hop": 5,
+      "ip": "140.130.252.251",
+      "hostname": null,
+      "rtts": [
+        3.713,
+        3.312,
+        3.543
+      ],
+      "avg_rtt": 3.52,
+      "timeout": false
+    },
+    {
+      "hop": 6,
+      "ip": "192.192.61.142",
+      "hostname": null,
+      "rtts": [
+        7.421,
+        5.388,
+        5.03
+      ],
+      "avg_rtt": 5.95,
+      "timeout": false
+    },
+    {
+      "hop": 7,
+      "ip": "192.192.61.37",
+      "hostname": null,
+      "rtts": [
+        6.428,
+        6.582,
+        6.483
+      ],
+      "avg_rtt": 6.5,
+      "timeout": false
+    },
+    {
+      "hop": 8,
+      "ip": "192.192.61.32",
+      "hostname": null,
+      "rtts": [
+        7.638,
+        27.049,
+        7.566
+      ],
+      "avg_rtt": 14.08,
+      "timeout": false
+    },
+    {
+      "hop": 9,
+      "ip": "192.192.61.209",
+      "hostname": null,
+      "rtts": [
+        7.614,
+        7.467,
+        8.864
+      ],
+      "avg_rtt": 7.98,
+      "timeout": false
+    },
+    {
+      "hop": 10,
+      "ip": "10.96.81.12",
+      "hostname": null,
+      "rtts": [
+        9.226
+      ],
+      "avg_rtt": 9.23,
+      "timeout": false
+    },
+    {
+      "hop": 11,
+      "ip": "10.96.81.12",
+      "hostname": null,
+      "rtts": [
+        13.589
+      ],
+      "avg_rtt": 13.59,
+      "timeout": false
+    },
+    {
+      "hop": 12,
+      "ip": null,
+      "hostname": null,
+      "rtts": [],
+      "timeout": true
+    },
+    {
+      "hop": 13,
+      "ip": "10.96.81.12",
+      "hostname": null,
+      "rtts": [
+        8.936
+      ],
+      "avg_rtt": 8.94,
+      "timeout": false
+    },
+    {
+      "hop": 14,
+      "ip": "10.96.81.12",
+      "hostname": null,
+      "rtts": [
+        13.163
+      ],
+      "avg_rtt": 13.16,
+      "timeout": false
+    },
+    {
+      "hop": 15,
+      "ip": null,
+      "hostname": null,
+      "rtts": [],
+      "timeout": true
+    },
+    {
+      "hop": 16,
+      "ip": "10.96.81.12",
+      "hostname": null,
+      "rtts": [
+        13.927
+      ],
+      "avg_rtt": 13.93,
+      "timeout": false
+    },
+    {
+      "hop": 17,
+      "ip": null,
+      "hostname": null,
+      "rtts": [],
+      "timeout": true
+    },
+    {
+      "hop": 18,
+      "ip": null,
+      "hostname": null,
+      "rtts": [],
+      "timeout": true
+    },
+    {
+      "hop": 19,
+      "ip": "10.96.81.12",
+      "hostname": null,
+      "rtts": [
+        9.608
+      ],
+      "avg_rtt": 9.61,
+      "timeout": false
+    },
+    {
+      "hop": 20,
+      "ip": "10.96.81.12",
+      "hostname": null,
+      "rtts": [
+        14.012,
+        11.202
+      ],
+      "avg_rtt": 12.61,
+      "timeout": false
+    }
+  ],
+  "num_hops": 19,
+  "success": false,
+  "raw_output": " 1  192.168.50.1  6.768 ms  2.514 ms  1.991 ms\n 2  140.123.103.250  2.342 ms  2.607 ms  2.351 ms\n 3  140.123.9.249  2.147 ms  3.275 ms  2.277 ms\n 4  140.123.0.246  3.371 ms  2.941 ms  3.571 ms\n 5  140.130.252.251  3.713 ms  3.312 ms  3.543 ms\n 6  192.192.61.142  7.421 ms  5.388 ms  5.030 ms\n 7  192.192.61.37  6.428 ms  6.582 ms  6.483 ms\n 8  192.192.61.32  7.638 ms  27.049 ms  7.566 ms\n 9  192.192.61.209  7.614 ms  7.467 ms  8.864 ms\n10  10.96.81.12  9.226 ms !X * *\n11  10.96.81.12  13.589 ms !X * *\n12  * 10.96.81.12  13.384 ms !X *\n13  10.96.81.12  8.936 ms !X * *\n14  10.96.81.12  13.163 ms !X * *\n15  * 10.96.81.12  9.875 ms !X *\n16  10.96.81.12  13.927 ms !X * *\n17  * 10.96.81.12  9.436 ms !X *\n18  * 10.96.81.12  9.308 ms !X *\n19  10.96.81.12  9.608 ms !X * *\n20  10.96.81.12  14.012 ms !X *  11.202 ms !X\n",
+  "category": "government_local",
+  "base_domain": "kcg.gov.tw",
+  "service_variant": "smtp.kcg.gov.tw",
+  "is_bare_domain": false
+}

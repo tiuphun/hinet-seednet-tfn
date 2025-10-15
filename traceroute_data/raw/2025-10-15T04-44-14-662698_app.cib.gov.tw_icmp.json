@@ -1,0 +1,137 @@
+{
+  "timestamp": "2025-10-15T04:44:14.662698",
+  "vantage_point": "university",
+  "target": "app.cib.gov.tw",
+  "target_ip": "210.69.153.37",
+  "protocol": "icmp",
+  "port": null,
+  "duration_seconds": 3.24,
+  "hops": [
+    {
+      "hop": 2,
+      "ip": "140.123.103.250",
+      "hostname": null,
+      "rtts": [
+        3.169,
+        2.595,
+        2.962
+      ],
+      "avg_rtt": 2.91,
+      "timeout": false
+    },
+    {
+      "hop": 3,
+      "ip": "140.123.9.249",
+      "hostname": null,
+      "rtts": [
+        4.498,
+        2.056,
+        2.756
+      ],
+      "avg_rtt": 3.1,
+      "timeout": false
+    },
+    {
+      "hop": 4,
+      "ip": "140.123.0.246",
+      "hostname": null,
+      "rtts": [
+        4.954,
+        3.773,
+        3.493
+      ],
+      "avg_rtt": 4.07,
+      "timeout": false
+    },
+    {
+      "hop": 5,
+      "ip": "140.130.252.251",
+      "hostname": null,
+      "rtts": [
+        3.888,
+        5.098,
+        8.259
+      ],
+      "avg_rtt": 5.75,
+      "timeout": false
+    },
+    {
+      "hop": 6,
+      "ip": "192.192.61.142",
+      "hostname": null,
+      "rtts": [
+        5.787,
+        7.117,
+        8.623
+      ],
+      "avg_rtt": 7.18,
+      "timeout": false
+    },
+    {
+      "hop": 7,
+      "ip": "192.192.61.9",
+      "hostname": null,
+      "rtts": [
+        5.864,
+        6.524,
+        5.795
+      ],
+      "avg_rtt": 6.06,
+      "timeout": false
+    },
+    {
+      "hop": 8,
+      "ip": "192.192.61.30",
+      "hostname": null,
+      "rtts": [
+        14.576,
+        6.661,
+        7.437
+      ],
+      "avg_rtt": 9.56,
+      "timeout": false
+    },
+    {
+      "hop": 9,
+      "ip": "192.192.61.4",
+      "hostname": null,
+      "rtts": [
+        8.471,
+        8.14,
+        10.441
+      ],
+      "avg_rtt": 9.02,
+      "timeout": false
+    },
+    {
+      "hop": 10,
+      "ip": "192.192.61.209",
+      "hostname": null,
+      "rtts": [
+        7.159,
+        6.359,
+        6.67
+      ],
+      "avg_rtt": 6.73,
+      "timeout": false
+    },
+    {
+      "hop": 11,
+      "ip": "10.96.81.12",
+      "hostname": null,
+      "rtts": [
+        10.578,
+        18.331
+      ],
+      "avg_rtt": 14.45,
+      "timeout": false
+    }
+  ],
+  "num_hops": 10,
+  "success": false,
+  "raw_output": " 1  192.168.50.1  5.382 ms  9.637 ms  11.979 ms\n 2  140.123.103.250  3.169 ms  2.595 ms  2.962 ms\n 3  140.123.9.249  4.498 ms  2.056 ms  2.756 ms\n 4  140.123.0.246  4.954 ms  3.773 ms  3.493 ms\n 5  140.130.252.251  3.888 ms  5.098 ms  8.259 ms\n 6  192.192.61.142  5.787 ms  7.117 ms  8.623 ms\n 7  192.192.61.9  5.864 ms  6.524 ms  5.795 ms\n 8  192.192.61.30  14.576 ms  6.661 ms  7.437 ms\n 9  192.192.61.4  8.471 ms  8.140 ms  10.441 ms\n10  192.192.61.209  7.159 ms  6.359 ms  6.670 ms\n11  10.96.81.12  10.578 ms !X *  18.331 ms !X\n",
+  "category": "government_critical",
+  "base_domain": "cib.gov.tw",
+  "service_variant": "app.cib.gov.tw",
+  "is_bare_domain": false
+}

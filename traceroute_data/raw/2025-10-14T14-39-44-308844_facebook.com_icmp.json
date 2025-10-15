@@ -1,0 +1,185 @@
+{
+  "timestamp": "2025-10-14T14:39:44.308844",
+  "vantage_point": "cht-mobile",
+  "target": "facebook.com",
+  "target_ip": "31.13.87.36",
+  "protocol": "icmp",
+  "port": null,
+  "duration_seconds": 3.42,
+  "hops": [
+    {
+      "hop": 2,
+      "ip": "140.123.103.250",
+      "hostname": null,
+      "rtts": [
+        10.732,
+        13.023,
+        11.875
+      ],
+      "avg_rtt": 11.88,
+      "timeout": false
+    },
+    {
+      "hop": 3,
+      "ip": "140.123.9.249",
+      "hostname": null,
+      "rtts": [
+        6.725,
+        8.485
+      ],
+      "avg_rtt": 7.6,
+      "timeout": false
+    },
+    {
+      "hop": 4,
+      "ip": "140.123.0.246",
+      "hostname": null,
+      "rtts": [
+        3.065,
+        6.377,
+        4.556
+      ],
+      "avg_rtt": 4.67,
+      "timeout": false
+    },
+    {
+      "hop": 5,
+      "ip": "140.130.252.251",
+      "hostname": null,
+      "rtts": [
+        8.104,
+        4.693,
+        3.796
+      ],
+      "avg_rtt": 5.53,
+      "timeout": false
+    },
+    {
+      "hop": 6,
+      "ip": "192.192.61.142",
+      "hostname": null,
+      "rtts": [
+        7.464,
+        9.309,
+        6.219
+      ],
+      "avg_rtt": 7.66,
+      "timeout": false
+    },
+    {
+      "hop": 7,
+      "ip": "192.192.61.9",
+      "hostname": null,
+      "rtts": [
+        6.078,
+        13.305,
+        6.885
+      ],
+      "avg_rtt": 8.76,
+      "timeout": false
+    },
+    {
+      "hop": 8,
+      "ip": "192.192.61.30",
+      "hostname": null,
+      "rtts": [
+        6.892,
+        6.808,
+        12.425
+      ],
+      "avg_rtt": 8.71,
+      "timeout": false
+    },
+    {
+      "hop": 9,
+      "ip": "192.192.61.4",
+      "hostname": null,
+      "rtts": [
+        8.847,
+        36.141,
+        9.737
+      ],
+      "avg_rtt": 18.24,
+      "timeout": false
+    },
+    {
+      "hop": 10,
+      "ip": "192.192.61.209",
+      "hostname": null,
+      "rtts": [
+        10.557,
+        6.588,
+        6.929
+      ],
+      "avg_rtt": 8.02,
+      "timeout": false
+    },
+    {
+      "hop": 11,
+      "ip": "211.73.84.16",
+      "hostname": null,
+      "rtts": [
+        9.687,
+        13.202,
+        9.633
+      ],
+      "avg_rtt": 10.84,
+      "timeout": false
+    },
+    {
+      "hop": 12,
+      "ip": "129.134.55.108",
+      "hostname": null,
+      "rtts": [
+        10.349,
+        8.361,
+        7.54
+      ],
+      "avg_rtt": 8.75,
+      "timeout": false
+    },
+    {
+      "hop": 13,
+      "ip": "173.252.64.180",
+      "hostname": null,
+      "rtts": [
+        9.552,
+        8.061,
+        7.522
+      ],
+      "avg_rtt": 8.38,
+      "timeout": false
+    },
+    {
+      "hop": 14,
+      "ip": "129.134.59.220",
+      "hostname": null,
+      "rtts": [
+        10.285,
+        9.306,
+        11.083
+      ],
+      "avg_rtt": 10.22,
+      "timeout": false
+    },
+    {
+      "hop": 15,
+      "ip": "31.13.87.36",
+      "hostname": null,
+      "rtts": [
+        8.199,
+        8.536,
+        9.55
+      ],
+      "avg_rtt": 8.76,
+      "timeout": false
+    }
+  ],
+  "num_hops": 14,
+  "success": true,
+  "raw_output": " 1  192.168.50.1  4.079 ms  6.567 ms  4.269 ms\n 2  140.123.103.250  10.732 ms  13.023 ms  11.875 ms\n 3  140.123.9.249  6.725 ms *  8.485 ms\n 4  140.123.0.246  3.065 ms  6.377 ms  4.556 ms\n 5  140.130.252.251  8.104 ms  4.693 ms  3.796 ms\n 6  192.192.61.142  7.464 ms  9.309 ms  6.219 ms\n 7  192.192.61.9  6.078 ms  13.305 ms  6.885 ms\n 8  192.192.61.30  6.892 ms  6.808 ms  12.425 ms\n 9  192.192.61.4  8.847 ms  36.141 ms  9.737 ms\n10  192.192.61.209  10.557 ms  6.588 ms  6.929 ms\n11  211.73.84.16  9.687 ms  13.202 ms  9.633 ms\n12  129.134.55.108  10.349 ms  8.361 ms  7.540 ms\n13  173.252.64.180  9.552 ms  8.061 ms  7.522 ms\n14  129.134.59.220  10.285 ms  9.306 ms  11.083 ms\n15  31.13.87.36  8.199 ms  8.536 ms  9.550 ms\n",
+  "category": "cdn_global",
+  "base_domain": "facebook.com",
+  "service_variant": "facebook.com",
+  "is_bare_domain": true
+}

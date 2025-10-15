@@ -1,0 +1,213 @@
+{
+  "timestamp": "2025-10-14T22:40:12.413951",
+  "vantage_point": "university",
+  "target": "seednet.net",
+  "target_ip": "64.131.64.91",
+  "protocol": "icmp",
+  "port": null,
+  "duration_seconds": 63.02,
+  "hops": [
+    {
+      "hop": 2,
+      "ip": "140.123.103.250",
+      "hostname": null,
+      "rtts": [
+        3.51,
+        3.606,
+        3.079
+      ],
+      "avg_rtt": 3.4,
+      "timeout": false
+    },
+    {
+      "hop": 3,
+      "ip": "140.123.9.249",
+      "hostname": null,
+      "rtts": [
+        9.207,
+        2.947,
+        2.638
+      ],
+      "avg_rtt": 4.93,
+      "timeout": false
+    },
+    {
+      "hop": 4,
+      "ip": "140.123.0.246",
+      "hostname": null,
+      "rtts": [
+        4.077,
+        5.618,
+        3.662
+      ],
+      "avg_rtt": 4.45,
+      "timeout": false
+    },
+    {
+      "hop": 5,
+      "ip": "140.130.252.251",
+      "hostname": null,
+      "rtts": [
+        3.978,
+        6.868,
+        5.204
+      ],
+      "avg_rtt": 5.35,
+      "timeout": false
+    },
+    {
+      "hop": 6,
+      "ip": "192.192.61.142",
+      "hostname": null,
+      "rtts": [
+        7.977,
+        7.243,
+        5.267
+      ],
+      "avg_rtt": 6.83,
+      "timeout": false
+    },
+    {
+      "hop": 7,
+      "ip": "192.192.61.20",
+      "hostname": null,
+      "rtts": [
+        9.734,
+        7.836,
+        7.45
+      ],
+      "avg_rtt": 8.34,
+      "timeout": false
+    },
+    {
+      "hop": 8,
+      "ip": "192.192.61.48",
+      "hostname": null,
+      "rtts": [
+        7.759,
+        7.845,
+        10.627
+      ],
+      "avg_rtt": 8.74,
+      "timeout": false
+    },
+    {
+      "hop": 9,
+      "ip": "192.192.68.62",
+      "hostname": null,
+      "rtts": [
+        8.263,
+        7.843,
+        8.506
+      ],
+      "avg_rtt": 8.2,
+      "timeout": false
+    },
+    {
+      "hop": 10,
+      "ip": null,
+      "hostname": null,
+      "rtts": [],
+      "timeout": true
+    },
+    {
+      "hop": 11,
+      "ip": "184.105.80.141",
+      "hostname": null,
+      "rtts": [
+        60.843
+      ],
+      "avg_rtt": 60.84,
+      "timeout": false
+    },
+    {
+      "hop": 12,
+      "ip": "184.104.199.10",
+      "hostname": null,
+      "rtts": [
+        52.403,
+        49.7
+      ],
+      "avg_rtt": 51.05,
+      "timeout": false
+    },
+    {
+      "hop": 13,
+      "ip": null,
+      "hostname": null,
+      "rtts": [],
+      "timeout": true
+    },
+    {
+      "hop": 14,
+      "ip": null,
+      "hostname": null,
+      "rtts": [],
+      "timeout": true
+    },
+    {
+      "hop": 15,
+      "ip": null,
+      "hostname": null,
+      "rtts": [],
+      "timeout": true
+    },
+    {
+      "hop": 16,
+      "ip": null,
+      "hostname": null,
+      "rtts": [],
+      "timeout": true
+    },
+    {
+      "hop": 17,
+      "ip": null,
+      "hostname": null,
+      "rtts": [],
+      "timeout": true
+    },
+    {
+      "hop": 18,
+      "ip": "31.31.38.237",
+      "hostname": null,
+      "rtts": [
+        637.919,
+        195.779,
+        209.617
+      ],
+      "avg_rtt": 347.77,
+      "timeout": false
+    },
+    {
+      "hop": 19,
+      "ip": "173.208.126.13",
+      "hostname": null,
+      "rtts": [
+        204.24,
+        191.678,
+        199.834
+      ],
+      "avg_rtt": 198.58,
+      "timeout": false
+    },
+    {
+      "hop": 20,
+      "ip": "64.131.64.91",
+      "hostname": null,
+      "rtts": [
+        326.843,
+        207.174,
+        329.184
+      ],
+      "avg_rtt": 287.73,
+      "timeout": false
+    }
+  ],
+  "num_hops": 19,
+  "success": true,
+  "raw_output": " 1  192.168.50.1  2.466 ms  5.850 ms  8.099 ms\n 2  140.123.103.250  3.510 ms  3.606 ms  3.079 ms\n 3  140.123.9.249  9.207 ms  2.947 ms  2.638 ms\n 4  140.123.0.246  4.077 ms  5.618 ms  3.662 ms\n 5  140.130.252.251  3.978 ms  6.868 ms  5.204 ms\n 6  192.192.61.142  7.977 ms  7.243 ms  5.267 ms\n 7  192.192.61.20  9.734 ms  7.836 ms  7.450 ms\n 8  192.192.61.48  7.759 ms  7.845 ms  10.627 ms\n 9  192.192.68.62  8.263 ms  7.843 ms  8.506 ms\n10  * 65.49.108.1  20.754 ms *\n11  184.105.80.141  60.843 ms * *\n12  184.104.199.10  52.403 ms *  49.700 ms\n13  * * *\n14  * * *\n15  * * *\n16  * * *\n17  * * *\n18  31.31.38.237  637.919 ms  195.779 ms  209.617 ms\n19  173.208.126.13  204.240 ms  191.678 ms  199.834 ms\n20  64.131.64.91  326.843 ms  207.174 ms  329.184 ms\n",
+  "category": "telecom",
+  "base_domain": "seednet.net",
+  "service_variant": "seednet.net",
+  "is_bare_domain": true
+}

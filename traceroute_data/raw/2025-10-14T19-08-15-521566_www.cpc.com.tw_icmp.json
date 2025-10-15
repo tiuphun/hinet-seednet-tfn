@@ -1,0 +1,133 @@
+{
+  "timestamp": "2025-10-14T19:08:15.521566",
+  "vantage_point": "university",
+  "target": "www.cpc.com.tw",
+  "target_ip": "203.66.32.171",
+  "protocol": "icmp",
+  "port": null,
+  "duration_seconds": 9.36,
+  "hops": [
+    {
+      "hop": 2,
+      "ip": "140.123.103.250",
+      "hostname": null,
+      "rtts": [
+        7.71,
+        10.371,
+        3.681
+      ],
+      "avg_rtt": 7.25,
+      "timeout": false
+    },
+    {
+      "hop": 3,
+      "ip": "140.123.9.249",
+      "hostname": null,
+      "rtts": [
+        3.451,
+        2.866,
+        3.391
+      ],
+      "avg_rtt": 3.24,
+      "timeout": false
+    },
+    {
+      "hop": 4,
+      "ip": "140.123.0.246",
+      "hostname": null,
+      "rtts": [
+        5.602,
+        32.073,
+        15.69
+      ],
+      "avg_rtt": 17.79,
+      "timeout": false
+    },
+    {
+      "hop": 5,
+      "ip": "140.130.252.251",
+      "hostname": null,
+      "rtts": [
+        4.871,
+        9.179,
+        12.572
+      ],
+      "avg_rtt": 8.87,
+      "timeout": false
+    },
+    {
+      "hop": 6,
+      "ip": "211.22.226.198",
+      "hostname": null,
+      "rtts": [
+        4.265,
+        4.299,
+        4.715
+      ],
+      "avg_rtt": 4.43,
+      "timeout": false
+    },
+    {
+      "hop": 7,
+      "ip": null,
+      "hostname": null,
+      "rtts": [],
+      "timeout": true
+    },
+    {
+      "hop": 8,
+      "ip": "220.128.9.130",
+      "hostname": null,
+      "rtts": [
+        24.734,
+        10.165,
+        16.508
+      ],
+      "avg_rtt": 17.14,
+      "timeout": false
+    },
+    {
+      "hop": 9,
+      "ip": "220.128.8.149",
+      "hostname": null,
+      "rtts": [
+        14.719,
+        11.469,
+        15.294
+      ],
+      "avg_rtt": 13.83,
+      "timeout": false
+    },
+    {
+      "hop": 10,
+      "ip": "211.22.227.221",
+      "hostname": null,
+      "rtts": [
+        9.959,
+        17.054,
+        18.358
+      ],
+      "avg_rtt": 15.12,
+      "timeout": false
+    },
+    {
+      "hop": 11,
+      "ip": "203.66.32.171",
+      "hostname": null,
+      "rtts": [
+        13.857,
+        11.992,
+        14.05
+      ],
+      "avg_rtt": 13.3,
+      "timeout": false
+    }
+  ],
+  "num_hops": 10,
+  "success": true,
+  "raw_output": " 1  192.168.50.1  9.105 ms  6.871 ms  3.658 ms\n 2  140.123.103.250  7.710 ms  10.371 ms  3.681 ms\n 3  140.123.9.249  3.451 ms  2.866 ms  3.391 ms\n 4  140.123.0.246  5.602 ms  32.073 ms  15.690 ms\n 5  140.130.252.251  4.871 ms  9.179 ms  12.572 ms\n 6  211.22.226.198  4.265 ms  4.299 ms  4.715 ms\n 7  * * *\n 8  220.128.9.130  24.734 ms  10.165 ms  16.508 ms\n 9  220.128.8.149  14.719 ms  11.469 ms  15.294 ms\n10  211.22.227.221  9.959 ms  17.054 ms  18.358 ms\n11  203.66.32.171  13.857 ms  11.992 ms  14.050 ms\n",
+  "category": "critical_infra",
+  "base_domain": "cpc.com.tw",
+  "service_variant": "www.cpc.com.tw",
+  "is_bare_domain": false
+}

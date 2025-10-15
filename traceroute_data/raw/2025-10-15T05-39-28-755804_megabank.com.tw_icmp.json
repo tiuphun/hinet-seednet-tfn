@@ -1,0 +1,140 @@
+{
+  "timestamp": "2025-10-15T05:39:28.755804",
+  "vantage_point": "university",
+  "target": "megabank.com.tw",
+  "target_ip": "203.66.132.201",
+  "protocol": "icmp",
+  "port": null,
+  "duration_seconds": 18.41,
+  "hops": [
+    {
+      "hop": 2,
+      "ip": "140.123.103.250",
+      "hostname": null,
+      "rtts": [
+        2.788,
+        2.901,
+        2.63
+      ],
+      "avg_rtt": 2.77,
+      "timeout": false
+    },
+    {
+      "hop": 3,
+      "ip": "140.123.9.249",
+      "hostname": null,
+      "rtts": [
+        2.968,
+        4.295,
+        2.633
+      ],
+      "avg_rtt": 3.3,
+      "timeout": false
+    },
+    {
+      "hop": 4,
+      "ip": "140.123.0.246",
+      "hostname": null,
+      "rtts": [
+        6.533,
+        3.375,
+        3.335
+      ],
+      "avg_rtt": 4.41,
+      "timeout": false
+    },
+    {
+      "hop": 5,
+      "ip": "140.130.252.251",
+      "hostname": null,
+      "rtts": [
+        5.263,
+        3.834,
+        5.042
+      ],
+      "avg_rtt": 4.71,
+      "timeout": false
+    },
+    {
+      "hop": 6,
+      "ip": "211.22.226.198",
+      "hostname": null,
+      "rtts": [
+        4.555,
+        13.019,
+        10.237
+      ],
+      "avg_rtt": 9.27,
+      "timeout": false
+    },
+    {
+      "hop": 7,
+      "ip": null,
+      "hostname": null,
+      "rtts": [],
+      "timeout": true
+    },
+    {
+      "hop": 8,
+      "ip": null,
+      "hostname": null,
+      "rtts": [],
+      "timeout": true
+    },
+    {
+      "hop": 9,
+      "ip": "220.128.2.213",
+      "hostname": null,
+      "rtts": [
+        38.669,
+        78.755,
+        15.358
+      ],
+      "avg_rtt": 44.26,
+      "timeout": false
+    },
+    {
+      "hop": 10,
+      "ip": "203.75.188.197",
+      "hostname": null,
+      "rtts": [
+        11.007,
+        12.783,
+        13.417
+      ],
+      "avg_rtt": 12.4,
+      "timeout": false
+    },
+    {
+      "hop": 11,
+      "ip": "210.65.22.37",
+      "hostname": null,
+      "rtts": [
+        11.571,
+        14.25,
+        12.128
+      ],
+      "avg_rtt": 12.65,
+      "timeout": false
+    },
+    {
+      "hop": 12,
+      "ip": "203.66.132.201",
+      "hostname": null,
+      "rtts": [
+        11.812,
+        10.999,
+        35.03
+      ],
+      "avg_rtt": 19.28,
+      "timeout": false
+    }
+  ],
+  "num_hops": 11,
+  "success": true,
+  "raw_output": " 1  192.168.50.1  2.840 ms  2.536 ms  4.434 ms\n 2  140.123.103.250  2.788 ms  2.901 ms  2.630 ms\n 3  140.123.9.249  2.968 ms  4.295 ms  2.633 ms\n 4  140.123.0.246  6.533 ms  3.375 ms  3.335 ms\n 5  140.130.252.251  5.263 ms  3.834 ms  5.042 ms\n 6  211.22.226.198  4.555 ms  13.019 ms  10.237 ms\n 7  * * *\n 8  * * *\n 9  220.128.2.213  38.669 ms  78.755 ms  15.358 ms\n10  203.75.188.197  11.007 ms  12.783 ms  13.417 ms\n11  210.65.22.37  11.571 ms  14.250 ms  12.128 ms\n12  203.66.132.201  11.812 ms  10.999 ms  35.030 ms\n",
+  "category": "financial_banks",
+  "base_domain": "megabank.com.tw",
+  "service_variant": "megabank.com.tw",
+  "is_bare_domain": true
+}

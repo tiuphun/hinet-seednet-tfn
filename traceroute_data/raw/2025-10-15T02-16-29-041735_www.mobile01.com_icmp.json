@@ -1,0 +1,114 @@
+{
+  "timestamp": "2025-10-15T02:16:29.041735",
+  "vantage_point": "university",
+  "target": "www.mobile01.com",
+  "target_ip": "163.28.5.129",
+  "protocol": "icmp",
+  "port": null,
+  "duration_seconds": 4.11,
+  "hops": [
+    {
+      "hop": 2,
+      "ip": "140.123.103.250",
+      "hostname": null,
+      "rtts": [
+        21.186,
+        11.494,
+        15.717
+      ],
+      "avg_rtt": 16.13,
+      "timeout": false
+    },
+    {
+      "hop": 3,
+      "ip": "140.123.9.249",
+      "hostname": null,
+      "rtts": [
+        12.68,
+        229.773,
+        40.938
+      ],
+      "avg_rtt": 94.46,
+      "timeout": false
+    },
+    {
+      "hop": 4,
+      "ip": "140.123.0.246",
+      "hostname": null,
+      "rtts": [
+        20.84,
+        23.456,
+        33.675
+      ],
+      "avg_rtt": 25.99,
+      "timeout": false
+    },
+    {
+      "hop": 5,
+      "ip": "140.130.252.251",
+      "hostname": null,
+      "rtts": [
+        21.522,
+        10.761,
+        28.076
+      ],
+      "avg_rtt": 20.12,
+      "timeout": false
+    },
+    {
+      "hop": 6,
+      "ip": "192.192.61.142",
+      "hostname": null,
+      "rtts": [
+        15.679,
+        83.219,
+        86.569
+      ],
+      "avg_rtt": 61.82,
+      "timeout": false
+    },
+    {
+      "hop": 7,
+      "ip": "192.192.61.20",
+      "hostname": null,
+      "rtts": [
+        24.715,
+        25.491,
+        136.92
+      ],
+      "avg_rtt": 62.38,
+      "timeout": false
+    },
+    {
+      "hop": 8,
+      "ip": "192.192.61.48",
+      "hostname": null,
+      "rtts": [
+        31.863,
+        13.388,
+        35.83
+      ],
+      "avg_rtt": 27.03,
+      "timeout": false
+    },
+    {
+      "hop": 9,
+      "ip": "163.28.5.129",
+      "hostname": null,
+      "rtts": [
+        99.695,
+        15.123,
+        38.704
+      ],
+      "avg_rtt": 51.17,
+      "timeout": false
+    }
+  ],
+  "num_hops": 8,
+  "success": true,
+  "raw_output": " 1  192.168.50.1  2.869 ms  9.755 ms *\n 2  140.123.103.250  21.186 ms  11.494 ms  15.717 ms\n 3  140.123.9.249  12.680 ms  229.773 ms  40.938 ms\n 4  140.123.0.246  20.840 ms  23.456 ms  33.675 ms\n 5  140.130.252.251  21.522 ms  10.761 ms  28.076 ms\n 6  192.192.61.142  15.679 ms  83.219 ms  86.569 ms\n 7  192.192.61.20  24.715 ms  25.491 ms  136.920 ms\n 8  192.192.61.48  31.863 ms  13.388 ms  35.830 ms\n 9  163.28.5.129  99.695 ms  15.123 ms  38.704 ms\n",
+  "category": "ecommerce_tech",
+  "base_domain": "mobile01.com",
+  "service_variant": "www.mobile01.com",
+  "is_bare_domain": false
+}

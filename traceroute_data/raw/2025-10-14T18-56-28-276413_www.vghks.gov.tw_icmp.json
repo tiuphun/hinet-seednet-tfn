@@ -1,0 +1,138 @@
+{
+  "timestamp": "2025-10-14T18:56:28.276413",
+  "vantage_point": "university",
+  "target": "www.vghks.gov.tw",
+  "target_ip": "203.68.94.45",
+  "protocol": "icmp",
+  "port": null,
+  "duration_seconds": 0.21,
+  "hops": [
+    {
+      "hop": 2,
+      "ip": "140.123.103.250",
+      "hostname": null,
+      "rtts": [
+        5.051,
+        2.445,
+        2.424
+      ],
+      "avg_rtt": 3.31,
+      "timeout": false
+    },
+    {
+      "hop": 3,
+      "ip": "140.123.9.249",
+      "hostname": null,
+      "rtts": [
+        3.245,
+        3.902,
+        2.243
+      ],
+      "avg_rtt": 3.13,
+      "timeout": false
+    },
+    {
+      "hop": 4,
+      "ip": "140.123.0.246",
+      "hostname": null,
+      "rtts": [
+        6.265,
+        3.608,
+        5.042
+      ],
+      "avg_rtt": 4.97,
+      "timeout": false
+    },
+    {
+      "hop": 5,
+      "ip": "211.79.57.25",
+      "hostname": null,
+      "rtts": [
+        6.564,
+        5.582,
+        6.908
+      ],
+      "avg_rtt": 6.35,
+      "timeout": false
+    },
+    {
+      "hop": 6,
+      "ip": "211.73.76.209",
+      "hostname": null,
+      "rtts": [
+        5.209,
+        4.978,
+        5.193
+      ],
+      "avg_rtt": 5.13,
+      "timeout": false
+    },
+    {
+      "hop": 7,
+      "ip": "211.73.76.218",
+      "hostname": null,
+      "rtts": [
+        6.877,
+        6.694,
+        6.641
+      ],
+      "avg_rtt": 6.74,
+      "timeout": false
+    },
+    {
+      "hop": 8,
+      "ip": "211.79.58.62",
+      "hostname": null,
+      "rtts": [
+        6.246,
+        7.182,
+        6.802
+      ],
+      "avg_rtt": 6.74,
+      "timeout": false
+    },
+    {
+      "hop": 9,
+      "ip": "203.68.96.125",
+      "hostname": null,
+      "rtts": [
+        8.364,
+        7.127,
+        6.842
+      ],
+      "avg_rtt": 7.44,
+      "timeout": false
+    },
+    {
+      "hop": 10,
+      "ip": "10.10.10.246",
+      "hostname": null,
+      "rtts": [
+        10.907,
+        7.761,
+        7.184
+      ],
+      "avg_rtt": 8.62,
+      "timeout": false
+    },
+    {
+      "hop": 11,
+      "ip": "203.68.94.45",
+      "hostname": null,
+      "rtts": [
+        7.292,
+        7.474,
+        8.424
+      ],
+      "avg_rtt": 7.73,
+      "timeout": false
+    }
+  ],
+  "num_hops": 10,
+  "success": true,
+  "raw_output": " 1  192.168.50.1  2.510 ms  1.996 ms  1.850 ms\n 2  140.123.103.250  5.051 ms  2.445 ms  2.424 ms\n 3  140.123.9.249  3.245 ms  3.902 ms  2.243 ms\n 4  140.123.0.246  6.265 ms  3.608 ms  5.042 ms\n 5  211.79.57.25  6.564 ms  5.582 ms  6.908 ms\n 6  211.73.76.209  5.209 ms  4.978 ms  5.193 ms\n 7  211.73.76.218  6.877 ms  6.694 ms  6.641 ms\n 8  211.79.58.62  6.246 ms  7.182 ms  6.802 ms\n 9  203.68.96.125  8.364 ms  7.127 ms  6.842 ms\n10  10.10.10.246  10.907 ms  7.761 ms  7.184 ms\n11  203.68.94.45  7.292 ms  7.474 ms  8.424 ms\n",
+  "category": "healthcare",
+  "base_domain": "vghks.gov.tw",
+  "service_variant": "www.vghks.gov.tw",
+  "is_bare_domain": false
+}

@@ -1,0 +1,128 @@
+{
+  "timestamp": "2025-10-14T12:44:26.270986",
+  "vantage_point": "cht-mobile",
+  "target": "mail.skbank.com.tw",
+  "target_ip": "59.124.68.60",
+  "protocol": "icmp",
+  "port": null,
+  "duration_seconds": 18.78,
+  "hops": [
+    {
+      "hop": 2,
+      "ip": "140.123.103.250",
+      "hostname": null,
+      "rtts": [
+        11.56,
+        5.008,
+        14.954
+      ],
+      "avg_rtt": 10.51,
+      "timeout": false
+    },
+    {
+      "hop": 3,
+      "ip": "140.123.9.249",
+      "hostname": null,
+      "rtts": [
+        3.808,
+        42.013,
+        20.18
+      ],
+      "avg_rtt": 22.0,
+      "timeout": false
+    },
+    {
+      "hop": 4,
+      "ip": "140.123.0.246",
+      "hostname": null,
+      "rtts": [
+        3.61,
+        12.438,
+        6.288
+      ],
+      "avg_rtt": 7.45,
+      "timeout": false
+    },
+    {
+      "hop": 5,
+      "ip": "140.130.252.251",
+      "hostname": null,
+      "rtts": [
+        34.202,
+        104.697,
+        28.925
+      ],
+      "avg_rtt": 55.94,
+      "timeout": false
+    },
+    {
+      "hop": 6,
+      "ip": "211.22.226.198",
+      "hostname": null,
+      "rtts": [
+        21.526,
+        7.565,
+        7.845
+      ],
+      "avg_rtt": 12.31,
+      "timeout": false
+    },
+    {
+      "hop": 7,
+      "ip": null,
+      "hostname": null,
+      "rtts": [],
+      "timeout": true
+    },
+    {
+      "hop": 8,
+      "ip": null,
+      "hostname": null,
+      "rtts": [],
+      "timeout": true
+    },
+    {
+      "hop": 9,
+      "ip": "220.128.4.221",
+      "hostname": null,
+      "rtts": [
+        26.233,
+        13.629,
+        23.981
+      ],
+      "avg_rtt": 21.28,
+      "timeout": false
+    },
+    {
+      "hop": 10,
+      "ip": "168.95.83.213",
+      "hostname": null,
+      "rtts": [
+        25.614,
+        42.813,
+        15.245
+      ],
+      "avg_rtt": 27.89,
+      "timeout": false
+    },
+    {
+      "hop": 11,
+      "ip": "59.124.68.60",
+      "hostname": null,
+      "rtts": [
+        47.276,
+        51.685,
+        55.631
+      ],
+      "avg_rtt": 51.53,
+      "timeout": false
+    }
+  ],
+  "num_hops": 10,
+  "success": true,
+  "raw_output": " 1  192.168.50.1  25.743 ms  12.733 ms  78.082 ms\n 2  140.123.103.250  11.560 ms  5.008 ms  14.954 ms\n 3  140.123.9.249  3.808 ms  42.013 ms  20.180 ms\n 4  140.123.0.246  3.610 ms  12.438 ms  6.288 ms\n 5  140.130.252.251  34.202 ms  104.697 ms  28.925 ms\n 6  211.22.226.198  21.526 ms  7.565 ms  7.845 ms\n 7  * * *\n 8  * * *\n 9  220.128.4.221  26.233 ms  13.629 ms  23.981 ms\n10  168.95.83.213  25.614 ms  42.813 ms  15.245 ms\n11  59.124.68.60  47.276 ms  51.685 ms  55.631 ms\n",
+  "category": "financial_banks",
+  "base_domain": "skbank.com.tw",
+  "service_variant": "mail.skbank.com.tw",
+  "is_bare_domain": false
+}

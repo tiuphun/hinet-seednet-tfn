@@ -1,0 +1,121 @@
+{
+  "timestamp": "2025-10-15T08:34:33.383862",
+  "vantage_point": "university",
+  "target": "www.mofa.gov.tw",
+  "target_ip": "203.66.35.102",
+  "protocol": "icmp",
+  "port": null,
+  "duration_seconds": 9.17,
+  "hops": [
+    {
+      "hop": 2,
+      "ip": "140.123.103.250",
+      "hostname": null,
+      "rtts": [
+        3.051,
+        4.28,
+        2.744
+      ],
+      "avg_rtt": 3.36,
+      "timeout": false
+    },
+    {
+      "hop": 3,
+      "ip": "140.123.9.249",
+      "hostname": null,
+      "rtts": [
+        4.73,
+        2.803,
+        2.514
+      ],
+      "avg_rtt": 3.35,
+      "timeout": false
+    },
+    {
+      "hop": 4,
+      "ip": "140.123.0.246",
+      "hostname": null,
+      "rtts": [
+        3.469,
+        5.377,
+        3.372
+      ],
+      "avg_rtt": 4.07,
+      "timeout": false
+    },
+    {
+      "hop": 5,
+      "ip": "140.130.252.251",
+      "hostname": null,
+      "rtts": [
+        8.045,
+        4.597,
+        4.924
+      ],
+      "avg_rtt": 5.86,
+      "timeout": false
+    },
+    {
+      "hop": 6,
+      "ip": "211.22.226.198",
+      "hostname": null,
+      "rtts": [
+        4.239,
+        4.799,
+        4.373
+      ],
+      "avg_rtt": 4.47,
+      "timeout": false
+    },
+    {
+      "hop": 7,
+      "ip": null,
+      "hostname": null,
+      "rtts": [],
+      "timeout": true
+    },
+    {
+      "hop": 8,
+      "ip": "220.128.26.49",
+      "hostname": null,
+      "rtts": [
+        14.274,
+        8.901,
+        6.014
+      ],
+      "avg_rtt": 9.73,
+      "timeout": false
+    },
+    {
+      "hop": 9,
+      "ip": "211.22.229.89",
+      "hostname": null,
+      "rtts": [
+        5.465,
+        9.012,
+        5.554
+      ],
+      "avg_rtt": 6.68,
+      "timeout": false
+    },
+    {
+      "hop": 10,
+      "ip": "203.66.35.102",
+      "hostname": null,
+      "rtts": [
+        5.427,
+        5.421,
+        5.068
+      ],
+      "avg_rtt": 5.31,
+      "timeout": false
+    }
+  ],
+  "num_hops": 9,
+  "success": true,
+  "raw_output": " 1  192.168.50.1  2.463 ms  2.604 ms  2.357 ms\n 2  140.123.103.250  3.051 ms  4.280 ms  2.744 ms\n 3  140.123.9.249  4.730 ms  2.803 ms  2.514 ms\n 4  140.123.0.246  3.469 ms  5.377 ms  3.372 ms\n 5  140.130.252.251  8.045 ms  4.597 ms  4.924 ms\n 6  211.22.226.198  4.239 ms  4.799 ms  4.373 ms\n 7  * * *\n 8  220.128.26.49  14.274 ms  8.901 ms  6.014 ms\n 9  211.22.229.89  5.465 ms  9.012 ms  5.554 ms\n10  203.66.35.102  5.427 ms  5.421 ms  5.068 ms\n",
+  "category": "government_central",
+  "base_domain": "mofa.gov.tw",
+  "service_variant": "www.mofa.gov.tw",
+  "is_bare_domain": false
+}

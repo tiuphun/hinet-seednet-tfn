@@ -1,0 +1,225 @@
+{
+  "timestamp": "2025-10-15T07:52:13.988775",
+  "vantage_point": "university",
+  "target": "api.cpc.com.tw",
+  "target_ip": "20.247.216.149",
+  "protocol": "icmp",
+  "port": null,
+  "duration_seconds": 81.76,
+  "hops": [
+    {
+      "hop": 2,
+      "ip": "140.123.103.250",
+      "hostname": null,
+      "rtts": [
+        3.328,
+        2.286,
+        3.175
+      ],
+      "avg_rtt": 2.93,
+      "timeout": false
+    },
+    {
+      "hop": 3,
+      "ip": "140.123.9.249",
+      "hostname": null,
+      "rtts": [
+        2.967,
+        2.558,
+        2.359
+      ],
+      "avg_rtt": 2.63,
+      "timeout": false
+    },
+    {
+      "hop": 4,
+      "ip": "140.123.0.246",
+      "hostname": null,
+      "rtts": [
+        3.195,
+        3.483,
+        5.361
+      ],
+      "avg_rtt": 4.01,
+      "timeout": false
+    },
+    {
+      "hop": 5,
+      "ip": "140.130.252.251",
+      "hostname": null,
+      "rtts": [
+        4.32,
+        4.563,
+        4.85
+      ],
+      "avg_rtt": 4.58,
+      "timeout": false
+    },
+    {
+      "hop": 6,
+      "ip": "192.192.61.142",
+      "hostname": null,
+      "rtts": [
+        8.344,
+        6.196,
+        6.671
+      ],
+      "avg_rtt": 7.07,
+      "timeout": false
+    },
+    {
+      "hop": 7,
+      "ip": "192.192.61.20",
+      "hostname": null,
+      "rtts": [
+        7.521,
+        8.06,
+        8.522
+      ],
+      "avg_rtt": 8.03,
+      "timeout": false
+    },
+    {
+      "hop": 8,
+      "ip": "192.192.61.48",
+      "hostname": null,
+      "rtts": [
+        13.923,
+        12.411,
+        7.882
+      ],
+      "avg_rtt": 11.41,
+      "timeout": false
+    },
+    {
+      "hop": 9,
+      "ip": "192.192.68.62",
+      "hostname": null,
+      "rtts": [
+        7.911,
+        19.112,
+        8.979
+      ],
+      "avg_rtt": 12.0,
+      "timeout": false
+    },
+    {
+      "hop": 10,
+      "ip": "203.163.222.15",
+      "hostname": null,
+      "rtts": [
+        9.074,
+        10.323,
+        9.592
+      ],
+      "avg_rtt": 9.66,
+      "timeout": false
+    },
+    {
+      "hop": 11,
+      "ip": "104.44.51.226",
+      "hostname": null,
+      "rtts": [
+        9.283,
+        12.768,
+        9.808
+      ],
+      "avg_rtt": 10.62,
+      "timeout": false
+    },
+    {
+      "hop": 12,
+      "ip": null,
+      "hostname": null,
+      "rtts": [],
+      "timeout": true
+    },
+    {
+      "hop": 13,
+      "ip": null,
+      "hostname": null,
+      "rtts": [],
+      "timeout": true
+    },
+    {
+      "hop": 14,
+      "ip": null,
+      "hostname": null,
+      "rtts": [],
+      "timeout": true
+    },
+    {
+      "hop": 15,
+      "ip": null,
+      "hostname": null,
+      "rtts": [],
+      "timeout": true
+    },
+    {
+      "hop": 16,
+      "ip": "13.106.238.151",
+      "hostname": null,
+      "rtts": [
+        61.144,
+        55.722,
+        55.828
+      ],
+      "avg_rtt": 57.56,
+      "timeout": false
+    },
+    {
+      "hop": 17,
+      "ip": null,
+      "hostname": null,
+      "rtts": [],
+      "timeout": true
+    },
+    {
+      "hop": 18,
+      "ip": null,
+      "hostname": null,
+      "rtts": [],
+      "timeout": true
+    },
+    {
+      "hop": 19,
+      "ip": null,
+      "hostname": null,
+      "rtts": [],
+      "timeout": true
+    },
+    {
+      "hop": 20,
+      "ip": null,
+      "hostname": null,
+      "rtts": [],
+      "timeout": true
+    },
+    {
+      "hop": 21,
+      "ip": null,
+      "hostname": null,
+      "rtts": [],
+      "timeout": true
+    },
+    {
+      "hop": 22,
+      "ip": "20.247.216.149",
+      "hostname": null,
+      "rtts": [
+        61.823,
+        52.08,
+        52.627
+      ],
+      "avg_rtt": 55.51,
+      "timeout": false
+    }
+  ],
+  "num_hops": 21,
+  "success": true,
+  "raw_output": " 1  192.168.50.1  2.543 ms  2.989 ms  3.009 ms\n 2  140.123.103.250  3.328 ms  2.286 ms  3.175 ms\n 3  140.123.9.249  2.967 ms  2.558 ms  2.359 ms\n 4  140.123.0.246  3.195 ms  3.483 ms  5.361 ms\n 5  140.130.252.251  4.320 ms  4.563 ms  4.850 ms\n 6  192.192.61.142  8.344 ms  6.196 ms  6.671 ms\n 7  192.192.61.20  7.521 ms  8.060 ms  8.522 ms\n 8  192.192.61.48  13.923 ms  12.411 ms  7.882 ms\n 9  192.192.68.62  7.911 ms  19.112 ms  8.979 ms\n10  203.163.222.15  9.074 ms  10.323 ms  9.592 ms\n11  104.44.51.226  9.283 ms  12.768 ms  9.808 ms\n12  * * *\n13  * * *\n14  * * *\n15  * * *\n16  13.106.238.151  61.144 ms  55.722 ms  55.828 ms\n17  * * *\n18  * * *\n19  * * *\n20  * * *\n21  * * *\n22  20.247.216.149  61.823 ms !H  52.080 ms !H  52.627 ms !H\n",
+  "category": "critical_infra",
+  "base_domain": "cpc.com.tw",
+  "service_variant": "api.cpc.com.tw",
+  "is_bare_domain": false
+}

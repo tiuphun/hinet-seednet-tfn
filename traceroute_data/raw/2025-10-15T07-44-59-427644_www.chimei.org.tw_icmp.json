@@ -1,0 +1,173 @@
+{
+  "timestamp": "2025-10-15T07:44:59.427644",
+  "vantage_point": "university",
+  "target": "www.chimei.org.tw",
+  "target_ip": "210.242.150.33",
+  "protocol": "icmp",
+  "port": null,
+  "duration_seconds": 45.41,
+  "hops": [
+    {
+      "hop": 2,
+      "ip": "140.123.103.250",
+      "hostname": null,
+      "rtts": [
+        2.933,
+        2.711,
+        2.662
+      ],
+      "avg_rtt": 2.77,
+      "timeout": false
+    },
+    {
+      "hop": 3,
+      "ip": "140.123.9.249",
+      "hostname": null,
+      "rtts": [
+        5.428,
+        2.913,
+        2.75
+      ],
+      "avg_rtt": 3.7,
+      "timeout": false
+    },
+    {
+      "hop": 4,
+      "ip": "140.123.0.246",
+      "hostname": null,
+      "rtts": [
+        4.152,
+        3.316,
+        3.615
+      ],
+      "avg_rtt": 3.69,
+      "timeout": false
+    },
+    {
+      "hop": 5,
+      "ip": "140.130.252.251",
+      "hostname": null,
+      "rtts": [
+        3.782,
+        4.798,
+        4.025
+      ],
+      "avg_rtt": 4.2,
+      "timeout": false
+    },
+    {
+      "hop": 6,
+      "ip": "211.22.226.198",
+      "hostname": null,
+      "rtts": [
+        4.744,
+        4.445,
+        4.561
+      ],
+      "avg_rtt": 4.58,
+      "timeout": false
+    },
+    {
+      "hop": 7,
+      "ip": null,
+      "hostname": null,
+      "rtts": [],
+      "timeout": true
+    },
+    {
+      "hop": 8,
+      "ip": null,
+      "hostname": null,
+      "rtts": [],
+      "timeout": true
+    },
+    {
+      "hop": 9,
+      "ip": "220.128.2.5",
+      "hostname": null,
+      "rtts": [
+        20.821,
+        20.855,
+        14.958
+      ],
+      "avg_rtt": 18.88,
+      "timeout": false
+    },
+    {
+      "hop": 10,
+      "ip": "168.95.210.57",
+      "hostname": null,
+      "rtts": [
+        13.903,
+        11.951,
+        22.271
+      ],
+      "avg_rtt": 16.04,
+      "timeout": false
+    },
+    {
+      "hop": 11,
+      "ip": null,
+      "hostname": null,
+      "rtts": [],
+      "timeout": true
+    },
+    {
+      "hop": 12,
+      "ip": "203.69.108.171",
+      "hostname": null,
+      "rtts": [
+        13.797,
+        11.56,
+        10.173
+      ],
+      "avg_rtt": 11.84,
+      "timeout": false
+    },
+    {
+      "hop": 13,
+      "ip": null,
+      "hostname": null,
+      "rtts": [],
+      "timeout": true
+    },
+    {
+      "hop": 14,
+      "ip": null,
+      "hostname": null,
+      "rtts": [],
+      "timeout": true
+    },
+    {
+      "hop": 15,
+      "ip": "210.242.70.113",
+      "hostname": null,
+      "rtts": [
+        13.723,
+        12.207,
+        10.13
+      ],
+      "avg_rtt": 12.02,
+      "timeout": false
+    },
+    {
+      "hop": 16,
+      "ip": "210.242.150.33",
+      "hostname": null,
+      "rtts": [
+        11.445,
+        12.104,
+        11.145
+      ],
+      "avg_rtt": 11.56,
+      "timeout": false
+    }
+  ],
+  "num_hops": 15,
+  "success": true,
+  "raw_output": " 1  192.168.50.1  2.748 ms  1.851 ms  3.277 ms\n 2  140.123.103.250  2.933 ms  2.711 ms  2.662 ms\n 3  140.123.9.249  5.428 ms  2.913 ms  2.750 ms\n 4  140.123.0.246  4.152 ms  3.316 ms  3.615 ms\n 5  140.130.252.251  3.782 ms  4.798 ms  4.025 ms\n 6  211.22.226.198  4.744 ms  4.445 ms  4.561 ms\n 7  * * *\n 8  * * *\n 9  220.128.2.5  20.821 ms  20.855 ms  14.958 ms\n10  168.95.210.57  13.903 ms  11.951 ms  22.271 ms\n11  * * *\n12  203.69.108.171  13.797 ms  11.560 ms  10.173 ms\n13  * * *\n14  * * *\n15  210.242.70.113  13.723 ms  12.207 ms  10.130 ms\n16  210.242.150.33  11.445 ms  12.104 ms  11.145 ms\n",
+  "category": "healthcare",
+  "base_domain": "chimei.org.tw",
+  "service_variant": "www.chimei.org.tw",
+  "is_bare_domain": false
+}

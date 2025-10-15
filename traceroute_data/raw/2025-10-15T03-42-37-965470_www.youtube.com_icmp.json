@@ -1,0 +1,162 @@
+{
+  "timestamp": "2025-10-15T03:42:37.965470",
+  "vantage_point": "university",
+  "target": "www.youtube.com",
+  "target_ip": "142.250.77.14",
+  "protocol": "icmp",
+  "port": null,
+  "duration_seconds": 0.35,
+  "hops": [
+    {
+      "hop": 2,
+      "ip": "140.123.103.250",
+      "hostname": null,
+      "rtts": [
+        2.888,
+        2.7,
+        3.306
+      ],
+      "avg_rtt": 2.96,
+      "timeout": false
+    },
+    {
+      "hop": 3,
+      "ip": "140.123.9.249",
+      "hostname": null,
+      "rtts": [
+        2.743,
+        4.479,
+        3.438
+      ],
+      "avg_rtt": 3.55,
+      "timeout": false
+    },
+    {
+      "hop": 4,
+      "ip": "140.123.0.246",
+      "hostname": null,
+      "rtts": [
+        4.871,
+        5.322,
+        3.288
+      ],
+      "avg_rtt": 4.49,
+      "timeout": false
+    },
+    {
+      "hop": 5,
+      "ip": "140.130.252.251",
+      "hostname": null,
+      "rtts": [
+        6.064,
+        3.64,
+        4.075
+      ],
+      "avg_rtt": 4.59,
+      "timeout": false
+    },
+    {
+      "hop": 6,
+      "ip": "192.192.61.142",
+      "hostname": null,
+      "rtts": [
+        7.279,
+        6.729,
+        5.509
+      ],
+      "avg_rtt": 6.51,
+      "timeout": false
+    },
+    {
+      "hop": 7,
+      "ip": "192.192.61.20",
+      "hostname": null,
+      "rtts": [
+        7.718,
+        7.67,
+        7.701
+      ],
+      "avg_rtt": 7.7,
+      "timeout": false
+    },
+    {
+      "hop": 8,
+      "ip": "192.192.61.184",
+      "hostname": null,
+      "rtts": [
+        11.052,
+        13.106,
+        9.468
+      ],
+      "avg_rtt": 11.21,
+      "timeout": false
+    },
+    {
+      "hop": 9,
+      "ip": "192.192.61.203",
+      "hostname": null,
+      "rtts": [
+        8.063,
+        8.345,
+        8.386
+      ],
+      "avg_rtt": 8.26,
+      "timeout": false
+    },
+    {
+      "hop": 10,
+      "ip": "72.14.196.229",
+      "hostname": null,
+      "rtts": [
+        8.529,
+        8.287,
+        10.545
+      ],
+      "avg_rtt": 9.12,
+      "timeout": false
+    },
+    {
+      "hop": 11,
+      "ip": "72.14.233.233",
+      "hostname": null,
+      "rtts": [
+        33.358,
+        10.391,
+        13.427
+      ],
+      "avg_rtt": 19.06,
+      "timeout": false
+    },
+    {
+      "hop": 12,
+      "ip": "216.239.48.135",
+      "hostname": null,
+      "rtts": [
+        13.165,
+        29.224,
+        9.525
+      ],
+      "avg_rtt": 17.3,
+      "timeout": false
+    },
+    {
+      "hop": 13,
+      "ip": "142.250.77.14",
+      "hostname": null,
+      "rtts": [
+        9.401,
+        9.836,
+        8.285
+      ],
+      "avg_rtt": 9.17,
+      "timeout": false
+    }
+  ],
+  "num_hops": 12,
+  "success": true,
+  "raw_output": " 1  192.168.50.1  12.157 ms  4.028 ms  2.443 ms\n 2  140.123.103.250  2.888 ms  2.700 ms  3.306 ms\n 3  140.123.9.249  2.743 ms  4.479 ms  3.438 ms\n 4  140.123.0.246  4.871 ms  5.322 ms  3.288 ms\n 5  140.130.252.251  6.064 ms  3.640 ms  4.075 ms\n 6  192.192.61.142  7.279 ms  6.729 ms  5.509 ms\n 7  192.192.61.20  7.718 ms  7.670 ms  7.701 ms\n 8  192.192.61.184  11.052 ms  13.106 ms  9.468 ms\n 9  192.192.61.203  8.063 ms  8.345 ms  8.386 ms\n10  72.14.196.229  8.529 ms  8.287 ms  10.545 ms\n11  72.14.233.233  33.358 ms  10.391 ms  13.427 ms\n12  216.239.48.135  13.165 ms  29.224 ms  9.525 ms\n13  142.250.77.14  9.401 ms  9.836 ms  8.285 ms\n",
+  "category": "cdn_global",
+  "base_domain": "youtube.com",
+  "service_variant": "www.youtube.com",
+  "is_bare_domain": false
+}

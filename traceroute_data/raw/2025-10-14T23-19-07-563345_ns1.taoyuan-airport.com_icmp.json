@@ -1,0 +1,135 @@
+{
+  "timestamp": "2025-10-14T23:19:07.563345",
+  "vantage_point": "university",
+  "target": "ns1.taoyuan-airport.com",
+  "target_ip": "60.251.184.130",
+  "protocol": "icmp",
+  "port": null,
+  "duration_seconds": 27.28,
+  "hops": [
+    {
+      "hop": 2,
+      "ip": "140.123.103.250",
+      "hostname": null,
+      "rtts": [
+        2.607,
+        2.758,
+        2.798
+      ],
+      "avg_rtt": 2.72,
+      "timeout": false
+    },
+    {
+      "hop": 3,
+      "ip": "140.123.9.249",
+      "hostname": null,
+      "rtts": [
+        2.637,
+        2.37,
+        2.752
+      ],
+      "avg_rtt": 2.59,
+      "timeout": false
+    },
+    {
+      "hop": 4,
+      "ip": "140.123.0.246",
+      "hostname": null,
+      "rtts": [
+        4.147,
+        5.55,
+        3.375
+      ],
+      "avg_rtt": 4.36,
+      "timeout": false
+    },
+    {
+      "hop": 5,
+      "ip": "140.130.252.251",
+      "hostname": null,
+      "rtts": [
+        6.028,
+        3.974,
+        6.111
+      ],
+      "avg_rtt": 5.37,
+      "timeout": false
+    },
+    {
+      "hop": 6,
+      "ip": "211.22.226.198",
+      "hostname": null,
+      "rtts": [
+        5.159,
+        5.653,
+        6.984
+      ],
+      "avg_rtt": 5.93,
+      "timeout": false
+    },
+    {
+      "hop": 7,
+      "ip": null,
+      "hostname": null,
+      "rtts": [],
+      "timeout": true
+    },
+    {
+      "hop": 8,
+      "ip": null,
+      "hostname": null,
+      "rtts": [],
+      "timeout": true
+    },
+    {
+      "hop": 9,
+      "ip": "220.128.4.217",
+      "hostname": null,
+      "rtts": [
+        21.383,
+        11.41,
+        10.773
+      ],
+      "avg_rtt": 14.52,
+      "timeout": false
+    },
+    {
+      "hop": 10,
+      "ip": "168.95.209.29",
+      "hostname": null,
+      "rtts": [
+        11.164,
+        11.617,
+        10.923
+      ],
+      "avg_rtt": 11.23,
+      "timeout": false
+    },
+    {
+      "hop": 11,
+      "ip": null,
+      "hostname": null,
+      "rtts": [],
+      "timeout": true
+    },
+    {
+      "hop": 12,
+      "ip": "60.251.184.130",
+      "hostname": null,
+      "rtts": [
+        27.332,
+        12.103,
+        14.176
+      ],
+      "avg_rtt": 17.87,
+      "timeout": false
+    }
+  ],
+  "num_hops": 11,
+  "success": true,
+  "raw_output": " 1  192.168.50.1  2.865 ms  2.231 ms  2.471 ms\n 2  140.123.103.250  2.607 ms  2.758 ms  2.798 ms\n 3  140.123.9.249  2.637 ms  2.370 ms  2.752 ms\n 4  140.123.0.246  4.147 ms  5.550 ms  3.375 ms\n 5  140.130.252.251  6.028 ms  3.974 ms  6.111 ms\n 6  211.22.226.198  5.159 ms  5.653 ms  6.984 ms\n 7  * * *\n 8  * * *\n 9  220.128.4.217  21.383 ms  11.410 ms  10.773 ms\n10  168.95.209.29  11.164 ms  11.617 ms  10.923 ms\n11  * * *\n12  60.251.184.130  27.332 ms  12.103 ms  14.176 ms\n",
+  "category": "critical_infra",
+  "base_domain": "taoyuan-airport.com",
+  "service_variant": "ns1.taoyuan-airport.com",
+  "is_bare_domain": false
+}

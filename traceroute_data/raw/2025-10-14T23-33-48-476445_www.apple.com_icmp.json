@@ -1,0 +1,114 @@
+{
+  "timestamp": "2025-10-14T23:33:48.476445",
+  "vantage_point": "university",
+  "target": "www.apple.com",
+  "target_ip": "163.28.224.36",
+  "protocol": "icmp",
+  "port": null,
+  "duration_seconds": 3.19,
+  "hops": [
+    {
+      "hop": 2,
+      "ip": "140.123.103.250",
+      "hostname": null,
+      "rtts": [
+        5.088,
+        2.626,
+        3.534
+      ],
+      "avg_rtt": 3.75,
+      "timeout": false
+    },
+    {
+      "hop": 3,
+      "ip": "140.123.9.249",
+      "hostname": null,
+      "rtts": [
+        3.193,
+        4.812,
+        2.839
+      ],
+      "avg_rtt": 3.61,
+      "timeout": false
+    },
+    {
+      "hop": 4,
+      "ip": "140.123.0.246",
+      "hostname": null,
+      "rtts": [
+        4.192,
+        3.081,
+        3.351
+      ],
+      "avg_rtt": 3.54,
+      "timeout": false
+    },
+    {
+      "hop": 5,
+      "ip": "140.130.252.251",
+      "hostname": null,
+      "rtts": [
+        5.155,
+        5.847,
+        5.629
+      ],
+      "avg_rtt": 5.54,
+      "timeout": false
+    },
+    {
+      "hop": 6,
+      "ip": "192.192.61.142",
+      "hostname": null,
+      "rtts": [
+        8.647,
+        5.447,
+        6.157
+      ],
+      "avg_rtt": 6.75,
+      "timeout": false
+    },
+    {
+      "hop": 7,
+      "ip": "192.192.61.20",
+      "hostname": null,
+      "rtts": [
+        7.981,
+        9.398,
+        12.225
+      ],
+      "avg_rtt": 9.87,
+      "timeout": false
+    },
+    {
+      "hop": 8,
+      "ip": "192.192.61.48",
+      "hostname": null,
+      "rtts": [
+        9.876,
+        9.096,
+        9.819
+      ],
+      "avg_rtt": 9.6,
+      "timeout": false
+    },
+    {
+      "hop": 9,
+      "ip": "163.28.224.36",
+      "hostname": null,
+      "rtts": [
+        8.098,
+        9.451,
+        9.031
+      ],
+      "avg_rtt": 8.86,
+      "timeout": false
+    }
+  ],
+  "num_hops": 8,
+  "success": true,
+  "raw_output": " 1  192.168.50.1  2.446 ms *  12.169 ms\n 2  140.123.103.250  5.088 ms  2.626 ms  3.534 ms\n 3  140.123.9.249  3.193 ms  4.812 ms  2.839 ms\n 4  140.123.0.246  4.192 ms  3.081 ms  3.351 ms\n 5  140.130.252.251  5.155 ms  5.847 ms  5.629 ms\n 6  192.192.61.142  8.647 ms  5.447 ms  6.157 ms\n 7  192.192.61.20  7.981 ms  9.398 ms  12.225 ms\n 8  192.192.61.48  9.876 ms  9.096 ms  9.819 ms\n 9  163.28.224.36  8.098 ms  9.451 ms  9.031 ms\n",
+  "category": "cdn_global",
+  "base_domain": "apple.com",
+  "service_variant": "www.apple.com",
+  "is_bare_domain": false
+}

@@ -1,0 +1,137 @@
+{
+  "timestamp": "2025-10-14T21:59:53.842833",
+  "vantage_point": "university",
+  "target": "www.ptt.cc",
+  "target_ip": "104.21.30.106",
+  "protocol": "icmp",
+  "port": null,
+  "duration_seconds": 3.29,
+  "hops": [
+    {
+      "hop": 2,
+      "ip": "140.123.103.250",
+      "hostname": null,
+      "rtts": [
+        2.111,
+        2.089,
+        2.164
+      ],
+      "avg_rtt": 2.12,
+      "timeout": false
+    },
+    {
+      "hop": 3,
+      "ip": "140.123.9.249",
+      "hostname": null,
+      "rtts": [
+        2.145,
+        4.76,
+        2.142
+      ],
+      "avg_rtt": 3.02,
+      "timeout": false
+    },
+    {
+      "hop": 4,
+      "ip": "140.123.0.246",
+      "hostname": null,
+      "rtts": [
+        3.485,
+        3.139,
+        2.773
+      ],
+      "avg_rtt": 3.13,
+      "timeout": false
+    },
+    {
+      "hop": 5,
+      "ip": "140.130.252.251",
+      "hostname": null,
+      "rtts": [
+        6.888,
+        3.647,
+        3.694
+      ],
+      "avg_rtt": 4.74,
+      "timeout": false
+    },
+    {
+      "hop": 6,
+      "ip": "192.192.61.142",
+      "hostname": null,
+      "rtts": [
+        6.645,
+        6.261,
+        6.11
+      ],
+      "avg_rtt": 6.34,
+      "timeout": false
+    },
+    {
+      "hop": 7,
+      "ip": "192.192.61.20",
+      "hostname": null,
+      "rtts": [
+        7.264,
+        7.992,
+        11.141
+      ],
+      "avg_rtt": 8.8,
+      "timeout": false
+    },
+    {
+      "hop": 8,
+      "ip": "192.192.61.48",
+      "hostname": null,
+      "rtts": [
+        8.905,
+        11.293,
+        11.913
+      ],
+      "avg_rtt": 10.7,
+      "timeout": false
+    },
+    {
+      "hop": 9,
+      "ip": "192.192.68.62",
+      "hostname": null,
+      "rtts": [
+        21.894,
+        16.607,
+        13.596
+      ],
+      "avg_rtt": 17.37,
+      "timeout": false
+    },
+    {
+      "hop": 10,
+      "ip": "203.163.222.39",
+      "hostname": null,
+      "rtts": [
+        27.295,
+        27.69
+      ],
+      "avg_rtt": 27.49,
+      "timeout": false
+    },
+    {
+      "hop": 11,
+      "ip": "104.21.30.106",
+      "hostname": null,
+      "rtts": [
+        16.426,
+        14.379,
+        8.312
+      ],
+      "avg_rtt": 13.04,
+      "timeout": false
+    }
+  ],
+  "num_hops": 10,
+  "success": true,
+  "raw_output": " 1  192.168.50.1  5.570 ms  1.955 ms  1.715 ms\n 2  140.123.103.250  2.111 ms  2.089 ms  2.164 ms\n 3  140.123.9.249  2.145 ms  4.760 ms  2.142 ms\n 4  140.123.0.246  3.485 ms  3.139 ms  2.773 ms\n 5  140.130.252.251  6.888 ms  3.647 ms  3.694 ms\n 6  192.192.61.142  6.645 ms  6.261 ms  6.110 ms\n 7  192.192.61.20  7.264 ms  7.992 ms  11.141 ms\n 8  192.192.61.48  8.905 ms  11.293 ms  11.913 ms\n 9  192.192.68.62  21.894 ms  16.607 ms  13.596 ms\n10  203.163.222.39  27.295 ms  27.690 ms *\n11  104.21.30.106  16.426 ms  14.379 ms  8.312 ms\n",
+  "category": "ecommerce_tech",
+  "base_domain": "ptt.cc",
+  "service_variant": "www.ptt.cc",
+  "is_bare_domain": false
+}

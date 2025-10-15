@@ -1,0 +1,145 @@
+{
+  "timestamp": "2025-10-15T07:56:18.034545",
+  "vantage_point": "university",
+  "target": "www.krtco.com.tw",
+  "target_ip": "118.163.224.38",
+  "protocol": "icmp",
+  "port": null,
+  "duration_seconds": 9.28,
+  "hops": [
+    {
+      "hop": 2,
+      "ip": "140.123.103.250",
+      "hostname": null,
+      "rtts": [
+        2.875,
+        4.136,
+        2.689
+      ],
+      "avg_rtt": 3.23,
+      "timeout": false
+    },
+    {
+      "hop": 3,
+      "ip": "140.123.9.249",
+      "hostname": null,
+      "rtts": [
+        3.222,
+        4.335,
+        2.631
+      ],
+      "avg_rtt": 3.4,
+      "timeout": false
+    },
+    {
+      "hop": 4,
+      "ip": "140.123.0.246",
+      "hostname": null,
+      "rtts": [
+        18.831,
+        4.399,
+        3.626
+      ],
+      "avg_rtt": 8.95,
+      "timeout": false
+    },
+    {
+      "hop": 5,
+      "ip": "140.130.252.251",
+      "hostname": null,
+      "rtts": [
+        4.169,
+        4.116,
+        6.131
+      ],
+      "avg_rtt": 4.81,
+      "timeout": false
+    },
+    {
+      "hop": 6,
+      "ip": "211.22.226.198",
+      "hostname": null,
+      "rtts": [
+        4.318,
+        4.242,
+        4.358
+      ],
+      "avg_rtt": 4.31,
+      "timeout": false
+    },
+    {
+      "hop": 7,
+      "ip": null,
+      "hostname": null,
+      "rtts": [],
+      "timeout": true
+    },
+    {
+      "hop": 8,
+      "ip": "220.128.25.21",
+      "hostname": null,
+      "rtts": [
+        22.93,
+        7.683,
+        6.836
+      ],
+      "avg_rtt": 12.48,
+      "timeout": false
+    },
+    {
+      "hop": 9,
+      "ip": "168.95.208.209",
+      "hostname": null,
+      "rtts": [
+        18.269,
+        9.818,
+        27.465
+      ],
+      "avg_rtt": 18.52,
+      "timeout": false
+    },
+    {
+      "hop": 10,
+      "ip": "118.163.224.38",
+      "hostname": null,
+      "rtts": [
+        6.947,
+        6.797,
+        6.773
+      ],
+      "avg_rtt": 6.84,
+      "timeout": false
+    },
+    {
+      "hop": 11,
+      "ip": "118.163.224.38",
+      "hostname": null,
+      "rtts": [
+        9.455,
+        10.225,
+        9.004
+      ],
+      "avg_rtt": 9.56,
+      "timeout": false
+    },
+    {
+      "hop": 12,
+      "ip": "118.163.224.38",
+      "hostname": null,
+      "rtts": [
+        7.037,
+        7.869,
+        8.646
+      ],
+      "avg_rtt": 7.85,
+      "timeout": false
+    }
+  ],
+  "num_hops": 11,
+  "success": true,
+  "raw_output": " 1  192.168.50.1  2.441 ms  2.217 ms  2.740 ms\n 2  140.123.103.250  2.875 ms  4.136 ms  2.689 ms\n 3  140.123.9.249  3.222 ms  4.335 ms  2.631 ms\n 4  140.123.0.246  18.831 ms  4.399 ms  3.626 ms\n 5  140.130.252.251  4.169 ms  4.116 ms  6.131 ms\n 6  211.22.226.198  4.318 ms  4.242 ms  4.358 ms\n 7  * * *\n 8  220.128.25.21  22.930 ms  7.683 ms  6.836 ms\n 9  168.95.208.209  18.269 ms  9.818 ms  27.465 ms\n10  118.163.224.38  6.947 ms  6.797 ms  6.773 ms\n11  118.163.224.38  9.455 ms  10.225 ms  9.004 ms\n12  118.163.224.38  7.037 ms  7.869 ms  8.646 ms\n",
+  "category": "critical_infra",
+  "base_domain": "krtco.com.tw",
+  "service_variant": "www.krtco.com.tw",
+  "is_bare_domain": false
+}

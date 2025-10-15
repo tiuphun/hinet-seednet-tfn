@@ -1,0 +1,125 @@
+{
+  "timestamp": "2025-10-15T00:22:30.481419",
+  "vantage_point": "university",
+  "target": "mail.nfa.gov.tw",
+  "target_ip": "210.69.173.98",
+  "protocol": "icmp",
+  "port": null,
+  "duration_seconds": 3.22,
+  "hops": [
+    {
+      "hop": 2,
+      "ip": "140.123.103.250",
+      "hostname": null,
+      "rtts": [
+        2.71,
+        2.801,
+        4.258
+      ],
+      "avg_rtt": 3.26,
+      "timeout": false
+    },
+    {
+      "hop": 3,
+      "ip": "140.123.9.249",
+      "hostname": null,
+      "rtts": [
+        2.738,
+        2.652,
+        3.293
+      ],
+      "avg_rtt": 2.89,
+      "timeout": false
+    },
+    {
+      "hop": 4,
+      "ip": "140.123.0.246",
+      "hostname": null,
+      "rtts": [
+        4.514,
+        6.024,
+        3.361
+      ],
+      "avg_rtt": 4.63,
+      "timeout": false
+    },
+    {
+      "hop": 5,
+      "ip": "140.130.252.251",
+      "hostname": null,
+      "rtts": [
+        3.905,
+        3.894,
+        6.353
+      ],
+      "avg_rtt": 4.72,
+      "timeout": false
+    },
+    {
+      "hop": 6,
+      "ip": "192.192.61.142",
+      "hostname": null,
+      "rtts": [
+        5.898,
+        4.942,
+        5.244
+      ],
+      "avg_rtt": 5.36,
+      "timeout": false
+    },
+    {
+      "hop": 7,
+      "ip": "192.192.61.37",
+      "hostname": null,
+      "rtts": [
+        6.964,
+        6.6,
+        12.6
+      ],
+      "avg_rtt": 8.72,
+      "timeout": false
+    },
+    {
+      "hop": 8,
+      "ip": "192.192.61.32",
+      "hostname": null,
+      "rtts": [
+        7.451,
+        8.831,
+        7.358
+      ],
+      "avg_rtt": 7.88,
+      "timeout": false
+    },
+    {
+      "hop": 9,
+      "ip": "192.192.61.209",
+      "hostname": null,
+      "rtts": [
+        8.376,
+        8.689,
+        8.15
+      ],
+      "avg_rtt": 8.4,
+      "timeout": false
+    },
+    {
+      "hop": 10,
+      "ip": "10.96.81.12",
+      "hostname": null,
+      "rtts": [
+        10.116,
+        9.948
+      ],
+      "avg_rtt": 10.03,
+      "timeout": false
+    }
+  ],
+  "num_hops": 9,
+  "success": false,
+  "raw_output": " 1  192.168.50.1  30.732 ms  2.393 ms  2.454 ms\n 2  140.123.103.250  2.710 ms  2.801 ms  4.258 ms\n 3  140.123.9.249  2.738 ms  2.652 ms  3.293 ms\n 4  140.123.0.246  4.514 ms  6.024 ms  3.361 ms\n 5  140.130.252.251  3.905 ms  3.894 ms  6.353 ms\n 6  192.192.61.142  5.898 ms  4.942 ms  5.244 ms\n 7  192.192.61.37  6.964 ms  6.600 ms  12.600 ms\n 8  192.192.61.32  7.451 ms  8.831 ms  7.358 ms\n 9  192.192.61.209  8.376 ms  8.689 ms  8.150 ms\n10  10.96.81.12  10.116 ms !X *  9.948 ms !X\n",
+  "category": "government_critical",
+  "base_domain": "nfa.gov.tw",
+  "service_variant": "mail.nfa.gov.tw",
+  "is_bare_domain": false
+}

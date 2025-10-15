@@ -1,0 +1,162 @@
+{
+  "timestamp": "2025-10-15T04:59:46.425749",
+  "vantage_point": "university",
+  "target": "mail.ncu.edu.tw",
+  "target_ip": "140.115.0.177",
+  "protocol": "icmp",
+  "port": null,
+  "duration_seconds": 0.35,
+  "hops": [
+    {
+      "hop": 2,
+      "ip": "140.123.103.250",
+      "hostname": null,
+      "rtts": [
+        2.701,
+        2.603,
+        2.772
+      ],
+      "avg_rtt": 2.69,
+      "timeout": false
+    },
+    {
+      "hop": 3,
+      "ip": "140.123.9.249",
+      "hostname": null,
+      "rtts": [
+        5.831,
+        5.648,
+        4.615
+      ],
+      "avg_rtt": 5.36,
+      "timeout": false
+    },
+    {
+      "hop": 4,
+      "ip": "140.123.0.246",
+      "hostname": null,
+      "rtts": [
+        7.231,
+        6.575,
+        3.316
+      ],
+      "avg_rtt": 5.71,
+      "timeout": false
+    },
+    {
+      "hop": 5,
+      "ip": "211.79.57.25",
+      "hostname": null,
+      "rtts": [
+        4.458,
+        5.083,
+        6.221
+      ],
+      "avg_rtt": 5.25,
+      "timeout": false
+    },
+    {
+      "hop": 6,
+      "ip": "211.73.76.209",
+      "hostname": null,
+      "rtts": [
+        5.445,
+        5.631,
+        5.804
+      ],
+      "avg_rtt": 5.63,
+      "timeout": false
+    },
+    {
+      "hop": 7,
+      "ip": "211.73.76.198",
+      "hostname": null,
+      "rtts": [
+        5.18,
+        6.084,
+        5.649
+      ],
+      "avg_rtt": 5.64,
+      "timeout": false
+    },
+    {
+      "hop": 8,
+      "ip": "211.73.76.141",
+      "hostname": null,
+      "rtts": [
+        7.862,
+        7.804,
+        9.035
+      ],
+      "avg_rtt": 8.23,
+      "timeout": false
+    },
+    {
+      "hop": 9,
+      "ip": "211.73.76.150",
+      "hostname": null,
+      "rtts": [
+        10.397,
+        15.592,
+        9.013
+      ],
+      "avg_rtt": 11.67,
+      "timeout": false
+    },
+    {
+      "hop": 10,
+      "ip": "211.79.51.26",
+      "hostname": null,
+      "rtts": [
+        9.224,
+        9.344,
+        9.55
+      ],
+      "avg_rtt": 9.37,
+      "timeout": false
+    },
+    {
+      "hop": 11,
+      "ip": "203.72.244.186",
+      "hostname": null,
+      "rtts": [
+        9.658,
+        10.302,
+        9.019
+      ],
+      "avg_rtt": 9.66,
+      "timeout": false
+    },
+    {
+      "hop": 12,
+      "ip": "10.115.255.248",
+      "hostname": null,
+      "rtts": [
+        11.156,
+        16.634,
+        16.619
+      ],
+      "avg_rtt": 14.8,
+      "timeout": false
+    },
+    {
+      "hop": 13,
+      "ip": "140.115.0.177",
+      "hostname": null,
+      "rtts": [
+        13.389,
+        11.923,
+        14.455
+      ],
+      "avg_rtt": 13.26,
+      "timeout": false
+    }
+  ],
+  "num_hops": 12,
+  "success": true,
+  "raw_output": " 1  192.168.50.1  10.385 ms  28.480 ms  3.907 ms\n 2  140.123.103.250  2.701 ms  2.603 ms  2.772 ms\n 3  140.123.9.249  5.831 ms  5.648 ms  4.615 ms\n 4  140.123.0.246  7.231 ms  6.575 ms  3.316 ms\n 5  211.79.57.25  4.458 ms  5.083 ms  6.221 ms\n 6  211.73.76.209  5.445 ms  5.631 ms  5.804 ms\n 7  211.73.76.198  5.180 ms  6.084 ms  5.649 ms\n 8  211.73.76.141  7.862 ms  7.804 ms  9.035 ms\n 9  211.73.76.150  10.397 ms  15.592 ms  9.013 ms\n10  211.79.51.26  9.224 ms  9.344 ms  9.550 ms\n11  203.72.244.186  9.658 ms  10.302 ms  9.019 ms\n12  10.115.255.248  11.156 ms  16.634 ms  16.619 ms\n13  140.115.0.177  13.389 ms  11.923 ms  14.455 ms\n",
+  "category": "universities",
+  "base_domain": "ncu.edu.tw",
+  "service_variant": "mail.ncu.edu.tw",
+  "is_bare_domain": false
+}

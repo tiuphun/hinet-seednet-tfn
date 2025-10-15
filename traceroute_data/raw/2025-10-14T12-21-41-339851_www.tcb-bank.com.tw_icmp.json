@@ -1,0 +1,128 @@
+{
+  "timestamp": "2025-10-14T12:21:41.339851",
+  "vantage_point": "cht-mobile",
+  "target": "www.tcb-bank.com.tw",
+  "target_ip": "211.23.11.89",
+  "protocol": "icmp",
+  "port": null,
+  "duration_seconds": 18.36,
+  "hops": [
+    {
+      "hop": 2,
+      "ip": "140.123.103.250",
+      "hostname": null,
+      "rtts": [
+        2.653,
+        2.699,
+        2.653
+      ],
+      "avg_rtt": 2.67,
+      "timeout": false
+    },
+    {
+      "hop": 3,
+      "ip": "140.123.9.249",
+      "hostname": null,
+      "rtts": [
+        2.296,
+        4.075,
+        2.109
+      ],
+      "avg_rtt": 2.83,
+      "timeout": false
+    },
+    {
+      "hop": 4,
+      "ip": "140.123.0.246",
+      "hostname": null,
+      "rtts": [
+        3.136,
+        2.778,
+        3.068
+      ],
+      "avg_rtt": 2.99,
+      "timeout": false
+    },
+    {
+      "hop": 5,
+      "ip": "140.130.252.251",
+      "hostname": null,
+      "rtts": [
+        3.528,
+        5.711,
+        4.02
+      ],
+      "avg_rtt": 4.42,
+      "timeout": false
+    },
+    {
+      "hop": 6,
+      "ip": "211.22.226.198",
+      "hostname": null,
+      "rtts": [
+        4.457,
+        5.262,
+        3.776
+      ],
+      "avg_rtt": 4.5,
+      "timeout": false
+    },
+    {
+      "hop": 7,
+      "ip": null,
+      "hostname": null,
+      "rtts": [],
+      "timeout": true
+    },
+    {
+      "hop": 8,
+      "ip": null,
+      "hostname": null,
+      "rtts": [],
+      "timeout": true
+    },
+    {
+      "hop": 9,
+      "ip": "220.128.4.221",
+      "hostname": null,
+      "rtts": [
+        10.04,
+        9.728,
+        28.227
+      ],
+      "avg_rtt": 16.0,
+      "timeout": false
+    },
+    {
+      "hop": 10,
+      "ip": "168.95.82.213",
+      "hostname": null,
+      "rtts": [
+        31.255,
+        30.756,
+        18.999
+      ],
+      "avg_rtt": 27.0,
+      "timeout": false
+    },
+    {
+      "hop": 11,
+      "ip": "211.23.11.89",
+      "hostname": null,
+      "rtts": [
+        11.894,
+        13.626,
+        10.624
+      ],
+      "avg_rtt": 12.05,
+      "timeout": false
+    }
+  ],
+  "num_hops": 10,
+  "success": true,
+  "raw_output": " 1  192.168.50.1  92.363 ms  2.565 ms  3.262 ms\n 2  140.123.103.250  2.653 ms  2.699 ms  2.653 ms\n 3  140.123.9.249  2.296 ms  4.075 ms  2.109 ms\n 4  140.123.0.246  3.136 ms  2.778 ms  3.068 ms\n 5  140.130.252.251  3.528 ms  5.711 ms  4.020 ms\n 6  211.22.226.198  4.457 ms  5.262 ms  3.776 ms\n 7  * * *\n 8  * * *\n 9  220.128.4.221  10.040 ms  9.728 ms  28.227 ms\n10  168.95.82.213  31.255 ms  30.756 ms  18.999 ms\n11  211.23.11.89  11.894 ms  13.626 ms  10.624 ms\n",
+  "category": "financial_banks",
+  "base_domain": "tcb-bank.com.tw",
+  "service_variant": "www.tcb-bank.com.tw",
+  "is_bare_domain": false
+}

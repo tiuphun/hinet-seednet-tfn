@@ -1,0 +1,114 @@
+{
+  "timestamp": "2025-10-15T05:39:35.925374",
+  "vantage_point": "university",
+  "target": "api.megabank.com.tw",
+  "target_ip": "163.28.5.88",
+  "protocol": "icmp",
+  "port": null,
+  "duration_seconds": 0.19,
+  "hops": [
+    {
+      "hop": 2,
+      "ip": "140.123.103.250",
+      "hostname": null,
+      "rtts": [
+        2.626,
+        5.303,
+        8.81
+      ],
+      "avg_rtt": 5.58,
+      "timeout": false
+    },
+    {
+      "hop": 3,
+      "ip": "140.123.9.249",
+      "hostname": null,
+      "rtts": [
+        2.896,
+        4.94,
+        2.93
+      ],
+      "avg_rtt": 3.59,
+      "timeout": false
+    },
+    {
+      "hop": 4,
+      "ip": "140.123.0.246",
+      "hostname": null,
+      "rtts": [
+        6.915,
+        3.469,
+        3.857
+      ],
+      "avg_rtt": 4.75,
+      "timeout": false
+    },
+    {
+      "hop": 5,
+      "ip": "140.130.252.251",
+      "hostname": null,
+      "rtts": [
+        3.751,
+        4.808,
+        3.815
+      ],
+      "avg_rtt": 4.12,
+      "timeout": false
+    },
+    {
+      "hop": 6,
+      "ip": "192.192.61.142",
+      "hostname": null,
+      "rtts": [
+        5.268,
+        6.748,
+        6.455
+      ],
+      "avg_rtt": 6.16,
+      "timeout": false
+    },
+    {
+      "hop": 7,
+      "ip": "192.192.61.20",
+      "hostname": null,
+      "rtts": [
+        7.061,
+        7.298,
+        7.078
+      ],
+      "avg_rtt": 7.15,
+      "timeout": false
+    },
+    {
+      "hop": 8,
+      "ip": "192.192.61.48",
+      "hostname": null,
+      "rtts": [
+        8.099,
+        8.084,
+        7.317
+      ],
+      "avg_rtt": 7.83,
+      "timeout": false
+    },
+    {
+      "hop": 9,
+      "ip": "163.28.5.88",
+      "hostname": null,
+      "rtts": [
+        9.011,
+        11.479,
+        29.23
+      ],
+      "avg_rtt": 16.57,
+      "timeout": false
+    }
+  ],
+  "num_hops": 8,
+  "success": true,
+  "raw_output": " 1  192.168.50.1  3.014 ms  2.611 ms  2.972 ms\n 2  140.123.103.250  2.626 ms  5.303 ms  8.810 ms\n 3  140.123.9.249  2.896 ms  4.940 ms  2.930 ms\n 4  140.123.0.246  6.915 ms  3.469 ms  3.857 ms\n 5  140.130.252.251  3.751 ms  4.808 ms  3.815 ms\n 6  192.192.61.142  5.268 ms  6.748 ms  6.455 ms\n 7  192.192.61.20  7.061 ms  7.298 ms  7.078 ms\n 8  192.192.61.48  8.099 ms  8.084 ms  7.317 ms\n 9  163.28.5.88  9.011 ms  11.479 ms  29.230 ms\n",
+  "category": "financial_banks",
+  "base_domain": "megabank.com.tw",
+  "service_variant": "api.megabank.com.tw",
+  "is_bare_domain": false
+}

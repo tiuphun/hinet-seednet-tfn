@@ -1,0 +1,54 @@
+{
+  "timestamp": "2025-10-14T16:30:23.527457",
+  "vantage_point": "university",
+  "target": "www.ccu.edu.tw",
+  "target_ip": "140.123.13.215",
+  "protocol": "icmp",
+  "port": null,
+  "duration_seconds": 0.08,
+  "hops": [
+    {
+      "hop": 2,
+      "ip": "140.123.103.250",
+      "hostname": null,
+      "rtts": [
+        2.769,
+        2.207,
+        2.196
+      ],
+      "avg_rtt": 2.39,
+      "timeout": false
+    },
+    {
+      "hop": 3,
+      "ip": "140.123.9.249",
+      "hostname": null,
+      "rtts": [
+        2.297,
+        2.035,
+        2.791
+      ],
+      "avg_rtt": 2.37,
+      "timeout": false
+    },
+    {
+      "hop": 4,
+      "ip": "140.123.13.215",
+      "hostname": null,
+      "rtts": [
+        2.609,
+        6.21,
+        10.133
+      ],
+      "avg_rtt": 6.32,
+      "timeout": false
+    }
+  ],
+  "num_hops": 3,
+  "success": true,
+  "raw_output": " 1  192.168.50.1  6.188 ms  10.074 ms  10.249 ms\n 2  140.123.103.250  2.769 ms  2.207 ms  2.196 ms\n 3  140.123.9.249  2.297 ms  2.035 ms  2.791 ms\n 4  140.123.13.215  2.609 ms  6.210 ms  10.133 ms\n",
+  "category": "universities",
+  "base_domain": "ccu.edu.tw",
+  "service_variant": "www.ccu.edu.tw",
+  "is_bare_domain": false
+}

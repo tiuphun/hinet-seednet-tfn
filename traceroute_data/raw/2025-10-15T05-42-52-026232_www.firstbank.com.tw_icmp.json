@@ -1,0 +1,168 @@
+{
+  "timestamp": "2025-10-15T05:42:52.026232",
+  "vantage_point": "university",
+  "target": "www.firstbank.com.tw",
+  "target_ip": "23.47.105.145",
+  "protocol": "icmp",
+  "port": null,
+  "duration_seconds": 51.55,
+  "hops": [
+    {
+      "hop": 2,
+      "ip": "140.123.103.250",
+      "hostname": null,
+      "rtts": [
+        2.564,
+        2.919,
+        3.131
+      ],
+      "avg_rtt": 2.87,
+      "timeout": false
+    },
+    {
+      "hop": 3,
+      "ip": "140.123.9.249",
+      "hostname": null,
+      "rtts": [
+        3.97,
+        2.887,
+        2.665
+      ],
+      "avg_rtt": 3.17,
+      "timeout": false
+    },
+    {
+      "hop": 4,
+      "ip": "140.123.0.246",
+      "hostname": null,
+      "rtts": [
+        3.313,
+        3.251,
+        3.257
+      ],
+      "avg_rtt": 3.27,
+      "timeout": false
+    },
+    {
+      "hop": 5,
+      "ip": "140.130.252.251",
+      "hostname": null,
+      "rtts": [
+        3.677,
+        13.488,
+        4.19
+      ],
+      "avg_rtt": 7.12,
+      "timeout": false
+    },
+    {
+      "hop": 6,
+      "ip": "192.192.61.142",
+      "hostname": null,
+      "rtts": [
+        6.878,
+        8.661,
+        6.677
+      ],
+      "avg_rtt": 7.41,
+      "timeout": false
+    },
+    {
+      "hop": 7,
+      "ip": "192.192.61.20",
+      "hostname": null,
+      "rtts": [
+        8.78,
+        9.751,
+        10.44
+      ],
+      "avg_rtt": 9.66,
+      "timeout": false
+    },
+    {
+      "hop": 8,
+      "ip": "192.192.61.48",
+      "hostname": null,
+      "rtts": [
+        8.773,
+        8.067,
+        8.4
+      ],
+      "avg_rtt": 8.41,
+      "timeout": false
+    },
+    {
+      "hop": 9,
+      "ip": "192.192.68.62",
+      "hostname": null,
+      "rtts": [
+        8.232,
+        37.838,
+        8.155
+      ],
+      "avg_rtt": 18.07,
+      "timeout": false
+    },
+    {
+      "hop": 10,
+      "ip": null,
+      "hostname": null,
+      "rtts": [],
+      "timeout": true
+    },
+    {
+      "hop": 11,
+      "ip": null,
+      "hostname": null,
+      "rtts": [],
+      "timeout": true
+    },
+    {
+      "hop": 12,
+      "ip": null,
+      "hostname": null,
+      "rtts": [],
+      "timeout": true
+    },
+    {
+      "hop": 13,
+      "ip": null,
+      "hostname": null,
+      "rtts": [],
+      "timeout": true
+    },
+    {
+      "hop": 14,
+      "ip": null,
+      "hostname": null,
+      "rtts": [],
+      "timeout": true
+    },
+    {
+      "hop": 15,
+      "ip": null,
+      "hostname": null,
+      "rtts": [],
+      "timeout": true
+    },
+    {
+      "hop": 16,
+      "ip": "23.47.105.145",
+      "hostname": null,
+      "rtts": [
+        64.614,
+        64.33,
+        57.973
+      ],
+      "avg_rtt": 62.31,
+      "timeout": false
+    }
+  ],
+  "num_hops": 15,
+  "success": true,
+  "raw_output": " 1  192.168.50.1  11.339 ms  2.860 ms  2.335 ms\n 2  140.123.103.250  2.564 ms  2.919 ms  3.131 ms\n 3  140.123.9.249  3.970 ms  2.887 ms  2.665 ms\n 4  140.123.0.246  3.313 ms  3.251 ms  3.257 ms\n 5  140.130.252.251  3.677 ms  13.488 ms  4.190 ms\n 6  192.192.61.142  6.878 ms  8.661 ms  6.677 ms\n 7  192.192.61.20  8.780 ms  9.751 ms  10.440 ms\n 8  192.192.61.48  8.773 ms  8.067 ms  8.400 ms\n 9  192.192.68.62  8.232 ms  37.838 ms  8.155 ms\n10  * * 65.49.108.1  19.181 ms\n11  * * *\n12  * * *\n13  * * *\n14  * * *\n15  * * *\n16  23.47.105.145  64.614 ms  64.330 ms  57.973 ms\n",
+  "category": "financial_banks",
+  "base_domain": "firstbank.com.tw",
+  "service_variant": "www.firstbank.com.tw",
+  "is_bare_domain": false
+}
