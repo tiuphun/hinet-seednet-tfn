@@ -1,0 +1,135 @@
+{
+  "timestamp": "2025-10-22T01:18:52.158354",
+  "vantage_point": "university",
+  "target": "mail.taipower.com.tw",
+  "target_ip": "203.74.177.231",
+  "protocol": "icmp",
+  "port": null,
+  "duration_seconds": 28.44,
+  "hops": [
+    {
+      "hop": 2,
+      "ip": "140.123.103.250",
+      "hostname": "csgate103.cs.ccu.edu.tw",
+      "rtts": [
+        6.462,
+        2.883,
+        2.486
+      ],
+      "avg_rtt": 3.94,
+      "timeout": false
+    },
+    {
+      "hop": 3,
+      "ip": "140.123.9.249",
+      "hostname": "140.123.9.249",
+      "rtts": [
+        4.382,
+        2.713,
+        2.836
+      ],
+      "avg_rtt": 3.31,
+      "timeout": false
+    },
+    {
+      "hop": 4,
+      "ip": "140.123.0.246",
+      "hostname": "140.123.0.246",
+      "rtts": [
+        3.331,
+        3.544,
+        4.868
+      ],
+      "avg_rtt": 3.91,
+      "timeout": false
+    },
+    {
+      "hop": 5,
+      "ip": "140.130.252.251",
+      "hostname": "140.130.252.251",
+      "rtts": [
+        5.214,
+        4.766,
+        5.544
+      ],
+      "avg_rtt": 5.17,
+      "timeout": false
+    },
+    {
+      "hop": 6,
+      "ip": "211.22.226.198",
+      "hostname": "211-22-226-198.caw1-3332.hinet.net",
+      "rtts": [
+        4.056,
+        10.224,
+        4.999
+      ],
+      "avg_rtt": 6.43,
+      "timeout": false
+    },
+    {
+      "hop": 7,
+      "ip": null,
+      "hostname": null,
+      "rtts": [],
+      "timeout": true
+    },
+    {
+      "hop": 8,
+      "ip": null,
+      "hostname": null,
+      "rtts": [],
+      "timeout": true
+    },
+    {
+      "hop": 9,
+      "ip": "220.128.2.225",
+      "hostname": "220-128-2-225.tpdb-3316.hinet.net",
+      "rtts": [
+        24.006,
+        13.993,
+        10.438
+      ],
+      "avg_rtt": 16.15,
+      "timeout": false
+    },
+    {
+      "hop": 10,
+      "ip": "203.75.188.197",
+      "hostname": "203-75-188-197.hinet-ip.hinet.net",
+      "rtts": [
+        13.861,
+        10.909,
+        12.379
+      ],
+      "avg_rtt": 12.38,
+      "timeout": false
+    },
+    {
+      "hop": 11,
+      "ip": null,
+      "hostname": null,
+      "rtts": [],
+      "timeout": true
+    },
+    {
+      "hop": 12,
+      "ip": "203.74.177.231",
+      "hostname": "203.74.177.231",
+      "rtts": [
+        20.57,
+        17.587,
+        11.14
+      ],
+      "avg_rtt": 16.43,
+      "timeout": false
+    }
+  ],
+  "num_hops": 11,
+  "success": true,
+  "raw_output": " 1  192.168.50.1 (192.168.50.1)  13.258 ms  2.562 ms  4.380 ms\n 2  csgate103.cs.ccu.edu.tw (140.123.103.250)  6.462 ms  2.883 ms  2.486 ms\n 3  140.123.9.249 (140.123.9.249)  4.382 ms  2.713 ms  2.836 ms\n 4  140.123.0.246 (140.123.0.246)  3.331 ms  3.544 ms  4.868 ms\n 5  140.130.252.251 (140.130.252.251)  5.214 ms  4.766 ms  5.544 ms\n 6  211-22-226-198.caw1-3332.hinet.net (211.22.226.198)  4.056 ms  10.224 ms  4.999 ms\n 7  * * *\n 8  * * *\n 9  220-128-2-225.tpdb-3316.hinet.net (220.128.2.225)  24.006 ms  13.993 ms  10.438 ms\n10  203-75-188-197.hinet-ip.hinet.net (203.75.188.197)  13.861 ms  10.909 ms  12.379 ms\n11  * * *\n12  203.74.177.231 (203.74.177.231)  20.570 ms  17.587 ms  11.140 ms\n",
+  "category": "critical_infra",
+  "base_domain": "taipower.com.tw",
+  "service_variant": "mail.taipower.com.tw",
+  "is_bare_domain": false
+}

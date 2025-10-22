@@ -1,0 +1,184 @@
+{
+  "timestamp": "2025-10-21T17:03:16.528493",
+  "vantage_point": "university",
+  "target": "www.netflix.com",
+  "target_ip": "207.45.73.1",
+  "protocol": "icmp",
+  "port": null,
+  "duration_seconds": 28.03,
+  "hops": [
+    {
+      "hop": 2,
+      "ip": "140.123.103.250",
+      "hostname": "csgate103.cs.ccu.edu.tw",
+      "rtts": [
+        2.389,
+        2.225,
+        2.86
+      ],
+      "avg_rtt": 2.49,
+      "timeout": false
+    },
+    {
+      "hop": 3,
+      "ip": "140.123.9.249",
+      "hostname": "140.123.9.249",
+      "rtts": [
+        14.44,
+        46.661,
+        2.247
+      ],
+      "avg_rtt": 21.12,
+      "timeout": false
+    },
+    {
+      "hop": 4,
+      "ip": "140.123.0.246",
+      "hostname": "140.123.0.246",
+      "rtts": [
+        9.115,
+        11.495,
+        4.087
+      ],
+      "avg_rtt": 8.23,
+      "timeout": false
+    },
+    {
+      "hop": 5,
+      "ip": "140.130.252.251",
+      "hostname": "140.130.252.251",
+      "rtts": [
+        61.779,
+        13.681,
+        18.63
+      ],
+      "avg_rtt": 31.36,
+      "timeout": false
+    },
+    {
+      "hop": 6,
+      "ip": "192.192.61.142",
+      "hostname": "192.192.61.142",
+      "rtts": [
+        13.507,
+        11.26,
+        20.201
+      ],
+      "avg_rtt": 14.99,
+      "timeout": false
+    },
+    {
+      "hop": 7,
+      "ip": "192.192.61.20",
+      "hostname": "192.192.61.20",
+      "rtts": [
+        12.165,
+        22.19,
+        10.763
+      ],
+      "avg_rtt": 15.04,
+      "timeout": false
+    },
+    {
+      "hop": 8,
+      "ip": "192.192.61.66",
+      "hostname": "192.192.61.66",
+      "rtts": [
+        11.144,
+        7.633,
+        8.024
+      ],
+      "avg_rtt": 8.93,
+      "timeout": false
+    },
+    {
+      "hop": 9,
+      "ip": "192.192.68.30",
+      "hostname": "192.192.68.30",
+      "rtts": [
+        10.654,
+        15.686,
+        17.792
+      ],
+      "avg_rtt": 14.71,
+      "timeout": false
+    },
+    {
+      "hop": 10,
+      "ip": "210.176.44.153",
+      "hostname": "unknown.telstraglobal.net",
+      "rtts": [
+        12.891,
+        10.461,
+        11.284
+      ],
+      "avg_rtt": 11.55,
+      "timeout": false
+    },
+    {
+      "hop": 11,
+      "ip": "202.84.137.254",
+      "hostname": "i-91.ttak-core02.telstraglobal.net",
+      "rtts": [
+        11.65,
+        11.538
+      ],
+      "avg_rtt": 11.59,
+      "timeout": false
+    },
+    {
+      "hop": 12,
+      "ip": "202.84.140.249",
+      "hostname": "i-1089.hkth-core03.telstraglobal.net",
+      "rtts": [
+        32.397,
+        28.925
+      ],
+      "avg_rtt": 30.66,
+      "timeout": false
+    },
+    {
+      "hop": 13,
+      "ip": "202.84.153.26",
+      "hostname": "i-91.hkmi01.telstraglobal.net",
+      "rtts": [
+        46.836,
+        34.133,
+        34.696
+      ],
+      "avg_rtt": 38.55,
+      "timeout": false
+    },
+    {
+      "hop": 14,
+      "ip": "66.197.172.74",
+      "hostname": "po17.es01.hkg001.ix.nflxvideo.net",
+      "rtts": [
+        32.399,
+        90.96,
+        70.41
+      ],
+      "avg_rtt": 64.59,
+      "timeout": false
+    },
+    {
+      "hop": 15,
+      "ip": "207.45.73.1",
+      "hostname": "207.45.73.1",
+      "rtts": [
+        41.772,
+        35.096,
+        38.115
+      ],
+      "avg_rtt": 38.33,
+      "timeout": false
+    }
+  ],
+  "num_hops": 14,
+  "success": true,
+  "raw_output": " 1  192.168.50.1 (192.168.50.1)  52.676 ms  14.123 ms  11.815 ms\n 2  csgate103.cs.ccu.edu.tw (140.123.103.250)  2.389 ms  2.225 ms  2.860 ms\n 3  140.123.9.249 (140.123.9.249)  14.440 ms  46.661 ms  2.247 ms\n 4  140.123.0.246 (140.123.0.246)  9.115 ms  11.495 ms  4.087 ms\n 5  140.130.252.251 (140.130.252.251)  61.779 ms  13.681 ms  18.630 ms\n 6  192.192.61.142 (192.192.61.142)  13.507 ms  11.260 ms  20.201 ms\n 7  192.192.61.20 (192.192.61.20)  12.165 ms  22.190 ms  10.763 ms\n 8  192.192.61.66 (192.192.61.66)  11.144 ms  7.633 ms  8.024 ms\n 9  192.192.68.30 (192.192.68.30)  10.654 ms  15.686 ms  17.792 ms\n10  unknown.telstraglobal.net (210.176.44.153)  12.891 ms  10.461 ms  11.284 ms\n11  i-91.ttak-core02.telstraglobal.net (202.84.137.254)  11.650 ms *  11.538 ms\n12  i-1089.hkth-core03.telstraglobal.net (202.84.140.249)  32.397 ms *  28.925 ms\n13  i-91.hkmi01.telstraglobal.net (202.84.153.26)  46.836 ms  34.133 ms  34.696 ms\n14  po17.es01.hkg001.ix.nflxvideo.net (66.197.172.74)  32.399 ms  90.960 ms  70.410 ms\n15  207.45.73.1 (207.45.73.1)  41.772 ms  35.096 ms  38.115 ms\n",
+  "category": "cdn_global",
+  "base_domain": "netflix.com",
+  "service_variant": "www.netflix.com",
+  "is_bare_domain": false
+}

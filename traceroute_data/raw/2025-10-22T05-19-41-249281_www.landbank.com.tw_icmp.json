@@ -1,0 +1,133 @@
+{
+  "timestamp": "2025-10-22T05:19:41.249281",
+  "vantage_point": "university",
+  "target": "www.landbank.com.tw",
+  "target_ip": "203.66.34.46",
+  "protocol": "icmp",
+  "port": null,
+  "duration_seconds": 9.3,
+  "hops": [
+    {
+      "hop": 2,
+      "ip": "140.123.103.250",
+      "hostname": "csgate103.cs.ccu.edu.tw",
+      "rtts": [
+        2.531,
+        2.464,
+        3.336
+      ],
+      "avg_rtt": 2.78,
+      "timeout": false
+    },
+    {
+      "hop": 3,
+      "ip": "140.123.9.249",
+      "hostname": "140.123.9.249",
+      "rtts": [
+        2.575,
+        2.588,
+        2.616
+      ],
+      "avg_rtt": 2.59,
+      "timeout": false
+    },
+    {
+      "hop": 4,
+      "ip": "140.123.0.246",
+      "hostname": "140.123.0.246",
+      "rtts": [
+        3.104,
+        3.533,
+        3.474
+      ],
+      "avg_rtt": 3.37,
+      "timeout": false
+    },
+    {
+      "hop": 5,
+      "ip": "140.130.252.251",
+      "hostname": "140.130.252.251",
+      "rtts": [
+        5.405,
+        7.621,
+        4.147
+      ],
+      "avg_rtt": 5.72,
+      "timeout": false
+    },
+    {
+      "hop": 6,
+      "ip": "211.22.226.198",
+      "hostname": "211-22-226-198.caw1-3332.hinet.net",
+      "rtts": [
+        4.96,
+        7.249,
+        3.755
+      ],
+      "avg_rtt": 5.32,
+      "timeout": false
+    },
+    {
+      "hop": 7,
+      "ip": null,
+      "hostname": null,
+      "rtts": [],
+      "timeout": true
+    },
+    {
+      "hop": 8,
+      "ip": "220.128.19.22",
+      "hostname": "220-128-19-22.chch-3032.hinet.net",
+      "rtts": [
+        19.985,
+        13.459,
+        12.518
+      ],
+      "avg_rtt": 15.32,
+      "timeout": false
+    },
+    {
+      "hop": 9,
+      "ip": "220.128.20.77",
+      "hostname": "220-128-20-77.chch-3331.hinet.net",
+      "rtts": [
+        8.753,
+        8.921,
+        10.466
+      ],
+      "avg_rtt": 9.38,
+      "timeout": false
+    },
+    {
+      "hop": 10,
+      "ip": "211.22.228.141",
+      "hostname": "pths-3502.hinet.net",
+      "rtts": [
+        8.11,
+        16.666,
+        10.191
+      ],
+      "avg_rtt": 11.66,
+      "timeout": false
+    },
+    {
+      "hop": 11,
+      "ip": "203.66.34.46",
+      "hostname": "203-66-34-46.hinet-ip.hinet.net",
+      "rtts": [
+        7.949,
+        17.086,
+        9.976
+      ],
+      "avg_rtt": 11.67,
+      "timeout": false
+    }
+  ],
+  "num_hops": 10,
+  "success": true,
+  "raw_output": " 1  192.168.50.1 (192.168.50.1)  2.772 ms  2.401 ms  2.546 ms\n 2  csgate103.cs.ccu.edu.tw (140.123.103.250)  2.531 ms  2.464 ms  3.336 ms\n 3  140.123.9.249 (140.123.9.249)  2.575 ms  2.588 ms  2.616 ms\n 4  140.123.0.246 (140.123.0.246)  3.104 ms  3.533 ms  3.474 ms\n 5  140.130.252.251 (140.130.252.251)  5.405 ms  7.621 ms  4.147 ms\n 6  211-22-226-198.caw1-3332.hinet.net (211.22.226.198)  4.960 ms  7.249 ms  3.755 ms\n 7  * * *\n 8  220-128-19-22.chch-3032.hinet.net (220.128.19.22)  19.985 ms  13.459 ms  12.518 ms\n 9  220-128-20-77.chch-3331.hinet.net (220.128.20.77)  8.753 ms  8.921 ms  10.466 ms\n10  pths-3502.hinet.net (211.22.228.141)  8.110 ms  16.666 ms  10.191 ms\n11  203-66-34-46.hinet-ip.hinet.net (203.66.34.46)  7.949 ms  17.086 ms  9.976 ms\n",
+  "category": "financial_banks",
+  "base_domain": "landbank.com.tw",
+  "service_variant": "www.landbank.com.tw",
+  "is_bare_domain": false
+}

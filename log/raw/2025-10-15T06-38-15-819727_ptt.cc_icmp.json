@@ -1,0 +1,162 @@
+{
+  "timestamp": "2025-10-15T06:38:15.819727",
+  "vantage_point": "university",
+  "target": "ptt.cc",
+  "target_ip": "140.112.172.3",
+  "protocol": "icmp",
+  "port": null,
+  "duration_seconds": 0.29,
+  "hops": [
+    {
+      "hop": 2,
+      "ip": "140.123.103.250",
+      "hostname": null,
+      "rtts": [
+        2.483,
+        2.41,
+        2.427
+      ],
+      "avg_rtt": 2.44,
+      "timeout": false
+    },
+    {
+      "hop": 3,
+      "ip": "140.123.9.249",
+      "hostname": null,
+      "rtts": [
+        2.566,
+        2.496,
+        2.493
+      ],
+      "avg_rtt": 2.52,
+      "timeout": false
+    },
+    {
+      "hop": 4,
+      "ip": "140.123.0.246",
+      "hostname": null,
+      "rtts": [
+        3.449,
+        4.42,
+        8.959
+      ],
+      "avg_rtt": 5.61,
+      "timeout": false
+    },
+    {
+      "hop": 5,
+      "ip": "140.130.252.251",
+      "hostname": null,
+      "rtts": [
+        4.519,
+        3.931,
+        3.745
+      ],
+      "avg_rtt": 4.07,
+      "timeout": false
+    },
+    {
+      "hop": 6,
+      "ip": "192.192.61.142",
+      "hostname": null,
+      "rtts": [
+        6.141,
+        5.75,
+        6.131
+      ],
+      "avg_rtt": 6.01,
+      "timeout": false
+    },
+    {
+      "hop": 7,
+      "ip": "192.192.61.20",
+      "hostname": null,
+      "rtts": [
+        12.294,
+        7.605,
+        7.499
+      ],
+      "avg_rtt": 9.13,
+      "timeout": false
+    },
+    {
+      "hop": 8,
+      "ip": "192.192.61.81",
+      "hostname": null,
+      "rtts": [
+        8.243,
+        8.089,
+        8.209
+      ],
+      "avg_rtt": 8.18,
+      "timeout": false
+    },
+    {
+      "hop": 9,
+      "ip": "140.112.0.69",
+      "hostname": null,
+      "rtts": [
+        13.086,
+        18.939,
+        8.68
+      ],
+      "avg_rtt": 13.57,
+      "timeout": false
+    },
+    {
+      "hop": 10,
+      "ip": "10.199.199.2",
+      "hostname": null,
+      "rtts": [
+        14.019,
+        9.612,
+        8.737
+      ],
+      "avg_rtt": 10.79,
+      "timeout": false
+    },
+    {
+      "hop": 11,
+      "ip": "140.112.0.201",
+      "hostname": null,
+      "rtts": [
+        8.624,
+        8.037,
+        8.174
+      ],
+      "avg_rtt": 8.28,
+      "timeout": false
+    },
+    {
+      "hop": 12,
+      "ip": "140.112.0.173",
+      "hostname": null,
+      "rtts": [
+        8.066,
+        9.608,
+        7.959
+      ],
+      "avg_rtt": 8.54,
+      "timeout": false
+    },
+    {
+      "hop": 13,
+      "ip": "140.112.172.3",
+      "hostname": null,
+      "rtts": [
+        8.241,
+        8.567,
+        8.214
+      ],
+      "avg_rtt": 8.34,
+      "timeout": false
+    }
+  ],
+  "num_hops": 12,
+  "success": true,
+  "raw_output": " 1  192.168.50.1  2.573 ms  2.191 ms  1.980 ms\n 2  140.123.103.250  2.483 ms  2.410 ms  2.427 ms\n 3  140.123.9.249  2.566 ms  2.496 ms  2.493 ms\n 4  140.123.0.246  3.449 ms  4.420 ms  8.959 ms\n 5  140.130.252.251  4.519 ms  3.931 ms  3.745 ms\n 6  192.192.61.142  6.141 ms  5.750 ms  6.131 ms\n 7  192.192.61.20  12.294 ms  7.605 ms  7.499 ms\n 8  192.192.61.81  8.243 ms  8.089 ms  8.209 ms\n 9  140.112.0.69  13.086 ms  18.939 ms  8.680 ms\n10  10.199.199.2  14.019 ms  9.612 ms  8.737 ms\n11  140.112.0.201  8.624 ms  8.037 ms  8.174 ms\n12  140.112.0.173  8.066 ms  9.608 ms  7.959 ms\n13  140.112.172.3  8.241 ms  8.567 ms  8.214 ms\n",
+  "category": "ecommerce_tech",
+  "base_domain": "ptt.cc",
+  "service_variant": "ptt.cc",
+  "is_bare_domain": true
+}

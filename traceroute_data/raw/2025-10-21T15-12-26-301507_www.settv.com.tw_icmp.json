@@ -1,0 +1,161 @@
+{
+  "timestamp": "2025-10-21T15:12:26.301507",
+  "vantage_point": "university",
+  "target": "www.settv.com.tw",
+  "target_ip": "3.169.137.125",
+  "protocol": "icmp",
+  "port": null,
+  "duration_seconds": 45.4,
+  "hops": [
+    {
+      "hop": 2,
+      "ip": "140.123.103.250",
+      "hostname": "csgate103.cs.ccu.edu.tw",
+      "rtts": [
+        1.98,
+        2.196,
+        2.293
+      ],
+      "avg_rtt": 2.16,
+      "timeout": false
+    },
+    {
+      "hop": 3,
+      "ip": "140.123.9.249",
+      "hostname": "140.123.9.249",
+      "rtts": [
+        2.615,
+        2.587,
+        18.303
+      ],
+      "avg_rtt": 7.84,
+      "timeout": false
+    },
+    {
+      "hop": 4,
+      "ip": "140.123.0.246",
+      "hostname": "140.123.0.246",
+      "rtts": [
+        3.16,
+        2.552,
+        3.748
+      ],
+      "avg_rtt": 3.15,
+      "timeout": false
+    },
+    {
+      "hop": 5,
+      "ip": "140.130.252.251",
+      "hostname": "140.130.252.251",
+      "rtts": [
+        17.795,
+        13.956,
+        9.009
+      ],
+      "avg_rtt": 13.59,
+      "timeout": false
+    },
+    {
+      "hop": 6,
+      "ip": "192.192.61.142",
+      "hostname": "192.192.61.142",
+      "rtts": [
+        6.117,
+        7.855,
+        5.474
+      ],
+      "avg_rtt": 6.48,
+      "timeout": false
+    },
+    {
+      "hop": 7,
+      "ip": "192.192.61.20",
+      "hostname": "192.192.61.20",
+      "rtts": [
+        11.825,
+        15.562,
+        7.68
+      ],
+      "avg_rtt": 11.69,
+      "timeout": false
+    },
+    {
+      "hop": 8,
+      "ip": "192.192.61.48",
+      "hostname": "192.192.61.48",
+      "rtts": [
+        8.263,
+        7.268,
+        7.311
+      ],
+      "avg_rtt": 7.61,
+      "timeout": false
+    },
+    {
+      "hop": 9,
+      "ip": "192.192.68.62",
+      "hostname": "192.192.68.62",
+      "rtts": [
+        8.564,
+        20.994,
+        11.614
+      ],
+      "avg_rtt": 13.72,
+      "timeout": false
+    },
+    {
+      "hop": 10,
+      "ip": null,
+      "hostname": null,
+      "rtts": [],
+      "timeout": true
+    },
+    {
+      "hop": 11,
+      "ip": null,
+      "hostname": null,
+      "rtts": [],
+      "timeout": true
+    },
+    {
+      "hop": 12,
+      "ip": null,
+      "hostname": null,
+      "rtts": [],
+      "timeout": true
+    },
+    {
+      "hop": 13,
+      "ip": null,
+      "hostname": null,
+      "rtts": [],
+      "timeout": true
+    },
+    {
+      "hop": 14,
+      "ip": null,
+      "hostname": null,
+      "rtts": [],
+      "timeout": true
+    },
+    {
+      "hop": 15,
+      "ip": "3.169.137.125",
+      "hostname": "server-3-169-137-125.tpe54.r.cloudfront.net",
+      "rtts": [
+        19.027,
+        17.609,
+        16.344
+      ],
+      "avg_rtt": 17.66,
+      "timeout": false
+    }
+  ],
+  "num_hops": 14,
+  "success": true,
+  "raw_output": " 1  192.168.50.1 (192.168.50.1)  13.560 ms  10.355 ms  1.731 ms\n 2  csgate103.cs.ccu.edu.tw (140.123.103.250)  1.980 ms  2.196 ms  2.293 ms\n 3  140.123.9.249 (140.123.9.249)  2.615 ms  2.587 ms  18.303 ms\n 4  140.123.0.246 (140.123.0.246)  3.160 ms  2.552 ms  3.748 ms\n 5  140.130.252.251 (140.130.252.251)  17.795 ms  13.956 ms  9.009 ms\n 6  192.192.61.142 (192.192.61.142)  6.117 ms  7.855 ms  5.474 ms\n 7  192.192.61.20 (192.192.61.20)  11.825 ms  15.562 ms  7.680 ms\n 8  192.192.61.48 (192.192.61.48)  8.263 ms  7.268 ms  7.311 ms\n 9  192.192.68.62 (192.192.68.62)  8.564 ms  20.994 ms  11.614 ms\n10  * * *\n11  * * *\n12  * * *\n13  * * *\n14  * * *\n15  server-3-169-137-125.tpe54.r.cloudfront.net (3.169.137.125)  19.027 ms  17.609 ms  16.344 ms\n",
+  "category": "media",
+  "base_domain": "settv.com.tw",
+  "service_variant": "www.settv.com.tw",
+  "is_bare_domain": false
+}

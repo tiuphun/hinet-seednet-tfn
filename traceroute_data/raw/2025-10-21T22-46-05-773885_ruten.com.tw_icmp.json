@@ -1,0 +1,133 @@
+{
+  "timestamp": "2025-10-21T22:46:05.773885",
+  "vantage_point": "university",
+  "target": "ruten.com.tw",
+  "target_ip": "104.18.11.27",
+  "protocol": "icmp",
+  "port": null,
+  "duration_seconds": 16.43,
+  "hops": [
+    {
+      "hop": 2,
+      "ip": "140.123.103.250",
+      "hostname": "csgate103.cs.ccu.edu.tw",
+      "rtts": [
+        2.511,
+        3.043,
+        2.378
+      ],
+      "avg_rtt": 2.64,
+      "timeout": false
+    },
+    {
+      "hop": 3,
+      "ip": "140.123.9.249",
+      "hostname": "140.123.9.249",
+      "rtts": [
+        2.559,
+        2.701,
+        2.346
+      ],
+      "avg_rtt": 2.54,
+      "timeout": false
+    },
+    {
+      "hop": 4,
+      "ip": "140.123.0.246",
+      "hostname": "140.123.0.246",
+      "rtts": [
+        3.171,
+        3.163,
+        3.097
+      ],
+      "avg_rtt": 3.14,
+      "timeout": false
+    },
+    {
+      "hop": 5,
+      "ip": "140.130.252.251",
+      "hostname": "140.130.252.251",
+      "rtts": [
+        3.534,
+        5.963,
+        4.927
+      ],
+      "avg_rtt": 4.81,
+      "timeout": false
+    },
+    {
+      "hop": 6,
+      "ip": "192.192.61.142",
+      "hostname": "192.192.61.142",
+      "rtts": [
+        5.905,
+        6.108,
+        6.83
+      ],
+      "avg_rtt": 6.28,
+      "timeout": false
+    },
+    {
+      "hop": 7,
+      "ip": "192.192.61.20",
+      "hostname": "192.192.61.20",
+      "rtts": [
+        15.459,
+        16.461,
+        8.9
+      ],
+      "avg_rtt": 13.61,
+      "timeout": false
+    },
+    {
+      "hop": 8,
+      "ip": "192.192.61.48",
+      "hostname": "192.192.61.48",
+      "rtts": [
+        9.404,
+        8.732,
+        8.54
+      ],
+      "avg_rtt": 8.89,
+      "timeout": false
+    },
+    {
+      "hop": 9,
+      "ip": "192.192.68.62",
+      "hostname": "192.192.68.62",
+      "rtts": [
+        36.653,
+        10.507,
+        7.442
+      ],
+      "avg_rtt": 18.2,
+      "timeout": false
+    },
+    {
+      "hop": 10,
+      "ip": null,
+      "hostname": null,
+      "rtts": [],
+      "timeout": true
+    },
+    {
+      "hop": 11,
+      "ip": "104.18.11.27",
+      "hostname": "104.18.11.27",
+      "rtts": [
+        36.622,
+        9.657,
+        8.455
+      ],
+      "avg_rtt": 18.24,
+      "timeout": false
+    }
+  ],
+  "num_hops": 10,
+  "success": true,
+  "raw_output": " 1  192.168.50.1 (192.168.50.1)  10.297 ms  2.309 ms  2.525 ms\n 2  csgate103.cs.ccu.edu.tw (140.123.103.250)  2.511 ms  3.043 ms  2.378 ms\n 3  140.123.9.249 (140.123.9.249)  2.559 ms  2.701 ms  2.346 ms\n 4  140.123.0.246 (140.123.0.246)  3.171 ms  3.163 ms  3.097 ms\n 5  140.130.252.251 (140.130.252.251)  3.534 ms  5.963 ms  4.927 ms\n 6  192.192.61.142 (192.192.61.142)  5.905 ms  6.108 ms  6.830 ms\n 7  192.192.61.20 (192.192.61.20)  15.459 ms  16.461 ms  8.900 ms\n 8  192.192.61.48 (192.192.61.48)  9.404 ms  8.732 ms  8.540 ms\n 9  192.192.68.62 (192.192.68.62)  36.653 ms  10.507 ms  7.442 ms\n10  * 39-222-163-203-static.tpix.net.tw (203.163.222.39)  23.441 ms *\n11  104.18.11.27 (104.18.11.27)  36.622 ms  9.657 ms  8.455 ms\n",
+  "category": "ecommerce_tech",
+  "base_domain": "ruten.com.tw",
+  "service_variant": "ruten.com.tw",
+  "is_bare_domain": true
+}

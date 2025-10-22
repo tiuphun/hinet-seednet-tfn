@@ -1,0 +1,310 @@
+{
+  "timestamp": "2025-10-14T14:51:19.416482",
+  "vantage_point": "cht-mobile",
+  "target": "smtp.microsoft.com",
+  "target_ip": "205.248.106.30",
+  "protocol": "icmp",
+  "port": null,
+  "duration_seconds": 105.76,
+  "hops": [
+    {
+      "hop": 2,
+      "ip": "140.123.103.250",
+      "hostname": null,
+      "rtts": [
+        2.629,
+        2.51,
+        2.244
+      ],
+      "avg_rtt": 2.46,
+      "timeout": false
+    },
+    {
+      "hop": 3,
+      "ip": "140.123.9.249",
+      "hostname": null,
+      "rtts": [
+        2.512,
+        2.873,
+        2.499
+      ],
+      "avg_rtt": 2.63,
+      "timeout": false
+    },
+    {
+      "hop": 4,
+      "ip": "140.123.0.246",
+      "hostname": null,
+      "rtts": [
+        3.638,
+        3.683,
+        4.571
+      ],
+      "avg_rtt": 3.96,
+      "timeout": false
+    },
+    {
+      "hop": 5,
+      "ip": "140.130.252.251",
+      "hostname": null,
+      "rtts": [
+        3.778,
+        4.412,
+        3.883
+      ],
+      "avg_rtt": 4.02,
+      "timeout": false
+    },
+    {
+      "hop": 6,
+      "ip": "192.192.61.142",
+      "hostname": null,
+      "rtts": [
+        5.489,
+        7.641,
+        5.487
+      ],
+      "avg_rtt": 6.21,
+      "timeout": false
+    },
+    {
+      "hop": 7,
+      "ip": "192.192.61.20",
+      "hostname": null,
+      "rtts": [
+        8.227,
+        14.568,
+        7.573
+      ],
+      "avg_rtt": 10.12,
+      "timeout": false
+    },
+    {
+      "hop": 8,
+      "ip": "192.192.61.48",
+      "hostname": null,
+      "rtts": [
+        9.152,
+        18.424,
+        8.247
+      ],
+      "avg_rtt": 11.94,
+      "timeout": false
+    },
+    {
+      "hop": 9,
+      "ip": "192.192.68.62",
+      "hostname": null,
+      "rtts": [
+        31.655,
+        8.353,
+        9.337
+      ],
+      "avg_rtt": 16.45,
+      "timeout": false
+    },
+    {
+      "hop": 10,
+      "ip": "65.49.108.1",
+      "hostname": null,
+      "rtts": [
+        8.805,
+        8.043,
+        24.723
+      ],
+      "avg_rtt": 13.86,
+      "timeout": false
+    },
+    {
+      "hop": 11,
+      "ip": "184.104.199.145",
+      "hostname": null,
+      "rtts": [
+        35.615,
+        35.2,
+        34.85
+      ],
+      "avg_rtt": 35.22,
+      "timeout": false
+    },
+    {
+      "hop": 12,
+      "ip": "184.104.188.97",
+      "hostname": null,
+      "rtts": [
+        37.413,
+        35.814,
+        35.558
+      ],
+      "avg_rtt": 36.26,
+      "timeout": false
+    },
+    {
+      "hop": 13,
+      "ip": "184.104.198.217",
+      "hostname": null,
+      "rtts": [
+        139.381,
+        155.895,
+        138.476
+      ],
+      "avg_rtt": 144.58,
+      "timeout": false
+    },
+    {
+      "hop": 14,
+      "ip": "184.104.197.109",
+      "hostname": null,
+      "rtts": [
+        140.354,
+        138.025
+      ],
+      "avg_rtt": 139.19,
+      "timeout": false
+    },
+    {
+      "hop": 15,
+      "ip": "206.223.123.10",
+      "hostname": null,
+      "rtts": [
+        139.301,
+        138.273,
+        137.958
+      ],
+      "avg_rtt": 138.51,
+      "timeout": false
+    },
+    {
+      "hop": 16,
+      "ip": "195.206.70.116",
+      "hostname": null,
+      "rtts": [
+        164.599,
+        169.497,
+        163.804
+      ],
+      "avg_rtt": 165.97,
+      "timeout": false
+    },
+    {
+      "hop": 17,
+      "ip": "195.206.70.96",
+      "hostname": null,
+      "rtts": [
+        165.246,
+        174.595,
+        165.051
+      ],
+      "avg_rtt": 168.3,
+      "timeout": false
+    },
+    {
+      "hop": 18,
+      "ip": "195.206.70.75",
+      "hostname": null,
+      "rtts": [
+        177.218,
+        178.422,
+        175.782
+      ],
+      "avg_rtt": 177.14,
+      "timeout": false
+    },
+    {
+      "hop": 19,
+      "ip": "195.206.70.92",
+      "hostname": null,
+      "rtts": [
+        176.369,
+        175.831,
+        178.698
+      ],
+      "avg_rtt": 176.97,
+      "timeout": false
+    },
+    {
+      "hop": 20,
+      "ip": null,
+      "hostname": null,
+      "rtts": [],
+      "timeout": true
+    },
+    {
+      "hop": 21,
+      "ip": null,
+      "hostname": null,
+      "rtts": [],
+      "timeout": true
+    },
+    {
+      "hop": 22,
+      "ip": null,
+      "hostname": null,
+      "rtts": [],
+      "timeout": true
+    },
+    {
+      "hop": 23,
+      "ip": null,
+      "hostname": null,
+      "rtts": [],
+      "timeout": true
+    },
+    {
+      "hop": 24,
+      "ip": null,
+      "hostname": null,
+      "rtts": [],
+      "timeout": true
+    },
+    {
+      "hop": 25,
+      "ip": null,
+      "hostname": null,
+      "rtts": [],
+      "timeout": true
+    },
+    {
+      "hop": 26,
+      "ip": null,
+      "hostname": null,
+      "rtts": [],
+      "timeout": true
+    },
+    {
+      "hop": 27,
+      "ip": null,
+      "hostname": null,
+      "rtts": [],
+      "timeout": true
+    },
+    {
+      "hop": 28,
+      "ip": null,
+      "hostname": null,
+      "rtts": [],
+      "timeout": true
+    },
+    {
+      "hop": 29,
+      "ip": null,
+      "hostname": null,
+      "rtts": [],
+      "timeout": true
+    },
+    {
+      "hop": 30,
+      "ip": null,
+      "hostname": null,
+      "rtts": [],
+      "timeout": true
+    }
+  ],
+  "num_hops": 29,
+  "success": false,
+  "raw_output": " 1  192.168.50.1  2.804 ms  2.284 ms  2.498 ms\n 2  140.123.103.250  2.629 ms  2.510 ms  2.244 ms\n 3  140.123.9.249  2.512 ms  2.873 ms  2.499 ms\n 4  140.123.0.246  3.638 ms  3.683 ms  4.571 ms\n 5  140.130.252.251  3.778 ms  4.412 ms  3.883 ms\n 6  192.192.61.142  5.489 ms  7.641 ms  5.487 ms\n 7  192.192.61.20  8.227 ms  14.568 ms  7.573 ms\n 8  192.192.61.48  9.152 ms  18.424 ms  8.247 ms\n 9  192.192.68.62  31.655 ms  8.353 ms  9.337 ms\n10  65.49.108.1  8.805 ms  8.043 ms  24.723 ms\n11  184.104.199.145  35.615 ms  35.200 ms  34.850 ms\n12  184.104.188.97  37.413 ms  35.814 ms  35.558 ms\n13  184.104.198.217  139.381 ms  155.895 ms  138.476 ms\n14  184.104.197.109  140.354 ms  138.025 ms *\n15  206.223.123.10  139.301 ms  138.273 ms  137.958 ms\n16  195.206.70.116  164.599 ms  169.497 ms  163.804 ms\n17  195.206.70.96  165.246 ms  174.595 ms  165.051 ms\n18  195.206.70.75  177.218 ms  178.422 ms  175.782 ms\n19  195.206.70.92  176.369 ms  175.831 ms  178.698 ms\n20  * * *\n21  * * *\n22  * * *\n23  * * *\n24  * * *\n25  * * *\n26  * * *\n27  * * *\n28  * * *\n29  * * *\n30  * * *\n",
+  "category": "cdn_global",
+  "base_domain": "microsoft.com",
+  "service_variant": "smtp.microsoft.com",
+  "is_bare_domain": false
+}

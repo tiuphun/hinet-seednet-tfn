@@ -1,0 +1,161 @@
+{
+  "timestamp": "2025-10-22T04:48:17.881801",
+  "vantage_point": "university",
+  "target": "www.fcu.edu.tw",
+  "target_ip": "3.169.55.13",
+  "protocol": "icmp",
+  "port": null,
+  "duration_seconds": 45.43,
+  "hops": [
+    {
+      "hop": 2,
+      "ip": "140.123.103.250",
+      "hostname": "csgate103.cs.ccu.edu.tw",
+      "rtts": [
+        2.53,
+        2.885,
+        2.554
+      ],
+      "avg_rtt": 2.66,
+      "timeout": false
+    },
+    {
+      "hop": 3,
+      "ip": "140.123.9.249",
+      "hostname": "140.123.9.249",
+      "rtts": [
+        3.172,
+        2.254,
+        2.107
+      ],
+      "avg_rtt": 2.51,
+      "timeout": false
+    },
+    {
+      "hop": 4,
+      "ip": "140.123.0.246",
+      "hostname": "140.123.0.246",
+      "rtts": [
+        3.026,
+        4.194,
+        3.2
+      ],
+      "avg_rtt": 3.47,
+      "timeout": false
+    },
+    {
+      "hop": 5,
+      "ip": "140.130.252.251",
+      "hostname": "140.130.252.251",
+      "rtts": [
+        4.24,
+        3.708,
+        4.203
+      ],
+      "avg_rtt": 4.05,
+      "timeout": false
+    },
+    {
+      "hop": 6,
+      "ip": "192.192.61.142",
+      "hostname": "192.192.61.142",
+      "rtts": [
+        5.231,
+        5.901,
+        7.975
+      ],
+      "avg_rtt": 6.37,
+      "timeout": false
+    },
+    {
+      "hop": 7,
+      "ip": "192.192.61.20",
+      "hostname": "192.192.61.20",
+      "rtts": [
+        9.101,
+        21.239,
+        7.374
+      ],
+      "avg_rtt": 12.57,
+      "timeout": false
+    },
+    {
+      "hop": 8,
+      "ip": "192.192.61.48",
+      "hostname": "192.192.61.48",
+      "rtts": [
+        8.464,
+        9.128,
+        8.418
+      ],
+      "avg_rtt": 8.67,
+      "timeout": false
+    },
+    {
+      "hop": 9,
+      "ip": "192.192.68.62",
+      "hostname": "192.192.68.62",
+      "rtts": [
+        11.029,
+        8.162,
+        8.079
+      ],
+      "avg_rtt": 9.09,
+      "timeout": false
+    },
+    {
+      "hop": 10,
+      "ip": null,
+      "hostname": null,
+      "rtts": [],
+      "timeout": true
+    },
+    {
+      "hop": 11,
+      "ip": null,
+      "hostname": null,
+      "rtts": [],
+      "timeout": true
+    },
+    {
+      "hop": 12,
+      "ip": null,
+      "hostname": null,
+      "rtts": [],
+      "timeout": true
+    },
+    {
+      "hop": 13,
+      "ip": null,
+      "hostname": null,
+      "rtts": [],
+      "timeout": true
+    },
+    {
+      "hop": 14,
+      "ip": null,
+      "hostname": null,
+      "rtts": [],
+      "timeout": true
+    },
+    {
+      "hop": 15,
+      "ip": "3.169.55.13",
+      "hostname": "server-3-169-55-13.tpe54.r.cloudfront.net",
+      "rtts": [
+        19.032,
+        11.451,
+        9.052
+      ],
+      "avg_rtt": 13.18,
+      "timeout": false
+    }
+  ],
+  "num_hops": 14,
+  "success": true,
+  "raw_output": " 1  192.168.50.1 (192.168.50.1)  6.235 ms  3.483 ms  1.980 ms\n 2  csgate103.cs.ccu.edu.tw (140.123.103.250)  2.530 ms  2.885 ms  2.554 ms\n 3  140.123.9.249 (140.123.9.249)  3.172 ms  2.254 ms  2.107 ms\n 4  140.123.0.246 (140.123.0.246)  3.026 ms  4.194 ms  3.200 ms\n 5  140.130.252.251 (140.130.252.251)  4.240 ms  3.708 ms  4.203 ms\n 6  192.192.61.142 (192.192.61.142)  5.231 ms  5.901 ms  7.975 ms\n 7  192.192.61.20 (192.192.61.20)  9.101 ms  21.239 ms  7.374 ms\n 8  192.192.61.48 (192.192.61.48)  8.464 ms  9.128 ms  8.418 ms\n 9  192.192.68.62 (192.192.68.62)  11.029 ms  8.162 ms  8.079 ms\n10  * * *\n11  * * *\n12  * * *\n13  * * *\n14  * * *\n15  server-3-169-55-13.tpe54.r.cloudfront.net (3.169.55.13)  19.032 ms  11.451 ms  9.052 ms\n",
+  "category": "universities",
+  "base_domain": "fcu.edu.tw",
+  "service_variant": "www.fcu.edu.tw",
+  "is_bare_domain": false
+}

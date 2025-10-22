@@ -1,0 +1,219 @@
+{
+  "timestamp": "2025-10-22T08:00:05.015975",
+  "vantage_point": "university",
+  "target": "seednet.net",
+  "target_ip": "64.131.64.91",
+  "protocol": "icmp",
+  "port": null,
+  "duration_seconds": 67.26,
+  "hops": [
+    {
+      "hop": 2,
+      "ip": "140.123.103.250",
+      "hostname": "csgate103.cs.ccu.edu.tw",
+      "rtts": [
+        3.367,
+        8.186,
+        2.293
+      ],
+      "avg_rtt": 4.62,
+      "timeout": false
+    },
+    {
+      "hop": 3,
+      "ip": "140.123.9.249",
+      "hostname": "140.123.9.249",
+      "rtts": [
+        2.287,
+        2.371,
+        2.835
+      ],
+      "avg_rtt": 2.5,
+      "timeout": false
+    },
+    {
+      "hop": 4,
+      "ip": "140.123.0.246",
+      "hostname": "140.123.0.246",
+      "rtts": [
+        3.378,
+        2.887,
+        6.382
+      ],
+      "avg_rtt": 4.22,
+      "timeout": false
+    },
+    {
+      "hop": 5,
+      "ip": "140.130.252.251",
+      "hostname": "140.130.252.251",
+      "rtts": [
+        5.366,
+        4.237,
+        5.95
+      ],
+      "avg_rtt": 5.18,
+      "timeout": false
+    },
+    {
+      "hop": 6,
+      "ip": "192.192.61.142",
+      "hostname": "192.192.61.142",
+      "rtts": [
+        12.827,
+        20.882,
+        5.268
+      ],
+      "avg_rtt": 12.99,
+      "timeout": false
+    },
+    {
+      "hop": 7,
+      "ip": "192.192.61.20",
+      "hostname": "192.192.61.20",
+      "rtts": [
+        10.323,
+        7.431,
+        8.739
+      ],
+      "avg_rtt": 8.83,
+      "timeout": false
+    },
+    {
+      "hop": 8,
+      "ip": "192.192.61.48",
+      "hostname": "192.192.61.48",
+      "rtts": [
+        24.389,
+        9.077,
+        8.415
+      ],
+      "avg_rtt": 13.96,
+      "timeout": false
+    },
+    {
+      "hop": 9,
+      "ip": "192.192.68.62",
+      "hostname": "192.192.68.62",
+      "rtts": [
+        9.713,
+        22.044,
+        26.226
+      ],
+      "avg_rtt": 19.33,
+      "timeout": false
+    },
+    {
+      "hop": 10,
+      "ip": "65.49.108.1",
+      "hostname": "e0-11.switch2.tpe1.he.net",
+      "rtts": [
+        11.077
+      ],
+      "avg_rtt": 11.08,
+      "timeout": false
+    },
+    {
+      "hop": 11,
+      "ip": null,
+      "hostname": null,
+      "rtts": [],
+      "timeout": true
+    },
+    {
+      "hop": 12,
+      "ip": null,
+      "hostname": null,
+      "rtts": [],
+      "timeout": true
+    },
+    {
+      "hop": 13,
+      "ip": "184.105.213.117",
+      "hostname": "port-channel11.core2.sea1.he.net",
+      "rtts": [
+        128.786
+      ],
+      "avg_rtt": 128.79,
+      "timeout": false
+    },
+    {
+      "hop": 14,
+      "ip": "184.104.194.21",
+      "hostname": "port-channel20.core2.msp1.he.net",
+      "rtts": [
+        159.512
+      ],
+      "avg_rtt": 159.51,
+      "timeout": false
+    },
+    {
+      "hop": 15,
+      "ip": null,
+      "hostname": null,
+      "rtts": [],
+      "timeout": true
+    },
+    {
+      "hop": 16,
+      "ip": "184.105.80.201",
+      "hostname": "100ge0-48.core1.ash1.he.net",
+      "rtts": [
+        204.471,
+        186.24
+      ],
+      "avg_rtt": 195.36,
+      "timeout": false
+    },
+    {
+      "hop": 17,
+      "ip": null,
+      "hostname": null,
+      "rtts": [],
+      "timeout": true
+    },
+    {
+      "hop": 18,
+      "ip": "31.31.38.237",
+      "hostname": "ae-101.br01.wdc-02.us.leaseweb.net",
+      "rtts": [
+        194.654,
+        190.33,
+        208.714
+      ],
+      "avg_rtt": 197.9,
+      "timeout": false
+    },
+    {
+      "hop": 19,
+      "ip": "173.208.126.13",
+      "hostname": "po-1.ce04.wdc-02.us.leaseweb.net",
+      "rtts": [
+        190.186,
+        187.355,
+        194.413
+      ],
+      "avg_rtt": 190.65,
+      "timeout": false
+    },
+    {
+      "hop": 20,
+      "ip": "64.131.64.91",
+      "hostname": "server2.twdomain.com",
+      "rtts": [
+        198.91,
+        193.294,
+        192.356
+      ],
+      "avg_rtt": 194.85,
+      "timeout": false
+    }
+  ],
+  "num_hops": 19,
+  "success": true,
+  "raw_output": " 1  192.168.50.1 (192.168.50.1)  2.528 ms  2.338 ms  2.851 ms\n 2  csgate103.cs.ccu.edu.tw (140.123.103.250)  3.367 ms  8.186 ms  2.293 ms\n 3  140.123.9.249 (140.123.9.249)  2.287 ms  2.371 ms  2.835 ms\n 4  140.123.0.246 (140.123.0.246)  3.378 ms  2.887 ms  6.382 ms\n 5  140.130.252.251 (140.130.252.251)  5.366 ms  4.237 ms  5.950 ms\n 6  192.192.61.142 (192.192.61.142)  12.827 ms  20.882 ms  5.268 ms\n 7  192.192.61.20 (192.192.61.20)  10.323 ms  7.431 ms  8.739 ms\n 8  192.192.61.48 (192.192.61.48)  24.389 ms  9.077 ms  8.415 ms\n 9  192.192.68.62 (192.192.68.62)  9.713 ms  22.044 ms  26.226 ms\n10  e0-11.switch2.tpe1.he.net (65.49.108.1)  11.077 ms * *\n11  * 100ge0-79.core2.tyo1.he.net (184.105.80.141)  46.125 ms *\n12  * * *\n13  port-channel11.core2.sea1.he.net (184.105.213.117)  128.786 ms * *\n14  port-channel20.core2.msp1.he.net (184.104.194.21)  159.512 ms * *\n15  * * *\n16  100ge0-48.core1.ash1.he.net (184.105.80.201)  204.471 ms  186.240 ms *\n17  * * *\n18  ae-101.br01.wdc-02.us.leaseweb.net (31.31.38.237)  194.654 ms  190.330 ms  208.714 ms\n19  po-1.ce04.wdc-02.us.leaseweb.net (173.208.126.13)  190.186 ms  187.355 ms  194.413 ms\n20  server2.twdomain.com (64.131.64.91)  198.910 ms  193.294 ms  192.356 ms\n",
+  "category": "telecom",
+  "base_domain": "seednet.net",
+  "service_variant": "seednet.net",
+  "is_bare_domain": true
+}

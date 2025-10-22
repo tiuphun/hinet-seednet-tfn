@@ -1,0 +1,169 @@
+{
+  "timestamp": "2025-10-21T14:50:44.111878",
+  "vantage_point": "university",
+  "target": "www.mobile01.com",
+  "target_ip": "42.99.128.154",
+  "protocol": "icmp",
+  "port": null,
+  "duration_seconds": 15.24,
+  "hops": [
+    {
+      "hop": 2,
+      "ip": "140.123.103.250",
+      "hostname": "csgate103.cs.ccu.edu.tw",
+      "rtts": [
+        12.17,
+        5.402,
+        21.419
+      ],
+      "avg_rtt": 13.0,
+      "timeout": false
+    },
+    {
+      "hop": 3,
+      "ip": "140.123.9.249",
+      "hostname": "140.123.9.249",
+      "rtts": [
+        7.912,
+        12.084,
+        2.213
+      ],
+      "avg_rtt": 7.4,
+      "timeout": false
+    },
+    {
+      "hop": 4,
+      "ip": "140.123.0.246",
+      "hostname": "140.123.0.246",
+      "rtts": [
+        4.87,
+        13.522,
+        3.415
+      ],
+      "avg_rtt": 7.27,
+      "timeout": false
+    },
+    {
+      "hop": 5,
+      "ip": "140.130.252.251",
+      "hostname": "140.130.252.251",
+      "rtts": [
+        4.317,
+        3.92,
+        24.615
+      ],
+      "avg_rtt": 10.95,
+      "timeout": false
+    },
+    {
+      "hop": 6,
+      "ip": "192.192.61.142",
+      "hostname": "192.192.61.142",
+      "rtts": [
+        77.1,
+        33.353,
+        21.069
+      ],
+      "avg_rtt": 43.84,
+      "timeout": false
+    },
+    {
+      "hop": 7,
+      "ip": "192.192.61.20",
+      "hostname": "192.192.61.20",
+      "rtts": [
+        45.469,
+        23.596,
+        37.074
+      ],
+      "avg_rtt": 35.38,
+      "timeout": false
+    },
+    {
+      "hop": 8,
+      "ip": "192.192.61.48",
+      "hostname": "192.192.61.48",
+      "rtts": [
+        21.361,
+        55.588,
+        62.08
+      ],
+      "avg_rtt": 46.34,
+      "timeout": false
+    },
+    {
+      "hop": 9,
+      "ip": "192.192.68.62",
+      "hostname": "192.192.68.62",
+      "rtts": [
+        14.96,
+        56.249,
+        20.38
+      ],
+      "avg_rtt": 30.53,
+      "timeout": false
+    },
+    {
+      "hop": 10,
+      "ip": "210.176.44.177",
+      "hostname": "unknown.telstraglobal.net",
+      "rtts": [
+        27.822,
+        15.56,
+        23.953
+      ],
+      "avg_rtt": 22.44,
+      "timeout": false
+    },
+    {
+      "hop": 11,
+      "ip": null,
+      "hostname": null,
+      "rtts": [],
+      "timeout": true
+    },
+    {
+      "hop": 12,
+      "ip": "202.84.143.161",
+      "hostname": "i-1087.hkck-core01.telstraglobal.net",
+      "rtts": [
+        52.1,
+        32.709,
+        114.417
+      ],
+      "avg_rtt": 66.41,
+      "timeout": false
+    },
+    {
+      "hop": 13,
+      "ip": "202.84.249.14",
+      "hostname": "i-91.hkck01.telstraglobal.net",
+      "rtts": [
+        264.318,
+        81.785,
+        81.651
+      ],
+      "avg_rtt": 142.58,
+      "timeout": false
+    },
+    {
+      "hop": 14,
+      "ip": "42.99.128.154",
+      "hostname": "ip-42-99-128-154.pacnet.net",
+      "rtts": [
+        22.034,
+        407.389,
+        26.935
+      ],
+      "avg_rtt": 152.12,
+      "timeout": false
+    }
+  ],
+  "num_hops": 13,
+  "success": true,
+  "raw_output": " 1  192.168.50.1 (192.168.50.1)  2.850 ms  4.088 ms  4.469 ms\n 2  csgate103.cs.ccu.edu.tw (140.123.103.250)  12.170 ms  5.402 ms  21.419 ms\n 3  140.123.9.249 (140.123.9.249)  7.912 ms  12.084 ms  2.213 ms\n 4  140.123.0.246 (140.123.0.246)  4.870 ms  13.522 ms  3.415 ms\n 5  140.130.252.251 (140.130.252.251)  4.317 ms  3.920 ms  24.615 ms\n 6  192.192.61.142 (192.192.61.142)  77.100 ms  33.353 ms  21.069 ms\n 7  192.192.61.20 (192.192.61.20)  45.469 ms  23.596 ms  37.074 ms\n 8  192.192.61.48 (192.192.61.48)  21.361 ms  55.588 ms  62.080 ms\n 9  192.192.68.62 (192.192.68.62)  14.960 ms  56.249 ms  20.380 ms\n10  unknown.telstraglobal.net (210.176.44.177)  27.822 ms  15.560 ms  23.953 ms\n11  * i-1078.tpei-core02.telstraglobal.net (202.84.230.89)  95.198 ms  13.373 ms\n12  i-1087.hkck-core01.telstraglobal.net (202.84.143.161)  52.100 ms  32.709 ms  114.417 ms\n13  i-91.hkck01.telstraglobal.net (202.84.249.14)  264.318 ms  81.785 ms  81.651 ms\n14  ip-42-99-128-154.pacnet.net (42.99.128.154)  22.034 ms  407.389 ms  26.935 ms\n",
+  "category": "ecommerce_tech",
+  "base_domain": "mobile01.com",
+  "service_variant": "www.mobile01.com",
+  "is_bare_domain": false
+}

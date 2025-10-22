@@ -1,0 +1,168 @@
+{
+  "timestamp": "2025-10-21T15:28:20.552592",
+  "vantage_point": "university",
+  "target": "www.storm.mg",
+  "target_ip": "3.169.121.8",
+  "protocol": "icmp",
+  "port": null,
+  "duration_seconds": 64.53,
+  "hops": [
+    {
+      "hop": 2,
+      "ip": "140.123.103.250",
+      "hostname": "csgate103.cs.ccu.edu.tw",
+      "rtts": [
+        2.138,
+        15.279,
+        8.825
+      ],
+      "avg_rtt": 8.75,
+      "timeout": false
+    },
+    {
+      "hop": 3,
+      "ip": "140.123.9.249",
+      "hostname": "140.123.9.249",
+      "rtts": [
+        8.28,
+        2.704,
+        2.16
+      ],
+      "avg_rtt": 4.38,
+      "timeout": false
+    },
+    {
+      "hop": 4,
+      "ip": "140.123.0.246",
+      "hostname": "140.123.0.246",
+      "rtts": [
+        5.292,
+        2.747,
+        14.707
+      ],
+      "avg_rtt": 7.58,
+      "timeout": false
+    },
+    {
+      "hop": 5,
+      "ip": "140.130.252.251",
+      "hostname": "140.130.252.251",
+      "rtts": [
+        8.602,
+        4.829,
+        9.846
+      ],
+      "avg_rtt": 7.76,
+      "timeout": false
+    },
+    {
+      "hop": 6,
+      "ip": "192.192.61.142",
+      "hostname": "192.192.61.142",
+      "rtts": [
+        7.696,
+        15.389,
+        8.533
+      ],
+      "avg_rtt": 10.54,
+      "timeout": false
+    },
+    {
+      "hop": 7,
+      "ip": "192.192.61.20",
+      "hostname": "192.192.61.20",
+      "rtts": [
+        12.051,
+        13.415,
+        17.987
+      ],
+      "avg_rtt": 14.48,
+      "timeout": false
+    },
+    {
+      "hop": 8,
+      "ip": "192.192.61.48",
+      "hostname": "192.192.61.48",
+      "rtts": [
+        27.86,
+        13.722,
+        7.681
+      ],
+      "avg_rtt": 16.42,
+      "timeout": false
+    },
+    {
+      "hop": 9,
+      "ip": "192.192.68.62",
+      "hostname": "192.192.68.62",
+      "rtts": [
+        12.59,
+        42.005,
+        23.356
+      ],
+      "avg_rtt": 25.98,
+      "timeout": false
+    },
+    {
+      "hop": 10,
+      "ip": null,
+      "hostname": null,
+      "rtts": [],
+      "timeout": true
+    },
+    {
+      "hop": 11,
+      "ip": null,
+      "hostname": null,
+      "rtts": [],
+      "timeout": true
+    },
+    {
+      "hop": 12,
+      "ip": null,
+      "hostname": null,
+      "rtts": [],
+      "timeout": true
+    },
+    {
+      "hop": 13,
+      "ip": null,
+      "hostname": null,
+      "rtts": [],
+      "timeout": true
+    },
+    {
+      "hop": 14,
+      "ip": null,
+      "hostname": null,
+      "rtts": [],
+      "timeout": true
+    },
+    {
+      "hop": 15,
+      "ip": null,
+      "hostname": null,
+      "rtts": [],
+      "timeout": true
+    },
+    {
+      "hop": 16,
+      "ip": "3.169.121.8",
+      "hostname": "server-3-169-121-8.tpe53.r.cloudfront.net",
+      "rtts": [
+        12.693,
+        11.757,
+        10.077
+      ],
+      "avg_rtt": 11.51,
+      "timeout": false
+    }
+  ],
+  "num_hops": 15,
+  "success": true,
+  "raw_output": " 1  192.168.50.1 (192.168.50.1)  57.893 ms  39.310 ms  7.274 ms\n 2  csgate103.cs.ccu.edu.tw (140.123.103.250)  2.138 ms  15.279 ms  8.825 ms\n 3  140.123.9.249 (140.123.9.249)  8.280 ms  2.704 ms  2.160 ms\n 4  140.123.0.246 (140.123.0.246)  5.292 ms  2.747 ms  14.707 ms\n 5  140.130.252.251 (140.130.252.251)  8.602 ms  4.829 ms  9.846 ms\n 6  192.192.61.142 (192.192.61.142)  7.696 ms  15.389 ms  8.533 ms\n 7  192.192.61.20 (192.192.61.20)  12.051 ms  13.415 ms  17.987 ms\n 8  192.192.61.48 (192.192.61.48)  27.860 ms  13.722 ms  7.681 ms\n 9  192.192.68.62 (192.192.68.62)  12.590 ms  42.005 ms  23.356 ms\n10  * * *\n11  * * *\n12  * * *\n13  * * *\n14  * * *\n15  * * *\n16  server-3-169-121-8.tpe53.r.cloudfront.net (3.169.121.8)  12.693 ms  11.757 ms  10.077 ms\n",
+  "category": "media",
+  "base_domain": "storm.mg",
+  "service_variant": "www.storm.mg",
+  "is_bare_domain": false
+}

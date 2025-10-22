@@ -1,0 +1,203 @@
+{
+  "timestamp": "2025-10-22T05:19:06.552188",
+  "vantage_point": "university",
+  "target": "api.megabank.com.tw",
+  "target_ip": "23.217.205.202",
+  "protocol": "icmp",
+  "port": null,
+  "duration_seconds": 13.39,
+  "hops": [
+    {
+      "hop": 2,
+      "ip": "140.123.103.250",
+      "hostname": "csgate103.cs.ccu.edu.tw",
+      "rtts": [
+        3.479,
+        3.496,
+        2.463
+      ],
+      "avg_rtt": 3.15,
+      "timeout": false
+    },
+    {
+      "hop": 3,
+      "ip": "140.123.9.249",
+      "hostname": "140.123.9.249",
+      "rtts": [
+        2.422,
+        2.52,
+        2.625
+      ],
+      "avg_rtt": 2.52,
+      "timeout": false
+    },
+    {
+      "hop": 4,
+      "ip": "140.123.0.246",
+      "hostname": "140.123.0.246",
+      "rtts": [
+        3.817,
+        3.027,
+        7.437
+      ],
+      "avg_rtt": 4.76,
+      "timeout": false
+    },
+    {
+      "hop": 5,
+      "ip": "140.130.252.251",
+      "hostname": "140.130.252.251",
+      "rtts": [
+        9.097,
+        18.374,
+        9.537
+      ],
+      "avg_rtt": 12.34,
+      "timeout": false
+    },
+    {
+      "hop": 6,
+      "ip": "192.192.61.142",
+      "hostname": "192.192.61.142",
+      "rtts": [
+        5.841,
+        8.282,
+        6.403
+      ],
+      "avg_rtt": 6.84,
+      "timeout": false
+    },
+    {
+      "hop": 7,
+      "ip": "192.192.61.20",
+      "hostname": "192.192.61.20",
+      "rtts": [
+        9.202,
+        9.684,
+        8.779
+      ],
+      "avg_rtt": 9.22,
+      "timeout": false
+    },
+    {
+      "hop": 8,
+      "ip": "192.192.61.48",
+      "hostname": "192.192.61.48",
+      "rtts": [
+        9.361,
+        22.559,
+        24.638
+      ],
+      "avg_rtt": 18.85,
+      "timeout": false
+    },
+    {
+      "hop": 9,
+      "ip": "192.192.68.62",
+      "hostname": "192.192.68.62",
+      "rtts": [
+        7.907,
+        33.681,
+        29.322
+      ],
+      "avg_rtt": 23.64,
+      "timeout": false
+    },
+    {
+      "hop": 10,
+      "ip": null,
+      "hostname": null,
+      "rtts": [],
+      "timeout": true
+    },
+    {
+      "hop": 11,
+      "ip": "184.105.80.141",
+      "hostname": "100ge0-79.core2.tyo1.he.net",
+      "rtts": [
+        39.844
+      ],
+      "avg_rtt": 39.84,
+      "timeout": false
+    },
+    {
+      "hop": 12,
+      "ip": "210.171.224.189",
+      "hostname": "210.171.224.189",
+      "rtts": [
+        76.005,
+        60.836,
+        56.317
+      ],
+      "avg_rtt": 64.39,
+      "timeout": false
+    },
+    {
+      "hop": 13,
+      "ip": "23.201.30.23",
+      "hostname": "lo1.r04.stem01.tyo02.fab.netarch.akamai.com",
+      "rtts": [
+        41.846,
+        61.734,
+        42.815
+      ],
+      "avg_rtt": 48.8,
+      "timeout": false
+    },
+    {
+      "hop": 14,
+      "ip": "23.201.30.18",
+      "hostname": "lo1.r03.spine04.tyo02.fab.netarch.akamai.com",
+      "rtts": [
+        41.192,
+        44.286,
+        41.423
+      ],
+      "avg_rtt": 42.3,
+      "timeout": false
+    },
+    {
+      "hop": 15,
+      "ip": "23.201.30.27",
+      "hostname": "lo1.r04.leaf01.tyo02.fab.netarch.akamai.com",
+      "rtts": [
+        39.326,
+        41.717,
+        39.141
+      ],
+      "avg_rtt": 40.06,
+      "timeout": false
+    },
+    {
+      "hop": 16,
+      "ip": "23.214.199.97",
+      "hostname": "vlan100.r30.tor01.tyo02.fab.netarch.akamai.com",
+      "rtts": [
+        44.219,
+        44.432,
+        41.289
+      ],
+      "avg_rtt": 43.31,
+      "timeout": false
+    },
+    {
+      "hop": 17,
+      "ip": "23.217.205.202",
+      "hostname": "a23-217-205-202.deploy.static.akamaitechnologies.com",
+      "rtts": [
+        42.489,
+        39.264,
+        39.091
+      ],
+      "avg_rtt": 40.28,
+      "timeout": false
+    }
+  ],
+  "num_hops": 16,
+  "success": true,
+  "raw_output": " 1  192.168.50.1 (192.168.50.1)  5.887 ms  3.298 ms  1.675 ms\n 2  csgate103.cs.ccu.edu.tw (140.123.103.250)  3.479 ms  3.496 ms  2.463 ms\n 3  140.123.9.249 (140.123.9.249)  2.422 ms  2.520 ms  2.625 ms\n 4  140.123.0.246 (140.123.0.246)  3.817 ms  3.027 ms  7.437 ms\n 5  140.130.252.251 (140.130.252.251)  9.097 ms  18.374 ms  9.537 ms\n 6  192.192.61.142 (192.192.61.142)  5.841 ms  8.282 ms  6.403 ms\n 7  192.192.61.20 (192.192.61.20)  9.202 ms  9.684 ms  8.779 ms\n 8  192.192.61.48 (192.192.61.48)  9.361 ms  22.559 ms  24.638 ms\n 9  192.192.68.62 (192.192.68.62)  7.907 ms  33.681 ms  29.322 ms\n10  * * e0-11.switch2.tpe1.he.net (65.49.108.1)  15.013 ms\n11  100ge0-79.core2.tyo1.he.net (184.105.80.141)  39.844 ms * *\n12  210.171.224.189 (210.171.224.189)  76.005 ms  60.836 ms  56.317 ms\n13  lo1.r04.stem01.tyo02.fab.netarch.akamai.com (23.201.30.23)  41.846 ms  61.734 ms  42.815 ms\n14  lo1.r03.spine04.tyo02.fab.netarch.akamai.com (23.201.30.18)  41.192 ms  44.286 ms  41.423 ms\n15  lo1.r04.leaf01.tyo02.fab.netarch.akamai.com (23.201.30.27)  39.326 ms  41.717 ms  39.141 ms\n16  vlan100.r30.tor01.tyo02.fab.netarch.akamai.com (23.214.199.97)  44.219 ms  44.432 ms  41.289 ms\n17  a23-217-205-202.deploy.static.akamaitechnologies.com (23.217.205.202)  42.489 ms  39.264 ms  39.091 ms\n",
+  "category": "financial_banks",
+  "base_domain": "megabank.com.tw",
+  "service_variant": "api.megabank.com.tw",
+  "is_bare_domain": false
+}

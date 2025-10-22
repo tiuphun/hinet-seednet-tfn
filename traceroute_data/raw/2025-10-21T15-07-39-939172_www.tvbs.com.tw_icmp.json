@@ -1,0 +1,133 @@
+{
+  "timestamp": "2025-10-21T15:07:39.939172",
+  "vantage_point": "university",
+  "target": "www.tvbs.com.tw",
+  "target_ip": "203.69.138.215",
+  "protocol": "icmp",
+  "port": null,
+  "duration_seconds": 9.6,
+  "hops": [
+    {
+      "hop": 2,
+      "ip": "140.123.103.250",
+      "hostname": "csgate103.cs.ccu.edu.tw",
+      "rtts": [
+        6.787,
+        11.803,
+        1.918
+      ],
+      "avg_rtt": 6.84,
+      "timeout": false
+    },
+    {
+      "hop": 3,
+      "ip": "140.123.9.249",
+      "hostname": "140.123.9.249",
+      "rtts": [
+        2.135,
+        1.976,
+        20.605
+      ],
+      "avg_rtt": 8.24,
+      "timeout": false
+    },
+    {
+      "hop": 4,
+      "ip": "140.123.0.246",
+      "hostname": "140.123.0.246",
+      "rtts": [
+        2.843,
+        3.023,
+        5.032
+      ],
+      "avg_rtt": 3.63,
+      "timeout": false
+    },
+    {
+      "hop": 5,
+      "ip": "140.130.252.251",
+      "hostname": "140.130.252.251",
+      "rtts": [
+        4.473,
+        4.221,
+        8.028
+      ],
+      "avg_rtt": 5.57,
+      "timeout": false
+    },
+    {
+      "hop": 6,
+      "ip": "211.22.226.198",
+      "hostname": "211-22-226-198.caw1-3332.hinet.net",
+      "rtts": [
+        6.95,
+        9.519,
+        8.67
+      ],
+      "avg_rtt": 8.38,
+      "timeout": false
+    },
+    {
+      "hop": 7,
+      "ip": null,
+      "hostname": null,
+      "rtts": [],
+      "timeout": true
+    },
+    {
+      "hop": 8,
+      "ip": "220.128.9.222",
+      "hostname": "220-128-9-222.tylc-3032.hinet.net",
+      "rtts": [
+        79.866,
+        9.717,
+        9.866
+      ],
+      "avg_rtt": 33.15,
+      "timeout": false
+    },
+    {
+      "hop": 9,
+      "ip": "220.128.9.89",
+      "hostname": "220-128-9-89.tyfo-3331.hinet.net",
+      "rtts": [
+        17.386,
+        11.643,
+        21.533
+      ],
+      "avg_rtt": 16.85,
+      "timeout": false
+    },
+    {
+      "hop": 10,
+      "ip": "203.69.140.17",
+      "hostname": "203-69-140-17.hinet-ip.hinet.net",
+      "rtts": [
+        17.847,
+        18.71,
+        15.791
+      ],
+      "avg_rtt": 17.45,
+      "timeout": false
+    },
+    {
+      "hop": 11,
+      "ip": "203.69.138.215",
+      "hostname": "203-69-138-215.hinet-ip.hinet.net",
+      "rtts": [
+        46.96,
+        16.715,
+        17.666
+      ],
+      "avg_rtt": 27.11,
+      "timeout": false
+    }
+  ],
+  "num_hops": 10,
+  "success": true,
+  "raw_output": " 1  192.168.50.1 (192.168.50.1)  4.590 ms  17.865 ms  2.496 ms\n 2  csgate103.cs.ccu.edu.tw (140.123.103.250)  6.787 ms  11.803 ms  1.918 ms\n 3  140.123.9.249 (140.123.9.249)  2.135 ms  1.976 ms  20.605 ms\n 4  140.123.0.246 (140.123.0.246)  2.843 ms  3.023 ms  5.032 ms\n 5  140.130.252.251 (140.130.252.251)  4.473 ms  4.221 ms  8.028 ms\n 6  211-22-226-198.caw1-3332.hinet.net (211.22.226.198)  6.950 ms  9.519 ms  8.670 ms\n 7  * * *\n 8  220-128-9-222.tylc-3032.hinet.net (220.128.9.222)  79.866 ms  9.717 ms  9.866 ms\n 9  220-128-9-89.tyfo-3331.hinet.net (220.128.9.89)  17.386 ms  11.643 ms  21.533 ms\n10  203-69-140-17.hinet-ip.hinet.net (203.69.140.17)  17.847 ms  18.710 ms  15.791 ms\n11  203-69-138-215.hinet-ip.hinet.net (203.69.138.215)  46.960 ms  16.715 ms  17.666 ms\n",
+  "category": "media",
+  "base_domain": "tvbs.com.tw",
+  "service_variant": "www.tvbs.com.tw",
+  "is_bare_domain": false
+}

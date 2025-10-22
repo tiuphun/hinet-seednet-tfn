@@ -1,0 +1,135 @@
+{
+  "timestamp": "2025-10-22T05:31:16.585001",
+  "vantage_point": "university",
+  "target": "mail.fubon.com",
+  "target_ip": "60.248.209.145",
+  "protocol": "icmp",
+  "port": null,
+  "duration_seconds": 27.41,
+  "hops": [
+    {
+      "hop": 2,
+      "ip": "140.123.103.250",
+      "hostname": "csgate103.cs.ccu.edu.tw",
+      "rtts": [
+        2.606,
+        2.684,
+        2.563
+      ],
+      "avg_rtt": 2.62,
+      "timeout": false
+    },
+    {
+      "hop": 3,
+      "ip": "140.123.9.249",
+      "hostname": "140.123.9.249",
+      "rtts": [
+        3.193,
+        5.123,
+        4.787
+      ],
+      "avg_rtt": 4.37,
+      "timeout": false
+    },
+    {
+      "hop": 4,
+      "ip": "140.123.0.246",
+      "hostname": "140.123.0.246",
+      "rtts": [
+        3.576,
+        3.152,
+        3.791
+      ],
+      "avg_rtt": 3.51,
+      "timeout": false
+    },
+    {
+      "hop": 5,
+      "ip": "140.130.252.251",
+      "hostname": "140.130.252.251",
+      "rtts": [
+        4.754,
+        5.259,
+        5.084
+      ],
+      "avg_rtt": 5.03,
+      "timeout": false
+    },
+    {
+      "hop": 6,
+      "ip": "211.22.226.198",
+      "hostname": "211-22-226-198.caw1-3332.hinet.net",
+      "rtts": [
+        9.974,
+        4.07,
+        6.452
+      ],
+      "avg_rtt": 6.83,
+      "timeout": false
+    },
+    {
+      "hop": 7,
+      "ip": null,
+      "hostname": null,
+      "rtts": [],
+      "timeout": true
+    },
+    {
+      "hop": 8,
+      "ip": null,
+      "hostname": null,
+      "rtts": [],
+      "timeout": true
+    },
+    {
+      "hop": 9,
+      "ip": "220.128.4.225",
+      "hostname": "220-128-4-225.tpdt-3310.hinet.net",
+      "rtts": [
+        15.967,
+        13.515,
+        19.84
+      ],
+      "avg_rtt": 16.44,
+      "timeout": false
+    },
+    {
+      "hop": 10,
+      "ip": "168.95.211.29",
+      "hostname": "h29.s211.ts.hinet.net",
+      "rtts": [
+        17.257,
+        10.319,
+        10.79
+      ],
+      "avg_rtt": 12.79,
+      "timeout": false
+    },
+    {
+      "hop": 11,
+      "ip": null,
+      "hostname": null,
+      "rtts": [],
+      "timeout": true
+    },
+    {
+      "hop": 12,
+      "ip": "60.248.209.145",
+      "hostname": "60-248-209-145.hinet-ip.hinet.net",
+      "rtts": [
+        41.216,
+        10.621,
+        10.754
+      ],
+      "avg_rtt": 20.86,
+      "timeout": false
+    }
+  ],
+  "num_hops": 11,
+  "success": true,
+  "raw_output": " 1  192.168.50.1 (192.168.50.1)  2.964 ms  14.236 ms  19.088 ms\n 2  csgate103.cs.ccu.edu.tw (140.123.103.250)  2.606 ms  2.684 ms  2.563 ms\n 3  140.123.9.249 (140.123.9.249)  3.193 ms  5.123 ms  4.787 ms\n 4  140.123.0.246 (140.123.0.246)  3.576 ms  3.152 ms  3.791 ms\n 5  140.130.252.251 (140.130.252.251)  4.754 ms  5.259 ms  5.084 ms\n 6  211-22-226-198.caw1-3332.hinet.net (211.22.226.198)  9.974 ms  4.070 ms  6.452 ms\n 7  * * *\n 8  * * *\n 9  220-128-4-225.tpdt-3310.hinet.net (220.128.4.225)  15.967 ms  13.515 ms  19.840 ms\n10  h29.s211.ts.hinet.net (168.95.211.29)  17.257 ms  10.319 ms  10.790 ms\n11  * * *\n12  60-248-209-145.hinet-ip.hinet.net (60.248.209.145)  41.216 ms  10.621 ms  10.754 ms\n",
+  "category": "financial_banks",
+  "base_domain": "fubon.com",
+  "service_variant": "mail.fubon.com",
+  "is_bare_domain": false
+}

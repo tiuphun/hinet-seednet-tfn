@@ -1,0 +1,175 @@
+{
+  "timestamp": "2025-10-15T13:40:47.513134",
+  "vantage_point": "itaiwan",
+  "target": "ftp.tdcc.com.tw",
+  "target_ip": "203.74.20.154",
+  "protocol": "icmp",
+  "port": null,
+  "duration_seconds": 30.45,
+  "hops": [
+    {
+      "hop": 2,
+      "ip": "168.95.98.254",
+      "hostname": "h254.s98.ts.hinet.net",
+      "rtts": [
+        4.757,
+        23.678,
+        19.295
+      ],
+      "avg_rtt": 15.91,
+      "timeout": false,
+      "network": "hinet",
+      "network_name": "HiNet (Chunghwa Telecom)",
+      "is_interesting": true,
+      "is_private": false
+    },
+    {
+      "hop": 3,
+      "ip": null,
+      "hostname": null,
+      "rtts": [],
+      "timeout": true
+    },
+    {
+      "hop": 4,
+      "ip": null,
+      "hostname": null,
+      "rtts": [],
+      "timeout": true
+    },
+    {
+      "hop": 5,
+      "ip": null,
+      "hostname": null,
+      "rtts": [],
+      "timeout": true
+    },
+    {
+      "hop": 6,
+      "ip": "220.128.4.221",
+      "hostname": "220-128-4-221.tpdt-3310.hinet.net",
+      "rtts": [
+        22.413,
+        10.677,
+        11.5
+      ],
+      "avg_rtt": 14.86,
+      "timeout": false,
+      "network": "hinet",
+      "network_name": "HiNet (Chunghwa Telecom)",
+      "is_interesting": true,
+      "is_private": false
+    },
+    {
+      "hop": 7,
+      "ip": "168.95.210.45",
+      "hostname": "h45.s210.ts.hinet.net",
+      "rtts": [
+        11.849,
+        12.89,
+        16.976
+      ],
+      "avg_rtt": 13.91,
+      "timeout": false,
+      "network": "hinet",
+      "network_name": "HiNet (Chunghwa Telecom)",
+      "is_interesting": true,
+      "is_private": false
+    },
+    {
+      "hop": 8,
+      "ip": null,
+      "hostname": null,
+      "rtts": [],
+      "timeout": true
+    },
+    {
+      "hop": 9,
+      "ip": "203.69.62.217",
+      "hostname": "203-69-62-217.hinet-ip.hinet.net",
+      "rtts": [
+        29.04,
+        18.11,
+        12.725
+      ],
+      "avg_rtt": 19.96,
+      "timeout": false,
+      "network": "hinet",
+      "network_name": "HiNet (Chunghwa Telecom)",
+      "is_interesting": true,
+      "is_private": false
+    },
+    {
+      "hop": 10,
+      "ip": "203.74.20.154",
+      "hostname": "203-74-20-154.hinet-ip.hinet.net",
+      "rtts": [
+        11.725,
+        10.773,
+        14.983
+      ],
+      "avg_rtt": 12.49,
+      "timeout": false,
+      "network": "hinet",
+      "network_name": "HiNet (Chunghwa Telecom)",
+      "is_interesting": true,
+      "is_private": false
+    }
+  ],
+  "num_hops": 9,
+  "success": true,
+  "path_analysis": {
+    "networks_traversed": [
+      {
+        "network": "hinet",
+        "network_name": "HiNet (Chunghwa Telecom)",
+        "first_hop": 2
+      }
+    ],
+    "interesting_routers": [
+      {
+        "hop": 2,
+        "ip": "168.95.98.254",
+        "hostname": "h254.s98.ts.hinet.net",
+        "network": "hinet",
+        "network_name": "HiNet (Chunghwa Telecom)"
+      },
+      {
+        "hop": 6,
+        "ip": "220.128.4.221",
+        "hostname": "220-128-4-221.tpdt-3310.hinet.net",
+        "network": "hinet",
+        "network_name": "HiNet (Chunghwa Telecom)"
+      },
+      {
+        "hop": 7,
+        "ip": "168.95.210.45",
+        "hostname": "h45.s210.ts.hinet.net",
+        "network": "hinet",
+        "network_name": "HiNet (Chunghwa Telecom)"
+      },
+      {
+        "hop": 9,
+        "ip": "203.69.62.217",
+        "hostname": "203-69-62-217.hinet-ip.hinet.net",
+        "network": "hinet",
+        "network_name": "HiNet (Chunghwa Telecom)"
+      },
+      {
+        "hop": 10,
+        "ip": "203.74.20.154",
+        "hostname": "203-74-20-154.hinet-ip.hinet.net",
+        "network": "hinet",
+        "network_name": "HiNet (Chunghwa Telecom)"
+      }
+    ],
+    "private_hops": 0,
+    "total_hops": 9,
+    "network_transitions": []
+  },
+  "raw_output": " 1  172.16.193.250 (172.16.193.250)  3.123 ms  2.460 ms  2.823 ms\n 2  h254.s98.ts.hinet.net (168.95.98.254)  4.757 ms  23.678 ms  19.295 ms\n 3  * 168-95-129-42.caw1-3332.hinet.net (168.95.129.42)  11.144 ms  4.208 ms\n 4  * * *\n 5  * * *\n 6  220-128-4-221.tpdt-3310.hinet.net (220.128.4.221)  22.413 ms  10.677 ms  11.500 ms\n 7  h45.s210.ts.hinet.net (168.95.210.45)  11.849 ms  12.890 ms  16.976 ms\n 8  * * *\n 9  203-69-62-217.hinet-ip.hinet.net (203.69.62.217)  29.040 ms  18.110 ms  12.725 ms\n10  203-74-20-154.hinet-ip.hinet.net (203.74.20.154)  11.725 ms  10.773 ms  14.983 ms\n",
+  "category": "financial_infra",
+  "base_domain": "tdcc.com.tw",
+  "service_variant": "ftp.tdcc.com.tw",
+  "is_bare_domain": false
+}

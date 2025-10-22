@@ -1,0 +1,138 @@
+{
+  "timestamp": "2025-10-22T05:32:19.899226",
+  "vantage_point": "university",
+  "target": "www.esunbank.com.tw",
+  "target_ip": "124.219.113.65",
+  "protocol": "icmp",
+  "port": null,
+  "duration_seconds": 0.45,
+  "hops": [
+    {
+      "hop": 2,
+      "ip": "140.123.103.250",
+      "hostname": "csgate103.cs.ccu.edu.tw",
+      "rtts": [
+        2.421,
+        2.394,
+        2.278
+      ],
+      "avg_rtt": 2.36,
+      "timeout": false
+    },
+    {
+      "hop": 3,
+      "ip": "140.123.9.249",
+      "hostname": "140.123.9.249",
+      "rtts": [
+        2.791,
+        2.89,
+        2.454
+      ],
+      "avg_rtt": 2.71,
+      "timeout": false
+    },
+    {
+      "hop": 4,
+      "ip": "140.123.0.246",
+      "hostname": "140.123.0.246",
+      "rtts": [
+        3.415,
+        3.346,
+        3.165
+      ],
+      "avg_rtt": 3.31,
+      "timeout": false
+    },
+    {
+      "hop": 5,
+      "ip": "140.130.252.251",
+      "hostname": "140.130.252.251",
+      "rtts": [
+        4.272,
+        4.571,
+        6.262
+      ],
+      "avg_rtt": 5.04,
+      "timeout": false
+    },
+    {
+      "hop": 6,
+      "ip": "140.123.231.111",
+      "hostname": "140.123.231.111",
+      "rtts": [
+        12.43,
+        9.541,
+        9.072
+      ],
+      "avg_rtt": 10.35,
+      "timeout": false
+    },
+    {
+      "hop": 7,
+      "ip": "211.76.96.77",
+      "hostname": "211.76.96.77",
+      "rtts": [
+        8.148,
+        7.844,
+        7.676
+      ],
+      "avg_rtt": 7.89,
+      "timeout": false
+    },
+    {
+      "hop": 8,
+      "ip": "203.79.251.102",
+      "hostname": "il203-79-251-102.static.apol.com.tw",
+      "rtts": [
+        8.413,
+        7.848,
+        8.236
+      ],
+      "avg_rtt": 8.17,
+      "timeout": false
+    },
+    {
+      "hop": 9,
+      "ip": "203.79.208.129",
+      "hostname": "203.79.208.129",
+      "rtts": [
+        11.642,
+        8.698,
+        10.978
+      ],
+      "avg_rtt": 10.44,
+      "timeout": false
+    },
+    {
+      "hop": 10,
+      "ip": "203.79.208.138",
+      "hostname": "203.79.208.138",
+      "rtts": [
+        39.589,
+        11.968,
+        13.505
+      ],
+      "avg_rtt": 21.69,
+      "timeout": false
+    },
+    {
+      "hop": 11,
+      "ip": "124.219.113.65",
+      "hostname": "124-219-113-65.vdslpro.static.apol.com.tw",
+      "rtts": [
+        10.727,
+        10.133,
+        8.658
+      ],
+      "avg_rtt": 9.84,
+      "timeout": false
+    }
+  ],
+  "num_hops": 10,
+  "success": true,
+  "raw_output": " 1  192.168.50.1 (192.168.50.1)  3.734 ms  2.164 ms  1.996 ms\n 2  csgate103.cs.ccu.edu.tw (140.123.103.250)  2.421 ms  2.394 ms  2.278 ms\n 3  140.123.9.249 (140.123.9.249)  2.791 ms  2.890 ms  2.454 ms\n 4  140.123.0.246 (140.123.0.246)  3.415 ms  3.346 ms  3.165 ms\n 5  140.130.252.251 (140.130.252.251)  4.272 ms  4.571 ms  6.262 ms\n 6  140.123.231.111 (140.123.231.111)  12.430 ms  9.541 ms  9.072 ms\n 7  211.76.96.77 (211.76.96.77)  8.148 ms  7.844 ms  7.676 ms\n 8  il203-79-251-102.static.apol.com.tw (203.79.251.102)  8.413 ms  7.848 ms  8.236 ms\n 9  203.79.208.129 (203.79.208.129)  11.642 ms  8.698 ms  10.978 ms\n10  203.79.208.138 (203.79.208.138)  39.589 ms  11.968 ms  13.505 ms\n11  124-219-113-65.vdslpro.static.apol.com.tw (124.219.113.65)  10.727 ms  10.133 ms  8.658 ms\n",
+  "category": "financial_banks",
+  "base_domain": "esunbank.com.tw",
+  "service_variant": "www.esunbank.com.tw",
+  "is_bare_domain": false
+}

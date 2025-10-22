@@ -1,0 +1,135 @@
+{
+  "timestamp": "2025-10-14T12:18:45.244347",
+  "vantage_point": "cht-mobile",
+  "target": "mail.bot.com.tw",
+  "target_ip": "210.71.212.100",
+  "protocol": "icmp",
+  "port": null,
+  "duration_seconds": 27.27,
+  "hops": [
+    {
+      "hop": 2,
+      "ip": "140.123.103.250",
+      "hostname": null,
+      "rtts": [
+        2.199,
+        2.421,
+        2.298
+      ],
+      "avg_rtt": 2.31,
+      "timeout": false
+    },
+    {
+      "hop": 3,
+      "ip": "140.123.9.249",
+      "hostname": null,
+      "rtts": [
+        2.456,
+        2.161,
+        2.261
+      ],
+      "avg_rtt": 2.29,
+      "timeout": false
+    },
+    {
+      "hop": 4,
+      "ip": "140.123.0.246",
+      "hostname": null,
+      "rtts": [
+        2.911,
+        4.627,
+        3.361
+      ],
+      "avg_rtt": 3.63,
+      "timeout": false
+    },
+    {
+      "hop": 5,
+      "ip": "140.130.252.251",
+      "hostname": null,
+      "rtts": [
+        3.618,
+        5.001,
+        7.786
+      ],
+      "avg_rtt": 5.47,
+      "timeout": false
+    },
+    {
+      "hop": 6,
+      "ip": "211.22.226.198",
+      "hostname": null,
+      "rtts": [
+        4.164,
+        5.93,
+        5.659
+      ],
+      "avg_rtt": 5.25,
+      "timeout": false
+    },
+    {
+      "hop": 7,
+      "ip": null,
+      "hostname": null,
+      "rtts": [],
+      "timeout": true
+    },
+    {
+      "hop": 8,
+      "ip": null,
+      "hostname": null,
+      "rtts": [],
+      "timeout": true
+    },
+    {
+      "hop": 9,
+      "ip": "220.128.4.225",
+      "hostname": null,
+      "rtts": [
+        19.896,
+        14.144,
+        11.194
+      ],
+      "avg_rtt": 15.08,
+      "timeout": false
+    },
+    {
+      "hop": 10,
+      "ip": "168.95.211.45",
+      "hostname": null,
+      "rtts": [
+        11.063,
+        15.703,
+        10.556
+      ],
+      "avg_rtt": 12.44,
+      "timeout": false
+    },
+    {
+      "hop": 11,
+      "ip": null,
+      "hostname": null,
+      "rtts": [],
+      "timeout": true
+    },
+    {
+      "hop": 12,
+      "ip": "210.71.212.100",
+      "hostname": null,
+      "rtts": [
+        21.686,
+        13.946,
+        12.593
+      ],
+      "avg_rtt": 16.07,
+      "timeout": false
+    }
+  ],
+  "num_hops": 11,
+  "success": true,
+  "raw_output": " 1  192.168.50.1  6.612 ms  3.400 ms  3.036 ms\n 2  140.123.103.250  2.199 ms  2.421 ms  2.298 ms\n 3  140.123.9.249  2.456 ms  2.161 ms  2.261 ms\n 4  140.123.0.246  2.911 ms  4.627 ms  3.361 ms\n 5  140.130.252.251  3.618 ms  5.001 ms  7.786 ms\n 6  211.22.226.198  4.164 ms  5.930 ms  5.659 ms\n 7  * * *\n 8  * * *\n 9  220.128.4.225  19.896 ms  14.144 ms  11.194 ms\n10  168.95.211.45  11.063 ms  15.703 ms  10.556 ms\n11  * * *\n12  210.71.212.100  21.686 ms  13.946 ms  12.593 ms\n",
+  "category": "financial_banks",
+  "base_domain": "bot.com.tw",
+  "service_variant": "mail.bot.com.tw",
+  "is_bare_domain": false
+}

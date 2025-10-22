@@ -1,0 +1,139 @@
+{
+  "timestamp": "2025-10-21T15:06:27.671929",
+  "vantage_point": "university",
+  "target": "ftp.chinatimes.com",
+  "target_ip": "60.250.9.200",
+  "protocol": "icmp",
+  "port": null,
+  "duration_seconds": 24.06,
+  "hops": [
+    {
+      "hop": 2,
+      "ip": "140.123.103.250",
+      "hostname": "csgate103.cs.ccu.edu.tw",
+      "rtts": [
+        2.111,
+        2.412,
+        2.101
+      ],
+      "avg_rtt": 2.21,
+      "timeout": false
+    },
+    {
+      "hop": 3,
+      "ip": "140.123.9.249",
+      "hostname": "140.123.9.249",
+      "rtts": [
+        2.16,
+        1.993,
+        2.139
+      ],
+      "avg_rtt": 2.1,
+      "timeout": false
+    },
+    {
+      "hop": 4,
+      "ip": "140.123.0.246",
+      "hostname": "140.123.0.246",
+      "rtts": [
+        4.817,
+        5.593,
+        2.783
+      ],
+      "avg_rtt": 4.4,
+      "timeout": false
+    },
+    {
+      "hop": 5,
+      "ip": "140.130.252.251",
+      "hostname": "140.130.252.251",
+      "rtts": [
+        3.664,
+        6.224,
+        4.168
+      ],
+      "avg_rtt": 4.69,
+      "timeout": false
+    },
+    {
+      "hop": 6,
+      "ip": "211.22.226.198",
+      "hostname": "211-22-226-198.caw1-3332.hinet.net",
+      "rtts": [
+        3.809,
+        6.108,
+        3.733
+      ],
+      "avg_rtt": 4.55,
+      "timeout": false
+    },
+    {
+      "hop": 7,
+      "ip": null,
+      "hostname": null,
+      "rtts": [],
+      "timeout": true
+    },
+    {
+      "hop": 8,
+      "ip": null,
+      "hostname": null,
+      "rtts": [],
+      "timeout": true
+    },
+    {
+      "hop": 9,
+      "ip": "220.128.4.213",
+      "hostname": "220-128-4-213.tpdt-3309.hinet.net",
+      "rtts": [
+        18.646,
+        9.599,
+        20.332
+      ],
+      "avg_rtt": 16.19,
+      "timeout": false
+    },
+    {
+      "hop": 10,
+      "ip": "168.95.81.221",
+      "hostname": "h221.s81.ts.hinet.net",
+      "rtts": [
+        25.024,
+        21.724,
+        15.466
+      ],
+      "avg_rtt": 20.74,
+      "timeout": false
+    },
+    {
+      "hop": 11,
+      "ip": "118.163.56.205",
+      "hostname": "118-163-56-205.hinet-ip.hinet.net",
+      "rtts": [
+        83.584,
+        10.361,
+        10.394
+      ],
+      "avg_rtt": 34.78,
+      "timeout": false
+    },
+    {
+      "hop": 12,
+      "ip": "118.163.56.205",
+      "hostname": "118-163-56-205.hinet-ip.hinet.net",
+      "rtts": [
+        2632.904,
+        65.008
+      ],
+      "avg_rtt": 1348.96,
+      "timeout": false
+    }
+  ],
+  "num_hops": 11,
+  "success": false,
+  "raw_output": " 1  192.168.50.1 (192.168.50.1)  6.432 ms  1.774 ms  3.291 ms\n 2  csgate103.cs.ccu.edu.tw (140.123.103.250)  2.111 ms  2.412 ms  2.101 ms\n 3  140.123.9.249 (140.123.9.249)  2.160 ms  1.993 ms  2.139 ms\n 4  140.123.0.246 (140.123.0.246)  4.817 ms  5.593 ms  2.783 ms\n 5  140.130.252.251 (140.130.252.251)  3.664 ms  6.224 ms  4.168 ms\n 6  211-22-226-198.caw1-3332.hinet.net (211.22.226.198)  3.809 ms  6.108 ms  3.733 ms\n 7  * * *\n 8  * * *\n 9  220-128-4-213.tpdt-3309.hinet.net (220.128.4.213)  18.646 ms  9.599 ms  20.332 ms\n10  h221.s81.ts.hinet.net (168.95.81.221)  25.024 ms  21.724 ms  15.466 ms\n11  118-163-56-205.hinet-ip.hinet.net (118.163.56.205)  83.584 ms  10.361 ms  10.394 ms\n12  118-163-56-205.hinet-ip.hinet.net (118.163.56.205)  2632.904 ms !H *  65.008 ms !H\n",
+  "category": "media",
+  "base_domain": "chinatimes.com",
+  "service_variant": "ftp.chinatimes.com",
+  "is_bare_domain": false
+}

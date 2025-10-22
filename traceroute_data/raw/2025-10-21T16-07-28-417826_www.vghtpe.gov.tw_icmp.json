@@ -1,0 +1,137 @@
+{
+  "timestamp": "2025-10-21T16:07:28.417826",
+  "vantage_point": "university",
+  "target": "www.vghtpe.gov.tw",
+  "target_ip": "104.18.10.246",
+  "protocol": "icmp",
+  "port": null,
+  "duration_seconds": 13.36,
+  "hops": [
+    {
+      "hop": 2,
+      "ip": "140.123.103.250",
+      "hostname": "csgate103.cs.ccu.edu.tw",
+      "rtts": [
+        2.296,
+        2.607,
+        2.259
+      ],
+      "avg_rtt": 2.39,
+      "timeout": false
+    },
+    {
+      "hop": 3,
+      "ip": "140.123.9.249",
+      "hostname": "140.123.9.249",
+      "rtts": [
+        2.365,
+        4.688,
+        2.195
+      ],
+      "avg_rtt": 3.08,
+      "timeout": false
+    },
+    {
+      "hop": 4,
+      "ip": "140.123.0.246",
+      "hostname": "140.123.0.246",
+      "rtts": [
+        3.262,
+        2.944,
+        3.049
+      ],
+      "avg_rtt": 3.08,
+      "timeout": false
+    },
+    {
+      "hop": 5,
+      "ip": "140.130.252.251",
+      "hostname": "140.130.252.251",
+      "rtts": [
+        4.319,
+        3.803,
+        10.03
+      ],
+      "avg_rtt": 6.05,
+      "timeout": false
+    },
+    {
+      "hop": 6,
+      "ip": "192.192.61.142",
+      "hostname": "192.192.61.142",
+      "rtts": [
+        7.327,
+        5.129,
+        6.178
+      ],
+      "avg_rtt": 6.21,
+      "timeout": false
+    },
+    {
+      "hop": 7,
+      "ip": "192.192.61.20",
+      "hostname": "192.192.61.20",
+      "rtts": [
+        25.236,
+        7.625,
+        7.46
+      ],
+      "avg_rtt": 13.44,
+      "timeout": false
+    },
+    {
+      "hop": 8,
+      "ip": "192.192.61.48",
+      "hostname": "192.192.61.48",
+      "rtts": [
+        8.038,
+        8.397,
+        8.212
+      ],
+      "avg_rtt": 8.22,
+      "timeout": false
+    },
+    {
+      "hop": 9,
+      "ip": "192.192.68.62",
+      "hostname": "192.192.68.62",
+      "rtts": [
+        8.552,
+        9.818,
+        18.492
+      ],
+      "avg_rtt": 12.29,
+      "timeout": false
+    },
+    {
+      "hop": 10,
+      "ip": "203.163.222.39",
+      "hostname": "39-222-163-203-static.tpix.net.tw",
+      "rtts": [
+        10.533,
+        13.5
+      ],
+      "avg_rtt": 12.02,
+      "timeout": false
+    },
+    {
+      "hop": 11,
+      "ip": "104.18.10.246",
+      "hostname": "104.18.10.246",
+      "rtts": [
+        17.802,
+        9.824,
+        8.018
+      ],
+      "avg_rtt": 11.88,
+      "timeout": false
+    }
+  ],
+  "num_hops": 10,
+  "success": true,
+  "raw_output": " 1  192.168.50.1 (192.168.50.1)  19.969 ms  2.034 ms  2.058 ms\n 2  csgate103.cs.ccu.edu.tw (140.123.103.250)  2.296 ms  2.607 ms  2.259 ms\n 3  140.123.9.249 (140.123.9.249)  2.365 ms  4.688 ms  2.195 ms\n 4  140.123.0.246 (140.123.0.246)  3.262 ms  2.944 ms  3.049 ms\n 5  140.130.252.251 (140.130.252.251)  4.319 ms  3.803 ms  10.030 ms\n 6  192.192.61.142 (192.192.61.142)  7.327 ms  5.129 ms  6.178 ms\n 7  192.192.61.20 (192.192.61.20)  25.236 ms  7.625 ms  7.460 ms\n 8  192.192.61.48 (192.192.61.48)  8.038 ms  8.397 ms  8.212 ms\n 9  192.192.68.62 (192.192.68.62)  8.552 ms  9.818 ms  18.492 ms\n10  39-222-163-203-static.tpix.net.tw (203.163.222.39)  10.533 ms  13.500 ms *\n11  104.18.10.246 (104.18.10.246)  17.802 ms  9.824 ms  8.018 ms\n",
+  "category": "healthcare",
+  "base_domain": "vghtpe.gov.tw",
+  "service_variant": "www.vghtpe.gov.tw",
+  "is_bare_domain": false
+}

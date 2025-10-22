@@ -1,0 +1,125 @@
+{
+  "timestamp": "2025-10-22T03:16:10.402793",
+  "vantage_point": "university",
+  "target": "mail.nfa.gov.tw",
+  "target_ip": "210.69.173.98",
+  "protocol": "icmp",
+  "port": null,
+  "duration_seconds": 3.27,
+  "hops": [
+    {
+      "hop": 2,
+      "ip": "140.123.103.250",
+      "hostname": "csgate103.cs.ccu.edu.tw",
+      "rtts": [
+        3.714,
+        2.385,
+        2.591
+      ],
+      "avg_rtt": 2.9,
+      "timeout": false
+    },
+    {
+      "hop": 3,
+      "ip": "140.123.9.249",
+      "hostname": "140.123.9.249",
+      "rtts": [
+        2.219,
+        2.573,
+        5.75
+      ],
+      "avg_rtt": 3.51,
+      "timeout": false
+    },
+    {
+      "hop": 4,
+      "ip": "140.123.0.246",
+      "hostname": "140.123.0.246",
+      "rtts": [
+        3.067,
+        3.252,
+        3.039
+      ],
+      "avg_rtt": 3.12,
+      "timeout": false
+    },
+    {
+      "hop": 5,
+      "ip": "140.130.252.251",
+      "hostname": "140.130.252.251",
+      "rtts": [
+        4.003,
+        5.062,
+        6.839
+      ],
+      "avg_rtt": 5.3,
+      "timeout": false
+    },
+    {
+      "hop": 6,
+      "ip": "192.192.61.142",
+      "hostname": "192.192.61.142",
+      "rtts": [
+        6.202,
+        7.728,
+        9.488
+      ],
+      "avg_rtt": 7.81,
+      "timeout": false
+    },
+    {
+      "hop": 7,
+      "ip": "192.192.61.37",
+      "hostname": "192.192.61.37",
+      "rtts": [
+        20.706,
+        7.918,
+        6.833
+      ],
+      "avg_rtt": 11.82,
+      "timeout": false
+    },
+    {
+      "hop": 8,
+      "ip": "192.192.61.32",
+      "hostname": "192.192.61.32",
+      "rtts": [
+        11.521,
+        8.611,
+        15.3
+      ],
+      "avg_rtt": 11.81,
+      "timeout": false
+    },
+    {
+      "hop": 9,
+      "ip": "192.192.61.209",
+      "hostname": "192.192.61.209",
+      "rtts": [
+        8.668,
+        10.31,
+        10.136
+      ],
+      "avg_rtt": 9.7,
+      "timeout": false
+    },
+    {
+      "hop": 10,
+      "ip": "10.96.81.12",
+      "hostname": "10.96.81.12",
+      "rtts": [
+        15.324,
+        14.166
+      ],
+      "avg_rtt": 14.75,
+      "timeout": false
+    }
+  ],
+  "num_hops": 9,
+  "success": false,
+  "raw_output": " 1  192.168.50.1 (192.168.50.1)  26.658 ms  5.027 ms  4.225 ms\n 2  csgate103.cs.ccu.edu.tw (140.123.103.250)  3.714 ms  2.385 ms  2.591 ms\n 3  140.123.9.249 (140.123.9.249)  2.219 ms  2.573 ms  5.750 ms\n 4  140.123.0.246 (140.123.0.246)  3.067 ms  3.252 ms  3.039 ms\n 5  140.130.252.251 (140.130.252.251)  4.003 ms  5.062 ms  6.839 ms\n 6  192.192.61.142 (192.192.61.142)  6.202 ms  7.728 ms  9.488 ms\n 7  192.192.61.37 (192.192.61.37)  20.706 ms  7.918 ms  6.833 ms\n 8  192.192.61.32 (192.192.61.32)  11.521 ms  8.611 ms  15.300 ms\n 9  192.192.61.209 (192.192.61.209)  8.668 ms  10.310 ms  10.136 ms\n10  10.96.81.12 (10.96.81.12)  15.324 ms !X *  14.166 ms !X\n",
+  "category": "government_critical",
+  "base_domain": "nfa.gov.tw",
+  "service_variant": "mail.nfa.gov.tw",
+  "is_bare_domain": false
+}

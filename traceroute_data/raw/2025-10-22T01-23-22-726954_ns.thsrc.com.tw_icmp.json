@@ -1,0 +1,150 @@
+{
+  "timestamp": "2025-10-22T01:23:22.726954",
+  "vantage_point": "university",
+  "target": "ns.thsrc.com.tw",
+  "target_ip": "124.219.1.131",
+  "protocol": "icmp",
+  "port": null,
+  "duration_seconds": 0.57,
+  "hops": [
+    {
+      "hop": 2,
+      "ip": "140.123.103.250",
+      "hostname": "csgate103.cs.ccu.edu.tw",
+      "rtts": [
+        4.873,
+        4.293,
+        5.687
+      ],
+      "avg_rtt": 4.95,
+      "timeout": false
+    },
+    {
+      "hop": 3,
+      "ip": "140.123.9.249",
+      "hostname": "140.123.9.249",
+      "rtts": [
+        9.813,
+        2.273,
+        5.64
+      ],
+      "avg_rtt": 5.91,
+      "timeout": false
+    },
+    {
+      "hop": 4,
+      "ip": "140.123.0.246",
+      "hostname": "140.123.0.246",
+      "rtts": [
+        3.227,
+        3.376,
+        2.934
+      ],
+      "avg_rtt": 3.18,
+      "timeout": false
+    },
+    {
+      "hop": 5,
+      "ip": "140.130.252.251",
+      "hostname": "140.130.252.251",
+      "rtts": [
+        4.3,
+        8.037,
+        3.747
+      ],
+      "avg_rtt": 5.36,
+      "timeout": false
+    },
+    {
+      "hop": 6,
+      "ip": "140.123.231.111",
+      "hostname": "140.123.231.111",
+      "rtts": [
+        10.208,
+        12.021,
+        9.457
+      ],
+      "avg_rtt": 10.56,
+      "timeout": false
+    },
+    {
+      "hop": 7,
+      "ip": "211.76.96.177",
+      "hostname": "211.76.96.177",
+      "rtts": [
+        7.885,
+        11.477,
+        9.388
+      ],
+      "avg_rtt": 9.58,
+      "timeout": false
+    },
+    {
+      "hop": 8,
+      "ip": "203.79.251.102",
+      "hostname": "il203-79-251-102.static.apol.com.tw",
+      "rtts": [
+        11.988,
+        8.655,
+        10.835
+      ],
+      "avg_rtt": 10.49,
+      "timeout": false
+    },
+    {
+      "hop": 9,
+      "ip": "203.79.208.129",
+      "hostname": "203.79.208.129",
+      "rtts": [
+        20.17,
+        9.987,
+        8.74
+      ],
+      "avg_rtt": 12.97,
+      "timeout": false
+    },
+    {
+      "hop": 10,
+      "ip": "203.79.208.138",
+      "hostname": "203.79.208.138",
+      "rtts": [
+        10.823,
+        10.157,
+        9.944
+      ],
+      "avg_rtt": 10.31,
+      "timeout": false
+    },
+    {
+      "hop": 11,
+      "ip": "60.244.126.106",
+      "hostname": "nk60-244-126-106.vdslpro.static.apol.com.tw",
+      "rtts": [
+        16.522,
+        13.009,
+        12.932
+      ],
+      "avg_rtt": 14.15,
+      "timeout": false
+    },
+    {
+      "hop": 12,
+      "ip": "124.219.1.131",
+      "hostname": "124-219-1-131.vdslpro.static.apol.com.tw",
+      "rtts": [
+        13.625,
+        18.092,
+        14.391
+      ],
+      "avg_rtt": 15.37,
+      "timeout": false
+    }
+  ],
+  "num_hops": 11,
+  "success": true,
+  "raw_output": " 1  192.168.50.1 (192.168.50.1)  14.652 ms  3.833 ms  2.051 ms\n 2  csgate103.cs.ccu.edu.tw (140.123.103.250)  4.873 ms  4.293 ms  5.687 ms\n 3  140.123.9.249 (140.123.9.249)  9.813 ms  2.273 ms  5.640 ms\n 4  140.123.0.246 (140.123.0.246)  3.227 ms  3.376 ms  2.934 ms\n 5  140.130.252.251 (140.130.252.251)  4.300 ms  8.037 ms  3.747 ms\n 6  140.123.231.111 (140.123.231.111)  10.208 ms  12.021 ms  9.457 ms\n 7  211.76.96.177 (211.76.96.177)  7.885 ms  11.477 ms  9.388 ms\n 8  il203-79-251-102.static.apol.com.tw (203.79.251.102)  11.988 ms  8.655 ms  10.835 ms\n 9  203.79.208.129 (203.79.208.129)  20.170 ms  9.987 ms  8.740 ms\n10  203.79.208.138 (203.79.208.138)  10.823 ms  10.157 ms  9.944 ms\n11  nk60-244-126-106.vdslpro.static.apol.com.tw (60.244.126.106)  16.522 ms  13.009 ms  12.932 ms\n12  124-219-1-131.vdslpro.static.apol.com.tw (124.219.1.131)  13.625 ms  18.092 ms  14.391 ms\n",
+  "category": "critical_infra",
+  "base_domain": "thsrc.com.tw",
+  "service_variant": "ns.thsrc.com.tw",
+  "is_bare_domain": false
+}

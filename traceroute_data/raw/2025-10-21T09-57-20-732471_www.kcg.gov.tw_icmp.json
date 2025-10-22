@@ -1,0 +1,264 @@
+{
+  "timestamp": "2025-10-21T09:57:20.732471",
+  "vantage_point": "university",
+  "target": "www.kcg.gov.tw",
+  "target_ip": "223.200.91.227",
+  "protocol": "icmp",
+  "port": null,
+  "duration_seconds": 111.7,
+  "hops": [
+    {
+      "hop": 2,
+      "ip": "140.123.103.250",
+      "hostname": "csgate103.cs.ccu.edu.tw",
+      "rtts": [
+        2.885,
+        2.315,
+        2.546
+      ],
+      "avg_rtt": 2.58,
+      "timeout": false
+    },
+    {
+      "hop": 3,
+      "ip": "140.123.9.249",
+      "hostname": "140.123.9.249",
+      "rtts": [
+        2.785,
+        2.378,
+        2.529
+      ],
+      "avg_rtt": 2.56,
+      "timeout": false
+    },
+    {
+      "hop": 4,
+      "ip": "140.123.0.246",
+      "hostname": "140.123.0.246",
+      "rtts": [
+        2.934,
+        3.175,
+        3.794
+      ],
+      "avg_rtt": 3.3,
+      "timeout": false
+    },
+    {
+      "hop": 5,
+      "ip": "140.130.252.251",
+      "hostname": "140.130.252.251",
+      "rtts": [
+        4.129,
+        3.983,
+        4.113
+      ],
+      "avg_rtt": 4.08,
+      "timeout": false
+    },
+    {
+      "hop": 6,
+      "ip": "192.192.61.142",
+      "hostname": "192.192.61.142",
+      "rtts": [
+        5.367,
+        5.838,
+        5.906
+      ],
+      "avg_rtt": 5.7,
+      "timeout": false
+    },
+    {
+      "hop": 7,
+      "ip": "192.192.61.9",
+      "hostname": "192.192.61.9",
+      "rtts": [
+        5.82,
+        5.777,
+        5.764
+      ],
+      "avg_rtt": 5.79,
+      "timeout": false
+    },
+    {
+      "hop": 8,
+      "ip": "192.192.61.30",
+      "hostname": "192.192.61.30",
+      "rtts": [
+        6.591,
+        6.604,
+        6.495
+      ],
+      "avg_rtt": 6.56,
+      "timeout": false
+    },
+    {
+      "hop": 9,
+      "ip": "192.192.61.4",
+      "hostname": "192.192.61.4",
+      "rtts": [
+        8.139,
+        7.829,
+        7.626
+      ],
+      "avg_rtt": 7.86,
+      "timeout": false
+    },
+    {
+      "hop": 10,
+      "ip": "192.192.61.209",
+      "hostname": "192.192.61.209",
+      "rtts": [
+        6.601,
+        6.513,
+        6.32
+      ],
+      "avg_rtt": 6.48,
+      "timeout": false
+    },
+    {
+      "hop": 11,
+      "ip": null,
+      "hostname": null,
+      "rtts": [],
+      "timeout": true
+    },
+    {
+      "hop": 12,
+      "ip": null,
+      "hostname": null,
+      "rtts": [],
+      "timeout": true
+    },
+    {
+      "hop": 13,
+      "ip": "10.96.81.12",
+      "hostname": "10.96.81.12",
+      "rtts": [
+        11.294
+      ],
+      "avg_rtt": 11.29,
+      "timeout": false
+    },
+    {
+      "hop": 14,
+      "ip": null,
+      "hostname": null,
+      "rtts": [],
+      "timeout": true
+    },
+    {
+      "hop": 15,
+      "ip": null,
+      "hostname": null,
+      "rtts": [],
+      "timeout": true
+    },
+    {
+      "hop": 16,
+      "ip": null,
+      "hostname": null,
+      "rtts": [],
+      "timeout": true
+    },
+    {
+      "hop": 17,
+      "ip": null,
+      "hostname": null,
+      "rtts": [],
+      "timeout": true
+    },
+    {
+      "hop": 18,
+      "ip": null,
+      "hostname": null,
+      "rtts": [],
+      "timeout": true
+    },
+    {
+      "hop": 19,
+      "ip": "10.96.81.12",
+      "hostname": "10.96.81.12",
+      "rtts": [
+        8.143
+      ],
+      "avg_rtt": 8.14,
+      "timeout": false
+    },
+    {
+      "hop": 20,
+      "ip": null,
+      "hostname": null,
+      "rtts": [],
+      "timeout": true
+    },
+    {
+      "hop": 21,
+      "ip": null,
+      "hostname": null,
+      "rtts": [],
+      "timeout": true
+    },
+    {
+      "hop": 22,
+      "ip": "10.96.81.12",
+      "hostname": "10.96.81.12",
+      "rtts": [
+        8.38
+      ],
+      "avg_rtt": 8.38,
+      "timeout": false
+    },
+    {
+      "hop": 23,
+      "ip": "10.96.81.12",
+      "hostname": "10.96.81.12",
+      "rtts": [
+        7.887
+      ],
+      "avg_rtt": 7.89,
+      "timeout": false
+    },
+    {
+      "hop": 24,
+      "ip": null,
+      "hostname": null,
+      "rtts": [],
+      "timeout": true
+    },
+    {
+      "hop": 25,
+      "ip": null,
+      "hostname": null,
+      "rtts": [],
+      "timeout": true
+    },
+    {
+      "hop": 26,
+      "ip": "10.96.81.12",
+      "hostname": "10.96.81.12",
+      "rtts": [
+        7.785
+      ],
+      "avg_rtt": 7.79,
+      "timeout": false
+    },
+    {
+      "hop": 27,
+      "ip": "10.96.81.12",
+      "hostname": "10.96.81.12",
+      "rtts": [
+        8.086,
+        8.209
+      ],
+      "avg_rtt": 8.15,
+      "timeout": false
+    }
+  ],
+  "num_hops": 26,
+  "success": false,
+  "raw_output": " 1  192.168.50.1 (192.168.50.1)  2.304 ms  2.074 ms  2.547 ms\n 2  csgate103.cs.ccu.edu.tw (140.123.103.250)  2.885 ms  2.315 ms  2.546 ms\n 3  140.123.9.249 (140.123.9.249)  2.785 ms  2.378 ms  2.529 ms\n 4  140.123.0.246 (140.123.0.246)  2.934 ms  3.175 ms  3.794 ms\n 5  140.130.252.251 (140.130.252.251)  4.129 ms  3.983 ms  4.113 ms\n 6  192.192.61.142 (192.192.61.142)  5.367 ms  5.838 ms  5.906 ms\n 7  192.192.61.9 (192.192.61.9)  5.820 ms  5.777 ms  5.764 ms\n 8  192.192.61.30 (192.192.61.30)  6.591 ms  6.604 ms  6.495 ms\n 9  192.192.61.4 (192.192.61.4)  8.139 ms  7.829 ms  7.626 ms\n10  192.192.61.209 (192.192.61.209)  6.601 ms  6.513 ms  6.320 ms\n11  * * *\n12  * 10.96.81.12 (10.96.81.12)  14.608 ms !X *\n13  10.96.81.12 (10.96.81.12)  11.294 ms !X * *\n14  * 10.96.81.12 (10.96.81.12)  7.651 ms !X *\n15  * * *\n16  * 10.96.81.12 (10.96.81.12)  12.624 ms !X *\n17  * * 10.96.81.12 (10.96.81.12)  9.027 ms !X\n18  * * *\n19  10.96.81.12 (10.96.81.12)  8.143 ms !X * *\n20  * 10.96.81.12 (10.96.81.12)  8.423 ms !X *\n21  * 10.96.81.12 (10.96.81.12)  7.509 ms !X *\n22  10.96.81.12 (10.96.81.12)  8.380 ms !X * *\n23  10.96.81.12 (10.96.81.12)  7.887 ms !X * *\n24  * * 10.96.81.12 (10.96.81.12)  7.891 ms !X\n25  * * *\n26  10.96.81.12 (10.96.81.12)  7.785 ms !X * *\n27  10.96.81.12 (10.96.81.12)  8.086 ms !X *  8.209 ms !X\n",
+  "category": "government_local",
+  "base_domain": "kcg.gov.tw",
+  "service_variant": "www.kcg.gov.tw",
+  "is_bare_domain": false
+}

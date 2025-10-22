@@ -1,0 +1,178 @@
+{
+  "timestamp": "2025-10-21T15:08:19.443989",
+  "vantage_point": "university",
+  "target": "mail.tvbs.com.tw",
+  "target_ip": "40.104.20.2",
+  "protocol": "icmp",
+  "port": null,
+  "duration_seconds": 36.42,
+  "hops": [
+    {
+      "hop": 2,
+      "ip": "140.123.103.250",
+      "hostname": "csgate103.cs.ccu.edu.tw",
+      "rtts": [
+        4.257,
+        6.248,
+        4.922
+      ],
+      "avg_rtt": 5.14,
+      "timeout": false
+    },
+    {
+      "hop": 3,
+      "ip": "140.123.9.249",
+      "hostname": "140.123.9.249",
+      "rtts": [
+        11.728,
+        2.48,
+        2.305
+      ],
+      "avg_rtt": 5.5,
+      "timeout": false
+    },
+    {
+      "hop": 4,
+      "ip": "140.123.0.246",
+      "hostname": "140.123.0.246",
+      "rtts": [
+        3.256,
+        3.021,
+        3.032
+      ],
+      "avg_rtt": 3.1,
+      "timeout": false
+    },
+    {
+      "hop": 5,
+      "ip": "140.130.252.251",
+      "hostname": "140.130.252.251",
+      "rtts": [
+        5.539,
+        4.568,
+        5.958
+      ],
+      "avg_rtt": 5.35,
+      "timeout": false
+    },
+    {
+      "hop": 6,
+      "ip": "192.192.61.142",
+      "hostname": "192.192.61.142",
+      "rtts": [
+        5.78,
+        5.475,
+        9.175
+      ],
+      "avg_rtt": 6.81,
+      "timeout": false
+    },
+    {
+      "hop": 7,
+      "ip": "192.192.61.20",
+      "hostname": "192.192.61.20",
+      "rtts": [
+        13.99,
+        9.325,
+        11.301
+      ],
+      "avg_rtt": 11.54,
+      "timeout": false
+    },
+    {
+      "hop": 8,
+      "ip": "192.192.61.48",
+      "hostname": "192.192.61.48",
+      "rtts": [
+        16.953,
+        7.354,
+        8.317
+      ],
+      "avg_rtt": 10.87,
+      "timeout": false
+    },
+    {
+      "hop": 9,
+      "ip": "192.192.68.62",
+      "hostname": "192.192.68.62",
+      "rtts": [
+        8.403,
+        9.498,
+        43.439
+      ],
+      "avg_rtt": 20.45,
+      "timeout": false
+    },
+    {
+      "hop": 10,
+      "ip": "203.163.222.15",
+      "hostname": "15-222-163-203-static.tpix.net.tw",
+      "rtts": [
+        9.647,
+        8.27,
+        8.975
+      ],
+      "avg_rtt": 8.96,
+      "timeout": false
+    },
+    {
+      "hop": 11,
+      "ip": "104.44.51.234",
+      "hostname": "104.44.51.234",
+      "rtts": [
+        12.779,
+        9.635,
+        9.529
+      ],
+      "avg_rtt": 10.65,
+      "timeout": false
+    },
+    {
+      "hop": 12,
+      "ip": null,
+      "hostname": null,
+      "rtts": [],
+      "timeout": true
+    },
+    {
+      "hop": 13,
+      "ip": null,
+      "hostname": null,
+      "rtts": [],
+      "timeout": true
+    },
+    {
+      "hop": 14,
+      "ip": null,
+      "hostname": null,
+      "rtts": [],
+      "timeout": true
+    },
+    {
+      "hop": 15,
+      "ip": null,
+      "hostname": null,
+      "rtts": [],
+      "timeout": true
+    },
+    {
+      "hop": 16,
+      "ip": "40.104.20.2",
+      "hostname": "40.104.20.2",
+      "rtts": [
+        8.212,
+        8.812,
+        10.835
+      ],
+      "avg_rtt": 9.29,
+      "timeout": false
+    }
+  ],
+  "num_hops": 15,
+  "success": true,
+  "raw_output": " 1  192.168.50.1 (192.168.50.1)  8.450 ms  2.724 ms  2.647 ms\n 2  csgate103.cs.ccu.edu.tw (140.123.103.250)  4.257 ms  6.248 ms  4.922 ms\n 3  140.123.9.249 (140.123.9.249)  11.728 ms  2.480 ms  2.305 ms\n 4  140.123.0.246 (140.123.0.246)  3.256 ms  3.021 ms  3.032 ms\n 5  140.130.252.251 (140.130.252.251)  5.539 ms  4.568 ms  5.958 ms\n 6  192.192.61.142 (192.192.61.142)  5.780 ms  5.475 ms  9.175 ms\n 7  192.192.61.20 (192.192.61.20)  13.990 ms  9.325 ms  11.301 ms\n 8  192.192.61.48 (192.192.61.48)  16.953 ms  7.354 ms  8.317 ms\n 9  192.192.68.62 (192.192.68.62)  8.403 ms  9.498 ms  43.439 ms\n10  15-222-163-203-static.tpix.net.tw (203.163.222.15)  9.647 ms  8.270 ms  8.975 ms\n11  104.44.51.234 (104.44.51.234)  12.779 ms  9.635 ms  9.529 ms\n12  * * *\n13  * * *\n14  * * *\n15  * * *\n16  40.104.20.2 (40.104.20.2)  8.212 ms  8.812 ms  10.835 ms\n",
+  "category": "media",
+  "base_domain": "tvbs.com.tw",
+  "service_variant": "mail.tvbs.com.tw",
+  "is_bare_domain": false
+}

@@ -1,0 +1,138 @@
+{
+  "timestamp": "2025-10-22T04:54:42.738113",
+  "vantage_point": "university",
+  "target": "www2.tmu.edu.tw",
+  "target_ip": "104.199.151.198",
+  "protocol": "icmp",
+  "port": null,
+  "duration_seconds": 0.91,
+  "hops": [
+    {
+      "hop": 2,
+      "ip": "140.123.103.250",
+      "hostname": "csgate103.cs.ccu.edu.tw",
+      "rtts": [
+        12.562,
+        5.99,
+        7.068
+      ],
+      "avg_rtt": 8.54,
+      "timeout": false
+    },
+    {
+      "hop": 3,
+      "ip": "140.123.9.249",
+      "hostname": "140.123.9.249",
+      "rtts": [
+        4.474,
+        3.835,
+        3.749
+      ],
+      "avg_rtt": 4.02,
+      "timeout": false
+    },
+    {
+      "hop": 4,
+      "ip": "140.123.0.246",
+      "hostname": "140.123.0.246",
+      "rtts": [
+        6.782,
+        3.493,
+        5.675
+      ],
+      "avg_rtt": 5.32,
+      "timeout": false
+    },
+    {
+      "hop": 5,
+      "ip": "140.130.252.251",
+      "hostname": "140.130.252.251",
+      "rtts": [
+        3.97,
+        8.337,
+        4.103
+      ],
+      "avg_rtt": 5.47,
+      "timeout": false
+    },
+    {
+      "hop": 6,
+      "ip": "192.192.61.142",
+      "hostname": "192.192.61.142",
+      "rtts": [
+        5.25,
+        8.569,
+        7.214
+      ],
+      "avg_rtt": 7.01,
+      "timeout": false
+    },
+    {
+      "hop": 7,
+      "ip": "192.192.61.20",
+      "hostname": "192.192.61.20",
+      "rtts": [
+        7.962,
+        35.25,
+        23.751
+      ],
+      "avg_rtt": 22.32,
+      "timeout": false
+    },
+    {
+      "hop": 8,
+      "ip": "192.192.61.184",
+      "hostname": "192.192.61.184",
+      "rtts": [
+        9.013,
+        9.394,
+        8.995
+      ],
+      "avg_rtt": 9.13,
+      "timeout": false
+    },
+    {
+      "hop": 9,
+      "ip": "192.192.61.203",
+      "hostname": "192.192.61.203",
+      "rtts": [
+        9.145,
+        8.473,
+        8.209
+      ],
+      "avg_rtt": 8.61,
+      "timeout": false
+    },
+    {
+      "hop": 10,
+      "ip": "72.14.196.229",
+      "hostname": "72.14.196.229",
+      "rtts": [
+        9.06,
+        14.128,
+        8.433
+      ],
+      "avg_rtt": 10.54,
+      "timeout": false
+    },
+    {
+      "hop": 11,
+      "ip": "104.199.151.198",
+      "hostname": "198.151.199.104.bc.googleusercontent.com",
+      "rtts": [
+        12.752,
+        13.803,
+        19.317
+      ],
+      "avg_rtt": 15.29,
+      "timeout": false
+    }
+  ],
+  "num_hops": 10,
+  "success": true,
+  "raw_output": " 1  192.168.50.1 (192.168.50.1)  19.696 ms  7.765 ms  2.891 ms\n 2  csgate103.cs.ccu.edu.tw (140.123.103.250)  12.562 ms  5.990 ms  7.068 ms\n 3  140.123.9.249 (140.123.9.249)  4.474 ms  3.835 ms  3.749 ms\n 4  140.123.0.246 (140.123.0.246)  6.782 ms  3.493 ms  5.675 ms\n 5  140.130.252.251 (140.130.252.251)  3.970 ms  8.337 ms  4.103 ms\n 6  192.192.61.142 (192.192.61.142)  5.250 ms  8.569 ms  7.214 ms\n 7  192.192.61.20 (192.192.61.20)  7.962 ms  35.250 ms  23.751 ms\n 8  192.192.61.184 (192.192.61.184)  9.013 ms  9.394 ms  8.995 ms\n 9  192.192.61.203 (192.192.61.203)  9.145 ms  8.473 ms  8.209 ms\n10  72.14.196.229 (72.14.196.229)  9.060 ms  14.128 ms  8.433 ms\n11  198.151.199.104.bc.googleusercontent.com (104.199.151.198)  12.752 ms  13.803 ms  19.317 ms\n",
+  "category": "universities",
+  "base_domain": "tmu.edu.tw",
+  "service_variant": "www2.tmu.edu.tw",
+  "is_bare_domain": false
+}

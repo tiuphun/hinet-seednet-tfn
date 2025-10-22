@@ -1,0 +1,218 @@
+{
+  "timestamp": "2025-10-14T19:42:18.684636",
+  "vantage_point": "university",
+  "target": "mail.mnd.gov.tw",
+  "target_ip": "4.189.216.254",
+  "protocol": "icmp",
+  "port": null,
+  "duration_seconds": 72.75,
+  "hops": [
+    {
+      "hop": 2,
+      "ip": "140.123.103.250",
+      "hostname": null,
+      "rtts": [
+        3.149,
+        2.612,
+        2.548
+      ],
+      "avg_rtt": 2.77,
+      "timeout": false
+    },
+    {
+      "hop": 3,
+      "ip": "140.123.9.249",
+      "hostname": null,
+      "rtts": [
+        2.804,
+        2.2,
+        2.823
+      ],
+      "avg_rtt": 2.61,
+      "timeout": false
+    },
+    {
+      "hop": 4,
+      "ip": "140.123.0.246",
+      "hostname": null,
+      "rtts": [
+        2.578,
+        7.977,
+        4.611
+      ],
+      "avg_rtt": 5.06,
+      "timeout": false
+    },
+    {
+      "hop": 5,
+      "ip": "140.130.252.251",
+      "hostname": null,
+      "rtts": [
+        4.459,
+        6.012,
+        5.844
+      ],
+      "avg_rtt": 5.44,
+      "timeout": false
+    },
+    {
+      "hop": 6,
+      "ip": "192.192.61.142",
+      "hostname": null,
+      "rtts": [
+        7.861,
+        6.376,
+        5.269
+      ],
+      "avg_rtt": 6.5,
+      "timeout": false
+    },
+    {
+      "hop": 7,
+      "ip": "192.192.61.20",
+      "hostname": null,
+      "rtts": [
+        8.745,
+        7.463,
+        23.657
+      ],
+      "avg_rtt": 13.29,
+      "timeout": false
+    },
+    {
+      "hop": 8,
+      "ip": "192.192.61.48",
+      "hostname": null,
+      "rtts": [
+        8.263,
+        8.26,
+        9.245
+      ],
+      "avg_rtt": 8.59,
+      "timeout": false
+    },
+    {
+      "hop": 9,
+      "ip": "192.192.68.62",
+      "hostname": null,
+      "rtts": [
+        9.555,
+        7.549,
+        13.498
+      ],
+      "avg_rtt": 10.2,
+      "timeout": false
+    },
+    {
+      "hop": 10,
+      "ip": "203.163.222.15",
+      "hostname": null,
+      "rtts": [
+        8.667,
+        9.192,
+        8.513
+      ],
+      "avg_rtt": 8.79,
+      "timeout": false
+    },
+    {
+      "hop": 11,
+      "ip": "104.44.51.224",
+      "hostname": null,
+      "rtts": [
+        9.821,
+        9.776,
+        8.101
+      ],
+      "avg_rtt": 9.23,
+      "timeout": false
+    },
+    {
+      "hop": 12,
+      "ip": null,
+      "hostname": null,
+      "rtts": [],
+      "timeout": true
+    },
+    {
+      "hop": 13,
+      "ip": null,
+      "hostname": null,
+      "rtts": [],
+      "timeout": true
+    },
+    {
+      "hop": 14,
+      "ip": null,
+      "hostname": null,
+      "rtts": [],
+      "timeout": true
+    },
+    {
+      "hop": 15,
+      "ip": "13.106.238.163",
+      "hostname": null,
+      "rtts": [
+        76.668,
+        74.376,
+        41.104
+      ],
+      "avg_rtt": 64.05,
+      "timeout": false
+    },
+    {
+      "hop": 16,
+      "ip": null,
+      "hostname": null,
+      "rtts": [],
+      "timeout": true
+    },
+    {
+      "hop": 17,
+      "ip": null,
+      "hostname": null,
+      "rtts": [],
+      "timeout": true
+    },
+    {
+      "hop": 18,
+      "ip": null,
+      "hostname": null,
+      "rtts": [],
+      "timeout": true
+    },
+    {
+      "hop": 19,
+      "ip": null,
+      "hostname": null,
+      "rtts": [],
+      "timeout": true
+    },
+    {
+      "hop": 20,
+      "ip": null,
+      "hostname": null,
+      "rtts": [],
+      "timeout": true
+    },
+    {
+      "hop": 21,
+      "ip": "4.189.216.254",
+      "hostname": null,
+      "rtts": [
+        47.415,
+        44.77,
+        39.962
+      ],
+      "avg_rtt": 44.05,
+      "timeout": false
+    }
+  ],
+  "num_hops": 20,
+  "success": true,
+  "raw_output": " 1  192.168.50.1  28.514 ms  1.943 ms  3.238 ms\n 2  140.123.103.250  3.149 ms  2.612 ms  2.548 ms\n 3  140.123.9.249  2.804 ms  2.200 ms  2.823 ms\n 4  140.123.0.246  2.578 ms  7.977 ms  4.611 ms\n 5  140.130.252.251  4.459 ms  6.012 ms  5.844 ms\n 6  192.192.61.142  7.861 ms  6.376 ms  5.269 ms\n 7  192.192.61.20  8.745 ms  7.463 ms  23.657 ms\n 8  192.192.61.48  8.263 ms  8.260 ms  9.245 ms\n 9  192.192.68.62  9.555 ms  7.549 ms  13.498 ms\n10  203.163.222.15  8.667 ms  9.192 ms  8.513 ms\n11  104.44.51.224  9.821 ms  9.776 ms  8.101 ms\n12  * * *\n13  * * *\n14  * * *\n15  13.106.238.163  76.668 ms  74.376 ms  41.104 ms\n16  * * *\n17  * * *\n18  * * *\n19  * * *\n20  * * *\n21  4.189.216.254  47.415 ms  44.770 ms  39.962 ms\n",
+  "category": "government_central",
+  "base_domain": "mnd.gov.tw",
+  "service_variant": "mail.mnd.gov.tw",
+  "is_bare_domain": false
+}

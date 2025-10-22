@@ -1,0 +1,234 @@
+{
+  "timestamp": "2025-10-14T18:34:55.911541",
+  "vantage_point": "university",
+  "target": "www.so-net.net.tw",
+  "target_ip": "61.64.127.28",
+  "protocol": "icmp",
+  "port": null,
+  "duration_seconds": 0.49,
+  "hops": [
+    {
+      "hop": 2,
+      "ip": "140.123.103.250",
+      "hostname": null,
+      "rtts": [
+        2.03,
+        2.236,
+        2.495
+      ],
+      "avg_rtt": 2.25,
+      "timeout": false
+    },
+    {
+      "hop": 3,
+      "ip": "140.123.9.249",
+      "hostname": null,
+      "rtts": [
+        2.772,
+        2.147,
+        2.087
+      ],
+      "avg_rtt": 2.34,
+      "timeout": false
+    },
+    {
+      "hop": 4,
+      "ip": "140.123.0.246",
+      "hostname": null,
+      "rtts": [
+        4.426,
+        2.824,
+        3.367
+      ],
+      "avg_rtt": 3.54,
+      "timeout": false
+    },
+    {
+      "hop": 5,
+      "ip": "140.130.252.251",
+      "hostname": null,
+      "rtts": [
+        3.425,
+        4.528,
+        3.37
+      ],
+      "avg_rtt": 3.77,
+      "timeout": false
+    },
+    {
+      "hop": 6,
+      "ip": "192.192.61.142",
+      "hostname": null,
+      "rtts": [
+        5.171,
+        5.953,
+        6.534
+      ],
+      "avg_rtt": 5.89,
+      "timeout": false
+    },
+    {
+      "hop": 7,
+      "ip": "192.192.61.20",
+      "hostname": null,
+      "rtts": [
+        8.462,
+        10.363,
+        7.399
+      ],
+      "avg_rtt": 8.74,
+      "timeout": false
+    },
+    {
+      "hop": 8,
+      "ip": "192.192.61.48",
+      "hostname": null,
+      "rtts": [
+        8.985,
+        10.562,
+        8.658
+      ],
+      "avg_rtt": 9.4,
+      "timeout": false
+    },
+    {
+      "hop": 9,
+      "ip": "192.192.68.62",
+      "hostname": null,
+      "rtts": [
+        7.98,
+        8.337,
+        8.294
+      ],
+      "avg_rtt": 8.2,
+      "timeout": false
+    },
+    {
+      "hop": 10,
+      "ip": "203.163.222.6",
+      "hostname": null,
+      "rtts": [
+        7.698,
+        8.289,
+        8.576
+      ],
+      "avg_rtt": 8.19,
+      "timeout": false
+    },
+    {
+      "hop": 11,
+      "ip": "103.123.253.133",
+      "hostname": null,
+      "rtts": [
+        16.632,
+        8.471,
+        9.111
+      ],
+      "avg_rtt": 11.4,
+      "timeout": false
+    },
+    {
+      "hop": 12,
+      "ip": "223.26.64.141",
+      "hostname": null,
+      "rtts": [
+        10.413,
+        8.817,
+        8.897
+      ],
+      "avg_rtt": 9.38,
+      "timeout": false
+    },
+    {
+      "hop": 13,
+      "ip": "113.21.84.113",
+      "hostname": null,
+      "rtts": [
+        9.562,
+        8.322,
+        8.559
+      ],
+      "avg_rtt": 8.81,
+      "timeout": false
+    },
+    {
+      "hop": 14,
+      "ip": "113.21.84.114",
+      "hostname": null,
+      "rtts": [
+        8.86,
+        8.939,
+        12.26
+      ],
+      "avg_rtt": 10.02,
+      "timeout": false
+    },
+    {
+      "hop": 15,
+      "ip": "219.84.176.118",
+      "hostname": null,
+      "rtts": [
+        10.913,
+        10.048,
+        8.422
+      ],
+      "avg_rtt": 9.79,
+      "timeout": false
+    },
+    {
+      "hop": 16,
+      "ip": "219.84.176.138",
+      "hostname": null,
+      "rtts": [
+        32.834,
+        22.044,
+        16.842
+      ],
+      "avg_rtt": 23.91,
+      "timeout": false
+    },
+    {
+      "hop": 17,
+      "ip": "61.64.127.249",
+      "hostname": null,
+      "rtts": [
+        10.492,
+        8.256,
+        10.507
+      ],
+      "avg_rtt": 9.75,
+      "timeout": false
+    },
+    {
+      "hop": 18,
+      "ip": "61.64.127.249",
+      "hostname": null,
+      "rtts": [
+        11.599,
+        11.337,
+        11.327
+      ],
+      "avg_rtt": 11.42,
+      "timeout": false
+    },
+    {
+      "hop": 19,
+      "ip": "61.64.127.28",
+      "hostname": null,
+      "rtts": [
+        8.971,
+        8.93,
+        9.083
+      ],
+      "avg_rtt": 8.99,
+      "timeout": false
+    }
+  ],
+  "num_hops": 18,
+  "success": true,
+  "raw_output": " 1  192.168.50.1  2.618 ms  2.305 ms  1.710 ms\n 2  140.123.103.250  2.030 ms  2.236 ms  2.495 ms\n 3  140.123.9.249  2.772 ms  2.147 ms  2.087 ms\n 4  140.123.0.246  4.426 ms  2.824 ms  3.367 ms\n 5  140.130.252.251  3.425 ms  4.528 ms  3.370 ms\n 6  192.192.61.142  5.171 ms  5.953 ms  6.534 ms\n 7  192.192.61.20  8.462 ms  10.363 ms  7.399 ms\n 8  192.192.61.48  8.985 ms  10.562 ms  8.658 ms\n 9  192.192.68.62  7.980 ms  8.337 ms  8.294 ms\n10  203.163.222.6  7.698 ms  8.289 ms  8.576 ms\n11  103.123.253.133  16.632 ms  8.471 ms  9.111 ms\n12  223.26.64.141  10.413 ms  8.817 ms  8.897 ms\n13  113.21.84.113  9.562 ms  8.322 ms  8.559 ms\n14  113.21.84.114  8.860 ms  8.939 ms  12.260 ms\n15  219.84.176.118  10.913 ms  10.048 ms  8.422 ms\n16  219.84.176.138  32.834 ms  22.044 ms  16.842 ms\n17  61.64.127.249  10.492 ms  8.256 ms  10.507 ms\n18  61.64.127.249  11.599 ms  11.337 ms  11.327 ms\n19  61.64.127.28  8.971 ms  8.930 ms  9.083 ms\n",
+  "category": "telecom",
+  "base_domain": "so-net.net.tw",
+  "service_variant": "www.so-net.net.tw",
+  "is_bare_domain": false
+}

@@ -1,0 +1,231 @@
+{
+  "timestamp": "2025-10-15T13:45:09.364130",
+  "vantage_point": "itaiwan",
+  "target": "momoshop.com.tw",
+  "target_ip": "219.87.10.142",
+  "protocol": "icmp",
+  "port": null,
+  "duration_seconds": 18.41,
+  "hops": [
+    {
+      "hop": 2,
+      "ip": "168.95.98.254",
+      "hostname": "h254.s98.ts.hinet.net",
+      "rtts": [
+        3.186,
+        2.898,
+        4.006
+      ],
+      "avg_rtt": 3.36,
+      "timeout": false,
+      "network": "hinet",
+      "network_name": "HiNet (Chunghwa Telecom)",
+      "is_interesting": true,
+      "is_private": false
+    },
+    {
+      "hop": 3,
+      "ip": "168.95.129.54",
+      "hostname": "168-95-129-54.caw1-3332.hinet.net",
+      "rtts": [
+        3.194,
+        3.694,
+        4.094
+      ],
+      "avg_rtt": 3.66,
+      "timeout": false,
+      "network": "hinet",
+      "network_name": "HiNet (Chunghwa Telecom)",
+      "is_interesting": true,
+      "is_private": false
+    },
+    {
+      "hop": 4,
+      "ip": null,
+      "hostname": null,
+      "rtts": [],
+      "timeout": true
+    },
+    {
+      "hop": 5,
+      "ip": null,
+      "hostname": null,
+      "rtts": [],
+      "timeout": true
+    },
+    {
+      "hop": 6,
+      "ip": "220.128.1.125",
+      "hostname": "220-128-1-125.tpdb-4211.hinet.net",
+      "rtts": [
+        10.764,
+        9.882,
+        9.714
+      ],
+      "avg_rtt": 10.12,
+      "timeout": false,
+      "network": "hinet",
+      "network_name": "HiNet (Chunghwa Telecom)",
+      "is_interesting": true,
+      "is_private": false
+    },
+    {
+      "hop": 7,
+      "ip": "203.75.230.109",
+      "hostname": "203-75-230-109.hinet-ip.hinet.net",
+      "rtts": [
+        10.622,
+        10.28,
+        10.136
+      ],
+      "avg_rtt": 10.35,
+      "timeout": false,
+      "network": "hinet",
+      "network_name": "HiNet (Chunghwa Telecom)",
+      "is_interesting": true,
+      "is_private": false
+    },
+    {
+      "hop": 8,
+      "ip": "60.199.3.57",
+      "hostname": "60-199-3-57.static.tfn.net.tw",
+      "rtts": [
+        10.976,
+        10.272,
+        11.673
+      ],
+      "avg_rtt": 10.97,
+      "timeout": false,
+      "network": "other",
+      "network_name": "Other Network",
+      "is_interesting": false,
+      "is_private": false
+    },
+    {
+      "hop": 9,
+      "ip": "60.199.6.98",
+      "hostname": "60-199-6-98.static.tfn.net.tw",
+      "rtts": [
+        11.506,
+        10.332,
+        9.978
+      ],
+      "avg_rtt": 10.61,
+      "timeout": false,
+      "network": "other",
+      "network_name": "Other Network",
+      "is_interesting": false,
+      "is_private": false
+    },
+    {
+      "hop": 10,
+      "ip": "60.199.82.13",
+      "hostname": "60-199-82-13.static.tfn.net.tw",
+      "rtts": [
+        10.775,
+        10.881,
+        13.826
+      ],
+      "avg_rtt": 11.83,
+      "timeout": false,
+      "network": "other",
+      "network_name": "Other Network",
+      "is_interesting": false,
+      "is_private": false
+    },
+    {
+      "hop": 11,
+      "ip": "60.199.17.230",
+      "hostname": "60-199-17-230.static.tfn.net.tw",
+      "rtts": [
+        18.6,
+        24.035,
+        18.303
+      ],
+      "avg_rtt": 20.31,
+      "timeout": false,
+      "network": "other",
+      "network_name": "Other Network",
+      "is_interesting": false,
+      "is_private": false
+    },
+    {
+      "hop": 12,
+      "ip": "219.87.10.142",
+      "hostname": "219-87-10-142.static.tfn.net.tw",
+      "rtts": [
+        9.891,
+        10.729,
+        10.703
+      ],
+      "avg_rtt": 10.44,
+      "timeout": false,
+      "network": "other",
+      "network_name": "Other Network",
+      "is_interesting": false,
+      "is_private": false
+    }
+  ],
+  "num_hops": 11,
+  "success": true,
+  "path_analysis": {
+    "networks_traversed": [
+      {
+        "network": "hinet",
+        "network_name": "HiNet (Chunghwa Telecom)",
+        "first_hop": 2
+      },
+      {
+        "network": "other",
+        "network_name": "Other Network",
+        "first_hop": 8
+      }
+    ],
+    "interesting_routers": [
+      {
+        "hop": 2,
+        "ip": "168.95.98.254",
+        "hostname": "h254.s98.ts.hinet.net",
+        "network": "hinet",
+        "network_name": "HiNet (Chunghwa Telecom)"
+      },
+      {
+        "hop": 3,
+        "ip": "168.95.129.54",
+        "hostname": "168-95-129-54.caw1-3332.hinet.net",
+        "network": "hinet",
+        "network_name": "HiNet (Chunghwa Telecom)"
+      },
+      {
+        "hop": 6,
+        "ip": "220.128.1.125",
+        "hostname": "220-128-1-125.tpdb-4211.hinet.net",
+        "network": "hinet",
+        "network_name": "HiNet (Chunghwa Telecom)"
+      },
+      {
+        "hop": 7,
+        "ip": "203.75.230.109",
+        "hostname": "203-75-230-109.hinet-ip.hinet.net",
+        "network": "hinet",
+        "network_name": "HiNet (Chunghwa Telecom)"
+      }
+    ],
+    "private_hops": 0,
+    "total_hops": 11,
+    "network_transitions": [
+      {
+        "hop": 8,
+        "from": "hinet",
+        "to": "other",
+        "from_ip": "60.199.3.57",
+        "to_ip": "60.199.3.57"
+      }
+    ]
+  },
+  "raw_output": " 1  172.16.193.250 (172.16.193.250)  2.684 ms  2.160 ms  2.101 ms\n 2  h254.s98.ts.hinet.net (168.95.98.254)  3.186 ms  2.898 ms  4.006 ms\n 3  168-95-129-54.caw1-3332.hinet.net (168.95.129.54)  3.194 ms  3.694 ms  4.094 ms\n 4  * * *\n 5  * * *\n 6  220-128-1-125.tpdb-4211.hinet.net (220.128.1.125)  10.764 ms  9.882 ms  9.714 ms\n 7  203-75-230-109.hinet-ip.hinet.net (203.75.230.109)  10.622 ms  10.280 ms  10.136 ms\n 8  60-199-3-57.static.tfn.net.tw (60.199.3.57)  10.976 ms  10.272 ms  11.673 ms\n 9  60-199-6-98.static.tfn.net.tw (60.199.6.98)  11.506 ms  10.332 ms  9.978 ms\n10  60-199-82-13.static.tfn.net.tw (60.199.82.13)  10.775 ms  10.881 ms  13.826 ms\n11  60-199-17-230.static.tfn.net.tw (60.199.17.230)  18.600 ms  24.035 ms  18.303 ms\n12  219-87-10-142.static.tfn.net.tw (219.87.10.142)  9.891 ms  10.729 ms  10.703 ms\n",
+  "category": "ecommerce_tech",
+  "base_domain": "momoshop.com.tw",
+  "service_variant": "momoshop.com.tw",
+  "is_bare_domain": true
+}

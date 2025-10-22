@@ -1,0 +1,133 @@
+{
+  "timestamp": "2025-10-21T19:45:18.688933",
+  "vantage_point": "university",
+  "target": "www.chcg.gov.tw",
+  "target_ip": "203.66.32.164",
+  "protocol": "icmp",
+  "port": null,
+  "duration_seconds": 9.32,
+  "hops": [
+    {
+      "hop": 2,
+      "ip": "140.123.103.250",
+      "hostname": "csgate103.cs.ccu.edu.tw",
+      "rtts": [
+        3.792,
+        4.915,
+        3.667
+      ],
+      "avg_rtt": 4.12,
+      "timeout": false
+    },
+    {
+      "hop": 3,
+      "ip": "140.123.9.249",
+      "hostname": "140.123.9.249",
+      "rtts": [
+        2.81,
+        6.514,
+        3.257
+      ],
+      "avg_rtt": 4.19,
+      "timeout": false
+    },
+    {
+      "hop": 4,
+      "ip": "140.123.0.246",
+      "hostname": "140.123.0.246",
+      "rtts": [
+        3.071,
+        2.92,
+        2.811
+      ],
+      "avg_rtt": 2.93,
+      "timeout": false
+    },
+    {
+      "hop": 5,
+      "ip": "140.130.252.251",
+      "hostname": "140.130.252.251",
+      "rtts": [
+        4.722,
+        8.54,
+        7.359
+      ],
+      "avg_rtt": 6.87,
+      "timeout": false
+    },
+    {
+      "hop": 6,
+      "ip": "211.22.226.198",
+      "hostname": "211-22-226-198.caw1-3332.hinet.net",
+      "rtts": [
+        11.796,
+        10.767,
+        4.13
+      ],
+      "avg_rtt": 8.9,
+      "timeout": false
+    },
+    {
+      "hop": 7,
+      "ip": null,
+      "hostname": null,
+      "rtts": [],
+      "timeout": true
+    },
+    {
+      "hop": 8,
+      "ip": "220.128.9.58",
+      "hostname": "220-128-9-58.tylc-3032.hinet.net",
+      "rtts": [
+        18.893,
+        14.418,
+        11.313
+      ],
+      "avg_rtt": 14.87,
+      "timeout": false
+    },
+    {
+      "hop": 9,
+      "ip": "220.128.9.89",
+      "hostname": "220-128-9-89.tyfo-3331.hinet.net",
+      "rtts": [
+        12.024,
+        10.895,
+        12.216
+      ],
+      "avg_rtt": 11.71,
+      "timeout": false
+    },
+    {
+      "hop": 10,
+      "ip": "211.22.227.221",
+      "hostname": "211-22-227-221.hinet-ip.hinet.net",
+      "rtts": [
+        9.933,
+        17.782,
+        20.852
+      ],
+      "avg_rtt": 16.19,
+      "timeout": false
+    },
+    {
+      "hop": 11,
+      "ip": "203.66.32.164",
+      "hostname": "203-66-32-164.hinet-ip.hinet.net",
+      "rtts": [
+        11.15,
+        10.74,
+        10.092
+      ],
+      "avg_rtt": 10.66,
+      "timeout": false
+    }
+  ],
+  "num_hops": 10,
+  "success": true,
+  "raw_output": " 1  192.168.50.1 (192.168.50.1)  2.734 ms  2.358 ms  1.982 ms\n 2  csgate103.cs.ccu.edu.tw (140.123.103.250)  3.792 ms  4.915 ms  3.667 ms\n 3  140.123.9.249 (140.123.9.249)  2.810 ms  6.514 ms  3.257 ms\n 4  140.123.0.246 (140.123.0.246)  3.071 ms  2.920 ms  2.811 ms\n 5  140.130.252.251 (140.130.252.251)  4.722 ms  8.540 ms  7.359 ms\n 6  211-22-226-198.caw1-3332.hinet.net (211.22.226.198)  11.796 ms  10.767 ms  4.130 ms\n 7  * * *\n 8  220-128-9-58.tylc-3032.hinet.net (220.128.9.58)  18.893 ms  14.418 ms  11.313 ms\n 9  220-128-9-89.tyfo-3331.hinet.net (220.128.9.89)  12.024 ms  10.895 ms  12.216 ms\n10  211-22-227-221.hinet-ip.hinet.net (211.22.227.221)  9.933 ms  17.782 ms  20.852 ms\n11  203-66-32-164.hinet-ip.hinet.net (203.66.32.164)  11.150 ms  10.740 ms  10.092 ms\n",
+  "category": "government_local",
+  "base_domain": "chcg.gov.tw",
+  "service_variant": "www.chcg.gov.tw",
+  "is_bare_domain": false
+}

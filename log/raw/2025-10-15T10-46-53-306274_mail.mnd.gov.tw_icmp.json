@@ -1,0 +1,273 @@
+{
+  "timestamp": "2025-10-15T10:46:53.306274",
+  "vantage_point": "itaiwan",
+  "target": "mail.mnd.gov.tw",
+  "target_ip": "4.189.216.254",
+  "protocol": "icmp",
+  "port": null,
+  "duration_seconds": 63.89,
+  "hops": [
+    {
+      "hop": 2,
+      "ip": "168.95.98.254",
+      "hostname": "h254.s98.ts.hinet.net",
+      "rtts": [
+        2.836,
+        3.05,
+        3.34
+      ],
+      "avg_rtt": 3.08,
+      "timeout": false,
+      "network": "hinet",
+      "network_name": "HiNet (Chunghwa Telecom)",
+      "is_interesting": true,
+      "is_private": false
+    },
+    {
+      "hop": 3,
+      "ip": "168.95.129.54",
+      "hostname": "168-95-129-54.caw1-3332.hinet.net",
+      "rtts": [
+        4.32,
+        55.645,
+        3.381
+      ],
+      "avg_rtt": 21.12,
+      "timeout": false,
+      "network": "hinet",
+      "network_name": "HiNet (Chunghwa Telecom)",
+      "is_interesting": true,
+      "is_private": false
+    },
+    {
+      "hop": 4,
+      "ip": null,
+      "hostname": null,
+      "rtts": [],
+      "timeout": true
+    },
+    {
+      "hop": 5,
+      "ip": null,
+      "hostname": null,
+      "rtts": [],
+      "timeout": true
+    },
+    {
+      "hop": 6,
+      "ip": "220.128.13.65",
+      "hostname": "220-128-13-65.pcpd-3332.hinet.net",
+      "rtts": [
+        9.971,
+        10.237,
+        10.282
+      ],
+      "avg_rtt": 10.16,
+      "timeout": false,
+      "network": "hinet",
+      "network_name": "HiNet (Chunghwa Telecom)",
+      "is_interesting": true,
+      "is_private": false
+    },
+    {
+      "hop": 7,
+      "ip": "203.75.72.41",
+      "hostname": "tn-cd-c6r1.router.hinet.net",
+      "rtts": [
+        10.635,
+        10.593,
+        10.081
+      ],
+      "avg_rtt": 10.44,
+      "timeout": false,
+      "network": "hinet",
+      "network_name": "HiNet (Chunghwa Telecom)",
+      "is_interesting": true,
+      "is_private": false
+    },
+    {
+      "hop": 8,
+      "ip": "203.69.110.161",
+      "hostname": "203-69-110-161.hinet-ip.hinet.net",
+      "rtts": [
+        83.367,
+        9.722,
+        16.772
+      ],
+      "avg_rtt": 36.62,
+      "timeout": false,
+      "network": "hinet",
+      "network_name": "HiNet (Chunghwa Telecom)",
+      "is_interesting": true,
+      "is_private": false
+    },
+    {
+      "hop": 9,
+      "ip": "51.10.0.14",
+      "hostname": "51.10.0.14",
+      "rtts": [
+        11.356,
+        11.815,
+        10.063
+      ],
+      "avg_rtt": 11.08,
+      "timeout": false,
+      "network": "other",
+      "network_name": "Other Network",
+      "is_interesting": false,
+      "is_private": false
+    },
+    {
+      "hop": 10,
+      "ip": "104.44.48.93",
+      "hostname": "104.44.48.93",
+      "rtts": [
+        39.259,
+        45.883,
+        38.964
+      ],
+      "avg_rtt": 41.37,
+      "timeout": false,
+      "network": "other",
+      "network_name": "Other Network",
+      "is_interesting": false,
+      "is_private": false
+    },
+    {
+      "hop": 11,
+      "ip": null,
+      "hostname": null,
+      "rtts": [],
+      "timeout": true
+    },
+    {
+      "hop": 12,
+      "ip": "13.106.238.161",
+      "hostname": "ae1010-0.icr01.tyo30.ntwk.msn.net",
+      "rtts": [
+        40.733,
+        39.079,
+        39.183
+      ],
+      "avg_rtt": 39.66,
+      "timeout": false,
+      "network": "other",
+      "network_name": "Other Network",
+      "is_interesting": false,
+      "is_private": false
+    },
+    {
+      "hop": 13,
+      "ip": null,
+      "hostname": null,
+      "rtts": [],
+      "timeout": true
+    },
+    {
+      "hop": 14,
+      "ip": null,
+      "hostname": null,
+      "rtts": [],
+      "timeout": true
+    },
+    {
+      "hop": 15,
+      "ip": null,
+      "hostname": null,
+      "rtts": [],
+      "timeout": true
+    },
+    {
+      "hop": 16,
+      "ip": null,
+      "hostname": null,
+      "rtts": [],
+      "timeout": true
+    },
+    {
+      "hop": 17,
+      "ip": "4.189.216.254",
+      "hostname": "4.189.216.254",
+      "rtts": [
+        44.369,
+        40.094,
+        39.869
+      ],
+      "avg_rtt": 41.44,
+      "timeout": false,
+      "network": "other",
+      "network_name": "Other Network",
+      "is_interesting": false,
+      "is_private": false
+    }
+  ],
+  "num_hops": 16,
+  "success": true,
+  "path_analysis": {
+    "networks_traversed": [
+      {
+        "network": "hinet",
+        "network_name": "HiNet (Chunghwa Telecom)",
+        "first_hop": 2
+      },
+      {
+        "network": "other",
+        "network_name": "Other Network",
+        "first_hop": 9
+      }
+    ],
+    "interesting_routers": [
+      {
+        "hop": 2,
+        "ip": "168.95.98.254",
+        "hostname": "h254.s98.ts.hinet.net",
+        "network": "hinet",
+        "network_name": "HiNet (Chunghwa Telecom)"
+      },
+      {
+        "hop": 3,
+        "ip": "168.95.129.54",
+        "hostname": "168-95-129-54.caw1-3332.hinet.net",
+        "network": "hinet",
+        "network_name": "HiNet (Chunghwa Telecom)"
+      },
+      {
+        "hop": 6,
+        "ip": "220.128.13.65",
+        "hostname": "220-128-13-65.pcpd-3332.hinet.net",
+        "network": "hinet",
+        "network_name": "HiNet (Chunghwa Telecom)"
+      },
+      {
+        "hop": 7,
+        "ip": "203.75.72.41",
+        "hostname": "tn-cd-c6r1.router.hinet.net",
+        "network": "hinet",
+        "network_name": "HiNet (Chunghwa Telecom)"
+      },
+      {
+        "hop": 8,
+        "ip": "203.69.110.161",
+        "hostname": "203-69-110-161.hinet-ip.hinet.net",
+        "network": "hinet",
+        "network_name": "HiNet (Chunghwa Telecom)"
+      }
+    ],
+    "private_hops": 0,
+    "total_hops": 16,
+    "network_transitions": [
+      {
+        "hop": 9,
+        "from": "hinet",
+        "to": "other",
+        "from_ip": "51.10.0.14",
+        "to_ip": "51.10.0.14"
+      }
+    ]
+  },
+  "raw_output": " 1  172.16.193.250 (172.16.193.250)  9.739 ms  3.755 ms  4.143 ms\n 2  h254.s98.ts.hinet.net (168.95.98.254)  2.836 ms  3.050 ms  3.340 ms\n 3  168-95-129-54.caw1-3332.hinet.net (168.95.129.54)  4.320 ms  55.645 ms  3.381 ms\n 4  * * *\n 5  * * *\n 6  220-128-13-65.pcpd-3332.hinet.net (220.128.13.65)  9.971 ms  10.237 ms  10.282 ms\n 7  tn-cd-c6r1.router.hinet.net (203.75.72.41)  10.635 ms  10.593 ms  10.081 ms\n 8  203-69-110-161.hinet-ip.hinet.net (203.69.110.161)  83.367 ms  9.722 ms  16.772 ms\n 9  51.10.0.14 (51.10.0.14)  11.356 ms  11.815 ms  10.063 ms\n10  104.44.48.93 (104.44.48.93)  39.259 ms  45.883 ms  38.964 ms\n11  * * *\n12  ae1010-0.icr01.tyo30.ntwk.msn.net (13.106.238.161)  40.733 ms  39.079 ms  39.183 ms\n13  * * *\n14  * * *\n15  * * *\n16  * * *\n17  4.189.216.254 (4.189.216.254)  44.369 ms  40.094 ms  39.869 ms\n",
+  "category": "government_central",
+  "base_domain": "mnd.gov.tw",
+  "service_variant": "mail.mnd.gov.tw",
+  "is_bare_domain": false
+}

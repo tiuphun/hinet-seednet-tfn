@@ -1,0 +1,162 @@
+{
+  "timestamp": "2025-10-14T23:04:41.158027",
+  "vantage_point": "university",
+  "target": "www.vghtc.gov.tw",
+  "target_ip": "140.128.153.23",
+  "protocol": "icmp",
+  "port": null,
+  "duration_seconds": 0.25,
+  "hops": [
+    {
+      "hop": 2,
+      "ip": "140.123.103.250",
+      "hostname": null,
+      "rtts": [
+        3.743,
+        2.825,
+        2.822
+      ],
+      "avg_rtt": 3.13,
+      "timeout": false
+    },
+    {
+      "hop": 3,
+      "ip": "140.123.9.249",
+      "hostname": null,
+      "rtts": [
+        2.958,
+        2.901,
+        2.653
+      ],
+      "avg_rtt": 2.84,
+      "timeout": false
+    },
+    {
+      "hop": 4,
+      "ip": "140.123.0.246",
+      "hostname": null,
+      "rtts": [
+        3.493,
+        3.531,
+        3.455
+      ],
+      "avg_rtt": 3.49,
+      "timeout": false
+    },
+    {
+      "hop": 5,
+      "ip": "140.130.252.251",
+      "hostname": null,
+      "rtts": [
+        4.519,
+        5.336,
+        11.598
+      ],
+      "avg_rtt": 7.15,
+      "timeout": false
+    },
+    {
+      "hop": 6,
+      "ip": "192.192.61.142",
+      "hostname": null,
+      "rtts": [
+        12.926,
+        5.634,
+        5.344
+      ],
+      "avg_rtt": 7.97,
+      "timeout": false
+    },
+    {
+      "hop": 7,
+      "ip": "192.192.61.9",
+      "hostname": null,
+      "rtts": [
+        5.927,
+        6.293,
+        8.162
+      ],
+      "avg_rtt": 6.79,
+      "timeout": false
+    },
+    {
+      "hop": 8,
+      "ip": "192.192.61.121",
+      "hostname": null,
+      "rtts": [
+        6.847,
+        7.42,
+        7.886
+      ],
+      "avg_rtt": 7.38,
+      "timeout": false
+    },
+    {
+      "hop": 9,
+      "ip": "140.128.251.221",
+      "hostname": null,
+      "rtts": [
+        6.163,
+        6.753,
+        6.054
+      ],
+      "avg_rtt": 6.32,
+      "timeout": false
+    },
+    {
+      "hop": 10,
+      "ip": "140.128.251.97",
+      "hostname": null,
+      "rtts": [
+        10.605,
+        7.212,
+        7.847
+      ],
+      "avg_rtt": 8.55,
+      "timeout": false
+    },
+    {
+      "hop": 11,
+      "ip": "140.128.153.252",
+      "hostname": null,
+      "rtts": [
+        6.66,
+        6.338,
+        6.394
+      ],
+      "avg_rtt": 6.46,
+      "timeout": false
+    },
+    {
+      "hop": 12,
+      "ip": "140.128.153.252",
+      "hostname": null,
+      "rtts": [
+        6.776,
+        8.073,
+        6.135
+      ],
+      "avg_rtt": 6.99,
+      "timeout": false
+    },
+    {
+      "hop": 13,
+      "ip": "140.128.153.23",
+      "hostname": null,
+      "rtts": [
+        7.462,
+        6.39,
+        6.746
+      ],
+      "avg_rtt": 6.87,
+      "timeout": false
+    }
+  ],
+  "num_hops": 12,
+  "success": true,
+  "raw_output": " 1  192.168.50.1  7.381 ms  2.676 ms  2.634 ms\n 2  140.123.103.250  3.743 ms  2.825 ms  2.822 ms\n 3  140.123.9.249  2.958 ms  2.901 ms  2.653 ms\n 4  140.123.0.246  3.493 ms  3.531 ms  3.455 ms\n 5  140.130.252.251  4.519 ms  5.336 ms  11.598 ms\n 6  192.192.61.142  12.926 ms  5.634 ms  5.344 ms\n 7  192.192.61.9  5.927 ms  6.293 ms  8.162 ms\n 8  192.192.61.121  6.847 ms  7.420 ms  7.886 ms\n 9  140.128.251.221  6.163 ms  6.753 ms  6.054 ms\n10  140.128.251.97  10.605 ms  7.212 ms  7.847 ms\n11  140.128.153.252  6.660 ms  6.338 ms  6.394 ms\n12  140.128.153.252  6.776 ms  8.073 ms  6.135 ms\n13  140.128.153.23  7.462 ms  6.390 ms  6.746 ms\n",
+  "category": "healthcare",
+  "base_domain": "vghtc.gov.tw",
+  "service_variant": "www.vghtc.gov.tw",
+  "is_bare_domain": false
+}

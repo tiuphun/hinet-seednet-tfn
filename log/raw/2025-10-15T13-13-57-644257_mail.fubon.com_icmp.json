@@ -1,0 +1,168 @@
+{
+  "timestamp": "2025-10-15T13:13:57.644257",
+  "vantage_point": "itaiwan",
+  "target": "mail.fubon.com",
+  "target_ip": "60.248.209.145",
+  "protocol": "icmp",
+  "port": null,
+  "duration_seconds": 27.29,
+  "hops": [
+    {
+      "hop": 2,
+      "ip": "168.95.98.254",
+      "hostname": "h254.s98.ts.hinet.net",
+      "rtts": [
+        3.112,
+        2.745,
+        2.9
+      ],
+      "avg_rtt": 2.92,
+      "timeout": false,
+      "network": "hinet",
+      "network_name": "HiNet (Chunghwa Telecom)",
+      "is_interesting": true,
+      "is_private": false
+    },
+    {
+      "hop": 3,
+      "ip": "168.95.129.42",
+      "hostname": "168-95-129-42.caw1-3332.hinet.net",
+      "rtts": [
+        3.179,
+        3.193,
+        3.017
+      ],
+      "avg_rtt": 3.13,
+      "timeout": false,
+      "network": "hinet",
+      "network_name": "HiNet (Chunghwa Telecom)",
+      "is_interesting": true,
+      "is_private": false
+    },
+    {
+      "hop": 4,
+      "ip": null,
+      "hostname": null,
+      "rtts": [],
+      "timeout": true
+    },
+    {
+      "hop": 5,
+      "ip": null,
+      "hostname": null,
+      "rtts": [],
+      "timeout": true
+    },
+    {
+      "hop": 6,
+      "ip": "220.128.4.213",
+      "hostname": "220-128-4-213.tpdt-3309.hinet.net",
+      "rtts": [
+        45.069,
+        10.153,
+        9.409
+      ],
+      "avg_rtt": 21.54,
+      "timeout": false,
+      "network": "hinet",
+      "network_name": "HiNet (Chunghwa Telecom)",
+      "is_interesting": true,
+      "is_private": false
+    },
+    {
+      "hop": 7,
+      "ip": "168.95.208.29",
+      "hostname": "h29.s208.ts.hinet.net",
+      "rtts": [
+        10.192,
+        10.023,
+        10.242
+      ],
+      "avg_rtt": 10.15,
+      "timeout": false,
+      "network": "hinet",
+      "network_name": "HiNet (Chunghwa Telecom)",
+      "is_interesting": true,
+      "is_private": false
+    },
+    {
+      "hop": 8,
+      "ip": null,
+      "hostname": null,
+      "rtts": [],
+      "timeout": true
+    },
+    {
+      "hop": 9,
+      "ip": "60.248.209.145",
+      "hostname": "60-248-209-145.hinet-ip.hinet.net",
+      "rtts": [
+        16.778,
+        11.38,
+        12.281
+      ],
+      "avg_rtt": 13.48,
+      "timeout": false,
+      "network": "hinet",
+      "network_name": "HiNet (Chunghwa Telecom)",
+      "is_interesting": true,
+      "is_private": false
+    }
+  ],
+  "num_hops": 8,
+  "success": true,
+  "path_analysis": {
+    "networks_traversed": [
+      {
+        "network": "hinet",
+        "network_name": "HiNet (Chunghwa Telecom)",
+        "first_hop": 2
+      }
+    ],
+    "interesting_routers": [
+      {
+        "hop": 2,
+        "ip": "168.95.98.254",
+        "hostname": "h254.s98.ts.hinet.net",
+        "network": "hinet",
+        "network_name": "HiNet (Chunghwa Telecom)"
+      },
+      {
+        "hop": 3,
+        "ip": "168.95.129.42",
+        "hostname": "168-95-129-42.caw1-3332.hinet.net",
+        "network": "hinet",
+        "network_name": "HiNet (Chunghwa Telecom)"
+      },
+      {
+        "hop": 6,
+        "ip": "220.128.4.213",
+        "hostname": "220-128-4-213.tpdt-3309.hinet.net",
+        "network": "hinet",
+        "network_name": "HiNet (Chunghwa Telecom)"
+      },
+      {
+        "hop": 7,
+        "ip": "168.95.208.29",
+        "hostname": "h29.s208.ts.hinet.net",
+        "network": "hinet",
+        "network_name": "HiNet (Chunghwa Telecom)"
+      },
+      {
+        "hop": 9,
+        "ip": "60.248.209.145",
+        "hostname": "60-248-209-145.hinet-ip.hinet.net",
+        "network": "hinet",
+        "network_name": "HiNet (Chunghwa Telecom)"
+      }
+    ],
+    "private_hops": 0,
+    "total_hops": 8,
+    "network_transitions": []
+  },
+  "raw_output": " 1  172.16.193.250 (172.16.193.250)  3.747 ms  2.815 ms  2.228 ms\n 2  h254.s98.ts.hinet.net (168.95.98.254)  3.112 ms  2.745 ms  2.900 ms\n 3  168-95-129-42.caw1-3332.hinet.net (168.95.129.42)  3.179 ms  3.193 ms  3.017 ms\n 4  * * *\n 5  * * *\n 6  220-128-4-213.tpdt-3309.hinet.net (220.128.4.213)  45.069 ms  10.153 ms  9.409 ms\n 7  h29.s208.ts.hinet.net (168.95.208.29)  10.192 ms  10.023 ms  10.242 ms\n 8  * * *\n 9  60-248-209-145.hinet-ip.hinet.net (60.248.209.145)  16.778 ms  11.380 ms  12.281 ms\n",
+  "category": "financial_banks",
+  "base_domain": "fubon.com",
+  "service_variant": "mail.fubon.com",
+  "is_bare_domain": false
+}

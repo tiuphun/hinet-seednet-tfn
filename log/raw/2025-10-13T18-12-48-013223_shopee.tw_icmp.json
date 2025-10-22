@@ -1,0 +1,213 @@
+{
+  "timestamp": "2025-10-13T18:12:48.013223",
+  "vantage_point": "cht-mobile",
+  "target": "shopee.tw",
+  "target_ip": "103.127.231.0",
+  "protocol": "icmp",
+  "port": null,
+  "duration_seconds": 56.12,
+  "hops": [
+    {
+      "hop": 2,
+      "ip": "10.159.65.141",
+      "hostname": null,
+      "rtts": [
+        154.466,
+        309.301,
+        190.088
+      ],
+      "avg_rtt": 217.95,
+      "timeout": false
+    },
+    {
+      "hop": 3,
+      "ip": "10.159.65.85",
+      "hostname": null,
+      "rtts": [
+        29.819,
+        50.06,
+        22.596
+      ],
+      "avg_rtt": 34.16,
+      "timeout": false
+    },
+    {
+      "hop": 4,
+      "ip": "10.159.67.167",
+      "hostname": null,
+      "rtts": [
+        29.096,
+        27.478,
+        20.368
+      ],
+      "avg_rtt": 25.65,
+      "timeout": false
+    },
+    {
+      "hop": 5,
+      "ip": "10.159.67.177",
+      "hostname": null,
+      "rtts": [
+        20.15,
+        30.788,
+        19.822
+      ],
+      "avg_rtt": 23.59,
+      "timeout": false
+    },
+    {
+      "hop": 6,
+      "ip": "210.65.126.194",
+      "hostname": null,
+      "rtts": [
+        48.907,
+        22.775,
+        48.631
+      ],
+      "avg_rtt": 40.1,
+      "timeout": false
+    },
+    {
+      "hop": 7,
+      "ip": null,
+      "hostname": null,
+      "rtts": [],
+      "timeout": true
+    },
+    {
+      "hop": 8,
+      "ip": null,
+      "hostname": null,
+      "rtts": [],
+      "timeout": true
+    },
+    {
+      "hop": 9,
+      "ip": "220.128.3.69",
+      "hostname": null,
+      "rtts": [
+        60.329,
+        25.963,
+        27.187
+      ],
+      "avg_rtt": 37.83,
+      "timeout": false
+    },
+    {
+      "hop": 10,
+      "ip": "220.128.1.105",
+      "hostname": null,
+      "rtts": [
+        24.915,
+        28.728,
+        36.711
+      ],
+      "avg_rtt": 30.12,
+      "timeout": false
+    },
+    {
+      "hop": 11,
+      "ip": "210.242.214.97",
+      "hostname": null,
+      "rtts": [
+        25.114,
+        43.863,
+        32.874
+      ],
+      "avg_rtt": 33.95,
+      "timeout": false
+    },
+    {
+      "hop": 12,
+      "ip": "60.199.18.229",
+      "hostname": null,
+      "rtts": [
+        24.637,
+        32.691,
+        30.204
+      ],
+      "avg_rtt": 29.18,
+      "timeout": false
+    },
+    {
+      "hop": 13,
+      "ip": "60.199.6.98",
+      "hostname": null,
+      "rtts": [
+        35.124,
+        31.704,
+        37.903
+      ],
+      "avg_rtt": 34.91,
+      "timeout": false
+    },
+    {
+      "hop": 14,
+      "ip": "60.199.47.206",
+      "hostname": null,
+      "rtts": [
+        39.93,
+        37.086,
+        24.927
+      ],
+      "avg_rtt": 33.98,
+      "timeout": false
+    },
+    {
+      "hop": 15,
+      "ip": "219.80.240.66",
+      "hostname": null,
+      "rtts": [
+        48.678,
+        27.502,
+        36.251
+      ],
+      "avg_rtt": 37.48,
+      "timeout": false
+    },
+    {
+      "hop": 16,
+      "ip": null,
+      "hostname": null,
+      "rtts": [],
+      "timeout": true
+    },
+    {
+      "hop": 17,
+      "ip": null,
+      "hostname": null,
+      "rtts": [],
+      "timeout": true
+    },
+    {
+      "hop": 18,
+      "ip": null,
+      "hostname": null,
+      "rtts": [],
+      "timeout": true
+    },
+    {
+      "hop": 19,
+      "ip": null,
+      "hostname": null,
+      "rtts": [],
+      "timeout": true
+    },
+    {
+      "hop": 20,
+      "ip": "103.127.231.0",
+      "hostname": null,
+      "rtts": [
+        123.975,
+        90.468,
+        90.233
+      ],
+      "avg_rtt": 101.56,
+      "timeout": false
+    }
+  ],
+  "num_hops": 19,
+  "success": true,
+  "raw_output": " 1  172.20.10.1  13.460 ms  3.085 ms  5.106 ms\n 2  10.159.65.141  154.466 ms  309.301 ms  190.088 ms\n 3  10.159.65.85  29.819 ms  50.060 ms  22.596 ms\n 4  10.159.67.167  29.096 ms  27.478 ms  20.368 ms\n 5  10.159.67.177  20.150 ms  30.788 ms  19.822 ms\n 6  210.65.126.194  48.907 ms  22.775 ms  48.631 ms\n 7  * * *\n 8  * * *\n 9  220.128.3.69  60.329 ms  25.963 ms  27.187 ms\n10  220.128.1.105  24.915 ms  28.728 ms  36.711 ms\n11  210.242.214.97  25.114 ms  43.863 ms  32.874 ms\n12  60.199.18.229  24.637 ms  32.691 ms  30.204 ms\n13  60.199.6.98  35.124 ms  31.704 ms  37.903 ms\n14  60.199.47.206  39.930 ms  37.086 ms  24.927 ms\n15  219.80.240.66  48.678 ms  27.502 ms  36.251 ms\n16  * * *\n17  * * *\n18  * * *\n19  * * *\n20  103.127.231.0  123.975 ms  90.468 ms  90.233 ms\n",
+  "category": "ecommerce_tech"
+}

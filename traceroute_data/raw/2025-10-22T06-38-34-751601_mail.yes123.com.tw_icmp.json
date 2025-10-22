@@ -1,0 +1,174 @@
+{
+  "timestamp": "2025-10-22T06:38:34.751601",
+  "vantage_point": "university",
+  "target": "mail.yes123.com.tw",
+  "target_ip": "218.211.34.44",
+  "protocol": "icmp",
+  "port": null,
+  "duration_seconds": 0.49,
+  "hops": [
+    {
+      "hop": 2,
+      "ip": "140.123.103.250",
+      "hostname": "csgate103.cs.ccu.edu.tw",
+      "rtts": [
+        2.435,
+        2.659,
+        2.555
+      ],
+      "avg_rtt": 2.55,
+      "timeout": false
+    },
+    {
+      "hop": 3,
+      "ip": "140.123.9.249",
+      "hostname": "140.123.9.249",
+      "rtts": [
+        2.694,
+        2.52,
+        2.613
+      ],
+      "avg_rtt": 2.61,
+      "timeout": false
+    },
+    {
+      "hop": 4,
+      "ip": "140.123.0.246",
+      "hostname": "140.123.0.246",
+      "rtts": [
+        3.358,
+        3.355,
+        6.383
+      ],
+      "avg_rtt": 4.37,
+      "timeout": false
+    },
+    {
+      "hop": 5,
+      "ip": "140.130.252.251",
+      "hostname": "140.130.252.251",
+      "rtts": [
+        5.855,
+        5.105,
+        4.112
+      ],
+      "avg_rtt": 5.02,
+      "timeout": false
+    },
+    {
+      "hop": 6,
+      "ip": "192.192.61.142",
+      "hostname": "192.192.61.142",
+      "rtts": [
+        6.368,
+        7.07,
+        5.692
+      ],
+      "avg_rtt": 6.38,
+      "timeout": false
+    },
+    {
+      "hop": 7,
+      "ip": "192.192.61.20",
+      "hostname": "192.192.61.20",
+      "rtts": [
+        11.137,
+        7.53,
+        7.655
+      ],
+      "avg_rtt": 8.77,
+      "timeout": false
+    },
+    {
+      "hop": 8,
+      "ip": "192.192.61.48",
+      "hostname": "192.192.61.48",
+      "rtts": [
+        15.932,
+        22.996,
+        33.379
+      ],
+      "avg_rtt": 24.1,
+      "timeout": false
+    },
+    {
+      "hop": 9,
+      "ip": "192.72.123.101",
+      "hostname": "h101-192-72-123.seed.net.tw",
+      "rtts": [
+        24.93,
+        17.467,
+        15.387
+      ],
+      "avg_rtt": 19.26,
+      "timeout": false
+    },
+    {
+      "hop": 10,
+      "ip": "139.175.57.63",
+      "hostname": "r57-63.seed.net.tw",
+      "rtts": [
+        10.746,
+        9.655,
+        10.414
+      ],
+      "avg_rtt": 10.27,
+      "timeout": false
+    },
+    {
+      "hop": 11,
+      "ip": "139.175.56.142",
+      "hostname": "r56-142.seed.net.tw",
+      "rtts": [
+        10.447,
+        14.459,
+        11.097
+      ],
+      "avg_rtt": 12.0,
+      "timeout": false
+    },
+    {
+      "hop": 12,
+      "ip": "192.72.107.190",
+      "hostname": "h190-192-72-107.seed.net.tw",
+      "rtts": [
+        12.006,
+        10.537,
+        10.618
+      ],
+      "avg_rtt": 11.05,
+      "timeout": false
+    },
+    {
+      "hop": 13,
+      "ip": "220.228.20.154",
+      "hostname": "220.228.20.154",
+      "rtts": [
+        10.359,
+        11.049,
+        13.399
+      ],
+      "avg_rtt": 11.6,
+      "timeout": false
+    },
+    {
+      "hop": 14,
+      "ip": "218.211.34.44",
+      "hostname": "mail.yes123.com.tw",
+      "rtts": [
+        10.649,
+        10.174,
+        10.194
+      ],
+      "avg_rtt": 10.34,
+      "timeout": false
+    }
+  ],
+  "num_hops": 13,
+  "success": true,
+  "raw_output": " 1  192.168.50.1 (192.168.50.1)  14.510 ms  2.615 ms  2.763 ms\n 2  csgate103.cs.ccu.edu.tw (140.123.103.250)  2.435 ms  2.659 ms  2.555 ms\n 3  140.123.9.249 (140.123.9.249)  2.694 ms  2.520 ms  2.613 ms\n 4  140.123.0.246 (140.123.0.246)  3.358 ms  3.355 ms  6.383 ms\n 5  140.130.252.251 (140.130.252.251)  5.855 ms  5.105 ms  4.112 ms\n 6  192.192.61.142 (192.192.61.142)  6.368 ms  7.070 ms  5.692 ms\n 7  192.192.61.20 (192.192.61.20)  11.137 ms  7.530 ms  7.655 ms\n 8  192.192.61.48 (192.192.61.48)  15.932 ms  22.996 ms  33.379 ms\n 9  h101-192-72-123.seed.net.tw (192.72.123.101)  24.930 ms  17.467 ms  15.387 ms\n10  r57-63.seed.net.tw (139.175.57.63)  10.746 ms  9.655 ms  10.414 ms\n11  r56-142.seed.net.tw (139.175.56.142)  10.447 ms  14.459 ms  11.097 ms\n12  h190-192-72-107.seed.net.tw (192.72.107.190)  12.006 ms  10.537 ms  10.618 ms\n13  220.228.20.154 (220.228.20.154)  10.359 ms  11.049 ms  13.399 ms\n14  mail.yes123.com.tw (218.211.34.44)  10.649 ms  10.174 ms  10.194 ms\n",
+  "category": "ecommerce_tech",
+  "base_domain": "yes123.com.tw",
+  "service_variant": "mail.yes123.com.tw",
+  "is_bare_domain": false
+}

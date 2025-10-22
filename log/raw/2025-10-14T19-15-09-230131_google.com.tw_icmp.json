@@ -1,0 +1,162 @@
+{
+  "timestamp": "2025-10-14T19:15:09.230131",
+  "vantage_point": "university",
+  "target": "google.com.tw",
+  "target_ip": "142.250.77.3",
+  "protocol": "icmp",
+  "port": null,
+  "duration_seconds": 0.28,
+  "hops": [
+    {
+      "hop": 2,
+      "ip": "140.123.103.250",
+      "hostname": null,
+      "rtts": [
+        2.447,
+        2.52,
+        2.406
+      ],
+      "avg_rtt": 2.46,
+      "timeout": false
+    },
+    {
+      "hop": 3,
+      "ip": "140.123.9.249",
+      "hostname": null,
+      "rtts": [
+        2.567,
+        2.957,
+        3.218
+      ],
+      "avg_rtt": 2.91,
+      "timeout": false
+    },
+    {
+      "hop": 4,
+      "ip": "140.123.0.246",
+      "hostname": null,
+      "rtts": [
+        3.403,
+        3.154,
+        2.946
+      ],
+      "avg_rtt": 3.17,
+      "timeout": false
+    },
+    {
+      "hop": 5,
+      "ip": "140.130.252.251",
+      "hostname": null,
+      "rtts": [
+        8.039,
+        5.704,
+        5.118
+      ],
+      "avg_rtt": 6.29,
+      "timeout": false
+    },
+    {
+      "hop": 6,
+      "ip": "192.192.61.142",
+      "hostname": null,
+      "rtts": [
+        7.468,
+        7.057,
+        5.297
+      ],
+      "avg_rtt": 6.61,
+      "timeout": false
+    },
+    {
+      "hop": 7,
+      "ip": "192.192.61.20",
+      "hostname": null,
+      "rtts": [
+        7.91,
+        7.728,
+        7.708
+      ],
+      "avg_rtt": 7.78,
+      "timeout": false
+    },
+    {
+      "hop": 8,
+      "ip": "192.192.61.184",
+      "hostname": null,
+      "rtts": [
+        8.015,
+        8.549,
+        8.266
+      ],
+      "avg_rtt": 8.28,
+      "timeout": false
+    },
+    {
+      "hop": 9,
+      "ip": "192.192.61.203",
+      "hostname": null,
+      "rtts": [
+        8.675,
+        9.26,
+        9.681
+      ],
+      "avg_rtt": 9.21,
+      "timeout": false
+    },
+    {
+      "hop": 10,
+      "ip": "72.14.196.229",
+      "hostname": null,
+      "rtts": [
+        8.544,
+        8.808,
+        8.29
+      ],
+      "avg_rtt": 8.55,
+      "timeout": false
+    },
+    {
+      "hop": 11,
+      "ip": "72.14.233.233",
+      "hostname": null,
+      "rtts": [
+        9.843,
+        9.633,
+        10.403
+      ],
+      "avg_rtt": 9.96,
+      "timeout": false
+    },
+    {
+      "hop": 12,
+      "ip": "216.239.48.135",
+      "hostname": null,
+      "rtts": [
+        9.285,
+        9.863,
+        9.181
+      ],
+      "avg_rtt": 9.44,
+      "timeout": false
+    },
+    {
+      "hop": 13,
+      "ip": "142.250.77.3",
+      "hostname": null,
+      "rtts": [
+        13.523,
+        10.622,
+        9.411
+      ],
+      "avg_rtt": 11.19,
+      "timeout": false
+    }
+  ],
+  "num_hops": 12,
+  "success": true,
+  "raw_output": " 1  192.168.50.1  2.647 ms  2.311 ms  2.450 ms\n 2  140.123.103.250  2.447 ms  2.520 ms  2.406 ms\n 3  140.123.9.249  2.567 ms  2.957 ms  3.218 ms\n 4  140.123.0.246  3.403 ms  3.154 ms  2.946 ms\n 5  140.130.252.251  8.039 ms  5.704 ms  5.118 ms\n 6  192.192.61.142  7.468 ms  7.057 ms  5.297 ms\n 7  192.192.61.20  7.910 ms  7.728 ms  7.708 ms\n 8  192.192.61.184  8.015 ms  8.549 ms  8.266 ms\n 9  192.192.61.203  8.675 ms  9.260 ms  9.681 ms\n10  72.14.196.229  8.544 ms  8.808 ms  8.290 ms\n11  72.14.233.233  9.843 ms  9.633 ms  10.403 ms\n12  216.239.48.135  9.285 ms  9.863 ms  9.181 ms\n13  142.250.77.3  13.523 ms  10.622 ms  9.411 ms\n",
+  "category": "cdn_global",
+  "base_domain": "google.com.tw",
+  "service_variant": "google.com.tw",
+  "is_bare_domain": true
+}

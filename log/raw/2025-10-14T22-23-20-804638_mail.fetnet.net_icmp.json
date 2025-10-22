@@ -1,0 +1,301 @@
+{
+  "timestamp": "2025-10-14T22:23:20.804638",
+  "vantage_point": "university",
+  "target": "mail.fetnet.net",
+  "target_ip": "61.20.33.126",
+  "protocol": "icmp",
+  "port": null,
+  "duration_seconds": 117.72,
+  "hops": [
+    {
+      "hop": 2,
+      "ip": "140.123.103.250",
+      "hostname": null,
+      "rtts": [
+        4.264,
+        2.551,
+        3.024
+      ],
+      "avg_rtt": 3.28,
+      "timeout": false
+    },
+    {
+      "hop": 3,
+      "ip": "140.123.9.249",
+      "hostname": null,
+      "rtts": [
+        2.817,
+        2.839,
+        3.286
+      ],
+      "avg_rtt": 2.98,
+      "timeout": false
+    },
+    {
+      "hop": 4,
+      "ip": "140.123.0.246",
+      "hostname": null,
+      "rtts": [
+        3.519,
+        3.06,
+        3.242
+      ],
+      "avg_rtt": 3.27,
+      "timeout": false
+    },
+    {
+      "hop": 5,
+      "ip": "140.130.252.251",
+      "hostname": null,
+      "rtts": [
+        7.551,
+        5.463,
+        4.397
+      ],
+      "avg_rtt": 5.8,
+      "timeout": false
+    },
+    {
+      "hop": 6,
+      "ip": "192.192.61.142",
+      "hostname": null,
+      "rtts": [
+        5.993,
+        6.219,
+        6.22
+      ],
+      "avg_rtt": 6.14,
+      "timeout": false
+    },
+    {
+      "hop": 7,
+      "ip": "192.192.61.20",
+      "hostname": null,
+      "rtts": [
+        7.96,
+        7.366,
+        11.009
+      ],
+      "avg_rtt": 8.78,
+      "timeout": false
+    },
+    {
+      "hop": 8,
+      "ip": "192.192.61.66",
+      "hostname": null,
+      "rtts": [
+        7.783,
+        7.863,
+        9.746
+      ],
+      "avg_rtt": 8.46,
+      "timeout": false
+    },
+    {
+      "hop": 9,
+      "ip": "192.192.68.30",
+      "hostname": null,
+      "rtts": [
+        10.153,
+        7.738,
+        8.578
+      ],
+      "avg_rtt": 8.82,
+      "timeout": false
+    },
+    {
+      "hop": 10,
+      "ip": "203.79.254.53",
+      "hostname": null,
+      "rtts": [
+        8.645,
+        8.539,
+        8.256
+      ],
+      "avg_rtt": 8.48,
+      "timeout": false
+    },
+    {
+      "hop": 11,
+      "ip": "211.76.96.66",
+      "hostname": null,
+      "rtts": [
+        11.734,
+        11.228,
+        17.992
+      ],
+      "avg_rtt": 13.65,
+      "timeout": false
+    },
+    {
+      "hop": 12,
+      "ip": "139.175.58.130",
+      "hostname": null,
+      "rtts": [
+        12.321,
+        10.523,
+        10.895
+      ],
+      "avg_rtt": 11.25,
+      "timeout": false
+    },
+    {
+      "hop": 13,
+      "ip": "192.72.124.56",
+      "hostname": null,
+      "rtts": [
+        11.2,
+        11.984,
+        12.21
+      ],
+      "avg_rtt": 11.8,
+      "timeout": false
+    },
+    {
+      "hop": 14,
+      "ip": "192.72.155.194",
+      "hostname": null,
+      "rtts": [
+        14.714,
+        10.885,
+        13.584
+      ],
+      "avg_rtt": 13.06,
+      "timeout": false
+    },
+    {
+      "hop": 15,
+      "ip": "10.65.29.18",
+      "hostname": null,
+      "rtts": [
+        11.191,
+        11.744,
+        11.041
+      ],
+      "avg_rtt": 11.33,
+      "timeout": false
+    },
+    {
+      "hop": 16,
+      "ip": "10.1.255.69",
+      "hostname": null,
+      "rtts": [
+        10.697,
+        10.526,
+        11.069
+      ],
+      "avg_rtt": 10.76,
+      "timeout": false
+    },
+    {
+      "hop": 17,
+      "ip": "10.1.255.70",
+      "hostname": null,
+      "rtts": [
+        11.232,
+        11.176,
+        11.269
+      ],
+      "avg_rtt": 11.23,
+      "timeout": false
+    },
+    {
+      "hop": 18,
+      "ip": null,
+      "hostname": null,
+      "rtts": [],
+      "timeout": true
+    },
+    {
+      "hop": 19,
+      "ip": null,
+      "hostname": null,
+      "rtts": [],
+      "timeout": true
+    },
+    {
+      "hop": 20,
+      "ip": null,
+      "hostname": null,
+      "rtts": [],
+      "timeout": true
+    },
+    {
+      "hop": 21,
+      "ip": null,
+      "hostname": null,
+      "rtts": [],
+      "timeout": true
+    },
+    {
+      "hop": 22,
+      "ip": null,
+      "hostname": null,
+      "rtts": [],
+      "timeout": true
+    },
+    {
+      "hop": 23,
+      "ip": null,
+      "hostname": null,
+      "rtts": [],
+      "timeout": true
+    },
+    {
+      "hop": 24,
+      "ip": null,
+      "hostname": null,
+      "rtts": [],
+      "timeout": true
+    },
+    {
+      "hop": 25,
+      "ip": null,
+      "hostname": null,
+      "rtts": [],
+      "timeout": true
+    },
+    {
+      "hop": 26,
+      "ip": null,
+      "hostname": null,
+      "rtts": [],
+      "timeout": true
+    },
+    {
+      "hop": 27,
+      "ip": null,
+      "hostname": null,
+      "rtts": [],
+      "timeout": true
+    },
+    {
+      "hop": 28,
+      "ip": null,
+      "hostname": null,
+      "rtts": [],
+      "timeout": true
+    },
+    {
+      "hop": 29,
+      "ip": null,
+      "hostname": null,
+      "rtts": [],
+      "timeout": true
+    },
+    {
+      "hop": 30,
+      "ip": null,
+      "hostname": null,
+      "rtts": [],
+      "timeout": true
+    }
+  ],
+  "num_hops": 29,
+  "success": false,
+  "raw_output": " 1  192.168.50.1  11.915 ms  3.543 ms  2.604 ms\n 2  140.123.103.250  4.264 ms  2.551 ms  3.024 ms\n 3  140.123.9.249  2.817 ms  2.839 ms  3.286 ms\n 4  140.123.0.246  3.519 ms  3.060 ms  3.242 ms\n 5  140.130.252.251  7.551 ms  5.463 ms  4.397 ms\n 6  192.192.61.142  5.993 ms  6.219 ms  6.220 ms\n 7  192.192.61.20  7.960 ms  7.366 ms  11.009 ms\n 8  192.192.61.66  7.783 ms  7.863 ms  9.746 ms\n 9  192.192.68.30  10.153 ms  7.738 ms  8.578 ms\n10  203.79.254.53  8.645 ms  8.539 ms  8.256 ms\n11  211.76.96.66  11.734 ms  11.228 ms  17.992 ms\n12  139.175.58.130  12.321 ms  10.523 ms  10.895 ms\n13  192.72.124.56  11.200 ms  11.984 ms  12.210 ms\n14  192.72.155.194  14.714 ms  10.885 ms  13.584 ms\n15  10.65.29.18  11.191 ms  11.744 ms  11.041 ms\n16  10.1.255.69  10.697 ms  10.526 ms  11.069 ms\n17  10.1.255.70  11.232 ms  11.176 ms  11.269 ms\n18  * * *\n19  * * *\n20  * * *\n21  * * *\n22  * * *\n23  * * *\n24  * * *\n25  * * *\n26  * * *\n27  * * *\n28  * * *\n29  * * *\n30  * * *\n",
+  "category": "telecom",
+  "base_domain": "fetnet.net",
+  "service_variant": "mail.fetnet.net",
+  "is_bare_domain": false
+}

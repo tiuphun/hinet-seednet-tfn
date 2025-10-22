@@ -1,0 +1,236 @@
+{
+  "timestamp": "2025-10-14T12:51:36.488928",
+  "vantage_point": "cht-mobile",
+  "target": "app.twse.com.tw",
+  "target_ip": "117.56.218.173",
+  "protocol": "icmp",
+  "port": null,
+  "duration_seconds": 18.56,
+  "hops": [
+    {
+      "hop": 2,
+      "ip": "140.123.103.250",
+      "hostname": null,
+      "rtts": [
+        3.186,
+        5.661,
+        6.876
+      ],
+      "avg_rtt": 5.24,
+      "timeout": false
+    },
+    {
+      "hop": 3,
+      "ip": "140.123.9.249",
+      "hostname": null,
+      "rtts": [
+        2.867,
+        4.973,
+        3.973
+      ],
+      "avg_rtt": 3.94,
+      "timeout": false
+    },
+    {
+      "hop": 4,
+      "ip": "140.123.0.246",
+      "hostname": null,
+      "rtts": [
+        3.931,
+        3.207,
+        3.446
+      ],
+      "avg_rtt": 3.53,
+      "timeout": false
+    },
+    {
+      "hop": 5,
+      "ip": "140.130.252.251",
+      "hostname": null,
+      "rtts": [
+        3.512,
+        3.177,
+        5.0
+      ],
+      "avg_rtt": 3.9,
+      "timeout": false
+    },
+    {
+      "hop": 6,
+      "ip": "192.192.61.142",
+      "hostname": null,
+      "rtts": [
+        5.496,
+        6.508,
+        5.991
+      ],
+      "avg_rtt": 6.0,
+      "timeout": false
+    },
+    {
+      "hop": 7,
+      "ip": "192.192.61.9",
+      "hostname": null,
+      "rtts": [
+        5.334,
+        8.189,
+        5.852
+      ],
+      "avg_rtt": 6.46,
+      "timeout": false
+    },
+    {
+      "hop": 8,
+      "ip": "192.192.61.30",
+      "hostname": null,
+      "rtts": [
+        6.867,
+        6.419,
+        6.541
+      ],
+      "avg_rtt": 6.61,
+      "timeout": false
+    },
+    {
+      "hop": 9,
+      "ip": "192.192.61.4",
+      "hostname": null,
+      "rtts": [
+        9.158,
+        8.748,
+        8.727
+      ],
+      "avg_rtt": 8.88,
+      "timeout": false
+    },
+    {
+      "hop": 10,
+      "ip": "192.192.61.209",
+      "hostname": null,
+      "rtts": [
+        6.877,
+        7.756,
+        7.96
+      ],
+      "avg_rtt": 7.53,
+      "timeout": false
+    },
+    {
+      "hop": 11,
+      "ip": "10.96.81.12",
+      "hostname": null,
+      "rtts": [
+        8.399,
+        10.841,
+        9.032
+      ],
+      "avg_rtt": 9.42,
+      "timeout": false
+    },
+    {
+      "hop": 12,
+      "ip": "163.29.22.234",
+      "hostname": null,
+      "rtts": [
+        17.135,
+        10.663,
+        9.646
+      ],
+      "avg_rtt": 12.48,
+      "timeout": false
+    },
+    {
+      "hop": 13,
+      "ip": null,
+      "hostname": null,
+      "rtts": [],
+      "timeout": true
+    },
+    {
+      "hop": 14,
+      "ip": "220.128.4.221",
+      "hostname": null,
+      "rtts": [
+        28.227,
+        11.398,
+        10.448
+      ],
+      "avg_rtt": 16.69,
+      "timeout": false
+    },
+    {
+      "hop": 15,
+      "ip": "168.95.211.29",
+      "hostname": null,
+      "rtts": [
+        10.055,
+        9.761,
+        11.172
+      ],
+      "avg_rtt": 10.33,
+      "timeout": false
+    },
+    {
+      "hop": 16,
+      "ip": null,
+      "hostname": null,
+      "rtts": [],
+      "timeout": true
+    },
+    {
+      "hop": 17,
+      "ip": "210.69.250.130",
+      "hostname": null,
+      "rtts": [
+        8.888,
+        8.347,
+        9.933
+      ],
+      "avg_rtt": 9.06,
+      "timeout": false
+    },
+    {
+      "hop": 18,
+      "ip": "210.69.250.53",
+      "hostname": null,
+      "rtts": [
+        9.902,
+        9.699,
+        10.015
+      ],
+      "avg_rtt": 9.87,
+      "timeout": false
+    },
+    {
+      "hop": 19,
+      "ip": "163.29.46.101",
+      "hostname": null,
+      "rtts": [
+        46.908,
+        15.256,
+        9.042
+      ],
+      "avg_rtt": 23.74,
+      "timeout": false
+    },
+    {
+      "hop": 20,
+      "ip": "117.56.218.173",
+      "hostname": null,
+      "rtts": [
+        10.711,
+        23.399,
+        17.239
+      ],
+      "avg_rtt": 17.12,
+      "timeout": false
+    }
+  ],
+  "num_hops": 19,
+  "success": true,
+  "raw_output": " 1  192.168.50.1  11.527 ms  4.477 ms  3.049 ms\n 2  140.123.103.250  3.186 ms  5.661 ms  6.876 ms\n 3  140.123.9.249  2.867 ms  4.973 ms  3.973 ms\n 4  140.123.0.246  3.931 ms  3.207 ms  3.446 ms\n 5  140.130.252.251  3.512 ms  3.177 ms  5.000 ms\n 6  192.192.61.142  5.496 ms  6.508 ms  5.991 ms\n 7  192.192.61.9  5.334 ms  8.189 ms  5.852 ms\n 8  192.192.61.30  6.867 ms  6.419 ms  6.541 ms\n 9  192.192.61.4  9.158 ms  8.748 ms  8.727 ms\n10  192.192.61.209  6.877 ms  7.756 ms  7.960 ms\n11  10.96.81.12  8.399 ms  10.841 ms  9.032 ms\n12  163.29.22.234  17.135 ms  10.663 ms  9.646 ms\n13  * * *\n14  220.128.4.221  28.227 ms  11.398 ms  10.448 ms\n15  168.95.211.29  10.055 ms  9.761 ms  11.172 ms\n16  * * *\n17  210.69.250.130  8.888 ms  8.347 ms  9.933 ms\n18  210.69.250.53  9.902 ms  9.699 ms  10.015 ms\n19  163.29.46.101  46.908 ms  15.256 ms  9.042 ms\n20  117.56.218.173  10.711 ms  23.399 ms  17.239 ms\n",
+  "category": "financial_infra",
+  "base_domain": "twse.com.tw",
+  "service_variant": "app.twse.com.tw",
+  "is_bare_domain": false
+}

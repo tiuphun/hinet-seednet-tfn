@@ -1,0 +1,138 @@
+{
+  "timestamp": "2025-10-14T12:59:39.218861",
+  "vantage_point": "cht-mobile",
+  "target": "ruten.com.tw",
+  "target_ip": "104.18.10.27",
+  "protocol": "icmp",
+  "port": null,
+  "duration_seconds": 0.32,
+  "hops": [
+    {
+      "hop": 2,
+      "ip": "140.123.103.250",
+      "hostname": null,
+      "rtts": [
+        5.494,
+        2.661,
+        16.206
+      ],
+      "avg_rtt": 8.12,
+      "timeout": false
+    },
+    {
+      "hop": 3,
+      "ip": "140.123.9.249",
+      "hostname": null,
+      "rtts": [
+        3.058,
+        3.012,
+        2.641
+      ],
+      "avg_rtt": 2.9,
+      "timeout": false
+    },
+    {
+      "hop": 4,
+      "ip": "140.123.0.246",
+      "hostname": null,
+      "rtts": [
+        4.806,
+        6.078,
+        3.571
+      ],
+      "avg_rtt": 4.82,
+      "timeout": false
+    },
+    {
+      "hop": 5,
+      "ip": "140.130.252.251",
+      "hostname": null,
+      "rtts": [
+        3.919,
+        26.159,
+        3.817
+      ],
+      "avg_rtt": 11.3,
+      "timeout": false
+    },
+    {
+      "hop": 6,
+      "ip": "192.192.61.142",
+      "hostname": null,
+      "rtts": [
+        7.01,
+        5.667,
+        5.803
+      ],
+      "avg_rtt": 6.16,
+      "timeout": false
+    },
+    {
+      "hop": 7,
+      "ip": "192.192.61.20",
+      "hostname": null,
+      "rtts": [
+        7.784,
+        9.066,
+        7.956
+      ],
+      "avg_rtt": 8.27,
+      "timeout": false
+    },
+    {
+      "hop": 8,
+      "ip": "192.192.61.48",
+      "hostname": null,
+      "rtts": [
+        8.043,
+        13.99,
+        21.292
+      ],
+      "avg_rtt": 14.44,
+      "timeout": false
+    },
+    {
+      "hop": 9,
+      "ip": "192.192.68.62",
+      "hostname": null,
+      "rtts": [
+        30.758,
+        10.961,
+        9.062
+      ],
+      "avg_rtt": 16.93,
+      "timeout": false
+    },
+    {
+      "hop": 10,
+      "ip": "203.163.222.39",
+      "hostname": null,
+      "rtts": [
+        8.827,
+        18.12,
+        14.033
+      ],
+      "avg_rtt": 13.66,
+      "timeout": false
+    },
+    {
+      "hop": 11,
+      "ip": "104.18.10.27",
+      "hostname": null,
+      "rtts": [
+        11.222,
+        9.379,
+        9.365
+      ],
+      "avg_rtt": 9.99,
+      "timeout": false
+    }
+  ],
+  "num_hops": 10,
+  "success": true,
+  "raw_output": " 1  192.168.50.1  2.429 ms  2.197 ms  10.753 ms\n 2  140.123.103.250  5.494 ms  2.661 ms  16.206 ms\n 3  140.123.9.249  3.058 ms  3.012 ms  2.641 ms\n 4  140.123.0.246  4.806 ms  6.078 ms  3.571 ms\n 5  140.130.252.251  3.919 ms  26.159 ms  3.817 ms\n 6  192.192.61.142  7.010 ms  5.667 ms  5.803 ms\n 7  192.192.61.20  7.784 ms  9.066 ms  7.956 ms\n 8  192.192.61.48  8.043 ms  13.990 ms  21.292 ms\n 9  192.192.68.62  30.758 ms  10.961 ms  9.062 ms\n10  203.163.222.39  8.827 ms  18.120 ms  14.033 ms\n11  104.18.10.27  11.222 ms  9.379 ms  9.365 ms\n",
+  "category": "ecommerce_tech",
+  "base_domain": "ruten.com.tw",
+  "service_variant": "ruten.com.tw",
+  "is_bare_domain": true
+}

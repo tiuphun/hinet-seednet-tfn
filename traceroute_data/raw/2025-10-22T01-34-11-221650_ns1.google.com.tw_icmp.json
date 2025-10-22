@@ -1,0 +1,297 @@
+{
+  "timestamp": "2025-10-22T01:34:11.221650",
+  "vantage_point": "university",
+  "target": "ns1.google.com.tw",
+  "target_ip": "216.239.32.10",
+  "protocol": "icmp",
+  "port": null,
+  "duration_seconds": 82.41,
+  "hops": [
+    {
+      "hop": 2,
+      "ip": "140.123.103.250",
+      "hostname": "csgate103.cs.ccu.edu.tw",
+      "rtts": [
+        3.406,
+        2.836,
+        3.261
+      ],
+      "avg_rtt": 3.17,
+      "timeout": false
+    },
+    {
+      "hop": 3,
+      "ip": "140.123.9.249",
+      "hostname": "140.123.9.249",
+      "rtts": [
+        3.31,
+        2.642,
+        2.708
+      ],
+      "avg_rtt": 2.89,
+      "timeout": false
+    },
+    {
+      "hop": 4,
+      "ip": "140.123.0.246",
+      "hostname": "140.123.0.246",
+      "rtts": [
+        3.326,
+        4.34,
+        4.041
+      ],
+      "avg_rtt": 3.9,
+      "timeout": false
+    },
+    {
+      "hop": 5,
+      "ip": "140.130.252.251",
+      "hostname": "140.130.252.251",
+      "rtts": [
+        3.957,
+        3.774,
+        9.77
+      ],
+      "avg_rtt": 5.83,
+      "timeout": false
+    },
+    {
+      "hop": 6,
+      "ip": "192.192.61.142",
+      "hostname": "192.192.61.142",
+      "rtts": [
+        6.592,
+        6.152,
+        6.046
+      ],
+      "avg_rtt": 6.26,
+      "timeout": false
+    },
+    {
+      "hop": 7,
+      "ip": "192.192.61.20",
+      "hostname": "192.192.61.20",
+      "rtts": [
+        9.368,
+        9.096,
+        7.899
+      ],
+      "avg_rtt": 8.79,
+      "timeout": false
+    },
+    {
+      "hop": 8,
+      "ip": "192.192.61.184",
+      "hostname": "192.192.61.184",
+      "rtts": [
+        11.234,
+        12.443,
+        23.527
+      ],
+      "avg_rtt": 15.73,
+      "timeout": false
+    },
+    {
+      "hop": 9,
+      "ip": "192.192.61.203",
+      "hostname": "192.192.61.203",
+      "rtts": [
+        14.686,
+        8.348,
+        11.037
+      ],
+      "avg_rtt": 11.36,
+      "timeout": false
+    },
+    {
+      "hop": 10,
+      "ip": "72.14.196.229",
+      "hostname": "72.14.196.229",
+      "rtts": [
+        8.796,
+        14.615,
+        11.703
+      ],
+      "avg_rtt": 11.7,
+      "timeout": false
+    },
+    {
+      "hop": 11,
+      "ip": "209.85.254.217",
+      "hostname": "209.85.254.217",
+      "rtts": [
+        8.063,
+        8.766,
+        19.203
+      ],
+      "avg_rtt": 12.01,
+      "timeout": false
+    },
+    {
+      "hop": 12,
+      "ip": "192.178.105.254",
+      "hostname": "192.178.105.254",
+      "rtts": [
+        14.953,
+        9.083,
+        10.39
+      ],
+      "avg_rtt": 11.48,
+      "timeout": false
+    },
+    {
+      "hop": 13,
+      "ip": "108.170.238.143",
+      "hostname": "108.170.238.143",
+      "rtts": [
+        8.968,
+        8.64,
+        8.983
+      ],
+      "avg_rtt": 8.86,
+      "timeout": false
+    },
+    {
+      "hop": 14,
+      "ip": "216.239.48.102",
+      "hostname": "216.239.48.102",
+      "rtts": [
+        15.122,
+        10.901,
+        11.847
+      ],
+      "avg_rtt": 12.62,
+      "timeout": false
+    },
+    {
+      "hop": 15,
+      "ip": "209.85.242.28",
+      "hostname": "209.85.242.28",
+      "rtts": [
+        50.074,
+        45.993,
+        44.407
+      ],
+      "avg_rtt": 46.82,
+      "timeout": false
+    },
+    {
+      "hop": 16,
+      "ip": "209.85.248.43",
+      "hostname": "209.85.248.43",
+      "rtts": [
+        50.034,
+        44.28,
+        44.547
+      ],
+      "avg_rtt": 46.29,
+      "timeout": false
+    },
+    {
+      "hop": 17,
+      "ip": "142.251.60.28",
+      "hostname": "142.251.60.28",
+      "rtts": [
+        48.598,
+        44.864,
+        45.623
+      ],
+      "avg_rtt": 46.36,
+      "timeout": false
+    },
+    {
+      "hop": 18,
+      "ip": "216.239.54.221",
+      "hostname": "216.239.54.221",
+      "rtts": [
+        43.882,
+        44.051,
+        43.56
+      ],
+      "avg_rtt": 43.83,
+      "timeout": false
+    },
+    {
+      "hop": 19,
+      "ip": null,
+      "hostname": null,
+      "rtts": [],
+      "timeout": true
+    },
+    {
+      "hop": 20,
+      "ip": null,
+      "hostname": null,
+      "rtts": [],
+      "timeout": true
+    },
+    {
+      "hop": 21,
+      "ip": null,
+      "hostname": null,
+      "rtts": [],
+      "timeout": true
+    },
+    {
+      "hop": 22,
+      "ip": null,
+      "hostname": null,
+      "rtts": [],
+      "timeout": true
+    },
+    {
+      "hop": 23,
+      "ip": null,
+      "hostname": null,
+      "rtts": [],
+      "timeout": true
+    },
+    {
+      "hop": 24,
+      "ip": null,
+      "hostname": null,
+      "rtts": [],
+      "timeout": true
+    },
+    {
+      "hop": 25,
+      "ip": null,
+      "hostname": null,
+      "rtts": [],
+      "timeout": true
+    },
+    {
+      "hop": 26,
+      "ip": null,
+      "hostname": null,
+      "rtts": [],
+      "timeout": true
+    },
+    {
+      "hop": 27,
+      "ip": null,
+      "hostname": null,
+      "rtts": [],
+      "timeout": true
+    },
+    {
+      "hop": 28,
+      "ip": "216.239.32.10",
+      "hostname": "ns1.google.com",
+      "rtts": [
+        44.401,
+        43.719,
+        43.874
+      ],
+      "avg_rtt": 44.0,
+      "timeout": false
+    }
+  ],
+  "num_hops": 27,
+  "success": true,
+  "raw_output": " 1  192.168.50.1 (192.168.50.1)  14.139 ms  3.508 ms  3.578 ms\n 2  csgate103.cs.ccu.edu.tw (140.123.103.250)  3.406 ms  2.836 ms  3.261 ms\n 3  140.123.9.249 (140.123.9.249)  3.310 ms  2.642 ms  2.708 ms\n 4  140.123.0.246 (140.123.0.246)  3.326 ms  4.340 ms  4.041 ms\n 5  140.130.252.251 (140.130.252.251)  3.957 ms  3.774 ms  9.770 ms\n 6  192.192.61.142 (192.192.61.142)  6.592 ms  6.152 ms  6.046 ms\n 7  192.192.61.20 (192.192.61.20)  9.368 ms  9.096 ms  7.899 ms\n 8  192.192.61.184 (192.192.61.184)  11.234 ms  12.443 ms  23.527 ms\n 9  192.192.61.203 (192.192.61.203)  14.686 ms  8.348 ms  11.037 ms\n10  72.14.196.229 (72.14.196.229)  8.796 ms  14.615 ms  11.703 ms\n11  209.85.254.217 (209.85.254.217)  8.063 ms  8.766 ms  19.203 ms\n12  192.178.105.254 (192.178.105.254)  14.953 ms  9.083 ms  10.390 ms\n13  108.170.238.143 (108.170.238.143)  8.968 ms  8.640 ms  8.983 ms\n14  216.239.48.102 (216.239.48.102)  15.122 ms  10.901 ms  11.847 ms\n15  209.85.242.28 (209.85.242.28)  50.074 ms  45.993 ms  44.407 ms\n16  209.85.248.43 (209.85.248.43)  50.034 ms  44.280 ms  44.547 ms\n17  142.251.60.28 (142.251.60.28)  48.598 ms  44.864 ms  45.623 ms\n18  216.239.54.221 (216.239.54.221)  43.882 ms  44.051 ms  43.560 ms\n19  * * *\n20  * * *\n21  * * *\n22  * * *\n23  * * *\n24  * * *\n25  * * *\n26  * * *\n27  * * *\n28  ns1.google.com (216.239.32.10)  44.401 ms  43.719 ms  43.874 ms\n",
+  "category": "cdn_global",
+  "base_domain": "google.com.tw",
+  "service_variant": "ns1.google.com.tw",
+  "is_bare_domain": false
+}

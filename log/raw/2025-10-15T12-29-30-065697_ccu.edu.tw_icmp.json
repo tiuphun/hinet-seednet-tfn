@@ -1,0 +1,132 @@
+{
+  "timestamp": "2025-10-15T12:29:30.065697",
+  "vantage_point": "itaiwan",
+  "target": "ccu.edu.tw",
+  "target_ip": "140.123.1.2",
+  "protocol": "icmp",
+  "port": null,
+  "duration_seconds": 0.34,
+  "hops": [
+    {
+      "hop": 2,
+      "ip": "172.16.193.251",
+      "hostname": "172.16.193.251",
+      "rtts": [
+        107.652,
+        2.636,
+        2.489
+      ],
+      "avg_rtt": 37.59,
+      "timeout": false,
+      "network": "other",
+      "network_name": "Other Network",
+      "is_interesting": false,
+      "is_private": true
+    },
+    {
+      "hop": 3,
+      "ip": "140.123.55.250",
+      "hostname": "140.123.55.250",
+      "rtts": [
+        2.738,
+        2.904,
+        4.246
+      ],
+      "avg_rtt": 3.3,
+      "timeout": false,
+      "network": "other",
+      "network_name": "Other Network",
+      "is_interesting": false,
+      "is_private": false
+    },
+    {
+      "hop": 4,
+      "ip": "140.123.0.246",
+      "hostname": "140.123.0.246",
+      "rtts": [
+        3.615,
+        3.193,
+        3.489
+      ],
+      "avg_rtt": 3.43,
+      "timeout": false,
+      "network": "other",
+      "network_name": "Other Network",
+      "is_interesting": false,
+      "is_private": false
+    },
+    {
+      "hop": 5,
+      "ip": "140.130.252.251",
+      "hostname": "140.130.252.251",
+      "rtts": [
+        4.304,
+        4.84,
+        3.872
+      ],
+      "avg_rtt": 4.34,
+      "timeout": false,
+      "network": "other",
+      "network_name": "Other Network",
+      "is_interesting": false,
+      "is_private": false
+    },
+    {
+      "hop": 6,
+      "ip": "140.123.1.2",
+      "hostname": "suncc.ccu.edu.tw",
+      "rtts": [
+        4.242,
+        4.287,
+        4.149
+      ],
+      "avg_rtt": 4.23,
+      "timeout": false,
+      "network": "university",
+      "network_name": "Taiwan Universities",
+      "is_interesting": true,
+      "is_private": false
+    }
+  ],
+  "num_hops": 5,
+  "success": true,
+  "path_analysis": {
+    "networks_traversed": [
+      {
+        "network": "other",
+        "network_name": "Other Network",
+        "first_hop": 2
+      },
+      {
+        "network": "university",
+        "network_name": "Taiwan Universities",
+        "first_hop": 6
+      }
+    ],
+    "interesting_routers": [
+      {
+        "hop": 6,
+        "ip": "140.123.1.2",
+        "hostname": "suncc.ccu.edu.tw",
+        "network": "university",
+        "network_name": "Taiwan Universities"
+      }
+    ],
+    "private_hops": 1,
+    "total_hops": 5,
+    "network_transitions": [
+      {
+        "hop": 6,
+        "from": "other",
+        "to": "university",
+        "from_ip": "140.123.1.2",
+        "to_ip": "140.123.1.2"
+      }
+    ]
+  },
+  "raw_output": " 1  172.16.193.250 (172.16.193.250)  2.645 ms  2.399 ms  2.420 ms\n 2  172.16.193.251 (172.16.193.251)  107.652 ms  2.636 ms  2.489 ms\n 3  140.123.55.250 (140.123.55.250)  2.738 ms  2.904 ms  4.246 ms\n 4  140.123.0.246 (140.123.0.246)  3.615 ms  3.193 ms  3.489 ms\n 5  140.130.252.251 (140.130.252.251)  4.304 ms  4.840 ms  3.872 ms\n 6  suncc.ccu.edu.tw (140.123.1.2)  4.242 ms  4.287 ms  4.149 ms\n",
+  "category": "universities",
+  "base_domain": "ccu.edu.tw",
+  "service_variant": "ccu.edu.tw",
+  "is_bare_domain": true
+}

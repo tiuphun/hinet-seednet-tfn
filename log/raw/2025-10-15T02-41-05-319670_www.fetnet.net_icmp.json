@@ -1,0 +1,161 @@
+{
+  "timestamp": "2025-10-15T02:41:05.319670",
+  "vantage_point": "university",
+  "target": "www.fetnet.net",
+  "target_ip": "3.169.137.14",
+  "protocol": "icmp",
+  "port": null,
+  "duration_seconds": 45.32,
+  "hops": [
+    {
+      "hop": 2,
+      "ip": "140.123.103.250",
+      "hostname": null,
+      "rtts": [
+        1.842,
+        1.706,
+        2.041
+      ],
+      "avg_rtt": 1.86,
+      "timeout": false
+    },
+    {
+      "hop": 3,
+      "ip": "140.123.9.249",
+      "hostname": null,
+      "rtts": [
+        1.921,
+        2.041,
+        4.222
+      ],
+      "avg_rtt": 2.73,
+      "timeout": false
+    },
+    {
+      "hop": 4,
+      "ip": "140.123.0.246",
+      "hostname": null,
+      "rtts": [
+        11.153,
+        4.568,
+        10.215
+      ],
+      "avg_rtt": 8.65,
+      "timeout": false
+    },
+    {
+      "hop": 5,
+      "ip": "140.130.252.251",
+      "hostname": null,
+      "rtts": [
+        3.274,
+        7.539,
+        4.973
+      ],
+      "avg_rtt": 5.26,
+      "timeout": false
+    },
+    {
+      "hop": 6,
+      "ip": "192.192.61.142",
+      "hostname": null,
+      "rtts": [
+        11.007,
+        4.754,
+        4.599
+      ],
+      "avg_rtt": 6.79,
+      "timeout": false
+    },
+    {
+      "hop": 7,
+      "ip": "192.192.61.20",
+      "hostname": null,
+      "rtts": [
+        6.678,
+        6.913,
+        6.733
+      ],
+      "avg_rtt": 6.77,
+      "timeout": false
+    },
+    {
+      "hop": 8,
+      "ip": "192.192.61.48",
+      "hostname": null,
+      "rtts": [
+        7.27,
+        7.121,
+        7.07
+      ],
+      "avg_rtt": 7.15,
+      "timeout": false
+    },
+    {
+      "hop": 9,
+      "ip": "192.192.68.62",
+      "hostname": null,
+      "rtts": [
+        9.351,
+        19.195,
+        7.711
+      ],
+      "avg_rtt": 12.09,
+      "timeout": false
+    },
+    {
+      "hop": 10,
+      "ip": null,
+      "hostname": null,
+      "rtts": [],
+      "timeout": true
+    },
+    {
+      "hop": 11,
+      "ip": null,
+      "hostname": null,
+      "rtts": [],
+      "timeout": true
+    },
+    {
+      "hop": 12,
+      "ip": null,
+      "hostname": null,
+      "rtts": [],
+      "timeout": true
+    },
+    {
+      "hop": 13,
+      "ip": null,
+      "hostname": null,
+      "rtts": [],
+      "timeout": true
+    },
+    {
+      "hop": 14,
+      "ip": null,
+      "hostname": null,
+      "rtts": [],
+      "timeout": true
+    },
+    {
+      "hop": 15,
+      "ip": "3.169.137.14",
+      "hostname": null,
+      "rtts": [
+        19.874,
+        11.777,
+        9.233
+      ],
+      "avg_rtt": 13.63,
+      "timeout": false
+    }
+  ],
+  "num_hops": 14,
+  "success": true,
+  "raw_output": " 1  192.168.50.1  2.339 ms  1.332 ms  1.403 ms\n 2  140.123.103.250  1.842 ms  1.706 ms  2.041 ms\n 3  140.123.9.249  1.921 ms  2.041 ms  4.222 ms\n 4  140.123.0.246  11.153 ms  4.568 ms  10.215 ms\n 5  140.130.252.251  3.274 ms  7.539 ms  4.973 ms\n 6  192.192.61.142  11.007 ms  4.754 ms  4.599 ms\n 7  192.192.61.20  6.678 ms  6.913 ms  6.733 ms\n 8  192.192.61.48  7.270 ms  7.121 ms  7.070 ms\n 9  192.192.68.62  9.351 ms  19.195 ms  7.711 ms\n10  * * *\n11  * * *\n12  * * *\n13  * * *\n14  * * *\n15  3.169.137.14  19.874 ms  11.777 ms  9.233 ms\n",
+  "category": "telecom",
+  "base_domain": "fetnet.net",
+  "service_variant": "www.fetnet.net",
+  "is_bare_domain": false
+}

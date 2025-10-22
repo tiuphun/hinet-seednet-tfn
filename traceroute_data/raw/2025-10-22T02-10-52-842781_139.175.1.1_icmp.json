@@ -1,0 +1,114 @@
+{
+  "timestamp": "2025-10-22T02:10:52.842781",
+  "vantage_point": "university",
+  "target": "139.175.1.1",
+  "target_ip": "139.175.1.1",
+  "protocol": "icmp",
+  "port": null,
+  "duration_seconds": 0.34,
+  "hops": [
+    {
+      "hop": 2,
+      "ip": "140.123.103.250",
+      "hostname": "csgate103.cs.ccu.edu.tw",
+      "rtts": [
+        2.563,
+        3.087,
+        2.434
+      ],
+      "avg_rtt": 2.69,
+      "timeout": false
+    },
+    {
+      "hop": 3,
+      "ip": "140.123.9.249",
+      "hostname": "140.123.9.249",
+      "rtts": [
+        3.463,
+        6.401,
+        2.667
+      ],
+      "avg_rtt": 4.18,
+      "timeout": false
+    },
+    {
+      "hop": 4,
+      "ip": "140.123.0.246",
+      "hostname": "140.123.0.246",
+      "rtts": [
+        3.39,
+        3.632,
+        6.278
+      ],
+      "avg_rtt": 4.43,
+      "timeout": false
+    },
+    {
+      "hop": 5,
+      "ip": "140.130.252.251",
+      "hostname": "140.130.252.251",
+      "rtts": [
+        19.071,
+        17.556,
+        10.593
+      ],
+      "avg_rtt": 15.74,
+      "timeout": false
+    },
+    {
+      "hop": 6,
+      "ip": "140.123.231.126",
+      "hostname": "140.123.231.126",
+      "rtts": [
+        12.681,
+        12.344,
+        11.656
+      ],
+      "avg_rtt": 12.23,
+      "timeout": false
+    },
+    {
+      "hop": 7,
+      "ip": "139.175.57.113",
+      "hostname": "r57-113.seed.net.tw",
+      "rtts": [
+        15.199,
+        15.047,
+        13.614
+      ],
+      "avg_rtt": 14.62,
+      "timeout": false
+    },
+    {
+      "hop": 8,
+      "ip": "192.72.49.82",
+      "hostname": "h82-192-72-49.seed.net.tw",
+      "rtts": [
+        17.274,
+        14.482,
+        12.144
+      ],
+      "avg_rtt": 14.63,
+      "timeout": false
+    },
+    {
+      "hop": 9,
+      "ip": "139.175.1.1",
+      "hostname": "frd01.seed.net.tw",
+      "rtts": [
+        11.937,
+        12.986,
+        14.313
+      ],
+      "avg_rtt": 13.08,
+      "timeout": false
+    }
+  ],
+  "num_hops": 8,
+  "success": true,
+  "raw_output": " 1  192.168.50.1 (192.168.50.1)  7.823 ms  2.480 ms  2.422 ms\n 2  csgate103.cs.ccu.edu.tw (140.123.103.250)  2.563 ms  3.087 ms  2.434 ms\n 3  140.123.9.249 (140.123.9.249)  3.463 ms  6.401 ms  2.667 ms\n 4  140.123.0.246 (140.123.0.246)  3.390 ms  3.632 ms  6.278 ms\n 5  140.130.252.251 (140.130.252.251)  19.071 ms  17.556 ms  10.593 ms\n 6  140.123.231.126 (140.123.231.126)  12.681 ms  12.344 ms  11.656 ms\n 7  r57-113.seed.net.tw (139.175.57.113)  15.199 ms  15.047 ms  13.614 ms\n 8  h82-192-72-49.seed.net.tw (192.72.49.82)  17.274 ms  14.482 ms  12.144 ms\n 9  frd01.seed.net.tw (139.175.1.1)  11.937 ms  12.986 ms  14.313 ms\n",
+  "category": "dns_resolvers",
+  "base_domain": "139.175.1.1",
+  "service_variant": "139.175.1.1",
+  "is_bare_domain": true
+}

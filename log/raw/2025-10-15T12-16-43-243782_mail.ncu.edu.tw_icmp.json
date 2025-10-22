@@ -1,0 +1,266 @@
+{
+  "timestamp": "2025-10-15T12:16:43.243782",
+  "vantage_point": "itaiwan",
+  "target": "mail.ncu.edu.tw",
+  "target_ip": "140.115.0.177",
+  "protocol": "icmp",
+  "port": null,
+  "duration_seconds": 18.35,
+  "hops": [
+    {
+      "hop": 2,
+      "ip": "168.95.98.254",
+      "hostname": "h254.s98.ts.hinet.net",
+      "rtts": [
+        2.84,
+        3.147,
+        3.162
+      ],
+      "avg_rtt": 3.05,
+      "timeout": false,
+      "network": "hinet",
+      "network_name": "HiNet (Chunghwa Telecom)",
+      "is_interesting": true,
+      "is_private": false
+    },
+    {
+      "hop": 3,
+      "ip": "168.95.129.46",
+      "hostname": "168-95-129-46.caw1-3332.hinet.net",
+      "rtts": [
+        3.381,
+        3.758,
+        3.796
+      ],
+      "avg_rtt": 3.64,
+      "timeout": false,
+      "network": "hinet",
+      "network_name": "HiNet (Chunghwa Telecom)",
+      "is_interesting": true,
+      "is_private": false
+    },
+    {
+      "hop": 4,
+      "ip": null,
+      "hostname": null,
+      "rtts": [],
+      "timeout": true
+    },
+    {
+      "hop": 5,
+      "ip": "220.128.9.62",
+      "hostname": "220-128-9-62.tylc-3032.hinet.net",
+      "rtts": [
+        13.172,
+        8.83,
+        9.703
+      ],
+      "avg_rtt": 10.57,
+      "timeout": false,
+      "network": "hinet",
+      "network_name": "HiNet (Chunghwa Telecom)",
+      "is_interesting": true,
+      "is_private": false
+    },
+    {
+      "hop": 6,
+      "ip": "220.128.8.149",
+      "hostname": "220-128-8-149.tyfo-3331.hinet.net",
+      "rtts": [
+        9.715,
+        9.722,
+        10.145
+      ],
+      "avg_rtt": 9.86,
+      "timeout": false,
+      "network": "hinet",
+      "network_name": "HiNet (Chunghwa Telecom)",
+      "is_interesting": true,
+      "is_private": false
+    },
+    {
+      "hop": 7,
+      "ip": "211.22.39.249",
+      "hostname": "211-22-39-249.wc6a-4901.hinet.net",
+      "rtts": [
+        10.018,
+        10.181,
+        10.294
+      ],
+      "avg_rtt": 10.16,
+      "timeout": false,
+      "network": "hinet",
+      "network_name": "HiNet (Chunghwa Telecom)",
+      "is_interesting": true,
+      "is_private": false
+    },
+    {
+      "hop": 8,
+      "ip": "203.75.135.45",
+      "hostname": "203-75-135-45.hinet-ip.hinet.net",
+      "rtts": [
+        9.887,
+        10.456,
+        9.99
+      ],
+      "avg_rtt": 10.11,
+      "timeout": false,
+      "network": "hinet",
+      "network_name": "HiNet (Chunghwa Telecom)",
+      "is_interesting": true,
+      "is_private": false
+    },
+    {
+      "hop": 9,
+      "ip": "203.72.244.236",
+      "hostname": "coreswitch.ncu.edu.tw",
+      "rtts": [
+        9.614,
+        9.69,
+        10.205
+      ],
+      "avg_rtt": 9.84,
+      "timeout": false,
+      "network": "university",
+      "network_name": "Taiwan Universities",
+      "is_interesting": true,
+      "is_private": false
+    },
+    {
+      "hop": 10,
+      "ip": "203.72.244.50",
+      "hostname": "phy-cc.ncu.edu.tw",
+      "rtts": [
+        9.621,
+        10.161,
+        9.614
+      ],
+      "avg_rtt": 9.8,
+      "timeout": false,
+      "network": "university",
+      "network_name": "Taiwan Universities",
+      "is_interesting": true,
+      "is_private": false
+    },
+    {
+      "hop": 11,
+      "ip": null,
+      "hostname": null,
+      "rtts": [],
+      "timeout": true
+    },
+    {
+      "hop": 12,
+      "ip": "140.115.0.177",
+      "hostname": "mail.ncu.edu.tw",
+      "rtts": [
+        10.392,
+        10.424,
+        11.158
+      ],
+      "avg_rtt": 10.66,
+      "timeout": false,
+      "network": "university",
+      "network_name": "Taiwan Universities",
+      "is_interesting": true,
+      "is_private": false
+    }
+  ],
+  "num_hops": 11,
+  "success": true,
+  "path_analysis": {
+    "networks_traversed": [
+      {
+        "network": "hinet",
+        "network_name": "HiNet (Chunghwa Telecom)",
+        "first_hop": 2
+      },
+      {
+        "network": "university",
+        "network_name": "Taiwan Universities",
+        "first_hop": 9
+      }
+    ],
+    "interesting_routers": [
+      {
+        "hop": 2,
+        "ip": "168.95.98.254",
+        "hostname": "h254.s98.ts.hinet.net",
+        "network": "hinet",
+        "network_name": "HiNet (Chunghwa Telecom)"
+      },
+      {
+        "hop": 3,
+        "ip": "168.95.129.46",
+        "hostname": "168-95-129-46.caw1-3332.hinet.net",
+        "network": "hinet",
+        "network_name": "HiNet (Chunghwa Telecom)"
+      },
+      {
+        "hop": 5,
+        "ip": "220.128.9.62",
+        "hostname": "220-128-9-62.tylc-3032.hinet.net",
+        "network": "hinet",
+        "network_name": "HiNet (Chunghwa Telecom)"
+      },
+      {
+        "hop": 6,
+        "ip": "220.128.8.149",
+        "hostname": "220-128-8-149.tyfo-3331.hinet.net",
+        "network": "hinet",
+        "network_name": "HiNet (Chunghwa Telecom)"
+      },
+      {
+        "hop": 7,
+        "ip": "211.22.39.249",
+        "hostname": "211-22-39-249.wc6a-4901.hinet.net",
+        "network": "hinet",
+        "network_name": "HiNet (Chunghwa Telecom)"
+      },
+      {
+        "hop": 8,
+        "ip": "203.75.135.45",
+        "hostname": "203-75-135-45.hinet-ip.hinet.net",
+        "network": "hinet",
+        "network_name": "HiNet (Chunghwa Telecom)"
+      },
+      {
+        "hop": 9,
+        "ip": "203.72.244.236",
+        "hostname": "coreswitch.ncu.edu.tw",
+        "network": "university",
+        "network_name": "Taiwan Universities"
+      },
+      {
+        "hop": 10,
+        "ip": "203.72.244.50",
+        "hostname": "phy-cc.ncu.edu.tw",
+        "network": "university",
+        "network_name": "Taiwan Universities"
+      },
+      {
+        "hop": 12,
+        "ip": "140.115.0.177",
+        "hostname": "mail.ncu.edu.tw",
+        "network": "university",
+        "network_name": "Taiwan Universities"
+      }
+    ],
+    "private_hops": 0,
+    "total_hops": 11,
+    "network_transitions": [
+      {
+        "hop": 9,
+        "from": "hinet",
+        "to": "university",
+        "from_ip": "203.72.244.236",
+        "to_ip": "203.72.244.236"
+      }
+    ]
+  },
+  "raw_output": " 1  172.16.193.250 (172.16.193.250)  2.768 ms  2.038 ms  2.420 ms\n 2  h254.s98.ts.hinet.net (168.95.98.254)  2.840 ms  3.147 ms  3.162 ms\n 3  168-95-129-46.caw1-3332.hinet.net (168.95.129.46)  3.381 ms  3.758 ms  3.796 ms\n 4  * * *\n 5  220-128-9-62.tylc-3032.hinet.net (220.128.9.62)  13.172 ms  8.830 ms  9.703 ms\n 6  220-128-8-149.tyfo-3331.hinet.net (220.128.8.149)  9.715 ms  9.722 ms  10.145 ms\n 7  211-22-39-249.wc6a-4901.hinet.net (211.22.39.249)  10.018 ms  10.181 ms  10.294 ms\n 8  203-75-135-45.hinet-ip.hinet.net (203.75.135.45)  9.887 ms  10.456 ms  9.990 ms\n 9  coreswitch.ncu.edu.tw (203.72.244.236)  9.614 ms  9.690 ms  10.205 ms\n10  phy-cc.ncu.edu.tw (203.72.244.50)  9.621 ms  10.161 ms  9.614 ms\n11  * * *\n12  mail.ncu.edu.tw (140.115.0.177)  10.392 ms  10.424 ms  11.158 ms\n",
+  "category": "universities",
+  "base_domain": "ncu.edu.tw",
+  "service_variant": "mail.ncu.edu.tw",
+  "is_bare_domain": false
+}

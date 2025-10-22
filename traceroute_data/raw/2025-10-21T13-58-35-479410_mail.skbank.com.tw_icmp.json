@@ -1,0 +1,128 @@
+{
+  "timestamp": "2025-10-21T13:58:35.479410",
+  "vantage_point": "university",
+  "target": "mail.skbank.com.tw",
+  "target_ip": "59.124.68.60",
+  "protocol": "icmp",
+  "port": null,
+  "duration_seconds": 18.51,
+  "hops": [
+    {
+      "hop": 2,
+      "ip": "140.123.103.250",
+      "hostname": "csgate103.cs.ccu.edu.tw",
+      "rtts": [
+        2.057,
+        3.759,
+        3.628
+      ],
+      "avg_rtt": 3.15,
+      "timeout": false
+    },
+    {
+      "hop": 3,
+      "ip": "140.123.9.249",
+      "hostname": "140.123.9.249",
+      "rtts": [
+        1.971,
+        7.056,
+        4.412
+      ],
+      "avg_rtt": 4.48,
+      "timeout": false
+    },
+    {
+      "hop": 4,
+      "ip": "140.123.0.246",
+      "hostname": "140.123.0.246",
+      "rtts": [
+        4.467,
+        3.644,
+        4.253
+      ],
+      "avg_rtt": 4.12,
+      "timeout": false
+    },
+    {
+      "hop": 5,
+      "ip": "140.130.252.251",
+      "hostname": "140.130.252.251",
+      "rtts": [
+        9.756,
+        9.549,
+        3.931
+      ],
+      "avg_rtt": 7.75,
+      "timeout": false
+    },
+    {
+      "hop": 6,
+      "ip": "211.22.226.198",
+      "hostname": "211-22-226-198.caw1-3332.hinet.net",
+      "rtts": [
+        4.02,
+        3.793,
+        3.346
+      ],
+      "avg_rtt": 3.72,
+      "timeout": false
+    },
+    {
+      "hop": 7,
+      "ip": null,
+      "hostname": null,
+      "rtts": [],
+      "timeout": true
+    },
+    {
+      "hop": 8,
+      "ip": null,
+      "hostname": null,
+      "rtts": [],
+      "timeout": true
+    },
+    {
+      "hop": 9,
+      "ip": "220.128.4.221",
+      "hostname": "220-128-4-221.tpdt-3310.hinet.net",
+      "rtts": [
+        20.602,
+        12.985,
+        10.001
+      ],
+      "avg_rtt": 14.53,
+      "timeout": false
+    },
+    {
+      "hop": 10,
+      "ip": "168.95.83.213",
+      "hostname": "h213.s83.ts.hinet.net",
+      "rtts": [
+        11.825,
+        18.127,
+        19.681
+      ],
+      "avg_rtt": 16.54,
+      "timeout": false
+    },
+    {
+      "hop": 11,
+      "ip": "59.124.68.60",
+      "hostname": "59-124-68-60.hinet-ip.hinet.net",
+      "rtts": [
+        38.287,
+        21.481,
+        23.777
+      ],
+      "avg_rtt": 27.85,
+      "timeout": false
+    }
+  ],
+  "num_hops": 10,
+  "success": true,
+  "raw_output": " 1  192.168.50.1 (192.168.50.1)  2.015 ms  5.197 ms  5.128 ms\n 2  csgate103.cs.ccu.edu.tw (140.123.103.250)  2.057 ms  3.759 ms  3.628 ms\n 3  140.123.9.249 (140.123.9.249)  1.971 ms  7.056 ms  4.412 ms\n 4  140.123.0.246 (140.123.0.246)  4.467 ms  3.644 ms  4.253 ms\n 5  140.130.252.251 (140.130.252.251)  9.756 ms  9.549 ms  3.931 ms\n 6  211-22-226-198.caw1-3332.hinet.net (211.22.226.198)  4.020 ms  3.793 ms  3.346 ms\n 7  * * *\n 8  * * *\n 9  220-128-4-221.tpdt-3310.hinet.net (220.128.4.221)  20.602 ms  12.985 ms  10.001 ms\n10  h213.s83.ts.hinet.net (168.95.83.213)  11.825 ms  18.127 ms  19.681 ms\n11  59-124-68-60.hinet-ip.hinet.net (59.124.68.60)  38.287 ms  21.481 ms  23.777 ms\n",
+  "category": "financial_banks",
+  "base_domain": "skbank.com.tw",
+  "service_variant": "mail.skbank.com.tw",
+  "is_bare_domain": false
+}

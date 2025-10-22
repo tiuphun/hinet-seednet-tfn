@@ -1,0 +1,179 @@
+{
+  "timestamp": "2025-10-15T13:46:31.283902",
+  "vantage_point": "itaiwan",
+  "target": "app.momoshop.com.tw",
+  "target_ip": "23.35.148.190",
+  "protocol": "icmp",
+  "port": null,
+  "duration_seconds": 57.37,
+  "hops": [
+    {
+      "hop": 2,
+      "ip": "168.95.98.254",
+      "hostname": "h254.s98.ts.hinet.net",
+      "rtts": [
+        3.224,
+        3.67,
+        3.501
+      ],
+      "avg_rtt": 3.46,
+      "timeout": false,
+      "network": "hinet",
+      "network_name": "HiNet (Chunghwa Telecom)",
+      "is_interesting": true,
+      "is_private": false
+    },
+    {
+      "hop": 3,
+      "ip": "168.95.128.50",
+      "hostname": "168-95-128-50.caw1-3331.hinet.net",
+      "rtts": [
+        3.246,
+        3.312,
+        3.443
+      ],
+      "avg_rtt": 3.33,
+      "timeout": false,
+      "network": "hinet",
+      "network_name": "HiNet (Chunghwa Telecom)",
+      "is_interesting": true,
+      "is_private": false
+    },
+    {
+      "hop": 4,
+      "ip": null,
+      "hostname": null,
+      "rtts": [],
+      "timeout": true
+    },
+    {
+      "hop": 5,
+      "ip": null,
+      "hostname": null,
+      "rtts": [],
+      "timeout": true
+    },
+    {
+      "hop": 6,
+      "ip": "220.128.3.161",
+      "hostname": "220-128-3-161.tpdt-4123.hinet.net",
+      "rtts": [
+        15.445,
+        8.587,
+        9.361
+      ],
+      "avg_rtt": 11.13,
+      "timeout": false,
+      "network": "hinet",
+      "network_name": "HiNet (Chunghwa Telecom)",
+      "is_interesting": true,
+      "is_private": false
+    },
+    {
+      "hop": 7,
+      "ip": null,
+      "hostname": null,
+      "rtts": [],
+      "timeout": true
+    },
+    {
+      "hop": 8,
+      "ip": null,
+      "hostname": null,
+      "rtts": [],
+      "timeout": true
+    },
+    {
+      "hop": 9,
+      "ip": null,
+      "hostname": null,
+      "rtts": [],
+      "timeout": true
+    },
+    {
+      "hop": 10,
+      "ip": null,
+      "hostname": null,
+      "rtts": [],
+      "timeout": true
+    },
+    {
+      "hop": 11,
+      "ip": null,
+      "hostname": null,
+      "rtts": [],
+      "timeout": true
+    },
+    {
+      "hop": 12,
+      "ip": "23.35.148.190",
+      "hostname": "a23-35-148-190.deploy.static.akamaitechnologies.com",
+      "rtts": [
+        37.549,
+        37.654,
+        37.81
+      ],
+      "avg_rtt": 37.67,
+      "timeout": false,
+      "network": "other",
+      "network_name": "Other Network",
+      "is_interesting": false,
+      "is_private": false
+    }
+  ],
+  "num_hops": 11,
+  "success": true,
+  "path_analysis": {
+    "networks_traversed": [
+      {
+        "network": "hinet",
+        "network_name": "HiNet (Chunghwa Telecom)",
+        "first_hop": 2
+      },
+      {
+        "network": "other",
+        "network_name": "Other Network",
+        "first_hop": 12
+      }
+    ],
+    "interesting_routers": [
+      {
+        "hop": 2,
+        "ip": "168.95.98.254",
+        "hostname": "h254.s98.ts.hinet.net",
+        "network": "hinet",
+        "network_name": "HiNet (Chunghwa Telecom)"
+      },
+      {
+        "hop": 3,
+        "ip": "168.95.128.50",
+        "hostname": "168-95-128-50.caw1-3331.hinet.net",
+        "network": "hinet",
+        "network_name": "HiNet (Chunghwa Telecom)"
+      },
+      {
+        "hop": 6,
+        "ip": "220.128.3.161",
+        "hostname": "220-128-3-161.tpdt-4123.hinet.net",
+        "network": "hinet",
+        "network_name": "HiNet (Chunghwa Telecom)"
+      }
+    ],
+    "private_hops": 0,
+    "total_hops": 11,
+    "network_transitions": [
+      {
+        "hop": 12,
+        "from": "hinet",
+        "to": "other",
+        "from_ip": "23.35.148.190",
+        "to_ip": "23.35.148.190"
+      }
+    ]
+  },
+  "raw_output": " 1  172.16.193.250 (172.16.193.250)  2.710 ms  2.470 ms  2.233 ms\n 2  h254.s98.ts.hinet.net (168.95.98.254)  3.224 ms  3.670 ms  3.501 ms\n 3  168-95-128-50.caw1-3331.hinet.net (168.95.128.50)  3.246 ms  3.312 ms  3.443 ms\n 4  * * *\n 5  * * *\n 6  220-128-3-161.tpdt-4123.hinet.net (220.128.3.161)  15.445 ms  8.587 ms  9.361 ms\n 7  * 220-128-30-241.tpdt-4013.hinet.net (220.128.30.241)  9.794 ms  9.276 ms\n 8  * * *\n 9  * * *\n10  * * *\n11  * * *\n12  a23-35-148-190.deploy.static.akamaitechnologies.com (23.35.148.190)  37.549 ms  37.654 ms  37.810 ms\n",
+  "category": "ecommerce_tech",
+  "base_domain": "momoshop.com.tw",
+  "service_variant": "app.momoshop.com.tw",
+  "is_bare_domain": false
+}

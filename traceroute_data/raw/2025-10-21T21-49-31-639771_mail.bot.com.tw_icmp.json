@@ -1,0 +1,135 @@
+{
+  "timestamp": "2025-10-21T21:49:31.639771",
+  "vantage_point": "university",
+  "target": "mail.bot.com.tw",
+  "target_ip": "210.71.212.100",
+  "protocol": "icmp",
+  "port": null,
+  "duration_seconds": 27.43,
+  "hops": [
+    {
+      "hop": 2,
+      "ip": "140.123.103.250",
+      "hostname": "csgate103.cs.ccu.edu.tw",
+      "rtts": [
+        2.536,
+        2.207,
+        2.127
+      ],
+      "avg_rtt": 2.29,
+      "timeout": false
+    },
+    {
+      "hop": 3,
+      "ip": "140.123.9.249",
+      "hostname": "140.123.9.249",
+      "rtts": [
+        2.966,
+        2.437,
+        2.652
+      ],
+      "avg_rtt": 2.69,
+      "timeout": false
+    },
+    {
+      "hop": 4,
+      "ip": "140.123.0.246",
+      "hostname": "140.123.0.246",
+      "rtts": [
+        3.11,
+        2.932,
+        2.953
+      ],
+      "avg_rtt": 3.0,
+      "timeout": false
+    },
+    {
+      "hop": 5,
+      "ip": "140.130.252.251",
+      "hostname": "140.130.252.251",
+      "rtts": [
+        4.439,
+        13.542,
+        4.728
+      ],
+      "avg_rtt": 7.57,
+      "timeout": false
+    },
+    {
+      "hop": 6,
+      "ip": "211.22.226.198",
+      "hostname": "211-22-226-198.caw1-3332.hinet.net",
+      "rtts": [
+        4.701,
+        9.797,
+        4.87
+      ],
+      "avg_rtt": 6.46,
+      "timeout": false
+    },
+    {
+      "hop": 7,
+      "ip": null,
+      "hostname": null,
+      "rtts": [],
+      "timeout": true
+    },
+    {
+      "hop": 8,
+      "ip": null,
+      "hostname": null,
+      "rtts": [],
+      "timeout": true
+    },
+    {
+      "hop": 9,
+      "ip": "220.128.4.225",
+      "hostname": "220-128-4-225.tpdt-3310.hinet.net",
+      "rtts": [
+        33.18,
+        11.18,
+        12.553
+      ],
+      "avg_rtt": 18.97,
+      "timeout": false
+    },
+    {
+      "hop": 10,
+      "ip": "168.95.211.45",
+      "hostname": "h45.s211.ts.hinet.net",
+      "rtts": [
+        10.356,
+        10.562,
+        12.611
+      ],
+      "avg_rtt": 11.18,
+      "timeout": false
+    },
+    {
+      "hop": 11,
+      "ip": null,
+      "hostname": null,
+      "rtts": [],
+      "timeout": true
+    },
+    {
+      "hop": 12,
+      "ip": "210.71.212.100",
+      "hostname": "210.71.212.100",
+      "rtts": [
+        23.363,
+        10.516,
+        23.508
+      ],
+      "avg_rtt": 19.13,
+      "timeout": false
+    }
+  ],
+  "num_hops": 11,
+  "success": true,
+  "raw_output": " 1  192.168.50.1 (192.168.50.1)  2.968 ms  24.829 ms  5.000 ms\n 2  csgate103.cs.ccu.edu.tw (140.123.103.250)  2.536 ms  2.207 ms  2.127 ms\n 3  140.123.9.249 (140.123.9.249)  2.966 ms  2.437 ms  2.652 ms\n 4  140.123.0.246 (140.123.0.246)  3.110 ms  2.932 ms  2.953 ms\n 5  140.130.252.251 (140.130.252.251)  4.439 ms  13.542 ms  4.728 ms\n 6  211-22-226-198.caw1-3332.hinet.net (211.22.226.198)  4.701 ms  9.797 ms  4.870 ms\n 7  * * *\n 8  * * *\n 9  220-128-4-225.tpdt-3310.hinet.net (220.128.4.225)  33.180 ms  11.180 ms  12.553 ms\n10  h45.s211.ts.hinet.net (168.95.211.45)  10.356 ms  10.562 ms  12.611 ms\n11  * * *\n12  210.71.212.100 (210.71.212.100)  23.363 ms  10.516 ms  23.508 ms\n",
+  "category": "financial_banks",
+  "base_domain": "bot.com.tw",
+  "service_variant": "mail.bot.com.tw",
+  "is_bare_domain": false
+}

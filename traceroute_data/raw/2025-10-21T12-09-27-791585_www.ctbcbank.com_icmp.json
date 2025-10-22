@@ -1,0 +1,195 @@
+{
+  "timestamp": "2025-10-21T12:09:27.791585",
+  "vantage_point": "university",
+  "target": "www.ctbcbank.com",
+  "target_ip": "175.184.243.207",
+  "protocol": "icmp",
+  "port": null,
+  "duration_seconds": 9.51,
+  "hops": [
+    {
+      "hop": 2,
+      "ip": "140.123.103.250",
+      "hostname": "csgate103.cs.ccu.edu.tw",
+      "rtts": [
+        2.193,
+        1.974,
+        1.891
+      ],
+      "avg_rtt": 2.02,
+      "timeout": false
+    },
+    {
+      "hop": 3,
+      "ip": "140.123.9.249",
+      "hostname": "140.123.9.249",
+      "rtts": [
+        2.001,
+        2.002,
+        1.917
+      ],
+      "avg_rtt": 1.97,
+      "timeout": false
+    },
+    {
+      "hop": 4,
+      "ip": "140.123.0.246",
+      "hostname": "140.123.0.246",
+      "rtts": [
+        2.636,
+        2.616,
+        2.773
+      ],
+      "avg_rtt": 2.68,
+      "timeout": false
+    },
+    {
+      "hop": 5,
+      "ip": "140.130.252.251",
+      "hostname": "140.130.252.251",
+      "rtts": [
+        3.195,
+        3.002,
+        2.931
+      ],
+      "avg_rtt": 3.04,
+      "timeout": false
+    },
+    {
+      "hop": 6,
+      "ip": "61.31.254.69",
+      "hostname": "61-31-254-69.static.tfn.net.tw",
+      "rtts": [
+        5.422,
+        5.235,
+        5.497
+      ],
+      "avg_rtt": 5.38,
+      "timeout": false
+    },
+    {
+      "hop": 7,
+      "ip": "60.199.27.161",
+      "hostname": "60-199-27-161.static.tfn.net.tw",
+      "rtts": [
+        5.034,
+        5.461,
+        5.536
+      ],
+      "avg_rtt": 5.34,
+      "timeout": false
+    },
+    {
+      "hop": 8,
+      "ip": "60.199.82.101",
+      "hostname": "60-199-82-101.static.tfn.net.tw",
+      "rtts": [
+        10.117,
+        10.114,
+        11.723
+      ],
+      "avg_rtt": 10.65,
+      "timeout": false
+    },
+    {
+      "hop": 9,
+      "ip": "60.199.82.13",
+      "hostname": "60-199-82-13.static.tfn.net.tw",
+      "rtts": [
+        10.292,
+        11.5,
+        11.4
+      ],
+      "avg_rtt": 11.06,
+      "timeout": false
+    },
+    {
+      "hop": 10,
+      "ip": "60.199.6.194",
+      "hostname": "60-199-6-194.static.tfn.net.tw",
+      "rtts": [
+        15.842,
+        17.814,
+        20.835
+      ],
+      "avg_rtt": 18.16,
+      "timeout": false
+    },
+    {
+      "hop": 11,
+      "ip": "219.80.240.50",
+      "hostname": "219-80-240-50.static.tfn.net.tw",
+      "rtts": [
+        10.385,
+        10.534
+      ],
+      "avg_rtt": 10.46,
+      "timeout": false
+    },
+    {
+      "hop": 12,
+      "ip": "10.248.219.97",
+      "hostname": "10.248.219.97",
+      "rtts": [
+        11.167,
+        10.701,
+        10.792
+      ],
+      "avg_rtt": 10.89,
+      "timeout": false
+    },
+    {
+      "hop": 13,
+      "ip": "192.168.255.228",
+      "hostname": "192.168.255.228",
+      "rtts": [
+        10.625,
+        11.861
+      ],
+      "avg_rtt": 11.24,
+      "timeout": false
+    },
+    {
+      "hop": 14,
+      "ip": "192.168.254.197",
+      "hostname": "192.168.254.197",
+      "rtts": [
+        17.759,
+        11.301,
+        11.271
+      ],
+      "avg_rtt": 13.44,
+      "timeout": false
+    },
+    {
+      "hop": 15,
+      "ip": "10.248.219.76",
+      "hostname": "10.248.219.76",
+      "rtts": [
+        11.947,
+        10.791
+      ],
+      "avg_rtt": 11.37,
+      "timeout": false
+    },
+    {
+      "hop": 16,
+      "ip": "175.184.243.207",
+      "hostname": "175.184.243.207",
+      "rtts": [
+        15.017,
+        10.79,
+        11.162
+      ],
+      "avg_rtt": 12.32,
+      "timeout": false
+    }
+  ],
+  "num_hops": 15,
+  "success": true,
+  "raw_output": " 1  192.168.50.1 (192.168.50.1)  2.179 ms  1.857 ms  1.765 ms\n 2  csgate103.cs.ccu.edu.tw (140.123.103.250)  2.193 ms  1.974 ms  1.891 ms\n 3  140.123.9.249 (140.123.9.249)  2.001 ms  2.002 ms  1.917 ms\n 4  140.123.0.246 (140.123.0.246)  2.636 ms  2.616 ms  2.773 ms\n 5  140.130.252.251 (140.130.252.251)  3.195 ms  3.002 ms  2.931 ms\n 6  61-31-254-69.static.tfn.net.tw (61.31.254.69)  5.422 ms  5.235 ms  5.497 ms\n 7  60-199-27-161.static.tfn.net.tw (60.199.27.161)  5.034 ms  5.461 ms  5.536 ms\n 8  60-199-82-101.static.tfn.net.tw (60.199.82.101)  10.117 ms  10.114 ms  11.723 ms\n 9  60-199-82-13.static.tfn.net.tw (60.199.82.13)  10.292 ms  11.500 ms  11.400 ms\n10  60-199-6-194.static.tfn.net.tw (60.199.6.194)  15.842 ms  17.814 ms  20.835 ms\n11  219-80-240-50.static.tfn.net.tw (219.80.240.50)  10.385 ms  10.534 ms *\n12  10.248.219.97 (10.248.219.97)  11.167 ms  10.701 ms  10.792 ms\n13  192.168.255.228 (192.168.255.228)  10.625 ms  11.861 ms *\n14  192.168.254.197 (192.168.254.197)  17.759 ms  11.301 ms  11.271 ms\n15  10.248.219.76 (10.248.219.76)  11.947 ms  10.791 ms *\n16  175.184.243.207 (175.184.243.207)  15.017 ms  10.790 ms  11.162 ms\n",
+  "category": "financial_banks",
+  "base_domain": "ctbcbank.com",
+  "service_variant": "www.ctbcbank.com",
+  "is_bare_domain": false
+}

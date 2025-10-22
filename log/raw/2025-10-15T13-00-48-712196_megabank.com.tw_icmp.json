@@ -1,0 +1,189 @@
+{
+  "timestamp": "2025-10-15T13:00:48.712196",
+  "vantage_point": "itaiwan",
+  "target": "megabank.com.tw",
+  "target_ip": "203.66.132.201",
+  "protocol": "icmp",
+  "port": null,
+  "duration_seconds": 21.93,
+  "hops": [
+    {
+      "hop": 2,
+      "ip": "168.95.98.254",
+      "hostname": "h254.s98.ts.hinet.net",
+      "rtts": [
+        3.753,
+        3.295,
+        3.069
+      ],
+      "avg_rtt": 3.37,
+      "timeout": false,
+      "network": "hinet",
+      "network_name": "HiNet (Chunghwa Telecom)",
+      "is_interesting": true,
+      "is_private": false
+    },
+    {
+      "hop": 3,
+      "ip": "168.95.128.46",
+      "hostname": "168-95-128-46.caw1-3331.hinet.net",
+      "rtts": [
+        3.44,
+        3.44
+      ],
+      "avg_rtt": 3.44,
+      "timeout": false,
+      "network": "hinet",
+      "network_name": "HiNet (Chunghwa Telecom)",
+      "is_interesting": true,
+      "is_private": false
+    },
+    {
+      "hop": 4,
+      "ip": null,
+      "hostname": null,
+      "rtts": [],
+      "timeout": true
+    },
+    {
+      "hop": 5,
+      "ip": null,
+      "hostname": null,
+      "rtts": [],
+      "timeout": true
+    },
+    {
+      "hop": 6,
+      "ip": "220.128.1.117",
+      "hostname": "220-128-1-117.tpdb-3316.hinet.net",
+      "rtts": [
+        9.162,
+        9.28,
+        10.389
+      ],
+      "avg_rtt": 9.61,
+      "timeout": false,
+      "network": "hinet",
+      "network_name": "HiNet (Chunghwa Telecom)",
+      "is_interesting": true,
+      "is_private": false
+    },
+    {
+      "hop": 7,
+      "ip": "203.75.188.197",
+      "hostname": "203-75-188-197.hinet-ip.hinet.net",
+      "rtts": [
+        9.835,
+        9.341,
+        11.185
+      ],
+      "avg_rtt": 10.12,
+      "timeout": false,
+      "network": "hinet",
+      "network_name": "HiNet (Chunghwa Telecom)",
+      "is_interesting": true,
+      "is_private": false
+    },
+    {
+      "hop": 8,
+      "ip": "210.65.22.37",
+      "hostname": "210-65-22-37.hinet-ip.hinet.net",
+      "rtts": [
+        89.135,
+        89.577,
+        88.144
+      ],
+      "avg_rtt": 88.95,
+      "timeout": false,
+      "network": "hinet",
+      "network_name": "HiNet (Chunghwa Telecom)",
+      "is_interesting": true,
+      "is_private": false
+    },
+    {
+      "hop": 9,
+      "ip": "203.66.132.201",
+      "hostname": "www.icbc.com.tw",
+      "rtts": [
+        88.834,
+        94.527,
+        92.202
+      ],
+      "avg_rtt": 91.85,
+      "timeout": false,
+      "network": "other",
+      "network_name": "Other Network",
+      "is_interesting": false,
+      "is_private": false
+    }
+  ],
+  "num_hops": 8,
+  "success": true,
+  "path_analysis": {
+    "networks_traversed": [
+      {
+        "network": "hinet",
+        "network_name": "HiNet (Chunghwa Telecom)",
+        "first_hop": 2
+      },
+      {
+        "network": "other",
+        "network_name": "Other Network",
+        "first_hop": 9
+      }
+    ],
+    "interesting_routers": [
+      {
+        "hop": 2,
+        "ip": "168.95.98.254",
+        "hostname": "h254.s98.ts.hinet.net",
+        "network": "hinet",
+        "network_name": "HiNet (Chunghwa Telecom)"
+      },
+      {
+        "hop": 3,
+        "ip": "168.95.128.46",
+        "hostname": "168-95-128-46.caw1-3331.hinet.net",
+        "network": "hinet",
+        "network_name": "HiNet (Chunghwa Telecom)"
+      },
+      {
+        "hop": 6,
+        "ip": "220.128.1.117",
+        "hostname": "220-128-1-117.tpdb-3316.hinet.net",
+        "network": "hinet",
+        "network_name": "HiNet (Chunghwa Telecom)"
+      },
+      {
+        "hop": 7,
+        "ip": "203.75.188.197",
+        "hostname": "203-75-188-197.hinet-ip.hinet.net",
+        "network": "hinet",
+        "network_name": "HiNet (Chunghwa Telecom)"
+      },
+      {
+        "hop": 8,
+        "ip": "210.65.22.37",
+        "hostname": "210-65-22-37.hinet-ip.hinet.net",
+        "network": "hinet",
+        "network_name": "HiNet (Chunghwa Telecom)"
+      }
+    ],
+    "private_hops": 0,
+    "total_hops": 8,
+    "network_transitions": [
+      {
+        "hop": 9,
+        "from": "hinet",
+        "to": "other",
+        "from_ip": "203.66.132.201",
+        "to_ip": "203.66.132.201"
+      }
+    ]
+  },
+  "raw_output": " 1  172.16.193.250 (172.16.193.250)  2.862 ms  2.215 ms  3.079 ms\n 2  h254.s98.ts.hinet.net (168.95.98.254)  3.753 ms  3.295 ms  3.069 ms\n 3  168-95-128-46.caw1-3331.hinet.net (168.95.128.46)  3.440 ms  3.440 ms *\n 4  * * *\n 5  * * *\n 6  220-128-1-117.tpdb-3316.hinet.net (220.128.1.117)  9.162 ms  9.280 ms  10.389 ms\n 7  203-75-188-197.hinet-ip.hinet.net (203.75.188.197)  9.835 ms  9.341 ms  11.185 ms\n 8  210-65-22-37.hinet-ip.hinet.net (210.65.22.37)  89.135 ms  89.577 ms  88.144 ms\n 9  www.icbc.com.tw (203.66.132.201)  88.834 ms  94.527 ms  92.202 ms\n",
+  "category": "financial_banks",
+  "base_domain": "megabank.com.tw",
+  "service_variant": "megabank.com.tw",
+  "is_bare_domain": true
+}

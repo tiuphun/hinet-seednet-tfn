@@ -1,0 +1,114 @@
+{
+  "timestamp": "2025-10-15T04:07:41.725656",
+  "vantage_point": "university",
+  "target": "www.nchc.org.tw",
+  "target_ip": "211.73.79.37",
+  "protocol": "icmp",
+  "port": null,
+  "duration_seconds": 0.18,
+  "hops": [
+    {
+      "hop": 2,
+      "ip": "140.123.103.250",
+      "hostname": null,
+      "rtts": [
+        2.926,
+        3.399,
+        4.001
+      ],
+      "avg_rtt": 3.44,
+      "timeout": false
+    },
+    {
+      "hop": 3,
+      "ip": "140.123.9.249",
+      "hostname": null,
+      "rtts": [
+        3.339,
+        2.773,
+        5.093
+      ],
+      "avg_rtt": 3.73,
+      "timeout": false
+    },
+    {
+      "hop": 4,
+      "ip": "140.123.0.246",
+      "hostname": null,
+      "rtts": [
+        3.481,
+        3.534,
+        3.637
+      ],
+      "avg_rtt": 3.55,
+      "timeout": false
+    },
+    {
+      "hop": 5,
+      "ip": "211.79.57.25",
+      "hostname": null,
+      "rtts": [
+        4.044,
+        9.221,
+        5.222
+      ],
+      "avg_rtt": 6.16,
+      "timeout": false
+    },
+    {
+      "hop": 6,
+      "ip": "211.73.76.209",
+      "hostname": null,
+      "rtts": [
+        5.884,
+        5.313,
+        5.708
+      ],
+      "avg_rtt": 5.64,
+      "timeout": false
+    },
+    {
+      "hop": 7,
+      "ip": "211.73.76.198",
+      "hostname": null,
+      "rtts": [
+        5.099,
+        6.117,
+        4.957
+      ],
+      "avg_rtt": 5.39,
+      "timeout": false
+    },
+    {
+      "hop": 8,
+      "ip": "211.73.76.141",
+      "hostname": null,
+      "rtts": [
+        13.389,
+        10.501,
+        9.884
+      ],
+      "avg_rtt": 11.26,
+      "timeout": false
+    },
+    {
+      "hop": 9,
+      "ip": "211.73.79.37",
+      "hostname": null,
+      "rtts": [
+        9.792,
+        7.187,
+        8.03
+      ],
+      "avg_rtt": 8.34,
+      "timeout": false
+    }
+  ],
+  "num_hops": 8,
+  "success": true,
+  "raw_output": " 1  192.168.50.1  10.283 ms  8.392 ms  4.798 ms\n 2  140.123.103.250  2.926 ms  3.399 ms  4.001 ms\n 3  140.123.9.249  3.339 ms  2.773 ms  5.093 ms\n 4  140.123.0.246  3.481 ms  3.534 ms  3.637 ms\n 5  211.79.57.25  4.044 ms  9.221 ms  5.222 ms\n 6  211.73.76.209  5.884 ms  5.313 ms  5.708 ms\n 7  211.73.76.198  5.099 ms  6.117 ms  4.957 ms\n 8  211.73.76.141  13.389 ms  10.501 ms  9.884 ms\n 9  211.73.79.37  9.792 ms  7.187 ms  8.030 ms\n",
+  "category": "education_network",
+  "base_domain": "nchc.org.tw",
+  "service_variant": "www.nchc.org.tw",
+  "is_bare_domain": false
+}

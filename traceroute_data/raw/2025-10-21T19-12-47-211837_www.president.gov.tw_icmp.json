@@ -1,0 +1,140 @@
+{
+  "timestamp": "2025-10-21T19:12:47.211837",
+  "vantage_point": "university",
+  "target": "www.president.gov.tw",
+  "target_ip": "203.66.32.199",
+  "protocol": "icmp",
+  "port": null,
+  "duration_seconds": 18.43,
+  "hops": [
+    {
+      "hop": 2,
+      "ip": "140.123.103.250",
+      "hostname": "csgate103.cs.ccu.edu.tw",
+      "rtts": [
+        2.501,
+        6.806,
+        3.84
+      ],
+      "avg_rtt": 4.38,
+      "timeout": false
+    },
+    {
+      "hop": 3,
+      "ip": "140.123.9.249",
+      "hostname": "140.123.9.249",
+      "rtts": [
+        6.096,
+        2.687,
+        2.587
+      ],
+      "avg_rtt": 3.79,
+      "timeout": false
+    },
+    {
+      "hop": 4,
+      "ip": "140.123.0.246",
+      "hostname": "140.123.0.246",
+      "rtts": [
+        4.322,
+        6.168,
+        3.641
+      ],
+      "avg_rtt": 4.71,
+      "timeout": false
+    },
+    {
+      "hop": 5,
+      "ip": "140.130.252.251",
+      "hostname": "140.130.252.251",
+      "rtts": [
+        7.221,
+        6.492,
+        7.186
+      ],
+      "avg_rtt": 6.97,
+      "timeout": false
+    },
+    {
+      "hop": 6,
+      "ip": "211.22.226.198",
+      "hostname": "211-22-226-198.caw1-3332.hinet.net",
+      "rtts": [
+        7.59,
+        8.926,
+        6.253
+      ],
+      "avg_rtt": 7.59,
+      "timeout": false
+    },
+    {
+      "hop": 7,
+      "ip": null,
+      "hostname": null,
+      "rtts": [],
+      "timeout": true
+    },
+    {
+      "hop": 8,
+      "ip": null,
+      "hostname": null,
+      "rtts": [],
+      "timeout": true
+    },
+    {
+      "hop": 9,
+      "ip": "220.128.8.10",
+      "hostname": "220-128-8-10.tyfo-3031.hinet.net",
+      "rtts": [
+        12.736,
+        14.035,
+        13.191
+      ],
+      "avg_rtt": 13.32,
+      "timeout": false
+    },
+    {
+      "hop": 10,
+      "ip": "220.128.8.5",
+      "hostname": "220-128-8-5.clpy-3331.hinet.net",
+      "rtts": [
+        10.65,
+        11.482,
+        10.9
+      ],
+      "avg_rtt": 11.01,
+      "timeout": false
+    },
+    {
+      "hop": 11,
+      "ip": "211.22.224.109",
+      "hostname": "211-22-224-109.hinet-ip.hinet.net",
+      "rtts": [
+        18.807,
+        10.467,
+        12.329
+      ],
+      "avg_rtt": 13.87,
+      "timeout": false
+    },
+    {
+      "hop": 12,
+      "ip": "203.66.32.199",
+      "hostname": "203-66-32-199.hinet-ip.hinet.net",
+      "rtts": [
+        10.856,
+        11.209,
+        10.553
+      ],
+      "avg_rtt": 10.87,
+      "timeout": false
+    }
+  ],
+  "num_hops": 11,
+  "success": true,
+  "raw_output": " 1  192.168.50.1 (192.168.50.1)  2.471 ms  2.135 ms  2.327 ms\n 2  csgate103.cs.ccu.edu.tw (140.123.103.250)  2.501 ms  6.806 ms  3.840 ms\n 3  140.123.9.249 (140.123.9.249)  6.096 ms  2.687 ms  2.587 ms\n 4  140.123.0.246 (140.123.0.246)  4.322 ms  6.168 ms  3.641 ms\n 5  140.130.252.251 (140.130.252.251)  7.221 ms  6.492 ms  7.186 ms\n 6  211-22-226-198.caw1-3332.hinet.net (211.22.226.198)  7.590 ms  8.926 ms  6.253 ms\n 7  * * *\n 8  * * *\n 9  220-128-8-10.tyfo-3031.hinet.net (220.128.8.10)  12.736 ms  14.035 ms  13.191 ms\n10  220-128-8-5.clpy-3331.hinet.net (220.128.8.5)  10.650 ms  11.482 ms  10.900 ms\n11  211-22-224-109.hinet-ip.hinet.net (211.22.224.109)  18.807 ms  10.467 ms  12.329 ms\n12  203-66-32-199.hinet-ip.hinet.net (203.66.32.199)  10.856 ms  11.209 ms  10.553 ms\n",
+  "category": "government_central",
+  "base_domain": "president.gov.tw",
+  "service_variant": "www.president.gov.tw",
+  "is_bare_domain": false
+}

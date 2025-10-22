@@ -1,0 +1,126 @@
+{
+  "timestamp": "2025-10-21T22:02:12.607908",
+  "vantage_point": "university",
+  "target": "mail.esunbank.com.tw",
+  "target_ip": "203.67.45.163",
+  "protocol": "icmp",
+  "port": null,
+  "duration_seconds": 1.51,
+  "hops": [
+    {
+      "hop": 2,
+      "ip": "140.123.103.250",
+      "hostname": "csgate103.cs.ccu.edu.tw",
+      "rtts": [
+        2.34,
+        2.301,
+        4.24
+      ],
+      "avg_rtt": 2.96,
+      "timeout": false
+    },
+    {
+      "hop": 3,
+      "ip": "140.123.9.249",
+      "hostname": "140.123.9.249",
+      "rtts": [
+        5.871,
+        2.493,
+        2.352
+      ],
+      "avg_rtt": 3.57,
+      "timeout": false
+    },
+    {
+      "hop": 4,
+      "ip": "140.123.0.246",
+      "hostname": "140.123.0.246",
+      "rtts": [
+        3.063,
+        3.926,
+        3.676
+      ],
+      "avg_rtt": 3.56,
+      "timeout": false
+    },
+    {
+      "hop": 5,
+      "ip": "140.130.252.251",
+      "hostname": "140.130.252.251",
+      "rtts": [
+        4.258,
+        7.928,
+        8.936
+      ],
+      "avg_rtt": 7.04,
+      "timeout": false
+    },
+    {
+      "hop": 6,
+      "ip": "140.123.231.126",
+      "hostname": "140.123.231.126",
+      "rtts": [
+        13.985,
+        10.985,
+        32.643
+      ],
+      "avg_rtt": 19.2,
+      "timeout": false
+    },
+    {
+      "hop": 7,
+      "ip": "139.175.57.117",
+      "hostname": "r57-117.seed.net.tw",
+      "rtts": [
+        13.728,
+        18.711,
+        12.006
+      ],
+      "avg_rtt": 14.81,
+      "timeout": false
+    },
+    {
+      "hop": 8,
+      "ip": "139.175.57.141",
+      "hostname": "r57-141.seed.net.tw",
+      "rtts": [
+        16.33,
+        14.757,
+        12.88
+      ],
+      "avg_rtt": 14.66,
+      "timeout": false
+    },
+    {
+      "hop": 9,
+      "ip": "192.72.216.30",
+      "hostname": "192.72.216.30",
+      "rtts": [
+        13.437,
+        16.061,
+        11.687
+      ],
+      "avg_rtt": 13.73,
+      "timeout": false
+    },
+    {
+      "hop": 10,
+      "ip": "203.67.45.163",
+      "hostname": "mail.email.esunbank.com.tw",
+      "rtts": [
+        14.07,
+        12.251,
+        20.59
+      ],
+      "avg_rtt": 15.64,
+      "timeout": false
+    }
+  ],
+  "num_hops": 9,
+  "success": true,
+  "raw_output": " 1  192.168.50.1 (192.168.50.1)  15.021 ms  3.042 ms  3.049 ms\n 2  csgate103.cs.ccu.edu.tw (140.123.103.250)  2.340 ms  2.301 ms  4.240 ms\n 3  140.123.9.249 (140.123.9.249)  5.871 ms  2.493 ms  2.352 ms\n 4  140.123.0.246 (140.123.0.246)  3.063 ms  3.926 ms  3.676 ms\n 5  140.130.252.251 (140.130.252.251)  4.258 ms  7.928 ms  8.936 ms\n 6  140.123.231.126 (140.123.231.126)  13.985 ms  10.985 ms  32.643 ms\n 7  r57-117.seed.net.tw (139.175.57.117)  13.728 ms  18.711 ms  12.006 ms\n 8  r57-141.seed.net.tw (139.175.57.141)  16.330 ms  14.757 ms  12.880 ms\n 9  192.72.216.30 (192.72.216.30)  13.437 ms  16.061 ms  11.687 ms\n10  mail.email.esunbank.com.tw (203.67.45.163)  14.070 ms  12.251 ms  20.590 ms\n",
+  "category": "financial_banks",
+  "base_domain": "esunbank.com.tw",
+  "service_variant": "mail.esunbank.com.tw",
+  "is_bare_domain": false
+}

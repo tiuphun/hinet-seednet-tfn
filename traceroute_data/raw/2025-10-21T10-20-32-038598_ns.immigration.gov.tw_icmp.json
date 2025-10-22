@@ -1,0 +1,125 @@
+{
+  "timestamp": "2025-10-21T10:20:32.038598",
+  "vantage_point": "university",
+  "target": "ns.immigration.gov.tw",
+  "target_ip": "210.241.79.7",
+  "protocol": "icmp",
+  "port": null,
+  "duration_seconds": 3.25,
+  "hops": [
+    {
+      "hop": 2,
+      "ip": "140.123.103.250",
+      "hostname": "csgate103.cs.ccu.edu.tw",
+      "rtts": [
+        2.369,
+        2.431,
+        2.321
+      ],
+      "avg_rtt": 2.37,
+      "timeout": false
+    },
+    {
+      "hop": 3,
+      "ip": "140.123.9.249",
+      "hostname": "140.123.9.249",
+      "rtts": [
+        2.556,
+        2.852,
+        2.459
+      ],
+      "avg_rtt": 2.62,
+      "timeout": false
+    },
+    {
+      "hop": 4,
+      "ip": "140.123.0.246",
+      "hostname": "140.123.0.246",
+      "rtts": [
+        3.064,
+        2.94,
+        3.824
+      ],
+      "avg_rtt": 3.28,
+      "timeout": false
+    },
+    {
+      "hop": 5,
+      "ip": "140.130.252.251",
+      "hostname": "140.130.252.251",
+      "rtts": [
+        3.608,
+        3.542,
+        4.647
+      ],
+      "avg_rtt": 3.93,
+      "timeout": false
+    },
+    {
+      "hop": 6,
+      "ip": "192.192.61.142",
+      "hostname": "192.192.61.142",
+      "rtts": [
+        5.374,
+        5.288,
+        5.358
+      ],
+      "avg_rtt": 5.34,
+      "timeout": false
+    },
+    {
+      "hop": 7,
+      "ip": "192.192.61.37",
+      "hostname": "192.192.61.37",
+      "rtts": [
+        6.498,
+        7.156,
+        6.81
+      ],
+      "avg_rtt": 6.82,
+      "timeout": false
+    },
+    {
+      "hop": 8,
+      "ip": "192.192.61.32",
+      "hostname": "192.192.61.32",
+      "rtts": [
+        7.597,
+        7.772,
+        7.454
+      ],
+      "avg_rtt": 7.61,
+      "timeout": false
+    },
+    {
+      "hop": 9,
+      "ip": "192.192.61.209",
+      "hostname": "192.192.61.209",
+      "rtts": [
+        7.829,
+        7.656,
+        7.945
+      ],
+      "avg_rtt": 7.81,
+      "timeout": false
+    },
+    {
+      "hop": 10,
+      "ip": "10.96.81.12",
+      "hostname": "10.96.81.12",
+      "rtts": [
+        9.242,
+        9.176
+      ],
+      "avg_rtt": 9.21,
+      "timeout": false
+    }
+  ],
+  "num_hops": 9,
+  "success": false,
+  "raw_output": " 1  192.168.50.1 (192.168.50.1)  5.359 ms  2.516 ms  2.026 ms\n 2  csgate103.cs.ccu.edu.tw (140.123.103.250)  2.369 ms  2.431 ms  2.321 ms\n 3  140.123.9.249 (140.123.9.249)  2.556 ms  2.852 ms  2.459 ms\n 4  140.123.0.246 (140.123.0.246)  3.064 ms  2.940 ms  3.824 ms\n 5  140.130.252.251 (140.130.252.251)  3.608 ms  3.542 ms  4.647 ms\n 6  192.192.61.142 (192.192.61.142)  5.374 ms  5.288 ms  5.358 ms\n 7  192.192.61.37 (192.192.61.37)  6.498 ms  7.156 ms  6.810 ms\n 8  192.192.61.32 (192.192.61.32)  7.597 ms  7.772 ms  7.454 ms\n 9  192.192.61.209 (192.192.61.209)  7.829 ms  7.656 ms  7.945 ms\n10  10.96.81.12 (10.96.81.12)  9.242 ms !X *  9.176 ms !X\n",
+  "category": "government_critical",
+  "base_domain": "immigration.gov.tw",
+  "service_variant": "ns.immigration.gov.tw",
+  "is_bare_domain": false
+}

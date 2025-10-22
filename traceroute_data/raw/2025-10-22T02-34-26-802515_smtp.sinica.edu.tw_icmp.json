@@ -1,0 +1,188 @@
+{
+  "timestamp": "2025-10-22T02:34:26.802515",
+  "vantage_point": "university",
+  "target": "smtp.sinica.edu.tw",
+  "target_ip": "140.109.4.80",
+  "protocol": "icmp",
+  "port": null,
+  "duration_seconds": 18.53,
+  "hops": [
+    {
+      "hop": 2,
+      "ip": "140.123.103.250",
+      "hostname": "csgate103.cs.ccu.edu.tw",
+      "rtts": [
+        2.861,
+        2.703,
+        2.696
+      ],
+      "avg_rtt": 2.75,
+      "timeout": false
+    },
+    {
+      "hop": 3,
+      "ip": "140.123.9.249",
+      "hostname": "140.123.9.249",
+      "rtts": [
+        2.923,
+        3.167,
+        3.188
+      ],
+      "avg_rtt": 3.09,
+      "timeout": false
+    },
+    {
+      "hop": 4,
+      "ip": "140.123.0.246",
+      "hostname": "140.123.0.246",
+      "rtts": [
+        3.931,
+        3.584,
+        5.455
+      ],
+      "avg_rtt": 4.32,
+      "timeout": false
+    },
+    {
+      "hop": 5,
+      "ip": "140.130.252.251",
+      "hostname": "140.130.252.251",
+      "rtts": [
+        4.541,
+        6.666,
+        3.871
+      ],
+      "avg_rtt": 5.03,
+      "timeout": false
+    },
+    {
+      "hop": 6,
+      "ip": "192.192.61.142",
+      "hostname": "192.192.61.142",
+      "rtts": [
+        7.043,
+        8.199,
+        11.424
+      ],
+      "avg_rtt": 8.89,
+      "timeout": false
+    },
+    {
+      "hop": 7,
+      "ip": "192.192.61.9",
+      "hostname": "192.192.61.9",
+      "rtts": [
+        9.021,
+        6.069,
+        7.196
+      ],
+      "avg_rtt": 7.43,
+      "timeout": false
+    },
+    {
+      "hop": 8,
+      "ip": "192.192.61.30",
+      "hostname": "192.192.61.30",
+      "rtts": [
+        10.144,
+        11.838,
+        10.645
+      ],
+      "avg_rtt": 10.88,
+      "timeout": false
+    },
+    {
+      "hop": 9,
+      "ip": "192.192.61.4",
+      "hostname": "192.192.61.4",
+      "rtts": [
+        10.793,
+        7.987,
+        8.1
+      ],
+      "avg_rtt": 8.96,
+      "timeout": false
+    },
+    {
+      "hop": 10,
+      "ip": "192.192.61.209",
+      "hostname": "192.192.61.209",
+      "rtts": [
+        13.351,
+        9.924,
+        12.461
+      ],
+      "avg_rtt": 11.91,
+      "timeout": false
+    },
+    {
+      "hop": 11,
+      "ip": "10.96.81.4",
+      "hostname": "10.96.81.4",
+      "rtts": [
+        12.046,
+        29.127,
+        15.916
+      ],
+      "avg_rtt": 19.03,
+      "timeout": false
+    },
+    {
+      "hop": 12,
+      "ip": "202.169.174.50",
+      "hostname": "202.169.174.50",
+      "rtts": [
+        46.484,
+        9.658,
+        9.302
+      ],
+      "avg_rtt": 21.81,
+      "timeout": false
+    },
+    {
+      "hop": 13,
+      "ip": "202.169.174.2",
+      "hostname": "202.169.174.2",
+      "rtts": [
+        19.826,
+        18.934,
+        26.219
+      ],
+      "avg_rtt": 21.66,
+      "timeout": false
+    },
+    {
+      "hop": 14,
+      "ip": null,
+      "hostname": null,
+      "rtts": [],
+      "timeout": true
+    },
+    {
+      "hop": 15,
+      "ip": null,
+      "hostname": null,
+      "rtts": [],
+      "timeout": true
+    },
+    {
+      "hop": 16,
+      "ip": "140.109.4.80",
+      "hostname": "smtp.sinica.edu.tw",
+      "rtts": [
+        8.556,
+        10.761,
+        11.083
+      ],
+      "avg_rtt": 10.13,
+      "timeout": false
+    }
+  ],
+  "num_hops": 15,
+  "success": true,
+  "raw_output": " 1  192.168.50.1 (192.168.50.1)  22.479 ms  7.954 ms  2.747 ms\n 2  csgate103.cs.ccu.edu.tw (140.123.103.250)  2.861 ms  2.703 ms  2.696 ms\n 3  140.123.9.249 (140.123.9.249)  2.923 ms  3.167 ms  3.188 ms\n 4  140.123.0.246 (140.123.0.246)  3.931 ms  3.584 ms  5.455 ms\n 5  140.130.252.251 (140.130.252.251)  4.541 ms  6.666 ms  3.871 ms\n 6  192.192.61.142 (192.192.61.142)  7.043 ms  8.199 ms  11.424 ms\n 7  192.192.61.9 (192.192.61.9)  9.021 ms  6.069 ms  7.196 ms\n 8  192.192.61.30 (192.192.61.30)  10.144 ms  11.838 ms  10.645 ms\n 9  192.192.61.4 (192.192.61.4)  10.793 ms  7.987 ms  8.100 ms\n10  192.192.61.209 (192.192.61.209)  13.351 ms  9.924 ms  12.461 ms\n11  10.96.81.4 (10.96.81.4)  12.046 ms  29.127 ms  15.916 ms\n12  202.169.174.50 (202.169.174.50)  46.484 ms  9.658 ms  9.302 ms\n13  202.169.174.2 (202.169.174.2)  19.826 ms  18.934 ms  26.219 ms\n14  * * *\n15  * * *\n16  smtp.sinica.edu.tw (140.109.4.80)  8.556 ms  10.761 ms  11.083 ms\n",
+  "category": "education_network",
+  "base_domain": "sinica.edu.tw",
+  "service_variant": "smtp.sinica.edu.tw",
+  "is_bare_domain": false
+}

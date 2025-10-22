@@ -1,0 +1,128 @@
+{
+  "timestamp": "2025-10-22T06:56:05.390390",
+  "vantage_point": "university",
+  "target": "udn.com",
+  "target_ip": "23.42.102.253",
+  "protocol": "icmp",
+  "port": null,
+  "duration_seconds": 18.73,
+  "hops": [
+    {
+      "hop": 2,
+      "ip": "140.123.103.250",
+      "hostname": "csgate103.cs.ccu.edu.tw",
+      "rtts": [
+        2.735,
+        2.996,
+        4.891
+      ],
+      "avg_rtt": 3.54,
+      "timeout": false
+    },
+    {
+      "hop": 3,
+      "ip": "140.123.9.249",
+      "hostname": "140.123.9.249",
+      "rtts": [
+        2.108,
+        4.131,
+        5.214
+      ],
+      "avg_rtt": 3.82,
+      "timeout": false
+    },
+    {
+      "hop": 4,
+      "ip": "140.123.0.246",
+      "hostname": "140.123.0.246",
+      "rtts": [
+        10.579,
+        3.236,
+        4.781
+      ],
+      "avg_rtt": 6.2,
+      "timeout": false
+    },
+    {
+      "hop": 5,
+      "ip": "140.130.252.251",
+      "hostname": "140.130.252.251",
+      "rtts": [
+        5.703,
+        5.321,
+        4.179
+      ],
+      "avg_rtt": 5.07,
+      "timeout": false
+    },
+    {
+      "hop": 6,
+      "ip": "211.22.226.198",
+      "hostname": "211-22-226-198.caw1-3332.hinet.net",
+      "rtts": [
+        5.158,
+        6.434,
+        4.26
+      ],
+      "avg_rtt": 5.28,
+      "timeout": false
+    },
+    {
+      "hop": 7,
+      "ip": null,
+      "hostname": null,
+      "rtts": [],
+      "timeout": true
+    },
+    {
+      "hop": 8,
+      "ip": null,
+      "hostname": null,
+      "rtts": [],
+      "timeout": true
+    },
+    {
+      "hop": 9,
+      "ip": "220.128.2.217",
+      "hostname": "220-128-2-217.tpdb-3335.hinet.net",
+      "rtts": [
+        11.181,
+        11.093,
+        11.614
+      ],
+      "avg_rtt": 11.3,
+      "timeout": false
+    },
+    {
+      "hop": 10,
+      "ip": "211.72.250.217",
+      "hostname": "211.72.250.217",
+      "rtts": [
+        14.97,
+        14.859,
+        16.494
+      ],
+      "avg_rtt": 15.44,
+      "timeout": false
+    },
+    {
+      "hop": 11,
+      "ip": "23.42.102.253",
+      "hostname": "a23-42-102-253.deploy.static.akamaitechnologies.com",
+      "rtts": [
+        10.13,
+        11.718,
+        17.333
+      ],
+      "avg_rtt": 13.06,
+      "timeout": false
+    }
+  ],
+  "num_hops": 10,
+  "success": true,
+  "raw_output": " 1  192.168.50.1 (192.168.50.1)  4.017 ms  2.443 ms  1.778 ms\n 2  csgate103.cs.ccu.edu.tw (140.123.103.250)  2.735 ms  2.996 ms  4.891 ms\n 3  140.123.9.249 (140.123.9.249)  2.108 ms  4.131 ms  5.214 ms\n 4  140.123.0.246 (140.123.0.246)  10.579 ms  3.236 ms  4.781 ms\n 5  140.130.252.251 (140.130.252.251)  5.703 ms  5.321 ms  4.179 ms\n 6  211-22-226-198.caw1-3332.hinet.net (211.22.226.198)  5.158 ms  6.434 ms  4.260 ms\n 7  * * *\n 8  * * *\n 9  220-128-2-217.tpdb-3335.hinet.net (220.128.2.217)  11.181 ms  11.093 ms  11.614 ms\n10  211.72.250.217 (211.72.250.217)  14.970 ms  14.859 ms  16.494 ms\n11  a23-42-102-253.deploy.static.akamaitechnologies.com (23.42.102.253)  10.130 ms  11.718 ms  17.333 ms\n",
+  "category": "media",
+  "base_domain": "udn.com",
+  "service_variant": "udn.com",
+  "is_bare_domain": true
+}

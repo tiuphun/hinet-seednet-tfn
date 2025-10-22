@@ -1,0 +1,244 @@
+{
+  "timestamp": "2025-10-15T15:13:17.288529",
+  "vantage_point": "itaiwan",
+  "target": "youtube.com",
+  "target_ip": "142.250.204.46",
+  "protocol": "icmp",
+  "port": null,
+  "duration_seconds": 0.87,
+  "hops": [
+    {
+      "hop": 2,
+      "ip": "140.123.103.250",
+      "hostname": "csgate103.cs.ccu.edu.tw",
+      "rtts": [
+        2.037,
+        4.464,
+        1.94
+      ],
+      "avg_rtt": 2.81,
+      "timeout": false,
+      "network": "university",
+      "network_name": "Taiwan Universities",
+      "is_interesting": true,
+      "is_private": false
+    },
+    {
+      "hop": 3,
+      "ip": "140.123.9.249",
+      "hostname": "140.123.9.249",
+      "rtts": [
+        2.126,
+        2.108,
+        2.182
+      ],
+      "avg_rtt": 2.14,
+      "timeout": false,
+      "network": "other",
+      "network_name": "Other Network",
+      "is_interesting": false,
+      "is_private": false
+    },
+    {
+      "hop": 4,
+      "ip": "140.123.0.246",
+      "hostname": "140.123.0.246",
+      "rtts": [
+        3.296,
+        3.346,
+        2.981
+      ],
+      "avg_rtt": 3.21,
+      "timeout": false,
+      "network": "other",
+      "network_name": "Other Network",
+      "is_interesting": false,
+      "is_private": false
+    },
+    {
+      "hop": 5,
+      "ip": "140.130.252.251",
+      "hostname": "140.130.252.251",
+      "rtts": [
+        3.17,
+        4.552,
+        3.561
+      ],
+      "avg_rtt": 3.76,
+      "timeout": false,
+      "network": "other",
+      "network_name": "Other Network",
+      "is_interesting": false,
+      "is_private": false
+    },
+    {
+      "hop": 6,
+      "ip": "192.192.61.142",
+      "hostname": "192.192.61.142",
+      "rtts": [
+        5.636,
+        4.793,
+        4.861
+      ],
+      "avg_rtt": 5.1,
+      "timeout": false,
+      "network": "other",
+      "network_name": "Other Network",
+      "is_interesting": false,
+      "is_private": false
+    },
+    {
+      "hop": 7,
+      "ip": "192.192.61.20",
+      "hostname": "192.192.61.20",
+      "rtts": [
+        7.143,
+        7.309,
+        6.999
+      ],
+      "avg_rtt": 7.15,
+      "timeout": false,
+      "network": "other",
+      "network_name": "Other Network",
+      "is_interesting": false,
+      "is_private": false
+    },
+    {
+      "hop": 8,
+      "ip": "192.192.61.184",
+      "hostname": "192.192.61.184",
+      "rtts": [
+        8.528,
+        8.459,
+        8.298
+      ],
+      "avg_rtt": 8.43,
+      "timeout": false,
+      "network": "other",
+      "network_name": "Other Network",
+      "is_interesting": false,
+      "is_private": false
+    },
+    {
+      "hop": 9,
+      "ip": "192.192.61.203",
+      "hostname": "192.192.61.203",
+      "rtts": [
+        7.47,
+        7.278,
+        7.574
+      ],
+      "avg_rtt": 7.44,
+      "timeout": false,
+      "network": "other",
+      "network_name": "Other Network",
+      "is_interesting": false,
+      "is_private": false
+    },
+    {
+      "hop": 10,
+      "ip": "72.14.196.229",
+      "hostname": "72.14.196.229",
+      "rtts": [
+        9.395,
+        9.115,
+        7.912
+      ],
+      "avg_rtt": 8.81,
+      "timeout": false,
+      "network": "other",
+      "network_name": "Other Network",
+      "is_interesting": false,
+      "is_private": false
+    },
+    {
+      "hop": 11,
+      "ip": "172.253.64.127",
+      "hostname": "172.253.64.127",
+      "rtts": [
+        8.571,
+        8.784,
+        8.443
+      ],
+      "avg_rtt": 8.6,
+      "timeout": false,
+      "network": "other",
+      "network_name": "Other Network",
+      "is_interesting": false,
+      "is_private": false
+    },
+    {
+      "hop": 12,
+      "ip": "142.251.226.169",
+      "hostname": "142.251.226.169",
+      "rtts": [
+        7.402,
+        7.806,
+        7.868
+      ],
+      "avg_rtt": 7.69,
+      "timeout": false,
+      "network": "other",
+      "network_name": "Other Network",
+      "is_interesting": false,
+      "is_private": false
+    },
+    {
+      "hop": 13,
+      "ip": "142.250.204.46",
+      "hostname": "hkg07s38-in-f14.1e100.net",
+      "rtts": [
+        7.447,
+        8.249,
+        7.944
+      ],
+      "avg_rtt": 7.88,
+      "timeout": false,
+      "network": "other",
+      "network_name": "Other Network",
+      "is_interesting": false,
+      "is_private": false
+    }
+  ],
+  "num_hops": 12,
+  "success": true,
+  "path_analysis": {
+    "networks_traversed": [
+      {
+        "network": "university",
+        "network_name": "Taiwan Universities",
+        "first_hop": 2
+      },
+      {
+        "network": "other",
+        "network_name": "Other Network",
+        "first_hop": 3
+      }
+    ],
+    "interesting_routers": [
+      {
+        "hop": 2,
+        "ip": "140.123.103.250",
+        "hostname": "csgate103.cs.ccu.edu.tw",
+        "network": "university",
+        "network_name": "Taiwan Universities"
+      }
+    ],
+    "private_hops": 0,
+    "total_hops": 12,
+    "network_transitions": [
+      {
+        "hop": 3,
+        "from": "university",
+        "to": "other",
+        "from_ip": "140.123.9.249",
+        "to_ip": "140.123.9.249"
+      }
+    ]
+  },
+  "raw_output": " 1  192.168.50.1 (192.168.50.1)  2.470 ms  1.850 ms  1.989 ms\n 2  csgate103.cs.ccu.edu.tw (140.123.103.250)  2.037 ms  4.464 ms  1.940 ms\n 3  140.123.9.249 (140.123.9.249)  2.126 ms  2.108 ms  2.182 ms\n 4  140.123.0.246 (140.123.0.246)  3.296 ms  3.346 ms  2.981 ms\n 5  140.130.252.251 (140.130.252.251)  3.170 ms  4.552 ms  3.561 ms\n 6  192.192.61.142 (192.192.61.142)  5.636 ms  4.793 ms  4.861 ms\n 7  192.192.61.20 (192.192.61.20)  7.143 ms  7.309 ms  6.999 ms\n 8  192.192.61.184 (192.192.61.184)  8.528 ms  8.459 ms  8.298 ms\n 9  192.192.61.203 (192.192.61.203)  7.470 ms  7.278 ms  7.574 ms\n10  72.14.196.229 (72.14.196.229)  9.395 ms  9.115 ms  7.912 ms\n11  172.253.64.127 (172.253.64.127)  8.571 ms  8.784 ms  8.443 ms\n12  142.251.226.169 (142.251.226.169)  7.402 ms  7.806 ms  7.868 ms\n13  hkg07s38-in-f14.1e100.net (142.250.204.46)  7.447 ms  8.249 ms  7.944 ms\n",
+  "category": "cdn_global",
+  "base_domain": "youtube.com",
+  "service_variant": "youtube.com",
+  "is_bare_domain": true
+}

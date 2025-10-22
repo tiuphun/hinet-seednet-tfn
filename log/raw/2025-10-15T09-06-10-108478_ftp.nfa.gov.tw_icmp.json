@@ -1,0 +1,137 @@
+{
+  "timestamp": "2025-10-15T09:06:10.108478",
+  "vantage_point": "university",
+  "target": "ftp.nfa.gov.tw",
+  "target_ip": "124.199.65.95",
+  "protocol": "icmp",
+  "port": null,
+  "duration_seconds": 3.29,
+  "hops": [
+    {
+      "hop": 2,
+      "ip": "140.123.103.250",
+      "hostname": null,
+      "rtts": [
+        3.909,
+        2.437,
+        3.176
+      ],
+      "avg_rtt": 3.17,
+      "timeout": false
+    },
+    {
+      "hop": 3,
+      "ip": "140.123.9.249",
+      "hostname": null,
+      "rtts": [
+        8.409,
+        2.941,
+        5.22
+      ],
+      "avg_rtt": 5.52,
+      "timeout": false
+    },
+    {
+      "hop": 4,
+      "ip": "140.123.0.246",
+      "hostname": null,
+      "rtts": [
+        5.463,
+        6.708,
+        3.98
+      ],
+      "avg_rtt": 5.38,
+      "timeout": false
+    },
+    {
+      "hop": 5,
+      "ip": "140.130.252.251",
+      "hostname": null,
+      "rtts": [
+        3.664,
+        5.79,
+        9.628
+      ],
+      "avg_rtt": 6.36,
+      "timeout": false
+    },
+    {
+      "hop": 6,
+      "ip": "192.192.61.142",
+      "hostname": null,
+      "rtts": [
+        6.616,
+        5.61,
+        5.955
+      ],
+      "avg_rtt": 6.06,
+      "timeout": false
+    },
+    {
+      "hop": 7,
+      "ip": "192.192.61.9",
+      "hostname": null,
+      "rtts": [
+        10.157,
+        8.375,
+        8.625
+      ],
+      "avg_rtt": 9.05,
+      "timeout": false
+    },
+    {
+      "hop": 8,
+      "ip": "192.192.61.30",
+      "hostname": null,
+      "rtts": [
+        11.975,
+        33.335,
+        6.711
+      ],
+      "avg_rtt": 17.34,
+      "timeout": false
+    },
+    {
+      "hop": 9,
+      "ip": "192.192.61.4",
+      "hostname": null,
+      "rtts": [
+        8.962,
+        8.327,
+        7.999
+      ],
+      "avg_rtt": 8.43,
+      "timeout": false
+    },
+    {
+      "hop": 10,
+      "ip": "192.192.61.209",
+      "hostname": null,
+      "rtts": [
+        7.134,
+        12.247,
+        6.657
+      ],
+      "avg_rtt": 8.68,
+      "timeout": false
+    },
+    {
+      "hop": 11,
+      "ip": "10.96.81.12",
+      "hostname": null,
+      "rtts": [
+        13.521,
+        18.581
+      ],
+      "avg_rtt": 16.05,
+      "timeout": false
+    }
+  ],
+  "num_hops": 10,
+  "success": false,
+  "raw_output": " 1  192.168.50.1  10.932 ms  5.494 ms  9.488 ms\n 2  140.123.103.250  3.909 ms  2.437 ms  3.176 ms\n 3  140.123.9.249  8.409 ms  2.941 ms  5.220 ms\n 4  140.123.0.246  5.463 ms  6.708 ms  3.980 ms\n 5  140.130.252.251  3.664 ms  5.790 ms  9.628 ms\n 6  192.192.61.142  6.616 ms  5.610 ms  5.955 ms\n 7  192.192.61.9  10.157 ms  8.375 ms  8.625 ms\n 8  192.192.61.30  11.975 ms  33.335 ms  6.711 ms\n 9  192.192.61.4  8.962 ms  8.327 ms  7.999 ms\n10  192.192.61.209  7.134 ms  12.247 ms  6.657 ms\n11  10.96.81.12  13.521 ms !X *  18.581 ms !X\n",
+  "category": "government_critical",
+  "base_domain": "nfa.gov.tw",
+  "service_variant": "ftp.nfa.gov.tw",
+  "is_bare_domain": false
+}

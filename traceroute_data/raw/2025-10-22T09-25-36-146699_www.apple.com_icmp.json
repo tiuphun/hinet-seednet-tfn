@@ -1,0 +1,109 @@
+{
+  "timestamp": "2025-10-22T09:25:36.146699",
+  "vantage_point": "university",
+  "target": "www.apple.com",
+  "target_ip": "163.28.224.36",
+  "protocol": "icmp",
+  "port": null,
+  "duration_seconds": 3.28,
+  "hops": [
+    {
+      "hop": 2,
+      "ip": null,
+      "hostname": null,
+      "rtts": [],
+      "timeout": true
+    },
+    {
+      "hop": 3,
+      "ip": "140.123.9.249",
+      "hostname": "140.123.9.249",
+      "rtts": [
+        17.247,
+        7.715,
+        2.969
+      ],
+      "avg_rtt": 9.31,
+      "timeout": false
+    },
+    {
+      "hop": 4,
+      "ip": "140.123.0.246",
+      "hostname": "140.123.0.246",
+      "rtts": [
+        5.489,
+        3.243,
+        6.316
+      ],
+      "avg_rtt": 5.02,
+      "timeout": false
+    },
+    {
+      "hop": 5,
+      "ip": "140.130.252.251",
+      "hostname": "140.130.252.251",
+      "rtts": [
+        14.141,
+        6.487,
+        4.748
+      ],
+      "avg_rtt": 8.46,
+      "timeout": false
+    },
+    {
+      "hop": 6,
+      "ip": "192.192.61.142",
+      "hostname": "192.192.61.142",
+      "rtts": [
+        11.839,
+        5.614,
+        10.152
+      ],
+      "avg_rtt": 9.2,
+      "timeout": false
+    },
+    {
+      "hop": 7,
+      "ip": "192.192.61.20",
+      "hostname": "192.192.61.20",
+      "rtts": [
+        8.069,
+        29.06,
+        7.924
+      ],
+      "avg_rtt": 15.02,
+      "timeout": false
+    },
+    {
+      "hop": 8,
+      "ip": "192.192.61.48",
+      "hostname": "192.192.61.48",
+      "rtts": [
+        27.491,
+        12.028,
+        9.25
+      ],
+      "avg_rtt": 16.26,
+      "timeout": false
+    },
+    {
+      "hop": 9,
+      "ip": "163.28.224.36",
+      "hostname": "163.28.224.36",
+      "rtts": [
+        9.238,
+        7.536,
+        9.886
+      ],
+      "avg_rtt": 8.89,
+      "timeout": false
+    }
+  ],
+  "num_hops": 8,
+  "success": true,
+  "raw_output": " 1  192.168.50.1 (192.168.50.1)  2.475 ms  2.073 ms  3.073 ms\n 2  * csgate103.cs.ccu.edu.tw (140.123.103.250)  3.458 ms  5.024 ms\n 3  140.123.9.249 (140.123.9.249)  17.247 ms  7.715 ms  2.969 ms\n 4  140.123.0.246 (140.123.0.246)  5.489 ms  3.243 ms  6.316 ms\n 5  140.130.252.251 (140.130.252.251)  14.141 ms  6.487 ms  4.748 ms\n 6  192.192.61.142 (192.192.61.142)  11.839 ms  5.614 ms  10.152 ms\n 7  192.192.61.20 (192.192.61.20)  8.069 ms  29.060 ms  7.924 ms\n 8  192.192.61.48 (192.192.61.48)  27.491 ms  12.028 ms  9.250 ms\n 9  163.28.224.36 (163.28.224.36)  9.238 ms  7.536 ms  9.886 ms\n",
+  "category": "cdn_global",
+  "base_domain": "apple.com",
+  "service_variant": "www.apple.com",
+  "is_bare_domain": false
+}

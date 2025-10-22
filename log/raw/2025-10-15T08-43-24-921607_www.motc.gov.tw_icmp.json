@@ -1,0 +1,121 @@
+{
+  "timestamp": "2025-10-15T08:43:24.921607",
+  "vantage_point": "university",
+  "target": "www.motc.gov.tw",
+  "target_ip": "203.66.35.110",
+  "protocol": "icmp",
+  "port": null,
+  "duration_seconds": 9.21,
+  "hops": [
+    {
+      "hop": 2,
+      "ip": "140.123.103.250",
+      "hostname": null,
+      "rtts": [
+        5.285,
+        3.239,
+        12.718
+      ],
+      "avg_rtt": 7.08,
+      "timeout": false
+    },
+    {
+      "hop": 3,
+      "ip": "140.123.9.249",
+      "hostname": null,
+      "rtts": [
+        3.002,
+        3.306,
+        2.861
+      ],
+      "avg_rtt": 3.06,
+      "timeout": false
+    },
+    {
+      "hop": 4,
+      "ip": "140.123.0.246",
+      "hostname": null,
+      "rtts": [
+        4.201,
+        3.376,
+        3.386
+      ],
+      "avg_rtt": 3.65,
+      "timeout": false
+    },
+    {
+      "hop": 5,
+      "ip": "140.130.252.251",
+      "hostname": null,
+      "rtts": [
+        5.106,
+        4.422,
+        3.922
+      ],
+      "avg_rtt": 4.48,
+      "timeout": false
+    },
+    {
+      "hop": 6,
+      "ip": "211.22.226.198",
+      "hostname": null,
+      "rtts": [
+        5.15,
+        4.896,
+        6.847
+      ],
+      "avg_rtt": 5.63,
+      "timeout": false
+    },
+    {
+      "hop": 7,
+      "ip": null,
+      "hostname": null,
+      "rtts": [],
+      "timeout": true
+    },
+    {
+      "hop": 8,
+      "ip": "220.128.26.57",
+      "hostname": null,
+      "rtts": [
+        13.247,
+        8.152,
+        6.158
+      ],
+      "avg_rtt": 9.19,
+      "timeout": false
+    },
+    {
+      "hop": 9,
+      "ip": "211.22.229.89",
+      "hostname": null,
+      "rtts": [
+        6.232,
+        5.432,
+        8.609
+      ],
+      "avg_rtt": 6.76,
+      "timeout": false
+    },
+    {
+      "hop": 10,
+      "ip": "203.66.35.110",
+      "hostname": null,
+      "rtts": [
+        7.727,
+        9.379,
+        5.241
+      ],
+      "avg_rtt": 7.45,
+      "timeout": false
+    }
+  ],
+  "num_hops": 9,
+  "success": true,
+  "raw_output": " 1  192.168.50.1  12.298 ms  3.686 ms  16.515 ms\n 2  140.123.103.250  5.285 ms  3.239 ms  12.718 ms\n 3  140.123.9.249  3.002 ms  3.306 ms  2.861 ms\n 4  140.123.0.246  4.201 ms  3.376 ms  3.386 ms\n 5  140.130.252.251  5.106 ms  4.422 ms  3.922 ms\n 6  211.22.226.198  5.150 ms  4.896 ms  6.847 ms\n 7  * * *\n 8  220.128.26.57  13.247 ms  8.152 ms  6.158 ms\n 9  211.22.229.89  6.232 ms  5.432 ms  8.609 ms\n10  203.66.35.110  7.727 ms  9.379 ms  5.241 ms\n",
+  "category": "government_central",
+  "base_domain": "motc.gov.tw",
+  "service_variant": "www.motc.gov.tw",
+  "is_bare_domain": false
+}

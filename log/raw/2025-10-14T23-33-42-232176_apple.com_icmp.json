@@ -1,0 +1,150 @@
+{
+  "timestamp": "2025-10-14T23:33:42.232176",
+  "vantage_point": "university",
+  "target": "apple.com",
+  "target_ip": "17.253.144.10",
+  "protocol": "icmp",
+  "port": null,
+  "duration_seconds": 0.27,
+  "hops": [
+    {
+      "hop": 2,
+      "ip": "140.123.103.250",
+      "hostname": null,
+      "rtts": [
+        4.452,
+        2.786,
+        2.665
+      ],
+      "avg_rtt": 3.3,
+      "timeout": false
+    },
+    {
+      "hop": 3,
+      "ip": "140.123.9.249",
+      "hostname": null,
+      "rtts": [
+        2.513,
+        2.375,
+        2.473
+      ],
+      "avg_rtt": 2.45,
+      "timeout": false
+    },
+    {
+      "hop": 4,
+      "ip": "140.123.0.246",
+      "hostname": null,
+      "rtts": [
+        3.413,
+        5.052,
+        3.706
+      ],
+      "avg_rtt": 4.06,
+      "timeout": false
+    },
+    {
+      "hop": 5,
+      "ip": "140.130.252.251",
+      "hostname": null,
+      "rtts": [
+        8.899,
+        4.066,
+        5.775
+      ],
+      "avg_rtt": 6.25,
+      "timeout": false
+    },
+    {
+      "hop": 6,
+      "ip": "192.192.61.142",
+      "hostname": null,
+      "rtts": [
+        5.628,
+        6.177,
+        8.593
+      ],
+      "avg_rtt": 6.8,
+      "timeout": false
+    },
+    {
+      "hop": 7,
+      "ip": "192.192.61.20",
+      "hostname": null,
+      "rtts": [
+        9.084,
+        10.035,
+        7.694
+      ],
+      "avg_rtt": 8.94,
+      "timeout": false
+    },
+    {
+      "hop": 8,
+      "ip": "192.192.61.48",
+      "hostname": null,
+      "rtts": [
+        12.709,
+        8.788,
+        9.88
+      ],
+      "avg_rtt": 10.46,
+      "timeout": false
+    },
+    {
+      "hop": 9,
+      "ip": "192.192.68.62",
+      "hostname": null,
+      "rtts": [
+        11.733,
+        11.522,
+        9.634
+      ],
+      "avg_rtt": 10.96,
+      "timeout": false
+    },
+    {
+      "hop": 10,
+      "ip": "192.192.68.28",
+      "hostname": null,
+      "rtts": [
+        8.598,
+        9.012,
+        8.436
+      ],
+      "avg_rtt": 8.68,
+      "timeout": false
+    },
+    {
+      "hop": 11,
+      "ip": "17.1.121.16",
+      "hostname": null,
+      "rtts": [
+        8.249,
+        8.994,
+        8.886
+      ],
+      "avg_rtt": 8.71,
+      "timeout": false
+    },
+    {
+      "hop": 12,
+      "ip": "17.253.144.10",
+      "hostname": null,
+      "rtts": [
+        8.789,
+        10.829,
+        8.554
+      ],
+      "avg_rtt": 9.39,
+      "timeout": false
+    }
+  ],
+  "num_hops": 11,
+  "success": true,
+  "raw_output": " 1  192.168.50.1  2.591 ms  2.790 ms  7.078 ms\n 2  140.123.103.250  4.452 ms  2.786 ms  2.665 ms\n 3  140.123.9.249  2.513 ms  2.375 ms  2.473 ms\n 4  140.123.0.246  3.413 ms  5.052 ms  3.706 ms\n 5  140.130.252.251  8.899 ms  4.066 ms  5.775 ms\n 6  192.192.61.142  5.628 ms  6.177 ms  8.593 ms\n 7  192.192.61.20  9.084 ms  10.035 ms  7.694 ms\n 8  192.192.61.48  12.709 ms  8.788 ms  9.880 ms\n 9  192.192.68.62  11.733 ms  11.522 ms  9.634 ms\n10  192.192.68.28  8.598 ms  9.012 ms  8.436 ms\n11  17.1.121.16  8.249 ms  8.994 ms  8.886 ms\n12  17.253.144.10  8.789 ms  10.829 ms  8.554 ms\n",
+  "category": "cdn_global",
+  "base_domain": "apple.com",
+  "service_variant": "apple.com",
+  "is_bare_domain": true
+}

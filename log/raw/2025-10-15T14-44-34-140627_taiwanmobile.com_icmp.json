@@ -1,0 +1,310 @@
+{
+  "timestamp": "2025-10-15T14:44:34.140627",
+  "vantage_point": "itaiwan",
+  "target": "taiwanmobile.com",
+  "target_ip": "124.29.139.21",
+  "protocol": "icmp",
+  "port": null,
+  "duration_seconds": 81.85,
+  "hops": [
+    {
+      "hop": 2,
+      "ip": "168.95.98.254",
+      "hostname": "h254.s98.ts.hinet.net",
+      "rtts": [
+        2.644,
+        2.695,
+        5.819
+      ],
+      "avg_rtt": 3.72,
+      "timeout": false,
+      "network": "hinet",
+      "network_name": "HiNet (Chunghwa Telecom)",
+      "is_interesting": true,
+      "is_private": false
+    },
+    {
+      "hop": 3,
+      "ip": "168.95.128.50",
+      "hostname": "168-95-128-50.caw1-3331.hinet.net",
+      "rtts": [
+        3.006,
+        2.864,
+        3.13
+      ],
+      "avg_rtt": 3.0,
+      "timeout": false,
+      "network": "hinet",
+      "network_name": "HiNet (Chunghwa Telecom)",
+      "is_interesting": true,
+      "is_private": false
+    },
+    {
+      "hop": 4,
+      "ip": null,
+      "hostname": null,
+      "rtts": [],
+      "timeout": true
+    },
+    {
+      "hop": 5,
+      "ip": null,
+      "hostname": null,
+      "rtts": [],
+      "timeout": true
+    },
+    {
+      "hop": 6,
+      "ip": "220.128.1.105",
+      "hostname": "220-128-1-105.tpdb-4211.hinet.net",
+      "rtts": [
+        12.547,
+        9.449,
+        9.42
+      ],
+      "avg_rtt": 10.47,
+      "timeout": false,
+      "network": "hinet",
+      "network_name": "HiNet (Chunghwa Telecom)",
+      "is_interesting": true,
+      "is_private": false
+    },
+    {
+      "hop": 7,
+      "ip": "203.75.230.109",
+      "hostname": "203-75-230-109.hinet-ip.hinet.net",
+      "rtts": [
+        10.687,
+        10.099,
+        9.954
+      ],
+      "avg_rtt": 10.25,
+      "timeout": false,
+      "network": "hinet",
+      "network_name": "HiNet (Chunghwa Telecom)",
+      "is_interesting": true,
+      "is_private": false
+    },
+    {
+      "hop": 8,
+      "ip": "60.199.3.57",
+      "hostname": "60-199-3-57.static.tfn.net.tw",
+      "rtts": [
+        10.416,
+        19.368,
+        23.69
+      ],
+      "avg_rtt": 17.82,
+      "timeout": false,
+      "network": "other",
+      "network_name": "Other Network",
+      "is_interesting": false,
+      "is_private": false
+    },
+    {
+      "hop": 9,
+      "ip": "60.199.6.98",
+      "hostname": "60-199-6-98.static.tfn.net.tw",
+      "rtts": [
+        21.068,
+        20.071,
+        18.532
+      ],
+      "avg_rtt": 19.89,
+      "timeout": false,
+      "network": "other",
+      "network_name": "Other Network",
+      "is_interesting": false,
+      "is_private": false
+    },
+    {
+      "hop": 10,
+      "ip": "60.199.82.13",
+      "hostname": "60-199-82-13.static.tfn.net.tw",
+      "rtts": [
+        25.078,
+        17.873,
+        15.416
+      ],
+      "avg_rtt": 19.46,
+      "timeout": false,
+      "network": "other",
+      "network_name": "Other Network",
+      "is_interesting": false,
+      "is_private": false
+    },
+    {
+      "hop": 11,
+      "ip": "60.199.20.105",
+      "hostname": "60-199-20-105.static.tfn.net.tw",
+      "rtts": [
+        14.99,
+        11.213,
+        10.696
+      ],
+      "avg_rtt": 12.3,
+      "timeout": false,
+      "network": "other",
+      "network_name": "Other Network",
+      "is_interesting": false,
+      "is_private": false
+    },
+    {
+      "hop": 12,
+      "ip": "60.199.21.42",
+      "hostname": "60-199-21-42.static.tfn.net.tw",
+      "rtts": [
+        10.176,
+        10.101,
+        12.045
+      ],
+      "avg_rtt": 10.77,
+      "timeout": false,
+      "network": "other",
+      "network_name": "Other Network",
+      "is_interesting": false,
+      "is_private": false
+    },
+    {
+      "hop": 13,
+      "ip": "60.199.14.10",
+      "hostname": "60-199-14-10.static.tfn.net.tw",
+      "rtts": [
+        14.606,
+        9.793,
+        10.39
+      ],
+      "avg_rtt": 11.6,
+      "timeout": false,
+      "network": "other",
+      "network_name": "Other Network",
+      "is_interesting": false,
+      "is_private": false
+    },
+    {
+      "hop": 14,
+      "ip": "219.80.116.246",
+      "hostname": "219-80-116-246.static.tfn.net.tw",
+      "rtts": [
+        10.392
+      ],
+      "avg_rtt": 10.39,
+      "timeout": false,
+      "network": "other",
+      "network_name": "Other Network",
+      "is_interesting": false,
+      "is_private": false
+    },
+    {
+      "hop": 15,
+      "ip": null,
+      "hostname": null,
+      "rtts": [],
+      "timeout": true
+    },
+    {
+      "hop": 16,
+      "ip": null,
+      "hostname": null,
+      "rtts": [],
+      "timeout": true
+    },
+    {
+      "hop": 17,
+      "ip": null,
+      "hostname": null,
+      "rtts": [],
+      "timeout": true
+    },
+    {
+      "hop": 18,
+      "ip": null,
+      "hostname": null,
+      "rtts": [],
+      "timeout": true
+    },
+    {
+      "hop": 19,
+      "ip": null,
+      "hostname": null,
+      "rtts": [],
+      "timeout": true
+    },
+    {
+      "hop": 20,
+      "ip": null,
+      "hostname": null,
+      "rtts": [],
+      "timeout": true
+    },
+    {
+      "hop": 21,
+      "ip": null,
+      "hostname": null,
+      "rtts": [],
+      "timeout": true
+    }
+  ],
+  "num_hops": 20,
+  "success": false,
+  "path_analysis": {
+    "networks_traversed": [
+      {
+        "network": "hinet",
+        "network_name": "HiNet (Chunghwa Telecom)",
+        "first_hop": 2
+      },
+      {
+        "network": "other",
+        "network_name": "Other Network",
+        "first_hop": 8
+      }
+    ],
+    "interesting_routers": [
+      {
+        "hop": 2,
+        "ip": "168.95.98.254",
+        "hostname": "h254.s98.ts.hinet.net",
+        "network": "hinet",
+        "network_name": "HiNet (Chunghwa Telecom)"
+      },
+      {
+        "hop": 3,
+        "ip": "168.95.128.50",
+        "hostname": "168-95-128-50.caw1-3331.hinet.net",
+        "network": "hinet",
+        "network_name": "HiNet (Chunghwa Telecom)"
+      },
+      {
+        "hop": 6,
+        "ip": "220.128.1.105",
+        "hostname": "220-128-1-105.tpdb-4211.hinet.net",
+        "network": "hinet",
+        "network_name": "HiNet (Chunghwa Telecom)"
+      },
+      {
+        "hop": 7,
+        "ip": "203.75.230.109",
+        "hostname": "203-75-230-109.hinet-ip.hinet.net",
+        "network": "hinet",
+        "network_name": "HiNet (Chunghwa Telecom)"
+      }
+    ],
+    "private_hops": 0,
+    "total_hops": 20,
+    "network_transitions": [
+      {
+        "hop": 8,
+        "from": "hinet",
+        "to": "other",
+        "from_ip": "60.199.3.57",
+        "to_ip": "60.199.3.57"
+      }
+    ]
+  },
+  "raw_output": " 1  172.16.193.250 (172.16.193.250)  2.236 ms  2.125 ms  2.077 ms\n 2  h254.s98.ts.hinet.net (168.95.98.254)  2.644 ms  2.695 ms  5.819 ms\n 3  168-95-128-50.caw1-3331.hinet.net (168.95.128.50)  3.006 ms  2.864 ms  3.130 ms\n 4  * * *\n 5  * * *\n 6  220-128-1-105.tpdb-4211.hinet.net (220.128.1.105)  12.547 ms  9.449 ms  9.420 ms\n 7  203-75-230-109.hinet-ip.hinet.net (203.75.230.109)  10.687 ms  10.099 ms  9.954 ms\n 8  60-199-3-57.static.tfn.net.tw (60.199.3.57)  10.416 ms  19.368 ms  23.690 ms\n 9  60-199-6-98.static.tfn.net.tw (60.199.6.98)  21.068 ms  20.071 ms  18.532 ms\n10  60-199-82-13.static.tfn.net.tw (60.199.82.13)  25.078 ms  17.873 ms  15.416 ms\n11  60-199-20-105.static.tfn.net.tw (60.199.20.105)  14.990 ms  11.213 ms  10.696 ms\n12  60-199-21-42.static.tfn.net.tw (60.199.21.42)  10.176 ms  10.101 ms  12.045 ms\n13  60-199-14-10.static.tfn.net.tw (60.199.14.10)  14.606 ms  9.793 ms  10.390 ms\n14  219-80-116-246.static.tfn.net.tw (219.80.116.246)  10.392 ms * *\n15  * * *\n16  * * *\n17  * * *\n18  * * *\n19  * * *\n20  * * *\n21  * 124.29.139.21 (124.29.139.21)  14.918 ms  11.136 ms\n",
+  "category": "telecom",
+  "base_domain": "taiwanmobile.com",
+  "service_variant": "taiwanmobile.com",
+  "is_bare_domain": true
+}

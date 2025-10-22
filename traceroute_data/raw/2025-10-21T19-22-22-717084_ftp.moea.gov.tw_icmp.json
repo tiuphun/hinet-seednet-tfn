@@ -1,0 +1,125 @@
+{
+  "timestamp": "2025-10-21T19:22:22.717084",
+  "vantage_point": "university",
+  "target": "ftp.moea.gov.tw",
+  "target_ip": "210.69.122.2",
+  "protocol": "icmp",
+  "port": null,
+  "duration_seconds": 3.39,
+  "hops": [
+    {
+      "hop": 2,
+      "ip": "140.123.103.250",
+      "hostname": "csgate103.cs.ccu.edu.tw",
+      "rtts": [
+        3.433,
+        2.426,
+        5.685
+      ],
+      "avg_rtt": 3.85,
+      "timeout": false
+    },
+    {
+      "hop": 3,
+      "ip": "140.123.9.249",
+      "hostname": "140.123.9.249",
+      "rtts": [
+        4.317,
+        3.707,
+        2.574
+      ],
+      "avg_rtt": 3.53,
+      "timeout": false
+    },
+    {
+      "hop": 4,
+      "ip": "140.123.0.246",
+      "hostname": "140.123.0.246",
+      "rtts": [
+        3.42,
+        4.96,
+        3.063
+      ],
+      "avg_rtt": 3.81,
+      "timeout": false
+    },
+    {
+      "hop": 5,
+      "ip": "140.130.252.251",
+      "hostname": "140.130.252.251",
+      "rtts": [
+        4.703,
+        5.336,
+        6.352
+      ],
+      "avg_rtt": 5.46,
+      "timeout": false
+    },
+    {
+      "hop": 6,
+      "ip": "192.192.61.142",
+      "hostname": "192.192.61.142",
+      "rtts": [
+        10.408,
+        6.577,
+        9.355
+      ],
+      "avg_rtt": 8.78,
+      "timeout": false
+    },
+    {
+      "hop": 7,
+      "ip": "192.192.61.37",
+      "hostname": "192.192.61.37",
+      "rtts": [
+        7.221,
+        8.204,
+        7.073
+      ],
+      "avg_rtt": 7.5,
+      "timeout": false
+    },
+    {
+      "hop": 8,
+      "ip": "192.192.61.32",
+      "hostname": "192.192.61.32",
+      "rtts": [
+        8.114,
+        7.561,
+        7.468
+      ],
+      "avg_rtt": 7.71,
+      "timeout": false
+    },
+    {
+      "hop": 9,
+      "ip": "192.192.61.209",
+      "hostname": "192.192.61.209",
+      "rtts": [
+        11.133,
+        9.514,
+        11.056
+      ],
+      "avg_rtt": 10.57,
+      "timeout": false
+    },
+    {
+      "hop": 10,
+      "ip": "10.96.81.12",
+      "hostname": "10.96.81.12",
+      "rtts": [
+        9.554,
+        48.098
+      ],
+      "avg_rtt": 28.83,
+      "timeout": false
+    }
+  ],
+  "num_hops": 9,
+  "success": false,
+  "raw_output": " 1  192.168.50.1 (192.168.50.1)  12.231 ms  4.000 ms  3.868 ms\n 2  csgate103.cs.ccu.edu.tw (140.123.103.250)  3.433 ms  2.426 ms  5.685 ms\n 3  140.123.9.249 (140.123.9.249)  4.317 ms  3.707 ms  2.574 ms\n 4  140.123.0.246 (140.123.0.246)  3.420 ms  4.960 ms  3.063 ms\n 5  140.130.252.251 (140.130.252.251)  4.703 ms  5.336 ms  6.352 ms\n 6  192.192.61.142 (192.192.61.142)  10.408 ms  6.577 ms  9.355 ms\n 7  192.192.61.37 (192.192.61.37)  7.221 ms  8.204 ms  7.073 ms\n 8  192.192.61.32 (192.192.61.32)  8.114 ms  7.561 ms  7.468 ms\n 9  192.192.61.209 (192.192.61.209)  11.133 ms  9.514 ms  11.056 ms\n10  10.96.81.12 (10.96.81.12)  9.554 ms !X *  48.098 ms !X\n",
+  "category": "government_central",
+  "base_domain": "moea.gov.tw",
+  "service_variant": "ftp.moea.gov.tw",
+  "is_bare_domain": false
+}

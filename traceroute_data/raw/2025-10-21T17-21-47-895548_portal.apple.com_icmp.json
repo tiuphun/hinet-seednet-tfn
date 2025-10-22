@@ -1,0 +1,259 @@
+{
+  "timestamp": "2025-10-21T17:21:47.895548",
+  "vantage_point": "university",
+  "target": "portal.apple.com",
+  "target_ip": "17.32.214.121",
+  "protocol": "icmp",
+  "port": null,
+  "duration_seconds": 87.43,
+  "hops": [
+    {
+      "hop": 2,
+      "ip": "140.123.103.250",
+      "hostname": "csgate103.cs.ccu.edu.tw",
+      "rtts": [
+        4.111,
+        11.327,
+        6.522
+      ],
+      "avg_rtt": 7.32,
+      "timeout": false
+    },
+    {
+      "hop": 3,
+      "ip": "140.123.9.249",
+      "hostname": "140.123.9.249",
+      "rtts": [
+        4.234,
+        15.198,
+        18.152
+      ],
+      "avg_rtt": 12.53,
+      "timeout": false
+    },
+    {
+      "hop": 4,
+      "ip": "140.123.0.246",
+      "hostname": "140.123.0.246",
+      "rtts": [
+        4.812,
+        8.17,
+        5.762
+      ],
+      "avg_rtt": 6.25,
+      "timeout": false
+    },
+    {
+      "hop": 5,
+      "ip": "140.130.252.251",
+      "hostname": "140.130.252.251",
+      "rtts": [
+        4.375,
+        10.385,
+        26.734
+      ],
+      "avg_rtt": 13.83,
+      "timeout": false
+    },
+    {
+      "hop": 6,
+      "ip": "192.192.61.142",
+      "hostname": "192.192.61.142",
+      "rtts": [
+        8.941,
+        17.004,
+        13.761
+      ],
+      "avg_rtt": 13.24,
+      "timeout": false
+    },
+    {
+      "hop": 7,
+      "ip": "192.192.61.20",
+      "hostname": "192.192.61.20",
+      "rtts": [
+        9.137,
+        11.965,
+        11.761
+      ],
+      "avg_rtt": 10.95,
+      "timeout": false
+    },
+    {
+      "hop": 8,
+      "ip": "192.192.61.48",
+      "hostname": "192.192.61.48",
+      "rtts": [
+        68.902,
+        17.984,
+        8.495
+      ],
+      "avg_rtt": 31.79,
+      "timeout": false
+    },
+    {
+      "hop": 9,
+      "ip": "192.192.68.62",
+      "hostname": "192.192.68.62",
+      "rtts": [
+        14.0,
+        17.457,
+        14.189
+      ],
+      "avg_rtt": 15.22,
+      "timeout": false
+    },
+    {
+      "hop": 10,
+      "ip": "192.192.68.28",
+      "hostname": "192.192.68.28",
+      "rtts": [
+        10.875,
+        13.402,
+        26.965
+      ],
+      "avg_rtt": 17.08,
+      "timeout": false
+    },
+    {
+      "hop": 11,
+      "ip": "17.1.121.8",
+      "hostname": "17.1.121.8",
+      "rtts": [
+        10.696,
+        47.921,
+        23.534
+      ],
+      "avg_rtt": 27.38,
+      "timeout": false
+    },
+    {
+      "hop": 12,
+      "ip": null,
+      "hostname": null,
+      "rtts": [],
+      "timeout": true
+    },
+    {
+      "hop": 13,
+      "ip": "17.0.17.158",
+      "hostname": "17.0.17.158",
+      "rtts": [
+        209.527,
+        197.33,
+        193.531
+      ],
+      "avg_rtt": 200.13,
+      "timeout": false
+    },
+    {
+      "hop": 14,
+      "ip": null,
+      "hostname": null,
+      "rtts": [],
+      "timeout": true
+    },
+    {
+      "hop": 15,
+      "ip": "17.0.13.135",
+      "hostname": "17.0.13.135",
+      "rtts": [
+        196.266,
+        270.964,
+        192.181
+      ],
+      "avg_rtt": 219.8,
+      "timeout": false
+    },
+    {
+      "hop": 16,
+      "ip": "17.0.12.84",
+      "hostname": "17.0.12.84",
+      "rtts": [
+        191.252,
+        188.89,
+        196.552
+      ],
+      "avg_rtt": 192.23,
+      "timeout": false
+    },
+    {
+      "hop": 17,
+      "ip": "17.0.12.79",
+      "hostname": "17.0.12.79",
+      "rtts": [
+        201.052,
+        193.947,
+        216.863
+      ],
+      "avg_rtt": 203.95,
+      "timeout": false
+    },
+    {
+      "hop": 18,
+      "ip": "17.0.19.107",
+      "hostname": "17.0.19.107",
+      "rtts": [
+        203.536,
+        199.006,
+        191.438
+      ],
+      "avg_rtt": 197.99,
+      "timeout": false
+    },
+    {
+      "hop": 19,
+      "ip": null,
+      "hostname": null,
+      "rtts": [],
+      "timeout": true
+    },
+    {
+      "hop": 20,
+      "ip": null,
+      "hostname": null,
+      "rtts": [],
+      "timeout": true
+    },
+    {
+      "hop": 21,
+      "ip": null,
+      "hostname": null,
+      "rtts": [],
+      "timeout": true
+    },
+    {
+      "hop": 22,
+      "ip": null,
+      "hostname": null,
+      "rtts": [],
+      "timeout": true
+    },
+    {
+      "hop": 23,
+      "ip": null,
+      "hostname": null,
+      "rtts": [],
+      "timeout": true
+    },
+    {
+      "hop": 24,
+      "ip": "17.32.214.121",
+      "hostname": "agreements-isc-pilot1-mdn.apple.com",
+      "rtts": [
+        193.64,
+        190.491,
+        201.409
+      ],
+      "avg_rtt": 195.18,
+      "timeout": false
+    }
+  ],
+  "num_hops": 23,
+  "success": true,
+  "raw_output": " 1  192.168.50.1 (192.168.50.1)  27.845 ms  9.061 ms  6.007 ms\n 2  csgate103.cs.ccu.edu.tw (140.123.103.250)  4.111 ms  11.327 ms  6.522 ms\n 3  140.123.9.249 (140.123.9.249)  4.234 ms  15.198 ms  18.152 ms\n 4  140.123.0.246 (140.123.0.246)  4.812 ms  8.170 ms  5.762 ms\n 5  140.130.252.251 (140.130.252.251)  4.375 ms  10.385 ms  26.734 ms\n 6  192.192.61.142 (192.192.61.142)  8.941 ms  17.004 ms  13.761 ms\n 7  192.192.61.20 (192.192.61.20)  9.137 ms  11.965 ms  11.761 ms\n 8  192.192.61.48 (192.192.61.48)  68.902 ms  17.984 ms  8.495 ms\n 9  192.192.68.62 (192.192.68.62)  14.000 ms  17.457 ms  14.189 ms\n10  192.192.68.28 (192.192.68.28)  10.875 ms  13.402 ms  26.965 ms\n11  17.1.121.8 (17.1.121.8)  10.696 ms  47.921 ms  23.534 ms\n12  * * *\n13  17.0.17.158 (17.0.17.158)  209.527 ms  197.330 ms  193.531 ms\n14  * * *\n15  17.0.13.135 (17.0.13.135)  196.266 ms  270.964 ms  192.181 ms\n16  17.0.12.84 (17.0.12.84)  191.252 ms  188.890 ms  196.552 ms\n17  17.0.12.79 (17.0.12.79)  201.052 ms  193.947 ms  216.863 ms\n18  17.0.19.107 (17.0.19.107)  203.536 ms  199.006 ms  191.438 ms\n19  * * *\n20  * * *\n21  * * *\n22  * * *\n23  * * *\n24  agreements-isc-pilot1-mdn.apple.com (17.32.214.121)  193.640 ms  190.491 ms  201.409 ms\n",
+  "category": "cdn_global",
+  "base_domain": "apple.com",
+  "service_variant": "portal.apple.com",
+  "is_bare_domain": false
+}

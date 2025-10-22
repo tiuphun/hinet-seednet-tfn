@@ -1,0 +1,168 @@
+{
+  "timestamp": "2025-10-21T12:09:02.638170",
+  "vantage_point": "university",
+  "target": "www.firstbank.com.tw",
+  "target_ip": "23.47.105.145",
+  "protocol": "icmp",
+  "port": null,
+  "duration_seconds": 59.05,
+  "hops": [
+    {
+      "hop": 2,
+      "ip": "140.123.103.250",
+      "hostname": "csgate103.cs.ccu.edu.tw",
+      "rtts": [
+        2.056,
+        2.024,
+        2.973
+      ],
+      "avg_rtt": 2.35,
+      "timeout": false
+    },
+    {
+      "hop": 3,
+      "ip": "140.123.9.249",
+      "hostname": "140.123.9.249",
+      "rtts": [
+        1.945,
+        2.02,
+        2.002
+      ],
+      "avg_rtt": 1.99,
+      "timeout": false
+    },
+    {
+      "hop": 4,
+      "ip": "140.123.0.246",
+      "hostname": "140.123.0.246",
+      "rtts": [
+        2.798,
+        2.601,
+        4.032
+      ],
+      "avg_rtt": 3.14,
+      "timeout": false
+    },
+    {
+      "hop": 5,
+      "ip": "140.130.252.251",
+      "hostname": "140.130.252.251",
+      "rtts": [
+        3.417,
+        3.414,
+        2.879
+      ],
+      "avg_rtt": 3.24,
+      "timeout": false
+    },
+    {
+      "hop": 6,
+      "ip": "192.192.61.142",
+      "hostname": "192.192.61.142",
+      "rtts": [
+        4.983,
+        5.051,
+        5.518
+      ],
+      "avg_rtt": 5.18,
+      "timeout": false
+    },
+    {
+      "hop": 7,
+      "ip": "192.192.61.20",
+      "hostname": "192.192.61.20",
+      "rtts": [
+        6.831,
+        6.986,
+        10.367
+      ],
+      "avg_rtt": 8.06,
+      "timeout": false
+    },
+    {
+      "hop": 8,
+      "ip": "192.192.61.48",
+      "hostname": "192.192.61.48",
+      "rtts": [
+        9.1,
+        7.339,
+        7.19
+      ],
+      "avg_rtt": 7.88,
+      "timeout": false
+    },
+    {
+      "hop": 9,
+      "ip": "192.192.68.62",
+      "hostname": "192.192.68.62",
+      "rtts": [
+        8.297,
+        10.942,
+        7.317
+      ],
+      "avg_rtt": 8.85,
+      "timeout": false
+    },
+    {
+      "hop": 10,
+      "ip": null,
+      "hostname": null,
+      "rtts": [],
+      "timeout": true
+    },
+    {
+      "hop": 11,
+      "ip": null,
+      "hostname": null,
+      "rtts": [],
+      "timeout": true
+    },
+    {
+      "hop": 12,
+      "ip": null,
+      "hostname": null,
+      "rtts": [],
+      "timeout": true
+    },
+    {
+      "hop": 13,
+      "ip": null,
+      "hostname": null,
+      "rtts": [],
+      "timeout": true
+    },
+    {
+      "hop": 14,
+      "ip": null,
+      "hostname": null,
+      "rtts": [],
+      "timeout": true
+    },
+    {
+      "hop": 15,
+      "ip": null,
+      "hostname": null,
+      "rtts": [],
+      "timeout": true
+    },
+    {
+      "hop": 16,
+      "ip": "23.47.105.145",
+      "hostname": "a23-47-105-145.deploy.static.akamaitechnologies.com",
+      "rtts": [
+        56.235,
+        56.187,
+        55.92
+      ],
+      "avg_rtt": 56.11,
+      "timeout": false
+    }
+  ],
+  "num_hops": 15,
+  "success": true,
+  "raw_output": " 1  192.168.50.1 (192.168.50.1)  7.439 ms  2.022 ms  1.840 ms\n 2  csgate103.cs.ccu.edu.tw (140.123.103.250)  2.056 ms  2.024 ms  2.973 ms\n 3  140.123.9.249 (140.123.9.249)  1.945 ms  2.020 ms  2.002 ms\n 4  140.123.0.246 (140.123.0.246)  2.798 ms  2.601 ms  4.032 ms\n 5  140.130.252.251 (140.130.252.251)  3.417 ms  3.414 ms  2.879 ms\n 6  192.192.61.142 (192.192.61.142)  4.983 ms  5.051 ms  5.518 ms\n 7  192.192.61.20 (192.192.61.20)  6.831 ms  6.986 ms  10.367 ms\n 8  192.192.61.48 (192.192.61.48)  9.100 ms  7.339 ms  7.190 ms\n 9  192.192.68.62 (192.192.68.62)  8.297 ms  10.942 ms  7.317 ms\n10  * e0-11.switch2.tpe1.he.net (65.49.108.1)  8.787 ms *\n11  * * *\n12  * 100ge0-79.core2.hkg1.he.net (72.52.92.137)  81.127 ms *\n13  * * *\n14  * * *\n15  * * *\n16  a23-47-105-145.deploy.static.akamaitechnologies.com (23.47.105.145)  56.235 ms  56.187 ms  55.920 ms\n",
+  "category": "financial_banks",
+  "base_domain": "firstbank.com.tw",
+  "service_variant": "www.firstbank.com.tw",
+  "is_bare_domain": false
+}

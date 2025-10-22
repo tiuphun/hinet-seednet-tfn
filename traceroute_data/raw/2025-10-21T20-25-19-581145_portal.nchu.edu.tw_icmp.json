@@ -1,0 +1,168 @@
+{
+  "timestamp": "2025-10-21T20:25:19.581145",
+  "vantage_point": "university",
+  "target": "portal.nchu.edu.tw",
+  "target_ip": "140.120.3.160",
+  "protocol": "icmp",
+  "port": null,
+  "duration_seconds": 56.21,
+  "hops": [
+    {
+      "hop": 2,
+      "ip": "140.123.103.250",
+      "hostname": "csgate103.cs.ccu.edu.tw",
+      "rtts": [
+        4.435,
+        2.306,
+        2.186
+      ],
+      "avg_rtt": 2.98,
+      "timeout": false
+    },
+    {
+      "hop": 3,
+      "ip": "140.123.9.249",
+      "hostname": "140.123.9.249",
+      "rtts": [
+        4.983,
+        9.624,
+        3.13
+      ],
+      "avg_rtt": 5.91,
+      "timeout": false
+    },
+    {
+      "hop": 4,
+      "ip": "140.123.0.246",
+      "hostname": "140.123.0.246",
+      "rtts": [
+        97.042,
+        125.886,
+        2.744
+      ],
+      "avg_rtt": 75.22,
+      "timeout": false
+    },
+    {
+      "hop": 5,
+      "ip": "140.130.252.251",
+      "hostname": "140.130.252.251",
+      "rtts": [
+        4.857,
+        4.19,
+        8.557
+      ],
+      "avg_rtt": 5.87,
+      "timeout": false
+    },
+    {
+      "hop": 6,
+      "ip": "192.192.61.142",
+      "hostname": "192.192.61.142",
+      "rtts": [
+        5.617,
+        7.422,
+        6.09
+      ],
+      "avg_rtt": 6.38,
+      "timeout": false
+    },
+    {
+      "hop": 7,
+      "ip": "192.192.61.9",
+      "hostname": "192.192.61.9",
+      "rtts": [
+        61.819,
+        8.65,
+        7.734
+      ],
+      "avg_rtt": 26.07,
+      "timeout": false
+    },
+    {
+      "hop": 8,
+      "ip": "192.192.61.121",
+      "hostname": "192.192.61.121",
+      "rtts": [
+        7.327,
+        8.061,
+        7.041
+      ],
+      "avg_rtt": 7.48,
+      "timeout": false
+    },
+    {
+      "hop": 9,
+      "ip": "140.128.251.249",
+      "hostname": "140.128.251.249",
+      "rtts": [
+        5.723,
+        4.858,
+        4.996
+      ],
+      "avg_rtt": 5.19,
+      "timeout": false
+    },
+    {
+      "hop": 10,
+      "ip": null,
+      "hostname": null,
+      "rtts": [],
+      "timeout": true
+    },
+    {
+      "hop": 11,
+      "ip": null,
+      "hostname": null,
+      "rtts": [],
+      "timeout": true
+    },
+    {
+      "hop": 12,
+      "ip": null,
+      "hostname": null,
+      "rtts": [],
+      "timeout": true
+    },
+    {
+      "hop": 13,
+      "ip": null,
+      "hostname": null,
+      "rtts": [],
+      "timeout": true
+    },
+    {
+      "hop": 14,
+      "ip": null,
+      "hostname": null,
+      "rtts": [],
+      "timeout": true
+    },
+    {
+      "hop": 15,
+      "ip": null,
+      "hostname": null,
+      "rtts": [],
+      "timeout": true
+    },
+    {
+      "hop": 16,
+      "ip": "140.120.3.160",
+      "hostname": "cportal.nchu.edu.tw",
+      "rtts": [
+        15.696,
+        7.141,
+        34.681
+      ],
+      "avg_rtt": 19.17,
+      "timeout": false
+    }
+  ],
+  "num_hops": 15,
+  "success": true,
+  "raw_output": " 1  192.168.50.1 (192.168.50.1)  96.988 ms  2.164 ms  4.856 ms\n 2  csgate103.cs.ccu.edu.tw (140.123.103.250)  4.435 ms  2.306 ms  2.186 ms\n 3  140.123.9.249 (140.123.9.249)  4.983 ms  9.624 ms  3.130 ms\n 4  140.123.0.246 (140.123.0.246)  97.042 ms  125.886 ms  2.744 ms\n 5  140.130.252.251 (140.130.252.251)  4.857 ms  4.190 ms  8.557 ms\n 6  192.192.61.142 (192.192.61.142)  5.617 ms  7.422 ms  6.090 ms\n 7  192.192.61.9 (192.192.61.9)  61.819 ms  8.650 ms  7.734 ms\n 8  192.192.61.121 (192.192.61.121)  7.327 ms  8.061 ms  7.041 ms\n 9  140.128.251.249 (140.128.251.249)  5.723 ms  4.858 ms  4.996 ms\n10  * * *\n11  * * *\n12  * * *\n13  * * *\n14  * * *\n15  * * *\n16  cportal.nchu.edu.tw (140.120.3.160)  15.696 ms  7.141 ms  34.681 ms\n",
+  "category": "universities",
+  "base_domain": "nchu.edu.tw",
+  "service_variant": "portal.nchu.edu.tw",
+  "is_bare_domain": false
+}

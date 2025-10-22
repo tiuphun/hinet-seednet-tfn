@@ -1,0 +1,135 @@
+{
+  "timestamp": "2025-10-15T06:52:20.202980",
+  "vantage_point": "university",
+  "target": "vpn.pts.org.tw",
+  "target_ip": "61.67.73.253",
+  "protocol": "icmp",
+  "port": null,
+  "duration_seconds": 9.28,
+  "hops": [
+    {
+      "hop": 2,
+      "ip": "140.123.103.250",
+      "hostname": null,
+      "rtts": [
+        5.36,
+        2.661,
+        6.604
+      ],
+      "avg_rtt": 4.88,
+      "timeout": false
+    },
+    {
+      "hop": 3,
+      "ip": "140.123.9.249",
+      "hostname": null,
+      "rtts": [
+        2.715,
+        3.158,
+        2.826
+      ],
+      "avg_rtt": 2.9,
+      "timeout": false
+    },
+    {
+      "hop": 4,
+      "ip": "140.123.0.246",
+      "hostname": null,
+      "rtts": [
+        3.767,
+        3.746,
+        3.586
+      ],
+      "avg_rtt": 3.7,
+      "timeout": false
+    },
+    {
+      "hop": 5,
+      "ip": "140.130.252.251",
+      "hostname": null,
+      "rtts": [
+        6.455,
+        3.735,
+        4.833
+      ],
+      "avg_rtt": 5.01,
+      "timeout": false
+    },
+    {
+      "hop": 6,
+      "ip": "192.192.61.142",
+      "hostname": null,
+      "rtts": [
+        6.006,
+        7.715,
+        6.974
+      ],
+      "avg_rtt": 6.9,
+      "timeout": false
+    },
+    {
+      "hop": 7,
+      "ip": "192.192.61.37",
+      "hostname": null,
+      "rtts": [
+        7.312,
+        14.359,
+        6.891
+      ],
+      "avg_rtt": 9.52,
+      "timeout": false
+    },
+    {
+      "hop": 8,
+      "ip": "192.192.61.32",
+      "hostname": null,
+      "rtts": [
+        8.318,
+        8.389,
+        7.958
+      ],
+      "avg_rtt": 8.22,
+      "timeout": false
+    },
+    {
+      "hop": 9,
+      "ip": "192.192.61.209",
+      "hostname": null,
+      "rtts": [
+        8.285,
+        8.876,
+        9.144
+      ],
+      "avg_rtt": 8.77,
+      "timeout": false
+    },
+    {
+      "hop": 10,
+      "ip": "10.96.81.12",
+      "hostname": null,
+      "rtts": [
+        11.853
+      ],
+      "avg_rtt": 11.85,
+      "timeout": false
+    },
+    {
+      "hop": 11,
+      "ip": "10.96.81.12",
+      "hostname": null,
+      "rtts": [
+        20.735,
+        36.45
+      ],
+      "avg_rtt": 28.59,
+      "timeout": false
+    }
+  ],
+  "num_hops": 10,
+  "success": false,
+  "raw_output": " 1  192.168.50.1  12.445 ms  2.243 ms  2.439 ms\n 2  140.123.103.250  5.360 ms  2.661 ms  6.604 ms\n 3  140.123.9.249  2.715 ms  3.158 ms  2.826 ms\n 4  140.123.0.246  3.767 ms  3.746 ms  3.586 ms\n 5  140.130.252.251  6.455 ms  3.735 ms  4.833 ms\n 6  192.192.61.142  6.006 ms  7.715 ms  6.974 ms\n 7  192.192.61.37  7.312 ms  14.359 ms  6.891 ms\n 8  192.192.61.32  8.318 ms  8.389 ms  7.958 ms\n 9  192.192.61.209  8.285 ms  8.876 ms  9.144 ms\n10  10.96.81.12  11.853 ms !X * *\n11  10.96.81.12  20.735 ms !X *  36.450 ms !X\n",
+  "category": "media",
+  "base_domain": "pts.org.tw",
+  "service_variant": "vpn.pts.org.tw",
+  "is_bare_domain": false
+}

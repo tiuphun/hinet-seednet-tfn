@@ -1,0 +1,162 @@
+{
+  "timestamp": "2025-10-22T09:34:06.756837",
+  "vantage_point": "university",
+  "target": "203.133.1.8",
+  "target_ip": "203.133.1.8",
+  "protocol": "icmp",
+  "port": null,
+  "duration_seconds": 2.12,
+  "hops": [
+    {
+      "hop": 2,
+      "ip": "140.123.103.250",
+      "hostname": "csgate103.cs.ccu.edu.tw",
+      "rtts": [
+        27.422,
+        24.586,
+        8.729
+      ],
+      "avg_rtt": 20.25,
+      "timeout": false
+    },
+    {
+      "hop": 3,
+      "ip": "140.123.9.249",
+      "hostname": "140.123.9.249",
+      "rtts": [
+        53.694,
+        155.598,
+        64.443
+      ],
+      "avg_rtt": 91.25,
+      "timeout": false
+    },
+    {
+      "hop": 4,
+      "ip": "140.123.0.246",
+      "hostname": "140.123.0.246",
+      "rtts": [
+        17.904,
+        7.554,
+        96.035
+      ],
+      "avg_rtt": 40.5,
+      "timeout": false
+    },
+    {
+      "hop": 5,
+      "ip": "140.130.252.251",
+      "hostname": "140.130.252.251",
+      "rtts": [
+        18.456,
+        36.438,
+        11.796
+      ],
+      "avg_rtt": 22.23,
+      "timeout": false
+    },
+    {
+      "hop": 6,
+      "ip": "140.123.231.108",
+      "hostname": "140.123.231.108",
+      "rtts": [
+        11.988,
+        35.178,
+        9.13
+      ],
+      "avg_rtt": 18.77,
+      "timeout": false
+    },
+    {
+      "hop": 7,
+      "ip": "203.187.6.106",
+      "hostname": "tayang-m49-g2-10-cyccatv.ix.kbtelecom.net",
+      "rtts": [
+        256.999,
+        69.531,
+        25.357
+      ],
+      "avg_rtt": 117.3,
+      "timeout": false
+    },
+    {
+      "hop": 8,
+      "ip": "203.187.26.93",
+      "hostname": "peikong-m49-10g1-2-dayang.ix.kbtelecom.net",
+      "rtts": [
+        45.615,
+        24.885,
+        21.313
+      ],
+      "avg_rtt": 30.6,
+      "timeout": false
+    },
+    {
+      "hop": 9,
+      "ip": "203.187.26.89",
+      "hostname": "chialein-m49-10g1-2-peikong.ix.kbtelecom.net",
+      "rtts": [
+        29.17,
+        69.794,
+        25.683
+      ],
+      "avg_rtt": 41.55,
+      "timeout": false
+    },
+    {
+      "hop": 10,
+      "ip": "203.187.26.85",
+      "hostname": "sdtv-br93-eth1-45-chialein.ix.kbtelecom.net",
+      "rtts": [
+        29.978,
+        77.21,
+        44.32
+      ],
+      "avg_rtt": 50.5,
+      "timeout": false
+    },
+    {
+      "hop": 11,
+      "ip": "203.187.6.173",
+      "hostname": "tpnoc1-sc93-po10-sdtv.ix.kbtelecom.net",
+      "rtts": [
+        35.696,
+        42.53,
+        24.057
+      ],
+      "avg_rtt": 34.09,
+      "timeout": false
+    },
+    {
+      "hop": 12,
+      "ip": "203.187.6.53",
+      "hostname": "tpnoc1-c68-po82-sc93.ix.kbtelecom.net",
+      "rtts": [
+        20.992,
+        44.647,
+        21.449
+      ],
+      "avg_rtt": 29.03,
+      "timeout": false
+    },
+    {
+      "hop": 13,
+      "ip": "203.133.1.8",
+      "hostname": "dns1.giga.net.tw",
+      "rtts": [
+        80.089,
+        11.502,
+        31.455
+      ],
+      "avg_rtt": 41.02,
+      "timeout": false
+    }
+  ],
+  "num_hops": 12,
+  "success": true,
+  "raw_output": " 1  192.168.50.1 (192.168.50.1)  27.454 ms  6.455 ms  7.177 ms\n 2  csgate103.cs.ccu.edu.tw (140.123.103.250)  27.422 ms  24.586 ms  8.729 ms\n 3  140.123.9.249 (140.123.9.249)  53.694 ms  155.598 ms  64.443 ms\n 4  140.123.0.246 (140.123.0.246)  17.904 ms  7.554 ms  96.035 ms\n 5  140.130.252.251 (140.130.252.251)  18.456 ms  36.438 ms  11.796 ms\n 6  140.123.231.108 (140.123.231.108)  11.988 ms  35.178 ms  9.130 ms\n 7  tayang-m49-g2-10-cyccatv.ix.kbtelecom.net (203.187.6.106)  256.999 ms  69.531 ms  25.357 ms\n 8  peikong-m49-10g1-2-dayang.ix.kbtelecom.net (203.187.26.93)  45.615 ms  24.885 ms  21.313 ms\n 9  chialein-m49-10g1-2-peikong.ix.kbtelecom.net (203.187.26.89)  29.170 ms  69.794 ms  25.683 ms\n10  sdtv-br93-eth1-45-chialein.ix.kbtelecom.net (203.187.26.85)  29.978 ms  77.210 ms  44.320 ms\n11  tpnoc1-sc93-po10-sdtv.ix.kbtelecom.net (203.187.6.173)  35.696 ms  42.530 ms  24.057 ms\n12  tpnoc1-c68-po82-sc93.ix.kbtelecom.net (203.187.6.53)  20.992 ms  44.647 ms  21.449 ms\n13  dns1.giga.net.tw (203.133.1.8)  80.089 ms  11.502 ms  31.455 ms\n",
+  "category": "dns_resolvers",
+  "base_domain": "203.133.1.8",
+  "service_variant": "203.133.1.8",
+  "is_bare_domain": true
+}

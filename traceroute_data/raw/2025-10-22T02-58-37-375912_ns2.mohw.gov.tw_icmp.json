@@ -1,0 +1,148 @@
+{
+  "timestamp": "2025-10-22T02:58:37.375912",
+  "vantage_point": "university",
+  "target": "ns2.mohw.gov.tw",
+  "target_ip": "210.241.78.87",
+  "protocol": "icmp",
+  "port": null,
+  "duration_seconds": 24.37,
+  "hops": [
+    {
+      "hop": 2,
+      "ip": "140.123.103.250",
+      "hostname": "csgate103.cs.ccu.edu.tw",
+      "rtts": [
+        2.611,
+        3.296,
+        2.407
+      ],
+      "avg_rtt": 2.77,
+      "timeout": false
+    },
+    {
+      "hop": 3,
+      "ip": "140.123.9.249",
+      "hostname": "140.123.9.249",
+      "rtts": [
+        2.49,
+        2.642
+      ],
+      "avg_rtt": 2.57,
+      "timeout": false
+    },
+    {
+      "hop": 4,
+      "ip": "140.123.0.246",
+      "hostname": "140.123.0.246",
+      "rtts": [
+        13.007,
+        3.543,
+        3.37
+      ],
+      "avg_rtt": 6.64,
+      "timeout": false
+    },
+    {
+      "hop": 5,
+      "ip": "140.130.252.251",
+      "hostname": "140.130.252.251",
+      "rtts": [
+        6.626,
+        5.446,
+        4.372
+      ],
+      "avg_rtt": 5.48,
+      "timeout": false
+    },
+    {
+      "hop": 6,
+      "ip": "192.192.61.142",
+      "hostname": "192.192.61.142",
+      "rtts": [
+        12.262,
+        7.244,
+        8.167
+      ],
+      "avg_rtt": 9.22,
+      "timeout": false
+    },
+    {
+      "hop": 7,
+      "ip": "192.192.61.37",
+      "hostname": "192.192.61.37",
+      "rtts": [
+        16.749,
+        7.578,
+        9.059
+      ],
+      "avg_rtt": 11.13,
+      "timeout": false
+    },
+    {
+      "hop": 8,
+      "ip": "192.192.61.32",
+      "hostname": "192.192.61.32",
+      "rtts": [
+        8.455,
+        7.943,
+        24.408
+      ],
+      "avg_rtt": 13.6,
+      "timeout": false
+    },
+    {
+      "hop": 9,
+      "ip": "192.192.61.209",
+      "hostname": "192.192.61.209",
+      "rtts": [
+        14.573,
+        10.122,
+        11.751
+      ],
+      "avg_rtt": 12.15,
+      "timeout": false
+    },
+    {
+      "hop": 10,
+      "ip": null,
+      "hostname": null,
+      "rtts": [],
+      "timeout": true
+    },
+    {
+      "hop": 11,
+      "ip": null,
+      "hostname": null,
+      "rtts": [],
+      "timeout": true
+    },
+    {
+      "hop": 12,
+      "ip": "10.96.81.12",
+      "hostname": "10.96.81.12",
+      "rtts": [
+        11.794
+      ],
+      "avg_rtt": 11.79,
+      "timeout": false
+    },
+    {
+      "hop": 13,
+      "ip": "10.96.81.12",
+      "hostname": "10.96.81.12",
+      "rtts": [
+        19.246,
+        11.096
+      ],
+      "avg_rtt": 15.17,
+      "timeout": false
+    }
+  ],
+  "num_hops": 12,
+  "success": false,
+  "raw_output": " 1  192.168.50.1 (192.168.50.1)  10.900 ms  2.574 ms  2.440 ms\n 2  csgate103.cs.ccu.edu.tw (140.123.103.250)  2.611 ms  3.296 ms  2.407 ms\n 3  140.123.9.249 (140.123.9.249)  2.490 ms  2.642 ms *\n 4  140.123.0.246 (140.123.0.246)  13.007 ms  3.543 ms  3.370 ms\n 5  140.130.252.251 (140.130.252.251)  6.626 ms  5.446 ms  4.372 ms\n 6  192.192.61.142 (192.192.61.142)  12.262 ms  7.244 ms  8.167 ms\n 7  192.192.61.37 (192.192.61.37)  16.749 ms  7.578 ms  9.059 ms\n 8  192.192.61.32 (192.192.61.32)  8.455 ms  7.943 ms  24.408 ms\n 9  192.192.61.209 (192.192.61.209)  14.573 ms  10.122 ms  11.751 ms\n10  * * 10.96.81.12 (10.96.81.12)  25.692 ms !X\n11  * 10.96.81.12 (10.96.81.12)  9.480 ms !X *\n12  10.96.81.12 (10.96.81.12)  11.794 ms !X * *\n13  10.96.81.12 (10.96.81.12)  19.246 ms !X *  11.096 ms !X\n",
+  "category": "government_central",
+  "base_domain": "mohw.gov.tw",
+  "service_variant": "ns2.mohw.gov.tw",
+  "is_bare_domain": false
+}

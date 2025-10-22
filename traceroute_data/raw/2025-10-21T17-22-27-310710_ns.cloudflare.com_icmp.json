@@ -1,0 +1,137 @@
+{
+  "timestamp": "2025-10-21T17:22:27.310710",
+  "vantage_point": "university",
+  "target": "ns.cloudflare.com",
+  "target_ip": "173.245.58.100",
+  "protocol": "icmp",
+  "port": null,
+  "duration_seconds": 3.44,
+  "hops": [
+    {
+      "hop": 2,
+      "ip": "140.123.103.250",
+      "hostname": "csgate103.cs.ccu.edu.tw",
+      "rtts": [
+        3.983,
+        5.526,
+        3.092
+      ],
+      "avg_rtt": 4.2,
+      "timeout": false
+    },
+    {
+      "hop": 3,
+      "ip": "140.123.9.249",
+      "hostname": "140.123.9.249",
+      "rtts": [
+        10.964,
+        2.3,
+        2.7
+      ],
+      "avg_rtt": 5.32,
+      "timeout": false
+    },
+    {
+      "hop": 4,
+      "ip": "140.123.0.246",
+      "hostname": "140.123.0.246",
+      "rtts": [
+        18.213,
+        3.5,
+        8.126
+      ],
+      "avg_rtt": 9.95,
+      "timeout": false
+    },
+    {
+      "hop": 5,
+      "ip": "140.130.252.251",
+      "hostname": "140.130.252.251",
+      "rtts": [
+        16.134,
+        7.288,
+        7.803
+      ],
+      "avg_rtt": 10.41,
+      "timeout": false
+    },
+    {
+      "hop": 6,
+      "ip": "192.192.61.142",
+      "hostname": "192.192.61.142",
+      "rtts": [
+        9.989,
+        6.342,
+        13.021
+      ],
+      "avg_rtt": 9.78,
+      "timeout": false
+    },
+    {
+      "hop": 7,
+      "ip": "192.192.61.20",
+      "hostname": "192.192.61.20",
+      "rtts": [
+        12.588,
+        10.241,
+        9.634
+      ],
+      "avg_rtt": 10.82,
+      "timeout": false
+    },
+    {
+      "hop": 8,
+      "ip": "192.192.61.48",
+      "hostname": "192.192.61.48",
+      "rtts": [
+        10.914,
+        15.319,
+        10.654
+      ],
+      "avg_rtt": 12.3,
+      "timeout": false
+    },
+    {
+      "hop": 9,
+      "ip": "192.192.68.62",
+      "hostname": "192.192.68.62",
+      "rtts": [
+        76.256,
+        9.059,
+        14.933
+      ],
+      "avg_rtt": 33.42,
+      "timeout": false
+    },
+    {
+      "hop": 10,
+      "ip": "203.163.222.39",
+      "hostname": "39-222-163-203-static.tpix.net.tw",
+      "rtts": [
+        13.128,
+        25.298
+      ],
+      "avg_rtt": 19.21,
+      "timeout": false
+    },
+    {
+      "hop": 11,
+      "ip": "173.245.58.100",
+      "hostname": "abby.ns.cloudflare.com",
+      "rtts": [
+        8.846,
+        24.816,
+        15.027
+      ],
+      "avg_rtt": 16.23,
+      "timeout": false
+    }
+  ],
+  "num_hops": 10,
+  "success": true,
+  "raw_output": " 1  192.168.50.1 (192.168.50.1)  6.397 ms  7.728 ms  2.840 ms\n 2  csgate103.cs.ccu.edu.tw (140.123.103.250)  3.983 ms  5.526 ms  3.092 ms\n 3  140.123.9.249 (140.123.9.249)  10.964 ms  2.300 ms  2.700 ms\n 4  140.123.0.246 (140.123.0.246)  18.213 ms  3.500 ms  8.126 ms\n 5  140.130.252.251 (140.130.252.251)  16.134 ms  7.288 ms  7.803 ms\n 6  192.192.61.142 (192.192.61.142)  9.989 ms  6.342 ms  13.021 ms\n 7  192.192.61.20 (192.192.61.20)  12.588 ms  10.241 ms  9.634 ms\n 8  192.192.61.48 (192.192.61.48)  10.914 ms  15.319 ms  10.654 ms\n 9  192.192.68.62 (192.192.68.62)  76.256 ms  9.059 ms  14.933 ms\n10  39-222-163-203-static.tpix.net.tw (203.163.222.39)  13.128 ms *  25.298 ms\n11  abby.ns.cloudflare.com (173.245.58.100)  8.846 ms  24.816 ms  15.027 ms\n",
+  "category": "cdn_global",
+  "base_domain": "cloudflare.com",
+  "service_variant": "ns.cloudflare.com",
+  "is_bare_domain": false
+}

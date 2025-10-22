@@ -1,0 +1,125 @@
+{
+  "timestamp": "2025-10-15T04:44:33.998262",
+  "vantage_point": "university",
+  "target": "www.hpa.gov.tw",
+  "target_ip": "210.241.78.32",
+  "protocol": "icmp",
+  "port": null,
+  "duration_seconds": 3.22,
+  "hops": [
+    {
+      "hop": 2,
+      "ip": "140.123.103.250",
+      "hostname": null,
+      "rtts": [
+        6.753,
+        3.33,
+        2.792
+      ],
+      "avg_rtt": 4.29,
+      "timeout": false
+    },
+    {
+      "hop": 3,
+      "ip": "140.123.9.249",
+      "hostname": null,
+      "rtts": [
+        2.936,
+        4.14,
+        4.237
+      ],
+      "avg_rtt": 3.77,
+      "timeout": false
+    },
+    {
+      "hop": 4,
+      "ip": "140.123.0.246",
+      "hostname": null,
+      "rtts": [
+        6.745,
+        3.775,
+        3.469
+      ],
+      "avg_rtt": 4.66,
+      "timeout": false
+    },
+    {
+      "hop": 5,
+      "ip": "140.130.252.251",
+      "hostname": null,
+      "rtts": [
+        4.178,
+        4.221,
+        3.804
+      ],
+      "avg_rtt": 4.07,
+      "timeout": false
+    },
+    {
+      "hop": 6,
+      "ip": "192.192.61.142",
+      "hostname": null,
+      "rtts": [
+        6.038,
+        6.559,
+        6.689
+      ],
+      "avg_rtt": 6.43,
+      "timeout": false
+    },
+    {
+      "hop": 7,
+      "ip": "192.192.61.37",
+      "hostname": null,
+      "rtts": [
+        6.905,
+        6.493,
+        6.396
+      ],
+      "avg_rtt": 6.6,
+      "timeout": false
+    },
+    {
+      "hop": 8,
+      "ip": "192.192.61.32",
+      "hostname": null,
+      "rtts": [
+        21.676,
+        9.103,
+        12.959
+      ],
+      "avg_rtt": 14.58,
+      "timeout": false
+    },
+    {
+      "hop": 9,
+      "ip": "192.192.61.209",
+      "hostname": null,
+      "rtts": [
+        7.597,
+        7.526,
+        9.637
+      ],
+      "avg_rtt": 8.25,
+      "timeout": false
+    },
+    {
+      "hop": 10,
+      "ip": "10.96.81.12",
+      "hostname": null,
+      "rtts": [
+        9.802,
+        14.38
+      ],
+      "avg_rtt": 12.09,
+      "timeout": false
+    }
+  ],
+  "num_hops": 9,
+  "success": false,
+  "raw_output": " 1  192.168.50.1  11.132 ms  3.272 ms  3.743 ms\n 2  140.123.103.250  6.753 ms  3.330 ms  2.792 ms\n 3  140.123.9.249  2.936 ms  4.140 ms  4.237 ms\n 4  140.123.0.246  6.745 ms  3.775 ms  3.469 ms\n 5  140.130.252.251  4.178 ms  4.221 ms  3.804 ms\n 6  192.192.61.142  6.038 ms  6.559 ms  6.689 ms\n 7  192.192.61.37  6.905 ms  6.493 ms  6.396 ms\n 8  192.192.61.32  21.676 ms  9.103 ms  12.959 ms\n 9  192.192.61.209  7.597 ms  7.526 ms  9.637 ms\n10  10.96.81.12  9.802 ms !X *  14.380 ms !X\n",
+  "category": "government_critical",
+  "base_domain": "hpa.gov.tw",
+  "service_variant": "www.hpa.gov.tw",
+  "is_bare_domain": false
+}

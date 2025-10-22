@@ -1,0 +1,229 @@
+{
+  "timestamp": "2025-10-14T23:21:04.023296",
+  "vantage_point": "university",
+  "target": "facebook.com",
+  "target_ip": "57.144.144.1",
+  "protocol": "icmp",
+  "port": null,
+  "duration_seconds": 7.64,
+  "hops": [
+    {
+      "hop": 2,
+      "ip": "140.123.103.250",
+      "hostname": null,
+      "rtts": [
+        2.71,
+        2.696,
+        2.674
+      ],
+      "avg_rtt": 2.69,
+      "timeout": false
+    },
+    {
+      "hop": 3,
+      "ip": "140.123.9.249",
+      "hostname": null,
+      "rtts": [
+        12.663,
+        11.458,
+        3.559
+      ],
+      "avg_rtt": 9.23,
+      "timeout": false
+    },
+    {
+      "hop": 4,
+      "ip": "140.123.0.246",
+      "hostname": null,
+      "rtts": [
+        3.665,
+        3.413,
+        13.142
+      ],
+      "avg_rtt": 6.74,
+      "timeout": false
+    },
+    {
+      "hop": 5,
+      "ip": "140.130.252.251",
+      "hostname": null,
+      "rtts": [
+        29.938,
+        6.355,
+        4.371
+      ],
+      "avg_rtt": 13.55,
+      "timeout": false
+    },
+    {
+      "hop": 6,
+      "ip": "192.192.61.142",
+      "hostname": null,
+      "rtts": [
+        6.678,
+        6.102,
+        5.673
+      ],
+      "avg_rtt": 6.15,
+      "timeout": false
+    },
+    {
+      "hop": 7,
+      "ip": "192.192.61.20",
+      "hostname": null,
+      "rtts": [
+        8.076,
+        9.453,
+        7.868
+      ],
+      "avg_rtt": 8.47,
+      "timeout": false
+    },
+    {
+      "hop": 8,
+      "ip": "192.192.61.66",
+      "hostname": null,
+      "rtts": [
+        8.637,
+        7.408,
+        8.575
+      ],
+      "avg_rtt": 8.21,
+      "timeout": false
+    },
+    {
+      "hop": 9,
+      "ip": "192.192.68.30",
+      "hostname": null,
+      "rtts": [
+        10.828,
+        10.699,
+        8.606
+      ],
+      "avg_rtt": 10.04,
+      "timeout": false
+    },
+    {
+      "hop": 10,
+      "ip": "210.176.44.153",
+      "hostname": null,
+      "rtts": [
+        8.411,
+        8.535,
+        8.727
+      ],
+      "avg_rtt": 8.56,
+      "timeout": false
+    },
+    {
+      "hop": 11,
+      "ip": "202.84.137.254",
+      "hostname": null,
+      "rtts": [
+        13.35,
+        11.376,
+        11.884
+      ],
+      "avg_rtt": 12.2,
+      "timeout": false
+    },
+    {
+      "hop": 12,
+      "ip": null,
+      "hostname": null,
+      "rtts": [],
+      "timeout": true
+    },
+    {
+      "hop": 13,
+      "ip": "202.84.141.109",
+      "hostname": null,
+      "rtts": [
+        64.383,
+        71.464,
+        61.643
+      ],
+      "avg_rtt": 65.83,
+      "timeout": false
+    },
+    {
+      "hop": 14,
+      "ip": "202.84.207.182",
+      "hostname": null,
+      "rtts": [
+        59.267,
+        60.769,
+        59.842
+      ],
+      "avg_rtt": 59.96,
+      "timeout": false
+    },
+    {
+      "hop": 15,
+      "ip": "157.240.68.34",
+      "hostname": null,
+      "rtts": [
+        61.151,
+        59.26,
+        59.242
+      ],
+      "avg_rtt": 59.88,
+      "timeout": false
+    },
+    {
+      "hop": 16,
+      "ip": "129.134.99.104",
+      "hostname": null,
+      "rtts": [
+        65.991,
+        66.224,
+        66.456
+      ],
+      "avg_rtt": 66.22,
+      "timeout": false
+    },
+    {
+      "hop": 17,
+      "ip": "129.134.89.205",
+      "hostname": null,
+      "rtts": [
+        60.955,
+        60.341,
+        60.036
+      ],
+      "avg_rtt": 60.44,
+      "timeout": false
+    },
+    {
+      "hop": 18,
+      "ip": "163.77.195.77",
+      "hostname": null,
+      "rtts": [
+        61.277,
+        61.428,
+        61.281
+      ],
+      "avg_rtt": 61.33,
+      "timeout": false
+    },
+    {
+      "hop": 19,
+      "ip": "57.144.144.1",
+      "hostname": null,
+      "rtts": [
+        60.816,
+        58.542,
+        59.154
+      ],
+      "avg_rtt": 59.5,
+      "timeout": false
+    }
+  ],
+  "num_hops": 18,
+  "success": true,
+  "raw_output": " 1  192.168.50.1  2.607 ms  2.414 ms  3.456 ms\n 2  140.123.103.250  2.710 ms  2.696 ms  2.674 ms\n 3  140.123.9.249  12.663 ms  11.458 ms  3.559 ms\n 4  140.123.0.246  3.665 ms  3.413 ms  13.142 ms\n 5  140.130.252.251  29.938 ms  6.355 ms  4.371 ms\n 6  192.192.61.142  6.678 ms  6.102 ms  5.673 ms\n 7  192.192.61.20  8.076 ms  9.453 ms  7.868 ms\n 8  192.192.61.66  8.637 ms  7.408 ms  8.575 ms\n 9  192.192.68.30  10.828 ms  10.699 ms  8.606 ms\n10  210.176.44.153  8.411 ms  8.535 ms  8.727 ms\n11  202.84.137.254  13.350 ms  11.376 ms  11.884 ms\n12  * 202.84.140.249  37.069 ms *\n13  202.84.141.109  64.383 ms  71.464 ms  61.643 ms\n14  202.84.207.182  59.267 ms  60.769 ms  59.842 ms\n15  157.240.68.34  61.151 ms  59.260 ms  59.242 ms\n16  129.134.99.104  65.991 ms  66.224 ms  66.456 ms\n17  129.134.89.205  60.955 ms  60.341 ms  60.036 ms\n18  163.77.195.77  61.277 ms  61.428 ms  61.281 ms\n19  57.144.144.1  60.816 ms  58.542 ms  59.154 ms\n",
+  "category": "cdn_global",
+  "base_domain": "facebook.com",
+  "service_variant": "facebook.com",
+  "is_bare_domain": true
+}

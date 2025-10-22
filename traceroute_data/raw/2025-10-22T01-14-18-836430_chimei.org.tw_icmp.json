@@ -1,0 +1,153 @@
+{
+  "timestamp": "2025-10-22T01:14:18.836430",
+  "vantage_point": "university",
+  "target": "chimei.org.tw",
+  "target_ip": "60.249.237.180",
+  "protocol": "icmp",
+  "port": null,
+  "duration_seconds": 39.99,
+  "hops": [
+    {
+      "hop": 2,
+      "ip": "140.123.103.250",
+      "hostname": "csgate103.cs.ccu.edu.tw",
+      "rtts": [
+        4.567,
+        3.158,
+        4.774
+      ],
+      "avg_rtt": 4.17,
+      "timeout": false
+    },
+    {
+      "hop": 3,
+      "ip": "140.123.9.249",
+      "hostname": "140.123.9.249",
+      "rtts": [
+        2.472,
+        3.635,
+        4.23
+      ],
+      "avg_rtt": 3.45,
+      "timeout": false
+    },
+    {
+      "hop": 4,
+      "ip": "140.123.0.246",
+      "hostname": "140.123.0.246",
+      "rtts": [
+        7.349,
+        5.813,
+        15.78
+      ],
+      "avg_rtt": 9.65,
+      "timeout": false
+    },
+    {
+      "hop": 5,
+      "ip": "140.130.252.251",
+      "hostname": "140.130.252.251",
+      "rtts": [
+        17.144,
+        33.356,
+        3.49
+      ],
+      "avg_rtt": 18.0,
+      "timeout": false
+    },
+    {
+      "hop": 6,
+      "ip": "211.22.226.198",
+      "hostname": "211-22-226-198.caw1-3332.hinet.net",
+      "rtts": [
+        4.48,
+        7.466,
+        6.831
+      ],
+      "avg_rtt": 6.26,
+      "timeout": false
+    },
+    {
+      "hop": 7,
+      "ip": null,
+      "hostname": null,
+      "rtts": [],
+      "timeout": true
+    },
+    {
+      "hop": 8,
+      "ip": "220.128.27.101",
+      "hostname": "220-128-27-101.tncd-3332.hinet.net",
+      "rtts": [
+        15.844,
+        13.898,
+        9.511
+      ],
+      "avg_rtt": 13.08,
+      "timeout": false
+    },
+    {
+      "hop": 9,
+      "ip": "168.95.229.189",
+      "hostname": "h189.s229.ts.hinet.net",
+      "rtts": [
+        6.98,
+        8.217,
+        16.054
+      ],
+      "avg_rtt": 10.42,
+      "timeout": false
+    },
+    {
+      "hop": 10,
+      "ip": null,
+      "hostname": null,
+      "rtts": [],
+      "timeout": true
+    },
+    {
+      "hop": 11,
+      "ip": null,
+      "hostname": null,
+      "rtts": [],
+      "timeout": true
+    },
+    {
+      "hop": 12,
+      "ip": null,
+      "hostname": null,
+      "rtts": [],
+      "timeout": true
+    },
+    {
+      "hop": 13,
+      "ip": "211.22.242.169",
+      "hostname": "www.chimei.org.tw",
+      "rtts": [
+        39.07,
+        11.742,
+        20.139
+      ],
+      "avg_rtt": 23.65,
+      "timeout": false
+    },
+    {
+      "hop": 14,
+      "ip": "211.22.242.169",
+      "hostname": "www.chimei.org.tw",
+      "rtts": [
+        475.683,
+        96.541
+      ],
+      "avg_rtt": 286.11,
+      "timeout": false
+    }
+  ],
+  "num_hops": 13,
+  "success": false,
+  "raw_output": " 1  192.168.50.1 (192.168.50.1)  4.995 ms  3.438 ms  3.761 ms\n 2  csgate103.cs.ccu.edu.tw (140.123.103.250)  4.567 ms  3.158 ms  4.774 ms\n 3  140.123.9.249 (140.123.9.249)  2.472 ms  3.635 ms  4.230 ms\n 4  140.123.0.246 (140.123.0.246)  7.349 ms  5.813 ms  15.780 ms\n 5  140.130.252.251 (140.130.252.251)  17.144 ms  33.356 ms  3.490 ms\n 6  211-22-226-198.caw1-3332.hinet.net (211.22.226.198)  4.480 ms  7.466 ms  6.831 ms\n 7  * * *\n 8  220-128-27-101.tncd-3332.hinet.net (220.128.27.101)  15.844 ms  13.898 ms  9.511 ms\n 9  h189.s229.ts.hinet.net (168.95.229.189)  6.980 ms  8.217 ms  16.054 ms\n10  * * *\n11  * * *\n12  * * *\n13  www.chimei.org.tw (211.22.242.169)  39.070 ms  11.742 ms  20.139 ms\n14  www.chimei.org.tw (211.22.242.169)  475.683 ms !H *  96.541 ms !H\n",
+  "category": "healthcare",
+  "base_domain": "chimei.org.tw",
+  "service_variant": "chimei.org.tw",
+  "is_bare_domain": true
+}

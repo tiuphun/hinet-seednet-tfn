@@ -1,0 +1,137 @@
+{
+  "timestamp": "2025-10-21T16:53:58.293826",
+  "vantage_point": "university",
+  "target": "www.taoyuan-airport.com",
+  "target_ip": "104.18.23.151",
+  "protocol": "icmp",
+  "port": null,
+  "duration_seconds": 13.44,
+  "hops": [
+    {
+      "hop": 2,
+      "ip": "140.123.103.250",
+      "hostname": "csgate103.cs.ccu.edu.tw",
+      "rtts": [
+        2.818,
+        2.417,
+        7.983
+      ],
+      "avg_rtt": 4.41,
+      "timeout": false
+    },
+    {
+      "hop": 3,
+      "ip": "140.123.9.249",
+      "hostname": "140.123.9.249",
+      "rtts": [
+        6.283,
+        5.358,
+        2.358
+      ],
+      "avg_rtt": 4.67,
+      "timeout": false
+    },
+    {
+      "hop": 4,
+      "ip": "140.123.0.246",
+      "hostname": "140.123.0.246",
+      "rtts": [
+        3.724,
+        14.817,
+        3.988
+      ],
+      "avg_rtt": 7.51,
+      "timeout": false
+    },
+    {
+      "hop": 5,
+      "ip": "140.130.252.251",
+      "hostname": "140.130.252.251",
+      "rtts": [
+        4.922,
+        10.555,
+        4.531
+      ],
+      "avg_rtt": 6.67,
+      "timeout": false
+    },
+    {
+      "hop": 6,
+      "ip": "192.192.61.142",
+      "hostname": "192.192.61.142",
+      "rtts": [
+        11.607,
+        6.859,
+        5.256
+      ],
+      "avg_rtt": 7.91,
+      "timeout": false
+    },
+    {
+      "hop": 7,
+      "ip": "192.192.61.20",
+      "hostname": "192.192.61.20",
+      "rtts": [
+        11.623,
+        10.835,
+        24.531
+      ],
+      "avg_rtt": 15.66,
+      "timeout": false
+    },
+    {
+      "hop": 8,
+      "ip": "192.192.61.48",
+      "hostname": "192.192.61.48",
+      "rtts": [
+        15.519,
+        11.161,
+        12.194
+      ],
+      "avg_rtt": 12.96,
+      "timeout": false
+    },
+    {
+      "hop": 9,
+      "ip": "192.192.68.62",
+      "hostname": "192.192.68.62",
+      "rtts": [
+        17.699,
+        9.682,
+        9.64
+      ],
+      "avg_rtt": 12.34,
+      "timeout": false
+    },
+    {
+      "hop": 10,
+      "ip": "203.163.222.39",
+      "hostname": "39-222-163-203-static.tpix.net.tw",
+      "rtts": [
+        9.533,
+        8.274
+      ],
+      "avg_rtt": 8.9,
+      "timeout": false
+    },
+    {
+      "hop": 11,
+      "ip": "104.18.23.151",
+      "hostname": "104.18.23.151",
+      "rtts": [
+        10.755,
+        11.807,
+        15.23
+      ],
+      "avg_rtt": 12.6,
+      "timeout": false
+    }
+  ],
+  "num_hops": 10,
+  "success": true,
+  "raw_output": " 1  192.168.50.1 (192.168.50.1)  24.354 ms  19.744 ms  7.438 ms\n 2  csgate103.cs.ccu.edu.tw (140.123.103.250)  2.818 ms  2.417 ms  7.983 ms\n 3  140.123.9.249 (140.123.9.249)  6.283 ms  5.358 ms  2.358 ms\n 4  140.123.0.246 (140.123.0.246)  3.724 ms  14.817 ms  3.988 ms\n 5  140.130.252.251 (140.130.252.251)  4.922 ms  10.555 ms  4.531 ms\n 6  192.192.61.142 (192.192.61.142)  11.607 ms  6.859 ms  5.256 ms\n 7  192.192.61.20 (192.192.61.20)  11.623 ms  10.835 ms  24.531 ms\n 8  192.192.61.48 (192.192.61.48)  15.519 ms  11.161 ms  12.194 ms\n 9  192.192.68.62 (192.192.68.62)  17.699 ms  9.682 ms  9.640 ms\n10  39-222-163-203-static.tpix.net.tw (203.163.222.39)  9.533 ms  8.274 ms *\n11  104.18.23.151 (104.18.23.151)  10.755 ms  11.807 ms  15.230 ms\n",
+  "category": "critical_infra",
+  "base_domain": "taoyuan-airport.com",
+  "service_variant": "www.taoyuan-airport.com",
+  "is_bare_domain": false
+}

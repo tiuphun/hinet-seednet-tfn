@@ -1,0 +1,268 @@
+{
+  "timestamp": "2025-10-22T06:48:23.557869",
+  "vantage_point": "university",
+  "target": "smtp.gamer.com.tw",
+  "target_ip": "173.194.174.108",
+  "protocol": "icmp",
+  "port": null,
+  "duration_seconds": 84.98,
+  "hops": [
+    {
+      "hop": 2,
+      "ip": "140.123.103.250",
+      "hostname": "csgate103.cs.ccu.edu.tw",
+      "rtts": [
+        3.659,
+        2.846,
+        2.626
+      ],
+      "avg_rtt": 3.04,
+      "timeout": false
+    },
+    {
+      "hop": 3,
+      "ip": "140.123.9.249",
+      "hostname": "140.123.9.249",
+      "rtts": [
+        3.009,
+        2.998,
+        6.964
+      ],
+      "avg_rtt": 4.32,
+      "timeout": false
+    },
+    {
+      "hop": 4,
+      "ip": "140.123.0.246",
+      "hostname": "140.123.0.246",
+      "rtts": [
+        3.186,
+        5.329,
+        3.318
+      ],
+      "avg_rtt": 3.94,
+      "timeout": false
+    },
+    {
+      "hop": 5,
+      "ip": "140.130.252.251",
+      "hostname": "140.130.252.251",
+      "rtts": [
+        3.557,
+        4.229,
+        3.782
+      ],
+      "avg_rtt": 3.86,
+      "timeout": false
+    },
+    {
+      "hop": 6,
+      "ip": "192.192.61.142",
+      "hostname": "192.192.61.142",
+      "rtts": [
+        5.675,
+        6.141,
+        7.097
+      ],
+      "avg_rtt": 6.3,
+      "timeout": false
+    },
+    {
+      "hop": 7,
+      "ip": "192.192.61.20",
+      "hostname": "192.192.61.20",
+      "rtts": [
+        8.142,
+        10.039,
+        11.464
+      ],
+      "avg_rtt": 9.88,
+      "timeout": false
+    },
+    {
+      "hop": 8,
+      "ip": "192.192.61.184",
+      "hostname": "192.192.61.184",
+      "rtts": [
+        8.656,
+        8.385,
+        10.954
+      ],
+      "avg_rtt": 9.33,
+      "timeout": false
+    },
+    {
+      "hop": 9,
+      "ip": "192.192.61.203",
+      "hostname": "192.192.61.203",
+      "rtts": [
+        8.17,
+        8.217,
+        8.539
+      ],
+      "avg_rtt": 8.31,
+      "timeout": false
+    },
+    {
+      "hop": 10,
+      "ip": "72.14.196.229",
+      "hostname": "72.14.196.229",
+      "rtts": [
+        12.213,
+        8.706,
+        18.579
+      ],
+      "avg_rtt": 13.17,
+      "timeout": false
+    },
+    {
+      "hop": 11,
+      "ip": "209.85.254.217",
+      "hostname": "209.85.254.217",
+      "rtts": [
+        28.414,
+        9.128,
+        7.943
+      ],
+      "avg_rtt": 15.16,
+      "timeout": false
+    },
+    {
+      "hop": 12,
+      "ip": "192.178.105.252",
+      "hostname": "192.178.105.252",
+      "rtts": [
+        9.085,
+        10.149,
+        11.864
+      ],
+      "avg_rtt": 10.37,
+      "timeout": false
+    },
+    {
+      "hop": 13,
+      "ip": "142.250.224.229",
+      "hostname": "142.250.224.229",
+      "rtts": [
+        9.388,
+        11.144,
+        10.283
+      ],
+      "avg_rtt": 10.27,
+      "timeout": false
+    },
+    {
+      "hop": 14,
+      "ip": "142.250.224.238",
+      "hostname": "142.250.224.238",
+      "rtts": [
+        11.99,
+        16.057,
+        14.676
+      ],
+      "avg_rtt": 14.24,
+      "timeout": false
+    },
+    {
+      "hop": 15,
+      "ip": "72.14.233.210",
+      "hostname": "72.14.233.210",
+      "rtts": [
+        23.583,
+        14.86,
+        11.975
+      ],
+      "avg_rtt": 16.81,
+      "timeout": false
+    },
+    {
+      "hop": 16,
+      "ip": null,
+      "hostname": null,
+      "rtts": [],
+      "timeout": true
+    },
+    {
+      "hop": 17,
+      "ip": null,
+      "hostname": null,
+      "rtts": [],
+      "timeout": true
+    },
+    {
+      "hop": 18,
+      "ip": null,
+      "hostname": null,
+      "rtts": [],
+      "timeout": true
+    },
+    {
+      "hop": 19,
+      "ip": null,
+      "hostname": null,
+      "rtts": [],
+      "timeout": true
+    },
+    {
+      "hop": 20,
+      "ip": null,
+      "hostname": null,
+      "rtts": [],
+      "timeout": true
+    },
+    {
+      "hop": 21,
+      "ip": null,
+      "hostname": null,
+      "rtts": [],
+      "timeout": true
+    },
+    {
+      "hop": 22,
+      "ip": null,
+      "hostname": null,
+      "rtts": [],
+      "timeout": true
+    },
+    {
+      "hop": 23,
+      "ip": null,
+      "hostname": null,
+      "rtts": [],
+      "timeout": true
+    },
+    {
+      "hop": 24,
+      "ip": null,
+      "hostname": null,
+      "rtts": [],
+      "timeout": true
+    },
+    {
+      "hop": 25,
+      "ip": null,
+      "hostname": null,
+      "rtts": [],
+      "timeout": true
+    },
+    {
+      "hop": 26,
+      "ip": "173.194.174.108",
+      "hostname": "td-in-f108.1e100.net",
+      "rtts": [
+        14.055,
+        12.234,
+        12.737
+      ],
+      "avg_rtt": 13.01,
+      "timeout": false
+    }
+  ],
+  "num_hops": 25,
+  "success": true,
+  "raw_output": " 1  192.168.50.1 (192.168.50.1)  6.526 ms  13.928 ms  20.070 ms\n 2  csgate103.cs.ccu.edu.tw (140.123.103.250)  3.659 ms  2.846 ms  2.626 ms\n 3  140.123.9.249 (140.123.9.249)  3.009 ms  2.998 ms  6.964 ms\n 4  140.123.0.246 (140.123.0.246)  3.186 ms  5.329 ms  3.318 ms\n 5  140.130.252.251 (140.130.252.251)  3.557 ms  4.229 ms  3.782 ms\n 6  192.192.61.142 (192.192.61.142)  5.675 ms  6.141 ms  7.097 ms\n 7  192.192.61.20 (192.192.61.20)  8.142 ms  10.039 ms  11.464 ms\n 8  192.192.61.184 (192.192.61.184)  8.656 ms  8.385 ms  10.954 ms\n 9  192.192.61.203 (192.192.61.203)  8.170 ms  8.217 ms  8.539 ms\n10  72.14.196.229 (72.14.196.229)  12.213 ms  8.706 ms  18.579 ms\n11  209.85.254.217 (209.85.254.217)  28.414 ms  9.128 ms  7.943 ms\n12  192.178.105.252 (192.178.105.252)  9.085 ms  10.149 ms  11.864 ms\n13  142.250.224.229 (142.250.224.229)  9.388 ms  11.144 ms  10.283 ms\n14  142.250.224.238 (142.250.224.238)  11.990 ms  16.057 ms  14.676 ms\n15  72.14.233.210 (72.14.233.210)  23.583 ms  14.860 ms  11.975 ms\n16  * 142.250.228.205 (142.250.228.205)  18.798 ms  10.994 ms\n17  * * *\n18  * * *\n19  * * *\n20  * * *\n21  * * *\n22  * * *\n23  * * *\n24  * * *\n25  * * *\n26  td-in-f108.1e100.net (173.194.174.108)  14.055 ms  12.234 ms  12.737 ms\n",
+  "category": "ecommerce_tech",
+  "base_domain": "gamer.com.tw",
+  "service_variant": "smtp.gamer.com.tw",
+  "is_bare_domain": false
+}

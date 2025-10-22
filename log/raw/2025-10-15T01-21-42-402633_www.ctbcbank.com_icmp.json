@@ -1,0 +1,195 @@
+{
+  "timestamp": "2025-10-15T01:21:42.402633",
+  "vantage_point": "university",
+  "target": "www.ctbcbank.com",
+  "target_ip": "175.184.243.207",
+  "protocol": "icmp",
+  "port": null,
+  "duration_seconds": 9.58,
+  "hops": [
+    {
+      "hop": 2,
+      "ip": "140.123.103.250",
+      "hostname": null,
+      "rtts": [
+        3.484,
+        2.585,
+        2.805
+      ],
+      "avg_rtt": 2.96,
+      "timeout": false
+    },
+    {
+      "hop": 3,
+      "ip": "140.123.9.249",
+      "hostname": null,
+      "rtts": [
+        4.988,
+        2.832,
+        6.95
+      ],
+      "avg_rtt": 4.92,
+      "timeout": false
+    },
+    {
+      "hop": 4,
+      "ip": "140.123.0.246",
+      "hostname": null,
+      "rtts": [
+        3.506,
+        3.568,
+        3.452
+      ],
+      "avg_rtt": 3.51,
+      "timeout": false
+    },
+    {
+      "hop": 5,
+      "ip": "140.130.252.251",
+      "hostname": null,
+      "rtts": [
+        3.906,
+        6.677,
+        4.642
+      ],
+      "avg_rtt": 5.08,
+      "timeout": false
+    },
+    {
+      "hop": 6,
+      "ip": "61.31.254.69",
+      "hostname": null,
+      "rtts": [
+        7.445,
+        8.185,
+        9.471
+      ],
+      "avg_rtt": 8.37,
+      "timeout": false
+    },
+    {
+      "hop": 7,
+      "ip": "60.199.27.161",
+      "hostname": null,
+      "rtts": [
+        15.129,
+        9.476,
+        41.055
+      ],
+      "avg_rtt": 21.89,
+      "timeout": false
+    },
+    {
+      "hop": 8,
+      "ip": "60.199.82.101",
+      "hostname": null,
+      "rtts": [
+        12.542,
+        11.333,
+        11.47
+      ],
+      "avg_rtt": 11.78,
+      "timeout": false
+    },
+    {
+      "hop": 9,
+      "ip": "60.199.82.13",
+      "hostname": null,
+      "rtts": [
+        11.767,
+        11.332,
+        12.247
+      ],
+      "avg_rtt": 11.78,
+      "timeout": false
+    },
+    {
+      "hop": 10,
+      "ip": "60.199.6.194",
+      "hostname": null,
+      "rtts": [
+        10.934,
+        14.044,
+        16.319
+      ],
+      "avg_rtt": 13.77,
+      "timeout": false
+    },
+    {
+      "hop": 11,
+      "ip": "219.80.240.50",
+      "hostname": null,
+      "rtts": [
+        28.964,
+        11.647
+      ],
+      "avg_rtt": 20.31,
+      "timeout": false
+    },
+    {
+      "hop": 12,
+      "ip": "10.248.219.97",
+      "hostname": null,
+      "rtts": [
+        20.956,
+        14.899,
+        11.913
+      ],
+      "avg_rtt": 15.92,
+      "timeout": false
+    },
+    {
+      "hop": 13,
+      "ip": "192.168.255.228",
+      "hostname": null,
+      "rtts": [
+        12.366,
+        10.966
+      ],
+      "avg_rtt": 11.67,
+      "timeout": false
+    },
+    {
+      "hop": 14,
+      "ip": "192.168.254.197",
+      "hostname": null,
+      "rtts": [
+        28.717,
+        12.898,
+        21.057
+      ],
+      "avg_rtt": 20.89,
+      "timeout": false
+    },
+    {
+      "hop": 15,
+      "ip": "10.248.219.76",
+      "hostname": null,
+      "rtts": [
+        16.954,
+        33.919
+      ],
+      "avg_rtt": 25.44,
+      "timeout": false
+    },
+    {
+      "hop": 16,
+      "ip": "175.184.243.207",
+      "hostname": null,
+      "rtts": [
+        21.231,
+        14.513,
+        11.936
+      ],
+      "avg_rtt": 15.89,
+      "timeout": false
+    }
+  ],
+  "num_hops": 15,
+  "success": true,
+  "raw_output": " 1  192.168.50.1  4.361 ms  6.378 ms  6.134 ms\n 2  140.123.103.250  3.484 ms  2.585 ms  2.805 ms\n 3  140.123.9.249  4.988 ms  2.832 ms  6.950 ms\n 4  140.123.0.246  3.506 ms  3.568 ms  3.452 ms\n 5  140.130.252.251  3.906 ms  6.677 ms  4.642 ms\n 6  61.31.254.69  7.445 ms  8.185 ms  9.471 ms\n 7  60.199.27.161  15.129 ms  9.476 ms  41.055 ms\n 8  60.199.82.101  12.542 ms  11.333 ms  11.470 ms\n 9  60.199.82.13  11.767 ms  11.332 ms  12.247 ms\n10  60.199.6.194  10.934 ms  14.044 ms  16.319 ms\n11  219.80.240.50  28.964 ms  11.647 ms *\n12  10.248.219.97  20.956 ms  14.899 ms  11.913 ms\n13  192.168.255.228  12.366 ms  10.966 ms *\n14  192.168.254.197  28.717 ms  12.898 ms  21.057 ms\n15  10.248.219.76  16.954 ms  33.919 ms *\n16  175.184.243.207  21.231 ms  14.513 ms  11.936 ms\n",
+  "category": "financial_banks",
+  "base_domain": "ctbcbank.com",
+  "service_variant": "www.ctbcbank.com",
+  "is_bare_domain": false
+}

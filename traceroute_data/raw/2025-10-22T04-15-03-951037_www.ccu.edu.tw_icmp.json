@@ -1,0 +1,54 @@
+{
+  "timestamp": "2025-10-22T04:15:03.951037",
+  "vantage_point": "university",
+  "target": "www.ccu.edu.tw",
+  "target_ip": "140.123.13.215",
+  "protocol": "icmp",
+  "port": null,
+  "duration_seconds": 0.11,
+  "hops": [
+    {
+      "hop": 2,
+      "ip": "140.123.103.250",
+      "hostname": "csgate103.cs.ccu.edu.tw",
+      "rtts": [
+        2.865,
+        2.793,
+        3.057
+      ],
+      "avg_rtt": 2.9,
+      "timeout": false
+    },
+    {
+      "hop": 3,
+      "ip": "140.123.9.249",
+      "hostname": "140.123.9.249",
+      "rtts": [
+        4.008,
+        4.858,
+        5.082
+      ],
+      "avg_rtt": 4.65,
+      "timeout": false
+    },
+    {
+      "hop": 4,
+      "ip": "140.123.13.215",
+      "hostname": "140.123.13.215",
+      "rtts": [
+        8.821,
+        2.773,
+        2.856
+      ],
+      "avg_rtt": 4.82,
+      "timeout": false
+    }
+  ],
+  "num_hops": 3,
+  "success": true,
+  "raw_output": " 1  192.168.50.1 (192.168.50.1)  11.361 ms  2.164 ms  3.021 ms\n 2  csgate103.cs.ccu.edu.tw (140.123.103.250)  2.865 ms  2.793 ms  3.057 ms\n 3  140.123.9.249 (140.123.9.249)  4.008 ms  4.858 ms  5.082 ms\n 4  140.123.13.215 (140.123.13.215)  8.821 ms  2.773 ms  2.856 ms\n",
+  "category": "universities",
+  "base_domain": "ccu.edu.tw",
+  "service_variant": "www.ccu.edu.tw",
+  "is_bare_domain": false
+}

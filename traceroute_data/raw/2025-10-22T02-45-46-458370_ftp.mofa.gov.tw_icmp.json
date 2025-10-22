@@ -1,0 +1,125 @@
+{
+  "timestamp": "2025-10-22T02:45:46.458370",
+  "vantage_point": "university",
+  "target": "ftp.mofa.gov.tw",
+  "target_ip": "210.69.210.1",
+  "protocol": "icmp",
+  "port": null,
+  "duration_seconds": 5.86,
+  "hops": [
+    {
+      "hop": 2,
+      "ip": "140.123.103.250",
+      "hostname": "csgate103.cs.ccu.edu.tw",
+      "rtts": [
+        3.433,
+        2.551,
+        4.776
+      ],
+      "avg_rtt": 3.59,
+      "timeout": false
+    },
+    {
+      "hop": 3,
+      "ip": "140.123.9.249",
+      "hostname": "140.123.9.249",
+      "rtts": [
+        2.916,
+        3.217,
+        2.688
+      ],
+      "avg_rtt": 2.94,
+      "timeout": false
+    },
+    {
+      "hop": 4,
+      "ip": "140.123.0.246",
+      "hostname": "140.123.0.246",
+      "rtts": [
+        3.478,
+        3.535,
+        3.345
+      ],
+      "avg_rtt": 3.45,
+      "timeout": false
+    },
+    {
+      "hop": 5,
+      "ip": "140.130.252.251",
+      "hostname": "140.130.252.251",
+      "rtts": [
+        4.977,
+        6.356,
+        4.312
+      ],
+      "avg_rtt": 5.21,
+      "timeout": false
+    },
+    {
+      "hop": 6,
+      "ip": "192.192.61.142",
+      "hostname": "192.192.61.142",
+      "rtts": [
+        5.513,
+        10.848,
+        6.794
+      ],
+      "avg_rtt": 7.72,
+      "timeout": false
+    },
+    {
+      "hop": 7,
+      "ip": "192.192.61.37",
+      "hostname": "192.192.61.37",
+      "rtts": [
+        7.407,
+        10.808,
+        7.074
+      ],
+      "avg_rtt": 8.43,
+      "timeout": false
+    },
+    {
+      "hop": 8,
+      "ip": "192.192.61.32",
+      "hostname": "192.192.61.32",
+      "rtts": [
+        8.918,
+        7.757,
+        8.208
+      ],
+      "avg_rtt": 8.29,
+      "timeout": false
+    },
+    {
+      "hop": 9,
+      "ip": "192.192.61.209",
+      "hostname": "192.192.61.209",
+      "rtts": [
+        9.423,
+        8.22,
+        7.938
+      ],
+      "avg_rtt": 8.53,
+      "timeout": false
+    },
+    {
+      "hop": 10,
+      "ip": "10.96.81.12",
+      "hostname": "10.96.81.12",
+      "rtts": [
+        9.838,
+        15.097
+      ],
+      "avg_rtt": 12.47,
+      "timeout": false
+    }
+  ],
+  "num_hops": 9,
+  "success": false,
+  "raw_output": " 1  192.168.50.1 (192.168.50.1)  10.269 ms  3.417 ms  3.718 ms\n 2  csgate103.cs.ccu.edu.tw (140.123.103.250)  3.433 ms  2.551 ms  4.776 ms\n 3  140.123.9.249 (140.123.9.249)  2.916 ms  3.217 ms  2.688 ms\n 4  140.123.0.246 (140.123.0.246)  3.478 ms  3.535 ms  3.345 ms\n 5  140.130.252.251 (140.130.252.251)  4.977 ms  6.356 ms  4.312 ms\n 6  192.192.61.142 (192.192.61.142)  5.513 ms  10.848 ms  6.794 ms\n 7  192.192.61.37 (192.192.61.37)  7.407 ms  10.808 ms  7.074 ms\n 8  192.192.61.32 (192.192.61.32)  8.918 ms  7.757 ms  8.208 ms\n 9  192.192.61.209 (192.192.61.209)  9.423 ms  8.220 ms  7.938 ms\n10  10.96.81.12 (10.96.81.12)  9.838 ms !X *  15.097 ms !X\n",
+  "category": "government_central",
+  "base_domain": "mofa.gov.tw",
+  "service_variant": "ftp.mofa.gov.tw",
+  "is_bare_domain": false
+}

@@ -1,0 +1,174 @@
+{
+  "timestamp": "2025-10-21T15:45:23.399707",
+  "vantage_point": "university",
+  "target": "taiwanmobile.com",
+  "target_ip": "124.29.151.21",
+  "protocol": "icmp",
+  "port": null,
+  "duration_seconds": 1.87,
+  "hops": [
+    {
+      "hop": 2,
+      "ip": "140.123.103.250",
+      "hostname": "csgate103.cs.ccu.edu.tw",
+      "rtts": [
+        12.931,
+        3.036,
+        10.548
+      ],
+      "avg_rtt": 8.84,
+      "timeout": false
+    },
+    {
+      "hop": 3,
+      "ip": "140.123.9.249",
+      "hostname": "140.123.9.249",
+      "rtts": [
+        3.837,
+        2.643,
+        4.377
+      ],
+      "avg_rtt": 3.62,
+      "timeout": false
+    },
+    {
+      "hop": 4,
+      "ip": "140.123.0.246",
+      "hostname": "140.123.0.246",
+      "rtts": [
+        12.467,
+        2.808,
+        2.715
+      ],
+      "avg_rtt": 6.0,
+      "timeout": false
+    },
+    {
+      "hop": 5,
+      "ip": "140.130.252.251",
+      "hostname": "140.130.252.251",
+      "rtts": [
+        7.622,
+        5.594,
+        6.301
+      ],
+      "avg_rtt": 6.51,
+      "timeout": false
+    },
+    {
+      "hop": 6,
+      "ip": "61.31.254.69",
+      "hostname": "61-31-254-69.static.tfn.net.tw",
+      "rtts": [
+        17.187,
+        5.728,
+        6.447
+      ],
+      "avg_rtt": 9.79,
+      "timeout": false
+    },
+    {
+      "hop": 7,
+      "ip": "60.199.27.121",
+      "hostname": "60-199-27-121.static.tfn.net.tw",
+      "rtts": [
+        5.478,
+        8.298,
+        8.021
+      ],
+      "avg_rtt": 7.27,
+      "timeout": false
+    },
+    {
+      "hop": 8,
+      "ip": "60.199.82.97",
+      "hostname": "60-199-82-97.static.tfn.net.tw",
+      "rtts": [
+        22.555,
+        10.445,
+        11.994
+      ],
+      "avg_rtt": 15.0,
+      "timeout": false
+    },
+    {
+      "hop": 9,
+      "ip": "60.199.82.5",
+      "hostname": "60-199-82-5.static.tfn.net.tw",
+      "rtts": [
+        10.283,
+        19.469,
+        12.972
+      ],
+      "avg_rtt": 14.24,
+      "timeout": false
+    },
+    {
+      "hop": 10,
+      "ip": "60.199.45.10",
+      "hostname": "60-199-45-10.static.tfn.net.tw",
+      "rtts": [
+        10.903,
+        17.082,
+        10.818
+      ],
+      "avg_rtt": 12.93,
+      "timeout": false
+    },
+    {
+      "hop": 11,
+      "ip": "61.31.51.30",
+      "hostname": "61-31-51-30.static.tfn.net.tw",
+      "rtts": [
+        10.619,
+        14.787,
+        19.725
+      ],
+      "avg_rtt": 15.04,
+      "timeout": false
+    },
+    {
+      "hop": 12,
+      "ip": "124.29.143.113",
+      "hostname": "124.29.143.113",
+      "rtts": [
+        12.815,
+        18.919,
+        14.043
+      ],
+      "avg_rtt": 15.26,
+      "timeout": false
+    },
+    {
+      "hop": 13,
+      "ip": "172.20.144.6",
+      "hostname": "172.20.144.6",
+      "rtts": [
+        11.849,
+        11.666,
+        12.094
+      ],
+      "avg_rtt": 11.87,
+      "timeout": false
+    },
+    {
+      "hop": 14,
+      "ip": "124.29.151.21",
+      "hostname": "124.29.151.21",
+      "rtts": [
+        11.952,
+        13.494,
+        29.024
+      ],
+      "avg_rtt": 18.16,
+      "timeout": false
+    }
+  ],
+  "num_hops": 13,
+  "success": true,
+  "raw_output": " 1  192.168.50.1 (192.168.50.1)  2.209 ms  4.720 ms  4.206 ms\n 2  csgate103.cs.ccu.edu.tw (140.123.103.250)  12.931 ms  3.036 ms  10.548 ms\n 3  140.123.9.249 (140.123.9.249)  3.837 ms  2.643 ms  4.377 ms\n 4  140.123.0.246 (140.123.0.246)  12.467 ms  2.808 ms  2.715 ms\n 5  140.130.252.251 (140.130.252.251)  7.622 ms  5.594 ms  6.301 ms\n 6  61-31-254-69.static.tfn.net.tw (61.31.254.69)  17.187 ms  5.728 ms  6.447 ms\n 7  60-199-27-121.static.tfn.net.tw (60.199.27.121)  5.478 ms  8.298 ms  8.021 ms\n 8  60-199-82-97.static.tfn.net.tw (60.199.82.97)  22.555 ms  10.445 ms  11.994 ms\n 9  60-199-82-5.static.tfn.net.tw (60.199.82.5)  10.283 ms  19.469 ms  12.972 ms\n10  60-199-45-10.static.tfn.net.tw (60.199.45.10)  10.903 ms  17.082 ms  10.818 ms\n11  61-31-51-30.static.tfn.net.tw (61.31.51.30)  10.619 ms  14.787 ms  19.725 ms\n12  124.29.143.113 (124.29.143.113)  12.815 ms  18.919 ms  14.043 ms\n13  172.20.144.6 (172.20.144.6)  11.849 ms  11.666 ms  12.094 ms\n14  124.29.151.21 (124.29.151.21)  11.952 ms  13.494 ms  29.024 ms\n",
+  "category": "telecom",
+  "base_domain": "taiwanmobile.com",
+  "service_variant": "taiwanmobile.com",
+  "is_bare_domain": true
+}

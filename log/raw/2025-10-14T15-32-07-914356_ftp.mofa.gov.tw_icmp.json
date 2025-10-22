@@ -1,0 +1,273 @@
+{
+  "timestamp": "2025-10-14T15:32:07.914356",
+  "vantage_point": "university",
+  "target": "ftp.mofa.gov.tw",
+  "target_ip": "210.69.210.1",
+  "protocol": "icmp",
+  "port": null,
+  "duration_seconds": 105.62,
+  "hops": [
+    {
+      "hop": 2,
+      "ip": "140.123.103.250",
+      "hostname": null,
+      "rtts": [
+        2.273,
+        2.884,
+        2.136
+      ],
+      "avg_rtt": 2.43,
+      "timeout": false
+    },
+    {
+      "hop": 3,
+      "ip": "140.123.9.249",
+      "hostname": null,
+      "rtts": [
+        3.147,
+        2.017,
+        8.429
+      ],
+      "avg_rtt": 4.53,
+      "timeout": false
+    },
+    {
+      "hop": 4,
+      "ip": "140.123.0.246",
+      "hostname": null,
+      "rtts": [
+        3.195,
+        4.358,
+        5.272
+      ],
+      "avg_rtt": 4.27,
+      "timeout": false
+    },
+    {
+      "hop": 5,
+      "ip": "140.130.252.251",
+      "hostname": null,
+      "rtts": [
+        3.873,
+        5.035,
+        9.969
+      ],
+      "avg_rtt": 6.29,
+      "timeout": false
+    },
+    {
+      "hop": 6,
+      "ip": "192.192.61.142",
+      "hostname": null,
+      "rtts": [
+        7.008,
+        9.185,
+        9.113
+      ],
+      "avg_rtt": 8.44,
+      "timeout": false
+    },
+    {
+      "hop": 7,
+      "ip": "192.192.61.37",
+      "hostname": null,
+      "rtts": [
+        9.52,
+        7.192,
+        7.366
+      ],
+      "avg_rtt": 8.03,
+      "timeout": false
+    },
+    {
+      "hop": 8,
+      "ip": "192.192.61.32",
+      "hostname": null,
+      "rtts": [
+        8.377,
+        15.438,
+        9.362
+      ],
+      "avg_rtt": 11.06,
+      "timeout": false
+    },
+    {
+      "hop": 9,
+      "ip": "192.192.61.209",
+      "hostname": null,
+      "rtts": [
+        7.797,
+        7.527,
+        8.905
+      ],
+      "avg_rtt": 8.08,
+      "timeout": false
+    },
+    {
+      "hop": 10,
+      "ip": "10.96.81.12",
+      "hostname": null,
+      "rtts": [
+        13.284
+      ],
+      "avg_rtt": 13.28,
+      "timeout": false
+    },
+    {
+      "hop": 11,
+      "ip": "10.96.81.12",
+      "hostname": null,
+      "rtts": [
+        9.503
+      ],
+      "avg_rtt": 9.5,
+      "timeout": false
+    },
+    {
+      "hop": 12,
+      "ip": "10.96.81.12",
+      "hostname": null,
+      "rtts": [
+        10.266
+      ],
+      "avg_rtt": 10.27,
+      "timeout": false
+    },
+    {
+      "hop": 13,
+      "ip": "10.96.81.12",
+      "hostname": null,
+      "rtts": [
+        31.354
+      ],
+      "avg_rtt": 31.35,
+      "timeout": false
+    },
+    {
+      "hop": 14,
+      "ip": "10.96.81.12",
+      "hostname": null,
+      "rtts": [
+        23.175
+      ],
+      "avg_rtt": 23.18,
+      "timeout": false
+    },
+    {
+      "hop": 15,
+      "ip": null,
+      "hostname": null,
+      "rtts": [],
+      "timeout": true
+    },
+    {
+      "hop": 16,
+      "ip": null,
+      "hostname": null,
+      "rtts": [],
+      "timeout": true
+    },
+    {
+      "hop": 17,
+      "ip": null,
+      "hostname": null,
+      "rtts": [],
+      "timeout": true
+    },
+    {
+      "hop": 18,
+      "ip": null,
+      "hostname": null,
+      "rtts": [],
+      "timeout": true
+    },
+    {
+      "hop": 19,
+      "ip": "10.96.81.12",
+      "hostname": null,
+      "rtts": [
+        47.95
+      ],
+      "avg_rtt": 47.95,
+      "timeout": false
+    },
+    {
+      "hop": 20,
+      "ip": "10.96.81.12",
+      "hostname": null,
+      "rtts": [
+        13.17
+      ],
+      "avg_rtt": 13.17,
+      "timeout": false
+    },
+    {
+      "hop": 21,
+      "ip": "10.96.81.12",
+      "hostname": null,
+      "rtts": [
+        11.088
+      ],
+      "avg_rtt": 11.09,
+      "timeout": false
+    },
+    {
+      "hop": 22,
+      "ip": "10.96.81.12",
+      "hostname": null,
+      "rtts": [
+        11.089
+      ],
+      "avg_rtt": 11.09,
+      "timeout": false
+    },
+    {
+      "hop": 23,
+      "ip": "10.96.81.12",
+      "hostname": null,
+      "rtts": [
+        15.776
+      ],
+      "avg_rtt": 15.78,
+      "timeout": false
+    },
+    {
+      "hop": 24,
+      "ip": "10.96.81.12",
+      "hostname": null,
+      "rtts": [
+        30.116
+      ],
+      "avg_rtt": 30.12,
+      "timeout": false
+    },
+    {
+      "hop": 25,
+      "ip": "10.96.81.12",
+      "hostname": null,
+      "rtts": [
+        13.456
+      ],
+      "avg_rtt": 13.46,
+      "timeout": false
+    },
+    {
+      "hop": 26,
+      "ip": "10.96.81.12",
+      "hostname": null,
+      "rtts": [
+        13.081,
+        13.072
+      ],
+      "avg_rtt": 13.08,
+      "timeout": false
+    }
+  ],
+  "num_hops": 25,
+  "success": false,
+  "raw_output": " 1  192.168.50.1  8.268 ms  2.820 ms  1.892 ms\n 2  140.123.103.250  2.273 ms  2.884 ms  2.136 ms\n 3  140.123.9.249  3.147 ms  2.017 ms  8.429 ms\n 4  140.123.0.246  3.195 ms  4.358 ms  5.272 ms\n 5  140.130.252.251  3.873 ms  5.035 ms  9.969 ms\n 6  192.192.61.142  7.008 ms  9.185 ms  9.113 ms\n 7  192.192.61.37  9.520 ms  7.192 ms  7.366 ms\n 8  192.192.61.32  8.377 ms  15.438 ms  9.362 ms\n 9  192.192.61.209  7.797 ms  7.527 ms  8.905 ms\n10  10.96.81.12  13.284 ms !X * *\n11  10.96.81.12  9.503 ms !X * *\n12  10.96.81.12  10.266 ms !X * *\n13  10.96.81.12  31.354 ms !X * *\n14  10.96.81.12  23.175 ms !X * *\n15  * * *\n16  * 10.96.81.12  48.898 ms !X *\n17  * 10.96.81.12  13.751 ms !X *\n18  * * *\n19  10.96.81.12  47.950 ms !X * *\n20  10.96.81.12  13.170 ms !X * *\n21  10.96.81.12  11.088 ms !X * *\n22  10.96.81.12  11.089 ms !X * *\n23  10.96.81.12  15.776 ms !X * *\n24  10.96.81.12  30.116 ms !X * *\n25  10.96.81.12  13.456 ms !X * *\n26  10.96.81.12  13.081 ms !X *  13.072 ms !X\n",
+  "category": "government_central",
+  "base_domain": "mofa.gov.tw",
+  "service_variant": "ftp.mofa.gov.tw",
+  "is_bare_domain": false
+}

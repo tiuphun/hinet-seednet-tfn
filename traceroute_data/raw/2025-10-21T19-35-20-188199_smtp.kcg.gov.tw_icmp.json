@@ -1,0 +1,163 @@
+{
+  "timestamp": "2025-10-21T19:35:20.188199",
+  "vantage_point": "university",
+  "target": "smtp.kcg.gov.tw",
+  "target_ip": "223.200.91.225",
+  "protocol": "icmp",
+  "port": null,
+  "duration_seconds": 33.5,
+  "hops": [
+    {
+      "hop": 2,
+      "ip": "140.123.103.250",
+      "hostname": "csgate103.cs.ccu.edu.tw",
+      "rtts": [
+        3.138,
+        5.593,
+        2.676
+      ],
+      "avg_rtt": 3.8,
+      "timeout": false
+    },
+    {
+      "hop": 3,
+      "ip": "140.123.9.249",
+      "hostname": "140.123.9.249",
+      "rtts": [
+        2.524,
+        2.481,
+        2.535
+      ],
+      "avg_rtt": 2.51,
+      "timeout": false
+    },
+    {
+      "hop": 4,
+      "ip": "140.123.0.246",
+      "hostname": "140.123.0.246",
+      "rtts": [
+        6.396,
+        4.023,
+        3.911
+      ],
+      "avg_rtt": 4.78,
+      "timeout": false
+    },
+    {
+      "hop": 5,
+      "ip": "140.130.252.251",
+      "hostname": "140.130.252.251",
+      "rtts": [
+        33.049,
+        9.317,
+        24.234
+      ],
+      "avg_rtt": 22.2,
+      "timeout": false
+    },
+    {
+      "hop": 6,
+      "ip": "192.192.61.142",
+      "hostname": "192.192.61.142",
+      "rtts": [
+        5.557,
+        5.408,
+        11.383
+      ],
+      "avg_rtt": 7.45,
+      "timeout": false
+    },
+    {
+      "hop": 7,
+      "ip": "192.192.61.37",
+      "hostname": "192.192.61.37",
+      "rtts": [
+        7.927,
+        7.407,
+        8.527
+      ],
+      "avg_rtt": 7.95,
+      "timeout": false
+    },
+    {
+      "hop": 8,
+      "ip": "192.192.61.32",
+      "hostname": "192.192.61.32",
+      "rtts": [
+        7.97,
+        8.128,
+        9.34
+      ],
+      "avg_rtt": 8.48,
+      "timeout": false
+    },
+    {
+      "hop": 9,
+      "ip": "192.192.61.209",
+      "hostname": "192.192.61.209",
+      "rtts": [
+        9.336,
+        14.343,
+        25.078
+      ],
+      "avg_rtt": 16.25,
+      "timeout": false
+    },
+    {
+      "hop": 10,
+      "ip": null,
+      "hostname": null,
+      "rtts": [],
+      "timeout": true
+    },
+    {
+      "hop": 11,
+      "ip": null,
+      "hostname": null,
+      "rtts": [],
+      "timeout": true
+    },
+    {
+      "hop": 12,
+      "ip": "10.96.81.12",
+      "hostname": "10.96.81.12",
+      "rtts": [
+        9.745
+      ],
+      "avg_rtt": 9.74,
+      "timeout": false
+    },
+    {
+      "hop": 13,
+      "ip": null,
+      "hostname": null,
+      "rtts": [],
+      "timeout": true
+    },
+    {
+      "hop": 14,
+      "ip": null,
+      "hostname": null,
+      "rtts": [],
+      "timeout": true
+    },
+    {
+      "hop": 15,
+      "ip": "10.96.81.12",
+      "hostname": "10.96.81.12",
+      "rtts": [
+        20.117,
+        18.912
+      ],
+      "avg_rtt": 19.51,
+      "timeout": false
+    }
+  ],
+  "num_hops": 14,
+  "success": false,
+  "raw_output": " 1  192.168.50.1 (192.168.50.1)  10.296 ms  3.639 ms  4.873 ms\n 2  csgate103.cs.ccu.edu.tw (140.123.103.250)  3.138 ms  5.593 ms  2.676 ms\n 3  140.123.9.249 (140.123.9.249)  2.524 ms  2.481 ms  2.535 ms\n 4  140.123.0.246 (140.123.0.246)  6.396 ms  4.023 ms  3.911 ms\n 5  140.130.252.251 (140.130.252.251)  33.049 ms  9.317 ms  24.234 ms\n 6  192.192.61.142 (192.192.61.142)  5.557 ms  5.408 ms  11.383 ms\n 7  192.192.61.37 (192.192.61.37)  7.927 ms  7.407 ms  8.527 ms\n 8  192.192.61.32 (192.192.61.32)  7.970 ms  8.128 ms  9.340 ms\n 9  192.192.61.209 (192.192.61.209)  9.336 ms  14.343 ms  25.078 ms\n10  * * 10.96.81.12 (10.96.81.12)  20.905 ms !X\n11  * 10.96.81.12 (10.96.81.12)  11.971 ms !X *\n12  10.96.81.12 (10.96.81.12)  9.745 ms !X * *\n13  * * 10.96.81.12 (10.96.81.12)  39.098 ms !X\n14  * 10.96.81.12 (10.96.81.12)  18.481 ms !X *\n15  10.96.81.12 (10.96.81.12)  20.117 ms !X *  18.912 ms !X\n",
+  "category": "government_local",
+  "base_domain": "kcg.gov.tw",
+  "service_variant": "smtp.kcg.gov.tw",
+  "is_bare_domain": false
+}

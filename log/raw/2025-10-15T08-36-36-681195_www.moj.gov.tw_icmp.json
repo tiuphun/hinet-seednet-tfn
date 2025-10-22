@@ -1,0 +1,155 @@
+{
+  "timestamp": "2025-10-15T08:36:36.681195",
+  "vantage_point": "university",
+  "target": "www.moj.gov.tw",
+  "target_ip": "163.29.130.159",
+  "protocol": "icmp",
+  "port": null,
+  "duration_seconds": 21.29,
+  "hops": [
+    {
+      "hop": 2,
+      "ip": "140.123.103.250",
+      "hostname": null,
+      "rtts": [
+        2.965,
+        2.616,
+        2.541
+      ],
+      "avg_rtt": 2.71,
+      "timeout": false
+    },
+    {
+      "hop": 3,
+      "ip": "140.123.9.249",
+      "hostname": null,
+      "rtts": [
+        2.996,
+        3.622,
+        2.615
+      ],
+      "avg_rtt": 3.08,
+      "timeout": false
+    },
+    {
+      "hop": 4,
+      "ip": "140.123.0.246",
+      "hostname": null,
+      "rtts": [
+        4.63,
+        3.42,
+        3.302
+      ],
+      "avg_rtt": 3.78,
+      "timeout": false
+    },
+    {
+      "hop": 5,
+      "ip": "140.130.252.251",
+      "hostname": null,
+      "rtts": [
+        4.529,
+        4.035,
+        10.253
+      ],
+      "avg_rtt": 6.27,
+      "timeout": false
+    },
+    {
+      "hop": 6,
+      "ip": "192.192.61.142",
+      "hostname": null,
+      "rtts": [
+        7.228,
+        5.865,
+        6.063
+      ],
+      "avg_rtt": 6.39,
+      "timeout": false
+    },
+    {
+      "hop": 7,
+      "ip": "192.192.61.37",
+      "hostname": null,
+      "rtts": [
+        7.18,
+        7.606,
+        7.516
+      ],
+      "avg_rtt": 7.43,
+      "timeout": false
+    },
+    {
+      "hop": 8,
+      "ip": "192.192.61.32",
+      "hostname": null,
+      "rtts": [
+        9.896,
+        8.045,
+        8.92
+      ],
+      "avg_rtt": 8.95,
+      "timeout": false
+    },
+    {
+      "hop": 9,
+      "ip": "192.192.61.209",
+      "hostname": null,
+      "rtts": [
+        8.85,
+        8.107,
+        8.002
+      ],
+      "avg_rtt": 8.32,
+      "timeout": false
+    },
+    {
+      "hop": 10,
+      "ip": "10.96.81.12",
+      "hostname": null,
+      "rtts": [
+        10.219
+      ],
+      "avg_rtt": 10.22,
+      "timeout": false
+    },
+    {
+      "hop": 11,
+      "ip": "10.96.81.12",
+      "hostname": null,
+      "rtts": [
+        29.844
+      ],
+      "avg_rtt": 29.84,
+      "timeout": false
+    },
+    {
+      "hop": 12,
+      "ip": "10.96.81.12",
+      "hostname": null,
+      "rtts": [
+        19.27
+      ],
+      "avg_rtt": 19.27,
+      "timeout": false
+    },
+    {
+      "hop": 13,
+      "ip": "10.96.81.12",
+      "hostname": null,
+      "rtts": [
+        10.552,
+        22.146
+      ],
+      "avg_rtt": 16.35,
+      "timeout": false
+    }
+  ],
+  "num_hops": 12,
+  "success": false,
+  "raw_output": " 1  192.168.50.1  2.747 ms  4.390 ms  2.656 ms\n 2  140.123.103.250  2.965 ms  2.616 ms  2.541 ms\n 3  140.123.9.249  2.996 ms  3.622 ms  2.615 ms\n 4  140.123.0.246  4.630 ms  3.420 ms  3.302 ms\n 5  140.130.252.251  4.529 ms  4.035 ms  10.253 ms\n 6  192.192.61.142  7.228 ms  5.865 ms  6.063 ms\n 7  192.192.61.37  7.180 ms  7.606 ms  7.516 ms\n 8  192.192.61.32  9.896 ms  8.045 ms  8.920 ms\n 9  192.192.61.209  8.850 ms  8.107 ms  8.002 ms\n10  10.96.81.12  10.219 ms !X * *\n11  10.96.81.12  29.844 ms !X * *\n12  10.96.81.12  19.270 ms !X * *\n13  10.96.81.12  10.552 ms !X *  22.146 ms !X\n",
+  "category": "government_central",
+  "base_domain": "moj.gov.tw",
+  "service_variant": "www.moj.gov.tw",
+  "is_bare_domain": false
+}

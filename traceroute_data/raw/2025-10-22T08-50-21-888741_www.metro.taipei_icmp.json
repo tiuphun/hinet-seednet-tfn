@@ -1,0 +1,133 @@
+{
+  "timestamp": "2025-10-22T08:50:21.888741",
+  "vantage_point": "university",
+  "target": "www.metro.taipei",
+  "target_ip": "104.18.11.245",
+  "protocol": "icmp",
+  "port": null,
+  "duration_seconds": 18.21,
+  "hops": [
+    {
+      "hop": 2,
+      "ip": "140.123.103.250",
+      "hostname": "csgate103.cs.ccu.edu.tw",
+      "rtts": [
+        2.74,
+        2.381,
+        2.215
+      ],
+      "avg_rtt": 2.45,
+      "timeout": false
+    },
+    {
+      "hop": 3,
+      "ip": "140.123.9.249",
+      "hostname": "140.123.9.249",
+      "rtts": [
+        4.114,
+        2.328,
+        3.564
+      ],
+      "avg_rtt": 3.34,
+      "timeout": false
+    },
+    {
+      "hop": 4,
+      "ip": "140.123.0.246",
+      "hostname": "140.123.0.246",
+      "rtts": [
+        2.954,
+        3.039,
+        2.863
+      ],
+      "avg_rtt": 2.95,
+      "timeout": false
+    },
+    {
+      "hop": 5,
+      "ip": "140.130.252.251",
+      "hostname": "140.130.252.251",
+      "rtts": [
+        4.431,
+        4.897,
+        4.398
+      ],
+      "avg_rtt": 4.58,
+      "timeout": false
+    },
+    {
+      "hop": 6,
+      "ip": "192.192.61.142",
+      "hostname": "192.192.61.142",
+      "rtts": [
+        6.287,
+        5.968,
+        5.131
+      ],
+      "avg_rtt": 5.8,
+      "timeout": false
+    },
+    {
+      "hop": 7,
+      "ip": "192.192.61.20",
+      "hostname": "192.192.61.20",
+      "rtts": [
+        7.767,
+        8.191,
+        7.752
+      ],
+      "avg_rtt": 7.9,
+      "timeout": false
+    },
+    {
+      "hop": 8,
+      "ip": "192.192.61.48",
+      "hostname": "192.192.61.48",
+      "rtts": [
+        13.39,
+        8.114,
+        8.214
+      ],
+      "avg_rtt": 9.91,
+      "timeout": false
+    },
+    {
+      "hop": 9,
+      "ip": "192.192.68.62",
+      "hostname": "192.192.68.62",
+      "rtts": [
+        35.214,
+        18.266,
+        12.852
+      ],
+      "avg_rtt": 22.11,
+      "timeout": false
+    },
+    {
+      "hop": 10,
+      "ip": null,
+      "hostname": null,
+      "rtts": [],
+      "timeout": true
+    },
+    {
+      "hop": 11,
+      "ip": "104.18.11.245",
+      "hostname": "104.18.11.245",
+      "rtts": [
+        11.086,
+        9.169,
+        9.247
+      ],
+      "avg_rtt": 9.83,
+      "timeout": false
+    }
+  ],
+  "num_hops": 10,
+  "success": true,
+  "raw_output": " 1  192.168.50.1 (192.168.50.1)  2.625 ms  2.264 ms  2.151 ms\n 2  csgate103.cs.ccu.edu.tw (140.123.103.250)  2.740 ms  2.381 ms  2.215 ms\n 3  140.123.9.249 (140.123.9.249)  4.114 ms  2.328 ms  3.564 ms\n 4  140.123.0.246 (140.123.0.246)  2.954 ms  3.039 ms  2.863 ms\n 5  140.130.252.251 (140.130.252.251)  4.431 ms  4.897 ms  4.398 ms\n 6  192.192.61.142 (192.192.61.142)  6.287 ms  5.968 ms  5.131 ms\n 7  192.192.61.20 (192.192.61.20)  7.767 ms  8.191 ms  7.752 ms\n 8  192.192.61.48 (192.192.61.48)  13.390 ms  8.114 ms  8.214 ms\n 9  192.192.68.62 (192.192.68.62)  35.214 ms  18.266 ms  12.852 ms\n10  * * 39-222-163-203-static.tpix.net.tw (203.163.222.39)  19.500 ms\n11  104.18.11.245 (104.18.11.245)  11.086 ms  9.169 ms  9.247 ms\n",
+  "category": "critical_infra",
+  "base_domain": "metro.taipei",
+  "service_variant": "www.metro.taipei",
+  "is_bare_domain": false
+}

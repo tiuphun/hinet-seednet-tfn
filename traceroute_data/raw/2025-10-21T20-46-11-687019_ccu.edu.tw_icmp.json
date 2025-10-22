@@ -1,0 +1,78 @@
+{
+  "timestamp": "2025-10-21T20:46:11.687019",
+  "vantage_point": "university",
+  "target": "ccu.edu.tw",
+  "target_ip": "140.123.1.2",
+  "protocol": "icmp",
+  "port": null,
+  "duration_seconds": 1.32,
+  "hops": [
+    {
+      "hop": 2,
+      "ip": "140.123.103.250",
+      "hostname": "csgate103.cs.ccu.edu.tw",
+      "rtts": [
+        1.838,
+        2.006,
+        1.784
+      ],
+      "avg_rtt": 1.88,
+      "timeout": false
+    },
+    {
+      "hop": 3,
+      "ip": "140.123.9.249",
+      "hostname": "140.123.9.249",
+      "rtts": [
+        2.762,
+        2.844,
+        2.002
+      ],
+      "avg_rtt": 2.54,
+      "timeout": false
+    },
+    {
+      "hop": 4,
+      "ip": "140.123.0.246",
+      "hostname": "140.123.0.246",
+      "rtts": [
+        4.527,
+        4.165,
+        4.557
+      ],
+      "avg_rtt": 4.42,
+      "timeout": false
+    },
+    {
+      "hop": 5,
+      "ip": "140.130.252.251",
+      "hostname": "140.130.252.251",
+      "rtts": [
+        5.379,
+        10.79,
+        4.768
+      ],
+      "avg_rtt": 6.98,
+      "timeout": false
+    },
+    {
+      "hop": 6,
+      "ip": "140.123.1.2",
+      "hostname": "suncc.ccu.edu.tw",
+      "rtts": [
+        4.171,
+        3.631,
+        5.05
+      ],
+      "avg_rtt": 4.28,
+      "timeout": false
+    }
+  ],
+  "num_hops": 5,
+  "success": true,
+  "raw_output": " 1  192.168.50.1 (192.168.50.1)  10.150 ms  1.647 ms  1.592 ms\n 2  csgate103.cs.ccu.edu.tw (140.123.103.250)  1.838 ms  2.006 ms  1.784 ms\n 3  140.123.9.249 (140.123.9.249)  2.762 ms  2.844 ms  2.002 ms\n 4  140.123.0.246 (140.123.0.246)  4.527 ms  4.165 ms  4.557 ms\n 5  140.130.252.251 (140.130.252.251)  5.379 ms  10.790 ms  4.768 ms\n 6  suncc.ccu.edu.tw (140.123.1.2)  4.171 ms  3.631 ms  5.050 ms\n",
+  "category": "universities",
+  "base_domain": "ccu.edu.tw",
+  "service_variant": "ccu.edu.tw",
+  "is_bare_domain": true
+}

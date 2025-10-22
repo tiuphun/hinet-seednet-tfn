@@ -1,0 +1,257 @@
+{
+  "timestamp": "2025-10-15T13:48:30.916379",
+  "vantage_point": "itaiwan",
+  "target": "api.shopee.tw",
+  "target_ip": "147.136.146.133",
+  "protocol": "icmp",
+  "port": null,
+  "duration_seconds": 46.27,
+  "hops": [
+    {
+      "hop": 2,
+      "ip": "168.95.98.254",
+      "hostname": "h254.s98.ts.hinet.net",
+      "rtts": [
+        4.028,
+        3.16,
+        2.44
+      ],
+      "avg_rtt": 3.21,
+      "timeout": false,
+      "network": "hinet",
+      "network_name": "HiNet (Chunghwa Telecom)",
+      "is_interesting": true,
+      "is_private": false
+    },
+    {
+      "hop": 3,
+      "ip": "168.95.128.54",
+      "hostname": "168-95-128-54.caw1-3331.hinet.net",
+      "rtts": [
+        4.925,
+        4.138,
+        4.699
+      ],
+      "avg_rtt": 4.59,
+      "timeout": false,
+      "network": "hinet",
+      "network_name": "HiNet (Chunghwa Telecom)",
+      "is_interesting": true,
+      "is_private": false
+    },
+    {
+      "hop": 4,
+      "ip": null,
+      "hostname": null,
+      "rtts": [],
+      "timeout": true
+    },
+    {
+      "hop": 5,
+      "ip": "220.128.26.157",
+      "hostname": "220-128-26-157.skc1-4111.hinet.net",
+      "rtts": [
+        5.359,
+        6.227,
+        4.675
+      ],
+      "avg_rtt": 5.42,
+      "timeout": false,
+      "network": "hinet",
+      "network_name": "HiNet (Chunghwa Telecom)",
+      "is_interesting": true,
+      "is_private": false
+    },
+    {
+      "hop": 6,
+      "ip": "220.128.30.113",
+      "hostname": "220-128-30-113.skc1-4011.hinet.net",
+      "rtts": [
+        4.912,
+        4.153,
+        4.828
+      ],
+      "avg_rtt": 4.63,
+      "timeout": false,
+      "network": "hinet",
+      "network_name": "HiNet (Chunghwa Telecom)",
+      "is_interesting": true,
+      "is_private": false
+    },
+    {
+      "hop": 7,
+      "ip": "220.128.6.165",
+      "hostname": "220-128-6-165.sg-r42.sg.hinet.net",
+      "rtts": [
+        56.887,
+        56.976,
+        56.992
+      ],
+      "avg_rtt": 56.95,
+      "timeout": false,
+      "network": "hinet",
+      "network_name": "HiNet (Chunghwa Telecom)",
+      "is_interesting": true,
+      "is_private": false
+    },
+    {
+      "hop": 8,
+      "ip": null,
+      "hostname": null,
+      "rtts": [],
+      "timeout": true
+    },
+    {
+      "hop": 9,
+      "ip": "143.92.108.196",
+      "hostname": "143.92.108.196",
+      "rtts": [
+        54.804,
+        54.507,
+        73.946
+      ],
+      "avg_rtt": 61.09,
+      "timeout": false,
+      "network": "other",
+      "network_name": "Other Network",
+      "is_interesting": false,
+      "is_private": false
+    },
+    {
+      "hop": 10,
+      "ip": "143.92.119.130",
+      "hostname": "143.92.119.130",
+      "rtts": [
+        67.395
+      ],
+      "avg_rtt": 67.39,
+      "timeout": false,
+      "network": "other",
+      "network_name": "Other Network",
+      "is_interesting": false,
+      "is_private": false
+    },
+    {
+      "hop": 11,
+      "ip": "143.92.119.135",
+      "hostname": "143.92.119.135",
+      "rtts": [
+        57.076,
+        55.109,
+        55.346
+      ],
+      "avg_rtt": 55.84,
+      "timeout": false,
+      "network": "other",
+      "network_name": "Other Network",
+      "is_interesting": false,
+      "is_private": false
+    },
+    {
+      "hop": 12,
+      "ip": null,
+      "hostname": null,
+      "rtts": [],
+      "timeout": true
+    },
+    {
+      "hop": 13,
+      "ip": null,
+      "hostname": null,
+      "rtts": [],
+      "timeout": true
+    },
+    {
+      "hop": 14,
+      "ip": null,
+      "hostname": null,
+      "rtts": [],
+      "timeout": true
+    },
+    {
+      "hop": 15,
+      "ip": "147.136.146.133",
+      "hostname": "147.136.146.133",
+      "rtts": [
+        63.382,
+        58.09,
+        59.851
+      ],
+      "avg_rtt": 60.44,
+      "timeout": false,
+      "network": "other",
+      "network_name": "Other Network",
+      "is_interesting": false,
+      "is_private": false
+    }
+  ],
+  "num_hops": 14,
+  "success": true,
+  "path_analysis": {
+    "networks_traversed": [
+      {
+        "network": "hinet",
+        "network_name": "HiNet (Chunghwa Telecom)",
+        "first_hop": 2
+      },
+      {
+        "network": "other",
+        "network_name": "Other Network",
+        "first_hop": 9
+      }
+    ],
+    "interesting_routers": [
+      {
+        "hop": 2,
+        "ip": "168.95.98.254",
+        "hostname": "h254.s98.ts.hinet.net",
+        "network": "hinet",
+        "network_name": "HiNet (Chunghwa Telecom)"
+      },
+      {
+        "hop": 3,
+        "ip": "168.95.128.54",
+        "hostname": "168-95-128-54.caw1-3331.hinet.net",
+        "network": "hinet",
+        "network_name": "HiNet (Chunghwa Telecom)"
+      },
+      {
+        "hop": 5,
+        "ip": "220.128.26.157",
+        "hostname": "220-128-26-157.skc1-4111.hinet.net",
+        "network": "hinet",
+        "network_name": "HiNet (Chunghwa Telecom)"
+      },
+      {
+        "hop": 6,
+        "ip": "220.128.30.113",
+        "hostname": "220-128-30-113.skc1-4011.hinet.net",
+        "network": "hinet",
+        "network_name": "HiNet (Chunghwa Telecom)"
+      },
+      {
+        "hop": 7,
+        "ip": "220.128.6.165",
+        "hostname": "220-128-6-165.sg-r42.sg.hinet.net",
+        "network": "hinet",
+        "network_name": "HiNet (Chunghwa Telecom)"
+      }
+    ],
+    "private_hops": 0,
+    "total_hops": 14,
+    "network_transitions": [
+      {
+        "hop": 9,
+        "from": "hinet",
+        "to": "other",
+        "from_ip": "143.92.108.196",
+        "to_ip": "143.92.108.196"
+      }
+    ]
+  },
+  "raw_output": " 1  172.16.193.250 (172.16.193.250)  2.823 ms  2.285 ms  4.429 ms\n 2  h254.s98.ts.hinet.net (168.95.98.254)  4.028 ms  3.160 ms  2.440 ms\n 3  168-95-128-54.caw1-3331.hinet.net (168.95.128.54)  4.925 ms  4.138 ms  4.699 ms\n 4  * * *\n 5  220-128-26-157.skc1-4111.hinet.net (220.128.26.157)  5.359 ms  6.227 ms  4.675 ms\n 6  220-128-30-113.skc1-4011.hinet.net (220.128.30.113)  4.912 ms  4.153 ms  4.828 ms\n 7  220-128-6-165.sg-r42.sg.hinet.net (220.128.6.165)  56.887 ms  56.976 ms  56.992 ms\n 8  * * *\n 9  143.92.108.196 (143.92.108.196)  54.804 ms  54.507 ms  73.946 ms\n10  143.92.119.130 (143.92.119.130)  67.395 ms\n    143.92.119.128 (143.92.119.128)  71.951 ms\n    143.92.119.134 (143.92.119.134)  70.356 ms\n11  143.92.119.135 (143.92.119.135)  57.076 ms  55.109 ms  55.346 ms\n12  * * *\n13  * * *\n14  * * *\n15  147.136.146.133 (147.136.146.133)  63.382 ms  58.090 ms  59.851 ms\n",
+  "category": "ecommerce_tech",
+  "base_domain": "shopee.tw",
+  "service_variant": "api.shopee.tw",
+  "is_bare_domain": false
+}

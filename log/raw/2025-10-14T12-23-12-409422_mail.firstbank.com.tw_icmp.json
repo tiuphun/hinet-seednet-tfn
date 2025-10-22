@@ -1,0 +1,210 @@
+{
+  "timestamp": "2025-10-14T12:23:12.409422",
+  "vantage_point": "cht-mobile",
+  "target": "mail.firstbank.com.tw",
+  "target_ip": "61.67.7.197",
+  "protocol": "icmp",
+  "port": null,
+  "duration_seconds": 0.6,
+  "hops": [
+    {
+      "hop": 2,
+      "ip": "140.123.103.250",
+      "hostname": null,
+      "rtts": [
+        3.025,
+        2.791,
+        5.462
+      ],
+      "avg_rtt": 3.76,
+      "timeout": false
+    },
+    {
+      "hop": 3,
+      "ip": "140.123.9.249",
+      "hostname": null,
+      "rtts": [
+        3.894,
+        2.833,
+        2.841
+      ],
+      "avg_rtt": 3.19,
+      "timeout": false
+    },
+    {
+      "hop": 4,
+      "ip": "140.123.0.246",
+      "hostname": null,
+      "rtts": [
+        3.757,
+        3.499,
+        3.365
+      ],
+      "avg_rtt": 3.54,
+      "timeout": false
+    },
+    {
+      "hop": 5,
+      "ip": "140.130.252.251",
+      "hostname": null,
+      "rtts": [
+        5.695,
+        7.913,
+        8.707
+      ],
+      "avg_rtt": 7.44,
+      "timeout": false
+    },
+    {
+      "hop": 6,
+      "ip": "61.31.254.69",
+      "hostname": null,
+      "rtts": [
+        7.758,
+        5.777,
+        7.634
+      ],
+      "avg_rtt": 7.06,
+      "timeout": false
+    },
+    {
+      "hop": 7,
+      "ip": "60.199.27.121",
+      "hostname": null,
+      "rtts": [
+        6.142,
+        8.114,
+        6.628
+      ],
+      "avg_rtt": 6.96,
+      "timeout": false
+    },
+    {
+      "hop": 8,
+      "ip": "60.199.82.97",
+      "hostname": null,
+      "rtts": [
+        11.354,
+        14.761,
+        10.993
+      ],
+      "avg_rtt": 12.37,
+      "timeout": false
+    },
+    {
+      "hop": 9,
+      "ip": "60.199.21.1",
+      "hostname": null,
+      "rtts": [
+        9.934,
+        10.977,
+        14.446
+      ],
+      "avg_rtt": 11.79,
+      "timeout": false
+    },
+    {
+      "hop": 10,
+      "ip": "61.31.254.62",
+      "hostname": null,
+      "rtts": [
+        30.666,
+        16.472,
+        11.413
+      ],
+      "avg_rtt": 19.52,
+      "timeout": false
+    },
+    {
+      "hop": 11,
+      "ip": "139.175.57.107",
+      "hostname": null,
+      "rtts": [
+        19.74,
+        13.891,
+        15.098
+      ],
+      "avg_rtt": 16.24,
+      "timeout": false
+    },
+    {
+      "hop": 12,
+      "ip": "139.175.57.218",
+      "hostname": null,
+      "rtts": [
+        14.369,
+        11.372,
+        15.829
+      ],
+      "avg_rtt": 13.86,
+      "timeout": false
+    },
+    {
+      "hop": 13,
+      "ip": "192.72.107.98",
+      "hostname": null,
+      "rtts": [
+        12.711,
+        13.043,
+        13.479
+      ],
+      "avg_rtt": 13.08,
+      "timeout": false
+    },
+    {
+      "hop": 14,
+      "ip": "220.228.20.70",
+      "hostname": null,
+      "rtts": [
+        12.189,
+        18.742,
+        13.587
+      ],
+      "avg_rtt": 14.84,
+      "timeout": false
+    },
+    {
+      "hop": 15,
+      "ip": "61.67.3.242",
+      "hostname": null,
+      "rtts": [
+        12.252,
+        15.641,
+        13.519
+      ],
+      "avg_rtt": 13.8,
+      "timeout": false
+    },
+    {
+      "hop": 16,
+      "ip": "10.10.1.1",
+      "hostname": null,
+      "rtts": [
+        15.592,
+        31.378,
+        15.2
+      ],
+      "avg_rtt": 20.72,
+      "timeout": false
+    },
+    {
+      "hop": 17,
+      "ip": "61.67.7.197",
+      "hostname": null,
+      "rtts": [
+        12.597,
+        15.16,
+        12.429
+      ],
+      "avg_rtt": 13.4,
+      "timeout": false
+    }
+  ],
+  "num_hops": 16,
+  "success": true,
+  "raw_output": " 1  192.168.50.1  9.944 ms  12.805 ms  11.862 ms\n 2  140.123.103.250  3.025 ms  2.791 ms  5.462 ms\n 3  140.123.9.249  3.894 ms  2.833 ms  2.841 ms\n 4  140.123.0.246  3.757 ms  3.499 ms  3.365 ms\n 5  140.130.252.251  5.695 ms  7.913 ms  8.707 ms\n 6  61.31.254.69  7.758 ms  5.777 ms  7.634 ms\n 7  60.199.27.121  6.142 ms  8.114 ms  6.628 ms\n 8  60.199.82.97  11.354 ms  14.761 ms  10.993 ms\n 9  60.199.21.1  9.934 ms  10.977 ms  14.446 ms\n10  61.31.254.62  30.666 ms  16.472 ms  11.413 ms\n11  139.175.57.107  19.740 ms  13.891 ms  15.098 ms\n12  139.175.57.218  14.369 ms  11.372 ms  15.829 ms\n13  192.72.107.98  12.711 ms  13.043 ms  13.479 ms\n14  220.228.20.70  12.189 ms  18.742 ms  13.587 ms\n15  61.67.3.242  12.252 ms  15.641 ms  13.519 ms\n16  10.10.1.1  15.592 ms  31.378 ms  15.200 ms\n17  61.67.7.197  12.597 ms  15.160 ms  12.429 ms\n",
+  "category": "financial_banks",
+  "base_domain": "firstbank.com.tw",
+  "service_variant": "mail.firstbank.com.tw",
+  "is_bare_domain": false
+}

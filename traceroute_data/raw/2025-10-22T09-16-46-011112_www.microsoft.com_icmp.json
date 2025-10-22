@@ -1,0 +1,168 @@
+{
+  "timestamp": "2025-10-22T09:16:46.011112",
+  "vantage_point": "university",
+  "target": "www.microsoft.com",
+  "target_ip": "23.35.101.225",
+  "protocol": "icmp",
+  "port": null,
+  "duration_seconds": 61.92,
+  "hops": [
+    {
+      "hop": 2,
+      "ip": "140.123.103.250",
+      "hostname": "csgate103.cs.ccu.edu.tw",
+      "rtts": [
+        2.356,
+        4.462,
+        2.593
+      ],
+      "avg_rtt": 3.14,
+      "timeout": false
+    },
+    {
+      "hop": 3,
+      "ip": "140.123.9.249",
+      "hostname": "140.123.9.249",
+      "rtts": [
+        5.012,
+        3.028,
+        2.316
+      ],
+      "avg_rtt": 3.45,
+      "timeout": false
+    },
+    {
+      "hop": 4,
+      "ip": "140.123.0.246",
+      "hostname": "140.123.0.246",
+      "rtts": [
+        3.083,
+        2.86,
+        4.779
+      ],
+      "avg_rtt": 3.57,
+      "timeout": false
+    },
+    {
+      "hop": 5,
+      "ip": "140.130.252.251",
+      "hostname": "140.130.252.251",
+      "rtts": [
+        5.439,
+        4.737,
+        6.258
+      ],
+      "avg_rtt": 5.48,
+      "timeout": false
+    },
+    {
+      "hop": 6,
+      "ip": "192.192.61.142",
+      "hostname": "192.192.61.142",
+      "rtts": [
+        6.062,
+        10.113,
+        12.167
+      ],
+      "avg_rtt": 9.45,
+      "timeout": false
+    },
+    {
+      "hop": 7,
+      "ip": "192.192.61.20",
+      "hostname": "192.192.61.20",
+      "rtts": [
+        15.792,
+        7.542,
+        8.431
+      ],
+      "avg_rtt": 10.59,
+      "timeout": false
+    },
+    {
+      "hop": 8,
+      "ip": "192.192.61.48",
+      "hostname": "192.192.61.48",
+      "rtts": [
+        11.303,
+        10.634,
+        7.374
+      ],
+      "avg_rtt": 9.77,
+      "timeout": false
+    },
+    {
+      "hop": 9,
+      "ip": "192.192.68.62",
+      "hostname": "192.192.68.62",
+      "rtts": [
+        12.602,
+        41.991,
+        7.951
+      ],
+      "avg_rtt": 20.85,
+      "timeout": false
+    },
+    {
+      "hop": 10,
+      "ip": null,
+      "hostname": null,
+      "rtts": [],
+      "timeout": true
+    },
+    {
+      "hop": 11,
+      "ip": null,
+      "hostname": null,
+      "rtts": [],
+      "timeout": true
+    },
+    {
+      "hop": 12,
+      "ip": null,
+      "hostname": null,
+      "rtts": [],
+      "timeout": true
+    },
+    {
+      "hop": 13,
+      "ip": null,
+      "hostname": null,
+      "rtts": [],
+      "timeout": true
+    },
+    {
+      "hop": 14,
+      "ip": null,
+      "hostname": null,
+      "rtts": [],
+      "timeout": true
+    },
+    {
+      "hop": 15,
+      "ip": null,
+      "hostname": null,
+      "rtts": [],
+      "timeout": true
+    },
+    {
+      "hop": 16,
+      "ip": "23.35.101.225",
+      "hostname": "a23-35-101-225.deploy.static.akamaitechnologies.com",
+      "rtts": [
+        42.484,
+        53.005,
+        40.836
+      ],
+      "avg_rtt": 45.44,
+      "timeout": false
+    }
+  ],
+  "num_hops": 15,
+  "success": true,
+  "raw_output": " 1  192.168.50.1 (192.168.50.1)  2.316 ms  2.033 ms  1.893 ms\n 2  csgate103.cs.ccu.edu.tw (140.123.103.250)  2.356 ms  4.462 ms  2.593 ms\n 3  140.123.9.249 (140.123.9.249)  5.012 ms  3.028 ms  2.316 ms\n 4  140.123.0.246 (140.123.0.246)  3.083 ms  2.860 ms  4.779 ms\n 5  140.130.252.251 (140.130.252.251)  5.439 ms  4.737 ms  6.258 ms\n 6  192.192.61.142 (192.192.61.142)  6.062 ms  10.113 ms  12.167 ms\n 7  192.192.61.20 (192.192.61.20)  15.792 ms  7.542 ms  8.431 ms\n 8  192.192.61.48 (192.192.61.48)  11.303 ms  10.634 ms  7.374 ms\n 9  192.192.68.62 (192.192.68.62)  12.602 ms  41.991 ms  7.951 ms\n10  * * *\n11  * 100ge0-79.core2.tyo1.he.net (184.105.80.141)  43.595 ms *\n12  * * *\n13  * * *\n14  * * *\n15  * * *\n16  a23-35-101-225.deploy.static.akamaitechnologies.com (23.35.101.225)  42.484 ms  53.005 ms  40.836 ms\n",
+  "category": "cdn_global",
+  "base_domain": "microsoft.com",
+  "service_variant": "www.microsoft.com",
+  "is_bare_domain": false
+}

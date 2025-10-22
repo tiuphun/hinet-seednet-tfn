@@ -1,0 +1,135 @@
+{
+  "timestamp": "2025-10-21T19:46:45.850685",
+  "vantage_point": "university",
+  "target": "www.npa.gov.tw",
+  "target_ip": "203.66.32.142",
+  "protocol": "icmp",
+  "port": null,
+  "duration_seconds": 27.41,
+  "hops": [
+    {
+      "hop": 2,
+      "ip": "140.123.103.250",
+      "hostname": "csgate103.cs.ccu.edu.tw",
+      "rtts": [
+        2.742,
+        2.561,
+        10.989
+      ],
+      "avg_rtt": 5.43,
+      "timeout": false
+    },
+    {
+      "hop": 3,
+      "ip": "140.123.9.249",
+      "hostname": "140.123.9.249",
+      "rtts": [
+        11.126,
+        4.597,
+        6.186
+      ],
+      "avg_rtt": 7.3,
+      "timeout": false
+    },
+    {
+      "hop": 4,
+      "ip": "140.123.0.246",
+      "hostname": "140.123.0.246",
+      "rtts": [
+        3.633,
+        5.48,
+        3.32
+      ],
+      "avg_rtt": 4.14,
+      "timeout": false
+    },
+    {
+      "hop": 5,
+      "ip": "140.130.252.251",
+      "hostname": "140.130.252.251",
+      "rtts": [
+        4.391,
+        9.538,
+        22.681
+      ],
+      "avg_rtt": 12.2,
+      "timeout": false
+    },
+    {
+      "hop": 6,
+      "ip": "211.22.226.198",
+      "hostname": "211-22-226-198.caw1-3332.hinet.net",
+      "rtts": [
+        4.499,
+        6.003,
+        6.776
+      ],
+      "avg_rtt": 5.76,
+      "timeout": false
+    },
+    {
+      "hop": 7,
+      "ip": null,
+      "hostname": null,
+      "rtts": [],
+      "timeout": true
+    },
+    {
+      "hop": 8,
+      "ip": null,
+      "hostname": null,
+      "rtts": [],
+      "timeout": true
+    },
+    {
+      "hop": 9,
+      "ip": null,
+      "hostname": null,
+      "rtts": [],
+      "timeout": true
+    },
+    {
+      "hop": 10,
+      "ip": "220.128.13.133",
+      "hostname": "220-128-13-133.tpn2-3301.hinet.net",
+      "rtts": [
+        54.536,
+        10.644,
+        11.934
+      ],
+      "avg_rtt": 25.7,
+      "timeout": false
+    },
+    {
+      "hop": 11,
+      "ip": "211.22.224.137",
+      "hostname": "211-22-224-137.hinet-ip.hinet.net",
+      "rtts": [
+        11.229,
+        11.655,
+        19.723
+      ],
+      "avg_rtt": 14.2,
+      "timeout": false
+    },
+    {
+      "hop": 12,
+      "ip": "203.66.32.142",
+      "hostname": "203-66-32-142.hinet-ip.hinet.net",
+      "rtts": [
+        15.81,
+        19.764,
+        24.468
+      ],
+      "avg_rtt": 20.01,
+      "timeout": false
+    }
+  ],
+  "num_hops": 11,
+  "success": true,
+  "raw_output": " 1  192.168.50.1 (192.168.50.1)  6.474 ms  2.794 ms  5.404 ms\n 2  csgate103.cs.ccu.edu.tw (140.123.103.250)  2.742 ms  2.561 ms  10.989 ms\n 3  140.123.9.249 (140.123.9.249)  11.126 ms  4.597 ms  6.186 ms\n 4  140.123.0.246 (140.123.0.246)  3.633 ms  5.480 ms  3.320 ms\n 5  140.130.252.251 (140.130.252.251)  4.391 ms  9.538 ms  22.681 ms\n 6  211-22-226-198.caw1-3332.hinet.net (211.22.226.198)  4.499 ms  6.003 ms  6.776 ms\n 7  * * *\n 8  * * *\n 9  * * *\n10  220-128-13-133.tpn2-3301.hinet.net (220.128.13.133)  54.536 ms  10.644 ms  11.934 ms\n11  211-22-224-137.hinet-ip.hinet.net (211.22.224.137)  11.229 ms  11.655 ms  19.723 ms\n12  203-66-32-142.hinet-ip.hinet.net (203.66.32.142)  15.810 ms  19.764 ms  24.468 ms\n",
+  "category": "government_critical",
+  "base_domain": "npa.gov.tw",
+  "service_variant": "www.npa.gov.tw",
+  "is_bare_domain": false
+}

@@ -1,0 +1,147 @@
+{
+  "timestamp": "2025-10-13T16:10:46.560834",
+  "vantage_point": "university",
+  "target": "cycu.edu.tw",
+  "target_ip": "140.135.201.3",
+  "protocol": "icmp",
+  "port": null,
+  "duration_seconds": 0.21,
+  "hops": [
+    {
+      "hop": 2,
+      "ip": "140.123.103.250",
+      "hostname": null,
+      "rtts": [
+        2.409,
+        2.318,
+        2.123
+      ],
+      "avg_rtt": 2.28,
+      "timeout": false
+    },
+    {
+      "hop": 3,
+      "ip": "140.123.9.249",
+      "hostname": null,
+      "rtts": [
+        2.166,
+        2.137,
+        2.139
+      ],
+      "avg_rtt": 2.15,
+      "timeout": false
+    },
+    {
+      "hop": 4,
+      "ip": "140.123.0.246",
+      "hostname": null,
+      "rtts": [
+        3.692,
+        2.902,
+        3.092
+      ],
+      "avg_rtt": 3.23,
+      "timeout": false
+    },
+    {
+      "hop": 5,
+      "ip": "211.79.57.25",
+      "hostname": null,
+      "rtts": [
+        4.605,
+        3.278,
+        4.393
+      ],
+      "avg_rtt": 4.09,
+      "timeout": false
+    },
+    {
+      "hop": 6,
+      "ip": "211.73.76.209",
+      "hostname": null,
+      "rtts": [
+        4.871,
+        4.687,
+        4.782
+      ],
+      "avg_rtt": 4.78,
+      "timeout": false
+    },
+    {
+      "hop": 7,
+      "ip": "211.73.76.198",
+      "hostname": null,
+      "rtts": [
+        4.682,
+        4.556,
+        4.519
+      ],
+      "avg_rtt": 4.59,
+      "timeout": false
+    },
+    {
+      "hop": 8,
+      "ip": "211.73.76.141",
+      "hostname": null,
+      "rtts": [
+        8.816,
+        7.483,
+        11.878
+      ],
+      "avg_rtt": 9.39,
+      "timeout": false
+    },
+    {
+      "hop": 9,
+      "ip": "211.73.76.150",
+      "hostname": null,
+      "rtts": [
+        9.719,
+        8.37,
+        8.367
+      ],
+      "avg_rtt": 8.82,
+      "timeout": false
+    },
+    {
+      "hop": 10,
+      "ip": "211.79.51.74",
+      "hostname": null,
+      "rtts": [
+        8.03,
+        8.441,
+        8.136
+      ],
+      "avg_rtt": 8.2,
+      "timeout": false
+    },
+    {
+      "hop": 11,
+      "ip": "140.135.1.30",
+      "hostname": null,
+      "rtts": [
+        9.297,
+        9.151,
+        9.21
+      ],
+      "avg_rtt": 9.22,
+      "timeout": false
+    },
+    {
+      "hop": 12,
+      "ip": "140.135.201.3",
+      "hostname": null,
+      "rtts": [
+        8.139,
+        8.25,
+        8.103
+      ],
+      "avg_rtt": 8.16,
+      "timeout": false
+    }
+  ],
+  "num_hops": 11,
+  "success": true,
+  "raw_output": " 1  192.168.50.1  2.307 ms  1.836 ms  1.835 ms\n 2  140.123.103.250  2.409 ms  2.318 ms  2.123 ms\n 3  140.123.9.249  2.166 ms  2.137 ms  2.139 ms\n 4  140.123.0.246  3.692 ms  2.902 ms  3.092 ms\n 5  211.79.57.25  4.605 ms  3.278 ms  4.393 ms\n 6  211.73.76.209  4.871 ms  4.687 ms  4.782 ms\n 7  211.73.76.198  4.682 ms  4.556 ms  4.519 ms\n 8  211.73.76.141  8.816 ms  7.483 ms  11.878 ms\n 9  211.73.76.150  9.719 ms  8.370 ms  8.367 ms\n10  211.79.51.74  8.030 ms  8.441 ms  8.136 ms\n11  140.135.1.30  9.297 ms  9.151 ms  9.210 ms\n12  140.135.201.3  8.139 ms  8.250 ms  8.103 ms\n",
+  "category": "universities"
+}

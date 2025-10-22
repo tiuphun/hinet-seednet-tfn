@@ -1,0 +1,138 @@
+{
+  "timestamp": "2025-10-22T07:12:24.770445",
+  "vantage_point": "university",
+  "target": "www.pts.org.tw",
+  "target_ip": "34.96.73.68",
+  "protocol": "icmp",
+  "port": null,
+  "duration_seconds": 1.44,
+  "hops": [
+    {
+      "hop": 2,
+      "ip": "140.123.103.250",
+      "hostname": "csgate103.cs.ccu.edu.tw",
+      "rtts": [
+        2.903,
+        2.082,
+        2.592
+      ],
+      "avg_rtt": 2.53,
+      "timeout": false
+    },
+    {
+      "hop": 3,
+      "ip": "140.123.9.249",
+      "hostname": "140.123.9.249",
+      "rtts": [
+        2.012,
+        2.865,
+        5.922
+      ],
+      "avg_rtt": 3.6,
+      "timeout": false
+    },
+    {
+      "hop": 4,
+      "ip": "140.123.0.246",
+      "hostname": "140.123.0.246",
+      "rtts": [
+        2.893,
+        3.197,
+        4.27
+      ],
+      "avg_rtt": 3.45,
+      "timeout": false
+    },
+    {
+      "hop": 5,
+      "ip": "140.130.252.251",
+      "hostname": "140.130.252.251",
+      "rtts": [
+        3.515,
+        6.298,
+        3.485
+      ],
+      "avg_rtt": 4.43,
+      "timeout": false
+    },
+    {
+      "hop": 6,
+      "ip": "192.192.61.142",
+      "hostname": "192.192.61.142",
+      "rtts": [
+        6.962,
+        8.394,
+        6.723
+      ],
+      "avg_rtt": 7.36,
+      "timeout": false
+    },
+    {
+      "hop": 7,
+      "ip": "192.192.61.20",
+      "hostname": "192.192.61.20",
+      "rtts": [
+        8.524,
+        9.042,
+        10.183
+      ],
+      "avg_rtt": 9.25,
+      "timeout": false
+    },
+    {
+      "hop": 8,
+      "ip": "192.192.61.184",
+      "hostname": "192.192.61.184",
+      "rtts": [
+        9.137,
+        8.708,
+        9.169
+      ],
+      "avg_rtt": 9.0,
+      "timeout": false
+    },
+    {
+      "hop": 9,
+      "ip": "192.192.61.203",
+      "hostname": "192.192.61.203",
+      "rtts": [
+        8.041,
+        10.274,
+        12.154
+      ],
+      "avg_rtt": 10.16,
+      "timeout": false
+    },
+    {
+      "hop": 10,
+      "ip": "72.14.196.229",
+      "hostname": "72.14.196.229",
+      "rtts": [
+        8.592,
+        8.525,
+        9.511
+      ],
+      "avg_rtt": 8.88,
+      "timeout": false
+    },
+    {
+      "hop": 11,
+      "ip": "34.96.73.68",
+      "hostname": "68.73.96.34.bc.googleusercontent.com",
+      "rtts": [
+        8.367,
+        24.808,
+        10.04
+      ],
+      "avg_rtt": 14.41,
+      "timeout": false
+    }
+  ],
+  "num_hops": 10,
+  "success": true,
+  "raw_output": " 1  192.168.50.1 (192.168.50.1)  6.522 ms  8.148 ms  10.806 ms\n 2  csgate103.cs.ccu.edu.tw (140.123.103.250)  2.903 ms  2.082 ms  2.592 ms\n 3  140.123.9.249 (140.123.9.249)  2.012 ms  2.865 ms  5.922 ms\n 4  140.123.0.246 (140.123.0.246)  2.893 ms  3.197 ms  4.270 ms\n 5  140.130.252.251 (140.130.252.251)  3.515 ms  6.298 ms  3.485 ms\n 6  192.192.61.142 (192.192.61.142)  6.962 ms  8.394 ms  6.723 ms\n 7  192.192.61.20 (192.192.61.20)  8.524 ms  9.042 ms  10.183 ms\n 8  192.192.61.184 (192.192.61.184)  9.137 ms  8.708 ms  9.169 ms\n 9  192.192.61.203 (192.192.61.203)  8.041 ms  10.274 ms  12.154 ms\n10  72.14.196.229 (72.14.196.229)  8.592 ms  8.525 ms  9.511 ms\n11  68.73.96.34.bc.googleusercontent.com (34.96.73.68)  8.367 ms  24.808 ms  10.040 ms\n",
+  "category": "media",
+  "base_domain": "pts.org.tw",
+  "service_variant": "www.pts.org.tw",
+  "is_bare_domain": false
+}

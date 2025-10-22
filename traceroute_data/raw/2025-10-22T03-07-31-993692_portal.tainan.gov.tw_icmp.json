@@ -1,0 +1,173 @@
+{
+  "timestamp": "2025-10-22T03:07:31.993692",
+  "vantage_point": "university",
+  "target": "portal.tainan.gov.tw",
+  "target_ip": "210.242.150.38",
+  "protocol": "icmp",
+  "port": null,
+  "duration_seconds": 45.61,
+  "hops": [
+    {
+      "hop": 2,
+      "ip": "140.123.103.250",
+      "hostname": "csgate103.cs.ccu.edu.tw",
+      "rtts": [
+        3.153,
+        2.752,
+        5.423
+      ],
+      "avg_rtt": 3.78,
+      "timeout": false
+    },
+    {
+      "hop": 3,
+      "ip": "140.123.9.249",
+      "hostname": "140.123.9.249",
+      "rtts": [
+        2.312,
+        2.602,
+        2.492
+      ],
+      "avg_rtt": 2.47,
+      "timeout": false
+    },
+    {
+      "hop": 4,
+      "ip": "140.123.0.246",
+      "hostname": "140.123.0.246",
+      "rtts": [
+        3.576,
+        4.845,
+        3.024
+      ],
+      "avg_rtt": 3.81,
+      "timeout": false
+    },
+    {
+      "hop": 5,
+      "ip": "140.130.252.251",
+      "hostname": "140.130.252.251",
+      "rtts": [
+        4.106,
+        4.351,
+        3.341
+      ],
+      "avg_rtt": 3.93,
+      "timeout": false
+    },
+    {
+      "hop": 6,
+      "ip": "211.22.226.198",
+      "hostname": "211-22-226-198.caw1-3332.hinet.net",
+      "rtts": [
+        6.18,
+        5.185,
+        5.816
+      ],
+      "avg_rtt": 5.73,
+      "timeout": false
+    },
+    {
+      "hop": 7,
+      "ip": null,
+      "hostname": null,
+      "rtts": [],
+      "timeout": true
+    },
+    {
+      "hop": 8,
+      "ip": null,
+      "hostname": null,
+      "rtts": [],
+      "timeout": true
+    },
+    {
+      "hop": 9,
+      "ip": "220.128.2.225",
+      "hostname": "220-128-2-225.tpdb-3316.hinet.net",
+      "rtts": [
+        16.512,
+        10.527,
+        16.816
+      ],
+      "avg_rtt": 14.62,
+      "timeout": false
+    },
+    {
+      "hop": 10,
+      "ip": "168.95.229.13",
+      "hostname": "h13.s229.ts.hinet.net",
+      "rtts": [
+        10.854,
+        12.675,
+        10.026
+      ],
+      "avg_rtt": 11.19,
+      "timeout": false
+    },
+    {
+      "hop": 11,
+      "ip": null,
+      "hostname": null,
+      "rtts": [],
+      "timeout": true
+    },
+    {
+      "hop": 12,
+      "ip": "203.69.108.45",
+      "hostname": "203.69.108.45",
+      "rtts": [
+        23.118,
+        16.223,
+        28.168
+      ],
+      "avg_rtt": 22.5,
+      "timeout": false
+    },
+    {
+      "hop": 13,
+      "ip": null,
+      "hostname": null,
+      "rtts": [],
+      "timeout": true
+    },
+    {
+      "hop": 14,
+      "ip": null,
+      "hostname": null,
+      "rtts": [],
+      "timeout": true
+    },
+    {
+      "hop": 15,
+      "ip": "210.242.70.113",
+      "hostname": "210.242.70.113",
+      "rtts": [
+        24.512,
+        10.701,
+        10.545
+      ],
+      "avg_rtt": 15.25,
+      "timeout": false
+    },
+    {
+      "hop": 16,
+      "ip": "210.242.150.38",
+      "hostname": "210.242.150.38",
+      "rtts": [
+        16.489,
+        10.736,
+        12.556
+      ],
+      "avg_rtt": 13.26,
+      "timeout": false
+    }
+  ],
+  "num_hops": 15,
+  "success": true,
+  "raw_output": " 1  192.168.50.1 (192.168.50.1)  4.832 ms  3.635 ms  2.503 ms\n 2  csgate103.cs.ccu.edu.tw (140.123.103.250)  3.153 ms  2.752 ms  5.423 ms\n 3  140.123.9.249 (140.123.9.249)  2.312 ms  2.602 ms  2.492 ms\n 4  140.123.0.246 (140.123.0.246)  3.576 ms  4.845 ms  3.024 ms\n 5  140.130.252.251 (140.130.252.251)  4.106 ms  4.351 ms  3.341 ms\n 6  211-22-226-198.caw1-3332.hinet.net (211.22.226.198)  6.180 ms  5.185 ms  5.816 ms\n 7  * * *\n 8  * * *\n 9  220-128-2-225.tpdb-3316.hinet.net (220.128.2.225)  16.512 ms  10.527 ms  16.816 ms\n10  h13.s229.ts.hinet.net (168.95.229.13)  10.854 ms  12.675 ms  10.026 ms\n11  * * *\n12  203.69.108.45 (203.69.108.45)  23.118 ms  16.223 ms  28.168 ms\n13  * * *\n14  * * *\n15  210.242.70.113 (210.242.70.113)  24.512 ms  10.701 ms  10.545 ms\n16  210.242.150.38 (210.242.150.38)  16.489 ms  10.736 ms  12.556 ms\n",
+  "category": "government_local",
+  "base_domain": "tainan.gov.tw",
+  "service_variant": "portal.tainan.gov.tw",
+  "is_bare_domain": false
+}

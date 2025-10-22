@@ -1,0 +1,125 @@
+{
+  "timestamp": "2025-10-21T09:38:15.717776",
+  "vantage_point": "university",
+  "target": "mail.mof.gov.tw",
+  "target_ip": "61.60.101.134",
+  "protocol": "icmp",
+  "port": null,
+  "duration_seconds": 3.17,
+  "hops": [
+    {
+      "hop": 2,
+      "ip": "140.123.103.250",
+      "hostname": "csgate103.cs.ccu.edu.tw",
+      "rtts": [
+        2.38,
+        2.139,
+        2.103
+      ],
+      "avg_rtt": 2.21,
+      "timeout": false
+    },
+    {
+      "hop": 3,
+      "ip": "140.123.9.249",
+      "hostname": "140.123.9.249",
+      "rtts": [
+        1.948,
+        2.069,
+        1.974
+      ],
+      "avg_rtt": 2.0,
+      "timeout": false
+    },
+    {
+      "hop": 4,
+      "ip": "140.123.0.246",
+      "hostname": "140.123.0.246",
+      "rtts": [
+        3.139,
+        2.742,
+        2.784
+      ],
+      "avg_rtt": 2.89,
+      "timeout": false
+    },
+    {
+      "hop": 5,
+      "ip": "140.130.252.251",
+      "hostname": "140.130.252.251",
+      "rtts": [
+        3.622,
+        3.096,
+        3.144
+      ],
+      "avg_rtt": 3.29,
+      "timeout": false
+    },
+    {
+      "hop": 6,
+      "ip": "192.192.61.142",
+      "hostname": "192.192.61.142",
+      "rtts": [
+        5.2,
+        4.844,
+        4.929
+      ],
+      "avg_rtt": 4.99,
+      "timeout": false
+    },
+    {
+      "hop": 7,
+      "ip": "192.192.61.37",
+      "hostname": "192.192.61.37",
+      "rtts": [
+        6.499,
+        6.471,
+        6.415
+      ],
+      "avg_rtt": 6.46,
+      "timeout": false
+    },
+    {
+      "hop": 8,
+      "ip": "192.192.61.32",
+      "hostname": "192.192.61.32",
+      "rtts": [
+        7.434,
+        7.971,
+        7.848
+      ],
+      "avg_rtt": 7.75,
+      "timeout": false
+    },
+    {
+      "hop": 9,
+      "ip": "192.192.61.209",
+      "hostname": "192.192.61.209",
+      "rtts": [
+        8.027,
+        7.666,
+        7.553
+      ],
+      "avg_rtt": 7.75,
+      "timeout": false
+    },
+    {
+      "hop": 10,
+      "ip": "10.96.81.12",
+      "hostname": "10.96.81.12",
+      "rtts": [
+        9.449,
+        13.642
+      ],
+      "avg_rtt": 11.55,
+      "timeout": false
+    }
+  ],
+  "num_hops": 9,
+  "success": false,
+  "raw_output": " 1  192.168.50.1 (192.168.50.1)  6.585 ms  1.841 ms  1.915 ms\n 2  csgate103.cs.ccu.edu.tw (140.123.103.250)  2.380 ms  2.139 ms  2.103 ms\n 3  140.123.9.249 (140.123.9.249)  1.948 ms  2.069 ms  1.974 ms\n 4  140.123.0.246 (140.123.0.246)  3.139 ms  2.742 ms  2.784 ms\n 5  140.130.252.251 (140.130.252.251)  3.622 ms  3.096 ms  3.144 ms\n 6  192.192.61.142 (192.192.61.142)  5.200 ms  4.844 ms  4.929 ms\n 7  192.192.61.37 (192.192.61.37)  6.499 ms  6.471 ms  6.415 ms\n 8  192.192.61.32 (192.192.61.32)  7.434 ms  7.971 ms  7.848 ms\n 9  192.192.61.209 (192.192.61.209)  8.027 ms  7.666 ms  7.553 ms\n10  10.96.81.12 (10.96.81.12)  9.449 ms !X *  13.642 ms !X\n",
+  "category": "government_central",
+  "base_domain": "mof.gov.tw",
+  "service_variant": "mail.mof.gov.tw",
+  "is_bare_domain": false
+}

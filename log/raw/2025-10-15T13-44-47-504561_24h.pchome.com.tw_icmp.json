@@ -1,0 +1,176 @@
+{
+  "timestamp": "2025-10-15T13:44:47.504561",
+  "vantage_point": "itaiwan",
+  "target": "24h.pchome.com.tw",
+  "target_ip": "34.149.253.14",
+  "protocol": "icmp",
+  "port": null,
+  "duration_seconds": 9.3,
+  "hops": [
+    {
+      "hop": 2,
+      "ip": "168.95.98.254",
+      "hostname": "h254.s98.ts.hinet.net",
+      "rtts": [
+        2.938,
+        2.904,
+        2.714
+      ],
+      "avg_rtt": 2.85,
+      "timeout": false,
+      "network": "hinet",
+      "network_name": "HiNet (Chunghwa Telecom)",
+      "is_interesting": true,
+      "is_private": false
+    },
+    {
+      "hop": 3,
+      "ip": "168.95.129.50",
+      "hostname": "168-95-129-50.caw1-3332.hinet.net",
+      "rtts": [
+        3.1,
+        2.961,
+        3.09
+      ],
+      "avg_rtt": 3.05,
+      "timeout": false,
+      "network": "hinet",
+      "network_name": "HiNet (Chunghwa Telecom)",
+      "is_interesting": true,
+      "is_private": false
+    },
+    {
+      "hop": 4,
+      "ip": null,
+      "hostname": null,
+      "rtts": [],
+      "timeout": true
+    },
+    {
+      "hop": 5,
+      "ip": "220.128.9.58",
+      "hostname": "220-128-9-58.tylc-3032.hinet.net",
+      "rtts": [
+        16.309,
+        10.625,
+        9.989
+      ],
+      "avg_rtt": 12.31,
+      "timeout": false,
+      "network": "hinet",
+      "network_name": "HiNet (Chunghwa Telecom)",
+      "is_interesting": true,
+      "is_private": false
+    },
+    {
+      "hop": 6,
+      "ip": "220.128.9.13",
+      "hostname": "220-128-9-13.tyfo-3335.hinet.net",
+      "rtts": [
+        10.2,
+        11.038,
+        10.495
+      ],
+      "avg_rtt": 10.58,
+      "timeout": false,
+      "network": "hinet",
+      "network_name": "HiNet (Chunghwa Telecom)",
+      "is_interesting": true,
+      "is_private": false
+    },
+    {
+      "hop": 7,
+      "ip": "72.14.213.90",
+      "hostname": "72.14.213.90",
+      "rtts": [
+        11.303,
+        11.083,
+        11.298
+      ],
+      "avg_rtt": 11.23,
+      "timeout": false,
+      "network": "other",
+      "network_name": "Other Network",
+      "is_interesting": false,
+      "is_private": false
+    },
+    {
+      "hop": 8,
+      "ip": "34.149.253.14",
+      "hostname": "14.253.149.34.bc.googleusercontent.com",
+      "rtts": [
+        10.568,
+        10.003,
+        9.813
+      ],
+      "avg_rtt": 10.13,
+      "timeout": false,
+      "network": "other",
+      "network_name": "Other Network",
+      "is_interesting": false,
+      "is_private": false
+    }
+  ],
+  "num_hops": 7,
+  "success": true,
+  "path_analysis": {
+    "networks_traversed": [
+      {
+        "network": "hinet",
+        "network_name": "HiNet (Chunghwa Telecom)",
+        "first_hop": 2
+      },
+      {
+        "network": "other",
+        "network_name": "Other Network",
+        "first_hop": 7
+      }
+    ],
+    "interesting_routers": [
+      {
+        "hop": 2,
+        "ip": "168.95.98.254",
+        "hostname": "h254.s98.ts.hinet.net",
+        "network": "hinet",
+        "network_name": "HiNet (Chunghwa Telecom)"
+      },
+      {
+        "hop": 3,
+        "ip": "168.95.129.50",
+        "hostname": "168-95-129-50.caw1-3332.hinet.net",
+        "network": "hinet",
+        "network_name": "HiNet (Chunghwa Telecom)"
+      },
+      {
+        "hop": 5,
+        "ip": "220.128.9.58",
+        "hostname": "220-128-9-58.tylc-3032.hinet.net",
+        "network": "hinet",
+        "network_name": "HiNet (Chunghwa Telecom)"
+      },
+      {
+        "hop": 6,
+        "ip": "220.128.9.13",
+        "hostname": "220-128-9-13.tyfo-3335.hinet.net",
+        "network": "hinet",
+        "network_name": "HiNet (Chunghwa Telecom)"
+      }
+    ],
+    "private_hops": 0,
+    "total_hops": 7,
+    "network_transitions": [
+      {
+        "hop": 7,
+        "from": "hinet",
+        "to": "other",
+        "from_ip": "72.14.213.90",
+        "to_ip": "72.14.213.90"
+      }
+    ]
+  },
+  "raw_output": " 1  172.16.193.250 (172.16.193.250)  3.099 ms  2.534 ms  2.323 ms\n 2  h254.s98.ts.hinet.net (168.95.98.254)  2.938 ms  2.904 ms  2.714 ms\n 3  168-95-129-50.caw1-3332.hinet.net (168.95.129.50)  3.100 ms  2.961 ms  3.090 ms\n 4  * * *\n 5  220-128-9-58.tylc-3032.hinet.net (220.128.9.58)  16.309 ms  10.625 ms  9.989 ms\n 6  220-128-9-13.tyfo-3335.hinet.net (220.128.9.13)  10.200 ms  11.038 ms  10.495 ms\n 7  72.14.213.90 (72.14.213.90)  11.303 ms  11.083 ms  11.298 ms\n 8  14.253.149.34.bc.googleusercontent.com (34.149.253.14)  10.568 ms  10.003 ms  9.813 ms\n",
+  "category": "ecommerce_tech",
+  "base_domain": "24h.pchome.com.tw",
+  "service_variant": "24h.pchome.com.tw",
+  "is_bare_domain": true
+}

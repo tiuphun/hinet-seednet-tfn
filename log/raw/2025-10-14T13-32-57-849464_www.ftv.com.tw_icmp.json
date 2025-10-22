@@ -1,0 +1,137 @@
+{
+  "timestamp": "2025-10-14T13:32:57.849464",
+  "vantage_point": "cht-mobile",
+  "target": "www.ftv.com.tw",
+  "target_ip": "104.18.26.53",
+  "protocol": "icmp",
+  "port": null,
+  "duration_seconds": 3.33,
+  "hops": [
+    {
+      "hop": 2,
+      "ip": "140.123.103.250",
+      "hostname": null,
+      "rtts": [
+        2.536,
+        3.814,
+        4.587
+      ],
+      "avg_rtt": 3.65,
+      "timeout": false
+    },
+    {
+      "hop": 3,
+      "ip": "140.123.9.249",
+      "hostname": null,
+      "rtts": [
+        4.721,
+        2.592,
+        4.453
+      ],
+      "avg_rtt": 3.92,
+      "timeout": false
+    },
+    {
+      "hop": 4,
+      "ip": "140.123.0.246",
+      "hostname": null,
+      "rtts": [
+        3.402,
+        4.085,
+        5.313
+      ],
+      "avg_rtt": 4.27,
+      "timeout": false
+    },
+    {
+      "hop": 5,
+      "ip": "140.130.252.251",
+      "hostname": null,
+      "rtts": [
+        4.674,
+        6.118,
+        7.891
+      ],
+      "avg_rtt": 6.23,
+      "timeout": false
+    },
+    {
+      "hop": 6,
+      "ip": "192.192.61.142",
+      "hostname": null,
+      "rtts": [
+        8.087,
+        6.247,
+        6.018
+      ],
+      "avg_rtt": 6.78,
+      "timeout": false
+    },
+    {
+      "hop": 7,
+      "ip": "192.192.61.20",
+      "hostname": null,
+      "rtts": [
+        10.859,
+        8.838,
+        20.067
+      ],
+      "avg_rtt": 13.25,
+      "timeout": false
+    },
+    {
+      "hop": 8,
+      "ip": "192.192.61.48",
+      "hostname": null,
+      "rtts": [
+        12.893,
+        8.176,
+        9.689
+      ],
+      "avg_rtt": 10.25,
+      "timeout": false
+    },
+    {
+      "hop": 9,
+      "ip": "192.192.68.62",
+      "hostname": null,
+      "rtts": [
+        13.65,
+        10.972,
+        8.874
+      ],
+      "avg_rtt": 11.17,
+      "timeout": false
+    },
+    {
+      "hop": 10,
+      "ip": "203.163.222.39",
+      "hostname": null,
+      "rtts": [
+        21.763,
+        17.305
+      ],
+      "avg_rtt": 19.53,
+      "timeout": false
+    },
+    {
+      "hop": 11,
+      "ip": "104.18.26.53",
+      "hostname": null,
+      "rtts": [
+        10.796,
+        9.662,
+        8.523
+      ],
+      "avg_rtt": 9.66,
+      "timeout": false
+    }
+  ],
+  "num_hops": 10,
+  "success": true,
+  "raw_output": " 1  192.168.50.1  64.338 ms  5.542 ms  2.708 ms\n 2  140.123.103.250  2.536 ms  3.814 ms  4.587 ms\n 3  140.123.9.249  4.721 ms  2.592 ms  4.453 ms\n 4  140.123.0.246  3.402 ms  4.085 ms  5.313 ms\n 5  140.130.252.251  4.674 ms  6.118 ms  7.891 ms\n 6  192.192.61.142  8.087 ms  6.247 ms  6.018 ms\n 7  192.192.61.20  10.859 ms  8.838 ms  20.067 ms\n 8  192.192.61.48  12.893 ms  8.176 ms  9.689 ms\n 9  192.192.68.62  13.650 ms  10.972 ms  8.874 ms\n10  203.163.222.39  21.763 ms *  17.305 ms\n11  104.18.26.53  10.796 ms  9.662 ms  8.523 ms\n",
+  "category": "media",
+  "base_domain": "ftv.com.tw",
+  "service_variant": "www.ftv.com.tw",
+  "is_bare_domain": false
+}

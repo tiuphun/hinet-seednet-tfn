@@ -1,0 +1,138 @@
+{
+  "timestamp": "2025-10-14T13:33:59.765876",
+  "vantage_point": "cht-mobile",
+  "target": "cna.com.tw",
+  "target_ip": "34.160.71.205",
+  "protocol": "icmp",
+  "port": null,
+  "duration_seconds": 0.29,
+  "hops": [
+    {
+      "hop": 2,
+      "ip": "140.123.103.250",
+      "hostname": null,
+      "rtts": [
+        11.717,
+        2.035,
+        2.551
+      ],
+      "avg_rtt": 5.43,
+      "timeout": false
+    },
+    {
+      "hop": 3,
+      "ip": "140.123.9.249",
+      "hostname": null,
+      "rtts": [
+        2.297,
+        2.101,
+        2.115
+      ],
+      "avg_rtt": 2.17,
+      "timeout": false
+    },
+    {
+      "hop": 4,
+      "ip": "140.123.0.246",
+      "hostname": null,
+      "rtts": [
+        5.421,
+        4.754,
+        4.47
+      ],
+      "avg_rtt": 4.88,
+      "timeout": false
+    },
+    {
+      "hop": 5,
+      "ip": "140.130.252.251",
+      "hostname": null,
+      "rtts": [
+        5.759,
+        7.099,
+        4.044
+      ],
+      "avg_rtt": 5.63,
+      "timeout": false
+    },
+    {
+      "hop": 6,
+      "ip": "192.192.61.142",
+      "hostname": null,
+      "rtts": [
+        5.592,
+        5.504,
+        6.808
+      ],
+      "avg_rtt": 5.97,
+      "timeout": false
+    },
+    {
+      "hop": 7,
+      "ip": "192.192.61.20",
+      "hostname": null,
+      "rtts": [
+        7.807,
+        12.933,
+        18.956
+      ],
+      "avg_rtt": 13.23,
+      "timeout": false
+    },
+    {
+      "hop": 8,
+      "ip": "192.192.61.184",
+      "hostname": null,
+      "rtts": [
+        14.007,
+        8.286,
+        9.002
+      ],
+      "avg_rtt": 10.43,
+      "timeout": false
+    },
+    {
+      "hop": 9,
+      "ip": "192.192.61.203",
+      "hostname": null,
+      "rtts": [
+        9.829,
+        8.669,
+        8.294
+      ],
+      "avg_rtt": 8.93,
+      "timeout": false
+    },
+    {
+      "hop": 10,
+      "ip": "72.14.196.229",
+      "hostname": null,
+      "rtts": [
+        8.906,
+        8.703,
+        10.23
+      ],
+      "avg_rtt": 9.28,
+      "timeout": false
+    },
+    {
+      "hop": 11,
+      "ip": "34.160.71.205",
+      "hostname": null,
+      "rtts": [
+        9.353,
+        18.879,
+        19.92
+      ],
+      "avg_rtt": 16.05,
+      "timeout": false
+    }
+  ],
+  "num_hops": 10,
+  "success": true,
+  "raw_output": " 1  192.168.50.1  10.107 ms  1.937 ms  11.902 ms\n 2  140.123.103.250  11.717 ms  2.035 ms  2.551 ms\n 3  140.123.9.249  2.297 ms  2.101 ms  2.115 ms\n 4  140.123.0.246  5.421 ms  4.754 ms  4.470 ms\n 5  140.130.252.251  5.759 ms  7.099 ms  4.044 ms\n 6  192.192.61.142  5.592 ms  5.504 ms  6.808 ms\n 7  192.192.61.20  7.807 ms  12.933 ms  18.956 ms\n 8  192.192.61.184  14.007 ms  8.286 ms  9.002 ms\n 9  192.192.61.203  9.829 ms  8.669 ms  8.294 ms\n10  72.14.196.229  8.906 ms  8.703 ms  10.230 ms\n11  34.160.71.205  9.353 ms  18.879 ms  19.920 ms\n",
+  "category": "media",
+  "base_domain": "cna.com.tw",
+  "service_variant": "cna.com.tw",
+  "is_bare_domain": true
+}

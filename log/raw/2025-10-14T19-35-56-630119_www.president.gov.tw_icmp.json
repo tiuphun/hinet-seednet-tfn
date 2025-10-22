@@ -1,0 +1,135 @@
+{
+  "timestamp": "2025-10-14T19:35:56.630119",
+  "vantage_point": "university",
+  "target": "www.president.gov.tw",
+  "target_ip": "203.66.32.78",
+  "protocol": "icmp",
+  "port": null,
+  "duration_seconds": 27.3,
+  "hops": [
+    {
+      "hop": 2,
+      "ip": "140.123.103.250",
+      "hostname": null,
+      "rtts": [
+        3.318,
+        2.218,
+        2.18
+      ],
+      "avg_rtt": 2.57,
+      "timeout": false
+    },
+    {
+      "hop": 3,
+      "ip": "140.123.9.249",
+      "hostname": null,
+      "rtts": [
+        2.173,
+        3.698,
+        2.111
+      ],
+      "avg_rtt": 2.66,
+      "timeout": false
+    },
+    {
+      "hop": 4,
+      "ip": "140.123.0.246",
+      "hostname": null,
+      "rtts": [
+        2.733,
+        2.733,
+        2.994
+      ],
+      "avg_rtt": 2.82,
+      "timeout": false
+    },
+    {
+      "hop": 5,
+      "ip": "140.130.252.251",
+      "hostname": null,
+      "rtts": [
+        3.7,
+        3.444,
+        5.565
+      ],
+      "avg_rtt": 4.24,
+      "timeout": false
+    },
+    {
+      "hop": 6,
+      "ip": "211.22.226.198",
+      "hostname": null,
+      "rtts": [
+        3.901,
+        8.132,
+        3.623
+      ],
+      "avg_rtt": 5.22,
+      "timeout": false
+    },
+    {
+      "hop": 7,
+      "ip": null,
+      "hostname": null,
+      "rtts": [],
+      "timeout": true
+    },
+    {
+      "hop": 8,
+      "ip": null,
+      "hostname": null,
+      "rtts": [],
+      "timeout": true
+    },
+    {
+      "hop": 9,
+      "ip": null,
+      "hostname": null,
+      "rtts": [],
+      "timeout": true
+    },
+    {
+      "hop": 10,
+      "ip": "220.128.1.25",
+      "hostname": null,
+      "rtts": [
+        34.384,
+        12.508,
+        14.003
+      ],
+      "avg_rtt": 20.3,
+      "timeout": false
+    },
+    {
+      "hop": 11,
+      "ip": "211.22.227.225",
+      "hostname": null,
+      "rtts": [
+        11.709,
+        16.298,
+        10.988
+      ],
+      "avg_rtt": 13.0,
+      "timeout": false
+    },
+    {
+      "hop": 12,
+      "ip": "203.66.32.78",
+      "hostname": null,
+      "rtts": [
+        31.407,
+        12.674,
+        15.975
+      ],
+      "avg_rtt": 20.02,
+      "timeout": false
+    }
+  ],
+  "num_hops": 11,
+  "success": true,
+  "raw_output": " 1  192.168.50.1  2.655 ms  4.318 ms  2.273 ms\n 2  140.123.103.250  3.318 ms  2.218 ms  2.180 ms\n 3  140.123.9.249  2.173 ms  3.698 ms  2.111 ms\n 4  140.123.0.246  2.733 ms  2.733 ms  2.994 ms\n 5  140.130.252.251  3.700 ms  3.444 ms  5.565 ms\n 6  211.22.226.198  3.901 ms  8.132 ms  3.623 ms\n 7  * * *\n 8  * * *\n 9  * * *\n10  220.128.1.25  34.384 ms  12.508 ms  14.003 ms\n11  211.22.227.225  11.709 ms  16.298 ms  10.988 ms\n12  203.66.32.78  31.407 ms  12.674 ms  15.975 ms\n",
+  "category": "government_central",
+  "base_domain": "president.gov.tw",
+  "service_variant": "www.president.gov.tw",
+  "is_bare_domain": false
+}

@@ -1,0 +1,160 @@
+{
+  "timestamp": "2025-10-15T14:08:07.906150",
+  "vantage_point": "itaiwan",
+  "target": "dcard.tw",
+  "target_ip": "104.19.247.7",
+  "protocol": "icmp",
+  "port": null,
+  "duration_seconds": 9.25,
+  "hops": [
+    {
+      "hop": 2,
+      "ip": "168.95.98.254",
+      "hostname": "h254.s98.ts.hinet.net",
+      "rtts": [
+        3.251,
+        3.25,
+        3.387
+      ],
+      "avg_rtt": 3.3,
+      "timeout": false,
+      "network": "hinet",
+      "network_name": "HiNet (Chunghwa Telecom)",
+      "is_interesting": true,
+      "is_private": false
+    },
+    {
+      "hop": 3,
+      "ip": "168.95.129.50",
+      "hostname": "168-95-129-50.caw1-3332.hinet.net",
+      "rtts": [
+        3.165,
+        3.439,
+        3.589
+      ],
+      "avg_rtt": 3.4,
+      "timeout": false,
+      "network": "hinet",
+      "network_name": "HiNet (Chunghwa Telecom)",
+      "is_interesting": true,
+      "is_private": false
+    },
+    {
+      "hop": 4,
+      "ip": null,
+      "hostname": null,
+      "rtts": [],
+      "timeout": true
+    },
+    {
+      "hop": 5,
+      "ip": "220.128.25.93",
+      "hostname": "220-128-25-93.skc1-3335.hinet.net",
+      "rtts": [
+        8.749,
+        5.471,
+        7.405
+      ],
+      "avg_rtt": 7.21,
+      "timeout": false,
+      "network": "hinet",
+      "network_name": "HiNet (Chunghwa Telecom)",
+      "is_interesting": true,
+      "is_private": false
+    },
+    {
+      "hop": 6,
+      "ip": "203.69.105.145",
+      "hostname": "203-69-105-145.hinet-ip.hinet.net",
+      "rtts": [
+        63.783,
+        38.783,
+        8.458
+      ],
+      "avg_rtt": 37.01,
+      "timeout": false,
+      "network": "hinet",
+      "network_name": "HiNet (Chunghwa Telecom)",
+      "is_interesting": true,
+      "is_private": false
+    },
+    {
+      "hop": 7,
+      "ip": "104.19.247.7",
+      "hostname": "104.19.247.7",
+      "rtts": [
+        4.946,
+        5.692,
+        7.084
+      ],
+      "avg_rtt": 5.91,
+      "timeout": false,
+      "network": "other",
+      "network_name": "Other Network",
+      "is_interesting": false,
+      "is_private": false
+    }
+  ],
+  "num_hops": 6,
+  "success": true,
+  "path_analysis": {
+    "networks_traversed": [
+      {
+        "network": "hinet",
+        "network_name": "HiNet (Chunghwa Telecom)",
+        "first_hop": 2
+      },
+      {
+        "network": "other",
+        "network_name": "Other Network",
+        "first_hop": 7
+      }
+    ],
+    "interesting_routers": [
+      {
+        "hop": 2,
+        "ip": "168.95.98.254",
+        "hostname": "h254.s98.ts.hinet.net",
+        "network": "hinet",
+        "network_name": "HiNet (Chunghwa Telecom)"
+      },
+      {
+        "hop": 3,
+        "ip": "168.95.129.50",
+        "hostname": "168-95-129-50.caw1-3332.hinet.net",
+        "network": "hinet",
+        "network_name": "HiNet (Chunghwa Telecom)"
+      },
+      {
+        "hop": 5,
+        "ip": "220.128.25.93",
+        "hostname": "220-128-25-93.skc1-3335.hinet.net",
+        "network": "hinet",
+        "network_name": "HiNet (Chunghwa Telecom)"
+      },
+      {
+        "hop": 6,
+        "ip": "203.69.105.145",
+        "hostname": "203-69-105-145.hinet-ip.hinet.net",
+        "network": "hinet",
+        "network_name": "HiNet (Chunghwa Telecom)"
+      }
+    ],
+    "private_hops": 0,
+    "total_hops": 6,
+    "network_transitions": [
+      {
+        "hop": 7,
+        "from": "hinet",
+        "to": "other",
+        "from_ip": "104.19.247.7",
+        "to_ip": "104.19.247.7"
+      }
+    ]
+  },
+  "raw_output": " 1  172.16.193.250 (172.16.193.250)  2.854 ms  2.314 ms  2.402 ms\n 2  h254.s98.ts.hinet.net (168.95.98.254)  3.251 ms  3.250 ms  3.387 ms\n 3  168-95-129-50.caw1-3332.hinet.net (168.95.129.50)  3.165 ms  3.439 ms  3.589 ms\n 4  * * *\n 5  220-128-25-93.skc1-3335.hinet.net (220.128.25.93)  8.749 ms  5.471 ms  7.405 ms\n 6  203-69-105-145.hinet-ip.hinet.net (203.69.105.145)  63.783 ms  38.783 ms  8.458 ms\n 7  104.19.247.7 (104.19.247.7)  4.946 ms  5.692 ms  7.084 ms\n",
+  "category": "ecommerce_tech",
+  "base_domain": "dcard.tw",
+  "service_variant": "dcard.tw",
+  "is_bare_domain": true
+}

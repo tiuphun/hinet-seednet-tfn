@@ -1,0 +1,133 @@
+{
+  "timestamp": "2025-10-21T14:10:55.047651",
+  "vantage_point": "university",
+  "target": "app.tpex.org.tw",
+  "target_ip": "172.65.90.66",
+  "protocol": "icmp",
+  "port": null,
+  "duration_seconds": 3.28,
+  "hops": [
+    {
+      "hop": 2,
+      "ip": "140.123.103.250",
+      "hostname": "csgate103.cs.ccu.edu.tw",
+      "rtts": [
+        3.068,
+        5.854,
+        2.101
+      ],
+      "avg_rtt": 3.67,
+      "timeout": false
+    },
+    {
+      "hop": 3,
+      "ip": "140.123.9.249",
+      "hostname": "140.123.9.249",
+      "rtts": [
+        2.176,
+        1.985,
+        1.95
+      ],
+      "avg_rtt": 2.04,
+      "timeout": false
+    },
+    {
+      "hop": 4,
+      "ip": "140.123.0.246",
+      "hostname": "140.123.0.246",
+      "rtts": [
+        2.654,
+        3.182,
+        2.783
+      ],
+      "avg_rtt": 2.87,
+      "timeout": false
+    },
+    {
+      "hop": 5,
+      "ip": "140.130.252.251",
+      "hostname": "140.130.252.251",
+      "rtts": [
+        3.982,
+        4.322,
+        3.635
+      ],
+      "avg_rtt": 3.98,
+      "timeout": false
+    },
+    {
+      "hop": 6,
+      "ip": "192.192.61.142",
+      "hostname": "192.192.61.142",
+      "rtts": [
+        7.97,
+        8.812,
+        4.757
+      ],
+      "avg_rtt": 7.18,
+      "timeout": false
+    },
+    {
+      "hop": 7,
+      "ip": "192.192.61.20",
+      "hostname": "192.192.61.20",
+      "rtts": [
+        9.626,
+        20.595,
+        9.487
+      ],
+      "avg_rtt": 13.24,
+      "timeout": false
+    },
+    {
+      "hop": 8,
+      "ip": "192.192.61.48",
+      "hostname": "192.192.61.48",
+      "rtts": [
+        9.712,
+        8.249,
+        14.633
+      ],
+      "avg_rtt": 10.86,
+      "timeout": false
+    },
+    {
+      "hop": 9,
+      "ip": "192.192.68.62",
+      "hostname": "192.192.68.62",
+      "rtts": [
+        10.172,
+        9.171,
+        10.741
+      ],
+      "avg_rtt": 10.03,
+      "timeout": false
+    },
+    {
+      "hop": 10,
+      "ip": null,
+      "hostname": null,
+      "rtts": [],
+      "timeout": true
+    },
+    {
+      "hop": 11,
+      "ip": "172.65.90.66",
+      "hostname": "172.65.90.66",
+      "rtts": [
+        7.761,
+        7.92,
+        7.705
+      ],
+      "avg_rtt": 7.8,
+      "timeout": false
+    }
+  ],
+  "num_hops": 10,
+  "success": true,
+  "raw_output": " 1  192.168.50.1 (192.168.50.1)  16.897 ms  6.606 ms  1.845 ms\n 2  csgate103.cs.ccu.edu.tw (140.123.103.250)  3.068 ms  5.854 ms  2.101 ms\n 3  140.123.9.249 (140.123.9.249)  2.176 ms  1.985 ms  1.950 ms\n 4  140.123.0.246 (140.123.0.246)  2.654 ms  3.182 ms  2.783 ms\n 5  140.130.252.251 (140.130.252.251)  3.982 ms  4.322 ms  3.635 ms\n 6  192.192.61.142 (192.192.61.142)  7.970 ms  8.812 ms  4.757 ms\n 7  192.192.61.20 (192.192.61.20)  9.626 ms  20.595 ms  9.487 ms\n 8  192.192.61.48 (192.192.61.48)  9.712 ms  8.249 ms  14.633 ms\n 9  192.192.68.62 (192.192.68.62)  10.172 ms  9.171 ms  10.741 ms\n10  * 39-222-163-203-static.tpix.net.tw (203.163.222.39)  17.018 ms  7.954 ms\n11  172.65.90.66 (172.65.90.66)  7.761 ms  7.920 ms  7.705 ms\n",
+  "category": "financial_infra",
+  "base_domain": "tpex.org.tw",
+  "service_variant": "app.tpex.org.tw",
+  "is_bare_domain": false
+}

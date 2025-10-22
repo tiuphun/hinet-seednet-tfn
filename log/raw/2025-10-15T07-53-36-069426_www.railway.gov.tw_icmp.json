@@ -1,0 +1,159 @@
+{
+  "timestamp": "2025-10-15T07:53:36.069426",
+  "vantage_point": "university",
+  "target": "www.railway.gov.tw",
+  "target_ip": "210.242.36.6",
+  "protocol": "icmp",
+  "port": null,
+  "duration_seconds": 27.36,
+  "hops": [
+    {
+      "hop": 2,
+      "ip": "140.123.103.250",
+      "hostname": null,
+      "rtts": [
+        3.174,
+        4.4,
+        2.703
+      ],
+      "avg_rtt": 3.43,
+      "timeout": false
+    },
+    {
+      "hop": 3,
+      "ip": "140.123.9.249",
+      "hostname": null,
+      "rtts": [
+        5.658,
+        2.879,
+        3.828
+      ],
+      "avg_rtt": 4.12,
+      "timeout": false
+    },
+    {
+      "hop": 4,
+      "ip": "140.123.0.246",
+      "hostname": null,
+      "rtts": [
+        3.481,
+        5.739,
+        3.872
+      ],
+      "avg_rtt": 4.36,
+      "timeout": false
+    },
+    {
+      "hop": 5,
+      "ip": "140.130.252.251",
+      "hostname": null,
+      "rtts": [
+        4.104,
+        7.249,
+        4.765
+      ],
+      "avg_rtt": 5.37,
+      "timeout": false
+    },
+    {
+      "hop": 6,
+      "ip": "211.22.226.198",
+      "hostname": null,
+      "rtts": [
+        5.346,
+        4.573,
+        4.124
+      ],
+      "avg_rtt": 4.68,
+      "timeout": false
+    },
+    {
+      "hop": 7,
+      "ip": null,
+      "hostname": null,
+      "rtts": [],
+      "timeout": true
+    },
+    {
+      "hop": 8,
+      "ip": null,
+      "hostname": null,
+      "rtts": [],
+      "timeout": true
+    },
+    {
+      "hop": 9,
+      "ip": "220.128.4.221",
+      "hostname": null,
+      "rtts": [
+        25.135,
+        14.209,
+        16.354
+      ],
+      "avg_rtt": 18.57,
+      "timeout": false
+    },
+    {
+      "hop": 10,
+      "ip": "168.95.211.45",
+      "hostname": null,
+      "rtts": [
+        17.053,
+        12.366,
+        10.714
+      ],
+      "avg_rtt": 13.38,
+      "timeout": false
+    },
+    {
+      "hop": 11,
+      "ip": null,
+      "hostname": null,
+      "rtts": [],
+      "timeout": true
+    },
+    {
+      "hop": 12,
+      "ip": "202.39.144.209",
+      "hostname": null,
+      "rtts": [
+        22.148,
+        12.719,
+        11.009
+      ],
+      "avg_rtt": 15.29,
+      "timeout": false
+    },
+    {
+      "hop": 13,
+      "ip": "210.242.36.217",
+      "hostname": null,
+      "rtts": [
+        12.476,
+        11.262,
+        10.563
+      ],
+      "avg_rtt": 11.43,
+      "timeout": false
+    },
+    {
+      "hop": 14,
+      "ip": "210.242.36.6",
+      "hostname": null,
+      "rtts": [
+        11.445,
+        11.797,
+        10.556
+      ],
+      "avg_rtt": 11.27,
+      "timeout": false
+    }
+  ],
+  "num_hops": 13,
+  "success": true,
+  "raw_output": " 1  192.168.50.1  2.813 ms  2.350 ms  2.400 ms\n 2  140.123.103.250  3.174 ms  4.400 ms  2.703 ms\n 3  140.123.9.249  5.658 ms  2.879 ms  3.828 ms\n 4  140.123.0.246  3.481 ms  5.739 ms  3.872 ms\n 5  140.130.252.251  4.104 ms  7.249 ms  4.765 ms\n 6  211.22.226.198  5.346 ms  4.573 ms  4.124 ms\n 7  * * *\n 8  * * *\n 9  220.128.4.221  25.135 ms  14.209 ms  16.354 ms\n10  168.95.211.45  17.053 ms  12.366 ms  10.714 ms\n11  * * *\n12  202.39.144.209  22.148 ms  12.719 ms  11.009 ms\n13  210.242.36.217  12.476 ms  11.262 ms  10.563 ms\n14  210.242.36.6  11.445 ms  11.797 ms  10.556 ms\n",
+  "category": "critical_infra",
+  "base_domain": "railway.gov.tw",
+  "service_variant": "www.railway.gov.tw",
+  "is_bare_domain": false
+}

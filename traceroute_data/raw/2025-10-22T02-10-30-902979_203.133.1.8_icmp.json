@@ -1,0 +1,162 @@
+{
+  "timestamp": "2025-10-22T02:10:30.902979",
+  "vantage_point": "university",
+  "target": "203.133.1.8",
+  "target_ip": "203.133.1.8",
+  "protocol": "icmp",
+  "port": null,
+  "duration_seconds": 0.63,
+  "hops": [
+    {
+      "hop": 2,
+      "ip": "140.123.103.250",
+      "hostname": "csgate103.cs.ccu.edu.tw",
+      "rtts": [
+        2.816,
+        3.461,
+        2.65
+      ],
+      "avg_rtt": 2.98,
+      "timeout": false
+    },
+    {
+      "hop": 3,
+      "ip": "140.123.9.249",
+      "hostname": "140.123.9.249",
+      "rtts": [
+        2.717,
+        2.737,
+        2.48
+      ],
+      "avg_rtt": 2.64,
+      "timeout": false
+    },
+    {
+      "hop": 4,
+      "ip": "140.123.0.246",
+      "hostname": "140.123.0.246",
+      "rtts": [
+        3.164,
+        6.396,
+        3.542
+      ],
+      "avg_rtt": 4.37,
+      "timeout": false
+    },
+    {
+      "hop": 5,
+      "ip": "140.130.252.251",
+      "hostname": "140.130.252.251",
+      "rtts": [
+        4.165,
+        11.765,
+        4.373
+      ],
+      "avg_rtt": 6.77,
+      "timeout": false
+    },
+    {
+      "hop": 6,
+      "ip": "140.123.231.108",
+      "hostname": "140.123.231.108",
+      "rtts": [
+        4.031,
+        10.708,
+        5.189
+      ],
+      "avg_rtt": 6.64,
+      "timeout": false
+    },
+    {
+      "hop": 7,
+      "ip": "203.187.6.106",
+      "hostname": "tayang-m49-g2-10-cyccatv.ix.kbtelecom.net",
+      "rtts": [
+        24.486,
+        4.89,
+        11.354
+      ],
+      "avg_rtt": 13.58,
+      "timeout": false
+    },
+    {
+      "hop": 8,
+      "ip": "203.187.26.93",
+      "hostname": "peikong-m49-10g1-2-dayang.ix.kbtelecom.net",
+      "rtts": [
+        6.739,
+        18.316,
+        4.928
+      ],
+      "avg_rtt": 9.99,
+      "timeout": false
+    },
+    {
+      "hop": 9,
+      "ip": "203.187.26.89",
+      "hostname": "chialein-m49-10g1-2-peikong.ix.kbtelecom.net",
+      "rtts": [
+        5.86,
+        4.935,
+        4.98
+      ],
+      "avg_rtt": 5.26,
+      "timeout": false
+    },
+    {
+      "hop": 10,
+      "ip": "203.187.26.85",
+      "hostname": "sdtv-br93-eth1-45-chialein.ix.kbtelecom.net",
+      "rtts": [
+        11.231,
+        9.575,
+        6.349
+      ],
+      "avg_rtt": 9.05,
+      "timeout": false
+    },
+    {
+      "hop": 11,
+      "ip": "203.187.6.173",
+      "hostname": "tpnoc1-sc93-po10-sdtv.ix.kbtelecom.net",
+      "rtts": [
+        14.85,
+        10.077,
+        9.509
+      ],
+      "avg_rtt": 11.48,
+      "timeout": false
+    },
+    {
+      "hop": 12,
+      "ip": "203.187.6.53",
+      "hostname": "tpnoc1-c68-po82-sc93.ix.kbtelecom.net",
+      "rtts": [
+        7.83,
+        8.815,
+        13.672
+      ],
+      "avg_rtt": 10.11,
+      "timeout": false
+    },
+    {
+      "hop": 13,
+      "ip": "203.133.1.8",
+      "hostname": "dns1.giga.net.tw",
+      "rtts": [
+        10.502,
+        7.773,
+        8.536
+      ],
+      "avg_rtt": 8.94,
+      "timeout": false
+    }
+  ],
+  "num_hops": 12,
+  "success": true,
+  "raw_output": " 1  192.168.50.1 (192.168.50.1)  4.311 ms  5.998 ms  3.713 ms\n 2  csgate103.cs.ccu.edu.tw (140.123.103.250)  2.816 ms  3.461 ms  2.650 ms\n 3  140.123.9.249 (140.123.9.249)  2.717 ms  2.737 ms  2.480 ms\n 4  140.123.0.246 (140.123.0.246)  3.164 ms  6.396 ms  3.542 ms\n 5  140.130.252.251 (140.130.252.251)  4.165 ms  11.765 ms  4.373 ms\n 6  140.123.231.108 (140.123.231.108)  4.031 ms  10.708 ms  5.189 ms\n 7  tayang-m49-g2-10-cyccatv.ix.kbtelecom.net (203.187.6.106)  24.486 ms  4.890 ms  11.354 ms\n 8  peikong-m49-10g1-2-dayang.ix.kbtelecom.net (203.187.26.93)  6.739 ms  18.316 ms  4.928 ms\n 9  chialein-m49-10g1-2-peikong.ix.kbtelecom.net (203.187.26.89)  5.860 ms  4.935 ms  4.980 ms\n10  sdtv-br93-eth1-45-chialein.ix.kbtelecom.net (203.187.26.85)  11.231 ms  9.575 ms  6.349 ms\n11  tpnoc1-sc93-po10-sdtv.ix.kbtelecom.net (203.187.6.173)  14.850 ms  10.077 ms  9.509 ms\n12  tpnoc1-c68-po82-sc93.ix.kbtelecom.net (203.187.6.53)  7.830 ms  8.815 ms  13.672 ms\n13  dns1.giga.net.tw (203.133.1.8)  10.502 ms  7.773 ms  8.536 ms\n",
+  "category": "dns_resolvers",
+  "base_domain": "203.133.1.8",
+  "service_variant": "203.133.1.8",
+  "is_bare_domain": true
+}

@@ -1,0 +1,128 @@
+{
+  "timestamp": "2025-10-14T11:11:44.616053",
+  "vantage_point": "cht-mobile",
+  "target": "www.chcg.gov.tw",
+  "target_ip": "203.66.35.74",
+  "protocol": "icmp",
+  "port": null,
+  "duration_seconds": 18.16,
+  "hops": [
+    {
+      "hop": 2,
+      "ip": "140.123.103.250",
+      "hostname": null,
+      "rtts": [
+        2.923,
+        2.346,
+        2.789
+      ],
+      "avg_rtt": 2.69,
+      "timeout": false
+    },
+    {
+      "hop": 3,
+      "ip": "140.123.9.249",
+      "hostname": null,
+      "rtts": [
+        3.71,
+        2.85,
+        2.526
+      ],
+      "avg_rtt": 3.03,
+      "timeout": false
+    },
+    {
+      "hop": 4,
+      "ip": "140.123.0.246",
+      "hostname": null,
+      "rtts": [
+        3.378,
+        3.307,
+        3.354
+      ],
+      "avg_rtt": 3.35,
+      "timeout": false
+    },
+    {
+      "hop": 5,
+      "ip": "140.130.252.251",
+      "hostname": null,
+      "rtts": [
+        3.833,
+        4.811,
+        3.864
+      ],
+      "avg_rtt": 4.17,
+      "timeout": false
+    },
+    {
+      "hop": 6,
+      "ip": "211.22.226.198",
+      "hostname": null,
+      "rtts": [
+        4.522,
+        4.149,
+        3.984
+      ],
+      "avg_rtt": 4.22,
+      "timeout": false
+    },
+    {
+      "hop": 7,
+      "ip": null,
+      "hostname": null,
+      "rtts": [],
+      "timeout": true
+    },
+    {
+      "hop": 8,
+      "ip": null,
+      "hostname": null,
+      "rtts": [],
+      "timeout": true
+    },
+    {
+      "hop": 9,
+      "ip": "220.128.26.101",
+      "hostname": null,
+      "rtts": [
+        12.03,
+        6.367,
+        6.574
+      ],
+      "avg_rtt": 8.32,
+      "timeout": false
+    },
+    {
+      "hop": 10,
+      "ip": "211.22.228.209",
+      "hostname": null,
+      "rtts": [
+        6.477,
+        6.34,
+        5.586
+      ],
+      "avg_rtt": 6.13,
+      "timeout": false
+    },
+    {
+      "hop": 11,
+      "ip": "203.66.35.74",
+      "hostname": null,
+      "rtts": [
+        5.516,
+        5.691,
+        5.684
+      ],
+      "avg_rtt": 5.63,
+      "timeout": false
+    }
+  ],
+  "num_hops": 10,
+  "success": true,
+  "raw_output": " 1  192.168.50.1  2.237 ms  2.524 ms  2.399 ms\n 2  140.123.103.250  2.923 ms  2.346 ms  2.789 ms\n 3  140.123.9.249  3.710 ms  2.850 ms  2.526 ms\n 4  140.123.0.246  3.378 ms  3.307 ms  3.354 ms\n 5  140.130.252.251  3.833 ms  4.811 ms  3.864 ms\n 6  211.22.226.198  4.522 ms  4.149 ms  3.984 ms\n 7  * * *\n 8  * * *\n 9  220.128.26.101  12.030 ms  6.367 ms  6.574 ms\n10  211.22.228.209  6.477 ms  6.340 ms  5.586 ms\n11  203.66.35.74  5.516 ms  5.691 ms  5.684 ms\n",
+  "category": "government_local",
+  "base_domain": "chcg.gov.tw",
+  "service_variant": "www.chcg.gov.tw",
+  "is_bare_domain": false
+}

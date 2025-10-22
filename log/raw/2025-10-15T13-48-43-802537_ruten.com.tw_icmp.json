@@ -1,0 +1,160 @@
+{
+  "timestamp": "2025-10-15T13:48:43.802537",
+  "vantage_point": "itaiwan",
+  "target": "ruten.com.tw",
+  "target_ip": "104.18.10.27",
+  "protocol": "icmp",
+  "port": null,
+  "duration_seconds": 9.3,
+  "hops": [
+    {
+      "hop": 2,
+      "ip": "168.95.98.254",
+      "hostname": "h254.s98.ts.hinet.net",
+      "rtts": [
+        3.497,
+        3.937,
+        4.762
+      ],
+      "avg_rtt": 4.07,
+      "timeout": false,
+      "network": "hinet",
+      "network_name": "HiNet (Chunghwa Telecom)",
+      "is_interesting": true,
+      "is_private": false
+    },
+    {
+      "hop": 3,
+      "ip": "168.95.128.46",
+      "hostname": "168-95-128-46.caw1-3331.hinet.net",
+      "rtts": [
+        5.382,
+        6.068,
+        5.643
+      ],
+      "avg_rtt": 5.7,
+      "timeout": false,
+      "network": "hinet",
+      "network_name": "HiNet (Chunghwa Telecom)",
+      "is_interesting": true,
+      "is_private": false
+    },
+    {
+      "hop": 4,
+      "ip": null,
+      "hostname": null,
+      "rtts": [],
+      "timeout": true
+    },
+    {
+      "hop": 5,
+      "ip": "220.128.24.53",
+      "hostname": "220-128-24-53.skc1-3335.hinet.net",
+      "rtts": [
+        13.663,
+        6.195,
+        6.751
+      ],
+      "avg_rtt": 8.87,
+      "timeout": false,
+      "network": "hinet",
+      "network_name": "HiNet (Chunghwa Telecom)",
+      "is_interesting": true,
+      "is_private": false
+    },
+    {
+      "hop": 6,
+      "ip": "203.69.105.145",
+      "hostname": "203-69-105-145.hinet-ip.hinet.net",
+      "rtts": [
+        7.909,
+        39.433,
+        50.345
+      ],
+      "avg_rtt": 32.56,
+      "timeout": false,
+      "network": "hinet",
+      "network_name": "HiNet (Chunghwa Telecom)",
+      "is_interesting": true,
+      "is_private": false
+    },
+    {
+      "hop": 7,
+      "ip": "104.18.10.27",
+      "hostname": "104.18.10.27",
+      "rtts": [
+        6.409,
+        7.104,
+        6.108
+      ],
+      "avg_rtt": 6.54,
+      "timeout": false,
+      "network": "other",
+      "network_name": "Other Network",
+      "is_interesting": false,
+      "is_private": false
+    }
+  ],
+  "num_hops": 6,
+  "success": true,
+  "path_analysis": {
+    "networks_traversed": [
+      {
+        "network": "hinet",
+        "network_name": "HiNet (Chunghwa Telecom)",
+        "first_hop": 2
+      },
+      {
+        "network": "other",
+        "network_name": "Other Network",
+        "first_hop": 7
+      }
+    ],
+    "interesting_routers": [
+      {
+        "hop": 2,
+        "ip": "168.95.98.254",
+        "hostname": "h254.s98.ts.hinet.net",
+        "network": "hinet",
+        "network_name": "HiNet (Chunghwa Telecom)"
+      },
+      {
+        "hop": 3,
+        "ip": "168.95.128.46",
+        "hostname": "168-95-128-46.caw1-3331.hinet.net",
+        "network": "hinet",
+        "network_name": "HiNet (Chunghwa Telecom)"
+      },
+      {
+        "hop": 5,
+        "ip": "220.128.24.53",
+        "hostname": "220-128-24-53.skc1-3335.hinet.net",
+        "network": "hinet",
+        "network_name": "HiNet (Chunghwa Telecom)"
+      },
+      {
+        "hop": 6,
+        "ip": "203.69.105.145",
+        "hostname": "203-69-105-145.hinet-ip.hinet.net",
+        "network": "hinet",
+        "network_name": "HiNet (Chunghwa Telecom)"
+      }
+    ],
+    "private_hops": 0,
+    "total_hops": 6,
+    "network_transitions": [
+      {
+        "hop": 7,
+        "from": "hinet",
+        "to": "other",
+        "from_ip": "104.18.10.27",
+        "to_ip": "104.18.10.27"
+      }
+    ]
+  },
+  "raw_output": " 1  172.16.193.250 (172.16.193.250)  3.665 ms  2.566 ms  2.408 ms\n 2  h254.s98.ts.hinet.net (168.95.98.254)  3.497 ms  3.937 ms  4.762 ms\n 3  168-95-128-46.caw1-3331.hinet.net (168.95.128.46)  5.382 ms  6.068 ms  5.643 ms\n 4  * * *\n 5  220-128-24-53.skc1-3335.hinet.net (220.128.24.53)  13.663 ms  6.195 ms  6.751 ms\n 6  203-69-105-145.hinet-ip.hinet.net (203.69.105.145)  7.909 ms  39.433 ms  50.345 ms\n 7  104.18.10.27 (104.18.10.27)  6.409 ms  7.104 ms  6.108 ms\n",
+  "category": "ecommerce_tech",
+  "base_domain": "ruten.com.tw",
+  "service_variant": "ruten.com.tw",
+  "is_bare_domain": true
+}

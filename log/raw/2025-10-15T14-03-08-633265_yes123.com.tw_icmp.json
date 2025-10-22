@@ -1,0 +1,262 @@
+{
+  "timestamp": "2025-10-15T14:03:08.633265",
+  "vantage_point": "itaiwan",
+  "target": "yes123.com.tw",
+  "target_ip": "168.63.250.12",
+  "protocol": "icmp",
+  "port": null,
+  "duration_seconds": 108.79,
+  "hops": [
+    {
+      "hop": 2,
+      "ip": "168.95.98.254",
+      "hostname": "h254.s98.ts.hinet.net",
+      "rtts": [
+        2.87,
+        3.079,
+        3.245
+      ],
+      "avg_rtt": 3.06,
+      "timeout": false,
+      "network": "hinet",
+      "network_name": "HiNet (Chunghwa Telecom)",
+      "is_interesting": true,
+      "is_private": false
+    },
+    {
+      "hop": 3,
+      "ip": "168.95.128.50",
+      "hostname": "168-95-128-50.caw1-3331.hinet.net",
+      "rtts": [
+        4.541,
+        3.82,
+        6.334
+      ],
+      "avg_rtt": 4.9,
+      "timeout": false,
+      "network": "hinet",
+      "network_name": "HiNet (Chunghwa Telecom)",
+      "is_interesting": true,
+      "is_private": false
+    },
+    {
+      "hop": 4,
+      "ip": null,
+      "hostname": null,
+      "rtts": [],
+      "timeout": true
+    },
+    {
+      "hop": 5,
+      "ip": null,
+      "hostname": null,
+      "rtts": [],
+      "timeout": true
+    },
+    {
+      "hop": 6,
+      "ip": "220.128.1.217",
+      "hostname": "220-128-1-217.tpdb-3335.hinet.net",
+      "rtts": [
+        16.166,
+        8.898,
+        9.362
+      ],
+      "avg_rtt": 11.48,
+      "timeout": false,
+      "network": "hinet",
+      "network_name": "HiNet (Chunghwa Telecom)",
+      "is_interesting": true,
+      "is_private": false
+    },
+    {
+      "hop": 7,
+      "ip": null,
+      "hostname": null,
+      "rtts": [],
+      "timeout": true
+    },
+    {
+      "hop": 8,
+      "ip": "203.75.250.129",
+      "hostname": "203.75.250.129",
+      "rtts": [
+        12.48,
+        14.257,
+        15.172
+      ],
+      "avg_rtt": 13.97,
+      "timeout": false,
+      "network": "other",
+      "network_name": "Other Network",
+      "is_interesting": false,
+      "is_private": false
+    },
+    {
+      "hop": 9,
+      "ip": "104.44.51.222",
+      "hostname": "104.44.51.222",
+      "rtts": [
+        20.688,
+        18.819,
+        33.37
+      ],
+      "avg_rtt": 24.29,
+      "timeout": false,
+      "network": "other",
+      "network_name": "Other Network",
+      "is_interesting": false,
+      "is_private": false
+    },
+    {
+      "hop": 10,
+      "ip": null,
+      "hostname": null,
+      "rtts": [],
+      "timeout": true
+    },
+    {
+      "hop": 11,
+      "ip": null,
+      "hostname": null,
+      "rtts": [],
+      "timeout": true
+    },
+    {
+      "hop": 12,
+      "ip": null,
+      "hostname": null,
+      "rtts": [],
+      "timeout": true
+    },
+    {
+      "hop": 13,
+      "ip": null,
+      "hostname": null,
+      "rtts": [],
+      "timeout": true
+    },
+    {
+      "hop": 14,
+      "ip": "13.106.238.145",
+      "hostname": "ae1010-0.icr01.sg2.ntwk.msn.net",
+      "rtts": [
+        55.259,
+        53.708,
+        58.345
+      ],
+      "avg_rtt": 55.77,
+      "timeout": false,
+      "network": "other",
+      "network_name": "Other Network",
+      "is_interesting": false,
+      "is_private": false
+    },
+    {
+      "hop": 15,
+      "ip": null,
+      "hostname": null,
+      "rtts": [],
+      "timeout": true
+    },
+    {
+      "hop": 16,
+      "ip": null,
+      "hostname": null,
+      "rtts": [],
+      "timeout": true
+    },
+    {
+      "hop": 17,
+      "ip": null,
+      "hostname": null,
+      "rtts": [],
+      "timeout": true
+    },
+    {
+      "hop": 18,
+      "ip": null,
+      "hostname": null,
+      "rtts": [],
+      "timeout": true
+    },
+    {
+      "hop": 19,
+      "ip": null,
+      "hostname": null,
+      "rtts": [],
+      "timeout": true
+    },
+    {
+      "hop": 20,
+      "ip": "168.63.250.12",
+      "hostname": "168.63.250.12",
+      "rtts": [
+        53.091,
+        53.55,
+        53.499
+      ],
+      "avg_rtt": 53.38,
+      "timeout": false,
+      "network": "other",
+      "network_name": "Other Network",
+      "is_interesting": false,
+      "is_private": false
+    }
+  ],
+  "num_hops": 19,
+  "success": true,
+  "path_analysis": {
+    "networks_traversed": [
+      {
+        "network": "hinet",
+        "network_name": "HiNet (Chunghwa Telecom)",
+        "first_hop": 2
+      },
+      {
+        "network": "other",
+        "network_name": "Other Network",
+        "first_hop": 8
+      }
+    ],
+    "interesting_routers": [
+      {
+        "hop": 2,
+        "ip": "168.95.98.254",
+        "hostname": "h254.s98.ts.hinet.net",
+        "network": "hinet",
+        "network_name": "HiNet (Chunghwa Telecom)"
+      },
+      {
+        "hop": 3,
+        "ip": "168.95.128.50",
+        "hostname": "168-95-128-50.caw1-3331.hinet.net",
+        "network": "hinet",
+        "network_name": "HiNet (Chunghwa Telecom)"
+      },
+      {
+        "hop": 6,
+        "ip": "220.128.1.217",
+        "hostname": "220-128-1-217.tpdb-3335.hinet.net",
+        "network": "hinet",
+        "network_name": "HiNet (Chunghwa Telecom)"
+      }
+    ],
+    "private_hops": 0,
+    "total_hops": 19,
+    "network_transitions": [
+      {
+        "hop": 8,
+        "from": "hinet",
+        "to": "other",
+        "from_ip": "203.75.250.129",
+        "to_ip": "203.75.250.129"
+      }
+    ]
+  },
+  "raw_output": " 1  172.16.193.250 (172.16.193.250)  3.087 ms  12.824 ms  2.064 ms\n 2  h254.s98.ts.hinet.net (168.95.98.254)  2.870 ms  3.079 ms  3.245 ms\n 3  168-95-128-50.caw1-3331.hinet.net (168.95.128.50)  4.541 ms  3.820 ms  6.334 ms\n 4  * * *\n 5  * * *\n 6  220-128-1-217.tpdb-3335.hinet.net (220.128.1.217)  16.166 ms  8.898 ms  9.362 ms\n 7  * * *\n 8  203.75.250.129 (203.75.250.129)  12.480 ms  14.257 ms  15.172 ms\n 9  104.44.51.222 (104.44.51.222)  20.688 ms  18.819 ms  33.370 ms\n10  * * *\n11  * * *\n12  * * *\n13  * * *\n14  ae1010-0.icr01.sg2.ntwk.msn.net (13.106.238.145)  55.259 ms  53.708 ms  58.345 ms\n15  * * *\n16  * * *\n17  * * *\n18  * * *\n19  * * *\n20  168.63.250.12 (168.63.250.12)  53.091 ms  53.550 ms  53.499 ms\n",
+  "category": "ecommerce_tech",
+  "base_domain": "yes123.com.tw",
+  "service_variant": "yes123.com.tw",
+  "is_bare_domain": true
+}

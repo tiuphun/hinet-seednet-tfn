@@ -1,0 +1,24 @@
+{
+  "timestamp": "2025-10-15T12:01:44.747480",
+  "vantage_point": "itaiwan",
+  "target": "vpn.cdc.gov.tw",
+  "target_ip": "223.200.89.90",
+  "protocol": "tcp",
+  "port": 80,
+  "duration_seconds": 0.02,
+  "hops": [],
+  "num_hops": 0,
+  "success": false,
+  "path_analysis": {
+    "networks_traversed": [],
+    "interesting_routers": [],
+    "private_hops": 0,
+    "total_hops": 0,
+    "network_transitions": []
+  },
+  "raw_output": "",
+  "category": "government_critical",
+  "base_domain": "cdc.gov.tw",
+  "service_variant": "vpn.cdc.gov.tw",
+  "is_bare_domain": false
+}

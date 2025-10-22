@@ -1,0 +1,113 @@
+{
+  "timestamp": "2025-10-13T18:30:15.281067",
+  "vantage_point": "cht-mobile",
+  "target": "thenewslens.com",
+  "target_ip": "34.54.142.250",
+  "protocol": "icmp",
+  "port": null,
+  "duration_seconds": 19.16,
+  "hops": [
+    {
+      "hop": 2,
+      "ip": "10.159.65.141",
+      "hostname": null,
+      "rtts": [
+        165.078,
+        340.744,
+        32.325
+      ],
+      "avg_rtt": 179.38,
+      "timeout": false
+    },
+    {
+      "hop": 3,
+      "ip": "10.159.65.81",
+      "hostname": null,
+      "rtts": [
+        30.702,
+        44.956,
+        23.798
+      ],
+      "avg_rtt": 33.15,
+      "timeout": false
+    },
+    {
+      "hop": 4,
+      "ip": "10.159.67.167",
+      "hostname": null,
+      "rtts": [
+        19.92,
+        23.552,
+        42.837
+      ],
+      "avg_rtt": 28.77,
+      "timeout": false
+    },
+    {
+      "hop": 5,
+      "ip": "10.159.67.178",
+      "hostname": null,
+      "rtts": [
+        23.699,
+        23.661,
+        18.257
+      ],
+      "avg_rtt": 21.87,
+      "timeout": false
+    },
+    {
+      "hop": 6,
+      "ip": "210.65.126.198",
+      "hostname": null,
+      "rtts": [
+        31.86,
+        22.157,
+        20.926
+      ],
+      "avg_rtt": 24.98,
+      "timeout": false
+    },
+    {
+      "hop": 7,
+      "ip": null,
+      "hostname": null,
+      "rtts": [],
+      "timeout": true
+    },
+    {
+      "hop": 8,
+      "ip": null,
+      "hostname": null,
+      "rtts": [],
+      "timeout": true
+    },
+    {
+      "hop": 9,
+      "ip": "220.128.12.5",
+      "hostname": null,
+      "rtts": [
+        48.227,
+        44.585,
+        42.904
+      ],
+      "avg_rtt": 45.24,
+      "timeout": false
+    },
+    {
+      "hop": 10,
+      "ip": "34.54.142.250",
+      "hostname": null,
+      "rtts": [
+        28.413,
+        35.69,
+        32.076
+      ],
+      "avg_rtt": 32.06,
+      "timeout": false
+    }
+  ],
+  "num_hops": 9,
+  "success": true,
+  "raw_output": " 1  172.20.10.1  21.708 ms  5.627 ms  3.134 ms\n 2  10.159.65.141  165.078 ms  340.744 ms  32.325 ms\n 3  10.159.65.81  30.702 ms  44.956 ms  23.798 ms\n 4  10.159.67.167  19.920 ms  23.552 ms  42.837 ms\n 5  10.159.67.178  23.699 ms  23.661 ms  18.257 ms\n 6  210.65.126.198  31.860 ms  22.157 ms  20.926 ms\n 7  * * *\n 8  * * *\n 9  220.128.12.5  48.227 ms  44.585 ms  42.904 ms\n10  34.54.142.250  28.413 ms  35.690 ms  32.076 ms\n",
+  "category": "media"
+}

@@ -1,0 +1,136 @@
+{
+  "timestamp": "2025-10-21T15:03:57.492403",
+  "vantage_point": "university",
+  "target": "www.chinatimes.com",
+  "target_ip": "172.66.134.48",
+  "protocol": "icmp",
+  "port": null,
+  "duration_seconds": 17.27,
+  "hops": [
+    {
+      "hop": 2,
+      "ip": "140.123.103.250",
+      "hostname": "csgate103.cs.ccu.edu.tw",
+      "rtts": [
+        2.025,
+        2.01,
+        10.199
+      ],
+      "avg_rtt": 4.74,
+      "timeout": false
+    },
+    {
+      "hop": 3,
+      "ip": "140.123.9.249",
+      "hostname": "140.123.9.249",
+      "rtts": [
+        1.994,
+        1.933,
+        2.143
+      ],
+      "avg_rtt": 2.02,
+      "timeout": false
+    },
+    {
+      "hop": 4,
+      "ip": "140.123.0.246",
+      "hostname": "140.123.0.246",
+      "rtts": [
+        3.492,
+        6.638,
+        38.661
+      ],
+      "avg_rtt": 16.26,
+      "timeout": false
+    },
+    {
+      "hop": 5,
+      "ip": "140.130.252.251",
+      "hostname": "140.130.252.251",
+      "rtts": [
+        11.151,
+        12.482,
+        9.117
+      ],
+      "avg_rtt": 10.92,
+      "timeout": false
+    },
+    {
+      "hop": 6,
+      "ip": "192.192.61.142",
+      "hostname": "192.192.61.142",
+      "rtts": [
+        5.246,
+        19.499,
+        5.227
+      ],
+      "avg_rtt": 9.99,
+      "timeout": false
+    },
+    {
+      "hop": 7,
+      "ip": "192.192.61.20",
+      "hostname": "192.192.61.20",
+      "rtts": [
+        8.756,
+        7.366,
+        6.919
+      ],
+      "avg_rtt": 7.68,
+      "timeout": false
+    },
+    {
+      "hop": 8,
+      "ip": "192.192.61.48",
+      "hostname": "192.192.61.48",
+      "rtts": [
+        8.892,
+        9.084,
+        10.68
+      ],
+      "avg_rtt": 9.55,
+      "timeout": false
+    },
+    {
+      "hop": 9,
+      "ip": "192.192.68.62",
+      "hostname": "192.192.68.62",
+      "rtts": [
+        9.872,
+        8.674,
+        12.052
+      ],
+      "avg_rtt": 10.2,
+      "timeout": false
+    },
+    {
+      "hop": 10,
+      "ip": "203.163.222.39",
+      "hostname": "39-222-163-203-static.tpix.net.tw",
+      "rtts": [
+        19.166
+      ],
+      "avg_rtt": 19.17,
+      "timeout": false
+    },
+    {
+      "hop": 11,
+      "ip": "172.66.134.48",
+      "hostname": "172.66.134.48",
+      "rtts": [
+        12.513,
+        8.561,
+        7.431
+      ],
+      "avg_rtt": 9.5,
+      "timeout": false
+    }
+  ],
+  "num_hops": 10,
+  "success": true,
+  "raw_output": " 1  192.168.50.1 (192.168.50.1)  10.508 ms  3.183 ms  3.216 ms\n 2  csgate103.cs.ccu.edu.tw (140.123.103.250)  2.025 ms  2.010 ms  10.199 ms\n 3  140.123.9.249 (140.123.9.249)  1.994 ms  1.933 ms  2.143 ms\n 4  140.123.0.246 (140.123.0.246)  3.492 ms  6.638 ms  38.661 ms\n 5  140.130.252.251 (140.130.252.251)  11.151 ms  12.482 ms  9.117 ms\n 6  192.192.61.142 (192.192.61.142)  5.246 ms  19.499 ms  5.227 ms\n 7  192.192.61.20 (192.192.61.20)  8.756 ms  7.366 ms  6.919 ms\n 8  192.192.61.48 (192.192.61.48)  8.892 ms  9.084 ms  10.680 ms\n 9  192.192.68.62 (192.192.68.62)  9.872 ms  8.674 ms  12.052 ms\n10  39-222-163-203-static.tpix.net.tw (203.163.222.39)  19.166 ms * *\n11  172.66.134.48 (172.66.134.48)  12.513 ms  8.561 ms  7.431 ms\n",
+  "category": "media",
+  "base_domain": "chinatimes.com",
+  "service_variant": "www.chinatimes.com",
+  "is_bare_domain": false
+}

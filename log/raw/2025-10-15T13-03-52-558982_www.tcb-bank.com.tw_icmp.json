@@ -1,0 +1,329 @@
+{
+  "timestamp": "2025-10-15T13:03:52.558982",
+  "vantage_point": "itaiwan",
+  "target": "www.tcb-bank.com.tw",
+  "target_ip": "60.244.119.144",
+  "protocol": "icmp",
+  "port": null,
+  "duration_seconds": 18.73,
+  "hops": [
+    {
+      "hop": 2,
+      "ip": "168.95.98.254",
+      "hostname": "h254.s98.ts.hinet.net",
+      "rtts": [
+        2.942,
+        2.813,
+        2.91
+      ],
+      "avg_rtt": 2.89,
+      "timeout": false,
+      "network": "hinet",
+      "network_name": "HiNet (Chunghwa Telecom)",
+      "is_interesting": true,
+      "is_private": false
+    },
+    {
+      "hop": 3,
+      "ip": "168.95.128.46",
+      "hostname": "168-95-128-46.caw1-3331.hinet.net",
+      "rtts": [
+        3.177,
+        4.039,
+        5.497
+      ],
+      "avg_rtt": 4.24,
+      "timeout": false,
+      "network": "hinet",
+      "network_name": "HiNet (Chunghwa Telecom)",
+      "is_interesting": true,
+      "is_private": false
+    },
+    {
+      "hop": 4,
+      "ip": null,
+      "hostname": null,
+      "rtts": [],
+      "timeout": true
+    },
+    {
+      "hop": 5,
+      "ip": null,
+      "hostname": null,
+      "rtts": [],
+      "timeout": true
+    },
+    {
+      "hop": 6,
+      "ip": "220.128.1.105",
+      "hostname": "220-128-1-105.tpdb-4211.hinet.net",
+      "rtts": [
+        13.638,
+        9.942,
+        9.632
+      ],
+      "avg_rtt": 11.07,
+      "timeout": false,
+      "network": "hinet",
+      "network_name": "HiNet (Chunghwa Telecom)",
+      "is_interesting": true,
+      "is_private": false
+    },
+    {
+      "hop": 7,
+      "ip": "203.75.230.101",
+      "hostname": "203-75-230-101.hinet-ip.hinet.net",
+      "rtts": [
+        10.155,
+        9.252,
+        9.587
+      ],
+      "avg_rtt": 9.66,
+      "timeout": false,
+      "network": "hinet",
+      "network_name": "HiNet (Chunghwa Telecom)",
+      "is_interesting": true,
+      "is_private": false
+    },
+    {
+      "hop": 8,
+      "ip": "139.175.58.73",
+      "hostname": "r58-73.seed.net.tw",
+      "rtts": [
+        10.266,
+        10.541,
+        9.751
+      ],
+      "avg_rtt": 10.19,
+      "timeout": false,
+      "network": "seednet",
+      "network_name": "SEEDNet",
+      "is_interesting": true,
+      "is_private": false
+    },
+    {
+      "hop": 9,
+      "ip": "139.175.56.81",
+      "hostname": "r56-81.seed.net.tw",
+      "rtts": [
+        10.352,
+        10.62,
+        10.581
+      ],
+      "avg_rtt": 10.52,
+      "timeout": false,
+      "network": "seednet",
+      "network_name": "SEEDNet",
+      "is_interesting": true,
+      "is_private": false
+    },
+    {
+      "hop": 10,
+      "ip": "211.76.96.77",
+      "hostname": "211.76.96.77",
+      "rtts": [
+        11.066,
+        10.707,
+        11.472
+      ],
+      "avg_rtt": 11.08,
+      "timeout": false,
+      "network": "other",
+      "network_name": "Other Network",
+      "is_interesting": false,
+      "is_private": false
+    },
+    {
+      "hop": 11,
+      "ip": "203.79.251.102",
+      "hostname": "il203-79-251-102.static.apol.com.tw",
+      "rtts": [
+        11.585,
+        11.399,
+        11.089
+      ],
+      "avg_rtt": 11.36,
+      "timeout": false,
+      "network": "aptg",
+      "network_name": "Asia Pacific Telecom",
+      "is_interesting": true,
+      "is_private": false
+    },
+    {
+      "hop": 12,
+      "ip": "203.79.208.129",
+      "hostname": "203.79.208.129",
+      "rtts": [
+        11.41,
+        11.327,
+        12.074
+      ],
+      "avg_rtt": 11.6,
+      "timeout": false,
+      "network": "other",
+      "network_name": "Other Network",
+      "is_interesting": false,
+      "is_private": false
+    },
+    {
+      "hop": 13,
+      "ip": "203.79.208.138",
+      "hostname": "203.79.208.138",
+      "rtts": [
+        11.493,
+        12.583,
+        12.718
+      ],
+      "avg_rtt": 12.26,
+      "timeout": false,
+      "network": "other",
+      "network_name": "Other Network",
+      "is_interesting": false,
+      "is_private": false
+    },
+    {
+      "hop": 14,
+      "ip": "60.244.119.144",
+      "hostname": "60-244-119-144.vdslpro.static.apol.com.tw",
+      "rtts": [
+        12.466,
+        13.088,
+        11.672
+      ],
+      "avg_rtt": 12.41,
+      "timeout": false,
+      "network": "aptg",
+      "network_name": "Asia Pacific Telecom",
+      "is_interesting": true,
+      "is_private": false
+    }
+  ],
+  "num_hops": 13,
+  "success": true,
+  "path_analysis": {
+    "networks_traversed": [
+      {
+        "network": "hinet",
+        "network_name": "HiNet (Chunghwa Telecom)",
+        "first_hop": 2
+      },
+      {
+        "network": "seednet",
+        "network_name": "SEEDNet",
+        "first_hop": 8
+      },
+      {
+        "network": "other",
+        "network_name": "Other Network",
+        "first_hop": 10
+      },
+      {
+        "network": "aptg",
+        "network_name": "Asia Pacific Telecom",
+        "first_hop": 11
+      }
+    ],
+    "interesting_routers": [
+      {
+        "hop": 2,
+        "ip": "168.95.98.254",
+        "hostname": "h254.s98.ts.hinet.net",
+        "network": "hinet",
+        "network_name": "HiNet (Chunghwa Telecom)"
+      },
+      {
+        "hop": 3,
+        "ip": "168.95.128.46",
+        "hostname": "168-95-128-46.caw1-3331.hinet.net",
+        "network": "hinet",
+        "network_name": "HiNet (Chunghwa Telecom)"
+      },
+      {
+        "hop": 6,
+        "ip": "220.128.1.105",
+        "hostname": "220-128-1-105.tpdb-4211.hinet.net",
+        "network": "hinet",
+        "network_name": "HiNet (Chunghwa Telecom)"
+      },
+      {
+        "hop": 7,
+        "ip": "203.75.230.101",
+        "hostname": "203-75-230-101.hinet-ip.hinet.net",
+        "network": "hinet",
+        "network_name": "HiNet (Chunghwa Telecom)"
+      },
+      {
+        "hop": 8,
+        "ip": "139.175.58.73",
+        "hostname": "r58-73.seed.net.tw",
+        "network": "seednet",
+        "network_name": "SEEDNet"
+      },
+      {
+        "hop": 9,
+        "ip": "139.175.56.81",
+        "hostname": "r56-81.seed.net.tw",
+        "network": "seednet",
+        "network_name": "SEEDNet"
+      },
+      {
+        "hop": 11,
+        "ip": "203.79.251.102",
+        "hostname": "il203-79-251-102.static.apol.com.tw",
+        "network": "aptg",
+        "network_name": "Asia Pacific Telecom"
+      },
+      {
+        "hop": 14,
+        "ip": "60.244.119.144",
+        "hostname": "60-244-119-144.vdslpro.static.apol.com.tw",
+        "network": "aptg",
+        "network_name": "Asia Pacific Telecom"
+      }
+    ],
+    "private_hops": 0,
+    "total_hops": 13,
+    "network_transitions": [
+      {
+        "hop": 8,
+        "from": "hinet",
+        "to": "seednet",
+        "from_ip": "139.175.58.73",
+        "to_ip": "139.175.58.73"
+      },
+      {
+        "hop": 10,
+        "from": "seednet",
+        "to": "other",
+        "from_ip": "211.76.96.77",
+        "to_ip": "211.76.96.77"
+      },
+      {
+        "hop": 11,
+        "from": "other",
+        "to": "aptg",
+        "from_ip": "203.79.251.102",
+        "to_ip": "203.79.251.102"
+      },
+      {
+        "hop": 12,
+        "from": "aptg",
+        "to": "other",
+        "from_ip": "203.79.208.129",
+        "to_ip": "203.79.208.129"
+      },
+      {
+        "hop": 14,
+        "from": "other",
+        "to": "aptg",
+        "from_ip": "60.244.119.144",
+        "to_ip": "60.244.119.144"
+      }
+    ]
+  },
+  "raw_output": " 1  172.16.193.250 (172.16.193.250)  2.884 ms  2.576 ms  2.826 ms\n 2  h254.s98.ts.hinet.net (168.95.98.254)  2.942 ms  2.813 ms  2.910 ms\n 3  168-95-128-46.caw1-3331.hinet.net (168.95.128.46)  3.177 ms  4.039 ms  5.497 ms\n 4  * * *\n 5  * * *\n 6  220-128-1-105.tpdb-4211.hinet.net (220.128.1.105)  13.638 ms  9.942 ms  9.632 ms\n 7  203-75-230-101.hinet-ip.hinet.net (203.75.230.101)  10.155 ms  9.252 ms  9.587 ms\n 8  r58-73.seed.net.tw (139.175.58.73)  10.266 ms  10.541 ms  9.751 ms\n 9  r56-81.seed.net.tw (139.175.56.81)  10.352 ms  10.620 ms  10.581 ms\n10  211.76.96.77 (211.76.96.77)  11.066 ms  10.707 ms  11.472 ms\n11  il203-79-251-102.static.apol.com.tw (203.79.251.102)  11.585 ms  11.399 ms  11.089 ms\n12  203.79.208.129 (203.79.208.129)  11.410 ms  11.327 ms  12.074 ms\n13  203.79.208.138 (203.79.208.138)  11.493 ms  12.583 ms  12.718 ms\n14  60-244-119-144.vdslpro.static.apol.com.tw (60.244.119.144)  12.466 ms  13.088 ms  11.672 ms\n",
+  "category": "financial_banks",
+  "base_domain": "tcb-bank.com.tw",
+  "service_variant": "www.tcb-bank.com.tw",
+  "is_bare_domain": false
+}

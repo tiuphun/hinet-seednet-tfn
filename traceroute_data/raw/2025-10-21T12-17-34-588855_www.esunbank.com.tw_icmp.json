@@ -1,0 +1,138 @@
+{
+  "timestamp": "2025-10-21T12:17:34.588855",
+  "vantage_point": "university",
+  "target": "www.esunbank.com.tw",
+  "target_ip": "175.99.135.161",
+  "protocol": "icmp",
+  "port": null,
+  "duration_seconds": 0.53,
+  "hops": [
+    {
+      "hop": 2,
+      "ip": "140.123.103.250",
+      "hostname": "csgate103.cs.ccu.edu.tw",
+      "rtts": [
+        4.282,
+        2.025,
+        1.853
+      ],
+      "avg_rtt": 2.72,
+      "timeout": false
+    },
+    {
+      "hop": 3,
+      "ip": "140.123.9.249",
+      "hostname": "140.123.9.249",
+      "rtts": [
+        2.347,
+        4.771,
+        20.121
+      ],
+      "avg_rtt": 9.08,
+      "timeout": false
+    },
+    {
+      "hop": 4,
+      "ip": "140.123.0.246",
+      "hostname": "140.123.0.246",
+      "rtts": [
+        13.634,
+        3.276,
+        5.311
+      ],
+      "avg_rtt": 7.41,
+      "timeout": false
+    },
+    {
+      "hop": 5,
+      "ip": "140.130.252.251",
+      "hostname": "140.130.252.251",
+      "rtts": [
+        8.16,
+        4.472,
+        5.353
+      ],
+      "avg_rtt": 6.0,
+      "timeout": false
+    },
+    {
+      "hop": 6,
+      "ip": "61.31.254.69",
+      "hostname": "61-31-254-69.static.tfn.net.tw",
+      "rtts": [
+        14.887,
+        6.433,
+        8.927
+      ],
+      "avg_rtt": 10.08,
+      "timeout": false
+    },
+    {
+      "hop": 7,
+      "ip": "60.199.27.121",
+      "hostname": "60-199-27-121.static.tfn.net.tw",
+      "rtts": [
+        18.403,
+        9.985,
+        19.328
+      ],
+      "avg_rtt": 15.91,
+      "timeout": false
+    },
+    {
+      "hop": 8,
+      "ip": "60.199.28.185",
+      "hostname": "60-199-28-185.static.tfn.net.tw",
+      "rtts": [
+        11.721,
+        10.509,
+        9.215
+      ],
+      "avg_rtt": 10.48,
+      "timeout": false
+    },
+    {
+      "hop": 9,
+      "ip": "60.199.28.121",
+      "hostname": "60-199-28-121.static.tfn.net.tw",
+      "rtts": [
+        14.285,
+        32.787,
+        10.663
+      ],
+      "avg_rtt": 19.25,
+      "timeout": false
+    },
+    {
+      "hop": 10,
+      "ip": "60.199.5.130",
+      "hostname": "60-199-5-130.static.tfn.net.tw",
+      "rtts": [
+        38.588,
+        16.812,
+        15.103
+      ],
+      "avg_rtt": 23.5,
+      "timeout": false
+    },
+    {
+      "hop": 11,
+      "ip": "175.99.135.161",
+      "hostname": "175-99-135-161.static.tfn.net.tw",
+      "rtts": [
+        10.918,
+        11.367,
+        10.539
+      ],
+      "avg_rtt": 10.94,
+      "timeout": false
+    }
+  ],
+  "num_hops": 10,
+  "success": true,
+  "raw_output": " 1  192.168.50.1 (192.168.50.1)  25.157 ms  12.438 ms  5.371 ms\n 2  csgate103.cs.ccu.edu.tw (140.123.103.250)  4.282 ms  2.025 ms  1.853 ms\n 3  140.123.9.249 (140.123.9.249)  2.347 ms  4.771 ms  20.121 ms\n 4  140.123.0.246 (140.123.0.246)  13.634 ms  3.276 ms  5.311 ms\n 5  140.130.252.251 (140.130.252.251)  8.160 ms  4.472 ms  5.353 ms\n 6  61-31-254-69.static.tfn.net.tw (61.31.254.69)  14.887 ms  6.433 ms  8.927 ms\n 7  60-199-27-121.static.tfn.net.tw (60.199.27.121)  18.403 ms  9.985 ms  19.328 ms\n 8  60-199-28-185.static.tfn.net.tw (60.199.28.185)  11.721 ms  10.509 ms  9.215 ms\n 9  60-199-28-121.static.tfn.net.tw (60.199.28.121)  14.285 ms  32.787 ms  10.663 ms\n10  60-199-5-130.static.tfn.net.tw (60.199.5.130)  38.588 ms  16.812 ms  15.103 ms\n11  175-99-135-161.static.tfn.net.tw (175.99.135.161)  10.918 ms  11.367 ms  10.539 ms\n",
+  "category": "financial_banks",
+  "base_domain": "esunbank.com.tw",
+  "service_variant": "www.esunbank.com.tw",
+  "is_bare_domain": false
+}

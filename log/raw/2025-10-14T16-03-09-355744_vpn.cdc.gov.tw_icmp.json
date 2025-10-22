@@ -1,0 +1,139 @@
+{
+  "timestamp": "2025-10-14T16:03:09.355744",
+  "vantage_point": "university",
+  "target": "vpn.cdc.gov.tw",
+  "target_ip": "223.200.89.90",
+  "protocol": "icmp",
+  "port": null,
+  "duration_seconds": 15.32,
+  "hops": [
+    {
+      "hop": 2,
+      "ip": "140.123.103.250",
+      "hostname": null,
+      "rtts": [
+        3.03,
+        2.193,
+        2.451
+      ],
+      "avg_rtt": 2.56,
+      "timeout": false
+    },
+    {
+      "hop": 3,
+      "ip": "140.123.9.249",
+      "hostname": null,
+      "rtts": [
+        4.104,
+        3.841,
+        2.299
+      ],
+      "avg_rtt": 3.41,
+      "timeout": false
+    },
+    {
+      "hop": 4,
+      "ip": "140.123.0.246",
+      "hostname": null,
+      "rtts": [
+        2.976,
+        3.073,
+        3.928
+      ],
+      "avg_rtt": 3.33,
+      "timeout": false
+    },
+    {
+      "hop": 5,
+      "ip": "140.130.252.251",
+      "hostname": null,
+      "rtts": [
+        6.059,
+        3.991,
+        7.09
+      ],
+      "avg_rtt": 5.71,
+      "timeout": false
+    },
+    {
+      "hop": 6,
+      "ip": "192.192.61.142",
+      "hostname": null,
+      "rtts": [
+        6.25,
+        5.291,
+        6.248
+      ],
+      "avg_rtt": 5.93,
+      "timeout": false
+    },
+    {
+      "hop": 7,
+      "ip": "192.192.61.37",
+      "hostname": null,
+      "rtts": [
+        8.564,
+        10.885,
+        8.395
+      ],
+      "avg_rtt": 9.28,
+      "timeout": false
+    },
+    {
+      "hop": 8,
+      "ip": "192.192.61.32",
+      "hostname": null,
+      "rtts": [
+        14.646,
+        7.296,
+        7.473
+      ],
+      "avg_rtt": 9.8,
+      "timeout": false
+    },
+    {
+      "hop": 9,
+      "ip": "192.192.61.209",
+      "hostname": null,
+      "rtts": [
+        7.179,
+        7.793,
+        7.345
+      ],
+      "avg_rtt": 7.44,
+      "timeout": false
+    },
+    {
+      "hop": 10,
+      "ip": null,
+      "hostname": null,
+      "rtts": [],
+      "timeout": true
+    },
+    {
+      "hop": 11,
+      "ip": null,
+      "hostname": null,
+      "rtts": [],
+      "timeout": true
+    },
+    {
+      "hop": 12,
+      "ip": "10.96.81.12",
+      "hostname": null,
+      "rtts": [
+        9.659,
+        61.695
+      ],
+      "avg_rtt": 35.68,
+      "timeout": false
+    }
+  ],
+  "num_hops": 11,
+  "success": false,
+  "raw_output": " 1  192.168.50.1  6.132 ms  13.237 ms  8.134 ms\n 2  140.123.103.250  3.030 ms  2.193 ms  2.451 ms\n 3  140.123.9.249  4.104 ms  3.841 ms  2.299 ms\n 4  140.123.0.246  2.976 ms  3.073 ms  3.928 ms\n 5  140.130.252.251  6.059 ms  3.991 ms  7.090 ms\n 6  192.192.61.142  6.250 ms  5.291 ms  6.248 ms\n 7  192.192.61.37  8.564 ms  10.885 ms  8.395 ms\n 8  192.192.61.32  14.646 ms  7.296 ms  7.473 ms\n 9  192.192.61.209  7.179 ms  7.793 ms  7.345 ms\n10  * 10.96.81.12  12.445 ms !X *\n11  * 10.96.81.12  9.456 ms !X *\n12  10.96.81.12  9.659 ms !X *  61.695 ms !X\n",
+  "category": "government_critical",
+  "base_domain": "cdc.gov.tw",
+  "service_variant": "vpn.cdc.gov.tw",
+  "is_bare_domain": false
+}

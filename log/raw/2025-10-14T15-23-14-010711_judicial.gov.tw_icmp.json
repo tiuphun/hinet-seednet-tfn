@@ -1,0 +1,213 @@
+{
+  "timestamp": "2025-10-14T15:23:14.010711",
+  "vantage_point": "university",
+  "target": "judicial.gov.tw",
+  "target_ip": "210.69.124.205",
+  "protocol": "icmp",
+  "port": null,
+  "duration_seconds": 69.39,
+  "hops": [
+    {
+      "hop": 2,
+      "ip": "140.123.103.250",
+      "hostname": null,
+      "rtts": [
+        2.344,
+        2.149,
+        2.169
+      ],
+      "avg_rtt": 2.22,
+      "timeout": false
+    },
+    {
+      "hop": 3,
+      "ip": "140.123.9.249",
+      "hostname": null,
+      "rtts": [
+        2.216,
+        12.259,
+        2.174
+      ],
+      "avg_rtt": 5.55,
+      "timeout": false
+    },
+    {
+      "hop": 4,
+      "ip": "140.123.0.246",
+      "hostname": null,
+      "rtts": [
+        2.977,
+        2.829,
+        4.361
+      ],
+      "avg_rtt": 3.39,
+      "timeout": false
+    },
+    {
+      "hop": 5,
+      "ip": "140.130.252.251",
+      "hostname": null,
+      "rtts": [
+        3.513,
+        3.519,
+        3.716
+      ],
+      "avg_rtt": 3.58,
+      "timeout": false
+    },
+    {
+      "hop": 6,
+      "ip": "192.192.61.142",
+      "hostname": null,
+      "rtts": [
+        5.025,
+        5.007,
+        5.157
+      ],
+      "avg_rtt": 5.06,
+      "timeout": false
+    },
+    {
+      "hop": 7,
+      "ip": "192.192.61.9",
+      "hostname": null,
+      "rtts": [
+        9.316,
+        8.626,
+        5.072
+      ],
+      "avg_rtt": 7.67,
+      "timeout": false
+    },
+    {
+      "hop": 8,
+      "ip": "192.192.61.30",
+      "hostname": null,
+      "rtts": [
+        6.466,
+        6.804,
+        6.319
+      ],
+      "avg_rtt": 6.53,
+      "timeout": false
+    },
+    {
+      "hop": 9,
+      "ip": "192.192.61.4",
+      "hostname": null,
+      "rtts": [
+        9.621,
+        11.07,
+        8.377
+      ],
+      "avg_rtt": 9.69,
+      "timeout": false
+    },
+    {
+      "hop": 10,
+      "ip": "192.192.61.209",
+      "hostname": null,
+      "rtts": [
+        6.935,
+        6.199,
+        9.385
+      ],
+      "avg_rtt": 7.51,
+      "timeout": false
+    },
+    {
+      "hop": 11,
+      "ip": null,
+      "hostname": null,
+      "rtts": [],
+      "timeout": true
+    },
+    {
+      "hop": 12,
+      "ip": null,
+      "hostname": null,
+      "rtts": [],
+      "timeout": true
+    },
+    {
+      "hop": 13,
+      "ip": null,
+      "hostname": null,
+      "rtts": [],
+      "timeout": true
+    },
+    {
+      "hop": 14,
+      "ip": null,
+      "hostname": null,
+      "rtts": [],
+      "timeout": true
+    },
+    {
+      "hop": 15,
+      "ip": null,
+      "hostname": null,
+      "rtts": [],
+      "timeout": true
+    },
+    {
+      "hop": 16,
+      "ip": null,
+      "hostname": null,
+      "rtts": [],
+      "timeout": true
+    },
+    {
+      "hop": 17,
+      "ip": "10.96.81.12",
+      "hostname": null,
+      "rtts": [
+        14.906
+      ],
+      "avg_rtt": 14.91,
+      "timeout": false
+    },
+    {
+      "hop": 18,
+      "ip": null,
+      "hostname": null,
+      "rtts": [],
+      "timeout": true
+    },
+    {
+      "hop": 19,
+      "ip": "10.96.81.12",
+      "hostname": null,
+      "rtts": [
+        18.714
+      ],
+      "avg_rtt": 18.71,
+      "timeout": false
+    },
+    {
+      "hop": 20,
+      "ip": "10.96.81.12",
+      "hostname": null,
+      "rtts": [
+        14.246
+      ],
+      "avg_rtt": 14.25,
+      "timeout": false
+    },
+    {
+      "hop": 21,
+      "ip": "10.96.81.12",
+      "hostname": null,
+      "rtts": [
+        14.637,
+        8.277
+      ],
+      "avg_rtt": 11.46,
+      "timeout": false
+    }
+  ],
+  "num_hops": 20,
+  "success": false,
+  "raw_output": " 1  192.168.50.1  2.342 ms  4.502 ms  2.440 ms\n 2  140.123.103.250  2.344 ms  2.149 ms  2.169 ms\n 3  140.123.9.249  2.216 ms  12.259 ms  2.174 ms\n 4  140.123.0.246  2.977 ms  2.829 ms  4.361 ms\n 5  140.130.252.251  3.513 ms  3.519 ms  3.716 ms\n 6  192.192.61.142  5.025 ms  5.007 ms  5.157 ms\n 7  192.192.61.9  9.316 ms  8.626 ms  5.072 ms\n 8  192.192.61.30  6.466 ms  6.804 ms  6.319 ms\n 9  192.192.61.4  9.621 ms  11.070 ms  8.377 ms\n10  192.192.61.209  6.935 ms  6.199 ms  9.385 ms\n11  * 10.96.81.12  16.249 ms !X *\n12  * * 10.96.81.12  21.437 ms !X\n13  * * 10.96.81.12  11.446 ms !X\n14  * * 10.96.81.12  25.618 ms !X\n15  * * *\n16  * 10.96.81.12  8.134 ms !X *\n17  10.96.81.12  14.906 ms !X * *\n18  * * *\n19  10.96.81.12  18.714 ms !X * *\n20  10.96.81.12  14.246 ms !X * *\n21  10.96.81.12  14.637 ms !X *  8.277 ms !X\n",
+  "category": "government_critical"
+}

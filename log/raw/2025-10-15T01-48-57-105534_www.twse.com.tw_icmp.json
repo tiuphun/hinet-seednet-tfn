@@ -1,0 +1,140 @@
+{
+  "timestamp": "2025-10-15T01:48:57.105534",
+  "vantage_point": "university",
+  "target": "www.twse.com.tw",
+  "target_ip": "203.66.32.39",
+  "protocol": "icmp",
+  "port": null,
+  "duration_seconds": 18.33,
+  "hops": [
+    {
+      "hop": 2,
+      "ip": "140.123.103.250",
+      "hostname": null,
+      "rtts": [
+        6.999,
+        5.759,
+        8.248
+      ],
+      "avg_rtt": 7.0,
+      "timeout": false
+    },
+    {
+      "hop": 3,
+      "ip": "140.123.9.249",
+      "hostname": null,
+      "rtts": [
+        6.36,
+        7.281,
+        3.649
+      ],
+      "avg_rtt": 5.76,
+      "timeout": false
+    },
+    {
+      "hop": 4,
+      "ip": "140.123.0.246",
+      "hostname": null,
+      "rtts": [
+        8.724,
+        5.92,
+        5.859
+      ],
+      "avg_rtt": 6.83,
+      "timeout": false
+    },
+    {
+      "hop": 5,
+      "ip": "140.130.252.251",
+      "hostname": null,
+      "rtts": [
+        7.19,
+        5.096,
+        5.994
+      ],
+      "avg_rtt": 6.09,
+      "timeout": false
+    },
+    {
+      "hop": 6,
+      "ip": "211.22.226.198",
+      "hostname": null,
+      "rtts": [
+        8.349,
+        23.447,
+        11.333
+      ],
+      "avg_rtt": 14.38,
+      "timeout": false
+    },
+    {
+      "hop": 7,
+      "ip": null,
+      "hostname": null,
+      "rtts": [],
+      "timeout": true
+    },
+    {
+      "hop": 8,
+      "ip": null,
+      "hostname": null,
+      "rtts": [],
+      "timeout": true
+    },
+    {
+      "hop": 9,
+      "ip": "220.128.8.130",
+      "hostname": null,
+      "rtts": [
+        18.477,
+        10.216,
+        10.182
+      ],
+      "avg_rtt": 12.96,
+      "timeout": false
+    },
+    {
+      "hop": 10,
+      "ip": "220.128.8.241",
+      "hostname": null,
+      "rtts": [
+        10.415,
+        13.229,
+        11.181
+      ],
+      "avg_rtt": 11.61,
+      "timeout": false
+    },
+    {
+      "hop": 11,
+      "ip": "211.22.228.137",
+      "hostname": null,
+      "rtts": [
+        9.741,
+        9.703,
+        9.754
+      ],
+      "avg_rtt": 9.73,
+      "timeout": false
+    },
+    {
+      "hop": 12,
+      "ip": "203.66.32.39",
+      "hostname": null,
+      "rtts": [
+        11.09,
+        10.829,
+        10.318
+      ],
+      "avg_rtt": 10.75,
+      "timeout": false
+    }
+  ],
+  "num_hops": 11,
+  "success": true,
+  "raw_output": " 1  192.168.50.1  7.986 ms  5.769 ms  3.556 ms\n 2  140.123.103.250  6.999 ms  5.759 ms  8.248 ms\n 3  140.123.9.249  6.360 ms  7.281 ms  3.649 ms\n 4  140.123.0.246  8.724 ms  5.920 ms  5.859 ms\n 5  140.130.252.251  7.190 ms  5.096 ms  5.994 ms\n 6  211.22.226.198  8.349 ms  23.447 ms  11.333 ms\n 7  * * *\n 8  * * *\n 9  220.128.8.130  18.477 ms  10.216 ms  10.182 ms\n10  220.128.8.241  10.415 ms  13.229 ms  11.181 ms\n11  211.22.228.137  9.741 ms  9.703 ms  9.754 ms\n12  203.66.32.39  11.090 ms  10.829 ms  10.318 ms\n",
+  "category": "financial_infra",
+  "base_domain": "twse.com.tw",
+  "service_variant": "www.twse.com.tw",
+  "is_bare_domain": false
+}

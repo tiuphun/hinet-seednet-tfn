@@ -1,0 +1,230 @@
+{
+  "timestamp": "2025-10-15T13:03:30.693816",
+  "vantage_point": "itaiwan",
+  "target": "tcb-bank.com.tw",
+  "target_ip": "203.74.167.1",
+  "protocol": "icmp",
+  "port": null,
+  "duration_seconds": 63.45,
+  "hops": [
+    {
+      "hop": 2,
+      "ip": "168.95.98.254",
+      "hostname": "h254.s98.ts.hinet.net",
+      "rtts": [
+        3.597,
+        2.297,
+        2.473
+      ],
+      "avg_rtt": 2.79,
+      "timeout": false,
+      "network": "hinet",
+      "network_name": "HiNet (Chunghwa Telecom)",
+      "is_interesting": true,
+      "is_private": false
+    },
+    {
+      "hop": 3,
+      "ip": "168.95.129.42",
+      "hostname": "168-95-129-42.caw1-3332.hinet.net",
+      "rtts": [
+        3.24,
+        3.36,
+        3.083
+      ],
+      "avg_rtt": 3.23,
+      "timeout": false,
+      "network": "hinet",
+      "network_name": "HiNet (Chunghwa Telecom)",
+      "is_interesting": true,
+      "is_private": false
+    },
+    {
+      "hop": 4,
+      "ip": null,
+      "hostname": null,
+      "rtts": [],
+      "timeout": true
+    },
+    {
+      "hop": 5,
+      "ip": null,
+      "hostname": null,
+      "rtts": [],
+      "timeout": true
+    },
+    {
+      "hop": 6,
+      "ip": "220.128.4.213",
+      "hostname": "220-128-4-213.tpdt-3309.hinet.net",
+      "rtts": [
+        10.492,
+        9.923,
+        11.126
+      ],
+      "avg_rtt": 10.51,
+      "timeout": false,
+      "network": "hinet",
+      "network_name": "HiNet (Chunghwa Telecom)",
+      "is_interesting": true,
+      "is_private": false
+    },
+    {
+      "hop": 7,
+      "ip": "168.95.209.45",
+      "hostname": "h45.s209.ts.hinet.net",
+      "rtts": [
+        10.272,
+        10.232,
+        10.873
+      ],
+      "avg_rtt": 10.46,
+      "timeout": false,
+      "network": "hinet",
+      "network_name": "HiNet (Chunghwa Telecom)",
+      "is_interesting": true,
+      "is_private": false
+    },
+    {
+      "hop": 8,
+      "ip": null,
+      "hostname": null,
+      "rtts": [],
+      "timeout": true
+    },
+    {
+      "hop": 9,
+      "ip": null,
+      "hostname": null,
+      "rtts": [],
+      "timeout": true
+    },
+    {
+      "hop": 10,
+      "ip": "202.39.35.201",
+      "hostname": "202-39-35-201.hinet-ip.hinet.net",
+      "rtts": [
+        13.137
+      ],
+      "avg_rtt": 13.14,
+      "timeout": false,
+      "network": "hinet",
+      "network_name": "HiNet (Chunghwa Telecom)",
+      "is_interesting": true,
+      "is_private": false
+    },
+    {
+      "hop": 11,
+      "ip": null,
+      "hostname": null,
+      "rtts": [],
+      "timeout": true
+    },
+    {
+      "hop": 12,
+      "ip": null,
+      "hostname": null,
+      "rtts": [],
+      "timeout": true
+    },
+    {
+      "hop": 13,
+      "ip": "202.39.35.201",
+      "hostname": "202-39-35-201.hinet-ip.hinet.net",
+      "rtts": [
+        14.375
+      ],
+      "avg_rtt": 14.38,
+      "timeout": false,
+      "network": "hinet",
+      "network_name": "HiNet (Chunghwa Telecom)",
+      "is_interesting": true,
+      "is_private": false
+    },
+    {
+      "hop": 14,
+      "ip": "202.39.35.201",
+      "hostname": "202-39-35-201.hinet-ip.hinet.net",
+      "rtts": [
+        11.268,
+        17.9
+      ],
+      "avg_rtt": 14.58,
+      "timeout": false,
+      "network": "hinet",
+      "network_name": "HiNet (Chunghwa Telecom)",
+      "is_interesting": true,
+      "is_private": false
+    }
+  ],
+  "num_hops": 13,
+  "success": false,
+  "path_analysis": {
+    "networks_traversed": [
+      {
+        "network": "hinet",
+        "network_name": "HiNet (Chunghwa Telecom)",
+        "first_hop": 2
+      }
+    ],
+    "interesting_routers": [
+      {
+        "hop": 2,
+        "ip": "168.95.98.254",
+        "hostname": "h254.s98.ts.hinet.net",
+        "network": "hinet",
+        "network_name": "HiNet (Chunghwa Telecom)"
+      },
+      {
+        "hop": 3,
+        "ip": "168.95.129.42",
+        "hostname": "168-95-129-42.caw1-3332.hinet.net",
+        "network": "hinet",
+        "network_name": "HiNet (Chunghwa Telecom)"
+      },
+      {
+        "hop": 6,
+        "ip": "220.128.4.213",
+        "hostname": "220-128-4-213.tpdt-3309.hinet.net",
+        "network": "hinet",
+        "network_name": "HiNet (Chunghwa Telecom)"
+      },
+      {
+        "hop": 7,
+        "ip": "168.95.209.45",
+        "hostname": "h45.s209.ts.hinet.net",
+        "network": "hinet",
+        "network_name": "HiNet (Chunghwa Telecom)"
+      },
+      {
+        "hop": 10,
+        "ip": "202.39.35.201",
+        "hostname": "202-39-35-201.hinet-ip.hinet.net",
+        "network": "hinet",
+        "network_name": "HiNet (Chunghwa Telecom)"
+      },
+      {
+        "hop": 13,
+        "ip": "202.39.35.201",
+        "hostname": "202-39-35-201.hinet-ip.hinet.net",
+        "network": "hinet",
+        "network_name": "HiNet (Chunghwa Telecom)"
+      },
+      {
+        "hop": 14,
+        "ip": "202.39.35.201",
+        "hostname": "202-39-35-201.hinet-ip.hinet.net",
+        "network": "hinet",
+        "network_name": "HiNet (Chunghwa Telecom)"
+      }
+    ],
+    "private_hops": 0,
+    "total_hops": 13,
+    "network_transitions": []
+  },
+  "raw_output": " 1  172.16.193.250 (172.16.193.250)  2.685 ms  2.085 ms  2.052 ms\n 2  h254.s98.ts.hinet.net (168.95.98.254)  3.597 ms  2.297 ms  2.473 ms\n 3  168-95-129-42.caw1-3332.hinet.net (168.95.129.42)  3.240 ms  3.360 ms  3.083 ms\n 4  * * *\n 5  * * *\n 6  220-128-4-213.tpdt-3309.hinet.net (220.128.4.213)  10.492 ms  9.923 ms  11.126 ms\n 7  h45.s209.ts.hinet.net (168.95.209.45)  10.272 ms  10.232 ms  10.873 ms\n 8  * * *\n 9  * 202-39-35-201.hinet-ip.hinet.net (202.39.35.201)  17.555 ms !X *\n10  202-39-35-201.hinet-ip.hinet.net (202.39.35.201)  13.137 ms !X * *\n11  * * *\n12  * 202-39-35-201.hinet-ip.hinet.net (202.39.35.201)  15.070 ms !X *\n13  202-39-35-201.hinet-ip.hinet.net (202.39.35.201)  14.375 ms !X * *\n14  202-39-35-201.hinet-ip.hinet.net (202.39.35.201)  11.268 ms !X *  17.900 ms !X\n",
+  "category": "financial_banks",
+  "base_domain": "tcb-bank.com.tw",
+  "service_variant": "tcb-bank.com.tw",
+  "is_bare_domain": true
+}

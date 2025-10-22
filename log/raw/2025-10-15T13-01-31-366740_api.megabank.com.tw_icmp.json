@@ -1,0 +1,160 @@
+{
+  "timestamp": "2025-10-15T13:01:31.366740",
+  "vantage_point": "itaiwan",
+  "target": "api.megabank.com.tw",
+  "target_ip": "61.220.62.130",
+  "protocol": "icmp",
+  "port": null,
+  "duration_seconds": 18.22,
+  "hops": [
+    {
+      "hop": 2,
+      "ip": "168.95.98.254",
+      "hostname": "h254.s98.ts.hinet.net",
+      "rtts": [
+        3.192,
+        2.916,
+        3.662
+      ],
+      "avg_rtt": 3.26,
+      "timeout": false,
+      "network": "hinet",
+      "network_name": "HiNet (Chunghwa Telecom)",
+      "is_interesting": true,
+      "is_private": false
+    },
+    {
+      "hop": 3,
+      "ip": "168.95.129.50",
+      "hostname": "168-95-129-50.caw1-3332.hinet.net",
+      "rtts": [
+        4.652,
+        3.849,
+        3.268
+      ],
+      "avg_rtt": 3.92,
+      "timeout": false,
+      "network": "hinet",
+      "network_name": "HiNet (Chunghwa Telecom)",
+      "is_interesting": true,
+      "is_private": false
+    },
+    {
+      "hop": 4,
+      "ip": null,
+      "hostname": null,
+      "rtts": [],
+      "timeout": true
+    },
+    {
+      "hop": 5,
+      "ip": null,
+      "hostname": null,
+      "rtts": [],
+      "timeout": true
+    },
+    {
+      "hop": 6,
+      "ip": "220.128.2.197",
+      "hostname": "220-128-2-197.tpdb-3336.hinet.net",
+      "rtts": [
+        10.695,
+        11.677,
+        10.739
+      ],
+      "avg_rtt": 11.04,
+      "timeout": false,
+      "network": "hinet",
+      "network_name": "HiNet (Chunghwa Telecom)",
+      "is_interesting": true,
+      "is_private": false
+    },
+    {
+      "hop": 7,
+      "ip": "211.72.255.253",
+      "hostname": "211.72.255.253",
+      "rtts": [
+        10.701,
+        13.52,
+        16.456
+      ],
+      "avg_rtt": 13.56,
+      "timeout": false,
+      "network": "other",
+      "network_name": "Other Network",
+      "is_interesting": false,
+      "is_private": false
+    },
+    {
+      "hop": 8,
+      "ip": "61.220.62.130",
+      "hostname": "61.220.62.130",
+      "rtts": [
+        9.896,
+        10.321,
+        9.924
+      ],
+      "avg_rtt": 10.05,
+      "timeout": false,
+      "network": "other",
+      "network_name": "Other Network",
+      "is_interesting": false,
+      "is_private": false
+    }
+  ],
+  "num_hops": 7,
+  "success": true,
+  "path_analysis": {
+    "networks_traversed": [
+      {
+        "network": "hinet",
+        "network_name": "HiNet (Chunghwa Telecom)",
+        "first_hop": 2
+      },
+      {
+        "network": "other",
+        "network_name": "Other Network",
+        "first_hop": 7
+      }
+    ],
+    "interesting_routers": [
+      {
+        "hop": 2,
+        "ip": "168.95.98.254",
+        "hostname": "h254.s98.ts.hinet.net",
+        "network": "hinet",
+        "network_name": "HiNet (Chunghwa Telecom)"
+      },
+      {
+        "hop": 3,
+        "ip": "168.95.129.50",
+        "hostname": "168-95-129-50.caw1-3332.hinet.net",
+        "network": "hinet",
+        "network_name": "HiNet (Chunghwa Telecom)"
+      },
+      {
+        "hop": 6,
+        "ip": "220.128.2.197",
+        "hostname": "220-128-2-197.tpdb-3336.hinet.net",
+        "network": "hinet",
+        "network_name": "HiNet (Chunghwa Telecom)"
+      }
+    ],
+    "private_hops": 0,
+    "total_hops": 7,
+    "network_transitions": [
+      {
+        "hop": 7,
+        "from": "hinet",
+        "to": "other",
+        "from_ip": "211.72.255.253",
+        "to_ip": "211.72.255.253"
+      }
+    ]
+  },
+  "raw_output": " 1  172.16.193.250 (172.16.193.250)  3.458 ms  3.604 ms  3.771 ms\n 2  h254.s98.ts.hinet.net (168.95.98.254)  3.192 ms  2.916 ms  3.662 ms\n 3  168-95-129-50.caw1-3332.hinet.net (168.95.129.50)  4.652 ms  3.849 ms  3.268 ms\n 4  * * *\n 5  * * *\n 6  220-128-2-197.tpdb-3336.hinet.net (220.128.2.197)  10.695 ms  11.677 ms  10.739 ms\n 7  211.72.255.253 (211.72.255.253)  10.701 ms  13.520 ms  16.456 ms\n 8  61.220.62.130 (61.220.62.130)  9.896 ms  10.321 ms  9.924 ms\n",
+  "category": "financial_banks",
+  "base_domain": "megabank.com.tw",
+  "service_variant": "api.megabank.com.tw",
+  "is_bare_domain": false
+}

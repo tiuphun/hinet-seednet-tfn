@@ -1,0 +1,90 @@
+{
+  "timestamp": "2025-10-21T17:35:54.836708",
+  "vantage_point": "university",
+  "target": "www.nchc.org.tw",
+  "target_ip": "211.73.79.67",
+  "protocol": "icmp",
+  "port": null,
+  "duration_seconds": 0.27,
+  "hops": [
+    {
+      "hop": 2,
+      "ip": "140.123.103.250",
+      "hostname": "csgate103.cs.ccu.edu.tw",
+      "rtts": [
+        4.153,
+        19.588,
+        2.668
+      ],
+      "avg_rtt": 8.8,
+      "timeout": false
+    },
+    {
+      "hop": 3,
+      "ip": "140.123.9.249",
+      "hostname": "140.123.9.249",
+      "rtts": [
+        3.007,
+        3.953,
+        2.447
+      ],
+      "avg_rtt": 3.14,
+      "timeout": false
+    },
+    {
+      "hop": 4,
+      "ip": "140.123.0.246",
+      "hostname": "140.123.0.246",
+      "rtts": [
+        5.171,
+        4.65,
+        16.102
+      ],
+      "avg_rtt": 8.64,
+      "timeout": false
+    },
+    {
+      "hop": 5,
+      "ip": "211.79.57.25",
+      "hostname": "ccu-ccu-76.twaren.net",
+      "rtts": [
+        5.773,
+        27.942,
+        7.289
+      ],
+      "avg_rtt": 13.67,
+      "timeout": false
+    },
+    {
+      "hop": 6,
+      "ip": "211.73.76.209",
+      "hostname": "tp-a1.twaren.net",
+      "rtts": [
+        6.99,
+        6.306,
+        10.486
+      ],
+      "avg_rtt": 7.93,
+      "timeout": false
+    },
+    {
+      "hop": 7,
+      "ip": "211.73.79.67",
+      "hostname": "211.73.79.67",
+      "rtts": [
+        7.543,
+        45.068,
+        8.846
+      ],
+      "avg_rtt": 20.49,
+      "timeout": false
+    }
+  ],
+  "num_hops": 6,
+  "success": true,
+  "raw_output": " 1  192.168.50.1 (192.168.50.1)  3.292 ms  2.235 ms  2.093 ms\n 2  csgate103.cs.ccu.edu.tw (140.123.103.250)  4.153 ms  19.588 ms  2.668 ms\n 3  140.123.9.249 (140.123.9.249)  3.007 ms  3.953 ms  2.447 ms\n 4  140.123.0.246 (140.123.0.246)  5.171 ms  4.650 ms  16.102 ms\n 5  ccu-ccu-76.twaren.net (211.79.57.25)  5.773 ms  27.942 ms  7.289 ms\n 6  tp-a1.twaren.net (211.73.76.209)  6.990 ms  6.306 ms  10.486 ms\n 7  211.73.79.67 (211.73.79.67)  7.543 ms  45.068 ms  8.846 ms\n",
+  "category": "education_network",
+  "base_domain": "nchc.org.tw",
+  "service_variant": "www.nchc.org.tw",
+  "is_bare_domain": false
+}

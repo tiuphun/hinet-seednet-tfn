@@ -1,0 +1,306 @@
+{
+  "timestamp": "2025-10-22T00:15:47.931789",
+  "vantage_point": "university",
+  "target": "app.fetnet.net",
+  "target_ip": "61.20.33.113",
+  "protocol": "icmp",
+  "port": null,
+  "duration_seconds": 118.99,
+  "hops": [
+    {
+      "hop": 2,
+      "ip": "140.123.103.250",
+      "hostname": "csgate103.cs.ccu.edu.tw",
+      "rtts": [
+        2.461,
+        2.358,
+        4.608
+      ],
+      "avg_rtt": 3.14,
+      "timeout": false
+    },
+    {
+      "hop": 3,
+      "ip": "140.123.9.249",
+      "hostname": "140.123.9.249",
+      "rtts": [
+        5.642,
+        5.572,
+        4.002
+      ],
+      "avg_rtt": 5.07,
+      "timeout": false
+    },
+    {
+      "hop": 4,
+      "ip": "140.123.0.246",
+      "hostname": "140.123.0.246",
+      "rtts": [
+        3.498,
+        3.366,
+        4.446
+      ],
+      "avg_rtt": 3.77,
+      "timeout": false
+    },
+    {
+      "hop": 5,
+      "ip": "140.130.252.251",
+      "hostname": "140.130.252.251",
+      "rtts": [
+        8.742,
+        4.905,
+        3.999
+      ],
+      "avg_rtt": 5.88,
+      "timeout": false
+    },
+    {
+      "hop": 6,
+      "ip": "192.192.61.142",
+      "hostname": "192.192.61.142",
+      "rtts": [
+        11.233,
+        20.436,
+        5.533
+      ],
+      "avg_rtt": 12.4,
+      "timeout": false
+    },
+    {
+      "hop": 7,
+      "ip": "192.192.61.20",
+      "hostname": "192.192.61.20",
+      "rtts": [
+        9.193,
+        8.973,
+        8.792
+      ],
+      "avg_rtt": 8.99,
+      "timeout": false
+    },
+    {
+      "hop": 8,
+      "ip": "192.192.61.66",
+      "hostname": "192.192.61.66",
+      "rtts": [
+        11.443,
+        7.315,
+        10.335
+      ],
+      "avg_rtt": 9.7,
+      "timeout": false
+    },
+    {
+      "hop": 9,
+      "ip": "192.192.68.30",
+      "hostname": "192.192.68.30",
+      "rtts": [
+        8.257,
+        7.551,
+        8.208
+      ],
+      "avg_rtt": 8.01,
+      "timeout": false
+    },
+    {
+      "hop": 10,
+      "ip": "203.79.254.53",
+      "hostname": "203-79-254-53.ebix.net.tw",
+      "rtts": [
+        43.358,
+        8.202,
+        9.0
+      ],
+      "avg_rtt": 20.19,
+      "timeout": false
+    },
+    {
+      "hop": 11,
+      "ip": "211.76.96.66",
+      "hostname": "211.76.96.66",
+      "rtts": [
+        10.527,
+        9.573,
+        10.604
+      ],
+      "avg_rtt": 10.23,
+      "timeout": false
+    },
+    {
+      "hop": 12,
+      "ip": "139.175.58.130",
+      "hostname": "r58-130.seed.net.tw",
+      "rtts": [
+        11.507,
+        15.38,
+        10.711
+      ],
+      "avg_rtt": 12.53,
+      "timeout": false
+    },
+    {
+      "hop": 13,
+      "ip": "139.175.58.4",
+      "hostname": "r58-4.seed.net.tw",
+      "rtts": [
+        17.986,
+        9.837,
+        11.734
+      ],
+      "avg_rtt": 13.19,
+      "timeout": false
+    },
+    {
+      "hop": 14,
+      "ip": "192.72.155.194",
+      "hostname": "h194-192-72-155.seed.net.tw",
+      "rtts": [
+        10.161,
+        10.586,
+        42.289
+      ],
+      "avg_rtt": 21.01,
+      "timeout": false
+    },
+    {
+      "hop": 15,
+      "ip": "10.65.29.18",
+      "hostname": "10.65.29.18",
+      "rtts": [
+        13.345,
+        12.886,
+        13.459
+      ],
+      "avg_rtt": 13.23,
+      "timeout": false
+    },
+    {
+      "hop": 16,
+      "ip": "10.1.255.69",
+      "hostname": "10.1.255.69",
+      "rtts": [
+        10.102,
+        64.547,
+        10.392
+      ],
+      "avg_rtt": 28.35,
+      "timeout": false
+    },
+    {
+      "hop": 17,
+      "ip": "10.1.255.70",
+      "hostname": "10.1.255.70",
+      "rtts": [
+        10.604,
+        12.159,
+        10.465
+      ],
+      "avg_rtt": 11.08,
+      "timeout": false
+    },
+    {
+      "hop": 18,
+      "ip": "10.76.148.239",
+      "hostname": "10.76.148.239",
+      "rtts": [
+        12.306,
+        13.529,
+        13.96
+      ],
+      "avg_rtt": 13.27,
+      "timeout": false
+    },
+    {
+      "hop": 19,
+      "ip": null,
+      "hostname": null,
+      "rtts": [],
+      "timeout": true
+    },
+    {
+      "hop": 20,
+      "ip": null,
+      "hostname": null,
+      "rtts": [],
+      "timeout": true
+    },
+    {
+      "hop": 21,
+      "ip": null,
+      "hostname": null,
+      "rtts": [],
+      "timeout": true
+    },
+    {
+      "hop": 22,
+      "ip": null,
+      "hostname": null,
+      "rtts": [],
+      "timeout": true
+    },
+    {
+      "hop": 23,
+      "ip": null,
+      "hostname": null,
+      "rtts": [],
+      "timeout": true
+    },
+    {
+      "hop": 24,
+      "ip": null,
+      "hostname": null,
+      "rtts": [],
+      "timeout": true
+    },
+    {
+      "hop": 25,
+      "ip": null,
+      "hostname": null,
+      "rtts": [],
+      "timeout": true
+    },
+    {
+      "hop": 26,
+      "ip": null,
+      "hostname": null,
+      "rtts": [],
+      "timeout": true
+    },
+    {
+      "hop": 27,
+      "ip": null,
+      "hostname": null,
+      "rtts": [],
+      "timeout": true
+    },
+    {
+      "hop": 28,
+      "ip": null,
+      "hostname": null,
+      "rtts": [],
+      "timeout": true
+    },
+    {
+      "hop": 29,
+      "ip": null,
+      "hostname": null,
+      "rtts": [],
+      "timeout": true
+    },
+    {
+      "hop": 30,
+      "ip": null,
+      "hostname": null,
+      "rtts": [],
+      "timeout": true
+    }
+  ],
+  "num_hops": 29,
+  "success": false,
+  "raw_output": " 1  192.168.50.1 (192.168.50.1)  2.512 ms  2.393 ms  1.949 ms\n 2  csgate103.cs.ccu.edu.tw (140.123.103.250)  2.461 ms  2.358 ms  4.608 ms\n 3  140.123.9.249 (140.123.9.249)  5.642 ms  5.572 ms  4.002 ms\n 4  140.123.0.246 (140.123.0.246)  3.498 ms  3.366 ms  4.446 ms\n 5  140.130.252.251 (140.130.252.251)  8.742 ms  4.905 ms  3.999 ms\n 6  192.192.61.142 (192.192.61.142)  11.233 ms  20.436 ms  5.533 ms\n 7  192.192.61.20 (192.192.61.20)  9.193 ms  8.973 ms  8.792 ms\n 8  192.192.61.66 (192.192.61.66)  11.443 ms  7.315 ms  10.335 ms\n 9  192.192.68.30 (192.192.68.30)  8.257 ms  7.551 ms  8.208 ms\n10  203-79-254-53.ebix.net.tw (203.79.254.53)  43.358 ms  8.202 ms  9.000 ms\n11  211.76.96.66 (211.76.96.66)  10.527 ms  9.573 ms  10.604 ms\n12  r58-130.seed.net.tw (139.175.58.130)  11.507 ms  15.380 ms  10.711 ms\n13  r58-4.seed.net.tw (139.175.58.4)  17.986 ms  9.837 ms  11.734 ms\n14  h194-192-72-155.seed.net.tw (192.72.155.194)  10.161 ms  10.586 ms  42.289 ms\n15  10.65.29.18 (10.65.29.18)  13.345 ms  12.886 ms  13.459 ms\n16  10.1.255.69 (10.1.255.69)  10.102 ms  64.547 ms  10.392 ms\n17  10.1.255.70 (10.1.255.70)  10.604 ms  12.159 ms  10.465 ms\n18  10.76.148.239 (10.76.148.239)  12.306 ms  13.529 ms  13.960 ms\n19  * * *\n20  * * *\n21  * * *\n22  * * *\n23  * * *\n24  * * *\n25  * * *\n26  * * *\n27  * * *\n28  * * *\n29  * * *\n30  * * *\n",
+  "category": "telecom",
+  "base_domain": "fetnet.net",
+  "service_variant": "app.fetnet.net",
+  "is_bare_domain": false
+}

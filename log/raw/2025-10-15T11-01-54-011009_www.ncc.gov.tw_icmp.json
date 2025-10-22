@@ -1,0 +1,160 @@
+{
+  "timestamp": "2025-10-15T11:01:54.011009",
+  "vantage_point": "itaiwan",
+  "target": "www.ncc.gov.tw",
+  "target_ip": "172.65.90.67",
+  "protocol": "icmp",
+  "port": null,
+  "duration_seconds": 9.15,
+  "hops": [
+    {
+      "hop": 2,
+      "ip": "168.95.98.254",
+      "hostname": "h254.s98.ts.hinet.net",
+      "rtts": [
+        2.696,
+        3.025,
+        2.801
+      ],
+      "avg_rtt": 2.84,
+      "timeout": false,
+      "network": "hinet",
+      "network_name": "HiNet (Chunghwa Telecom)",
+      "is_interesting": true,
+      "is_private": false
+    },
+    {
+      "hop": 3,
+      "ip": "168.95.128.42",
+      "hostname": "168-95-128-42.caw1-3331.hinet.net",
+      "rtts": [
+        3.174,
+        3.522,
+        4.0
+      ],
+      "avg_rtt": 3.57,
+      "timeout": false,
+      "network": "hinet",
+      "network_name": "HiNet (Chunghwa Telecom)",
+      "is_interesting": true,
+      "is_private": false
+    },
+    {
+      "hop": 4,
+      "ip": null,
+      "hostname": null,
+      "rtts": [],
+      "timeout": true
+    },
+    {
+      "hop": 5,
+      "ip": "220.128.24.93",
+      "hostname": "220-128-24-93.skc1-3336.hinet.net",
+      "rtts": [
+        5.185,
+        4.953,
+        5.064
+      ],
+      "avg_rtt": 5.07,
+      "timeout": false,
+      "network": "hinet",
+      "network_name": "HiNet (Chunghwa Telecom)",
+      "is_interesting": true,
+      "is_private": false
+    },
+    {
+      "hop": 6,
+      "ip": "203.69.105.153",
+      "hostname": "203-69-105-153.hinet-ip.hinet.net",
+      "rtts": [
+        5.148,
+        5.415,
+        5.138
+      ],
+      "avg_rtt": 5.23,
+      "timeout": false,
+      "network": "hinet",
+      "network_name": "HiNet (Chunghwa Telecom)",
+      "is_interesting": true,
+      "is_private": false
+    },
+    {
+      "hop": 7,
+      "ip": "172.65.90.67",
+      "hostname": "172.65.90.67",
+      "rtts": [
+        4.953,
+        4.235,
+        4.743
+      ],
+      "avg_rtt": 4.64,
+      "timeout": false,
+      "network": "other",
+      "network_name": "Other Network",
+      "is_interesting": false,
+      "is_private": false
+    }
+  ],
+  "num_hops": 6,
+  "success": true,
+  "path_analysis": {
+    "networks_traversed": [
+      {
+        "network": "hinet",
+        "network_name": "HiNet (Chunghwa Telecom)",
+        "first_hop": 2
+      },
+      {
+        "network": "other",
+        "network_name": "Other Network",
+        "first_hop": 7
+      }
+    ],
+    "interesting_routers": [
+      {
+        "hop": 2,
+        "ip": "168.95.98.254",
+        "hostname": "h254.s98.ts.hinet.net",
+        "network": "hinet",
+        "network_name": "HiNet (Chunghwa Telecom)"
+      },
+      {
+        "hop": 3,
+        "ip": "168.95.128.42",
+        "hostname": "168-95-128-42.caw1-3331.hinet.net",
+        "network": "hinet",
+        "network_name": "HiNet (Chunghwa Telecom)"
+      },
+      {
+        "hop": 5,
+        "ip": "220.128.24.93",
+        "hostname": "220-128-24-93.skc1-3336.hinet.net",
+        "network": "hinet",
+        "network_name": "HiNet (Chunghwa Telecom)"
+      },
+      {
+        "hop": 6,
+        "ip": "203.69.105.153",
+        "hostname": "203-69-105-153.hinet-ip.hinet.net",
+        "network": "hinet",
+        "network_name": "HiNet (Chunghwa Telecom)"
+      }
+    ],
+    "private_hops": 0,
+    "total_hops": 6,
+    "network_transitions": [
+      {
+        "hop": 7,
+        "from": "hinet",
+        "to": "other",
+        "from_ip": "172.65.90.67",
+        "to_ip": "172.65.90.67"
+      }
+    ]
+  },
+  "raw_output": " 1  172.16.193.250 (172.16.193.250)  2.596 ms  2.118 ms  2.142 ms\n 2  h254.s98.ts.hinet.net (168.95.98.254)  2.696 ms  3.025 ms  2.801 ms\n 3  168-95-128-42.caw1-3331.hinet.net (168.95.128.42)  3.174 ms  3.522 ms  4.000 ms\n 4  * * *\n 5  220-128-24-93.skc1-3336.hinet.net (220.128.24.93)  5.185 ms  4.953 ms  5.064 ms\n 6  203-69-105-153.hinet-ip.hinet.net (203.69.105.153)  5.148 ms  5.415 ms  5.138 ms\n 7  172.65.90.67 (172.65.90.67)  4.953 ms  4.235 ms  4.743 ms\n",
+  "category": "government_central",
+  "base_domain": "ncc.gov.tw",
+  "service_variant": "www.ncc.gov.tw",
+  "is_bare_domain": false
+}

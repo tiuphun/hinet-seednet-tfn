@@ -1,0 +1,327 @@
+{
+  "timestamp": "2025-10-15T14:57:35.016062",
+  "vantage_point": "itaiwan",
+  "target": "seednet.net",
+  "target_ip": "64.131.64.91",
+  "protocol": "icmp",
+  "port": null,
+  "duration_seconds": 25.19,
+  "hops": [
+    {
+      "hop": 2,
+      "ip": "168.95.98.254",
+      "hostname": "h254.s98.ts.hinet.net",
+      "rtts": [
+        4.059,
+        5.029,
+        4.141
+      ],
+      "avg_rtt": 4.41,
+      "timeout": false,
+      "network": "hinet",
+      "network_name": "HiNet (Chunghwa Telecom)",
+      "is_interesting": true,
+      "is_private": false
+    },
+    {
+      "hop": 3,
+      "ip": "168.95.128.42",
+      "hostname": "168-95-128-42.caw1-3331.hinet.net",
+      "rtts": [
+        4.003,
+        3.981,
+        3.793
+      ],
+      "avg_rtt": 3.93,
+      "timeout": false,
+      "network": "hinet",
+      "network_name": "HiNet (Chunghwa Telecom)",
+      "is_interesting": true,
+      "is_private": false
+    },
+    {
+      "hop": 4,
+      "ip": null,
+      "hostname": null,
+      "rtts": [],
+      "timeout": true
+    },
+    {
+      "hop": 5,
+      "ip": null,
+      "hostname": null,
+      "rtts": [],
+      "timeout": true
+    },
+    {
+      "hop": 6,
+      "ip": "220.128.1.237",
+      "hostname": "220-128-1-237.tpdt-4011.hinet.net",
+      "rtts": [
+        13.848,
+        9.717,
+        9.958
+      ],
+      "avg_rtt": 11.17,
+      "timeout": false,
+      "network": "hinet",
+      "network_name": "HiNet (Chunghwa Telecom)",
+      "is_interesting": true,
+      "is_private": false
+    },
+    {
+      "hop": 7,
+      "ip": "202.39.91.29",
+      "hostname": "202-39-91-29.pa-r32.us.hinet.net",
+      "rtts": [
+        133.376,
+        133.679,
+        135.958
+      ],
+      "avg_rtt": 134.34,
+      "timeout": false,
+      "network": "hinet",
+      "network_name": "HiNet (Chunghwa Telecom)",
+      "is_interesting": true,
+      "is_private": false
+    },
+    {
+      "hop": 8,
+      "ip": "62.115.165.50",
+      "hostname": "sjo-b23-link.ip.twelve99.net",
+      "rtts": [
+        135.192,
+        134.961,
+        135.894
+      ],
+      "avg_rtt": 135.35,
+      "timeout": false,
+      "network": "other",
+      "network_name": "Other Network",
+      "is_interesting": false,
+      "is_private": false
+    },
+    {
+      "hop": 9,
+      "ip": "62.115.139.116",
+      "hostname": "palo-bb2-link.ip.twelve99.net",
+      "rtts": [
+        137.938,
+        140.544,
+        142.632
+      ],
+      "avg_rtt": 140.37,
+      "timeout": false,
+      "network": "other",
+      "network_name": "Other Network",
+      "is_interesting": false,
+      "is_private": false
+    },
+    {
+      "hop": 10,
+      "ip": "62.115.139.113",
+      "hostname": "den-bb2-link.ip.twelve99.net",
+      "rtts": [
+        165.574,
+        166.499,
+        166.414
+      ],
+      "avg_rtt": 166.16,
+      "timeout": false,
+      "network": "other",
+      "network_name": "Other Network",
+      "is_interesting": false,
+      "is_private": false
+    },
+    {
+      "hop": 11,
+      "ip": "62.115.140.184",
+      "hostname": "kanc-bb2-link.ip.twelve99.net",
+      "rtts": [
+        206.539,
+        206.67,
+        208.189
+      ],
+      "avg_rtt": 207.13,
+      "timeout": false,
+      "network": "other",
+      "network_name": "Other Network",
+      "is_interesting": false,
+      "is_private": false
+    },
+    {
+      "hop": 12,
+      "ip": "62.115.136.102",
+      "hostname": "chi-bb2-link.ip.twelve99.net",
+      "rtts": [
+        286.625,
+        207.04,
+        207.946
+      ],
+      "avg_rtt": 233.87,
+      "timeout": false,
+      "network": "other",
+      "network_name": "Other Network",
+      "is_interesting": false,
+      "is_private": false
+    },
+    {
+      "hop": 13,
+      "ip": "62.115.132.134",
+      "hostname": "ewr-bb2-link.ip.twelve99.net",
+      "rtts": [
+        202.34,
+        202.067,
+        204.563
+      ],
+      "avg_rtt": 202.99,
+      "timeout": false,
+      "network": "other",
+      "network_name": "Other Network",
+      "is_interesting": false,
+      "is_private": false
+    },
+    {
+      "hop": 14,
+      "ip": "62.115.136.201",
+      "hostname": "ash-bb2-link.ip.twelve99.net",
+      "rtts": [
+        203.983,
+        204.421,
+        204.031
+      ],
+      "avg_rtt": 204.14,
+      "timeout": false,
+      "network": "other",
+      "network_name": "Other Network",
+      "is_interesting": false,
+      "is_private": false
+    },
+    {
+      "hop": 15,
+      "ip": "62.115.125.47",
+      "hostname": "mans-b1-link.ip.twelve99.net",
+      "rtts": [
+        206.21,
+        207.267,
+        206.464
+      ],
+      "avg_rtt": 206.65,
+      "timeout": false,
+      "network": "other",
+      "network_name": "Other Network",
+      "is_interesting": false,
+      "is_private": false
+    },
+    {
+      "hop": 16,
+      "ip": "62.115.182.175",
+      "hostname": "leaseweb-ic-350766.ip.twelve99-cust.net",
+      "rtts": [
+        207.024,
+        207.451,
+        206.172
+      ],
+      "avg_rtt": 206.88,
+      "timeout": false,
+      "network": "other",
+      "network_name": "Other Network",
+      "is_interesting": false,
+      "is_private": false
+    },
+    {
+      "hop": 17,
+      "ip": "173.208.126.13",
+      "hostname": "po-1.ce04.wdc-02.us.leaseweb.net",
+      "rtts": [
+        204.68,
+        202.345,
+        202.944
+      ],
+      "avg_rtt": 203.32,
+      "timeout": false,
+      "network": "other",
+      "network_name": "Other Network",
+      "is_interesting": false,
+      "is_private": false
+    },
+    {
+      "hop": 18,
+      "ip": "64.131.64.91",
+      "hostname": "server2.twdomain.com",
+      "rtts": [
+        203.557,
+        204.597,
+        203.011
+      ],
+      "avg_rtt": 203.72,
+      "timeout": false,
+      "network": "other",
+      "network_name": "Other Network",
+      "is_interesting": false,
+      "is_private": false
+    }
+  ],
+  "num_hops": 17,
+  "success": true,
+  "path_analysis": {
+    "networks_traversed": [
+      {
+        "network": "hinet",
+        "network_name": "HiNet (Chunghwa Telecom)",
+        "first_hop": 2
+      },
+      {
+        "network": "other",
+        "network_name": "Other Network",
+        "first_hop": 8
+      }
+    ],
+    "interesting_routers": [
+      {
+        "hop": 2,
+        "ip": "168.95.98.254",
+        "hostname": "h254.s98.ts.hinet.net",
+        "network": "hinet",
+        "network_name": "HiNet (Chunghwa Telecom)"
+      },
+      {
+        "hop": 3,
+        "ip": "168.95.128.42",
+        "hostname": "168-95-128-42.caw1-3331.hinet.net",
+        "network": "hinet",
+        "network_name": "HiNet (Chunghwa Telecom)"
+      },
+      {
+        "hop": 6,
+        "ip": "220.128.1.237",
+        "hostname": "220-128-1-237.tpdt-4011.hinet.net",
+        "network": "hinet",
+        "network_name": "HiNet (Chunghwa Telecom)"
+      },
+      {
+        "hop": 7,
+        "ip": "202.39.91.29",
+        "hostname": "202-39-91-29.pa-r32.us.hinet.net",
+        "network": "hinet",
+        "network_name": "HiNet (Chunghwa Telecom)"
+      }
+    ],
+    "private_hops": 0,
+    "total_hops": 17,
+    "network_transitions": [
+      {
+        "hop": 8,
+        "from": "hinet",
+        "to": "other",
+        "from_ip": "62.115.165.50",
+        "to_ip": "62.115.165.50"
+      }
+    ]
+  },
+  "raw_output": " 1  172.16.193.250 (172.16.193.250)  3.415 ms  3.174 ms  3.391 ms\n 2  h254.s98.ts.hinet.net (168.95.98.254)  4.059 ms  5.029 ms  4.141 ms\n 3  168-95-128-42.caw1-3331.hinet.net (168.95.128.42)  4.003 ms  3.981 ms  3.793 ms\n 4  * * *\n 5  * * *\n 6  220-128-1-237.tpdt-4011.hinet.net (220.128.1.237)  13.848 ms  9.717 ms  9.958 ms\n 7  202-39-91-29.pa-r32.us.hinet.net (202.39.91.29)  133.376 ms  133.679 ms  135.958 ms\n 8  sjo-b23-link.ip.twelve99.net (62.115.165.50)  135.192 ms  134.961 ms  135.894 ms\n 9  palo-bb2-link.ip.twelve99.net (62.115.139.116)  137.938 ms  140.544 ms  142.632 ms\n10  den-bb2-link.ip.twelve99.net (62.115.139.113)  165.574 ms  166.499 ms  166.414 ms\n11  kanc-bb2-link.ip.twelve99.net (62.115.140.184)  206.539 ms  206.670 ms  208.189 ms\n12  chi-bb2-link.ip.twelve99.net (62.115.136.102)  286.625 ms  207.040 ms  207.946 ms\n13  ewr-bb2-link.ip.twelve99.net (62.115.132.134)  202.340 ms  202.067 ms  204.563 ms\n14  ash-bb2-link.ip.twelve99.net (62.115.136.201)  203.983 ms  204.421 ms  204.031 ms\n15  mans-b1-link.ip.twelve99.net (62.115.125.47)  206.210 ms  207.267 ms  206.464 ms\n16  leaseweb-ic-350766.ip.twelve99-cust.net (62.115.182.175)  207.024 ms  207.451 ms  206.172 ms\n17  po-1.ce04.wdc-02.us.leaseweb.net (173.208.126.13)  204.680 ms  202.345 ms  202.944 ms\n18  server2.twdomain.com (64.131.64.91)  203.557 ms  204.597 ms  203.011 ms\n",
+  "category": "telecom",
+  "base_domain": "seednet.net",
+  "service_variant": "seednet.net",
+  "is_bare_domain": true
+}

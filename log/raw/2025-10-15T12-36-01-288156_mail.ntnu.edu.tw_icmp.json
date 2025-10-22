@@ -1,0 +1,234 @@
+{
+  "timestamp": "2025-10-15T12:36:01.288156",
+  "vantage_point": "itaiwan",
+  "target": "mail.ntnu.edu.tw",
+  "target_ip": "140.122.65.37",
+  "protocol": "icmp",
+  "port": null,
+  "duration_seconds": 18.5,
+  "hops": [
+    {
+      "hop": 2,
+      "ip": "168.95.98.254",
+      "hostname": "h254.s98.ts.hinet.net",
+      "rtts": [
+        3.443,
+        4.041,
+        2.659
+      ],
+      "avg_rtt": 3.38,
+      "timeout": false,
+      "network": "hinet",
+      "network_name": "HiNet (Chunghwa Telecom)",
+      "is_interesting": true,
+      "is_private": false
+    },
+    {
+      "hop": 3,
+      "ip": "168.95.128.54",
+      "hostname": "168-95-128-54.caw1-3331.hinet.net",
+      "rtts": [
+        3.757,
+        3.319,
+        3.718
+      ],
+      "avg_rtt": 3.6,
+      "timeout": false,
+      "network": "hinet",
+      "network_name": "HiNet (Chunghwa Telecom)",
+      "is_interesting": true,
+      "is_private": false
+    },
+    {
+      "hop": 4,
+      "ip": null,
+      "hostname": null,
+      "rtts": [],
+      "timeout": true
+    },
+    {
+      "hop": 5,
+      "ip": null,
+      "hostname": null,
+      "rtts": [],
+      "timeout": true
+    },
+    {
+      "hop": 6,
+      "ip": "220.128.1.253",
+      "hostname": "220-128-1-253.tpdb-3312.hinet.net",
+      "rtts": [
+        15.518,
+        9.378,
+        9.474
+      ],
+      "avg_rtt": 11.46,
+      "timeout": false,
+      "network": "hinet",
+      "network_name": "HiNet (Chunghwa Telecom)",
+      "is_interesting": true,
+      "is_private": false
+    },
+    {
+      "hop": 7,
+      "ip": "211.22.226.185",
+      "hostname": "211-22-226-185.hinet-ip.hinet.net",
+      "rtts": [
+        9.922,
+        11.455,
+        10.342
+      ],
+      "avg_rtt": 10.57,
+      "timeout": false,
+      "network": "hinet",
+      "network_name": "HiNet (Chunghwa Telecom)",
+      "is_interesting": true,
+      "is_private": false
+    },
+    {
+      "hop": 8,
+      "ip": "192.192.7.158",
+      "hostname": "192.192.7.158",
+      "rtts": [
+        12.407,
+        9.834,
+        9.494
+      ],
+      "avg_rtt": 10.58,
+      "timeout": false,
+      "network": "other",
+      "network_name": "Other Network",
+      "is_interesting": false,
+      "is_private": false
+    },
+    {
+      "hop": 9,
+      "ip": "140.122.6.209",
+      "hostname": "140.122.6.209",
+      "rtts": [
+        11.685,
+        11.205,
+        11.431
+      ],
+      "avg_rtt": 11.44,
+      "timeout": false,
+      "network": "other",
+      "network_name": "Other Network",
+      "is_interesting": false,
+      "is_private": false
+    },
+    {
+      "hop": 10,
+      "ip": "140.122.6.146",
+      "hostname": "140.122.6.146",
+      "rtts": [
+        14.522,
+        10.541,
+        11.133
+      ],
+      "avg_rtt": 12.07,
+      "timeout": false,
+      "network": "other",
+      "network_name": "Other Network",
+      "is_interesting": false,
+      "is_private": false
+    },
+    {
+      "hop": 11,
+      "ip": "140.122.65.37",
+      "hostname": "mub.ntnu.edu.tw",
+      "rtts": [
+        13.543,
+        14.931,
+        12.806
+      ],
+      "avg_rtt": 13.76,
+      "timeout": false,
+      "network": "university",
+      "network_name": "Taiwan Universities",
+      "is_interesting": true,
+      "is_private": false
+    }
+  ],
+  "num_hops": 10,
+  "success": true,
+  "path_analysis": {
+    "networks_traversed": [
+      {
+        "network": "hinet",
+        "network_name": "HiNet (Chunghwa Telecom)",
+        "first_hop": 2
+      },
+      {
+        "network": "other",
+        "network_name": "Other Network",
+        "first_hop": 8
+      },
+      {
+        "network": "university",
+        "network_name": "Taiwan Universities",
+        "first_hop": 11
+      }
+    ],
+    "interesting_routers": [
+      {
+        "hop": 2,
+        "ip": "168.95.98.254",
+        "hostname": "h254.s98.ts.hinet.net",
+        "network": "hinet",
+        "network_name": "HiNet (Chunghwa Telecom)"
+      },
+      {
+        "hop": 3,
+        "ip": "168.95.128.54",
+        "hostname": "168-95-128-54.caw1-3331.hinet.net",
+        "network": "hinet",
+        "network_name": "HiNet (Chunghwa Telecom)"
+      },
+      {
+        "hop": 6,
+        "ip": "220.128.1.253",
+        "hostname": "220-128-1-253.tpdb-3312.hinet.net",
+        "network": "hinet",
+        "network_name": "HiNet (Chunghwa Telecom)"
+      },
+      {
+        "hop": 7,
+        "ip": "211.22.226.185",
+        "hostname": "211-22-226-185.hinet-ip.hinet.net",
+        "network": "hinet",
+        "network_name": "HiNet (Chunghwa Telecom)"
+      },
+      {
+        "hop": 11,
+        "ip": "140.122.65.37",
+        "hostname": "mub.ntnu.edu.tw",
+        "network": "university",
+        "network_name": "Taiwan Universities"
+      }
+    ],
+    "private_hops": 0,
+    "total_hops": 10,
+    "network_transitions": [
+      {
+        "hop": 8,
+        "from": "hinet",
+        "to": "other",
+        "from_ip": "192.192.7.158",
+        "to_ip": "192.192.7.158"
+      },
+      {
+        "hop": 11,
+        "from": "other",
+        "to": "university",
+        "from_ip": "140.122.65.37",
+        "to_ip": "140.122.65.37"
+      }
+    ]
+  },
+  "raw_output": " 1  172.16.193.250 (172.16.193.250)  3.000 ms  1.980 ms  2.224 ms\n 2  h254.s98.ts.hinet.net (168.95.98.254)  3.443 ms  4.041 ms  2.659 ms\n 3  168-95-128-54.caw1-3331.hinet.net (168.95.128.54)  3.757 ms  3.319 ms  3.718 ms\n 4  * * *\n 5  * * *\n 6  220-128-1-253.tpdb-3312.hinet.net (220.128.1.253)  15.518 ms  9.378 ms  9.474 ms\n 7  211-22-226-185.hinet-ip.hinet.net (211.22.226.185)  9.922 ms  11.455 ms  10.342 ms\n 8  192.192.7.158 (192.192.7.158)  12.407 ms  9.834 ms  9.494 ms\n 9  140.122.6.209 (140.122.6.209)  11.685 ms  11.205 ms  11.431 ms\n10  140.122.6.146 (140.122.6.146)  14.522 ms  10.541 ms  11.133 ms\n11  mub.ntnu.edu.tw (140.122.65.37)  13.543 ms  14.931 ms  12.806 ms\n",
+  "category": "universities",
+  "base_domain": "ntnu.edu.tw",
+  "service_variant": "mail.ntnu.edu.tw",
+  "is_bare_domain": false
+}

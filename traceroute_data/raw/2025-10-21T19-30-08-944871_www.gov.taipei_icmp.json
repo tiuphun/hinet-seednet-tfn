@@ -1,0 +1,125 @@
+{
+  "timestamp": "2025-10-21T19:30:08.944871",
+  "vantage_point": "university",
+  "target": "www.gov.taipei",
+  "target_ip": "163.29.207.130",
+  "protocol": "icmp",
+  "port": null,
+  "duration_seconds": 4.7,
+  "hops": [
+    {
+      "hop": 2,
+      "ip": "140.123.103.250",
+      "hostname": "csgate103.cs.ccu.edu.tw",
+      "rtts": [
+        3.038,
+        2.895,
+        2.376
+      ],
+      "avg_rtt": 2.77,
+      "timeout": false
+    },
+    {
+      "hop": 3,
+      "ip": "140.123.9.249",
+      "hostname": "140.123.9.249",
+      "rtts": [
+        5.221,
+        5.638,
+        2.78
+      ],
+      "avg_rtt": 4.55,
+      "timeout": false
+    },
+    {
+      "hop": 4,
+      "ip": "140.123.0.246",
+      "hostname": "140.123.0.246",
+      "rtts": [
+        3.334,
+        5.72,
+        3.792
+      ],
+      "avg_rtt": 4.28,
+      "timeout": false
+    },
+    {
+      "hop": 5,
+      "ip": "140.130.252.251",
+      "hostname": "140.130.252.251",
+      "rtts": [
+        5.556,
+        5.99,
+        4.256
+      ],
+      "avg_rtt": 5.27,
+      "timeout": false
+    },
+    {
+      "hop": 6,
+      "ip": "192.192.61.142",
+      "hostname": "192.192.61.142",
+      "rtts": [
+        5.867,
+        36.876,
+        9.694
+      ],
+      "avg_rtt": 17.48,
+      "timeout": false
+    },
+    {
+      "hop": 7,
+      "ip": "192.192.61.37",
+      "hostname": "192.192.61.37",
+      "rtts": [
+        9.258,
+        7.677,
+        7.347
+      ],
+      "avg_rtt": 8.09,
+      "timeout": false
+    },
+    {
+      "hop": 8,
+      "ip": "192.192.61.32",
+      "hostname": "192.192.61.32",
+      "rtts": [
+        10.15,
+        9.894,
+        8.005
+      ],
+      "avg_rtt": 9.35,
+      "timeout": false
+    },
+    {
+      "hop": 9,
+      "ip": "192.192.61.209",
+      "hostname": "192.192.61.209",
+      "rtts": [
+        8.91,
+        8.649,
+        8.195
+      ],
+      "avg_rtt": 8.58,
+      "timeout": false
+    },
+    {
+      "hop": 10,
+      "ip": "10.96.81.12",
+      "hostname": "10.96.81.12",
+      "rtts": [
+        12.632,
+        9.894
+      ],
+      "avg_rtt": 11.26,
+      "timeout": false
+    }
+  ],
+  "num_hops": 9,
+  "success": false,
+  "raw_output": " 1  192.168.50.1 (192.168.50.1)  12.288 ms  2.388 ms  3.539 ms\n 2  csgate103.cs.ccu.edu.tw (140.123.103.250)  3.038 ms  2.895 ms  2.376 ms\n 3  140.123.9.249 (140.123.9.249)  5.221 ms  5.638 ms  2.780 ms\n 4  140.123.0.246 (140.123.0.246)  3.334 ms  5.720 ms  3.792 ms\n 5  140.130.252.251 (140.130.252.251)  5.556 ms  5.990 ms  4.256 ms\n 6  192.192.61.142 (192.192.61.142)  5.867 ms  36.876 ms  9.694 ms\n 7  192.192.61.37 (192.192.61.37)  9.258 ms  7.677 ms  7.347 ms\n 8  192.192.61.32 (192.192.61.32)  10.150 ms  9.894 ms  8.005 ms\n 9  192.192.61.209 (192.192.61.209)  8.910 ms  8.649 ms  8.195 ms\n10  10.96.81.12 (10.96.81.12)  12.632 ms !X *  9.894 ms !X\n",
+  "category": "government_local",
+  "base_domain": "gov.taipei",
+  "service_variant": "www.gov.taipei",
+  "is_bare_domain": false
+}

@@ -1,0 +1,225 @@
+{
+  "timestamp": "2025-10-15T10:32:51.436638",
+  "vantage_point": "itaiwan",
+  "target": "mail.mofa.gov.tw",
+  "target_ip": "211.72.255.68",
+  "protocol": "icmp",
+  "port": null,
+  "duration_seconds": 27.37,
+  "hops": [
+    {
+      "hop": 2,
+      "ip": "168.95.98.254",
+      "hostname": "h254.s98.ts.hinet.net",
+      "rtts": [
+        3.146,
+        3.398,
+        4.661
+      ],
+      "avg_rtt": 3.73,
+      "timeout": false,
+      "network": "hinet",
+      "network_name": "HiNet (Chunghwa Telecom)",
+      "is_interesting": true,
+      "is_private": false
+    },
+    {
+      "hop": 3,
+      "ip": "168.95.128.50",
+      "hostname": "168-95-128-50.caw1-3331.hinet.net",
+      "rtts": [
+        4.679,
+        3.461,
+        3.452
+      ],
+      "avg_rtt": 3.86,
+      "timeout": false,
+      "network": "hinet",
+      "network_name": "HiNet (Chunghwa Telecom)",
+      "is_interesting": true,
+      "is_private": false
+    },
+    {
+      "hop": 4,
+      "ip": null,
+      "hostname": null,
+      "rtts": [],
+      "timeout": true
+    },
+    {
+      "hop": 5,
+      "ip": null,
+      "hostname": null,
+      "rtts": [],
+      "timeout": true
+    },
+    {
+      "hop": 6,
+      "ip": "220.128.1.217",
+      "hostname": "220-128-1-217.tpdb-3335.hinet.net",
+      "rtts": [
+        16.437,
+        9.541,
+        9.046
+      ],
+      "avg_rtt": 11.67,
+      "timeout": false,
+      "network": "hinet",
+      "network_name": "HiNet (Chunghwa Telecom)",
+      "is_interesting": true,
+      "is_private": false
+    },
+    {
+      "hop": 7,
+      "ip": "203.75.72.13",
+      "hostname": "tn-cd-c6r1.router.hinet.net",
+      "rtts": [
+        11.506,
+        11.754,
+        12.074
+      ],
+      "avg_rtt": 11.78,
+      "timeout": false,
+      "network": "hinet",
+      "network_name": "HiNet (Chunghwa Telecom)",
+      "is_interesting": true,
+      "is_private": false
+    },
+    {
+      "hop": 8,
+      "ip": "203.75.250.229",
+      "hostname": "203.75.250.229",
+      "rtts": [
+        9.752,
+        9.727,
+        9.92
+      ],
+      "avg_rtt": 9.8,
+      "timeout": false,
+      "network": "other",
+      "network_name": "Other Network",
+      "is_interesting": false,
+      "is_private": false
+    },
+    {
+      "hop": 9,
+      "ip": "203.69.108.158",
+      "hostname": "203.69.108.158",
+      "rtts": [
+        10.929,
+        10.651,
+        10.567
+      ],
+      "avg_rtt": 10.72,
+      "timeout": false,
+      "network": "other",
+      "network_name": "Other Network",
+      "is_interesting": false,
+      "is_private": false
+    },
+    {
+      "hop": 10,
+      "ip": null,
+      "hostname": null,
+      "rtts": [],
+      "timeout": true
+    },
+    {
+      "hop": 11,
+      "ip": "211.72.255.68",
+      "hostname": "mail.mofa.gov.tw",
+      "rtts": [
+        16.048,
+        9.89,
+        9.825
+      ],
+      "avg_rtt": 11.92,
+      "timeout": false,
+      "network": "government",
+      "network_name": "Taiwan Government",
+      "is_interesting": true,
+      "is_private": false
+    }
+  ],
+  "num_hops": 10,
+  "success": true,
+  "path_analysis": {
+    "networks_traversed": [
+      {
+        "network": "hinet",
+        "network_name": "HiNet (Chunghwa Telecom)",
+        "first_hop": 2
+      },
+      {
+        "network": "other",
+        "network_name": "Other Network",
+        "first_hop": 8
+      },
+      {
+        "network": "government",
+        "network_name": "Taiwan Government",
+        "first_hop": 11
+      }
+    ],
+    "interesting_routers": [
+      {
+        "hop": 2,
+        "ip": "168.95.98.254",
+        "hostname": "h254.s98.ts.hinet.net",
+        "network": "hinet",
+        "network_name": "HiNet (Chunghwa Telecom)"
+      },
+      {
+        "hop": 3,
+        "ip": "168.95.128.50",
+        "hostname": "168-95-128-50.caw1-3331.hinet.net",
+        "network": "hinet",
+        "network_name": "HiNet (Chunghwa Telecom)"
+      },
+      {
+        "hop": 6,
+        "ip": "220.128.1.217",
+        "hostname": "220-128-1-217.tpdb-3335.hinet.net",
+        "network": "hinet",
+        "network_name": "HiNet (Chunghwa Telecom)"
+      },
+      {
+        "hop": 7,
+        "ip": "203.75.72.13",
+        "hostname": "tn-cd-c6r1.router.hinet.net",
+        "network": "hinet",
+        "network_name": "HiNet (Chunghwa Telecom)"
+      },
+      {
+        "hop": 11,
+        "ip": "211.72.255.68",
+        "hostname": "mail.mofa.gov.tw",
+        "network": "government",
+        "network_name": "Taiwan Government"
+      }
+    ],
+    "private_hops": 0,
+    "total_hops": 10,
+    "network_transitions": [
+      {
+        "hop": 8,
+        "from": "hinet",
+        "to": "other",
+        "from_ip": "203.75.250.229",
+        "to_ip": "203.75.250.229"
+      },
+      {
+        "hop": 11,
+        "from": "other",
+        "to": "government",
+        "from_ip": "211.72.255.68",
+        "to_ip": "211.72.255.68"
+      }
+    ]
+  },
+  "raw_output": " 1  172.16.193.250 (172.16.193.250)  2.533 ms  2.379 ms  2.308 ms\n 2  h254.s98.ts.hinet.net (168.95.98.254)  3.146 ms  3.398 ms  4.661 ms\n 3  168-95-128-50.caw1-3331.hinet.net (168.95.128.50)  4.679 ms  3.461 ms  3.452 ms\n 4  * * *\n 5  * * *\n 6  220-128-1-217.tpdb-3335.hinet.net (220.128.1.217)  16.437 ms  9.541 ms  9.046 ms\n 7  tn-cd-c6r1.router.hinet.net (203.75.72.13)  11.506 ms  11.754 ms  12.074 ms\n 8  203.75.250.229 (203.75.250.229)  9.752 ms  9.727 ms  9.920 ms\n 9  203.69.108.158 (203.69.108.158)  10.929 ms  10.651 ms  10.567 ms\n10  * * *\n11  mail.mofa.gov.tw (211.72.255.68)  16.048 ms  9.890 ms  9.825 ms\n",
+  "category": "government_central",
+  "base_domain": "mofa.gov.tw",
+  "service_variant": "mail.mofa.gov.tw",
+  "is_bare_domain": false
+}

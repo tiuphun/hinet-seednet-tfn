@@ -1,0 +1,214 @@
+{
+  "timestamp": "2025-10-21T10:24:36.078502",
+  "vantage_point": "university",
+  "target": "vpn.cdc.gov.tw",
+  "target_ip": "223.200.89.90",
+  "protocol": "icmp",
+  "port": null,
+  "duration_seconds": 72.54,
+  "hops": [
+    {
+      "hop": 2,
+      "ip": "140.123.103.250",
+      "hostname": "csgate103.cs.ccu.edu.tw",
+      "rtts": [
+        3.656,
+        2.372,
+        2.29
+      ],
+      "avg_rtt": 2.77,
+      "timeout": false
+    },
+    {
+      "hop": 3,
+      "ip": "140.123.9.249",
+      "hostname": "140.123.9.249",
+      "rtts": [
+        2.377,
+        2.451,
+        2.213
+      ],
+      "avg_rtt": 2.35,
+      "timeout": false
+    },
+    {
+      "hop": 4,
+      "ip": "140.123.0.246",
+      "hostname": "140.123.0.246",
+      "rtts": [
+        2.991,
+        2.827,
+        2.897
+      ],
+      "avg_rtt": 2.9,
+      "timeout": false
+    },
+    {
+      "hop": 5,
+      "ip": "140.130.252.251",
+      "hostname": "140.130.252.251",
+      "rtts": [
+        3.639,
+        4.492,
+        3.519
+      ],
+      "avg_rtt": 3.88,
+      "timeout": false
+    },
+    {
+      "hop": 6,
+      "ip": "192.192.61.142",
+      "hostname": "192.192.61.142",
+      "rtts": [
+        5.121,
+        5.201,
+        5.041
+      ],
+      "avg_rtt": 5.12,
+      "timeout": false
+    },
+    {
+      "hop": 7,
+      "ip": "192.192.61.37",
+      "hostname": "192.192.61.37",
+      "rtts": [
+        6.562,
+        6.693,
+        6.337
+      ],
+      "avg_rtt": 6.53,
+      "timeout": false
+    },
+    {
+      "hop": 8,
+      "ip": "192.192.61.32",
+      "hostname": "192.192.61.32",
+      "rtts": [
+        7.293,
+        8.229,
+        7.411
+      ],
+      "avg_rtt": 7.64,
+      "timeout": false
+    },
+    {
+      "hop": 9,
+      "ip": "192.192.61.209",
+      "hostname": "192.192.61.209",
+      "rtts": [
+        7.539,
+        8.298,
+        7.306
+      ],
+      "avg_rtt": 7.71,
+      "timeout": false
+    },
+    {
+      "hop": 10,
+      "ip": null,
+      "hostname": null,
+      "rtts": [],
+      "timeout": true
+    },
+    {
+      "hop": 11,
+      "ip": null,
+      "hostname": null,
+      "rtts": [],
+      "timeout": true
+    },
+    {
+      "hop": 12,
+      "ip": null,
+      "hostname": null,
+      "rtts": [],
+      "timeout": true
+    },
+    {
+      "hop": 13,
+      "ip": null,
+      "hostname": null,
+      "rtts": [],
+      "timeout": true
+    },
+    {
+      "hop": 14,
+      "ip": null,
+      "hostname": null,
+      "rtts": [],
+      "timeout": true
+    },
+    {
+      "hop": 15,
+      "ip": null,
+      "hostname": null,
+      "rtts": [],
+      "timeout": true
+    },
+    {
+      "hop": 16,
+      "ip": "10.96.81.12",
+      "hostname": "10.96.81.12",
+      "rtts": [
+        9.434
+      ],
+      "avg_rtt": 9.43,
+      "timeout": false
+    },
+    {
+      "hop": 17,
+      "ip": "10.96.81.12",
+      "hostname": "10.96.81.12",
+      "rtts": [
+        9.523
+      ],
+      "avg_rtt": 9.52,
+      "timeout": false
+    },
+    {
+      "hop": 18,
+      "ip": "10.96.81.12",
+      "hostname": "10.96.81.12",
+      "rtts": [
+        9.107
+      ],
+      "avg_rtt": 9.11,
+      "timeout": false
+    },
+    {
+      "hop": 19,
+      "ip": null,
+      "hostname": null,
+      "rtts": [],
+      "timeout": true
+    },
+    {
+      "hop": 20,
+      "ip": "10.96.81.12",
+      "hostname": "10.96.81.12",
+      "rtts": [
+        9.404
+      ],
+      "avg_rtt": 9.4,
+      "timeout": false
+    },
+    {
+      "hop": 21,
+      "ip": "10.96.81.12",
+      "hostname": "10.96.81.12",
+      "rtts": [
+        9.688,
+        10.575
+      ],
+      "avg_rtt": 10.13,
+      "timeout": false
+    }
+  ],
+  "num_hops": 20,
+  "success": false,
+  "raw_output": " 1  192.168.50.1 (192.168.50.1)  2.437 ms  2.095 ms  1.732 ms\n 2  csgate103.cs.ccu.edu.tw (140.123.103.250)  3.656 ms  2.372 ms  2.290 ms\n 3  140.123.9.249 (140.123.9.249)  2.377 ms  2.451 ms  2.213 ms\n 4  140.123.0.246 (140.123.0.246)  2.991 ms  2.827 ms  2.897 ms\n 5  140.130.252.251 (140.130.252.251)  3.639 ms  4.492 ms  3.519 ms\n 6  192.192.61.142 (192.192.61.142)  5.121 ms  5.201 ms  5.041 ms\n 7  192.192.61.37 (192.192.61.37)  6.562 ms  6.693 ms  6.337 ms\n 8  192.192.61.32 (192.192.61.32)  7.293 ms  8.229 ms  7.411 ms\n 9  192.192.61.209 (192.192.61.209)  7.539 ms  8.298 ms  7.306 ms\n10  * * 10.96.81.12 (10.96.81.12)  13.223 ms !X\n11  * * 10.96.81.12 (10.96.81.12)  21.677 ms !X\n12  * * 10.96.81.12 (10.96.81.12)  11.634 ms !X\n13  * 10.96.81.12 (10.96.81.12)  9.773 ms !X *\n14  * 10.96.81.12 (10.96.81.12)  11.183 ms !X *\n15  * 10.96.81.12 (10.96.81.12)  9.133 ms !X *\n16  10.96.81.12 (10.96.81.12)  9.434 ms !X * *\n17  10.96.81.12 (10.96.81.12)  9.523 ms !X * *\n18  10.96.81.12 (10.96.81.12)  9.107 ms !X * *\n19  * * *\n20  10.96.81.12 (10.96.81.12)  9.404 ms !X * *\n21  10.96.81.12 (10.96.81.12)  9.688 ms !X *  10.575 ms !X\n",
+  "category": "government_critical",
+  "base_domain": "cdc.gov.tw",
+  "service_variant": "vpn.cdc.gov.tw",
+  "is_bare_domain": false
+}

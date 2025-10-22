@@ -1,0 +1,192 @@
+{
+  "timestamp": "2025-10-15T14:36:54.189307",
+  "vantage_point": "itaiwan",
+  "target": "mail.storm.mg",
+  "target_ip": "142.250.196.211",
+  "protocol": "icmp",
+  "port": null,
+  "duration_seconds": 18.5,
+  "hops": [
+    {
+      "hop": 2,
+      "ip": "168.95.98.254",
+      "hostname": "h254.s98.ts.hinet.net",
+      "rtts": [
+        8.5,
+        13.667,
+        5.865
+      ],
+      "avg_rtt": 9.34,
+      "timeout": false,
+      "network": "hinet",
+      "network_name": "HiNet (Chunghwa Telecom)",
+      "is_interesting": true,
+      "is_private": false
+    },
+    {
+      "hop": 3,
+      "ip": "168.95.128.42",
+      "hostname": "168-95-128-42.caw1-3331.hinet.net",
+      "rtts": [
+        7.779,
+        10.497,
+        7.045
+      ],
+      "avg_rtt": 8.44,
+      "timeout": false,
+      "network": "hinet",
+      "network_name": "HiNet (Chunghwa Telecom)",
+      "is_interesting": true,
+      "is_private": false
+    },
+    {
+      "hop": 4,
+      "ip": null,
+      "hostname": null,
+      "rtts": [],
+      "timeout": true
+    },
+    {
+      "hop": 5,
+      "ip": null,
+      "hostname": null,
+      "rtts": [],
+      "timeout": true
+    },
+    {
+      "hop": 6,
+      "ip": "220.128.13.109",
+      "hostname": "220-128-13-109.pcpd-3332.hinet.net",
+      "rtts": [
+        12.729,
+        17.751,
+        15.16
+      ],
+      "avg_rtt": 15.21,
+      "timeout": false,
+      "network": "hinet",
+      "network_name": "HiNet (Chunghwa Telecom)",
+      "is_interesting": true,
+      "is_private": false
+    },
+    {
+      "hop": 7,
+      "ip": "72.14.218.130",
+      "hostname": "72.14.218.130",
+      "rtts": [
+        15.953,
+        11.753,
+        13.612
+      ],
+      "avg_rtt": 13.77,
+      "timeout": false,
+      "network": "other",
+      "network_name": "Other Network",
+      "is_interesting": false,
+      "is_private": false
+    },
+    {
+      "hop": 8,
+      "ip": "192.178.108.145",
+      "hostname": "192.178.108.145",
+      "rtts": [
+        42.98,
+        15.253,
+        11.651
+      ],
+      "avg_rtt": 23.29,
+      "timeout": false,
+      "network": "other",
+      "network_name": "Other Network",
+      "is_interesting": false,
+      "is_private": false
+    },
+    {
+      "hop": 9,
+      "ip": "142.251.77.85",
+      "hostname": "142.251.77.85",
+      "rtts": [
+        18.592,
+        12.298,
+        12.081
+      ],
+      "avg_rtt": 14.32,
+      "timeout": false,
+      "network": "other",
+      "network_name": "Other Network",
+      "is_interesting": false,
+      "is_private": false
+    },
+    {
+      "hop": 10,
+      "ip": "142.250.196.211",
+      "hostname": "nctsaa-ac-in-f19.1e100.net",
+      "rtts": [
+        13.585,
+        13.596,
+        11.571
+      ],
+      "avg_rtt": 12.92,
+      "timeout": false,
+      "network": "other",
+      "network_name": "Other Network",
+      "is_interesting": false,
+      "is_private": false
+    }
+  ],
+  "num_hops": 9,
+  "success": true,
+  "path_analysis": {
+    "networks_traversed": [
+      {
+        "network": "hinet",
+        "network_name": "HiNet (Chunghwa Telecom)",
+        "first_hop": 2
+      },
+      {
+        "network": "other",
+        "network_name": "Other Network",
+        "first_hop": 7
+      }
+    ],
+    "interesting_routers": [
+      {
+        "hop": 2,
+        "ip": "168.95.98.254",
+        "hostname": "h254.s98.ts.hinet.net",
+        "network": "hinet",
+        "network_name": "HiNet (Chunghwa Telecom)"
+      },
+      {
+        "hop": 3,
+        "ip": "168.95.128.42",
+        "hostname": "168-95-128-42.caw1-3331.hinet.net",
+        "network": "hinet",
+        "network_name": "HiNet (Chunghwa Telecom)"
+      },
+      {
+        "hop": 6,
+        "ip": "220.128.13.109",
+        "hostname": "220-128-13-109.pcpd-3332.hinet.net",
+        "network": "hinet",
+        "network_name": "HiNet (Chunghwa Telecom)"
+      }
+    ],
+    "private_hops": 0,
+    "total_hops": 9,
+    "network_transitions": [
+      {
+        "hop": 7,
+        "from": "hinet",
+        "to": "other",
+        "from_ip": "72.14.218.130",
+        "to_ip": "72.14.218.130"
+      }
+    ]
+  },
+  "raw_output": " 1  172.16.193.250 (172.16.193.250)  16.128 ms  5.670 ms  2.499 ms\n 2  h254.s98.ts.hinet.net (168.95.98.254)  8.500 ms  13.667 ms  5.865 ms\n 3  168-95-128-42.caw1-3331.hinet.net (168.95.128.42)  7.779 ms  10.497 ms  7.045 ms\n 4  * * *\n 5  * * *\n 6  220-128-13-109.pcpd-3332.hinet.net (220.128.13.109)  12.729 ms  17.751 ms  15.160 ms\n 7  72.14.218.130 (72.14.218.130)  15.953 ms  11.753 ms  13.612 ms\n 8  192.178.108.145 (192.178.108.145)  42.980 ms  15.253 ms  11.651 ms\n 9  142.251.77.85 (142.251.77.85)  18.592 ms  12.298 ms  12.081 ms\n10  nctsaa-ac-in-f19.1e100.net (142.250.196.211)  13.585 ms  13.596 ms  11.571 ms\n",
+  "category": "media",
+  "base_domain": "storm.mg",
+  "service_variant": "mail.storm.mg",
+  "is_bare_domain": false
+}

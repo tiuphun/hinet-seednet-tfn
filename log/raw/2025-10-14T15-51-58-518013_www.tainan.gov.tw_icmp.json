@@ -1,0 +1,216 @@
+{
+  "timestamp": "2025-10-14T15:51:58.518013",
+  "vantage_point": "university",
+  "target": "www.tainan.gov.tw",
+  "target_ip": "54.230.71.82",
+  "protocol": "icmp",
+  "port": null,
+  "duration_seconds": 54.56,
+  "hops": [
+    {
+      "hop": 2,
+      "ip": "140.123.103.250",
+      "hostname": null,
+      "rtts": [
+        3.744,
+        2.649,
+        2.298
+      ],
+      "avg_rtt": 2.9,
+      "timeout": false
+    },
+    {
+      "hop": 3,
+      "ip": "140.123.9.249",
+      "hostname": null,
+      "rtts": [
+        2.564,
+        2.429,
+        3.865
+      ],
+      "avg_rtt": 2.95,
+      "timeout": false
+    },
+    {
+      "hop": 4,
+      "ip": "140.123.0.246",
+      "hostname": null,
+      "rtts": [
+        3.255,
+        12.306,
+        3.186
+      ],
+      "avg_rtt": 6.25,
+      "timeout": false
+    },
+    {
+      "hop": 5,
+      "ip": "140.130.252.251",
+      "hostname": null,
+      "rtts": [
+        6.867,
+        3.501,
+        3.603
+      ],
+      "avg_rtt": 4.66,
+      "timeout": false
+    },
+    {
+      "hop": 6,
+      "ip": "192.192.61.142",
+      "hostname": null,
+      "rtts": [
+        6.273,
+        5.345,
+        5.362
+      ],
+      "avg_rtt": 5.66,
+      "timeout": false
+    },
+    {
+      "hop": 7,
+      "ip": "192.192.61.20",
+      "hostname": null,
+      "rtts": [
+        16.043,
+        17.473,
+        8.031
+      ],
+      "avg_rtt": 13.85,
+      "timeout": false
+    },
+    {
+      "hop": 8,
+      "ip": "192.192.61.48",
+      "hostname": null,
+      "rtts": [
+        7.989,
+        17.737,
+        10.793
+      ],
+      "avg_rtt": 12.17,
+      "timeout": false
+    },
+    {
+      "hop": 9,
+      "ip": "192.192.68.62",
+      "hostname": null,
+      "rtts": [
+        11.492,
+        7.963,
+        9.875
+      ],
+      "avg_rtt": 9.78,
+      "timeout": false
+    },
+    {
+      "hop": 10,
+      "ip": "210.176.44.177",
+      "hostname": null,
+      "rtts": [
+        12.384,
+        9.374,
+        10.212
+      ],
+      "avg_rtt": 10.66,
+      "timeout": false
+    },
+    {
+      "hop": 11,
+      "ip": "202.84.230.89",
+      "hostname": null,
+      "rtts": [
+        18.99,
+        10.61,
+        11.118
+      ],
+      "avg_rtt": 13.57,
+      "timeout": false
+    },
+    {
+      "hop": 12,
+      "ip": "202.84.143.161",
+      "hostname": null,
+      "rtts": [
+        22.432,
+        22.154,
+        25.326
+      ],
+      "avg_rtt": 23.3,
+      "timeout": false
+    },
+    {
+      "hop": 13,
+      "ip": "202.84.157.37",
+      "hostname": null,
+      "rtts": [
+        27.514,
+        26.935,
+        26.916
+      ],
+      "avg_rtt": 27.12,
+      "timeout": false
+    },
+    {
+      "hop": 14,
+      "ip": null,
+      "hostname": null,
+      "rtts": [],
+      "timeout": true
+    },
+    {
+      "hop": 15,
+      "ip": null,
+      "hostname": null,
+      "rtts": [],
+      "timeout": true
+    },
+    {
+      "hop": 16,
+      "ip": null,
+      "hostname": null,
+      "rtts": [],
+      "timeout": true
+    },
+    {
+      "hop": 17,
+      "ip": null,
+      "hostname": null,
+      "rtts": [],
+      "timeout": true
+    },
+    {
+      "hop": 18,
+      "ip": null,
+      "hostname": null,
+      "rtts": [],
+      "timeout": true
+    },
+    {
+      "hop": 19,
+      "ip": null,
+      "hostname": null,
+      "rtts": [],
+      "timeout": true
+    },
+    {
+      "hop": 20,
+      "ip": "54.230.71.82",
+      "hostname": null,
+      "rtts": [
+        29.456,
+        35.698,
+        26.196
+      ],
+      "avg_rtt": 30.45,
+      "timeout": false
+    }
+  ],
+  "num_hops": 19,
+  "success": true,
+  "raw_output": " 1  192.168.50.1  2.686 ms  3.104 ms  1.952 ms\n 2  140.123.103.250  3.744 ms  2.649 ms  2.298 ms\n 3  140.123.9.249  2.564 ms  2.429 ms  3.865 ms\n 4  140.123.0.246  3.255 ms  12.306 ms  3.186 ms\n 5  140.130.252.251  6.867 ms  3.501 ms  3.603 ms\n 6  192.192.61.142  6.273 ms  5.345 ms  5.362 ms\n 7  192.192.61.20  16.043 ms  17.473 ms  8.031 ms\n 8  192.192.61.48  7.989 ms  17.737 ms  10.793 ms\n 9  192.192.68.62  11.492 ms  7.963 ms  9.875 ms\n10  210.176.44.177  12.384 ms  9.374 ms  10.212 ms\n11  202.84.230.89  18.990 ms  10.610 ms  11.118 ms\n12  202.84.143.161  22.432 ms  22.154 ms  25.326 ms\n13  202.84.157.37  27.514 ms  26.935 ms  26.916 ms\n14  * * *\n15  * * *\n16  * * *\n17  * * *\n18  * * *\n19  * * *\n20  54.230.71.82  29.456 ms  35.698 ms  26.196 ms\n",
+  "category": "government_local",
+  "base_domain": "tainan.gov.tw",
+  "service_variant": "www.tainan.gov.tw",
+  "is_bare_domain": false
+}

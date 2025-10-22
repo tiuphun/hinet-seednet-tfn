@@ -1,0 +1,125 @@
+{
+  "timestamp": "2025-10-21T09:59:08.182917",
+  "vantage_point": "university",
+  "target": "mail.taichung.gov.tw",
+  "target_ip": "210.69.115.235",
+  "protocol": "icmp",
+  "port": null,
+  "duration_seconds": 3.2,
+  "hops": [
+    {
+      "hop": 2,
+      "ip": "140.123.103.250",
+      "hostname": "csgate103.cs.ccu.edu.tw",
+      "rtts": [
+        2.412,
+        2.202,
+        2.205
+      ],
+      "avg_rtt": 2.27,
+      "timeout": false
+    },
+    {
+      "hop": 3,
+      "ip": "140.123.9.249",
+      "hostname": "140.123.9.249",
+      "rtts": [
+        2.546,
+        2.196,
+        2.149
+      ],
+      "avg_rtt": 2.3,
+      "timeout": false
+    },
+    {
+      "hop": 4,
+      "ip": "140.123.0.246",
+      "hostname": "140.123.0.246",
+      "rtts": [
+        2.918,
+        3.109,
+        4.225
+      ],
+      "avg_rtt": 3.42,
+      "timeout": false
+    },
+    {
+      "hop": 5,
+      "ip": "140.130.252.251",
+      "hostname": "140.130.252.251",
+      "rtts": [
+        3.728,
+        3.448,
+        3.291
+      ],
+      "avg_rtt": 3.49,
+      "timeout": false
+    },
+    {
+      "hop": 6,
+      "ip": "192.192.61.142",
+      "hostname": "192.192.61.142",
+      "rtts": [
+        4.989,
+        5.205,
+        4.896
+      ],
+      "avg_rtt": 5.03,
+      "timeout": false
+    },
+    {
+      "hop": 7,
+      "ip": "192.192.61.37",
+      "hostname": "192.192.61.37",
+      "rtts": [
+        6.425,
+        6.937,
+        6.963
+      ],
+      "avg_rtt": 6.77,
+      "timeout": false
+    },
+    {
+      "hop": 8,
+      "ip": "192.192.61.32",
+      "hostname": "192.192.61.32",
+      "rtts": [
+        7.811,
+        7.816,
+        19.761
+      ],
+      "avg_rtt": 11.8,
+      "timeout": false
+    },
+    {
+      "hop": 9,
+      "ip": "192.192.61.209",
+      "hostname": "192.192.61.209",
+      "rtts": [
+        7.722,
+        7.691,
+        7.6
+      ],
+      "avg_rtt": 7.67,
+      "timeout": false
+    },
+    {
+      "hop": 10,
+      "ip": "10.96.81.12",
+      "hostname": "10.96.81.12",
+      "rtts": [
+        9.249,
+        15.629
+      ],
+      "avg_rtt": 12.44,
+      "timeout": false
+    }
+  ],
+  "num_hops": 9,
+  "success": false,
+  "raw_output": " 1  192.168.50.1 (192.168.50.1)  8.613 ms  1.908 ms  2.826 ms\n 2  csgate103.cs.ccu.edu.tw (140.123.103.250)  2.412 ms  2.202 ms  2.205 ms\n 3  140.123.9.249 (140.123.9.249)  2.546 ms  2.196 ms  2.149 ms\n 4  140.123.0.246 (140.123.0.246)  2.918 ms  3.109 ms  4.225 ms\n 5  140.130.252.251 (140.130.252.251)  3.728 ms  3.448 ms  3.291 ms\n 6  192.192.61.142 (192.192.61.142)  4.989 ms  5.205 ms  4.896 ms\n 7  192.192.61.37 (192.192.61.37)  6.425 ms  6.937 ms  6.963 ms\n 8  192.192.61.32 (192.192.61.32)  7.811 ms  7.816 ms  19.761 ms\n 9  192.192.61.209 (192.192.61.209)  7.722 ms  7.691 ms  7.600 ms\n10  10.96.81.12 (10.96.81.12)  9.249 ms !X *  15.629 ms !X\n",
+  "category": "government_local",
+  "base_domain": "taichung.gov.tw",
+  "service_variant": "mail.taichung.gov.tw",
+  "is_bare_domain": false
+}

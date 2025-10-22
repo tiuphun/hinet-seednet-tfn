@@ -1,0 +1,132 @@
+{
+  "timestamp": "2025-10-21T09:39:17.782961",
+  "vantage_point": "university",
+  "target": "vpn.moj.gov.tw",
+  "target_ip": "163.29.130.231",
+  "protocol": "icmp",
+  "port": null,
+  "duration_seconds": 9.19,
+  "hops": [
+    {
+      "hop": 2,
+      "ip": "140.123.103.250",
+      "hostname": "csgate103.cs.ccu.edu.tw",
+      "rtts": [
+        2.393,
+        2.18,
+        2.185
+      ],
+      "avg_rtt": 2.25,
+      "timeout": false
+    },
+    {
+      "hop": 3,
+      "ip": "140.123.9.249",
+      "hostname": "140.123.9.249",
+      "rtts": [
+        2.337,
+        2.561,
+        2.194
+      ],
+      "avg_rtt": 2.36,
+      "timeout": false
+    },
+    {
+      "hop": 4,
+      "ip": "140.123.0.246",
+      "hostname": "140.123.0.246",
+      "rtts": [
+        2.901,
+        2.904,
+        2.799
+      ],
+      "avg_rtt": 2.87,
+      "timeout": false
+    },
+    {
+      "hop": 5,
+      "ip": "140.130.252.251",
+      "hostname": "140.130.252.251",
+      "rtts": [
+        3.637,
+        4.014,
+        3.666
+      ],
+      "avg_rtt": 3.77,
+      "timeout": false
+    },
+    {
+      "hop": 6,
+      "ip": "192.192.61.142",
+      "hostname": "192.192.61.142",
+      "rtts": [
+        5.645,
+        5.633,
+        5.604
+      ],
+      "avg_rtt": 5.63,
+      "timeout": false
+    },
+    {
+      "hop": 7,
+      "ip": "192.192.61.37",
+      "hostname": "192.192.61.37",
+      "rtts": [
+        6.974,
+        6.715,
+        7.542
+      ],
+      "avg_rtt": 7.08,
+      "timeout": false
+    },
+    {
+      "hop": 8,
+      "ip": "192.192.61.32",
+      "hostname": "192.192.61.32",
+      "rtts": [
+        7.723,
+        7.77,
+        7.69
+      ],
+      "avg_rtt": 7.73,
+      "timeout": false
+    },
+    {
+      "hop": 9,
+      "ip": "192.192.61.209",
+      "hostname": "192.192.61.209",
+      "rtts": [
+        8.066,
+        8.142,
+        7.877
+      ],
+      "avg_rtt": 8.03,
+      "timeout": false
+    },
+    {
+      "hop": 10,
+      "ip": null,
+      "hostname": null,
+      "rtts": [],
+      "timeout": true
+    },
+    {
+      "hop": 11,
+      "ip": "10.96.81.12",
+      "hostname": "10.96.81.12",
+      "rtts": [
+        9.469,
+        9.658
+      ],
+      "avg_rtt": 9.56,
+      "timeout": false
+    }
+  ],
+  "num_hops": 10,
+  "success": false,
+  "raw_output": " 1  192.168.50.1 (192.168.50.1)  2.694 ms  2.081 ms  2.015 ms\n 2  csgate103.cs.ccu.edu.tw (140.123.103.250)  2.393 ms  2.180 ms  2.185 ms\n 3  140.123.9.249 (140.123.9.249)  2.337 ms  2.561 ms  2.194 ms\n 4  140.123.0.246 (140.123.0.246)  2.901 ms  2.904 ms  2.799 ms\n 5  140.130.252.251 (140.130.252.251)  3.637 ms  4.014 ms  3.666 ms\n 6  192.192.61.142 (192.192.61.142)  5.645 ms  5.633 ms  5.604 ms\n 7  192.192.61.37 (192.192.61.37)  6.974 ms  6.715 ms  7.542 ms\n 8  192.192.61.32 (192.192.61.32)  7.723 ms  7.770 ms  7.690 ms\n 9  192.192.61.209 (192.192.61.209)  8.066 ms  8.142 ms  7.877 ms\n10  * 10.96.81.12 (10.96.81.12)  13.795 ms !X *\n11  10.96.81.12 (10.96.81.12)  9.469 ms !X *  9.658 ms !X\n",
+  "category": "government_central",
+  "base_domain": "moj.gov.tw",
+  "service_variant": "vpn.moj.gov.tw",
+  "is_bare_domain": false
+}

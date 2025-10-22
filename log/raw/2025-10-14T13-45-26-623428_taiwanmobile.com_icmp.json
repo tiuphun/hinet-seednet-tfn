@@ -1,0 +1,211 @@
+{
+  "timestamp": "2025-10-14T13:45:26.623428",
+  "vantage_point": "cht-mobile",
+  "target": "taiwanmobile.com",
+  "target_ip": "124.29.151.21",
+  "protocol": "icmp",
+  "port": null,
+  "duration_seconds": 63.48,
+  "hops": [
+    {
+      "hop": 2,
+      "ip": "140.123.103.250",
+      "hostname": null,
+      "rtts": [
+        2.827,
+        2.681,
+        2.757
+      ],
+      "avg_rtt": 2.76,
+      "timeout": false
+    },
+    {
+      "hop": 3,
+      "ip": "140.123.9.249",
+      "hostname": null,
+      "rtts": [
+        2.978,
+        2.991,
+        2.71
+      ],
+      "avg_rtt": 2.89,
+      "timeout": false
+    },
+    {
+      "hop": 4,
+      "ip": "140.123.0.246",
+      "hostname": null,
+      "rtts": [
+        3.502,
+        3.43,
+        3.51
+      ],
+      "avg_rtt": 3.48,
+      "timeout": false
+    },
+    {
+      "hop": 5,
+      "ip": "140.130.252.251",
+      "hostname": null,
+      "rtts": [
+        5.02,
+        3.915,
+        6.606
+      ],
+      "avg_rtt": 5.18,
+      "timeout": false
+    },
+    {
+      "hop": 6,
+      "ip": "61.31.254.69",
+      "hostname": null,
+      "rtts": [
+        6.337,
+        8.357,
+        6.444
+      ],
+      "avg_rtt": 7.05,
+      "timeout": false
+    },
+    {
+      "hop": 7,
+      "ip": "60.199.27.121",
+      "hostname": null,
+      "rtts": [
+        7.974,
+        8.583,
+        6.725
+      ],
+      "avg_rtt": 7.76,
+      "timeout": false
+    },
+    {
+      "hop": 8,
+      "ip": "60.199.82.97",
+      "hostname": null,
+      "rtts": [
+        12.216,
+        13.662,
+        14.749
+      ],
+      "avg_rtt": 13.54,
+      "timeout": false
+    },
+    {
+      "hop": 9,
+      "ip": "60.199.82.5",
+      "hostname": null,
+      "rtts": [
+        12.012,
+        11.586,
+        10.925
+      ],
+      "avg_rtt": 11.51,
+      "timeout": false
+    },
+    {
+      "hop": 10,
+      "ip": "60.199.45.10",
+      "hostname": null,
+      "rtts": [
+        10.965,
+        15.782,
+        12.246
+      ],
+      "avg_rtt": 13.0,
+      "timeout": false
+    },
+    {
+      "hop": 11,
+      "ip": "61.31.51.30",
+      "hostname": null,
+      "rtts": [
+        12.151,
+        13.007,
+        11.639
+      ],
+      "avg_rtt": 12.27,
+      "timeout": false
+    },
+    {
+      "hop": 12,
+      "ip": "124.29.143.113",
+      "hostname": null,
+      "rtts": [
+        14.374,
+        14.679,
+        17.22
+      ],
+      "avg_rtt": 15.42,
+      "timeout": false
+    },
+    {
+      "hop": 13,
+      "ip": null,
+      "hostname": null,
+      "rtts": [],
+      "timeout": true
+    },
+    {
+      "hop": 14,
+      "ip": null,
+      "hostname": null,
+      "rtts": [],
+      "timeout": true
+    },
+    {
+      "hop": 15,
+      "ip": null,
+      "hostname": null,
+      "rtts": [],
+      "timeout": true
+    },
+    {
+      "hop": 16,
+      "ip": null,
+      "hostname": null,
+      "rtts": [],
+      "timeout": true
+    },
+    {
+      "hop": 17,
+      "ip": null,
+      "hostname": null,
+      "rtts": [],
+      "timeout": true
+    },
+    {
+      "hop": 18,
+      "ip": null,
+      "hostname": null,
+      "rtts": [],
+      "timeout": true
+    },
+    {
+      "hop": 19,
+      "ip": null,
+      "hostname": null,
+      "rtts": [],
+      "timeout": true
+    },
+    {
+      "hop": 20,
+      "ip": "124.29.151.21",
+      "hostname": null,
+      "rtts": [
+        19.711,
+        11.978,
+        12.249
+      ],
+      "avg_rtt": 14.65,
+      "timeout": false
+    }
+  ],
+  "num_hops": 19,
+  "success": true,
+  "raw_output": " 1  192.168.50.1  2.772 ms  2.842 ms  2.295 ms\n 2  140.123.103.250  2.827 ms  2.681 ms  2.757 ms\n 3  140.123.9.249  2.978 ms  2.991 ms  2.710 ms\n 4  140.123.0.246  3.502 ms  3.430 ms  3.510 ms\n 5  140.130.252.251  5.020 ms  3.915 ms  6.606 ms\n 6  61.31.254.69  6.337 ms  8.357 ms  6.444 ms\n 7  60.199.27.121  7.974 ms  8.583 ms  6.725 ms\n 8  60.199.82.97  12.216 ms  13.662 ms  14.749 ms\n 9  60.199.82.5  12.012 ms  11.586 ms  10.925 ms\n10  60.199.45.10  10.965 ms  15.782 ms  12.246 ms\n11  61.31.51.30  12.151 ms  13.007 ms  11.639 ms\n12  124.29.143.113  14.374 ms  14.679 ms  17.220 ms\n13  * * *\n14  * * *\n15  * * *\n16  * * *\n17  * * *\n18  * * *\n19  * * *\n20  124.29.151.21  19.711 ms  11.978 ms  12.249 ms\n",
+  "category": "telecom",
+  "base_domain": "taiwanmobile.com",
+  "service_variant": "taiwanmobile.com",
+  "is_bare_domain": true
+}

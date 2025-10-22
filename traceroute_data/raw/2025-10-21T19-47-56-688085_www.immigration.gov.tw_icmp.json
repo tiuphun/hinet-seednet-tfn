@@ -1,0 +1,145 @@
+{
+  "timestamp": "2025-10-21T19:47:56.688085",
+  "vantage_point": "university",
+  "target": "www.immigration.gov.tw",
+  "target_ip": "203.66.32.99",
+  "protocol": "icmp",
+  "port": null,
+  "duration_seconds": 9.48,
+  "hops": [
+    {
+      "hop": 2,
+      "ip": "140.123.103.250",
+      "hostname": "csgate103.cs.ccu.edu.tw",
+      "rtts": [
+        5.782,
+        3.678,
+        2.614
+      ],
+      "avg_rtt": 4.02,
+      "timeout": false
+    },
+    {
+      "hop": 3,
+      "ip": "140.123.9.249",
+      "hostname": "140.123.9.249",
+      "rtts": [
+        3.96,
+        5.875,
+        2.45
+      ],
+      "avg_rtt": 4.09,
+      "timeout": false
+    },
+    {
+      "hop": 4,
+      "ip": "140.123.0.246",
+      "hostname": "140.123.0.246",
+      "rtts": [
+        4.628,
+        4.668,
+        5.211
+      ],
+      "avg_rtt": 4.84,
+      "timeout": false
+    },
+    {
+      "hop": 5,
+      "ip": "140.130.252.251",
+      "hostname": "140.130.252.251",
+      "rtts": [
+        6.375,
+        4.332,
+        4.231
+      ],
+      "avg_rtt": 4.98,
+      "timeout": false
+    },
+    {
+      "hop": 6,
+      "ip": "211.22.226.198",
+      "hostname": "211-22-226-198.caw1-3332.hinet.net",
+      "rtts": [
+        5.844,
+        5.001,
+        8.634
+      ],
+      "avg_rtt": 6.49,
+      "timeout": false
+    },
+    {
+      "hop": 7,
+      "ip": null,
+      "hostname": null,
+      "rtts": [],
+      "timeout": true
+    },
+    {
+      "hop": 8,
+      "ip": "220.128.9.222",
+      "hostname": "220-128-9-222.tylc-3032.hinet.net",
+      "rtts": [
+        18.627,
+        10.868,
+        18.821
+      ],
+      "avg_rtt": 16.11,
+      "timeout": false
+    },
+    {
+      "hop": 9,
+      "ip": "220.128.5.73",
+      "hostname": "220-128-5-73.pcpc-3332.hinet.net",
+      "rtts": [
+        11.441,
+        10.437,
+        10.638
+      ],
+      "avg_rtt": 10.84,
+      "timeout": false
+    },
+    {
+      "hop": 10,
+      "ip": "220.128.12.218",
+      "hostname": "220-128-12-218.pcpc-3331.hinet.net",
+      "rtts": [
+        10.854,
+        11.928,
+        10.434
+      ],
+      "avg_rtt": 11.07,
+      "timeout": false
+    },
+    {
+      "hop": 11,
+      "ip": "211.22.227.217",
+      "hostname": "211-22-227-217.hinet-ip.hinet.net",
+      "rtts": [
+        10.558,
+        16.024,
+        14.027
+      ],
+      "avg_rtt": 13.54,
+      "timeout": false
+    },
+    {
+      "hop": 12,
+      "ip": "203.66.32.99",
+      "hostname": "203-66-32-99.hinet-ip.hinet.net",
+      "rtts": [
+        11.481,
+        14.431,
+        12.699
+      ],
+      "avg_rtt": 12.87,
+      "timeout": false
+    }
+  ],
+  "num_hops": 11,
+  "success": true,
+  "raw_output": " 1  192.168.50.1 (192.168.50.1)  2.680 ms  7.684 ms  21.519 ms\n 2  csgate103.cs.ccu.edu.tw (140.123.103.250)  5.782 ms  3.678 ms  2.614 ms\n 3  140.123.9.249 (140.123.9.249)  3.960 ms  5.875 ms  2.450 ms\n 4  140.123.0.246 (140.123.0.246)  4.628 ms  4.668 ms  5.211 ms\n 5  140.130.252.251 (140.130.252.251)  6.375 ms  4.332 ms  4.231 ms\n 6  211-22-226-198.caw1-3332.hinet.net (211.22.226.198)  5.844 ms  5.001 ms  8.634 ms\n 7  * * *\n 8  220-128-9-222.tylc-3032.hinet.net (220.128.9.222)  18.627 ms  10.868 ms  18.821 ms\n 9  220-128-5-73.pcpc-3332.hinet.net (220.128.5.73)  11.441 ms  10.437 ms  10.638 ms\n10  220-128-12-218.pcpc-3331.hinet.net (220.128.12.218)  10.854 ms  11.928 ms  10.434 ms\n11  211-22-227-217.hinet-ip.hinet.net (211.22.227.217)  10.558 ms  16.024 ms  14.027 ms\n12  203-66-32-99.hinet-ip.hinet.net (203.66.32.99)  11.481 ms  14.431 ms  12.699 ms\n",
+  "category": "government_critical",
+  "base_domain": "immigration.gov.tw",
+  "service_variant": "www.immigration.gov.tw",
+  "is_bare_domain": false
+}

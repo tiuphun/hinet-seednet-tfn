@@ -1,0 +1,98 @@
+{
+  "timestamp": "2025-10-13T18:22:09.181714",
+  "vantage_point": "cht-mobile",
+  "target": "gamer.com.tw",
+  "target_ip": "104.18.3.197",
+  "protocol": "icmp",
+  "port": null,
+  "duration_seconds": 4.21,
+  "hops": [
+    {
+      "hop": 2,
+      "ip": "10.159.65.141",
+      "hostname": null,
+      "rtts": [
+        110.487,
+        269.182,
+        162.885
+      ],
+      "avg_rtt": 180.85,
+      "timeout": false
+    },
+    {
+      "hop": 3,
+      "ip": "10.159.65.81",
+      "hostname": null,
+      "rtts": [
+        27.67,
+        21.551,
+        26.469
+      ],
+      "avg_rtt": 25.23,
+      "timeout": false
+    },
+    {
+      "hop": 4,
+      "ip": "10.159.67.167",
+      "hostname": null,
+      "rtts": [
+        41.988,
+        19.505,
+        40.962
+      ],
+      "avg_rtt": 34.15,
+      "timeout": false
+    },
+    {
+      "hop": 5,
+      "ip": "10.159.67.178",
+      "hostname": null,
+      "rtts": [
+        30.084,
+        52.452,
+        28.152
+      ],
+      "avg_rtt": 36.9,
+      "timeout": false
+    },
+    {
+      "hop": 6,
+      "ip": "210.65.126.198",
+      "hostname": null,
+      "rtts": [
+        39.706,
+        25.817,
+        42.708
+      ],
+      "avg_rtt": 36.08,
+      "timeout": false
+    },
+    {
+      "hop": 7,
+      "ip": "203.69.105.153",
+      "hostname": null,
+      "rtts": [
+        21.278,
+        29.983
+      ],
+      "avg_rtt": 25.63,
+      "timeout": false
+    },
+    {
+      "hop": 8,
+      "ip": "104.18.3.197",
+      "hostname": null,
+      "rtts": [
+        75.678,
+        32.617,
+        23.261
+      ],
+      "avg_rtt": 43.85,
+      "timeout": false
+    }
+  ],
+  "num_hops": 7,
+  "success": true,
+  "raw_output": " 1  172.20.10.1  4.893 ms  4.972 ms  7.115 ms\n 2  10.159.65.141  110.487 ms  269.182 ms  162.885 ms\n 3  10.159.65.81  27.670 ms  21.551 ms  26.469 ms\n 4  10.159.67.167  41.988 ms  19.505 ms  40.962 ms\n 5  10.159.67.178  30.084 ms  52.452 ms  28.152 ms\n 6  210.65.126.198  39.706 ms  25.817 ms  42.708 ms\n 7  203.69.105.153  21.278 ms  29.983 ms *\n 8  104.18.3.197  75.678 ms  32.617 ms  23.261 ms\n",
+  "category": "ecommerce_tech"
+}

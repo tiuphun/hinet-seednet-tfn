@@ -1,0 +1,164 @@
+{
+  "timestamp": "2025-10-22T07:49:29.730619",
+  "vantage_point": "university",
+  "target": "www.chief.com.tw",
+  "target_ip": "202.55.247.128",
+  "protocol": "icmp",
+  "port": null,
+  "duration_seconds": 18.87,
+  "hops": [
+    {
+      "hop": 2,
+      "ip": "140.123.103.250",
+      "hostname": "csgate103.cs.ccu.edu.tw",
+      "rtts": [
+        2.799,
+        2.52,
+        2.632
+      ],
+      "avg_rtt": 2.65,
+      "timeout": false
+    },
+    {
+      "hop": 3,
+      "ip": "140.123.9.249",
+      "hostname": "140.123.9.249",
+      "rtts": [
+        5.453,
+        2.399,
+        9.996
+      ],
+      "avg_rtt": 5.95,
+      "timeout": false
+    },
+    {
+      "hop": 4,
+      "ip": "140.123.0.246",
+      "hostname": "140.123.0.246",
+      "rtts": [
+        3.356,
+        3.953,
+        3.275
+      ],
+      "avg_rtt": 3.53,
+      "timeout": false
+    },
+    {
+      "hop": 5,
+      "ip": "140.130.252.251",
+      "hostname": "140.130.252.251",
+      "rtts": [
+        7.454,
+        3.984,
+        3.721
+      ],
+      "avg_rtt": 5.05,
+      "timeout": false
+    },
+    {
+      "hop": 6,
+      "ip": "211.22.226.198",
+      "hostname": "211-22-226-198.caw1-3332.hinet.net",
+      "rtts": [
+        6.264,
+        4.368,
+        10.041
+      ],
+      "avg_rtt": 6.89,
+      "timeout": false
+    },
+    {
+      "hop": 7,
+      "ip": null,
+      "hostname": null,
+      "rtts": [],
+      "timeout": true
+    },
+    {
+      "hop": 8,
+      "ip": null,
+      "hostname": null,
+      "rtts": [],
+      "timeout": true
+    },
+    {
+      "hop": 9,
+      "ip": "220.128.2.129",
+      "hostname": "220-128-2-129.tpdb-4512.hinet.net",
+      "rtts": [
+        19.808,
+        9.364,
+        9.426
+      ],
+      "avg_rtt": 12.87,
+      "timeout": false
+    },
+    {
+      "hop": 10,
+      "ip": "203.75.229.113",
+      "hostname": "203-75-229-113.hinet-ip.hinet.net",
+      "rtts": [
+        11.539,
+        12.805,
+        12.442
+      ],
+      "avg_rtt": 12.26,
+      "timeout": false
+    },
+    {
+      "hop": 11,
+      "ip": "103.123.253.13",
+      "hostname": "13-253-123-103-static.chief.net.tw",
+      "rtts": [
+        11.67,
+        10.487,
+        10.594
+      ],
+      "avg_rtt": 10.92,
+      "timeout": false
+    },
+    {
+      "hop": 12,
+      "ip": "113.21.86.217",
+      "hostname": "217-86-21-113-static.chief.net.tw",
+      "rtts": [
+        10.62,
+        12.111,
+        9.239
+      ],
+      "avg_rtt": 10.66,
+      "timeout": false
+    },
+    {
+      "hop": 13,
+      "ip": "113.21.86.218",
+      "hostname": "218-86-21-113-static.chief.net.tw",
+      "rtts": [
+        9.154,
+        9.565,
+        11.605
+      ],
+      "avg_rtt": 10.11,
+      "timeout": false
+    },
+    {
+      "hop": 14,
+      "ip": "202.55.247.128",
+      "hostname": "128-247-55-202-static.chief.net.tw",
+      "rtts": [
+        21.205,
+        9.417,
+        11.87
+      ],
+      "avg_rtt": 14.16,
+      "timeout": false
+    }
+  ],
+  "num_hops": 13,
+  "success": true,
+  "raw_output": " 1  192.168.50.1 (192.168.50.1)  4.774 ms  1.791 ms  4.661 ms\n 2  csgate103.cs.ccu.edu.tw (140.123.103.250)  2.799 ms  2.520 ms  2.632 ms\n 3  140.123.9.249 (140.123.9.249)  5.453 ms  2.399 ms  9.996 ms\n 4  140.123.0.246 (140.123.0.246)  3.356 ms  3.953 ms  3.275 ms\n 5  140.130.252.251 (140.130.252.251)  7.454 ms  3.984 ms  3.721 ms\n 6  211-22-226-198.caw1-3332.hinet.net (211.22.226.198)  6.264 ms  4.368 ms  10.041 ms\n 7  * * *\n 8  * * *\n 9  220-128-2-129.tpdb-4512.hinet.net (220.128.2.129)  19.808 ms  9.364 ms  9.426 ms\n10  203-75-229-113.hinet-ip.hinet.net (203.75.229.113)  11.539 ms  12.805 ms  12.442 ms\n11  13-253-123-103-static.chief.net.tw (103.123.253.13)  11.670 ms  10.487 ms  10.594 ms\n12  217-86-21-113-static.chief.net.tw (113.21.86.217)  10.620 ms  12.111 ms  9.239 ms\n13  218-86-21-113-static.chief.net.tw (113.21.86.218)  9.154 ms  9.565 ms  11.605 ms\n14  128-247-55-202-static.chief.net.tw (202.55.247.128)  21.205 ms  9.417 ms  11.870 ms\n",
+  "category": "telecom",
+  "base_domain": "chief.com.tw",
+  "service_variant": "www.chief.com.tw",
+  "is_bare_domain": false
+}

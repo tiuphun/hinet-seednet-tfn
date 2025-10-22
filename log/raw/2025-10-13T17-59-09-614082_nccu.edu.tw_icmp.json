@@ -1,0 +1,161 @@
+{
+  "timestamp": "2025-10-13T17:59:09.614082",
+  "vantage_point": "cht-mobile",
+  "target": "nccu.edu.tw",
+  "target_ip": "140.119.166.199",
+  "protocol": "icmp",
+  "port": null,
+  "duration_seconds": 19.91,
+  "hops": [
+    {
+      "hop": 2,
+      "ip": "10.159.65.141",
+      "hostname": null,
+      "rtts": [
+        140.18,
+        197.713,
+        222.791
+      ],
+      "avg_rtt": 186.89,
+      "timeout": false
+    },
+    {
+      "hop": 3,
+      "ip": "10.159.65.81",
+      "hostname": null,
+      "rtts": [
+        31.185,
+        28.244,
+        37.469
+      ],
+      "avg_rtt": 32.3,
+      "timeout": false
+    },
+    {
+      "hop": 4,
+      "ip": "10.159.67.167",
+      "hostname": null,
+      "rtts": [
+        38.875,
+        29.877,
+        24.916
+      ],
+      "avg_rtt": 31.22,
+      "timeout": false
+    },
+    {
+      "hop": 5,
+      "ip": "10.159.67.177",
+      "hostname": null,
+      "rtts": [
+        43.618,
+        94.978,
+        25.566
+      ],
+      "avg_rtt": 54.72,
+      "timeout": false
+    },
+    {
+      "hop": 6,
+      "ip": "210.65.126.194",
+      "hostname": null,
+      "rtts": [
+        43.254,
+        43.43,
+        47.096
+      ],
+      "avg_rtt": 44.59,
+      "timeout": false
+    },
+    {
+      "hop": 7,
+      "ip": null,
+      "hostname": null,
+      "rtts": [],
+      "timeout": true
+    },
+    {
+      "hop": 8,
+      "ip": "220.128.9.62",
+      "hostname": null,
+      "rtts": [
+        57.348,
+        101.646,
+        39.82
+      ],
+      "avg_rtt": 66.27,
+      "timeout": false
+    },
+    {
+      "hop": 9,
+      "ip": "220.128.9.185",
+      "hostname": null,
+      "rtts": [
+        30.422,
+        30.266,
+        30.774
+      ],
+      "avg_rtt": 30.49,
+      "timeout": false
+    },
+    {
+      "hop": 10,
+      "ip": null,
+      "hostname": null,
+      "rtts": [],
+      "timeout": true
+    },
+    {
+      "hop": 11,
+      "ip": "192.192.61.71",
+      "hostname": null,
+      "rtts": [
+        65.909,
+        41.248,
+        31.21
+      ],
+      "avg_rtt": 46.12,
+      "timeout": false
+    },
+    {
+      "hop": 12,
+      "ip": "192.192.61.89",
+      "hostname": null,
+      "rtts": [
+        30.196,
+        35.346,
+        34.49
+      ],
+      "avg_rtt": 33.34,
+      "timeout": false
+    },
+    {
+      "hop": 13,
+      "ip": "140.119.243.6",
+      "hostname": null,
+      "rtts": [
+        34.971,
+        32.415,
+        36.445
+      ],
+      "avg_rtt": 34.61,
+      "timeout": false
+    },
+    {
+      "hop": 14,
+      "ip": "140.119.166.199",
+      "hostname": null,
+      "rtts": [
+        33.829,
+        42.006,
+        40.898
+      ],
+      "avg_rtt": 38.91,
+      "timeout": false
+    }
+  ],
+  "num_hops": 13,
+  "success": true,
+  "raw_output": " 1  172.20.10.1  33.908 ms  10.357 ms  11.916 ms\n 2  10.159.65.141  140.180 ms  197.713 ms  222.791 ms\n 3  10.159.65.81  31.185 ms  28.244 ms  37.469 ms\n 4  10.159.67.167  38.875 ms  29.877 ms  24.916 ms\n 5  10.159.67.177  43.618 ms  94.978 ms  25.566 ms\n 6  210.65.126.194  43.254 ms  43.430 ms  47.096 ms\n 7  * * *\n 8  220.128.9.62  57.348 ms  101.646 ms  39.820 ms\n 9  220.128.9.185  30.422 ms  30.266 ms  30.774 ms\n10  * * *\n11  192.192.61.71  65.909 ms  41.248 ms  31.210 ms\n12  192.192.61.89  30.196 ms  35.346 ms  34.490 ms\n13  140.119.243.6  34.971 ms  32.415 ms  36.445 ms\n14  140.119.166.199  33.829 ms  42.006 ms  40.898 ms\n",
+  "category": "universities"
+}

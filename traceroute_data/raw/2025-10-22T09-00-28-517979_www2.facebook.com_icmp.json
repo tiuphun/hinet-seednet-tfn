@@ -1,0 +1,246 @@
+{
+  "timestamp": "2025-10-22T09:00:28.517979",
+  "vantage_point": "university",
+  "target": "www2.facebook.com",
+  "target_ip": "31.13.70.1",
+  "protocol": "icmp",
+  "port": null,
+  "duration_seconds": 17.08,
+  "hops": [
+    {
+      "hop": 2,
+      "ip": "140.123.103.250",
+      "hostname": "csgate103.cs.ccu.edu.tw",
+      "rtts": [
+        2.675,
+        2.422,
+        4.812
+      ],
+      "avg_rtt": 3.3,
+      "timeout": false
+    },
+    {
+      "hop": 3,
+      "ip": "140.123.9.249",
+      "hostname": "140.123.9.249",
+      "rtts": [
+        4.866,
+        8.954,
+        3.155
+      ],
+      "avg_rtt": 5.66,
+      "timeout": false
+    },
+    {
+      "hop": 4,
+      "ip": "140.123.0.246",
+      "hostname": "140.123.0.246",
+      "rtts": [
+        7.643,
+        6.402,
+        5.468
+      ],
+      "avg_rtt": 6.5,
+      "timeout": false
+    },
+    {
+      "hop": 5,
+      "ip": "140.130.252.251",
+      "hostname": "140.130.252.251",
+      "rtts": [
+        4.551,
+        4.591,
+        10.012
+      ],
+      "avg_rtt": 6.38,
+      "timeout": false
+    },
+    {
+      "hop": 6,
+      "ip": "192.192.61.142",
+      "hostname": "192.192.61.142",
+      "rtts": [
+        6.5,
+        14.015,
+        11.075
+      ],
+      "avg_rtt": 10.53,
+      "timeout": false
+    },
+    {
+      "hop": 7,
+      "ip": "192.192.61.20",
+      "hostname": "192.192.61.20",
+      "rtts": [
+        39.376,
+        8.294,
+        7.804
+      ],
+      "avg_rtt": 18.49,
+      "timeout": false
+    },
+    {
+      "hop": 8,
+      "ip": "192.192.61.66",
+      "hostname": "192.192.61.66",
+      "rtts": [
+        10.614,
+        7.759,
+        7.789
+      ],
+      "avg_rtt": 8.72,
+      "timeout": false
+    },
+    {
+      "hop": 9,
+      "ip": "192.192.68.30",
+      "hostname": "192.192.68.30",
+      "rtts": [
+        11.975,
+        7.673,
+        9.567
+      ],
+      "avg_rtt": 9.74,
+      "timeout": false
+    },
+    {
+      "hop": 10,
+      "ip": "210.176.44.153",
+      "hostname": "unknown.telstraglobal.net",
+      "rtts": [
+        8.957,
+        10.319,
+        8.113
+      ],
+      "avg_rtt": 9.13,
+      "timeout": false
+    },
+    {
+      "hop": 11,
+      "ip": "202.84.230.89",
+      "hostname": "i-1078.tpei-core02.telstraglobal.net",
+      "rtts": [
+        10.092,
+        8.567,
+        8.248
+      ],
+      "avg_rtt": 8.97,
+      "timeout": false
+    },
+    {
+      "hop": 12,
+      "ip": "202.84.140.201",
+      "hostname": "i-14236.jtha-core02.telstraglobal.net",
+      "rtts": [
+        47.828,
+        45.662,
+        44.986
+      ],
+      "avg_rtt": 46.16,
+      "timeout": false
+    },
+    {
+      "hop": 13,
+      "ip": "202.84.141.202",
+      "hostname": "i-10542.tlot-core02.bx.telstraglobal.net",
+      "rtts": [
+        161.218,
+        166.704,
+        180.657
+      ],
+      "avg_rtt": 169.53,
+      "timeout": false
+    },
+    {
+      "hop": 14,
+      "ip": "202.84.141.202",
+      "hostname": "i-10542.tlot-core02.bx.telstraglobal.net",
+      "rtts": [
+        151.553,
+        155.398,
+        151.636
+      ],
+      "avg_rtt": 152.86,
+      "timeout": false
+    },
+    {
+      "hop": 15,
+      "ip": "202.40.149.177",
+      "hostname": "i-91.tlot02.telstraglobal.net",
+      "rtts": [
+        149.642,
+        149.066,
+        155.084
+      ],
+      "avg_rtt": 151.26,
+      "timeout": false
+    },
+    {
+      "hop": 16,
+      "ip": "206.72.210.161",
+      "hostname": "facebook.as32934.any2ix.coresite.com",
+      "rtts": [
+        184.355,
+        174.944,
+        175.679
+      ],
+      "avg_rtt": 178.33,
+      "timeout": false
+    },
+    {
+      "hop": 17,
+      "ip": "129.134.96.30",
+      "hostname": "po4000.asw04.lax4.tfbnw.net",
+      "rtts": [
+        173.089,
+        175.316,
+        174.57
+      ],
+      "avg_rtt": 174.33,
+      "timeout": false
+    },
+    {
+      "hop": 18,
+      "ip": "173.252.66.93",
+      "hostname": "psw04.lax3.tfbnw.net",
+      "rtts": [
+        164.892,
+        175.803,
+        169.549
+      ],
+      "avg_rtt": 170.08,
+      "timeout": false
+    },
+    {
+      "hop": 19,
+      "ip": "129.134.82.182",
+      "hostname": "msw1ad.01.lax3.tfbnw.net",
+      "rtts": [
+        164.955,
+        166.165,
+        165.279
+      ],
+      "avg_rtt": 165.47,
+      "timeout": false
+    },
+    {
+      "hop": 20,
+      "ip": "31.13.70.1",
+      "hostname": "edge-star-shv-01-lax3.facebook.com",
+      "rtts": [
+        166.983,
+        165.465,
+        165.431
+      ],
+      "avg_rtt": 165.96,
+      "timeout": false
+    }
+  ],
+  "num_hops": 19,
+  "success": true,
+  "raw_output": " 1  192.168.50.1 (192.168.50.1)  3.705 ms  2.315 ms  4.255 ms\n 2  csgate103.cs.ccu.edu.tw (140.123.103.250)  2.675 ms  2.422 ms  4.812 ms\n 3  140.123.9.249 (140.123.9.249)  4.866 ms  8.954 ms  3.155 ms\n 4  140.123.0.246 (140.123.0.246)  7.643 ms  6.402 ms  5.468 ms\n 5  140.130.252.251 (140.130.252.251)  4.551 ms  4.591 ms  10.012 ms\n 6  192.192.61.142 (192.192.61.142)  6.500 ms  14.015 ms  11.075 ms\n 7  192.192.61.20 (192.192.61.20)  39.376 ms  8.294 ms  7.804 ms\n 8  192.192.61.66 (192.192.61.66)  10.614 ms  7.759 ms  7.789 ms\n 9  192.192.68.30 (192.192.68.30)  11.975 ms  7.673 ms  9.567 ms\n10  unknown.telstraglobal.net (210.176.44.153)  8.957 ms  10.319 ms  8.113 ms\n11  i-1078.tpei-core02.telstraglobal.net (202.84.230.89)  10.092 ms  8.567 ms  8.248 ms\n12  i-14236.jtha-core02.telstraglobal.net (202.84.140.201)  47.828 ms  45.662 ms  44.986 ms\n13  i-10542.tlot-core02.bx.telstraglobal.net (202.84.141.202)  161.218 ms  166.704 ms  180.657 ms\n14  i-10542.tlot-core02.bx.telstraglobal.net (202.84.141.202)  151.553 ms  155.398 ms  151.636 ms\n15  i-91.tlot02.telstraglobal.net (202.40.149.177)  149.642 ms  149.066 ms  155.084 ms\n16  facebook.as32934.any2ix.coresite.com (206.72.210.161)  184.355 ms  174.944 ms  175.679 ms\n17  po4000.asw04.lax4.tfbnw.net (129.134.96.30)  173.089 ms  175.316 ms  174.570 ms\n18  psw04.lax3.tfbnw.net (173.252.66.93)  164.892 ms  175.803 ms  169.549 ms\n19  msw1ad.01.lax3.tfbnw.net (129.134.82.182)  164.955 ms  166.165 ms  165.279 ms\n20  edge-star-shv-01-lax3.facebook.com (31.13.70.1)  166.983 ms  165.465 ms  165.431 ms\n",
+  "category": "cdn_global",
+  "base_domain": "facebook.com",
+  "service_variant": "www2.facebook.com",
+  "is_bare_domain": false
+}

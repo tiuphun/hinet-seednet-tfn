@@ -1,0 +1,133 @@
+{
+  "timestamp": "2025-10-21T09:51:00.427014",
+  "vantage_point": "university",
+  "target": "www.ncc.gov.tw",
+  "target_ip": "172.65.90.66",
+  "protocol": "icmp",
+  "port": null,
+  "duration_seconds": 13.51,
+  "hops": [
+    {
+      "hop": 2,
+      "ip": "140.123.103.250",
+      "hostname": "csgate103.cs.ccu.edu.tw",
+      "rtts": [
+        2.33,
+        2.453,
+        2.233
+      ],
+      "avg_rtt": 2.34,
+      "timeout": false
+    },
+    {
+      "hop": 3,
+      "ip": "140.123.9.249",
+      "hostname": "140.123.9.249",
+      "rtts": [
+        2.44,
+        2.404,
+        2.37
+      ],
+      "avg_rtt": 2.4,
+      "timeout": false
+    },
+    {
+      "hop": 4,
+      "ip": "140.123.0.246",
+      "hostname": "140.123.0.246",
+      "rtts": [
+        3.022,
+        3.724,
+        3.247
+      ],
+      "avg_rtt": 3.33,
+      "timeout": false
+    },
+    {
+      "hop": 5,
+      "ip": "140.130.252.251",
+      "hostname": "140.130.252.251",
+      "rtts": [
+        3.53,
+        3.266,
+        4.843
+      ],
+      "avg_rtt": 3.88,
+      "timeout": false
+    },
+    {
+      "hop": 6,
+      "ip": "192.192.61.142",
+      "hostname": "192.192.61.142",
+      "rtts": [
+        5.505,
+        5.646,
+        5.72
+      ],
+      "avg_rtt": 5.62,
+      "timeout": false
+    },
+    {
+      "hop": 7,
+      "ip": "192.192.61.20",
+      "hostname": "192.192.61.20",
+      "rtts": [
+        7.366,
+        7.406,
+        7.386
+      ],
+      "avg_rtt": 7.39,
+      "timeout": false
+    },
+    {
+      "hop": 8,
+      "ip": "192.192.61.48",
+      "hostname": "192.192.61.48",
+      "rtts": [
+        7.909,
+        7.797,
+        7.799
+      ],
+      "avg_rtt": 7.83,
+      "timeout": false
+    },
+    {
+      "hop": 9,
+      "ip": "192.192.68.62",
+      "hostname": "192.192.68.62",
+      "rtts": [
+        7.844,
+        7.321,
+        7.329
+      ],
+      "avg_rtt": 7.5,
+      "timeout": false
+    },
+    {
+      "hop": 10,
+      "ip": null,
+      "hostname": null,
+      "rtts": [],
+      "timeout": true
+    },
+    {
+      "hop": 11,
+      "ip": "172.65.90.66",
+      "hostname": "172.65.90.66",
+      "rtts": [
+        215.325,
+        7.783,
+        7.556
+      ],
+      "avg_rtt": 76.89,
+      "timeout": false
+    }
+  ],
+  "num_hops": 10,
+  "success": true,
+  "raw_output": " 1  192.168.50.1 (192.168.50.1)  2.347 ms  1.785 ms  1.978 ms\n 2  csgate103.cs.ccu.edu.tw (140.123.103.250)  2.330 ms  2.453 ms  2.233 ms\n 3  140.123.9.249 (140.123.9.249)  2.440 ms  2.404 ms  2.370 ms\n 4  140.123.0.246 (140.123.0.246)  3.022 ms  3.724 ms  3.247 ms\n 5  140.130.252.251 (140.130.252.251)  3.530 ms  3.266 ms  4.843 ms\n 6  192.192.61.142 (192.192.61.142)  5.505 ms  5.646 ms  5.720 ms\n 7  192.192.61.20 (192.192.61.20)  7.366 ms  7.406 ms  7.386 ms\n 8  192.192.61.48 (192.192.61.48)  7.909 ms  7.797 ms  7.799 ms\n 9  192.192.68.62 (192.192.68.62)  7.844 ms  7.321 ms  7.329 ms\n10  * 39-222-163-203-static.tpix.net.tw (203.163.222.39)  8.558 ms  8.625 ms\n11  172.65.90.66 (172.65.90.66)  215.325 ms  7.783 ms  7.556 ms\n",
+  "category": "government_central",
+  "base_domain": "ncc.gov.tw",
+  "service_variant": "www.ncc.gov.tw",
+  "is_bare_domain": false
+}

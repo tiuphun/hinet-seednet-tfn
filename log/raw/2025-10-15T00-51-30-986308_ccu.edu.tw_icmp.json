@@ -1,0 +1,78 @@
+{
+  "timestamp": "2025-10-15T00:51:30.986308",
+  "vantage_point": "university",
+  "target": "ccu.edu.tw",
+  "target_ip": "140.123.1.2",
+  "protocol": "icmp",
+  "port": null,
+  "duration_seconds": 0.08,
+  "hops": [
+    {
+      "hop": 2,
+      "ip": "140.123.103.250",
+      "hostname": null,
+      "rtts": [
+        2.712,
+        2.657,
+        2.612
+      ],
+      "avg_rtt": 2.66,
+      "timeout": false
+    },
+    {
+      "hop": 3,
+      "ip": "140.123.9.249",
+      "hostname": null,
+      "rtts": [
+        3.717,
+        2.81,
+        2.864
+      ],
+      "avg_rtt": 3.13,
+      "timeout": false
+    },
+    {
+      "hop": 4,
+      "ip": "140.123.0.246",
+      "hostname": null,
+      "rtts": [
+        4.317,
+        3.39,
+        3.535
+      ],
+      "avg_rtt": 3.75,
+      "timeout": false
+    },
+    {
+      "hop": 5,
+      "ip": "140.130.252.251",
+      "hostname": null,
+      "rtts": [
+        4.371,
+        6.953,
+        3.68
+      ],
+      "avg_rtt": 5.0,
+      "timeout": false
+    },
+    {
+      "hop": 6,
+      "ip": "140.123.1.2",
+      "hostname": null,
+      "rtts": [
+        4.591,
+        4.723,
+        4.364
+      ],
+      "avg_rtt": 4.56,
+      "timeout": false
+    }
+  ],
+  "num_hops": 5,
+  "success": true,
+  "raw_output": " 1  192.168.50.1  2.406 ms  1.969 ms  2.026 ms\n 2  140.123.103.250  2.712 ms  2.657 ms  2.612 ms\n 3  140.123.9.249  3.717 ms  2.810 ms  2.864 ms\n 4  140.123.0.246  4.317 ms  3.390 ms  3.535 ms\n 5  140.130.252.251  4.371 ms  6.953 ms  3.680 ms\n 6  140.123.1.2  4.591 ms  4.723 ms  4.364 ms\n",
+  "category": "universities",
+  "base_domain": "ccu.edu.tw",
+  "service_variant": "ccu.edu.tw",
+  "is_bare_domain": true
+}

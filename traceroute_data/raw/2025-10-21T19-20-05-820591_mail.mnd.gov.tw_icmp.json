@@ -1,0 +1,218 @@
+{
+  "timestamp": "2025-10-21T19:20:05.820591",
+  "vantage_point": "university",
+  "target": "mail.mnd.gov.tw",
+  "target_ip": "4.189.216.254",
+  "protocol": "icmp",
+  "port": null,
+  "duration_seconds": 82.82,
+  "hops": [
+    {
+      "hop": 2,
+      "ip": "140.123.103.250",
+      "hostname": "csgate103.cs.ccu.edu.tw",
+      "rtts": [
+        3.007,
+        4.98,
+        3.239
+      ],
+      "avg_rtt": 3.74,
+      "timeout": false
+    },
+    {
+      "hop": 3,
+      "ip": "140.123.9.249",
+      "hostname": "140.123.9.249",
+      "rtts": [
+        3.064,
+        6.479,
+        2.193
+      ],
+      "avg_rtt": 3.91,
+      "timeout": false
+    },
+    {
+      "hop": 4,
+      "ip": "140.123.0.246",
+      "hostname": "140.123.0.246",
+      "rtts": [
+        3.564,
+        15.346,
+        3.195
+      ],
+      "avg_rtt": 7.37,
+      "timeout": false
+    },
+    {
+      "hop": 5,
+      "ip": "140.130.252.251",
+      "hostname": "140.130.252.251",
+      "rtts": [
+        3.832,
+        4.064,
+        5.143
+      ],
+      "avg_rtt": 4.35,
+      "timeout": false
+    },
+    {
+      "hop": 6,
+      "ip": "192.192.61.142",
+      "hostname": "192.192.61.142",
+      "rtts": [
+        9.522,
+        8.174,
+        6.507
+      ],
+      "avg_rtt": 8.07,
+      "timeout": false
+    },
+    {
+      "hop": 7,
+      "ip": "192.192.61.20",
+      "hostname": "192.192.61.20",
+      "rtts": [
+        7.503,
+        7.327,
+        8.433
+      ],
+      "avg_rtt": 7.75,
+      "timeout": false
+    },
+    {
+      "hop": 8,
+      "ip": "192.192.61.48",
+      "hostname": "192.192.61.48",
+      "rtts": [
+        8.839,
+        8.691,
+        9.952
+      ],
+      "avg_rtt": 9.16,
+      "timeout": false
+    },
+    {
+      "hop": 9,
+      "ip": "192.192.68.62",
+      "hostname": "192.192.68.62",
+      "rtts": [
+        11.295,
+        8.751,
+        8.146
+      ],
+      "avg_rtt": 9.4,
+      "timeout": false
+    },
+    {
+      "hop": 10,
+      "ip": "203.163.222.15",
+      "hostname": "15-222-163-203-static.tpix.net.tw",
+      "rtts": [
+        15.469,
+        9.596,
+        8.473
+      ],
+      "avg_rtt": 11.18,
+      "timeout": false
+    },
+    {
+      "hop": 11,
+      "ip": "104.44.51.226",
+      "hostname": "104.44.51.226",
+      "rtts": [
+        9.533,
+        22.256,
+        10.618
+      ],
+      "avg_rtt": 14.14,
+      "timeout": false
+    },
+    {
+      "hop": 12,
+      "ip": null,
+      "hostname": null,
+      "rtts": [],
+      "timeout": true
+    },
+    {
+      "hop": 13,
+      "ip": null,
+      "hostname": null,
+      "rtts": [],
+      "timeout": true
+    },
+    {
+      "hop": 14,
+      "ip": null,
+      "hostname": null,
+      "rtts": [],
+      "timeout": true
+    },
+    {
+      "hop": 15,
+      "ip": "13.106.238.163",
+      "hostname": "ae1011-0.icr01.tyo30.ntwk.msn.net",
+      "rtts": [
+        57.232,
+        40.84,
+        40.24
+      ],
+      "avg_rtt": 46.1,
+      "timeout": false
+    },
+    {
+      "hop": 16,
+      "ip": null,
+      "hostname": null,
+      "rtts": [],
+      "timeout": true
+    },
+    {
+      "hop": 17,
+      "ip": null,
+      "hostname": null,
+      "rtts": [],
+      "timeout": true
+    },
+    {
+      "hop": 18,
+      "ip": null,
+      "hostname": null,
+      "rtts": [],
+      "timeout": true
+    },
+    {
+      "hop": 19,
+      "ip": null,
+      "hostname": null,
+      "rtts": [],
+      "timeout": true
+    },
+    {
+      "hop": 20,
+      "ip": null,
+      "hostname": null,
+      "rtts": [],
+      "timeout": true
+    },
+    {
+      "hop": 21,
+      "ip": "4.189.216.254",
+      "hostname": "4.189.216.254",
+      "rtts": [
+        66.202,
+        40.72,
+        41.817
+      ],
+      "avg_rtt": 49.58,
+      "timeout": false
+    }
+  ],
+  "num_hops": 20,
+  "success": true,
+  "raw_output": " 1  192.168.50.1 (192.168.50.1)  13.762 ms  2.756 ms  4.494 ms\n 2  csgate103.cs.ccu.edu.tw (140.123.103.250)  3.007 ms  4.980 ms  3.239 ms\n 3  140.123.9.249 (140.123.9.249)  3.064 ms  6.479 ms  2.193 ms\n 4  140.123.0.246 (140.123.0.246)  3.564 ms  15.346 ms  3.195 ms\n 5  140.130.252.251 (140.130.252.251)  3.832 ms  4.064 ms  5.143 ms\n 6  192.192.61.142 (192.192.61.142)  9.522 ms  8.174 ms  6.507 ms\n 7  192.192.61.20 (192.192.61.20)  7.503 ms  7.327 ms  8.433 ms\n 8  192.192.61.48 (192.192.61.48)  8.839 ms  8.691 ms  9.952 ms\n 9  192.192.68.62 (192.192.68.62)  11.295 ms  8.751 ms  8.146 ms\n10  15-222-163-203-static.tpix.net.tw (203.163.222.15)  15.469 ms  9.596 ms  8.473 ms\n11  104.44.51.226 (104.44.51.226)  9.533 ms  22.256 ms  10.618 ms\n12  * * *\n13  * * *\n14  * * *\n15  ae1011-0.icr01.tyo30.ntwk.msn.net (13.106.238.163)  57.232 ms  40.840 ms  40.240 ms\n16  * * *\n17  * * *\n18  * * *\n19  * * *\n20  * * *\n21  4.189.216.254 (4.189.216.254)  66.202 ms  40.720 ms  41.817 ms\n",
+  "category": "government_central",
+  "base_domain": "mnd.gov.tw",
+  "service_variant": "mail.mnd.gov.tw",
+  "is_bare_domain": false
+}

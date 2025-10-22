@@ -1,0 +1,138 @@
+{
+  "timestamp": "2025-10-21T23:21:18.316901",
+  "vantage_point": "university",
+  "target": "api.gamer.com.tw",
+  "target_ip": "104.18.3.197",
+  "protocol": "icmp",
+  "port": null,
+  "duration_seconds": 10.37,
+  "hops": [
+    {
+      "hop": 2,
+      "ip": "140.123.103.250",
+      "hostname": "csgate103.cs.ccu.edu.tw",
+      "rtts": [
+        2.493,
+        2.541,
+        6.972
+      ],
+      "avg_rtt": 4.0,
+      "timeout": false
+    },
+    {
+      "hop": 3,
+      "ip": "140.123.9.249",
+      "hostname": "140.123.9.249",
+      "rtts": [
+        2.701,
+        2.587,
+        2.427
+      ],
+      "avg_rtt": 2.57,
+      "timeout": false
+    },
+    {
+      "hop": 4,
+      "ip": "140.123.0.246",
+      "hostname": "140.123.0.246",
+      "rtts": [
+        3.429,
+        6.019,
+        3.832
+      ],
+      "avg_rtt": 4.43,
+      "timeout": false
+    },
+    {
+      "hop": 5,
+      "ip": "140.130.252.251",
+      "hostname": "140.130.252.251",
+      "rtts": [
+        5.784,
+        4.611,
+        4.179
+      ],
+      "avg_rtt": 4.86,
+      "timeout": false
+    },
+    {
+      "hop": 6,
+      "ip": "192.192.61.142",
+      "hostname": "192.192.61.142",
+      "rtts": [
+        11.834,
+        5.368,
+        7.676
+      ],
+      "avg_rtt": 8.29,
+      "timeout": false
+    },
+    {
+      "hop": 7,
+      "ip": "192.192.61.20",
+      "hostname": "192.192.61.20",
+      "rtts": [
+        11.456,
+        7.371,
+        12.088
+      ],
+      "avg_rtt": 10.3,
+      "timeout": false
+    },
+    {
+      "hop": 8,
+      "ip": "192.192.61.48",
+      "hostname": "192.192.61.48",
+      "rtts": [
+        9.376,
+        8.583,
+        22.224
+      ],
+      "avg_rtt": 13.39,
+      "timeout": false
+    },
+    {
+      "hop": 9,
+      "ip": "192.192.68.62",
+      "hostname": "192.192.68.62",
+      "rtts": [
+        14.45,
+        8.213,
+        8.053
+      ],
+      "avg_rtt": 10.24,
+      "timeout": false
+    },
+    {
+      "hop": 10,
+      "ip": "203.163.222.39",
+      "hostname": "39-222-163-203-static.tpix.net.tw",
+      "rtts": [
+        8.581,
+        8.749,
+        8.87
+      ],
+      "avg_rtt": 8.73,
+      "timeout": false
+    },
+    {
+      "hop": 11,
+      "ip": "104.18.3.197",
+      "hostname": "104.18.3.197",
+      "rtts": [
+        8.539,
+        10.575,
+        10.458
+      ],
+      "avg_rtt": 9.86,
+      "timeout": false
+    }
+  ],
+  "num_hops": 10,
+  "success": true,
+  "raw_output": " 1  192.168.50.1 (192.168.50.1)  17.640 ms  2.466 ms  2.208 ms\n 2  csgate103.cs.ccu.edu.tw (140.123.103.250)  2.493 ms  2.541 ms  6.972 ms\n 3  140.123.9.249 (140.123.9.249)  2.701 ms  2.587 ms  2.427 ms\n 4  140.123.0.246 (140.123.0.246)  3.429 ms  6.019 ms  3.832 ms\n 5  140.130.252.251 (140.130.252.251)  5.784 ms  4.611 ms  4.179 ms\n 6  192.192.61.142 (192.192.61.142)  11.834 ms  5.368 ms  7.676 ms\n 7  192.192.61.20 (192.192.61.20)  11.456 ms  7.371 ms  12.088 ms\n 8  192.192.61.48 (192.192.61.48)  9.376 ms  8.583 ms  22.224 ms\n 9  192.192.68.62 (192.192.68.62)  14.450 ms  8.213 ms  8.053 ms\n10  39-222-163-203-static.tpix.net.tw (203.163.222.39)  8.581 ms  8.749 ms  8.870 ms\n11  104.18.3.197 (104.18.3.197)  8.539 ms  10.575 ms  10.458 ms\n",
+  "category": "ecommerce_tech",
+  "base_domain": "gamer.com.tw",
+  "service_variant": "api.gamer.com.tw",
+  "is_bare_domain": false
+}

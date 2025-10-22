@@ -1,0 +1,160 @@
+{
+  "timestamp": "2025-10-15T12:59:45.710475",
+  "vantage_point": "itaiwan",
+  "target": "www.bot.com.tw",
+  "target_ip": "61.220.62.187",
+  "protocol": "icmp",
+  "port": null,
+  "duration_seconds": 18.4,
+  "hops": [
+    {
+      "hop": 2,
+      "ip": "168.95.98.254",
+      "hostname": "h254.s98.ts.hinet.net",
+      "rtts": [
+        2.886,
+        2.885,
+        2.896
+      ],
+      "avg_rtt": 2.89,
+      "timeout": false,
+      "network": "hinet",
+      "network_name": "HiNet (Chunghwa Telecom)",
+      "is_interesting": true,
+      "is_private": false
+    },
+    {
+      "hop": 3,
+      "ip": "168.95.129.54",
+      "hostname": "168-95-129-54.caw1-3332.hinet.net",
+      "rtts": [
+        3.59,
+        4.444,
+        3.6
+      ],
+      "avg_rtt": 3.88,
+      "timeout": false,
+      "network": "hinet",
+      "network_name": "HiNet (Chunghwa Telecom)",
+      "is_interesting": true,
+      "is_private": false
+    },
+    {
+      "hop": 4,
+      "ip": null,
+      "hostname": null,
+      "rtts": [],
+      "timeout": true
+    },
+    {
+      "hop": 5,
+      "ip": null,
+      "hostname": null,
+      "rtts": [],
+      "timeout": true
+    },
+    {
+      "hop": 6,
+      "ip": "220.128.2.221",
+      "hostname": "220-128-2-221.tpdb-3336.hinet.net",
+      "rtts": [
+        34.652,
+        34.298,
+        28.846
+      ],
+      "avg_rtt": 32.6,
+      "timeout": false,
+      "network": "hinet",
+      "network_name": "HiNet (Chunghwa Telecom)",
+      "is_interesting": true,
+      "is_private": false
+    },
+    {
+      "hop": 7,
+      "ip": "211.72.255.253",
+      "hostname": "211.72.255.253",
+      "rtts": [
+        27.025,
+        14.453,
+        14.984
+      ],
+      "avg_rtt": 18.82,
+      "timeout": false,
+      "network": "other",
+      "network_name": "Other Network",
+      "is_interesting": false,
+      "is_private": false
+    },
+    {
+      "hop": 8,
+      "ip": "61.220.62.187",
+      "hostname": "61.220.62.187",
+      "rtts": [
+        15.833,
+        14.865,
+        12.188
+      ],
+      "avg_rtt": 14.3,
+      "timeout": false,
+      "network": "other",
+      "network_name": "Other Network",
+      "is_interesting": false,
+      "is_private": false
+    }
+  ],
+  "num_hops": 7,
+  "success": true,
+  "path_analysis": {
+    "networks_traversed": [
+      {
+        "network": "hinet",
+        "network_name": "HiNet (Chunghwa Telecom)",
+        "first_hop": 2
+      },
+      {
+        "network": "other",
+        "network_name": "Other Network",
+        "first_hop": 7
+      }
+    ],
+    "interesting_routers": [
+      {
+        "hop": 2,
+        "ip": "168.95.98.254",
+        "hostname": "h254.s98.ts.hinet.net",
+        "network": "hinet",
+        "network_name": "HiNet (Chunghwa Telecom)"
+      },
+      {
+        "hop": 3,
+        "ip": "168.95.129.54",
+        "hostname": "168-95-129-54.caw1-3332.hinet.net",
+        "network": "hinet",
+        "network_name": "HiNet (Chunghwa Telecom)"
+      },
+      {
+        "hop": 6,
+        "ip": "220.128.2.221",
+        "hostname": "220-128-2-221.tpdb-3336.hinet.net",
+        "network": "hinet",
+        "network_name": "HiNet (Chunghwa Telecom)"
+      }
+    ],
+    "private_hops": 0,
+    "total_hops": 7,
+    "network_transitions": [
+      {
+        "hop": 7,
+        "from": "hinet",
+        "to": "other",
+        "from_ip": "211.72.255.253",
+        "to_ip": "211.72.255.253"
+      }
+    ]
+  },
+  "raw_output": " 1  172.16.193.250 (172.16.193.250)  2.414 ms  2.187 ms  2.196 ms\n 2  h254.s98.ts.hinet.net (168.95.98.254)  2.886 ms  2.885 ms  2.896 ms\n 3  168-95-129-54.caw1-3332.hinet.net (168.95.129.54)  3.590 ms  4.444 ms  3.600 ms\n 4  * * *\n 5  * * *\n 6  220-128-2-221.tpdb-3336.hinet.net (220.128.2.221)  34.652 ms  34.298 ms  28.846 ms\n 7  211.72.255.253 (211.72.255.253)  27.025 ms  14.453 ms  14.984 ms\n 8  61.220.62.187 (61.220.62.187)  15.833 ms  14.865 ms  12.188 ms\n",
+  "category": "financial_banks",
+  "base_domain": "bot.com.tw",
+  "service_variant": "www.bot.com.tw",
+  "is_bare_domain": false
+}

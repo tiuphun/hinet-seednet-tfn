@@ -1,0 +1,270 @@
+{
+  "timestamp": "2025-10-15T14:07:09.680927",
+  "vantage_point": "itaiwan",
+  "target": "mail.mobile01.com",
+  "target_ip": "168.245.69.1",
+  "protocol": "icmp",
+  "port": null,
+  "duration_seconds": 31.79,
+  "hops": [
+    {
+      "hop": 2,
+      "ip": "168.95.98.254",
+      "hostname": "h254.s98.ts.hinet.net",
+      "rtts": [
+        14.195,
+        4.47,
+        14.109
+      ],
+      "avg_rtt": 10.92,
+      "timeout": false,
+      "network": "hinet",
+      "network_name": "HiNet (Chunghwa Telecom)",
+      "is_interesting": true,
+      "is_private": false
+    },
+    {
+      "hop": 3,
+      "ip": "168.95.129.50",
+      "hostname": "168-95-129-50.caw1-3332.hinet.net",
+      "rtts": [
+        11.992,
+        13.28,
+        9.773
+      ],
+      "avg_rtt": 11.68,
+      "timeout": false,
+      "network": "hinet",
+      "network_name": "HiNet (Chunghwa Telecom)",
+      "is_interesting": true,
+      "is_private": false
+    },
+    {
+      "hop": 4,
+      "ip": null,
+      "hostname": null,
+      "rtts": [],
+      "timeout": true
+    },
+    {
+      "hop": 5,
+      "ip": null,
+      "hostname": null,
+      "rtts": [],
+      "timeout": true
+    },
+    {
+      "hop": 6,
+      "ip": "220.128.2.241",
+      "hostname": "220-128-2-241.tpdt-4011.hinet.net",
+      "rtts": [
+        11.23,
+        9.27,
+        9.924
+      ],
+      "avg_rtt": 10.14,
+      "timeout": false,
+      "network": "hinet",
+      "network_name": "HiNet (Chunghwa Telecom)",
+      "is_interesting": true,
+      "is_private": false
+    },
+    {
+      "hop": 7,
+      "ip": "202.39.91.29",
+      "hostname": "202-39-91-29.pa-r32.us.hinet.net",
+      "rtts": [
+        138.693,
+        147.021,
+        133.905
+      ],
+      "avg_rtt": 139.87,
+      "timeout": false,
+      "network": "hinet",
+      "network_name": "HiNet (Chunghwa Telecom)",
+      "is_interesting": true,
+      "is_private": false
+    },
+    {
+      "hop": 8,
+      "ip": "62.115.165.50",
+      "hostname": "sjo-b23-link.ip.twelve99.net",
+      "rtts": [
+        137.452,
+        135.292,
+        135.833
+      ],
+      "avg_rtt": 136.19,
+      "timeout": false,
+      "network": "other",
+      "network_name": "Other Network",
+      "is_interesting": false,
+      "is_private": false
+    },
+    {
+      "hop": 9,
+      "ip": "62.115.12.53",
+      "hostname": "ntt-ic-323771.ip.twelve99-cust.net",
+      "rtts": [
+        135.899,
+        133.701,
+        135.91
+      ],
+      "avg_rtt": 135.17,
+      "timeout": false,
+      "network": "other",
+      "network_name": "Other Network",
+      "is_interesting": false,
+      "is_private": false
+    },
+    {
+      "hop": 10,
+      "ip": "129.250.5.208",
+      "hostname": "ae-2.r26.snjsca04.us.bb.gin.ntt.net",
+      "rtts": [
+        133.872,
+        138.661,
+        134.272
+      ],
+      "avg_rtt": 135.6,
+      "timeout": false,
+      "network": "other",
+      "network_name": "Other Network",
+      "is_interesting": false,
+      "is_private": false
+    },
+    {
+      "hop": 11,
+      "ip": "129.250.6.0",
+      "hostname": "ae-10.r26.asbnva02.us.bb.gin.ntt.net",
+      "rtts": [
+        193.475,
+        193.502,
+        197.121
+      ],
+      "avg_rtt": 194.7,
+      "timeout": false,
+      "network": "other",
+      "network_name": "Other Network",
+      "is_interesting": false,
+      "is_private": false
+    },
+    {
+      "hop": 12,
+      "ip": "129.250.4.31",
+      "hostname": "ae-4.a08.asbnva02.us.bb.gin.ntt.net",
+      "rtts": [
+        195.452,
+        197.062,
+        195.459
+      ],
+      "avg_rtt": 195.99,
+      "timeout": false,
+      "network": "other",
+      "network_name": "Other Network",
+      "is_interesting": false,
+      "is_private": false
+    },
+    {
+      "hop": 13,
+      "ip": "128.241.6.233",
+      "hostname": "ce-0-4-2.a08.asbnva02.us.ce.gin.ntt.net",
+      "rtts": [
+        193.448,
+        194.229,
+        193.407
+      ],
+      "avg_rtt": 193.69,
+      "timeout": false,
+      "network": "other",
+      "network_name": "Other Network",
+      "is_interesting": false,
+      "is_private": false
+    },
+    {
+      "hop": 14,
+      "ip": null,
+      "hostname": null,
+      "rtts": [],
+      "timeout": true
+    },
+    {
+      "hop": 15,
+      "ip": "168.245.69.1",
+      "hostname": "o1.mail.mobile01.com",
+      "rtts": [
+        197.498,
+        192.697,
+        193.025
+      ],
+      "avg_rtt": 194.41,
+      "timeout": false,
+      "network": "other",
+      "network_name": "Other Network",
+      "is_interesting": false,
+      "is_private": false
+    }
+  ],
+  "num_hops": 14,
+  "success": true,
+  "path_analysis": {
+    "networks_traversed": [
+      {
+        "network": "hinet",
+        "network_name": "HiNet (Chunghwa Telecom)",
+        "first_hop": 2
+      },
+      {
+        "network": "other",
+        "network_name": "Other Network",
+        "first_hop": 8
+      }
+    ],
+    "interesting_routers": [
+      {
+        "hop": 2,
+        "ip": "168.95.98.254",
+        "hostname": "h254.s98.ts.hinet.net",
+        "network": "hinet",
+        "network_name": "HiNet (Chunghwa Telecom)"
+      },
+      {
+        "hop": 3,
+        "ip": "168.95.129.50",
+        "hostname": "168-95-129-50.caw1-3332.hinet.net",
+        "network": "hinet",
+        "network_name": "HiNet (Chunghwa Telecom)"
+      },
+      {
+        "hop": 6,
+        "ip": "220.128.2.241",
+        "hostname": "220-128-2-241.tpdt-4011.hinet.net",
+        "network": "hinet",
+        "network_name": "HiNet (Chunghwa Telecom)"
+      },
+      {
+        "hop": 7,
+        "ip": "202.39.91.29",
+        "hostname": "202-39-91-29.pa-r32.us.hinet.net",
+        "network": "hinet",
+        "network_name": "HiNet (Chunghwa Telecom)"
+      }
+    ],
+    "private_hops": 0,
+    "total_hops": 14,
+    "network_transitions": [
+      {
+        "hop": 8,
+        "from": "hinet",
+        "to": "other",
+        "from_ip": "62.115.165.50",
+        "to_ip": "62.115.165.50"
+      }
+    ]
+  },
+  "raw_output": " 1  172.16.193.250 (172.16.193.250)  15.768 ms  4.316 ms  5.818 ms\n 2  h254.s98.ts.hinet.net (168.95.98.254)  14.195 ms  4.470 ms  14.109 ms\n 3  168-95-129-50.caw1-3332.hinet.net (168.95.129.50)  11.992 ms  13.280 ms  9.773 ms\n 4  * * *\n 5  * * *\n 6  220-128-2-241.tpdt-4011.hinet.net (220.128.2.241)  11.230 ms  9.270 ms  9.924 ms\n 7  202-39-91-29.pa-r32.us.hinet.net (202.39.91.29)  138.693 ms  147.021 ms  133.905 ms\n 8  sjo-b23-link.ip.twelve99.net (62.115.165.50)  137.452 ms  135.292 ms  135.833 ms\n 9  ntt-ic-323771.ip.twelve99-cust.net (62.115.12.53)  135.899 ms  133.701 ms  135.910 ms\n10  ae-2.r26.snjsca04.us.bb.gin.ntt.net (129.250.5.208)  133.872 ms  138.661 ms  134.272 ms\n11  ae-10.r26.asbnva02.us.bb.gin.ntt.net (129.250.6.0)  193.475 ms  193.502 ms  197.121 ms\n12  ae-4.a08.asbnva02.us.bb.gin.ntt.net (129.250.4.31)  195.452 ms  197.062 ms  195.459 ms\n13  ce-0-4-2.a08.asbnva02.us.ce.gin.ntt.net (128.241.6.233)  193.448 ms  194.229 ms  193.407 ms\n14  * * *\n15  o1.mail.mobile01.com (168.245.69.1)  197.498 ms  192.697 ms  193.025 ms\n",
+  "category": "ecommerce_tech",
+  "base_domain": "mobile01.com",
+  "service_variant": "mail.mobile01.com",
+  "is_bare_domain": false
+}

@@ -1,0 +1,162 @@
+{
+  "timestamp": "2025-10-14T22:18:21.594244",
+  "vantage_point": "university",
+  "target": "mail.storm.mg",
+  "target_ip": "142.250.77.19",
+  "protocol": "icmp",
+  "port": null,
+  "duration_seconds": 0.31,
+  "hops": [
+    {
+      "hop": 2,
+      "ip": "140.123.103.250",
+      "hostname": null,
+      "rtts": [
+        5.38,
+        2.738,
+        3.24
+      ],
+      "avg_rtt": 3.79,
+      "timeout": false
+    },
+    {
+      "hop": 3,
+      "ip": "140.123.9.249",
+      "hostname": null,
+      "rtts": [
+        2.933,
+        2.624,
+        3.032
+      ],
+      "avg_rtt": 2.86,
+      "timeout": false
+    },
+    {
+      "hop": 4,
+      "ip": "140.123.0.246",
+      "hostname": null,
+      "rtts": [
+        5.316,
+        3.894,
+        4.736
+      ],
+      "avg_rtt": 4.65,
+      "timeout": false
+    },
+    {
+      "hop": 5,
+      "ip": "140.130.252.251",
+      "hostname": null,
+      "rtts": [
+        6.255,
+        6.222,
+        4.245
+      ],
+      "avg_rtt": 5.57,
+      "timeout": false
+    },
+    {
+      "hop": 6,
+      "ip": "192.192.61.142",
+      "hostname": null,
+      "rtts": [
+        5.724,
+        5.312,
+        6.408
+      ],
+      "avg_rtt": 5.81,
+      "timeout": false
+    },
+    {
+      "hop": 7,
+      "ip": "192.192.61.20",
+      "hostname": null,
+      "rtts": [
+        7.461,
+        7.67,
+        7.514
+      ],
+      "avg_rtt": 7.55,
+      "timeout": false
+    },
+    {
+      "hop": 8,
+      "ip": "192.192.61.184",
+      "hostname": null,
+      "rtts": [
+        8.752,
+        8.257,
+        8.391
+      ],
+      "avg_rtt": 8.47,
+      "timeout": false
+    },
+    {
+      "hop": 9,
+      "ip": "192.192.61.203",
+      "hostname": null,
+      "rtts": [
+        9.007,
+        7.867,
+        8.09
+      ],
+      "avg_rtt": 8.32,
+      "timeout": false
+    },
+    {
+      "hop": 10,
+      "ip": "72.14.196.229",
+      "hostname": null,
+      "rtts": [
+        13.031,
+        8.511,
+        9.261
+      ],
+      "avg_rtt": 10.27,
+      "timeout": false
+    },
+    {
+      "hop": 11,
+      "ip": "172.253.50.121",
+      "hostname": null,
+      "rtts": [
+        10.824,
+        8.741,
+        8.764
+      ],
+      "avg_rtt": 9.44,
+      "timeout": false
+    },
+    {
+      "hop": 12,
+      "ip": "108.170.225.177",
+      "hostname": null,
+      "rtts": [
+        11.018,
+        12.013,
+        9.066
+      ],
+      "avg_rtt": 10.7,
+      "timeout": false
+    },
+    {
+      "hop": 13,
+      "ip": "142.250.77.19",
+      "hostname": null,
+      "rtts": [
+        20.675,
+        11.734,
+        11.336
+      ],
+      "avg_rtt": 14.58,
+      "timeout": false
+    }
+  ],
+  "num_hops": 12,
+  "success": true,
+  "raw_output": " 1  192.168.50.1  9.215 ms  4.335 ms  2.472 ms\n 2  140.123.103.250  5.380 ms  2.738 ms  3.240 ms\n 3  140.123.9.249  2.933 ms  2.624 ms  3.032 ms\n 4  140.123.0.246  5.316 ms  3.894 ms  4.736 ms\n 5  140.130.252.251  6.255 ms  6.222 ms  4.245 ms\n 6  192.192.61.142  5.724 ms  5.312 ms  6.408 ms\n 7  192.192.61.20  7.461 ms  7.670 ms  7.514 ms\n 8  192.192.61.184  8.752 ms  8.257 ms  8.391 ms\n 9  192.192.61.203  9.007 ms  7.867 ms  8.090 ms\n10  72.14.196.229  13.031 ms  8.511 ms  9.261 ms\n11  172.253.50.121  10.824 ms  8.741 ms  8.764 ms\n12  108.170.225.177  11.018 ms  12.013 ms  9.066 ms\n13  142.250.77.19  20.675 ms  11.734 ms  11.336 ms\n",
+  "category": "media",
+  "base_domain": "storm.mg",
+  "service_variant": "mail.storm.mg",
+  "is_bare_domain": false
+}

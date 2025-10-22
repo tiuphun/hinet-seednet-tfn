@@ -1,0 +1,161 @@
+{
+  "timestamp": "2025-10-15T02:21:08.480639",
+  "vantage_point": "university",
+  "target": "www.ltn.com.tw",
+  "target_ip": "3.169.55.125",
+  "protocol": "icmp",
+  "port": null,
+  "duration_seconds": 45.51,
+  "hops": [
+    {
+      "hop": 2,
+      "ip": "140.123.103.250",
+      "hostname": null,
+      "rtts": [
+        6.833,
+        41.605,
+        4.841
+      ],
+      "avg_rtt": 17.76,
+      "timeout": false
+    },
+    {
+      "hop": 3,
+      "ip": "140.123.9.249",
+      "hostname": null,
+      "rtts": [
+        8.969,
+        7.274,
+        22.896
+      ],
+      "avg_rtt": 13.05,
+      "timeout": false
+    },
+    {
+      "hop": 4,
+      "ip": "140.123.0.246",
+      "hostname": null,
+      "rtts": [
+        5.318,
+        3.186,
+        2.982
+      ],
+      "avg_rtt": 3.83,
+      "timeout": false
+    },
+    {
+      "hop": 5,
+      "ip": "140.130.252.251",
+      "hostname": null,
+      "rtts": [
+        5.689,
+        34.758,
+        4.805
+      ],
+      "avg_rtt": 15.08,
+      "timeout": false
+    },
+    {
+      "hop": 6,
+      "ip": "192.192.61.142",
+      "hostname": null,
+      "rtts": [
+        6.742,
+        9.389,
+        5.986
+      ],
+      "avg_rtt": 7.37,
+      "timeout": false
+    },
+    {
+      "hop": 7,
+      "ip": "192.192.61.20",
+      "hostname": null,
+      "rtts": [
+        16.183,
+        10.793,
+        7.296
+      ],
+      "avg_rtt": 11.42,
+      "timeout": false
+    },
+    {
+      "hop": 8,
+      "ip": "192.192.61.48",
+      "hostname": null,
+      "rtts": [
+        10.041,
+        29.401,
+        7.794
+      ],
+      "avg_rtt": 15.75,
+      "timeout": false
+    },
+    {
+      "hop": 9,
+      "ip": "192.192.68.62",
+      "hostname": null,
+      "rtts": [
+        38.104,
+        16.059,
+        12.793
+      ],
+      "avg_rtt": 22.32,
+      "timeout": false
+    },
+    {
+      "hop": 10,
+      "ip": null,
+      "hostname": null,
+      "rtts": [],
+      "timeout": true
+    },
+    {
+      "hop": 11,
+      "ip": null,
+      "hostname": null,
+      "rtts": [],
+      "timeout": true
+    },
+    {
+      "hop": 12,
+      "ip": null,
+      "hostname": null,
+      "rtts": [],
+      "timeout": true
+    },
+    {
+      "hop": 13,
+      "ip": null,
+      "hostname": null,
+      "rtts": [],
+      "timeout": true
+    },
+    {
+      "hop": 14,
+      "ip": null,
+      "hostname": null,
+      "rtts": [],
+      "timeout": true
+    },
+    {
+      "hop": 15,
+      "ip": "3.169.55.125",
+      "hostname": null,
+      "rtts": [
+        28.956,
+        11.593,
+        10.744
+      ],
+      "avg_rtt": 17.1,
+      "timeout": false
+    }
+  ],
+  "num_hops": 14,
+  "success": true,
+  "raw_output": " 1  192.168.50.1  2.690 ms  4.576 ms  16.523 ms\n 2  140.123.103.250  6.833 ms  41.605 ms  4.841 ms\n 3  140.123.9.249  8.969 ms  7.274 ms  22.896 ms\n 4  140.123.0.246  5.318 ms  3.186 ms  2.982 ms\n 5  140.130.252.251  5.689 ms  34.758 ms  4.805 ms\n 6  192.192.61.142  6.742 ms  9.389 ms  5.986 ms\n 7  192.192.61.20  16.183 ms  10.793 ms  7.296 ms\n 8  192.192.61.48  10.041 ms  29.401 ms  7.794 ms\n 9  192.192.68.62  38.104 ms  16.059 ms  12.793 ms\n10  * * *\n11  * * *\n12  * * *\n13  * * *\n14  * * *\n15  3.169.55.125  28.956 ms  11.593 ms  10.744 ms\n",
+  "category": "media",
+  "base_domain": "ltn.com.tw",
+  "service_variant": "www.ltn.com.tw",
+  "is_bare_domain": false
+}

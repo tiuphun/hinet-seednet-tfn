@@ -1,0 +1,315 @@
+{
+  "timestamp": "2025-10-15T14:57:00.386229",
+  "vantage_point": "itaiwan",
+  "target": "www.so-net.net.tw",
+  "target_ip": "61.64.127.28",
+  "protocol": "icmp",
+  "port": null,
+  "duration_seconds": 26.4,
+  "hops": [
+    {
+      "hop": 2,
+      "ip": "168.95.98.254",
+      "hostname": "h254.s98.ts.hinet.net",
+      "rtts": [
+        2.678,
+        2.634,
+        2.677
+      ],
+      "avg_rtt": 2.66,
+      "timeout": false,
+      "network": "hinet",
+      "network_name": "HiNet (Chunghwa Telecom)",
+      "is_interesting": true,
+      "is_private": false
+    },
+    {
+      "hop": 3,
+      "ip": "168.95.128.42",
+      "hostname": "168-95-128-42.caw1-3331.hinet.net",
+      "rtts": [
+        2.828,
+        2.964,
+        3.032
+      ],
+      "avg_rtt": 2.94,
+      "timeout": false,
+      "network": "hinet",
+      "network_name": "HiNet (Chunghwa Telecom)",
+      "is_interesting": true,
+      "is_private": false
+    },
+    {
+      "hop": 4,
+      "ip": null,
+      "hostname": null,
+      "rtts": [],
+      "timeout": true
+    },
+    {
+      "hop": 5,
+      "ip": null,
+      "hostname": null,
+      "rtts": [],
+      "timeout": true
+    },
+    {
+      "hop": 6,
+      "ip": "220.128.1.105",
+      "hostname": "220-128-1-105.tpdb-4211.hinet.net",
+      "rtts": [
+        11.281,
+        11.339,
+        11.078
+      ],
+      "avg_rtt": 11.23,
+      "timeout": false,
+      "network": "hinet",
+      "network_name": "HiNet (Chunghwa Telecom)",
+      "is_interesting": true,
+      "is_private": false
+    },
+    {
+      "hop": 7,
+      "ip": null,
+      "hostname": null,
+      "rtts": [],
+      "timeout": true
+    },
+    {
+      "hop": 8,
+      "ip": "103.123.253.13",
+      "hostname": "13-253-123-103-static.chief.net.tw",
+      "rtts": [
+        10.384,
+        10.64,
+        10.203
+      ],
+      "avg_rtt": 10.41,
+      "timeout": false,
+      "network": "chief",
+      "network_name": "Chief Telecom",
+      "is_interesting": true,
+      "is_private": false
+    },
+    {
+      "hop": 9,
+      "ip": "113.21.84.113",
+      "hostname": "tw5-ro0.as134522.net",
+      "rtts": [
+        16.409,
+        20.26,
+        10.425
+      ],
+      "avg_rtt": 15.7,
+      "timeout": false,
+      "network": "other",
+      "network_name": "Other Network",
+      "is_interesting": false,
+      "is_private": false
+    },
+    {
+      "hop": 10,
+      "ip": "113.21.84.114",
+      "hostname": "tw5-ro0.as134522.net",
+      "rtts": [
+        13.379,
+        11.805,
+        11.874
+      ],
+      "avg_rtt": 12.35,
+      "timeout": false,
+      "network": "other",
+      "network_name": "Other Network",
+      "is_interesting": false,
+      "is_private": false
+    },
+    {
+      "hop": 11,
+      "ip": "219.84.176.118",
+      "hostname": "219.84.176.118",
+      "rtts": [
+        11.744,
+        11.702,
+        11.839
+      ],
+      "avg_rtt": 11.76,
+      "timeout": false,
+      "network": "other",
+      "network_name": "Other Network",
+      "is_interesting": false,
+      "is_private": false
+    },
+    {
+      "hop": 12,
+      "ip": "219.84.176.138",
+      "hostname": "219.84.176.138",
+      "rtts": [
+        1365.882,
+        1596.759,
+        1674.139
+      ],
+      "avg_rtt": 1545.59,
+      "timeout": false,
+      "network": "other",
+      "network_name": "Other Network",
+      "is_interesting": false,
+      "is_private": false
+    },
+    {
+      "hop": 13,
+      "ip": "61.64.127.249",
+      "hostname": "gw.so-net.net.tw",
+      "rtts": [
+        12.379,
+        12.06,
+        11.249
+      ],
+      "avg_rtt": 11.9,
+      "timeout": false,
+      "network": "sonet",
+      "network_name": "So-net Taiwan",
+      "is_interesting": true,
+      "is_private": false
+    },
+    {
+      "hop": 14,
+      "ip": "61.64.127.249",
+      "hostname": "gw.so-net.net.tw",
+      "rtts": [
+        13.012,
+        15.223,
+        16.395
+      ],
+      "avg_rtt": 14.88,
+      "timeout": false,
+      "network": "sonet",
+      "network_name": "So-net Taiwan",
+      "is_interesting": true,
+      "is_private": false
+    },
+    {
+      "hop": 15,
+      "ip": "61.64.127.28",
+      "hostname": "www.so-net.net.tw",
+      "rtts": [
+        14.836,
+        13.381,
+        12.242
+      ],
+      "avg_rtt": 13.49,
+      "timeout": false,
+      "network": "sonet",
+      "network_name": "So-net Taiwan",
+      "is_interesting": true,
+      "is_private": false
+    }
+  ],
+  "num_hops": 14,
+  "success": true,
+  "path_analysis": {
+    "networks_traversed": [
+      {
+        "network": "hinet",
+        "network_name": "HiNet (Chunghwa Telecom)",
+        "first_hop": 2
+      },
+      {
+        "network": "chief",
+        "network_name": "Chief Telecom",
+        "first_hop": 8
+      },
+      {
+        "network": "other",
+        "network_name": "Other Network",
+        "first_hop": 9
+      },
+      {
+        "network": "sonet",
+        "network_name": "So-net Taiwan",
+        "first_hop": 13
+      }
+    ],
+    "interesting_routers": [
+      {
+        "hop": 2,
+        "ip": "168.95.98.254",
+        "hostname": "h254.s98.ts.hinet.net",
+        "network": "hinet",
+        "network_name": "HiNet (Chunghwa Telecom)"
+      },
+      {
+        "hop": 3,
+        "ip": "168.95.128.42",
+        "hostname": "168-95-128-42.caw1-3331.hinet.net",
+        "network": "hinet",
+        "network_name": "HiNet (Chunghwa Telecom)"
+      },
+      {
+        "hop": 6,
+        "ip": "220.128.1.105",
+        "hostname": "220-128-1-105.tpdb-4211.hinet.net",
+        "network": "hinet",
+        "network_name": "HiNet (Chunghwa Telecom)"
+      },
+      {
+        "hop": 8,
+        "ip": "103.123.253.13",
+        "hostname": "13-253-123-103-static.chief.net.tw",
+        "network": "chief",
+        "network_name": "Chief Telecom"
+      },
+      {
+        "hop": 13,
+        "ip": "61.64.127.249",
+        "hostname": "gw.so-net.net.tw",
+        "network": "sonet",
+        "network_name": "So-net Taiwan"
+      },
+      {
+        "hop": 14,
+        "ip": "61.64.127.249",
+        "hostname": "gw.so-net.net.tw",
+        "network": "sonet",
+        "network_name": "So-net Taiwan"
+      },
+      {
+        "hop": 15,
+        "ip": "61.64.127.28",
+        "hostname": "www.so-net.net.tw",
+        "network": "sonet",
+        "network_name": "So-net Taiwan"
+      }
+    ],
+    "private_hops": 0,
+    "total_hops": 14,
+    "network_transitions": [
+      {
+        "hop": 8,
+        "from": "hinet",
+        "to": "chief",
+        "from_ip": "103.123.253.13",
+        "to_ip": "103.123.253.13"
+      },
+      {
+        "hop": 9,
+        "from": "chief",
+        "to": "other",
+        "from_ip": "113.21.84.113",
+        "to_ip": "113.21.84.113"
+      },
+      {
+        "hop": 13,
+        "from": "other",
+        "to": "sonet",
+        "from_ip": "61.64.127.249",
+        "to_ip": "61.64.127.249"
+      }
+    ]
+  },
+  "raw_output": " 1  172.16.193.250 (172.16.193.250)  2.763 ms  1.874 ms  2.284 ms\n 2  h254.s98.ts.hinet.net (168.95.98.254)  2.678 ms  2.634 ms  2.677 ms\n 3  168-95-128-42.caw1-3331.hinet.net (168.95.128.42)  2.828 ms  2.964 ms  3.032 ms\n 4  * * *\n 5  * * *\n 6  220-128-1-105.tpdb-4211.hinet.net (220.128.1.105)  11.281 ms  11.339 ms  11.078 ms\n 7  * 203-75-230-117.hinet-ip.hinet.net (203.75.230.117)  9.677 ms  9.834 ms\n 8  13-253-123-103-static.chief.net.tw (103.123.253.13)  10.384 ms  10.640 ms  10.203 ms\n 9  tw5-ro0.as134522.net (113.21.84.113)  16.409 ms  20.260 ms  10.425 ms\n10  tw5-ro0.as134522.net (113.21.84.114)  13.379 ms  11.805 ms  11.874 ms\n11  219.84.176.118 (219.84.176.118)  11.744 ms  11.702 ms  11.839 ms\n12  219.84.176.138 (219.84.176.138)  1365.882 ms  1596.759 ms  1674.139 ms\n13  gw.so-net.net.tw (61.64.127.249)  12.379 ms  12.060 ms  11.249 ms\n14  gw.so-net.net.tw (61.64.127.249)  13.012 ms  15.223 ms  16.395 ms\n15  www.so-net.net.tw (61.64.127.28)  14.836 ms  13.381 ms  12.242 ms\n",
+  "category": "telecom",
+  "base_domain": "so-net.net.tw",
+  "service_variant": "www.so-net.net.tw",
+  "is_bare_domain": false
+}

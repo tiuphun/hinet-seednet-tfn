@@ -1,0 +1,121 @@
+{
+  "timestamp": "2025-10-21T19:22:43.162040",
+  "vantage_point": "university",
+  "target": "www.motc.gov.tw",
+  "target_ip": "203.66.35.99",
+  "protocol": "icmp",
+  "port": null,
+  "duration_seconds": 9.33,
+  "hops": [
+    {
+      "hop": 2,
+      "ip": "140.123.103.250",
+      "hostname": "csgate103.cs.ccu.edu.tw",
+      "rtts": [
+        2.412,
+        3.409,
+        4.208
+      ],
+      "avg_rtt": 3.34,
+      "timeout": false
+    },
+    {
+      "hop": 3,
+      "ip": "140.123.9.249",
+      "hostname": "140.123.9.249",
+      "rtts": [
+        3.036,
+        2.501,
+        4.904
+      ],
+      "avg_rtt": 3.48,
+      "timeout": false
+    },
+    {
+      "hop": 4,
+      "ip": "140.123.0.246",
+      "hostname": "140.123.0.246",
+      "rtts": [
+        4.091,
+        3.13,
+        3.561
+      ],
+      "avg_rtt": 3.59,
+      "timeout": false
+    },
+    {
+      "hop": 5,
+      "ip": "140.130.252.251",
+      "hostname": "140.130.252.251",
+      "rtts": [
+        3.811,
+        4.461,
+        5.147
+      ],
+      "avg_rtt": 4.47,
+      "timeout": false
+    },
+    {
+      "hop": 6,
+      "ip": "211.22.226.198",
+      "hostname": "211-22-226-198.caw1-3332.hinet.net",
+      "rtts": [
+        5.426,
+        5.749,
+        6.297
+      ],
+      "avg_rtt": 5.82,
+      "timeout": false
+    },
+    {
+      "hop": 7,
+      "ip": null,
+      "hostname": null,
+      "rtts": [],
+      "timeout": true
+    },
+    {
+      "hop": 8,
+      "ip": "220.128.26.49",
+      "hostname": "220-128-26-49.tne1-3331.hinet.net",
+      "rtts": [
+        15.817,
+        8.433,
+        6.375
+      ],
+      "avg_rtt": 10.21,
+      "timeout": false
+    },
+    {
+      "hop": 9,
+      "ip": "211.22.229.89",
+      "hostname": "211-22-229-89.hinet-ip.hinet.net",
+      "rtts": [
+        5.67,
+        5.268,
+        5.568
+      ],
+      "avg_rtt": 5.5,
+      "timeout": false
+    },
+    {
+      "hop": 10,
+      "ip": "203.66.35.99",
+      "hostname": "203-66-35-99.hinet-ip.hinet.net",
+      "rtts": [
+        5.17,
+        5.187,
+        5.35
+      ],
+      "avg_rtt": 5.24,
+      "timeout": false
+    }
+  ],
+  "num_hops": 9,
+  "success": true,
+  "raw_output": " 1  192.168.50.1 (192.168.50.1)  5.310 ms  2.335 ms  2.370 ms\n 2  csgate103.cs.ccu.edu.tw (140.123.103.250)  2.412 ms  3.409 ms  4.208 ms\n 3  140.123.9.249 (140.123.9.249)  3.036 ms  2.501 ms  4.904 ms\n 4  140.123.0.246 (140.123.0.246)  4.091 ms  3.130 ms  3.561 ms\n 5  140.130.252.251 (140.130.252.251)  3.811 ms  4.461 ms  5.147 ms\n 6  211-22-226-198.caw1-3332.hinet.net (211.22.226.198)  5.426 ms  5.749 ms  6.297 ms\n 7  * * *\n 8  220-128-26-49.tne1-3331.hinet.net (220.128.26.49)  15.817 ms  8.433 ms  6.375 ms\n 9  211-22-229-89.hinet-ip.hinet.net (211.22.229.89)  5.670 ms  5.268 ms  5.568 ms\n10  203-66-35-99.hinet-ip.hinet.net (203.66.35.99)  5.170 ms  5.187 ms  5.350 ms\n",
+  "category": "government_central",
+  "base_domain": "motc.gov.tw",
+  "service_variant": "www.motc.gov.tw",
+  "is_bare_domain": false
+}

@@ -1,0 +1,128 @@
+{
+  "timestamp": "2025-10-21T22:02:03.799459",
+  "vantage_point": "university",
+  "target": "esunbank.com.tw",
+  "target_ip": "61.222.116.238",
+  "protocol": "icmp",
+  "port": null,
+  "duration_seconds": 18.69,
+  "hops": [
+    {
+      "hop": 2,
+      "ip": "140.123.103.250",
+      "hostname": "csgate103.cs.ccu.edu.tw",
+      "rtts": [
+        5.061,
+        2.304,
+        5.866
+      ],
+      "avg_rtt": 4.41,
+      "timeout": false
+    },
+    {
+      "hop": 3,
+      "ip": "140.123.9.249",
+      "hostname": "140.123.9.249",
+      "rtts": [
+        2.763,
+        2.637,
+        2.281
+      ],
+      "avg_rtt": 2.56,
+      "timeout": false
+    },
+    {
+      "hop": 4,
+      "ip": "140.123.0.246",
+      "hostname": "140.123.0.246",
+      "rtts": [
+        4.177,
+        2.918,
+        6.49
+      ],
+      "avg_rtt": 4.53,
+      "timeout": false
+    },
+    {
+      "hop": 5,
+      "ip": "140.130.252.251",
+      "hostname": "140.130.252.251",
+      "rtts": [
+        3.528,
+        4.781,
+        7.457
+      ],
+      "avg_rtt": 5.26,
+      "timeout": false
+    },
+    {
+      "hop": 6,
+      "ip": "211.22.226.198",
+      "hostname": "211-22-226-198.caw1-3332.hinet.net",
+      "rtts": [
+        4.568,
+        6.472,
+        4.637
+      ],
+      "avg_rtt": 5.23,
+      "timeout": false
+    },
+    {
+      "hop": 7,
+      "ip": null,
+      "hostname": null,
+      "rtts": [],
+      "timeout": true
+    },
+    {
+      "hop": 8,
+      "ip": null,
+      "hostname": null,
+      "rtts": [],
+      "timeout": true
+    },
+    {
+      "hop": 9,
+      "ip": "220.128.4.17",
+      "hostname": "220-128-4-17.tpdb-3315.hinet.net",
+      "rtts": [
+        20.832,
+        10.574,
+        11.039
+      ],
+      "avg_rtt": 14.15,
+      "timeout": false
+    },
+    {
+      "hop": 10,
+      "ip": "203.75.188.177",
+      "hostname": "203-75-188-177.hinet-ip.hinet.net",
+      "rtts": [
+        10.361,
+        12.543,
+        13.197
+      ],
+      "avg_rtt": 12.03,
+      "timeout": false
+    },
+    {
+      "hop": 11,
+      "ip": "61.222.116.238",
+      "hostname": "61-222-116-238.hinet-ip.hinet.net",
+      "rtts": [
+        13.31,
+        37.21,
+        36.546
+      ],
+      "avg_rtt": 29.02,
+      "timeout": false
+    }
+  ],
+  "num_hops": 10,
+  "success": true,
+  "raw_output": " 1  192.168.50.1 (192.168.50.1)  2.446 ms  2.122 ms  2.366 ms\n 2  csgate103.cs.ccu.edu.tw (140.123.103.250)  5.061 ms  2.304 ms  5.866 ms\n 3  140.123.9.249 (140.123.9.249)  2.763 ms  2.637 ms  2.281 ms\n 4  140.123.0.246 (140.123.0.246)  4.177 ms  2.918 ms  6.490 ms\n 5  140.130.252.251 (140.130.252.251)  3.528 ms  4.781 ms  7.457 ms\n 6  211-22-226-198.caw1-3332.hinet.net (211.22.226.198)  4.568 ms  6.472 ms  4.637 ms\n 7  * * *\n 8  * * *\n 9  220-128-4-17.tpdb-3315.hinet.net (220.128.4.17)  20.832 ms  10.574 ms  11.039 ms\n10  203-75-188-177.hinet-ip.hinet.net (203.75.188.177)  10.361 ms  12.543 ms  13.197 ms\n11  61-222-116-238.hinet-ip.hinet.net (61.222.116.238)  13.310 ms  37.210 ms  36.546 ms\n",
+  "category": "financial_banks",
+  "base_domain": "esunbank.com.tw",
+  "service_variant": "esunbank.com.tw",
+  "is_bare_domain": true
+}

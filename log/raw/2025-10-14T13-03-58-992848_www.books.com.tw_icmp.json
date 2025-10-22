@@ -1,0 +1,138 @@
+{
+  "timestamp": "2025-10-14T13:03:58.992848",
+  "vantage_point": "cht-mobile",
+  "target": "www.books.com.tw",
+  "target_ip": "34.117.62.131",
+  "protocol": "icmp",
+  "port": null,
+  "duration_seconds": 0.45,
+  "hops": [
+    {
+      "hop": 2,
+      "ip": "140.123.103.250",
+      "hostname": null,
+      "rtts": [
+        6.253,
+        2.872,
+        16.642
+      ],
+      "avg_rtt": 8.59,
+      "timeout": false
+    },
+    {
+      "hop": 3,
+      "ip": "140.123.9.249",
+      "hostname": null,
+      "rtts": [
+        9.236,
+        3.62,
+        3.046
+      ],
+      "avg_rtt": 5.3,
+      "timeout": false
+    },
+    {
+      "hop": 4,
+      "ip": "140.123.0.246",
+      "hostname": null,
+      "rtts": [
+        81.1,
+        6.263,
+        3.209
+      ],
+      "avg_rtt": 30.19,
+      "timeout": false
+    },
+    {
+      "hop": 5,
+      "ip": "140.130.252.251",
+      "hostname": null,
+      "rtts": [
+        3.668,
+        3.776,
+        35.389
+      ],
+      "avg_rtt": 14.28,
+      "timeout": false
+    },
+    {
+      "hop": 6,
+      "ip": "192.192.61.142",
+      "hostname": null,
+      "rtts": [
+        13.792,
+        5.858,
+        6.469
+      ],
+      "avg_rtt": 8.71,
+      "timeout": false
+    },
+    {
+      "hop": 7,
+      "ip": "192.192.61.20",
+      "hostname": null,
+      "rtts": [
+        8.135,
+        21.118,
+        7.905
+      ],
+      "avg_rtt": 12.39,
+      "timeout": false
+    },
+    {
+      "hop": 8,
+      "ip": "192.192.61.184",
+      "hostname": null,
+      "rtts": [
+        11.794,
+        9.648,
+        33.525
+      ],
+      "avg_rtt": 18.32,
+      "timeout": false
+    },
+    {
+      "hop": 9,
+      "ip": "192.192.61.203",
+      "hostname": null,
+      "rtts": [
+        12.94,
+        8.792,
+        9.546
+      ],
+      "avg_rtt": 10.43,
+      "timeout": false
+    },
+    {
+      "hop": 10,
+      "ip": "72.14.196.229",
+      "hostname": null,
+      "rtts": [
+        9.21,
+        11.821,
+        12.782
+      ],
+      "avg_rtt": 11.27,
+      "timeout": false
+    },
+    {
+      "hop": 11,
+      "ip": "34.117.62.131",
+      "hostname": null,
+      "rtts": [
+        19.816,
+        9.033,
+        15.439
+      ],
+      "avg_rtt": 14.76,
+      "timeout": false
+    }
+  ],
+  "num_hops": 10,
+  "success": true,
+  "raw_output": " 1  192.168.50.1  24.389 ms  2.948 ms  9.037 ms\n 2  140.123.103.250  6.253 ms  2.872 ms  16.642 ms\n 3  140.123.9.249  9.236 ms  3.620 ms  3.046 ms\n 4  140.123.0.246  81.100 ms  6.263 ms  3.209 ms\n 5  140.130.252.251  3.668 ms  3.776 ms  35.389 ms\n 6  192.192.61.142  13.792 ms  5.858 ms  6.469 ms\n 7  192.192.61.20  8.135 ms  21.118 ms  7.905 ms\n 8  192.192.61.184  11.794 ms  9.648 ms  33.525 ms\n 9  192.192.61.203  12.940 ms  8.792 ms  9.546 ms\n10  72.14.196.229  9.210 ms  11.821 ms  12.782 ms\n11  34.117.62.131  19.816 ms  9.033 ms  15.439 ms\n",
+  "category": "ecommerce_tech",
+  "base_domain": "books.com.tw",
+  "service_variant": "www.books.com.tw",
+  "is_bare_domain": false
+}

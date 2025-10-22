@@ -1,0 +1,135 @@
+{
+  "timestamp": "2025-10-14T15:33:29.966196",
+  "vantage_point": "university",
+  "target": "mail.mof.gov.tw",
+  "target_ip": "61.60.101.134",
+  "protocol": "icmp",
+  "port": null,
+  "duration_seconds": 9.22,
+  "hops": [
+    {
+      "hop": 2,
+      "ip": "140.123.103.250",
+      "hostname": null,
+      "rtts": [
+        2.675,
+        2.421,
+        2.173
+      ],
+      "avg_rtt": 2.42,
+      "timeout": false
+    },
+    {
+      "hop": 3,
+      "ip": "140.123.9.249",
+      "hostname": null,
+      "rtts": [
+        3.703,
+        2.63,
+        2.447
+      ],
+      "avg_rtt": 2.93,
+      "timeout": false
+    },
+    {
+      "hop": 4,
+      "ip": "140.123.0.246",
+      "hostname": null,
+      "rtts": [
+        4.968,
+        2.927,
+        3.165
+      ],
+      "avg_rtt": 3.69,
+      "timeout": false
+    },
+    {
+      "hop": 5,
+      "ip": "140.130.252.251",
+      "hostname": null,
+      "rtts": [
+        4.225,
+        3.651,
+        3.685
+      ],
+      "avg_rtt": 3.85,
+      "timeout": false
+    },
+    {
+      "hop": 6,
+      "ip": "192.192.61.142",
+      "hostname": null,
+      "rtts": [
+        5.378,
+        15.463,
+        5.577
+      ],
+      "avg_rtt": 8.81,
+      "timeout": false
+    },
+    {
+      "hop": 7,
+      "ip": "192.192.61.37",
+      "hostname": null,
+      "rtts": [
+        6.661,
+        7.79,
+        7.397
+      ],
+      "avg_rtt": 7.28,
+      "timeout": false
+    },
+    {
+      "hop": 8,
+      "ip": "192.192.61.32",
+      "hostname": null,
+      "rtts": [
+        7.705,
+        8.27,
+        14.083
+      ],
+      "avg_rtt": 10.02,
+      "timeout": false
+    },
+    {
+      "hop": 9,
+      "ip": "192.192.61.209",
+      "hostname": null,
+      "rtts": [
+        8.267,
+        20.575,
+        7.585
+      ],
+      "avg_rtt": 12.14,
+      "timeout": false
+    },
+    {
+      "hop": 10,
+      "ip": "10.96.81.12",
+      "hostname": null,
+      "rtts": [
+        12.259
+      ],
+      "avg_rtt": 12.26,
+      "timeout": false
+    },
+    {
+      "hop": 11,
+      "ip": "10.96.81.12",
+      "hostname": null,
+      "rtts": [
+        10.089,
+        9.182
+      ],
+      "avg_rtt": 9.64,
+      "timeout": false
+    }
+  ],
+  "num_hops": 10,
+  "success": false,
+  "raw_output": " 1  192.168.50.1  7.709 ms  4.510 ms  1.902 ms\n 2  140.123.103.250  2.675 ms  2.421 ms  2.173 ms\n 3  140.123.9.249  3.703 ms  2.630 ms  2.447 ms\n 4  140.123.0.246  4.968 ms  2.927 ms  3.165 ms\n 5  140.130.252.251  4.225 ms  3.651 ms  3.685 ms\n 6  192.192.61.142  5.378 ms  15.463 ms  5.577 ms\n 7  192.192.61.37  6.661 ms  7.790 ms  7.397 ms\n 8  192.192.61.32  7.705 ms  8.270 ms  14.083 ms\n 9  192.192.61.209  8.267 ms  20.575 ms  7.585 ms\n10  10.96.81.12  12.259 ms !X * *\n11  10.96.81.12  10.089 ms !X *  9.182 ms !X\n",
+  "category": "government_central",
+  "base_domain": "mof.gov.tw",
+  "service_variant": "mail.mof.gov.tw",
+  "is_bare_domain": false
+}

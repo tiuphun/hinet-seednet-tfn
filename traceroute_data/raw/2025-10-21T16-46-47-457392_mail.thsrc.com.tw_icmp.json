@@ -1,0 +1,140 @@
+{
+  "timestamp": "2025-10-21T16:46:47.457392",
+  "vantage_point": "university",
+  "target": "mail.thsrc.com.tw",
+  "target_ip": "60.251.244.98",
+  "protocol": "icmp",
+  "port": null,
+  "duration_seconds": 19.11,
+  "hops": [
+    {
+      "hop": 2,
+      "ip": "140.123.103.250",
+      "hostname": "csgate103.cs.ccu.edu.tw",
+      "rtts": [
+        2.375,
+        21.08,
+        2.379
+      ],
+      "avg_rtt": 8.61,
+      "timeout": false
+    },
+    {
+      "hop": 3,
+      "ip": "140.123.9.249",
+      "hostname": "140.123.9.249",
+      "rtts": [
+        3.438,
+        11.093,
+        5.714
+      ],
+      "avg_rtt": 6.75,
+      "timeout": false
+    },
+    {
+      "hop": 4,
+      "ip": "140.123.0.246",
+      "hostname": "140.123.0.246",
+      "rtts": [
+        11.677,
+        4.198,
+        3.295
+      ],
+      "avg_rtt": 6.39,
+      "timeout": false
+    },
+    {
+      "hop": 5,
+      "ip": "140.130.252.251",
+      "hostname": "140.130.252.251",
+      "rtts": [
+        17.774,
+        12.76,
+        12.68
+      ],
+      "avg_rtt": 14.4,
+      "timeout": false
+    },
+    {
+      "hop": 6,
+      "ip": "211.22.226.198",
+      "hostname": "211-22-226-198.caw1-3332.hinet.net",
+      "rtts": [
+        8.046,
+        5.283,
+        12.433
+      ],
+      "avg_rtt": 8.59,
+      "timeout": false
+    },
+    {
+      "hop": 7,
+      "ip": null,
+      "hostname": null,
+      "rtts": [],
+      "timeout": true
+    },
+    {
+      "hop": 8,
+      "ip": "220.128.9.130",
+      "hostname": "220-128-9-130.tylc-3032.hinet.net",
+      "rtts": [
+        30.099,
+        10.655,
+        27.764
+      ],
+      "avg_rtt": 22.84,
+      "timeout": false
+    },
+    {
+      "hop": 9,
+      "ip": "220.128.9.149",
+      "hostname": "220-128-9-149.tyfo-3332.hinet.net",
+      "rtts": [
+        18.551,
+        17.606,
+        12.488
+      ],
+      "avg_rtt": 16.21,
+      "timeout": false
+    },
+    {
+      "hop": 10,
+      "ip": "168.95.229.105",
+      "hostname": "h105.s229.ts.hinet.net",
+      "rtts": [
+        14.306,
+        20.176,
+        20.088
+      ],
+      "avg_rtt": 18.19,
+      "timeout": false
+    },
+    {
+      "hop": 11,
+      "ip": null,
+      "hostname": null,
+      "rtts": [],
+      "timeout": true
+    },
+    {
+      "hop": 12,
+      "ip": "60.251.244.98",
+      "hostname": "mail.thsrc.com.tw",
+      "rtts": [
+        16.735,
+        27.067,
+        10.254
+      ],
+      "avg_rtt": 18.02,
+      "timeout": false
+    }
+  ],
+  "num_hops": 11,
+  "success": true,
+  "raw_output": " 1  192.168.50.1 (192.168.50.1)  11.235 ms  5.195 ms  2.877 ms\n 2  csgate103.cs.ccu.edu.tw (140.123.103.250)  2.375 ms  21.080 ms  2.379 ms\n 3  140.123.9.249 (140.123.9.249)  3.438 ms  11.093 ms  5.714 ms\n 4  140.123.0.246 (140.123.0.246)  11.677 ms  4.198 ms  3.295 ms\n 5  140.130.252.251 (140.130.252.251)  17.774 ms  12.760 ms  12.680 ms\n 6  211-22-226-198.caw1-3332.hinet.net (211.22.226.198)  8.046 ms  5.283 ms  12.433 ms\n 7  * * *\n 8  220-128-9-130.tylc-3032.hinet.net (220.128.9.130)  30.099 ms  10.655 ms  27.764 ms\n 9  220-128-9-149.tyfo-3332.hinet.net (220.128.9.149)  18.551 ms  17.606 ms  12.488 ms\n10  h105.s229.ts.hinet.net (168.95.229.105)  14.306 ms  20.176 ms  20.088 ms\n11  * * *\n12  mail.thsrc.com.tw (60.251.244.98)  16.735 ms  27.067 ms  10.254 ms\n",
+  "category": "critical_infra",
+  "base_domain": "thsrc.com.tw",
+  "service_variant": "mail.thsrc.com.tw",
+  "is_bare_domain": false
+}

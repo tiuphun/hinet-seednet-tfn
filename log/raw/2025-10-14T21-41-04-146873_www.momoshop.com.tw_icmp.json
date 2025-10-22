@@ -1,0 +1,128 @@
+{
+  "timestamp": "2025-10-14T21:41:04.146873",
+  "vantage_point": "university",
+  "target": "www.momoshop.com.tw",
+  "target_ip": "203.74.67.16",
+  "protocol": "icmp",
+  "port": null,
+  "duration_seconds": 18.26,
+  "hops": [
+    {
+      "hop": 2,
+      "ip": "140.123.103.250",
+      "hostname": null,
+      "rtts": [
+        2.644,
+        4.355,
+        2.635
+      ],
+      "avg_rtt": 3.21,
+      "timeout": false
+    },
+    {
+      "hop": 3,
+      "ip": "140.123.9.249",
+      "hostname": null,
+      "rtts": [
+        2.429,
+        3.817,
+        2.854
+      ],
+      "avg_rtt": 3.03,
+      "timeout": false
+    },
+    {
+      "hop": 4,
+      "ip": "140.123.0.246",
+      "hostname": null,
+      "rtts": [
+        6.065,
+        3.392,
+        3.569
+      ],
+      "avg_rtt": 4.34,
+      "timeout": false
+    },
+    {
+      "hop": 5,
+      "ip": "140.130.252.251",
+      "hostname": null,
+      "rtts": [
+        5.076,
+        4.241,
+        4.25
+      ],
+      "avg_rtt": 4.52,
+      "timeout": false
+    },
+    {
+      "hop": 6,
+      "ip": "211.22.226.198",
+      "hostname": null,
+      "rtts": [
+        6.234,
+        7.757,
+        13.308
+      ],
+      "avg_rtt": 9.1,
+      "timeout": false
+    },
+    {
+      "hop": 7,
+      "ip": null,
+      "hostname": null,
+      "rtts": [],
+      "timeout": true
+    },
+    {
+      "hop": 8,
+      "ip": null,
+      "hostname": null,
+      "rtts": [],
+      "timeout": true
+    },
+    {
+      "hop": 9,
+      "ip": "220.128.17.65",
+      "hostname": null,
+      "rtts": [
+        20.654,
+        9.31,
+        10.65
+      ],
+      "avg_rtt": 13.54,
+      "timeout": false
+    },
+    {
+      "hop": 10,
+      "ip": "210.65.144.5",
+      "hostname": null,
+      "rtts": [
+        16.875,
+        11.521,
+        9.562
+      ],
+      "avg_rtt": 12.65,
+      "timeout": false
+    },
+    {
+      "hop": 11,
+      "ip": "203.74.67.16",
+      "hostname": null,
+      "rtts": [
+        12.549,
+        8.745,
+        9.455
+      ],
+      "avg_rtt": 10.25,
+      "timeout": false
+    }
+  ],
+  "num_hops": 10,
+  "success": true,
+  "raw_output": " 1  192.168.50.1  13.172 ms  2.733 ms  2.854 ms\n 2  140.123.103.250  2.644 ms  4.355 ms  2.635 ms\n 3  140.123.9.249  2.429 ms  3.817 ms  2.854 ms\n 4  140.123.0.246  6.065 ms  3.392 ms  3.569 ms\n 5  140.130.252.251  5.076 ms  4.241 ms  4.250 ms\n 6  211.22.226.198  6.234 ms  7.757 ms  13.308 ms\n 7  * * *\n 8  * * *\n 9  220.128.17.65  20.654 ms  9.310 ms  10.650 ms\n10  210.65.144.5  16.875 ms  11.521 ms  9.562 ms\n11  203.74.67.16  12.549 ms  8.745 ms  9.455 ms\n",
+  "category": "ecommerce_tech",
+  "base_domain": "momoshop.com.tw",
+  "service_variant": "www.momoshop.com.tw",
+  "is_bare_domain": false
+}

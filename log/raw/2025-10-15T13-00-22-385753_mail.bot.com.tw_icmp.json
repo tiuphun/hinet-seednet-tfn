@@ -1,0 +1,136 @@
+{
+  "timestamp": "2025-10-15T13:00:22.385753",
+  "vantage_point": "itaiwan",
+  "target": "mail.bot.com.tw",
+  "target_ip": "210.71.212.100",
+  "protocol": "icmp",
+  "port": null,
+  "duration_seconds": 33.44,
+  "hops": [
+    {
+      "hop": 2,
+      "ip": "168.95.98.254",
+      "hostname": "h254.s98.ts.hinet.net",
+      "rtts": [
+        7.065,
+        5.662,
+        3.147
+      ],
+      "avg_rtt": 5.29,
+      "timeout": false,
+      "network": "hinet",
+      "network_name": "HiNet (Chunghwa Telecom)",
+      "is_interesting": true,
+      "is_private": false
+    },
+    {
+      "hop": 3,
+      "ip": "168.95.128.54",
+      "hostname": "168-95-128-54.caw1-3331.hinet.net",
+      "rtts": [
+        3.315,
+        3.736,
+        3.622
+      ],
+      "avg_rtt": 3.56,
+      "timeout": false,
+      "network": "hinet",
+      "network_name": "HiNet (Chunghwa Telecom)",
+      "is_interesting": true,
+      "is_private": false
+    },
+    {
+      "hop": 4,
+      "ip": null,
+      "hostname": null,
+      "rtts": [],
+      "timeout": true
+    },
+    {
+      "hop": 5,
+      "ip": null,
+      "hostname": null,
+      "rtts": [],
+      "timeout": true
+    },
+    {
+      "hop": 6,
+      "ip": "220.128.4.177",
+      "hostname": "220-128-4-177.tpdt-3309.hinet.net",
+      "rtts": [
+        24.204,
+        40.227,
+        35.848
+      ],
+      "avg_rtt": 33.43,
+      "timeout": false,
+      "network": "hinet",
+      "network_name": "HiNet (Chunghwa Telecom)",
+      "is_interesting": true,
+      "is_private": false
+    },
+    {
+      "hop": 7,
+      "ip": null,
+      "hostname": null,
+      "rtts": [],
+      "timeout": true
+    },
+    {
+      "hop": 8,
+      "ip": null,
+      "hostname": null,
+      "rtts": [],
+      "timeout": true
+    },
+    {
+      "hop": 9,
+      "ip": null,
+      "hostname": null,
+      "rtts": [],
+      "timeout": true
+    }
+  ],
+  "num_hops": 8,
+  "success": false,
+  "path_analysis": {
+    "networks_traversed": [
+      {
+        "network": "hinet",
+        "network_name": "HiNet (Chunghwa Telecom)",
+        "first_hop": 2
+      }
+    ],
+    "interesting_routers": [
+      {
+        "hop": 2,
+        "ip": "168.95.98.254",
+        "hostname": "h254.s98.ts.hinet.net",
+        "network": "hinet",
+        "network_name": "HiNet (Chunghwa Telecom)"
+      },
+      {
+        "hop": 3,
+        "ip": "168.95.128.54",
+        "hostname": "168-95-128-54.caw1-3331.hinet.net",
+        "network": "hinet",
+        "network_name": "HiNet (Chunghwa Telecom)"
+      },
+      {
+        "hop": 6,
+        "ip": "220.128.4.177",
+        "hostname": "220-128-4-177.tpdt-3309.hinet.net",
+        "network": "hinet",
+        "network_name": "HiNet (Chunghwa Telecom)"
+      }
+    ],
+    "private_hops": 0,
+    "total_hops": 8,
+    "network_transitions": []
+  },
+  "raw_output": " 1  172.16.193.250 (172.16.193.250)  53.989 ms  11.436 ms  7.402 ms\n 2  h254.s98.ts.hinet.net (168.95.98.254)  7.065 ms  5.662 ms  3.147 ms\n 3  168-95-128-54.caw1-3331.hinet.net (168.95.128.54)  3.315 ms  3.736 ms  3.622 ms\n 4  * * *\n 5  * * *\n 6  220-128-4-177.tpdt-3309.hinet.net (220.128.4.177)  24.204 ms  40.227 ms  35.848 ms\n 7  * h45.s209.ts.hinet.net (168.95.209.45)  28.692 ms  19.326 ms\n 8  * * *\n 9  * 210.71.212.100 (210.71.212.100)  13.150 ms  10.061 ms\n",
+  "category": "financial_banks",
+  "base_domain": "bot.com.tw",
+  "service_variant": "mail.bot.com.tw",
+  "is_bare_domain": false
+}

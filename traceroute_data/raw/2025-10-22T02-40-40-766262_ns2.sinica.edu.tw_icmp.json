@@ -1,0 +1,174 @@
+{
+  "timestamp": "2025-10-22T02:40:40.766262",
+  "vantage_point": "university",
+  "target": "ns2.sinica.edu.tw",
+  "target_ip": "103.130.253.5",
+  "protocol": "icmp",
+  "port": null,
+  "duration_seconds": 1.65,
+  "hops": [
+    {
+      "hop": 2,
+      "ip": "140.123.103.250",
+      "hostname": "csgate103.cs.ccu.edu.tw",
+      "rtts": [
+        3.141,
+        5.938,
+        3.821
+      ],
+      "avg_rtt": 4.3,
+      "timeout": false
+    },
+    {
+      "hop": 3,
+      "ip": "140.123.9.249",
+      "hostname": "140.123.9.249",
+      "rtts": [
+        3.122,
+        2.985,
+        5.238
+      ],
+      "avg_rtt": 3.78,
+      "timeout": false
+    },
+    {
+      "hop": 4,
+      "ip": "140.123.0.246",
+      "hostname": "140.123.0.246",
+      "rtts": [
+        3.546,
+        3.261,
+        3.239
+      ],
+      "avg_rtt": 3.35,
+      "timeout": false
+    },
+    {
+      "hop": 5,
+      "ip": "211.79.57.25",
+      "hostname": "ccu-ccu-76.twaren.net",
+      "rtts": [
+        8.398,
+        10.107,
+        8.291
+      ],
+      "avg_rtt": 8.93,
+      "timeout": false
+    },
+    {
+      "hop": 6,
+      "ip": "211.73.76.209",
+      "hostname": "tn-a1.twaren.net",
+      "rtts": [
+        7.423,
+        5.452,
+        11.298
+      ],
+      "avg_rtt": 8.06,
+      "timeout": false
+    },
+    {
+      "hop": 7,
+      "ip": "211.73.76.81",
+      "hostname": "tp-a1.twaren.net",
+      "rtts": [
+        14.719,
+        9.389,
+        9.215
+      ],
+      "avg_rtt": 11.11,
+      "timeout": false
+    },
+    {
+      "hop": 8,
+      "ip": "211.73.76.66",
+      "hostname": "tp-a2.twaren.net",
+      "rtts": [
+        13.818,
+        8.957,
+        9.762
+      ],
+      "avg_rtt": 10.85,
+      "timeout": false
+    },
+    {
+      "hop": 9,
+      "ip": "211.73.76.98",
+      "hostname": "sinica-a1.twaren.net",
+      "rtts": [
+        11.302,
+        10.217,
+        9.346
+      ],
+      "avg_rtt": 10.29,
+      "timeout": false
+    },
+    {
+      "hop": 10,
+      "ip": "202.169.174.94",
+      "hostname": "202.169.174.94",
+      "rtts": [
+        9.182,
+        10.515,
+        10.929
+      ],
+      "avg_rtt": 10.21,
+      "timeout": false
+    },
+    {
+      "hop": 11,
+      "ip": "202.169.174.50",
+      "hostname": "202.169.174.50",
+      "rtts": [
+        13.653,
+        9.022,
+        16.903
+      ],
+      "avg_rtt": 13.19,
+      "timeout": false
+    },
+    {
+      "hop": 12,
+      "ip": "172.16.3.3",
+      "hostname": "172.16.3.3",
+      "rtts": [
+        137.36,
+        139.356,
+        138.787
+      ],
+      "avg_rtt": 138.5,
+      "timeout": false
+    },
+    {
+      "hop": 13,
+      "ip": "172.17.201.2",
+      "hostname": "172.17.201.2",
+      "rtts": [
+        134.167,
+        134.734,
+        140.463
+      ],
+      "avg_rtt": 136.45,
+      "timeout": false
+    },
+    {
+      "hop": 14,
+      "ip": "103.130.253.5",
+      "hostname": "103.130.253.5",
+      "rtts": [
+        137.187,
+        134.688,
+        136.661
+      ],
+      "avg_rtt": 136.18,
+      "timeout": false
+    }
+  ],
+  "num_hops": 13,
+  "success": true,
+  "raw_output": " 1  192.168.50.1 (192.168.50.1)  11.122 ms  3.587 ms  3.706 ms\n 2  csgate103.cs.ccu.edu.tw (140.123.103.250)  3.141 ms  5.938 ms  3.821 ms\n 3  140.123.9.249 (140.123.9.249)  3.122 ms  2.985 ms  5.238 ms\n 4  140.123.0.246 (140.123.0.246)  3.546 ms  3.261 ms  3.239 ms\n 5  ccu-ccu-76.twaren.net (211.79.57.25)  8.398 ms  10.107 ms  8.291 ms\n 6  tn-a1.twaren.net (211.73.76.209)  7.423 ms  5.452 ms  11.298 ms\n 7  tp-a1.twaren.net (211.73.76.81)  14.719 ms  9.389 ms  9.215 ms\n 8  tp-a2.twaren.net (211.73.76.66)  13.818 ms  8.957 ms  9.762 ms\n 9  sinica-a1.twaren.net (211.73.76.98)  11.302 ms  10.217 ms  9.346 ms\n10  202.169.174.94 (202.169.174.94)  9.182 ms  10.515 ms  10.929 ms\n11  202.169.174.50 (202.169.174.50)  13.653 ms  9.022 ms  16.903 ms\n12  172.16.3.3 (172.16.3.3)  137.360 ms  139.356 ms  138.787 ms\n13  172.17.201.2 (172.17.201.2)  134.167 ms  134.734 ms  140.463 ms\n14  103.130.253.5 (103.130.253.5)  137.187 ms  134.688 ms  136.661 ms\n",
+  "category": "education_network",
+  "base_domain": "sinica.edu.tw",
+  "service_variant": "ns2.sinica.edu.tw",
+  "is_bare_domain": false
+}

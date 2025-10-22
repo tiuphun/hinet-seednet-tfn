@@ -1,0 +1,183 @@
+{
+  "timestamp": "2025-10-21T14:18:09.941585",
+  "vantage_point": "university",
+  "target": "webmail.pchome.com.tw",
+  "target_ip": "211.20.188.70",
+  "protocol": "icmp",
+  "port": null,
+  "duration_seconds": 28.31,
+  "hops": [
+    {
+      "hop": 2,
+      "ip": "140.123.103.250",
+      "hostname": "csgate103.cs.ccu.edu.tw",
+      "rtts": [
+        2.531,
+        2.43,
+        9.081
+      ],
+      "avg_rtt": 4.68,
+      "timeout": false
+    },
+    {
+      "hop": 3,
+      "ip": "140.123.9.249",
+      "hostname": "140.123.9.249",
+      "rtts": [
+        4.626,
+        2.161,
+        2.416
+      ],
+      "avg_rtt": 3.07,
+      "timeout": false
+    },
+    {
+      "hop": 4,
+      "ip": "140.123.0.246",
+      "hostname": "140.123.0.246",
+      "rtts": [
+        2.735,
+        3.067,
+        3.622
+      ],
+      "avg_rtt": 3.14,
+      "timeout": false
+    },
+    {
+      "hop": 5,
+      "ip": "140.130.252.251",
+      "hostname": "140.130.252.251",
+      "rtts": [
+        4.367,
+        4.085,
+        3.715
+      ],
+      "avg_rtt": 4.06,
+      "timeout": false
+    },
+    {
+      "hop": 6,
+      "ip": "211.22.226.198",
+      "hostname": "211-22-226-198.caw1-3332.hinet.net",
+      "rtts": [
+        4.127,
+        6.029,
+        6.909
+      ],
+      "avg_rtt": 5.69,
+      "timeout": false
+    },
+    {
+      "hop": 7,
+      "ip": null,
+      "hostname": null,
+      "rtts": [],
+      "timeout": true
+    },
+    {
+      "hop": 8,
+      "ip": null,
+      "hostname": null,
+      "rtts": [],
+      "timeout": true
+    },
+    {
+      "hop": 9,
+      "ip": "220.128.2.5",
+      "hostname": "220-128-2-5.tpdb-3315.hinet.net",
+      "rtts": [
+        72.962,
+        39.317,
+        27.232
+      ],
+      "avg_rtt": 46.5,
+      "timeout": false
+    },
+    {
+      "hop": 10,
+      "ip": "168.95.228.13",
+      "hostname": "h13.s228.ts.hinet.net",
+      "rtts": [
+        18.951,
+        10.819,
+        10.957
+      ],
+      "avg_rtt": 13.58,
+      "timeout": false
+    },
+    {
+      "hop": 11,
+      "ip": null,
+      "hostname": null,
+      "rtts": [],
+      "timeout": true
+    },
+    {
+      "hop": 12,
+      "ip": "203.69.108.45",
+      "hostname": "203.69.108.45",
+      "rtts": [
+        12.2,
+        25.684,
+        40.01
+      ],
+      "avg_rtt": 25.96,
+      "timeout": false
+    },
+    {
+      "hop": 13,
+      "ip": "203.69.108.139",
+      "hostname": "203.69.108.139",
+      "rtts": [
+        27.038,
+        88.323,
+        86.95
+      ],
+      "avg_rtt": 67.44,
+      "timeout": false
+    },
+    {
+      "hop": 14,
+      "ip": "203.69.108.154",
+      "hostname": "203.69.108.154",
+      "rtts": [
+        70.523,
+        120.82,
+        80.36
+      ],
+      "avg_rtt": 90.57,
+      "timeout": false
+    },
+    {
+      "hop": 15,
+      "ip": "211.72.249.225",
+      "hostname": "211.72.249.225",
+      "rtts": [
+        11.019,
+        14.351,
+        11.776
+      ],
+      "avg_rtt": 12.38,
+      "timeout": false
+    },
+    {
+      "hop": 16,
+      "ip": "211.20.188.70",
+      "hostname": "webmail.pchome.com.tw",
+      "rtts": [
+        13.884,
+        11.53,
+        14.763
+      ],
+      "avg_rtt": 13.39,
+      "timeout": false
+    }
+  ],
+  "num_hops": 15,
+  "success": true,
+  "raw_output": " 1  192.168.50.1 (192.168.50.1)  11.874 ms  2.325 ms  2.045 ms\n 2  csgate103.cs.ccu.edu.tw (140.123.103.250)  2.531 ms  2.430 ms  9.081 ms\n 3  140.123.9.249 (140.123.9.249)  4.626 ms  2.161 ms  2.416 ms\n 4  140.123.0.246 (140.123.0.246)  2.735 ms  3.067 ms  3.622 ms\n 5  140.130.252.251 (140.130.252.251)  4.367 ms  4.085 ms  3.715 ms\n 6  211-22-226-198.caw1-3332.hinet.net (211.22.226.198)  4.127 ms  6.029 ms  6.909 ms\n 7  * * *\n 8  * * *\n 9  220-128-2-5.tpdb-3315.hinet.net (220.128.2.5)  72.962 ms  39.317 ms  27.232 ms\n10  h13.s228.ts.hinet.net (168.95.228.13)  18.951 ms  10.819 ms  10.957 ms\n11  * * *\n12  203.69.108.45 (203.69.108.45)  12.200 ms  25.684 ms  40.010 ms\n13  203.69.108.139 (203.69.108.139)  27.038 ms  88.323 ms  86.950 ms\n14  203.69.108.154 (203.69.108.154)  70.523 ms  120.820 ms  80.360 ms\n15  211.72.249.225 (211.72.249.225)  11.019 ms  14.351 ms  11.776 ms\n16  webmail.pchome.com.tw (211.20.188.70)  13.884 ms  11.530 ms  14.763 ms\n",
+  "category": "ecommerce_tech",
+  "base_domain": "pchome.com.tw",
+  "service_variant": "webmail.pchome.com.tw",
+  "is_bare_domain": false
+}

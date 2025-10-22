@@ -1,0 +1,206 @@
+{
+  "timestamp": "2025-10-22T09:22:56.638077",
+  "vantage_point": "university",
+  "target": "portal.microsoft.com",
+  "target_ip": "150.171.73.13",
+  "protocol": "icmp",
+  "port": null,
+  "duration_seconds": 72.62,
+  "hops": [
+    {
+      "hop": 2,
+      "ip": "140.123.103.250",
+      "hostname": "csgate103.cs.ccu.edu.tw",
+      "rtts": [
+        3.15,
+        2.742,
+        3.439
+      ],
+      "avg_rtt": 3.11,
+      "timeout": false
+    },
+    {
+      "hop": 3,
+      "ip": "140.123.9.249",
+      "hostname": "140.123.9.249",
+      "rtts": [
+        10.77,
+        4.863,
+        8.483
+      ],
+      "avg_rtt": 8.04,
+      "timeout": false
+    },
+    {
+      "hop": 4,
+      "ip": "140.123.0.246",
+      "hostname": "140.123.0.246",
+      "rtts": [
+        7.672,
+        9.778,
+        3.773
+      ],
+      "avg_rtt": 7.07,
+      "timeout": false
+    },
+    {
+      "hop": 5,
+      "ip": "140.130.252.251",
+      "hostname": "140.130.252.251",
+      "rtts": [
+        25.191,
+        21.545,
+        14.508
+      ],
+      "avg_rtt": 20.41,
+      "timeout": false
+    },
+    {
+      "hop": 6,
+      "ip": "192.192.61.142",
+      "hostname": "192.192.61.142",
+      "rtts": [
+        6.159,
+        10.338,
+        20.916
+      ],
+      "avg_rtt": 12.47,
+      "timeout": false
+    },
+    {
+      "hop": 7,
+      "ip": "192.192.61.20",
+      "hostname": "192.192.61.20",
+      "rtts": [
+        10.716,
+        9.299,
+        8.996
+      ],
+      "avg_rtt": 9.67,
+      "timeout": false
+    },
+    {
+      "hop": 8,
+      "ip": "192.192.61.48",
+      "hostname": "192.192.61.48",
+      "rtts": [
+        8.275,
+        8.105,
+        9.379
+      ],
+      "avg_rtt": 8.59,
+      "timeout": false
+    },
+    {
+      "hop": 9,
+      "ip": "192.192.68.62",
+      "hostname": "192.192.68.62",
+      "rtts": [
+        14.678,
+        20.585,
+        17.167
+      ],
+      "avg_rtt": 17.48,
+      "timeout": false
+    },
+    {
+      "hop": 10,
+      "ip": "203.163.222.15",
+      "hostname": "15-222-163-203-static.tpix.net.tw",
+      "rtts": [
+        33.433,
+        8.825,
+        37.084
+      ],
+      "avg_rtt": 26.45,
+      "timeout": false
+    },
+    {
+      "hop": 11,
+      "ip": "104.44.51.234",
+      "hostname": "104.44.51.234",
+      "rtts": [
+        10.616,
+        12.426,
+        13.224
+      ],
+      "avg_rtt": 12.09,
+      "timeout": false
+    },
+    {
+      "hop": 12,
+      "ip": null,
+      "hostname": null,
+      "rtts": [],
+      "timeout": true
+    },
+    {
+      "hop": 13,
+      "ip": null,
+      "hostname": null,
+      "rtts": [],
+      "timeout": true
+    },
+    {
+      "hop": 14,
+      "ip": null,
+      "hostname": null,
+      "rtts": [],
+      "timeout": true
+    },
+    {
+      "hop": 15,
+      "ip": null,
+      "hostname": null,
+      "rtts": [],
+      "timeout": true
+    },
+    {
+      "hop": 16,
+      "ip": null,
+      "hostname": null,
+      "rtts": [],
+      "timeout": true
+    },
+    {
+      "hop": 17,
+      "ip": null,
+      "hostname": null,
+      "rtts": [],
+      "timeout": true
+    },
+    {
+      "hop": 18,
+      "ip": null,
+      "hostname": null,
+      "rtts": [],
+      "timeout": true
+    },
+    {
+      "hop": 19,
+      "ip": null,
+      "hostname": null,
+      "rtts": [],
+      "timeout": true
+    },
+    {
+      "hop": 20,
+      "ip": "150.171.73.13",
+      "hostname": "150.171.73.13",
+      "rtts": [
+        24.8,
+        11.965,
+        12.63
+      ],
+      "avg_rtt": 16.46,
+      "timeout": false
+    }
+  ],
+  "num_hops": 19,
+  "success": true,
+  "raw_output": " 1  192.168.50.1 (192.168.50.1)  3.941 ms  4.083 ms  6.702 ms\n 2  csgate103.cs.ccu.edu.tw (140.123.103.250)  3.150 ms  2.742 ms  3.439 ms\n 3  140.123.9.249 (140.123.9.249)  10.770 ms  4.863 ms  8.483 ms\n 4  140.123.0.246 (140.123.0.246)  7.672 ms  9.778 ms  3.773 ms\n 5  140.130.252.251 (140.130.252.251)  25.191 ms  21.545 ms  14.508 ms\n 6  192.192.61.142 (192.192.61.142)  6.159 ms  10.338 ms  20.916 ms\n 7  192.192.61.20 (192.192.61.20)  10.716 ms  9.299 ms  8.996 ms\n 8  192.192.61.48 (192.192.61.48)  8.275 ms  8.105 ms  9.379 ms\n 9  192.192.68.62 (192.192.68.62)  14.678 ms  20.585 ms  17.167 ms\n10  15-222-163-203-static.tpix.net.tw (203.163.222.15)  33.433 ms  8.825 ms  37.084 ms\n11  104.44.51.234 (104.44.51.234)  10.616 ms  12.426 ms  13.224 ms\n12  * * *\n13  * * *\n14  * * *\n15  * * *\n16  * * *\n17  * * *\n18  * * *\n19  * * *\n20  150.171.73.13 (150.171.73.13)  24.800 ms  11.965 ms  12.630 ms\n",
+  "category": "cdn_global",
+  "base_domain": "microsoft.com",
+  "service_variant": "portal.microsoft.com",
+  "is_bare_domain": false
+}

@@ -1,0 +1,231 @@
+{
+  "timestamp": "2025-10-15T13:14:19.684196",
+  "vantage_point": "itaiwan",
+  "target": "esunbank.com.tw",
+  "target_ip": "219.87.57.163",
+  "protocol": "icmp",
+  "port": null,
+  "duration_seconds": 18.4,
+  "hops": [
+    {
+      "hop": 2,
+      "ip": "168.95.98.254",
+      "hostname": "h254.s98.ts.hinet.net",
+      "rtts": [
+        3.191,
+        5.473,
+        4.746
+      ],
+      "avg_rtt": 4.47,
+      "timeout": false,
+      "network": "hinet",
+      "network_name": "HiNet (Chunghwa Telecom)",
+      "is_interesting": true,
+      "is_private": false
+    },
+    {
+      "hop": 3,
+      "ip": "168.95.129.50",
+      "hostname": "168-95-129-50.caw1-3332.hinet.net",
+      "rtts": [
+        5.375,
+        3.768,
+        4.208
+      ],
+      "avg_rtt": 4.45,
+      "timeout": false,
+      "network": "hinet",
+      "network_name": "HiNet (Chunghwa Telecom)",
+      "is_interesting": true,
+      "is_private": false
+    },
+    {
+      "hop": 4,
+      "ip": null,
+      "hostname": null,
+      "rtts": [],
+      "timeout": true
+    },
+    {
+      "hop": 5,
+      "ip": null,
+      "hostname": null,
+      "rtts": [],
+      "timeout": true
+    },
+    {
+      "hop": 6,
+      "ip": "220.128.1.125",
+      "hostname": "220-128-1-125.tpdb-4211.hinet.net",
+      "rtts": [
+        16.629,
+        10.554,
+        10.003
+      ],
+      "avg_rtt": 12.4,
+      "timeout": false,
+      "network": "hinet",
+      "network_name": "HiNet (Chunghwa Telecom)",
+      "is_interesting": true,
+      "is_private": false
+    },
+    {
+      "hop": 7,
+      "ip": "203.75.230.109",
+      "hostname": "203-75-230-109.hinet-ip.hinet.net",
+      "rtts": [
+        12.094,
+        10.235,
+        11.047
+      ],
+      "avg_rtt": 11.13,
+      "timeout": false,
+      "network": "hinet",
+      "network_name": "HiNet (Chunghwa Telecom)",
+      "is_interesting": true,
+      "is_private": false
+    },
+    {
+      "hop": 8,
+      "ip": "60.199.3.57",
+      "hostname": "60-199-3-57.static.tfn.net.tw",
+      "rtts": [
+        10.165,
+        10.569,
+        10.147
+      ],
+      "avg_rtt": 10.29,
+      "timeout": false,
+      "network": "other",
+      "network_name": "Other Network",
+      "is_interesting": false,
+      "is_private": false
+    },
+    {
+      "hop": 9,
+      "ip": "60.199.6.98",
+      "hostname": "60-199-6-98.static.tfn.net.tw",
+      "rtts": [
+        10.238,
+        9.968,
+        10.014
+      ],
+      "avg_rtt": 10.07,
+      "timeout": false,
+      "network": "other",
+      "network_name": "Other Network",
+      "is_interesting": false,
+      "is_private": false
+    },
+    {
+      "hop": 10,
+      "ip": "60.199.82.13",
+      "hostname": "60-199-82-13.static.tfn.net.tw",
+      "rtts": [
+        10.558,
+        10.486,
+        10.806
+      ],
+      "avg_rtt": 10.62,
+      "timeout": false,
+      "network": "other",
+      "network_name": "Other Network",
+      "is_interesting": false,
+      "is_private": false
+    },
+    {
+      "hop": 11,
+      "ip": "60.199.17.230",
+      "hostname": "60-199-17-230.static.tfn.net.tw",
+      "rtts": [
+        12.389,
+        17.189,
+        12.416
+      ],
+      "avg_rtt": 14.0,
+      "timeout": false,
+      "network": "other",
+      "network_name": "Other Network",
+      "is_interesting": false,
+      "is_private": false
+    },
+    {
+      "hop": 12,
+      "ip": "219.87.57.163",
+      "hostname": "mail.email.esunbank.com.tw",
+      "rtts": [
+        11.091,
+        10.831,
+        10.617
+      ],
+      "avg_rtt": 10.85,
+      "timeout": false,
+      "network": "other",
+      "network_name": "Other Network",
+      "is_interesting": false,
+      "is_private": false
+    }
+  ],
+  "num_hops": 11,
+  "success": true,
+  "path_analysis": {
+    "networks_traversed": [
+      {
+        "network": "hinet",
+        "network_name": "HiNet (Chunghwa Telecom)",
+        "first_hop": 2
+      },
+      {
+        "network": "other",
+        "network_name": "Other Network",
+        "first_hop": 8
+      }
+    ],
+    "interesting_routers": [
+      {
+        "hop": 2,
+        "ip": "168.95.98.254",
+        "hostname": "h254.s98.ts.hinet.net",
+        "network": "hinet",
+        "network_name": "HiNet (Chunghwa Telecom)"
+      },
+      {
+        "hop": 3,
+        "ip": "168.95.129.50",
+        "hostname": "168-95-129-50.caw1-3332.hinet.net",
+        "network": "hinet",
+        "network_name": "HiNet (Chunghwa Telecom)"
+      },
+      {
+        "hop": 6,
+        "ip": "220.128.1.125",
+        "hostname": "220-128-1-125.tpdb-4211.hinet.net",
+        "network": "hinet",
+        "network_name": "HiNet (Chunghwa Telecom)"
+      },
+      {
+        "hop": 7,
+        "ip": "203.75.230.109",
+        "hostname": "203-75-230-109.hinet-ip.hinet.net",
+        "network": "hinet",
+        "network_name": "HiNet (Chunghwa Telecom)"
+      }
+    ],
+    "private_hops": 0,
+    "total_hops": 11,
+    "network_transitions": [
+      {
+        "hop": 8,
+        "from": "hinet",
+        "to": "other",
+        "from_ip": "60.199.3.57",
+        "to_ip": "60.199.3.57"
+      }
+    ]
+  },
+  "raw_output": " 1  172.16.193.250 (172.16.193.250)  2.980 ms  4.261 ms  2.601 ms\n 2  h254.s98.ts.hinet.net (168.95.98.254)  3.191 ms  5.473 ms  4.746 ms\n 3  168-95-129-50.caw1-3332.hinet.net (168.95.129.50)  5.375 ms  3.768 ms  4.208 ms\n 4  * * *\n 5  * * *\n 6  220-128-1-125.tpdb-4211.hinet.net (220.128.1.125)  16.629 ms  10.554 ms  10.003 ms\n 7  203-75-230-109.hinet-ip.hinet.net (203.75.230.109)  12.094 ms  10.235 ms  11.047 ms\n 8  60-199-3-57.static.tfn.net.tw (60.199.3.57)  10.165 ms  10.569 ms  10.147 ms\n 9  60-199-6-98.static.tfn.net.tw (60.199.6.98)  10.238 ms  9.968 ms  10.014 ms\n10  60-199-82-13.static.tfn.net.tw (60.199.82.13)  10.558 ms  10.486 ms  10.806 ms\n11  60-199-17-230.static.tfn.net.tw (60.199.17.230)  12.389 ms  17.189 ms  12.416 ms\n12  mail.email.esunbank.com.tw (219.87.57.163)  11.091 ms  10.831 ms  10.617 ms\n",
+  "category": "financial_banks",
+  "base_domain": "esunbank.com.tw",
+  "service_variant": "esunbank.com.tw",
+  "is_bare_domain": true
+}

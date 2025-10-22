@@ -1,0 +1,173 @@
+{
+  "timestamp": "2025-10-21T16:39:19.320951",
+  "vantage_point": "university",
+  "target": "www.chimei.org.tw",
+  "target_ip": "210.242.150.33",
+  "protocol": "icmp",
+  "port": null,
+  "duration_seconds": 45.72,
+  "hops": [
+    {
+      "hop": 2,
+      "ip": "140.123.103.250",
+      "hostname": "csgate103.cs.ccu.edu.tw",
+      "rtts": [
+        2.557,
+        5.0,
+        10.095
+      ],
+      "avg_rtt": 5.88,
+      "timeout": false
+    },
+    {
+      "hop": 3,
+      "ip": "140.123.9.249",
+      "hostname": "140.123.9.249",
+      "rtts": [
+        6.42,
+        16.348,
+        19.873
+      ],
+      "avg_rtt": 14.21,
+      "timeout": false
+    },
+    {
+      "hop": 4,
+      "ip": "140.123.0.246",
+      "hostname": "140.123.0.246",
+      "rtts": [
+        9.789,
+        40.522,
+        4.107
+      ],
+      "avg_rtt": 18.14,
+      "timeout": false
+    },
+    {
+      "hop": 5,
+      "ip": "140.130.252.251",
+      "hostname": "140.130.252.251",
+      "rtts": [
+        10.222,
+        34.469,
+        8.288
+      ],
+      "avg_rtt": 17.66,
+      "timeout": false
+    },
+    {
+      "hop": 6,
+      "ip": "211.22.226.198",
+      "hostname": "211-22-226-198.caw1-3332.hinet.net",
+      "rtts": [
+        6.102,
+        13.979,
+        18.109
+      ],
+      "avg_rtt": 12.73,
+      "timeout": false
+    },
+    {
+      "hop": 7,
+      "ip": null,
+      "hostname": null,
+      "rtts": [],
+      "timeout": true
+    },
+    {
+      "hop": 8,
+      "ip": null,
+      "hostname": null,
+      "rtts": [],
+      "timeout": true
+    },
+    {
+      "hop": 9,
+      "ip": "220.128.2.5",
+      "hostname": "220-128-2-5.tpdb-3315.hinet.net",
+      "rtts": [
+        20.28,
+        15.16,
+        17.926
+      ],
+      "avg_rtt": 17.79,
+      "timeout": false
+    },
+    {
+      "hop": 10,
+      "ip": "168.95.210.57",
+      "hostname": "tpdt-3307",
+      "rtts": [
+        18.458,
+        38.365,
+        10.583
+      ],
+      "avg_rtt": 22.47,
+      "timeout": false
+    },
+    {
+      "hop": 11,
+      "ip": null,
+      "hostname": null,
+      "rtts": [],
+      "timeout": true
+    },
+    {
+      "hop": 12,
+      "ip": "203.69.108.171",
+      "hostname": "203.69.108.171",
+      "rtts": [
+        32.937,
+        19.716,
+        15.292
+      ],
+      "avg_rtt": 22.65,
+      "timeout": false
+    },
+    {
+      "hop": 13,
+      "ip": null,
+      "hostname": null,
+      "rtts": [],
+      "timeout": true
+    },
+    {
+      "hop": 14,
+      "ip": null,
+      "hostname": null,
+      "rtts": [],
+      "timeout": true
+    },
+    {
+      "hop": 15,
+      "ip": "210.242.70.113",
+      "hostname": "210.242.70.113",
+      "rtts": [
+        18.79,
+        14.314,
+        13.513
+      ],
+      "avg_rtt": 15.54,
+      "timeout": false
+    },
+    {
+      "hop": 16,
+      "ip": "210.242.150.33",
+      "hostname": "210.242.150.33",
+      "rtts": [
+        14.974,
+        17.257,
+        16.961
+      ],
+      "avg_rtt": 16.4,
+      "timeout": false
+    }
+  ],
+  "num_hops": 15,
+  "success": true,
+  "raw_output": " 1  192.168.50.1 (192.168.50.1)  2.876 ms  9.628 ms  4.236 ms\n 2  csgate103.cs.ccu.edu.tw (140.123.103.250)  2.557 ms  5.000 ms  10.095 ms\n 3  140.123.9.249 (140.123.9.249)  6.420 ms  16.348 ms  19.873 ms\n 4  140.123.0.246 (140.123.0.246)  9.789 ms  40.522 ms  4.107 ms\n 5  140.130.252.251 (140.130.252.251)  10.222 ms  34.469 ms  8.288 ms\n 6  211-22-226-198.caw1-3332.hinet.net (211.22.226.198)  6.102 ms  13.979 ms  18.109 ms\n 7  * * *\n 8  * * *\n 9  220-128-2-5.tpdb-3315.hinet.net (220.128.2.5)  20.280 ms  15.160 ms  17.926 ms\n10  tpdt-3307 (168.95.210.57)  18.458 ms  38.365 ms  10.583 ms\n11  * * *\n12  203.69.108.171 (203.69.108.171)  32.937 ms  19.716 ms  15.292 ms\n13  * * *\n14  * * *\n15  210.242.70.113 (210.242.70.113)  18.790 ms  14.314 ms  13.513 ms\n16  210.242.150.33 (210.242.150.33)  14.974 ms  17.257 ms  16.961 ms\n",
+  "category": "healthcare",
+  "base_domain": "chimei.org.tw",
+  "service_variant": "www.chimei.org.tw",
+  "is_bare_domain": false
+}

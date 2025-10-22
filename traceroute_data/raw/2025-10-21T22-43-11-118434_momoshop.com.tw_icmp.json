@@ -1,0 +1,138 @@
+{
+  "timestamp": "2025-10-21T22:43:11.118434",
+  "vantage_point": "university",
+  "target": "momoshop.com.tw",
+  "target_ip": "219.87.10.143",
+  "protocol": "icmp",
+  "port": null,
+  "duration_seconds": 0.44,
+  "hops": [
+    {
+      "hop": 2,
+      "ip": "140.123.103.250",
+      "hostname": "csgate103.cs.ccu.edu.tw",
+      "rtts": [
+        9.129,
+        4.25,
+        4.689
+      ],
+      "avg_rtt": 6.02,
+      "timeout": false
+    },
+    {
+      "hop": 3,
+      "ip": "140.123.9.249",
+      "hostname": "140.123.9.249",
+      "rtts": [
+        4.238,
+        4.616,
+        5.334
+      ],
+      "avg_rtt": 4.73,
+      "timeout": false
+    },
+    {
+      "hop": 4,
+      "ip": "140.123.0.246",
+      "hostname": "140.123.0.246",
+      "rtts": [
+        3.407,
+        3.268,
+        2.97
+      ],
+      "avg_rtt": 3.21,
+      "timeout": false
+    },
+    {
+      "hop": 5,
+      "ip": "140.130.252.251",
+      "hostname": "140.130.252.251",
+      "rtts": [
+        32.292,
+        4.2,
+        6.38
+      ],
+      "avg_rtt": 14.29,
+      "timeout": false
+    },
+    {
+      "hop": 6,
+      "ip": "61.31.254.69",
+      "hostname": "61-31-254-69.static.tfn.net.tw",
+      "rtts": [
+        11.958,
+        11.124,
+        7.767
+      ],
+      "avg_rtt": 10.28,
+      "timeout": false
+    },
+    {
+      "hop": 7,
+      "ip": "60.199.27.161",
+      "hostname": "60-199-27-161.static.tfn.net.tw",
+      "rtts": [
+        8.74,
+        7.972,
+        6.622
+      ],
+      "avg_rtt": 7.78,
+      "timeout": false
+    },
+    {
+      "hop": 8,
+      "ip": "60.199.82.101",
+      "hostname": "60-199-82-101.static.tfn.net.tw",
+      "rtts": [
+        11.829,
+        15.622,
+        11.28
+      ],
+      "avg_rtt": 12.91,
+      "timeout": false
+    },
+    {
+      "hop": 9,
+      "ip": "60.199.82.13",
+      "hostname": "60-199-82-13.static.tfn.net.tw",
+      "rtts": [
+        17.889,
+        13.724,
+        11.376
+      ],
+      "avg_rtt": 14.33,
+      "timeout": false
+    },
+    {
+      "hop": 10,
+      "ip": "60.199.17.230",
+      "hostname": "60-199-17-230.static.tfn.net.tw",
+      "rtts": [
+        22.62,
+        21.376,
+        44.744
+      ],
+      "avg_rtt": 29.58,
+      "timeout": false
+    },
+    {
+      "hop": 11,
+      "ip": "219.87.10.143",
+      "hostname": "219-87-10-143.static.tfn.net.tw",
+      "rtts": [
+        11.096,
+        11.192,
+        11.011
+      ],
+      "avg_rtt": 11.1,
+      "timeout": false
+    }
+  ],
+  "num_hops": 10,
+  "success": true,
+  "raw_output": " 1  192.168.50.1 (192.168.50.1)  11.060 ms  27.177 ms  4.640 ms\n 2  csgate103.cs.ccu.edu.tw (140.123.103.250)  9.129 ms  4.250 ms  4.689 ms\n 3  140.123.9.249 (140.123.9.249)  4.238 ms  4.616 ms  5.334 ms\n 4  140.123.0.246 (140.123.0.246)  3.407 ms  3.268 ms  2.970 ms\n 5  140.130.252.251 (140.130.252.251)  32.292 ms  4.200 ms  6.380 ms\n 6  61-31-254-69.static.tfn.net.tw (61.31.254.69)  11.958 ms  11.124 ms  7.767 ms\n 7  60-199-27-161.static.tfn.net.tw (60.199.27.161)  8.740 ms  7.972 ms  6.622 ms\n 8  60-199-82-101.static.tfn.net.tw (60.199.82.101)  11.829 ms  15.622 ms  11.280 ms\n 9  60-199-82-13.static.tfn.net.tw (60.199.82.13)  17.889 ms  13.724 ms  11.376 ms\n10  60-199-17-230.static.tfn.net.tw (60.199.17.230)  22.620 ms  21.376 ms  44.744 ms\n11  219-87-10-143.static.tfn.net.tw (219.87.10.143)  11.096 ms  11.192 ms  11.011 ms\n",
+  "category": "ecommerce_tech",
+  "base_domain": "momoshop.com.tw",
+  "service_variant": "momoshop.com.tw",
+  "is_bare_domain": true
+}

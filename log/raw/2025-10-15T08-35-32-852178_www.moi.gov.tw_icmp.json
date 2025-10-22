@@ -1,0 +1,128 @@
+{
+  "timestamp": "2025-10-15T08:35:32.852178",
+  "vantage_point": "university",
+  "target": "www.moi.gov.tw",
+  "target_ip": "203.66.35.75",
+  "protocol": "icmp",
+  "port": null,
+  "duration_seconds": 18.21,
+  "hops": [
+    {
+      "hop": 2,
+      "ip": "140.123.103.250",
+      "hostname": null,
+      "rtts": [
+        2.395,
+        4.923,
+        4.995
+      ],
+      "avg_rtt": 4.1,
+      "timeout": false
+    },
+    {
+      "hop": 3,
+      "ip": "140.123.9.249",
+      "hostname": null,
+      "rtts": [
+        2.146,
+        2.21,
+        2.887
+      ],
+      "avg_rtt": 2.41,
+      "timeout": false
+    },
+    {
+      "hop": 4,
+      "ip": "140.123.0.246",
+      "hostname": null,
+      "rtts": [
+        3.041,
+        8.229,
+        3.776
+      ],
+      "avg_rtt": 5.02,
+      "timeout": false
+    },
+    {
+      "hop": 5,
+      "ip": "140.130.252.251",
+      "hostname": null,
+      "rtts": [
+        10.578,
+        7.486,
+        5.637
+      ],
+      "avg_rtt": 7.9,
+      "timeout": false
+    },
+    {
+      "hop": 6,
+      "ip": "211.22.226.198",
+      "hostname": null,
+      "rtts": [
+        4.895,
+        6.062,
+        5.658
+      ],
+      "avg_rtt": 5.54,
+      "timeout": false
+    },
+    {
+      "hop": 7,
+      "ip": null,
+      "hostname": null,
+      "rtts": [],
+      "timeout": true
+    },
+    {
+      "hop": 8,
+      "ip": null,
+      "hostname": null,
+      "rtts": [],
+      "timeout": true
+    },
+    {
+      "hop": 9,
+      "ip": "220.128.24.13",
+      "hostname": null,
+      "rtts": [
+        7.762,
+        9.408,
+        8.538
+      ],
+      "avg_rtt": 8.57,
+      "timeout": false
+    },
+    {
+      "hop": 10,
+      "ip": "211.22.228.209",
+      "hostname": null,
+      "rtts": [
+        7.695,
+        9.684,
+        6.68
+      ],
+      "avg_rtt": 8.02,
+      "timeout": false
+    },
+    {
+      "hop": 11,
+      "ip": "203.66.35.75",
+      "hostname": null,
+      "rtts": [
+        9.887,
+        7.764,
+        8.252
+      ],
+      "avg_rtt": 8.63,
+      "timeout": false
+    }
+  ],
+  "num_hops": 10,
+  "success": true,
+  "raw_output": " 1  192.168.50.1  2.840 ms  2.422 ms  2.993 ms\n 2  140.123.103.250  2.395 ms  4.923 ms  4.995 ms\n 3  140.123.9.249  2.146 ms  2.210 ms  2.887 ms\n 4  140.123.0.246  3.041 ms  8.229 ms  3.776 ms\n 5  140.130.252.251  10.578 ms  7.486 ms  5.637 ms\n 6  211.22.226.198  4.895 ms  6.062 ms  5.658 ms\n 7  * * *\n 8  * * *\n 9  220.128.24.13  7.762 ms  9.408 ms  8.538 ms\n10  211.22.228.209  7.695 ms  9.684 ms  6.680 ms\n11  203.66.35.75  9.887 ms  7.764 ms  8.252 ms\n",
+  "category": "government_central",
+  "base_domain": "moi.gov.tw",
+  "service_variant": "www.moi.gov.tw",
+  "is_bare_domain": false
+}

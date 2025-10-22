@@ -1,0 +1,135 @@
+{
+  "timestamp": "2025-10-13T16:32:33.229302",
+  "vantage_point": "university",
+  "target": "chinatimes.com",
+  "target_ip": "35.244.236.6",
+  "protocol": "icmp",
+  "port": null,
+  "duration_seconds": 0.19,
+  "hops": [
+    {
+      "hop": 2,
+      "ip": "140.123.103.250",
+      "hostname": null,
+      "rtts": [
+        3.159,
+        2.267,
+        2.019
+      ],
+      "avg_rtt": 2.48,
+      "timeout": false
+    },
+    {
+      "hop": 3,
+      "ip": "140.123.9.249",
+      "hostname": null,
+      "rtts": [
+        2.087,
+        2.248,
+        2.177
+      ],
+      "avg_rtt": 2.17,
+      "timeout": false
+    },
+    {
+      "hop": 4,
+      "ip": "140.123.0.246",
+      "hostname": null,
+      "rtts": [
+        3.296,
+        3.833,
+        2.829
+      ],
+      "avg_rtt": 3.32,
+      "timeout": false
+    },
+    {
+      "hop": 5,
+      "ip": "140.130.252.251",
+      "hostname": null,
+      "rtts": [
+        5.599,
+        3.858,
+        3.206
+      ],
+      "avg_rtt": 4.22,
+      "timeout": false
+    },
+    {
+      "hop": 6,
+      "ip": "192.192.61.142",
+      "hostname": null,
+      "rtts": [
+        5.186,
+        5.244,
+        4.986
+      ],
+      "avg_rtt": 5.14,
+      "timeout": false
+    },
+    {
+      "hop": 7,
+      "ip": "192.192.61.20",
+      "hostname": null,
+      "rtts": [
+        6.76,
+        7.262,
+        7.125
+      ],
+      "avg_rtt": 7.05,
+      "timeout": false
+    },
+    {
+      "hop": 8,
+      "ip": "192.192.61.184",
+      "hostname": null,
+      "rtts": [
+        8.215,
+        8.353,
+        8.042
+      ],
+      "avg_rtt": 8.2,
+      "timeout": false
+    },
+    {
+      "hop": 9,
+      "ip": "192.192.61.203",
+      "hostname": null,
+      "rtts": [
+        7.908,
+        7.817,
+        7.965
+      ],
+      "avg_rtt": 7.9,
+      "timeout": false
+    },
+    {
+      "hop": 10,
+      "ip": "72.14.196.229",
+      "hostname": null,
+      "rtts": [
+        8.324,
+        9.338,
+        7.979
+      ],
+      "avg_rtt": 8.55,
+      "timeout": false
+    },
+    {
+      "hop": 11,
+      "ip": "35.244.236.6",
+      "hostname": null,
+      "rtts": [
+        8.09,
+        8.347,
+        8.536
+      ],
+      "avg_rtt": 8.32,
+      "timeout": false
+    }
+  ],
+  "num_hops": 10,
+  "success": true,
+  "raw_output": " 1  192.168.50.1  2.279 ms  2.309 ms  2.712 ms\n 2  140.123.103.250  3.159 ms  2.267 ms  2.019 ms\n 3  140.123.9.249  2.087 ms  2.248 ms  2.177 ms\n 4  140.123.0.246  3.296 ms  3.833 ms  2.829 ms\n 5  140.130.252.251  5.599 ms  3.858 ms  3.206 ms\n 6  192.192.61.142  5.186 ms  5.244 ms  4.986 ms\n 7  192.192.61.20  6.760 ms  7.262 ms  7.125 ms\n 8  192.192.61.184  8.215 ms  8.353 ms  8.042 ms\n 9  192.192.61.203  7.908 ms  7.817 ms  7.965 ms\n10  72.14.196.229  8.324 ms  9.338 ms  7.979 ms\n11  35.244.236.6  8.090 ms  8.347 ms  8.536 ms\n",
+  "category": "media"
+}

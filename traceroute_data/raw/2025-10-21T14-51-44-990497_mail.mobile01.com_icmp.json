@@ -1,0 +1,202 @@
+{
+  "timestamp": "2025-10-21T14:51:44.990497",
+  "vantage_point": "university",
+  "target": "mail.mobile01.com",
+  "target_ip": "168.245.69.1",
+  "protocol": "icmp",
+  "port": null,
+  "duration_seconds": 57.77,
+  "hops": [
+    {
+      "hop": 2,
+      "ip": "140.123.103.250",
+      "hostname": "csgate103.cs.ccu.edu.tw",
+      "rtts": [
+        40.565,
+        13.13,
+        50.123
+      ],
+      "avg_rtt": 34.61,
+      "timeout": false
+    },
+    {
+      "hop": 3,
+      "ip": "140.123.9.249",
+      "hostname": "140.123.9.249",
+      "rtts": [
+        43.082,
+        12.792,
+        19.314
+      ],
+      "avg_rtt": 25.06,
+      "timeout": false
+    },
+    {
+      "hop": 4,
+      "ip": "140.123.0.246",
+      "hostname": "140.123.0.246",
+      "rtts": [
+        23.791,
+        14.132,
+        8.888
+      ],
+      "avg_rtt": 15.6,
+      "timeout": false
+    },
+    {
+      "hop": 5,
+      "ip": "140.130.252.251",
+      "hostname": "140.130.252.251",
+      "rtts": [
+        8.774,
+        10.816,
+        27.553
+      ],
+      "avg_rtt": 15.71,
+      "timeout": false
+    },
+    {
+      "hop": 6,
+      "ip": "192.192.61.142",
+      "hostname": "192.192.61.142",
+      "rtts": [
+        11.836,
+        18.335,
+        52.295
+      ],
+      "avg_rtt": 27.49,
+      "timeout": false
+    },
+    {
+      "hop": 7,
+      "ip": "192.192.61.20",
+      "hostname": "192.192.61.20",
+      "rtts": [
+        31.365,
+        24.239,
+        36.795
+      ],
+      "avg_rtt": 30.8,
+      "timeout": false
+    },
+    {
+      "hop": 8,
+      "ip": "192.192.61.48",
+      "hostname": "192.192.61.48",
+      "rtts": [
+        33.081,
+        28.694,
+        28.814
+      ],
+      "avg_rtt": 30.2,
+      "timeout": false
+    },
+    {
+      "hop": 9,
+      "ip": "192.192.68.62",
+      "hostname": "192.192.68.62",
+      "rtts": [
+        21.132,
+        46.132,
+        15.13
+      ],
+      "avg_rtt": 27.46,
+      "timeout": false
+    },
+    {
+      "hop": 10,
+      "ip": null,
+      "hostname": null,
+      "rtts": [],
+      "timeout": true
+    },
+    {
+      "hop": 11,
+      "ip": null,
+      "hostname": null,
+      "rtts": [],
+      "timeout": true
+    },
+    {
+      "hop": 12,
+      "ip": "184.104.199.10",
+      "hostname": "port-channel1.core3.tyo1.he.net",
+      "rtts": [
+        46.891,
+        140.346
+      ],
+      "avg_rtt": 93.62,
+      "timeout": false
+    },
+    {
+      "hop": 13,
+      "ip": null,
+      "hostname": null,
+      "rtts": [],
+      "timeout": true
+    },
+    {
+      "hop": 14,
+      "ip": null,
+      "hostname": null,
+      "rtts": [],
+      "timeout": true
+    },
+    {
+      "hop": 15,
+      "ip": null,
+      "hostname": null,
+      "rtts": [],
+      "timeout": true
+    },
+    {
+      "hop": 16,
+      "ip": "184.105.80.201",
+      "hostname": "100ge0-48.core1.ash1.he.net",
+      "rtts": [
+        399.564,
+        200.551
+      ],
+      "avg_rtt": 300.06,
+      "timeout": false
+    },
+    {
+      "hop": 17,
+      "ip": "206.126.237.61",
+      "hostname": "eqix-dc2.sendgrid.com",
+      "rtts": [
+        221.29,
+        195.815,
+        189.751
+      ],
+      "avg_rtt": 202.29,
+      "timeout": false
+    },
+    {
+      "hop": 18,
+      "ip": null,
+      "hostname": null,
+      "rtts": [],
+      "timeout": true
+    },
+    {
+      "hop": 19,
+      "ip": "168.245.69.1",
+      "hostname": "o1.mail.mobile01.com",
+      "rtts": [
+        214.231,
+        191.492,
+        212.702
+      ],
+      "avg_rtt": 206.14,
+      "timeout": false
+    }
+  ],
+  "num_hops": 18,
+  "success": true,
+  "raw_output": " 1  192.168.50.1 (192.168.50.1)  22.585 ms  7.618 ms  2.146 ms\n 2  csgate103.cs.ccu.edu.tw (140.123.103.250)  40.565 ms  13.130 ms  50.123 ms\n 3  140.123.9.249 (140.123.9.249)  43.082 ms  12.792 ms  19.314 ms\n 4  140.123.0.246 (140.123.0.246)  23.791 ms  14.132 ms  8.888 ms\n 5  140.130.252.251 (140.130.252.251)  8.774 ms  10.816 ms  27.553 ms\n 6  192.192.61.142 (192.192.61.142)  11.836 ms  18.335 ms  52.295 ms\n 7  192.192.61.20 (192.192.61.20)  31.365 ms  24.239 ms  36.795 ms\n 8  192.192.61.48 (192.192.61.48)  33.081 ms  28.694 ms  28.814 ms\n 9  192.192.68.62 (192.192.68.62)  21.132 ms  46.132 ms  15.130 ms\n10  * * e0-11.switch2.tpe1.he.net (65.49.108.1)  11.640 ms\n11  * * *\n12  port-channel1.core3.tyo1.he.net (184.104.199.10)  46.891 ms  140.346 ms *\n13  * * *\n14  * port-channel10.core2.chi1.he.net (184.104.188.148)  187.770 ms *\n15  * * *\n16  100ge0-48.core1.ash1.he.net (184.105.80.201)  399.564 ms *  200.551 ms\n17  eqix-dc2.sendgrid.com (206.126.237.61)  221.290 ms  195.815 ms  189.751 ms\n18  * * *\n19  o1.mail.mobile01.com (168.245.69.1)  214.231 ms  191.492 ms  212.702 ms\n",
+  "category": "ecommerce_tech",
+  "base_domain": "mobile01.com",
+  "service_variant": "mail.mobile01.com",
+  "is_bare_domain": false
+}

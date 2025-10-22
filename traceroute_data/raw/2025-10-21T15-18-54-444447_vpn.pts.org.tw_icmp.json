@@ -1,0 +1,163 @@
+{
+  "timestamp": "2025-10-21T15:18:54.444447",
+  "vantage_point": "university",
+  "target": "vpn.pts.org.tw",
+  "target_ip": "61.67.73.253",
+  "protocol": "icmp",
+  "port": null,
+  "duration_seconds": 36.45,
+  "hops": [
+    {
+      "hop": 2,
+      "ip": "140.123.103.250",
+      "hostname": "csgate103.cs.ccu.edu.tw",
+      "rtts": [
+        2.087,
+        6.894,
+        1.979
+      ],
+      "avg_rtt": 3.65,
+      "timeout": false
+    },
+    {
+      "hop": 3,
+      "ip": "140.123.9.249",
+      "hostname": "140.123.9.249",
+      "rtts": [
+        3.237,
+        2.035,
+        2.946
+      ],
+      "avg_rtt": 2.74,
+      "timeout": false
+    },
+    {
+      "hop": 4,
+      "ip": "140.123.0.246",
+      "hostname": "140.123.0.246",
+      "rtts": [
+        2.674,
+        4.126,
+        8.672
+      ],
+      "avg_rtt": 5.16,
+      "timeout": false
+    },
+    {
+      "hop": 5,
+      "ip": "140.130.252.251",
+      "hostname": "140.130.252.251",
+      "rtts": [
+        18.493,
+        3.162,
+        4.383
+      ],
+      "avg_rtt": 8.68,
+      "timeout": false
+    },
+    {
+      "hop": 6,
+      "ip": "192.192.61.142",
+      "hostname": "192.192.61.142",
+      "rtts": [
+        5.051,
+        5.248,
+        24.758
+      ],
+      "avg_rtt": 11.69,
+      "timeout": false
+    },
+    {
+      "hop": 7,
+      "ip": "192.192.61.37",
+      "hostname": "192.192.61.37",
+      "rtts": [
+        13.502,
+        6.644,
+        8.527
+      ],
+      "avg_rtt": 9.56,
+      "timeout": false
+    },
+    {
+      "hop": 8,
+      "ip": "192.192.61.32",
+      "hostname": "192.192.61.32",
+      "rtts": [
+        7.206,
+        7.419,
+        7.469
+      ],
+      "avg_rtt": 7.36,
+      "timeout": false
+    },
+    {
+      "hop": 9,
+      "ip": "192.192.61.209",
+      "hostname": "192.192.61.209",
+      "rtts": [
+        7.683,
+        12.207,
+        8.761
+      ],
+      "avg_rtt": 9.55,
+      "timeout": false
+    },
+    {
+      "hop": 10,
+      "ip": null,
+      "hostname": null,
+      "rtts": [],
+      "timeout": true
+    },
+    {
+      "hop": 11,
+      "ip": null,
+      "hostname": null,
+      "rtts": [],
+      "timeout": true
+    },
+    {
+      "hop": 12,
+      "ip": null,
+      "hostname": null,
+      "rtts": [],
+      "timeout": true
+    },
+    {
+      "hop": 13,
+      "ip": "10.96.81.12",
+      "hostname": "10.96.81.12",
+      "rtts": [
+        18.155
+      ],
+      "avg_rtt": 18.16,
+      "timeout": false
+    },
+    {
+      "hop": 14,
+      "ip": null,
+      "hostname": null,
+      "rtts": [],
+      "timeout": true
+    },
+    {
+      "hop": 15,
+      "ip": "10.96.81.12",
+      "hostname": "10.96.81.12",
+      "rtts": [
+        10.097,
+        60.973
+      ],
+      "avg_rtt": 35.53,
+      "timeout": false
+    }
+  ],
+  "num_hops": 14,
+  "success": false,
+  "raw_output": " 1  192.168.50.1 (192.168.50.1)  1.983 ms  1.852 ms  2.142 ms\n 2  csgate103.cs.ccu.edu.tw (140.123.103.250)  2.087 ms  6.894 ms  1.979 ms\n 3  140.123.9.249 (140.123.9.249)  3.237 ms  2.035 ms  2.946 ms\n 4  140.123.0.246 (140.123.0.246)  2.674 ms  4.126 ms  8.672 ms\n 5  140.130.252.251 (140.130.252.251)  18.493 ms  3.162 ms  4.383 ms\n 6  192.192.61.142 (192.192.61.142)  5.051 ms  5.248 ms  24.758 ms\n 7  192.192.61.37 (192.192.61.37)  13.502 ms  6.644 ms  8.527 ms\n 8  192.192.61.32 (192.192.61.32)  7.206 ms  7.419 ms  7.469 ms\n 9  192.192.61.209 (192.192.61.209)  7.683 ms  12.207 ms  8.761 ms\n10  * 10.96.81.12 (10.96.81.12)  14.851 ms !X *\n11  * * 10.96.81.12 (10.96.81.12)  14.185 ms !X\n12  * * *\n13  10.96.81.12 (10.96.81.12)  18.155 ms !X * *\n14  * 10.96.81.12 (10.96.81.12)  20.216 ms !X *\n15  10.96.81.12 (10.96.81.12)  10.097 ms !X *  60.973 ms !X\n",
+  "category": "media",
+  "base_domain": "pts.org.tw",
+  "service_variant": "vpn.pts.org.tw",
+  "is_bare_domain": false
+}

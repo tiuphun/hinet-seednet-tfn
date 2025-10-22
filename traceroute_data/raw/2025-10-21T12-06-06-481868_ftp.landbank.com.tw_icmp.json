@@ -1,0 +1,178 @@
+{
+  "timestamp": "2025-10-21T12:06:06.481868",
+  "vantage_point": "university",
+  "target": "ftp.landbank.com.tw",
+  "target_ip": "202.39.57.29",
+  "protocol": "icmp",
+  "port": null,
+  "duration_seconds": 38.18,
+  "hops": [
+    {
+      "hop": 2,
+      "ip": "140.123.103.250",
+      "hostname": "csgate103.cs.ccu.edu.tw",
+      "rtts": [
+        3.196,
+        1.987,
+        2.051
+      ],
+      "avg_rtt": 2.41,
+      "timeout": false
+    },
+    {
+      "hop": 3,
+      "ip": "140.123.9.249",
+      "hostname": "140.123.9.249",
+      "rtts": [
+        2.06,
+        2.33,
+        2.089
+      ],
+      "avg_rtt": 2.16,
+      "timeout": false
+    },
+    {
+      "hop": 4,
+      "ip": "140.123.0.246",
+      "hostname": "140.123.0.246",
+      "rtts": [
+        3.198,
+        2.65,
+        3.02
+      ],
+      "avg_rtt": 2.96,
+      "timeout": false
+    },
+    {
+      "hop": 5,
+      "ip": "140.130.252.251",
+      "hostname": "140.130.252.251",
+      "rtts": [
+        4.499,
+        4.786,
+        3.227
+      ],
+      "avg_rtt": 4.17,
+      "timeout": false
+    },
+    {
+      "hop": 6,
+      "ip": "211.22.226.198",
+      "hostname": "211-22-226-198.caw1-3332.hinet.net",
+      "rtts": [
+        3.509,
+        3.192,
+        3.184
+      ],
+      "avg_rtt": 3.29,
+      "timeout": false
+    },
+    {
+      "hop": 7,
+      "ip": null,
+      "hostname": null,
+      "rtts": [],
+      "timeout": true
+    },
+    {
+      "hop": 8,
+      "ip": null,
+      "hostname": null,
+      "rtts": [],
+      "timeout": true
+    },
+    {
+      "hop": 9,
+      "ip": "220.128.2.225",
+      "hostname": "220-128-2-225.tpdb-3316.hinet.net",
+      "rtts": [
+        10.073,
+        10.003,
+        10.158
+      ],
+      "avg_rtt": 10.08,
+      "timeout": false
+    },
+    {
+      "hop": 10,
+      "ip": "168.95.209.57",
+      "hostname": "h57.s209.ts.hinet.net",
+      "rtts": [
+        10.195,
+        10.221,
+        9.893
+      ],
+      "avg_rtt": 10.1,
+      "timeout": false
+    },
+    {
+      "hop": 11,
+      "ip": "192.168.252.2",
+      "hostname": "192.168.252.2",
+      "rtts": [
+        10.663,
+        12.664,
+        11.731
+      ],
+      "avg_rtt": 11.69,
+      "timeout": false
+    },
+    {
+      "hop": 12,
+      "ip": null,
+      "hostname": null,
+      "rtts": [],
+      "timeout": true
+    },
+    {
+      "hop": 13,
+      "ip": "203.66.25.249",
+      "hostname": "customer.wan-port.ar.hinet.net",
+      "rtts": [
+        12.76,
+        12.48,
+        12.812
+      ],
+      "avg_rtt": 12.68,
+      "timeout": false
+    },
+    {
+      "hop": 14,
+      "ip": null,
+      "hostname": null,
+      "rtts": [],
+      "timeout": true
+    },
+    {
+      "hop": 15,
+      "ip": "202.39.57.251",
+      "hostname": "lb.landbank.com.tw",
+      "rtts": [
+        12.84,
+        11.572,
+        11.066
+      ],
+      "avg_rtt": 11.83,
+      "timeout": false
+    },
+    {
+      "hop": 16,
+      "ip": "202.39.57.29",
+      "hostname": "ftp.landbank.com.tw",
+      "rtts": [
+        12.109,
+        11.371,
+        11.316
+      ],
+      "avg_rtt": 11.6,
+      "timeout": false
+    }
+  ],
+  "num_hops": 15,
+  "success": true,
+  "raw_output": " 1  192.168.50.1 (192.168.50.1)  5.984 ms  1.813 ms  1.716 ms\n 2  csgate103.cs.ccu.edu.tw (140.123.103.250)  3.196 ms  1.987 ms  2.051 ms\n 3  140.123.9.249 (140.123.9.249)  2.060 ms  2.330 ms  2.089 ms\n 4  140.123.0.246 (140.123.0.246)  3.198 ms  2.650 ms  3.020 ms\n 5  140.130.252.251 (140.130.252.251)  4.499 ms  4.786 ms  3.227 ms\n 6  211-22-226-198.caw1-3332.hinet.net (211.22.226.198)  3.509 ms  3.192 ms  3.184 ms\n 7  * * *\n 8  * * *\n 9  220-128-2-225.tpdb-3316.hinet.net (220.128.2.225)  10.073 ms  10.003 ms  10.158 ms\n10  h57.s209.ts.hinet.net (168.95.209.57)  10.195 ms  10.221 ms  9.893 ms\n11  192.168.252.2 (192.168.252.2)  10.663 ms  12.664 ms  11.731 ms\n12  * * *\n13  customer.wan-port.ar.hinet.net (203.66.25.249)  12.760 ms  12.480 ms  12.812 ms\n14  * * *\n15  lb.landbank.com.tw (202.39.57.251)  12.840 ms  11.572 ms  11.066 ms\n16  ftp.landbank.com.tw (202.39.57.29)  12.109 ms  11.371 ms  11.316 ms\n",
+  "category": "financial_banks",
+  "base_domain": "landbank.com.tw",
+  "service_variant": "ftp.landbank.com.tw",
+  "is_bare_domain": false
+}

@@ -1,0 +1,250 @@
+{
+  "timestamp": "2025-10-15T12:42:54.548735",
+  "vantage_point": "itaiwan",
+  "target": "www2.tku.edu.tw",
+  "target_ip": "163.13.240.169",
+  "protocol": "icmp",
+  "port": null,
+  "duration_seconds": 18.48,
+  "hops": [
+    {
+      "hop": 2,
+      "ip": "168.95.98.254",
+      "hostname": "h254.s98.ts.hinet.net",
+      "rtts": [
+        3.514,
+        2.943,
+        2.9
+      ],
+      "avg_rtt": 3.12,
+      "timeout": false,
+      "network": "hinet",
+      "network_name": "HiNet (Chunghwa Telecom)",
+      "is_interesting": true,
+      "is_private": false
+    },
+    {
+      "hop": 3,
+      "ip": "168.95.128.54",
+      "hostname": "168-95-128-54.caw1-3331.hinet.net",
+      "rtts": [
+        3.421,
+        3.522,
+        3.231
+      ],
+      "avg_rtt": 3.39,
+      "timeout": false,
+      "network": "hinet",
+      "network_name": "HiNet (Chunghwa Telecom)",
+      "is_interesting": true,
+      "is_private": false
+    },
+    {
+      "hop": 4,
+      "ip": null,
+      "hostname": null,
+      "rtts": [],
+      "timeout": true
+    },
+    {
+      "hop": 5,
+      "ip": null,
+      "hostname": null,
+      "rtts": [],
+      "timeout": true
+    },
+    {
+      "hop": 6,
+      "ip": "220.128.17.189",
+      "hostname": "220-128-17-189.tchn-3335.hinet.net",
+      "rtts": [
+        10.748,
+        6.885,
+        7.256
+      ],
+      "avg_rtt": 8.3,
+      "timeout": false,
+      "network": "hinet",
+      "network_name": "HiNet (Chunghwa Telecom)",
+      "is_interesting": true,
+      "is_private": false
+    },
+    {
+      "hop": 7,
+      "ip": "210.65.126.152",
+      "hostname": "210-65-126-152.hinet-ip.hinet.net",
+      "rtts": [
+        8.135,
+        8.834,
+        10.184
+      ],
+      "avg_rtt": 9.05,
+      "timeout": false,
+      "network": "hinet",
+      "network_name": "HiNet (Chunghwa Telecom)",
+      "is_interesting": true,
+      "is_private": false
+    },
+    {
+      "hop": 8,
+      "ip": "192.192.61.20",
+      "hostname": "192.192.61.20",
+      "rtts": [
+        9.709,
+        9.571,
+        9.425
+      ],
+      "avg_rtt": 9.57,
+      "timeout": false,
+      "network": "other",
+      "network_name": "Other Network",
+      "is_interesting": false,
+      "is_private": false
+    },
+    {
+      "hop": 9,
+      "ip": "192.192.61.81",
+      "hostname": "192.192.61.81",
+      "rtts": [
+        11.32,
+        11.363,
+        9.901
+      ],
+      "avg_rtt": 10.86,
+      "timeout": false,
+      "network": "other",
+      "network_name": "Other Network",
+      "is_interesting": false,
+      "is_private": false
+    },
+    {
+      "hop": 10,
+      "ip": "192.192.7.209",
+      "hostname": "192.192.7.209",
+      "rtts": [
+        11.348,
+        11.611,
+        11.478
+      ],
+      "avg_rtt": 11.48,
+      "timeout": false,
+      "network": "other",
+      "network_name": "Other Network",
+      "is_interesting": false,
+      "is_private": false
+    },
+    {
+      "hop": 11,
+      "ip": "163.13.254.253",
+      "hostname": "163.13.254.253",
+      "rtts": [
+        11.947,
+        12.629,
+        11.619
+      ],
+      "avg_rtt": 12.06,
+      "timeout": false,
+      "network": "other",
+      "network_name": "Other Network",
+      "is_interesting": false,
+      "is_private": false
+    },
+    {
+      "hop": 12,
+      "ip": "163.13.240.169",
+      "hostname": "www2.tku.edu.tw",
+      "rtts": [
+        10.821,
+        11.291,
+        11.715
+      ],
+      "avg_rtt": 11.28,
+      "timeout": false,
+      "network": "university",
+      "network_name": "Taiwan Universities",
+      "is_interesting": true,
+      "is_private": false
+    }
+  ],
+  "num_hops": 11,
+  "success": true,
+  "path_analysis": {
+    "networks_traversed": [
+      {
+        "network": "hinet",
+        "network_name": "HiNet (Chunghwa Telecom)",
+        "first_hop": 2
+      },
+      {
+        "network": "other",
+        "network_name": "Other Network",
+        "first_hop": 8
+      },
+      {
+        "network": "university",
+        "network_name": "Taiwan Universities",
+        "first_hop": 12
+      }
+    ],
+    "interesting_routers": [
+      {
+        "hop": 2,
+        "ip": "168.95.98.254",
+        "hostname": "h254.s98.ts.hinet.net",
+        "network": "hinet",
+        "network_name": "HiNet (Chunghwa Telecom)"
+      },
+      {
+        "hop": 3,
+        "ip": "168.95.128.54",
+        "hostname": "168-95-128-54.caw1-3331.hinet.net",
+        "network": "hinet",
+        "network_name": "HiNet (Chunghwa Telecom)"
+      },
+      {
+        "hop": 6,
+        "ip": "220.128.17.189",
+        "hostname": "220-128-17-189.tchn-3335.hinet.net",
+        "network": "hinet",
+        "network_name": "HiNet (Chunghwa Telecom)"
+      },
+      {
+        "hop": 7,
+        "ip": "210.65.126.152",
+        "hostname": "210-65-126-152.hinet-ip.hinet.net",
+        "network": "hinet",
+        "network_name": "HiNet (Chunghwa Telecom)"
+      },
+      {
+        "hop": 12,
+        "ip": "163.13.240.169",
+        "hostname": "www2.tku.edu.tw",
+        "network": "university",
+        "network_name": "Taiwan Universities"
+      }
+    ],
+    "private_hops": 0,
+    "total_hops": 11,
+    "network_transitions": [
+      {
+        "hop": 8,
+        "from": "hinet",
+        "to": "other",
+        "from_ip": "192.192.61.20",
+        "to_ip": "192.192.61.20"
+      },
+      {
+        "hop": 12,
+        "from": "other",
+        "to": "university",
+        "from_ip": "163.13.240.169",
+        "to_ip": "163.13.240.169"
+      }
+    ]
+  },
+  "raw_output": " 1  172.16.193.250 (172.16.193.250)  9.153 ms  2.329 ms  2.224 ms\n 2  h254.s98.ts.hinet.net (168.95.98.254)  3.514 ms  2.943 ms  2.900 ms\n 3  168-95-128-54.caw1-3331.hinet.net (168.95.128.54)  3.421 ms  3.522 ms  3.231 ms\n 4  * * *\n 5  * * *\n 6  220-128-17-189.tchn-3335.hinet.net (220.128.17.189)  10.748 ms  6.885 ms  7.256 ms\n 7  210-65-126-152.hinet-ip.hinet.net (210.65.126.152)  8.135 ms  8.834 ms  10.184 ms\n 8  192.192.61.20 (192.192.61.20)  9.709 ms  9.571 ms  9.425 ms\n 9  192.192.61.81 (192.192.61.81)  11.320 ms  11.363 ms  9.901 ms\n10  192.192.7.209 (192.192.7.209)  11.348 ms  11.611 ms  11.478 ms\n11  163.13.254.253 (163.13.254.253)  11.947 ms  12.629 ms  11.619 ms\n12  www2.tku.edu.tw (163.13.240.169)  10.821 ms  11.291 ms  11.715 ms\n",
+  "category": "universities",
+  "base_domain": "tku.edu.tw",
+  "service_variant": "www2.tku.edu.tw",
+  "is_bare_domain": false
+}

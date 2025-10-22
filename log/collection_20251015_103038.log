@@ -1,0 +1,1005 @@
+2025-10-15 10:30:38,869 - INFO - Processing category: government_central
+2025-10-15 10:30:38,869 - INFO - Progress: 1/131 - president.gov.tw
+2025-10-15 10:30:39,295 - INFO - Found 2 reachable service(s) for president.gov.tw
+2025-10-15 10:30:39,297 - INFO - Running: traceroute -w 3 -q 3 -m 30 -I 203.66.35.104
+2025-10-15 10:30:49,541 - INFO - Running: traceroute -w 3 -q 3 -m 30 -T -p 80 203.66.35.104
+2025-10-15 10:30:50,559 - INFO - Running: traceroute -w 3 -q 3 -m 30 -T -p 443 203.66.35.104
+2025-10-15 10:30:51,575 - INFO - Running: traceroute -w 3 -q 3 -m 30 -I 4.216.205.136
+2025-10-15 10:31:56,497 - INFO - Running: traceroute -w 3 -q 3 -m 30 -T -p 80 4.216.205.136
+2025-10-15 10:31:57,527 - INFO - Running: traceroute -w 3 -q 3 -m 30 -T -p 443 4.216.205.136
+2025-10-15 10:31:58,543 - INFO - Progress: 2/131 - ey.gov.tw
+2025-10-15 10:31:58,872 - INFO - Found 1 reachable service(s) for ey.gov.tw
+2025-10-15 10:31:58,874 - INFO - Running: traceroute -w 3 -q 3 -m 30 -I 203.66.34.33
+2025-10-15 10:32:09,169 - INFO - Running: traceroute -w 3 -q 3 -m 30 -T -p 80 203.66.34.33
+2025-10-15 10:32:10,189 - INFO - Running: traceroute -w 3 -q 3 -m 30 -T -p 443 203.66.34.33
+2025-10-15 10:32:11,205 - INFO - Progress: 3/131 - mofa.gov.tw
+2025-10-15 10:32:11,752 - INFO - Found 3 reachable service(s) for mofa.gov.tw
+2025-10-15 10:32:11,754 - INFO - Running: traceroute -w 3 -q 3 -m 30 -I 203.66.32.101
+2025-10-15 10:32:22,028 - INFO - Running: traceroute -w 3 -q 3 -m 30 -T -p 80 203.66.32.101
+2025-10-15 10:32:23,049 - INFO - Running: traceroute -w 3 -q 3 -m 30 -T -p 443 203.66.32.101
+2025-10-15 10:32:24,061 - INFO - Running: traceroute -w 3 -q 3 -m 30 -I 211.72.255.68
+2025-10-15 10:32:52,446 - INFO - Running: traceroute -w 3 -q 3 -m 30 -T -p 80 211.72.255.68
+2025-10-15 10:32:53,472 - INFO - Running: traceroute -w 3 -q 3 -m 30 -T -p 443 211.72.255.68
+2025-10-15 10:32:54,487 - INFO - Running: traceroute -w 3 -q 3 -m 30 -I 210.69.210.1
+2025-10-15 10:34:54,500 - ERROR - Traceroute to ftp.mofa.gov.tw timed out
+2025-10-15 10:34:55,507 - INFO - Running: traceroute -w 3 -q 3 -m 30 -T -p 80 210.69.210.1
+2025-10-15 10:34:56,534 - INFO - Running: traceroute -w 3 -q 3 -m 30 -T -p 443 210.69.210.1
+2025-10-15 10:34:57,556 - INFO - Progress: 4/131 - moi.gov.tw
+2025-10-15 10:34:58,170 - INFO - Found 4 reachable service(s) for moi.gov.tw
+2025-10-15 10:34:58,172 - INFO - Running: traceroute -w 3 -q 3 -m 30 -I 192.230.121.1
+2025-10-15 10:35:17,710 - INFO - Running: traceroute -w 3 -q 3 -m 30 -T -p 80 192.230.121.1
+2025-10-15 10:35:18,735 - INFO - Running: traceroute -w 3 -q 3 -m 30 -T -p 443 192.230.121.1
+2025-10-15 10:35:19,755 - INFO - Running: traceroute -w 3 -q 3 -m 30 -I 223.200.22.41
+2025-10-15 10:37:19,768 - ERROR - Traceroute to webmail.moi.gov.tw timed out
+2025-10-15 10:37:20,774 - INFO - Running: traceroute -w 3 -q 3 -m 30 -T -p 80 223.200.22.41
+2025-10-15 10:37:21,804 - INFO - Running: traceroute -w 3 -q 3 -m 30 -T -p 443 223.200.22.41
+2025-10-15 10:37:22,828 - INFO - Progress: 5/131 - mof.gov.tw
+2025-10-15 10:37:23,376 - INFO - Found 2 reachable service(s) for mof.gov.tw
+2025-10-15 10:37:23,378 - INFO - Running: traceroute -w 3 -q 3 -m 30 -I 203.66.35.1
+2025-10-15 10:37:33,637 - INFO - Running: traceroute -w 3 -q 3 -m 30 -T -p 80 203.66.35.1
+2025-10-15 10:37:34,665 - INFO - Running: traceroute -w 3 -q 3 -m 30 -T -p 443 203.66.35.1
+2025-10-15 10:37:35,681 - INFO - Running: traceroute -w 3 -q 3 -m 30 -I 61.60.101.134
+2025-10-15 10:39:35,696 - ERROR - Traceroute to mail.mof.gov.tw timed out
+2025-10-15 10:39:36,716 - INFO - Running: traceroute -w 3 -q 3 -m 30 -T -p 80 61.60.101.134
+2025-10-15 10:39:37,750 - INFO - Running: traceroute -w 3 -q 3 -m 30 -T -p 443 61.60.101.134
+2025-10-15 10:39:38,765 - INFO - Progress: 6/131 - moj.gov.tw
+2025-10-15 10:39:39,211 - INFO - Found 4 reachable service(s) for moj.gov.tw
+2025-10-15 10:39:39,212 - INFO - Running: traceroute -w 3 -q 3 -m 30 -I 163.29.130.159
+2025-10-15 10:41:39,220 - ERROR - Traceroute to www.moj.gov.tw timed out
+2025-10-15 10:41:40,226 - INFO - Running: traceroute -w 3 -q 3 -m 30 -T -p 80 163.29.130.159
+2025-10-15 10:41:41,253 - INFO - Running: traceroute -w 3 -q 3 -m 30 -T -p 443 163.29.130.159
+2025-10-15 10:41:42,277 - INFO - Running: traceroute -w 3 -q 3 -m 30 -I 163.29.130.129
+2025-10-15 10:43:42,289 - ERROR - Traceroute to mail.moj.gov.tw timed out
+2025-10-15 10:43:43,298 - INFO - Running: traceroute -w 3 -q 3 -m 30 -T -p 80 163.29.130.129
+2025-10-15 10:43:44,323 - INFO - Running: traceroute -w 3 -q 3 -m 30 -T -p 443 163.29.130.129
+2025-10-15 10:43:45,340 - INFO - Progress: 7/131 - mnd.gov.tw
+2025-10-15 10:43:46,272 - INFO - Found 2 reachable service(s) for mnd.gov.tw
+2025-10-15 10:43:46,275 - INFO - Running: traceroute -w 3 -q 3 -m 30 -I 13.107.246.46
+2025-10-15 10:45:46,305 - ERROR - Traceroute to www.mnd.gov.tw timed out
+2025-10-15 10:45:47,360 - INFO - Running: traceroute -w 3 -q 3 -m 30 -T -p 80 13.107.246.46
+2025-10-15 10:45:48,392 - INFO - Running: traceroute -w 3 -q 3 -m 30 -T -p 443 13.107.246.46
+2025-10-15 10:45:49,409 - INFO - Running: traceroute -w 3 -q 3 -m 30 -I 4.189.216.254
+2025-10-15 10:46:54,310 - INFO - Running: traceroute -w 3 -q 3 -m 30 -T -p 80 4.189.216.254
+2025-10-15 10:46:55,328 - INFO - Running: traceroute -w 3 -q 3 -m 30 -T -p 443 4.189.216.254
+2025-10-15 10:46:56,344 - INFO - Progress: 8/131 - moea.gov.tw
+2025-10-15 10:46:56,758 - INFO - Found 3 reachable service(s) for moea.gov.tw
+2025-10-15 10:46:56,759 - INFO - Running: traceroute -w 3 -q 3 -m 30 -I 104.18.0.113
+2025-10-15 10:47:06,954 - INFO - Running: traceroute -w 3 -q 3 -m 30 -T -p 80 104.18.0.113
+2025-10-15 10:47:07,975 - INFO - Running: traceroute -w 3 -q 3 -m 30 -T -p 443 104.18.0.113
+2025-10-15 10:47:08,991 - INFO - Running: traceroute -w 3 -q 3 -m 30 -I 211.72.250.1
+2025-10-15 10:49:09,006 - ERROR - Traceroute to mail.moea.gov.tw timed out
+2025-10-15 10:49:10,015 - INFO - Running: traceroute -w 3 -q 3 -m 30 -T -p 80 211.72.250.1
+2025-10-15 10:49:11,044 - INFO - Running: traceroute -w 3 -q 3 -m 30 -T -p 443 211.72.250.1
+2025-10-15 10:49:12,065 - INFO - Running: traceroute -w 3 -q 3 -m 30 -I 210.69.122.2
+2025-10-15 10:51:12,077 - ERROR - Traceroute to ftp.moea.gov.tw timed out
+2025-10-15 10:51:13,083 - INFO - Running: traceroute -w 3 -q 3 -m 30 -T -p 80 210.69.122.2
+2025-10-15 10:51:14,113 - INFO - Running: traceroute -w 3 -q 3 -m 30 -T -p 443 210.69.122.2
+2025-10-15 10:51:15,134 - INFO - Progress: 9/131 - motc.gov.tw
+2025-10-15 10:51:15,595 - INFO - Found 2 reachable service(s) for motc.gov.tw
+2025-10-15 10:51:15,597 - INFO - Running: traceroute -w 3 -q 3 -m 30 -I 210.69.99.1
+2025-10-15 10:53:15,664 - ERROR - Traceroute to motc.gov.tw timed out
+2025-10-15 10:53:16,681 - INFO - Running: traceroute -w 3 -q 3 -m 30 -T -p 80 210.69.99.1
+2025-10-15 10:53:17,735 - INFO - Running: traceroute -w 3 -q 3 -m 30 -T -p 443 210.69.99.1
+2025-10-15 10:53:18,894 - INFO - Running: traceroute -w 3 -q 3 -m 30 -I 203.66.35.7
+2025-10-15 10:53:29,103 - INFO - Running: traceroute -w 3 -q 3 -m 30 -T -p 80 203.66.35.7
+2025-10-15 10:53:30,153 - INFO - Running: traceroute -w 3 -q 3 -m 30 -T -p 443 203.66.35.7
+2025-10-15 10:53:31,178 - INFO - Progress: 10/131 - moe.gov.tw
+2025-10-15 10:53:31,637 - INFO - Found 2 reachable service(s) for moe.gov.tw
+2025-10-15 10:53:31,638 - INFO - Running: traceroute -w 3 -q 3 -m 30 -I 140.111.14.50
+2025-10-15 10:55:31,651 - ERROR - Traceroute to www.moe.gov.tw timed out
+2025-10-15 10:55:32,679 - INFO - Running: traceroute -w 3 -q 3 -m 30 -T -p 80 140.111.14.50
+2025-10-15 10:55:33,709 - INFO - Running: traceroute -w 3 -q 3 -m 30 -T -p 443 140.111.14.50
+2025-10-15 10:55:34,760 - INFO - Running: traceroute -w 3 -q 3 -m 30 -I 140.111.34.172
+2025-10-15 10:57:34,769 - ERROR - Traceroute to mail.moe.gov.tw timed out
+2025-10-15 10:57:35,775 - INFO - Running: traceroute -w 3 -q 3 -m 30 -T -p 80 140.111.34.172
+2025-10-15 10:57:36,791 - INFO - Running: traceroute -w 3 -q 3 -m 30 -T -p 443 140.111.34.172
+2025-10-15 10:57:37,801 - INFO - Progress: 11/131 - mohw.gov.tw
+2025-10-15 10:57:38,293 - INFO - Found 8 reachable service(s) for mohw.gov.tw
+2025-10-15 10:57:38,294 - INFO - Running: traceroute -w 3 -q 3 -m 30 -I 203.65.99.200
+2025-10-15 10:59:38,304 - ERROR - Traceroute to mohw.gov.tw timed out
+2025-10-15 10:59:39,309 - INFO - Running: traceroute -w 3 -q 3 -m 30 -T -p 80 203.65.99.200
+2025-10-15 10:59:40,335 - INFO - Running: traceroute -w 3 -q 3 -m 30 -T -p 443 203.65.99.200
+2025-10-15 10:59:41,356 - INFO - Running: traceroute -w 3 -q 3 -m 30 -I 203.65.100.138
+2025-10-15 11:01:41,394 - ERROR - Traceroute to www2.mohw.gov.tw timed out
+2025-10-15 11:01:42,402 - INFO - Running: traceroute -w 3 -q 3 -m 30 -T -p 80 203.65.100.138
+2025-10-15 11:01:43,429 - INFO - Running: traceroute -w 3 -q 3 -m 30 -T -p 443 203.65.100.138
+2025-10-15 11:01:44,450 - INFO - Progress: 12/131 - ncc.gov.tw
+2025-10-15 11:01:44,858 - INFO - Found 3 reachable service(s) for ncc.gov.tw
+2025-10-15 11:01:44,860 - INFO - Running: traceroute -w 3 -q 3 -m 30 -I 172.65.90.67
+2025-10-15 11:01:55,019 - INFO - Running: traceroute -w 3 -q 3 -m 30 -T -p 80 172.65.90.67
+2025-10-15 11:01:56,039 - INFO - Running: traceroute -w 3 -q 3 -m 30 -T -p 443 172.65.90.67
+2025-10-15 11:01:57,060 - INFO - Running: traceroute -w 3 -q 3 -m 30 -I 211.79.138.109
+2025-10-15 11:03:57,075 - ERROR - Traceroute to ftp.ncc.gov.tw timed out
+2025-10-15 11:03:58,086 - INFO - Running: traceroute -w 3 -q 3 -m 30 -T -p 80 211.79.138.109
+2025-10-15 11:03:59,115 - INFO - Running: traceroute -w 3 -q 3 -m 30 -T -p 443 211.79.138.109
+2025-10-15 11:04:00,134 - INFO - Running: traceroute -w 3 -q 3 -m 30 -I 172.65.90.66
+2025-10-15 11:04:10,321 - INFO - Running: traceroute -w 3 -q 3 -m 30 -T -p 80 172.65.90.66
+2025-10-15 11:04:11,341 - INFO - Running: traceroute -w 3 -q 3 -m 30 -T -p 443 172.65.90.66
+2025-10-15 11:04:12,363 - INFO - Processing category: government_local
+2025-10-15 11:04:12,363 - INFO - Progress: 13/131 - gov.taipei
+2025-10-15 11:04:12,888 - INFO - Found 3 reachable service(s) for gov.taipei
+2025-10-15 11:04:12,889 - INFO - Running: traceroute -w 3 -q 3 -m 30 -I 163.29.207.130
+2025-10-15 11:06:12,903 - ERROR - Traceroute to www.gov.taipei timed out
+2025-10-15 11:06:13,915 - INFO - Running: traceroute -w 3 -q 3 -m 30 -T -p 80 163.29.207.130
+2025-10-15 11:06:14,944 - INFO - Running: traceroute -w 3 -q 3 -m 30 -T -p 443 163.29.207.130
+2025-10-15 11:06:15,966 - INFO - Running: traceroute -w 3 -q 3 -m 30 -I 163.29.37.56
+2025-10-15 11:08:15,977 - ERROR - Traceroute to smtp.gov.taipei timed out
+2025-10-15 11:08:16,982 - INFO - Running: traceroute -w 3 -q 3 -m 30 -T -p 80 163.29.37.56
+2025-10-15 11:08:18,001 - INFO - Running: traceroute -w 3 -q 3 -m 30 -T -p 443 163.29.37.56
+2025-10-15 11:08:19,022 - INFO - Running: traceroute -w 3 -q 3 -m 30 -I 60.250.34.230
+2025-10-15 11:10:19,034 - ERROR - Traceroute to vpn.gov.taipei timed out
+2025-10-15 11:10:20,043 - INFO - Running: traceroute -w 3 -q 3 -m 30 -T -p 80 60.250.34.230
+2025-10-15 11:10:21,069 - INFO - Running: traceroute -w 3 -q 3 -m 30 -T -p 443 60.250.34.230
+2025-10-15 11:10:22,090 - INFO - Progress: 14/131 - kcg.gov.tw
+2025-10-15 11:10:22,516 - INFO - Found 5 reachable service(s) for kcg.gov.tw
+2025-10-15 11:10:22,517 - INFO - Running: traceroute -w 3 -q 3 -m 30 -I 223.200.91.227
+2025-10-15 11:12:22,527 - ERROR - Traceroute to www.kcg.gov.tw timed out
+2025-10-15 11:12:23,550 - INFO - Running: traceroute -w 3 -q 3 -m 30 -T -p 80 223.200.91.227
+2025-10-15 11:12:24,578 - INFO - Running: traceroute -w 3 -q 3 -m 30 -T -p 443 223.200.91.227
+2025-10-15 11:12:25,602 - INFO - Running: traceroute -w 3 -q 3 -m 30 -I 223.200.91.235
+2025-10-15 11:14:25,615 - ERROR - Traceroute to mail.kcg.gov.tw timed out
+2025-10-15 11:14:26,622 - INFO - Running: traceroute -w 3 -q 3 -m 30 -T -p 80 223.200.91.235
+2025-10-15 11:14:27,648 - INFO - Running: traceroute -w 3 -q 3 -m 30 -T -p 443 223.200.91.235
+2025-10-15 11:14:28,669 - INFO - Running: traceroute -w 3 -q 3 -m 30 -I 223.200.91.225
+2025-10-15 11:16:28,684 - ERROR - Traceroute to smtp.kcg.gov.tw timed out
+2025-10-15 11:16:29,693 - INFO - Running: traceroute -w 3 -q 3 -m 30 -T -p 80 223.200.91.225
+2025-10-15 11:16:30,721 - INFO - Running: traceroute -w 3 -q 3 -m 30 -T -p 443 223.200.91.225
+2025-10-15 11:16:31,739 - INFO - Progress: 15/131 - taichung.gov.tw
+2025-10-15 11:16:32,111 - INFO - Found 3 reachable service(s) for taichung.gov.tw
+2025-10-15 11:16:32,115 - INFO - Running: traceroute -w 3 -q 3 -m 30 -I 203.66.32.199
+2025-10-15 11:16:42,394 - INFO - Running: traceroute -w 3 -q 3 -m 30 -T -p 80 203.66.32.199
+2025-10-15 11:16:43,444 - INFO - Running: traceroute -w 3 -q 3 -m 30 -T -p 443 203.66.32.199
+2025-10-15 11:16:44,466 - INFO - Running: traceroute -w 3 -q 3 -m 30 -I 210.69.115.235
+2025-10-15 11:18:44,476 - ERROR - Traceroute to mail.taichung.gov.tw timed out
+2025-10-15 11:18:45,482 - INFO - Running: traceroute -w 3 -q 3 -m 30 -T -p 80 210.69.115.235
+2025-10-15 11:18:46,507 - INFO - Running: traceroute -w 3 -q 3 -m 30 -T -p 443 210.69.115.235
+2025-10-15 11:18:47,526 - INFO - Progress: 16/131 - tainan.gov.tw
+2025-10-15 11:18:48,001 - INFO - Found 3 reachable service(s) for tainan.gov.tw
+2025-10-15 11:18:48,002 - INFO - Running: traceroute -w 3 -q 3 -m 30 -I 3.169.121.122
+2025-10-15 11:19:52,256 - INFO - Running: traceroute -w 3 -q 3 -m 30 -T -p 80 3.169.121.122
+2025-10-15 11:19:53,282 - INFO - Running: traceroute -w 3 -q 3 -m 30 -T -p 443 3.169.121.122
+2025-10-15 11:19:54,300 - INFO - Running: traceroute -w 3 -q 3 -m 30 -I 210.69.57.80
+2025-10-15 11:21:54,312 - ERROR - Traceroute to www2.tainan.gov.tw timed out
+2025-10-15 11:21:55,324 - INFO - Running: traceroute -w 3 -q 3 -m 30 -T -p 80 210.69.57.80
+2025-10-15 11:21:56,352 - INFO - Running: traceroute -w 3 -q 3 -m 30 -T -p 443 210.69.57.80
+2025-10-15 11:21:57,396 - INFO - Running: traceroute -w 3 -q 3 -m 30 -I 210.242.150.38
+2025-10-15 11:22:43,860 - INFO - Running: traceroute -w 3 -q 3 -m 30 -T -p 80 210.242.150.38
+2025-10-15 11:22:44,880 - INFO - Running: traceroute -w 3 -q 3 -m 30 -T -p 443 210.242.150.38
+2025-10-15 11:22:45,902 - INFO - Progress: 17/131 - ntpc.gov.tw
+2025-10-15 11:22:46,296 - INFO - Found 4 reachable service(s) for ntpc.gov.tw
+2025-10-15 11:22:46,304 - INFO - Running: traceroute -w 3 -q 3 -m 30 -I 203.66.32.137
+2025-10-15 11:23:14,685 - INFO - Running: traceroute -w 3 -q 3 -m 30 -T -p 80 203.66.32.137
+2025-10-15 11:23:15,718 - INFO - Running: traceroute -w 3 -q 3 -m 30 -T -p 443 203.66.32.137
+2025-10-15 11:23:16,815 - INFO - Running: traceroute -w 3 -q 3 -m 30 -I 61.60.125.123
+2025-10-15 11:25:16,855 - ERROR - Traceroute to smtp.ntpc.gov.tw timed out
+2025-10-15 11:25:17,864 - INFO - Running: traceroute -w 3 -q 3 -m 30 -T -p 80 61.60.125.123
+2025-10-15 11:25:18,895 - INFO - Running: traceroute -w 3 -q 3 -m 30 -T -p 443 61.60.125.123
+2025-10-15 11:25:19,915 - INFO - Running: traceroute -w 3 -q 3 -m 30 -I 61.60.127.60
+2025-10-15 11:27:19,920 - ERROR - Traceroute to vpn.ntpc.gov.tw timed out
+2025-10-15 11:27:20,927 - INFO - Running: traceroute -w 3 -q 3 -m 30 -T -p 80 61.60.127.60
+2025-10-15 11:27:21,963 - INFO - Running: traceroute -w 3 -q 3 -m 30 -T -p 443 61.60.127.60
+2025-10-15 11:27:22,991 - INFO - Progress: 18/131 - taoyuan.gov.tw
+2025-10-15 11:27:23,399 - WARNING - No reachable services found for taoyuan.gov.tw
+2025-10-15 11:27:23,399 - INFO - Progress: 19/131 - hccg.gov.tw
+2025-10-15 11:27:23,842 - INFO - Found 1 reachable service(s) for hccg.gov.tw
+2025-10-15 11:27:23,845 - INFO - Running: traceroute -w 3 -q 3 -m 30 -I 203.66.32.66
+2025-10-15 11:27:52,348 - INFO - Running: traceroute -w 3 -q 3 -m 30 -T -p 80 203.66.32.66
+2025-10-15 11:27:53,387 - INFO - Running: traceroute -w 3 -q 3 -m 30 -T -p 443 203.66.32.66
+2025-10-15 11:27:54,413 - INFO - Progress: 20/131 - chcg.gov.tw
+2025-10-15 11:27:54,853 - INFO - Found 4 reachable service(s) for chcg.gov.tw
+2025-10-15 11:27:54,854 - INFO - Running: traceroute -w 3 -q 3 -m 30 -I 203.66.34.45
+2025-10-15 11:28:05,076 - INFO - Running: traceroute -w 3 -q 3 -m 30 -T -p 80 203.66.34.45
+2025-10-15 11:28:06,107 - INFO - Running: traceroute -w 3 -q 3 -m 30 -T -p 443 203.66.34.45
+2025-10-15 11:28:07,124 - INFO - Running: traceroute -w 3 -q 3 -m 30 -I 210.69.54.91
+2025-10-15 11:30:07,141 - ERROR - Traceroute to www2.chcg.gov.tw timed out
+2025-10-15 11:30:08,149 - INFO - Running: traceroute -w 3 -q 3 -m 30 -T -p 80 210.69.54.91
+2025-10-15 11:30:09,178 - INFO - Running: traceroute -w 3 -q 3 -m 30 -T -p 443 210.69.54.91
+2025-10-15 11:30:10,200 - INFO - Running: traceroute -w 3 -q 3 -m 30 -I 210.69.54.171
+2025-10-15 11:32:10,212 - ERROR - Traceroute to ns1.chcg.gov.tw timed out
+2025-10-15 11:32:11,219 - INFO - Running: traceroute -w 3 -q 3 -m 30 -T -p 80 210.69.54.171
+2025-10-15 11:32:12,254 - INFO - Running: traceroute -w 3 -q 3 -m 30 -T -p 443 210.69.54.171
+2025-10-15 11:32:13,271 - INFO - Processing category: government_critical
+2025-10-15 11:32:13,272 - INFO - Progress: 21/131 - npa.gov.tw
+2025-10-15 11:32:13,685 - INFO - Found 3 reachable service(s) for npa.gov.tw
+2025-10-15 11:32:13,686 - INFO - Running: traceroute -w 3 -q 3 -m 30 -I 210.69.154.130
+2025-10-15 11:34:13,696 - ERROR - Traceroute to npa.gov.tw timed out
+2025-10-15 11:34:14,704 - INFO - Running: traceroute -w 3 -q 3 -m 30 -T -p 80 210.69.154.130
+2025-10-15 11:34:15,733 - INFO - Running: traceroute -w 3 -q 3 -m 30 -T -p 443 210.69.154.130
+2025-10-15 11:34:16,783 - INFO - Running: traceroute -w 3 -q 3 -m 30 -I 203.66.35.97
+2025-10-15 11:34:27,085 - INFO - Running: traceroute -w 3 -q 3 -m 30 -T -p 80 203.66.35.97
+2025-10-15 11:34:28,120 - INFO - Running: traceroute -w 3 -q 3 -m 30 -T -p 443 203.66.35.97
+2025-10-15 11:34:29,139 - INFO - Running: traceroute -w 3 -q 3 -m 30 -I 210.69.154.133
+2025-10-15 11:36:29,153 - ERROR - Traceroute to mail.npa.gov.tw timed out
+2025-10-15 11:36:30,190 - INFO - Running: traceroute -w 3 -q 3 -m 30 -T -p 80 210.69.154.133
+2025-10-15 11:36:31,216 - INFO - Running: traceroute -w 3 -q 3 -m 30 -T -p 443 210.69.154.133
+2025-10-15 11:36:32,245 - INFO - Progress: 22/131 - nfa.gov.tw
+2025-10-15 11:36:32,743 - INFO - Found 4 reachable service(s) for nfa.gov.tw
+2025-10-15 11:36:32,744 - INFO - Running: traceroute -w 3 -q 3 -m 30 -I 210.69.173.31
+2025-10-15 11:38:32,756 - ERROR - Traceroute to www.nfa.gov.tw timed out
+2025-10-15 11:38:33,790 - INFO - Running: traceroute -w 3 -q 3 -m 30 -T -p 80 210.69.173.31
+2025-10-15 11:38:34,822 - INFO - Running: traceroute -w 3 -q 3 -m 30 -T -p 443 210.69.173.31
+2025-10-15 11:38:35,846 - INFO - Running: traceroute -w 3 -q 3 -m 30 -I 210.69.173.98
+2025-10-15 11:40:35,861 - ERROR - Traceroute to mail.nfa.gov.tw timed out
+2025-10-15 11:40:36,880 - INFO - Running: traceroute -w 3 -q 3 -m 30 -T -p 80 210.69.173.98
+2025-10-15 11:40:37,925 - INFO - Running: traceroute -w 3 -q 3 -m 30 -T -p 443 210.69.173.98
+2025-10-15 11:40:38,975 - INFO - Running: traceroute -w 3 -q 3 -m 30 -I 210.69.173.4
+2025-10-15 11:42:39,001 - ERROR - Traceroute to ftp.nfa.gov.tw timed out
+2025-10-15 11:42:40,030 - INFO - Running: traceroute -w 3 -q 3 -m 30 -T -p 80 124.199.65.95
+2025-10-15 11:42:41,054 - INFO - Running: traceroute -w 3 -q 3 -m 30 -T -p 443 124.199.65.95
+2025-10-15 11:42:42,080 - INFO - Progress: 23/131 - immigration.gov.tw
+2025-10-15 11:42:42,619 - INFO - Found 2 reachable service(s) for immigration.gov.tw
+2025-10-15 11:42:42,621 - INFO - Running: traceroute -w 3 -q 3 -m 30 -I 203.66.32.135
+2025-10-15 11:43:02,010 - INFO - Running: traceroute -w 3 -q 3 -m 30 -T -p 80 203.66.32.135
+2025-10-15 11:43:03,043 - INFO - Running: traceroute -w 3 -q 3 -m 30 -T -p 443 203.66.32.135
+2025-10-15 11:43:04,057 - INFO - Running: traceroute -w 3 -q 3 -m 30 -I 210.241.79.7
+2025-10-15 11:45:04,069 - ERROR - Traceroute to ns.immigration.gov.tw timed out
+2025-10-15 11:45:05,080 - INFO - Running: traceroute -w 3 -q 3 -m 30 -T -p 80 210.241.79.7
+2025-10-15 11:45:06,104 - INFO - Running: traceroute -w 3 -q 3 -m 30 -T -p 443 210.241.79.7
+2025-10-15 11:45:07,132 - INFO - Progress: 24/131 - judicial.gov.tw
+2025-10-15 11:45:07,686 - INFO - Found 8 reachable service(s) for judicial.gov.tw
+2025-10-15 11:45:07,688 - INFO - Running: traceroute -w 3 -q 3 -m 30 -I 210.69.124.205
+2025-10-15 11:47:07,701 - ERROR - Traceroute to judicial.gov.tw timed out
+2025-10-15 11:47:08,740 - INFO - Running: traceroute -w 3 -q 3 -m 30 -T -p 80 210.69.124.205
+2025-10-15 11:47:09,773 - INFO - Running: traceroute -w 3 -q 3 -m 30 -T -p 443 210.69.124.205
+2025-10-15 11:47:10,791 - INFO - Running: traceroute -w 3 -q 3 -m 30 -I 210.69.124.99
+2025-10-15 11:49:10,811 - ERROR - Traceroute to www2.judicial.gov.tw timed out
+2025-10-15 11:49:11,828 - INFO - Running: traceroute -w 3 -q 3 -m 30 -T -p 80 210.69.124.99
+2025-10-15 11:49:12,864 - INFO - Running: traceroute -w 3 -q 3 -m 30 -T -p 443 210.69.124.99
+2025-10-15 11:49:13,886 - INFO - Progress: 25/131 - cib.gov.tw
+2025-10-15 11:49:14,618 - INFO - Found 2 reachable service(s) for cib.gov.tw
+2025-10-15 11:49:14,619 - INFO - Running: traceroute -w 3 -q 3 -m 30 -I 210.69.153.2
+2025-10-15 11:51:14,628 - ERROR - Traceroute to cib.gov.tw timed out
+2025-10-15 11:51:15,640 - INFO - Running: traceroute -w 3 -q 3 -m 30 -T -p 80 210.69.153.2
+2025-10-15 11:51:16,671 - INFO - Running: traceroute -w 3 -q 3 -m 30 -T -p 443 210.69.153.2
+2025-10-15 11:51:17,689 - INFO - Running: traceroute -w 3 -q 3 -m 30 -I 210.69.153.37
+2025-10-15 11:53:17,862 - ERROR - Traceroute to app.cib.gov.tw timed out
+2025-10-15 11:53:18,876 - INFO - Running: traceroute -w 3 -q 3 -m 30 -T -p 80 210.69.153.37
+2025-10-15 11:53:19,937 - INFO - Running: traceroute -w 3 -q 3 -m 30 -T -p 443 210.69.153.37
+2025-10-15 11:53:20,963 - INFO - Progress: 26/131 - hpa.gov.tw
+2025-10-15 11:53:21,595 - INFO - Found 5 reachable service(s) for hpa.gov.tw
+2025-10-15 11:53:21,596 - INFO - Running: traceroute -w 3 -q 3 -m 30 -I 210.241.78.16
+2025-10-15 11:55:21,610 - ERROR - Traceroute to hpa.gov.tw timed out
+2025-10-15 11:55:22,622 - INFO - Running: traceroute -w 3 -q 3 -m 30 -T -p 80 210.241.78.16
+2025-10-15 11:55:23,654 - INFO - Running: traceroute -w 3 -q 3 -m 30 -T -p 443 210.241.78.16
+2025-10-15 11:55:24,680 - INFO - Running: traceroute -w 3 -q 3 -m 30 -I 210.241.78.32
+2025-10-15 11:57:24,692 - ERROR - Traceroute to www.hpa.gov.tw timed out
+2025-10-15 11:57:25,700 - INFO - Running: traceroute -w 3 -q 3 -m 30 -T -p 80 210.241.78.32
+2025-10-15 11:57:26,728 - INFO - Running: traceroute -w 3 -q 3 -m 30 -T -p 443 210.241.78.32
+2025-10-15 11:57:27,742 - INFO - Progress: 27/131 - cdc.gov.tw
+2025-10-15 11:57:28,293 - INFO - Found 3 reachable service(s) for cdc.gov.tw
+2025-10-15 11:57:28,294 - INFO - Running: traceroute -w 3 -q 3 -m 30 -I 61.57.41.148
+2025-10-15 11:59:28,303 - ERROR - Traceroute to cdc.gov.tw timed out
+2025-10-15 11:59:29,308 - INFO - Running: traceroute -w 3 -q 3 -m 30 -T -p 80 61.57.41.148
+2025-10-15 11:59:30,340 - INFO - Running: traceroute -w 3 -q 3 -m 30 -T -p 443 61.57.41.148
+2025-10-15 11:59:31,390 - INFO - Running: traceroute -w 3 -q 3 -m 30 -I 203.66.32.202
+2025-10-15 11:59:41,662 - INFO - Running: traceroute -w 3 -q 3 -m 30 -T -p 80 203.66.32.202
+2025-10-15 11:59:42,691 - INFO - Running: traceroute -w 3 -q 3 -m 30 -T -p 443 203.66.32.202
+2025-10-15 11:59:43,705 - INFO - Running: traceroute -w 3 -q 3 -m 30 -I 223.200.89.90
+2025-10-15 12:01:43,718 - ERROR - Traceroute to vpn.cdc.gov.tw timed out
+2025-10-15 12:01:44,726 - INFO - Running: traceroute -w 3 -q 3 -m 30 -T -p 80 223.200.89.90
+2025-10-15 12:01:45,754 - INFO - Running: traceroute -w 3 -q 3 -m 30 -T -p 443 223.200.89.90
+2025-10-15 12:01:46,782 - INFO - Progress: 28/131 - cwb.gov.tw
+2025-10-15 12:01:49,313 - WARNING - No reachable services found for cwb.gov.tw
+2025-10-15 12:01:49,314 - INFO - Processing category: universities
+2025-10-15 12:01:49,314 - INFO - Progress: 29/131 - ntu.edu.tw
+2025-10-15 12:01:49,630 - INFO - Found 5 reachable service(s) for ntu.edu.tw
+2025-10-15 12:01:49,631 - INFO - Running: traceroute -w 3 -q 3 -m 30 -I 140.112.8.116
+2025-10-15 12:03:49,651 - ERROR - Traceroute to www.ntu.edu.tw timed out
+2025-10-15 12:03:50,672 - INFO - Running: traceroute -w 3 -q 3 -m 30 -T -p 80 140.112.8.116
+2025-10-15 12:03:51,714 - INFO - Running: traceroute -w 3 -q 3 -m 30 -T -p 443 140.112.8.116
+2025-10-15 12:03:52,734 - INFO - Running: traceroute -w 3 -q 3 -m 30 -I 140.112.9.9
+2025-10-15 12:05:52,746 - ERROR - Traceroute to mail.ntu.edu.tw timed out
+2025-10-15 12:05:53,756 - INFO - Running: traceroute -w 3 -q 3 -m 30 -T -p 80 140.112.9.9
+2025-10-15 12:05:54,785 - INFO - Running: traceroute -w 3 -q 3 -m 30 -T -p 443 140.112.9.9
+2025-10-15 12:05:55,807 - INFO - Progress: 30/131 - nthu.edu.tw
+2025-10-15 12:05:56,181 - INFO - Found 1 reachable service(s) for nthu.edu.tw
+2025-10-15 12:05:56,183 - INFO - Running: traceroute -w 3 -q 3 -m 30 -I 140.114.69.135
+2025-10-15 12:07:56,197 - ERROR - Traceroute to www.nthu.edu.tw timed out
+2025-10-15 12:07:57,203 - INFO - Running: traceroute -w 3 -q 3 -m 30 -T -p 80 140.114.69.135
+2025-10-15 12:07:58,230 - INFO - Running: traceroute -w 3 -q 3 -m 30 -T -p 443 140.114.69.135
+2025-10-15 12:07:59,246 - INFO - Progress: 31/131 - nctu.edu.tw
+2025-10-15 12:07:59,556 - INFO - Found 3 reachable service(s) for nctu.edu.tw
+2025-10-15 12:07:59,557 - INFO - Running: traceroute -w 3 -q 3 -m 30 -I 140.113.250.135
+2025-10-15 12:09:59,569 - ERROR - Traceroute to ns.nctu.edu.tw timed out
+2025-10-15 12:10:00,579 - INFO - Running: traceroute -w 3 -q 3 -m 30 -T -p 80 140.113.250.135
+2025-10-15 12:10:01,609 - INFO - Running: traceroute -w 3 -q 3 -m 30 -T -p 443 140.113.250.135
+2025-10-15 12:10:02,638 - INFO - Running: traceroute -w 3 -q 3 -m 30 -I 140.113.1.1
+2025-10-15 12:12:02,654 - ERROR - Traceroute to ns1.nctu.edu.tw timed out
+2025-10-15 12:12:03,661 - INFO - Running: traceroute -w 3 -q 3 -m 30 -T -p 80 140.113.1.1
+2025-10-15 12:12:04,693 - INFO - Running: traceroute -w 3 -q 3 -m 30 -T -p 443 140.113.1.1
+2025-10-15 12:12:05,720 - INFO - Running: traceroute -w 3 -q 3 -m 30 -I 140.113.6.2
+2025-10-15 12:14:05,743 - ERROR - Traceroute to ns2.nctu.edu.tw timed out
+2025-10-15 12:14:06,761 - INFO - Running: traceroute -w 3 -q 3 -m 30 -T -p 80 140.113.6.2
+2025-10-15 12:14:07,791 - INFO - Running: traceroute -w 3 -q 3 -m 30 -T -p 443 140.113.6.2
+2025-10-15 12:14:08,815 - INFO - Progress: 32/131 - ncu.edu.tw
+2025-10-15 12:14:09,318 - INFO - Found 6 reachable service(s) for ncu.edu.tw
+2025-10-15 12:14:09,319 - INFO - Running: traceroute -w 3 -q 3 -m 30 -I 140.115.0.251
+2025-10-15 12:16:09,332 - ERROR - Traceroute to ncu.edu.tw timed out
+2025-10-15 12:16:10,339 - INFO - Running: traceroute -w 3 -q 3 -m 30 -T -p 80 140.115.0.251
+2025-10-15 12:16:11,366 - INFO - Running: traceroute -w 3 -q 3 -m 30 -T -p 443 140.115.0.251
+2025-10-15 12:16:12,396 - INFO - Running: traceroute -w 3 -q 3 -m 30 -I 140.115.17.82
+2025-10-15 12:16:22,857 - INFO - Running: traceroute -w 3 -q 3 -m 30 -T -p 80 140.115.17.82
+2025-10-15 12:16:23,877 - INFO - Running: traceroute -w 3 -q 3 -m 30 -T -p 443 140.115.17.82
+2025-10-15 12:16:24,897 - INFO - Running: traceroute -w 3 -q 3 -m 30 -I 140.115.0.177
+2025-10-15 12:16:44,251 - INFO - Running: traceroute -w 3 -q 3 -m 30 -T -p 80 140.115.0.177
+2025-10-15 12:16:45,274 - INFO - Running: traceroute -w 3 -q 3 -m 30 -T -p 443 140.115.0.177
+2025-10-15 12:16:46,289 - INFO - Progress: 33/131 - nchu.edu.tw
+2025-10-15 12:16:46,651 - INFO - Found 8 reachable service(s) for nchu.edu.tw
+2025-10-15 12:16:46,653 - INFO - Running: traceroute -w 3 -q 3 -m 30 -I 140.120.152.122
+2025-10-15 12:18:46,663 - ERROR - Traceroute to nchu.edu.tw timed out
+2025-10-15 12:18:47,672 - INFO - Running: traceroute -w 3 -q 3 -m 30 -T -p 80 140.120.152.122
+2025-10-15 12:18:48,702 - INFO - Running: traceroute -w 3 -q 3 -m 30 -T -p 443 140.120.152.122
+2025-10-15 12:18:49,733 - INFO - Running: traceroute -w 3 -q 3 -m 30 -I 140.120.1.20
+2025-10-15 12:20:49,739 - ERROR - Traceroute to www.nchu.edu.tw timed out
+2025-10-15 12:20:50,746 - INFO - Running: traceroute -w 3 -q 3 -m 30 -T -p 80 140.120.1.20
+2025-10-15 12:20:51,769 - INFO - Running: traceroute -w 3 -q 3 -m 30 -T -p 443 140.120.1.20
+2025-10-15 12:20:52,786 - INFO - Progress: 34/131 - ncku.edu.tw
+2025-10-15 12:20:53,167 - INFO - Found 4 reachable service(s) for ncku.edu.tw
+2025-10-15 12:20:53,168 - INFO - Running: traceroute -w 3 -q 3 -m 30 -I 140.116.229.1
+2025-10-15 12:21:12,437 - INFO - Running: traceroute -w 3 -q 3 -m 30 -T -p 80 140.116.229.1
+2025-10-15 12:21:13,464 - INFO - Running: traceroute -w 3 -q 3 -m 30 -T -p 443 140.116.229.1
+2025-10-15 12:21:14,481 - INFO - Running: traceroute -w 3 -q 3 -m 30 -I 140.116.248.21
+2025-10-15 12:23:14,494 - ERROR - Traceroute to www.ncku.edu.tw timed out
+2025-10-15 12:23:15,511 - INFO - Running: traceroute -w 3 -q 3 -m 30 -T -p 80 140.116.248.21
+2025-10-15 12:23:16,551 - INFO - Running: traceroute -w 3 -q 3 -m 30 -T -p 443 140.116.248.21
+2025-10-15 12:23:17,569 - INFO - Progress: 35/131 - nsysu.edu.tw
+2025-10-15 12:23:18,014 - INFO - Found 8 reachable service(s) for nsysu.edu.tw
+2025-10-15 12:23:18,015 - INFO - Running: traceroute -w 3 -q 3 -m 30 -I 140.117.13.241
+2025-10-15 12:25:18,030 - ERROR - Traceroute to www.nsysu.edu.tw timed out
+2025-10-15 12:25:19,040 - INFO - Running: traceroute -w 3 -q 3 -m 30 -T -p 80 140.117.13.241
+2025-10-15 12:25:20,065 - INFO - Running: traceroute -w 3 -q 3 -m 30 -T -p 443 140.117.13.241
+2025-10-15 12:25:21,086 - INFO - Running: traceroute -w 3 -q 3 -m 30 -I 140.117.11.25
+2025-10-15 12:27:21,106 - ERROR - Traceroute to www2.nsysu.edu.tw timed out
+2025-10-15 12:27:22,110 - INFO - Running: traceroute -w 3 -q 3 -m 30 -T -p 80 140.117.11.25
+2025-10-15 12:27:23,143 - INFO - Running: traceroute -w 3 -q 3 -m 30 -T -p 443 140.117.11.25
+2025-10-15 12:27:24,190 - INFO - Running: traceroute -w 3 -q 3 -m 30 -I 140.117.11.50
+2025-10-15 12:29:24,216 - ERROR - Traceroute to mail.nsysu.edu.tw timed out
+2025-10-15 12:29:25,240 - INFO - Running: traceroute -w 3 -q 3 -m 30 -T -p 80 140.117.11.50
+2025-10-15 12:29:26,263 - INFO - Running: traceroute -w 3 -q 3 -m 30 -T -p 443 140.117.11.50
+2025-10-15 12:29:27,287 - INFO - Progress: 36/131 - ccu.edu.tw
+2025-10-15 12:29:29,722 - INFO - Found 9 reachable service(s) for ccu.edu.tw
+2025-10-15 12:29:29,723 - INFO - Running: traceroute -w 3 -q 3 -m 30 -I 140.123.1.2
+2025-10-15 12:29:31,078 - INFO - Running: traceroute -w 3 -q 3 -m 30 -T -p 80 140.123.1.2
+2025-10-15 12:29:32,101 - INFO - Running: traceroute -w 3 -q 3 -m 30 -T -p 443 140.123.1.2
+2025-10-15 12:29:33,132 - INFO - Running: traceroute -w 3 -q 3 -m 30 -I 140.123.13.215
+2025-10-15 12:31:33,179 - ERROR - Traceroute to www.ccu.edu.tw timed out
+2025-10-15 12:31:34,189 - INFO - Running: traceroute -w 3 -q 3 -m 30 -T -p 80 140.123.13.215
+2025-10-15 12:31:35,216 - INFO - Running: traceroute -w 3 -q 3 -m 30 -T -p 443 140.123.13.215
+2025-10-15 12:31:36,238 - INFO - Running: traceroute -w 3 -q 3 -m 30 -I 140.123.26.30
+2025-10-15 12:33:36,251 - ERROR - Traceroute to www2.ccu.edu.tw timed out
+2025-10-15 12:33:37,261 - INFO - Running: traceroute -w 3 -q 3 -m 30 -T -p 80 140.123.26.30
+2025-10-15 12:33:38,290 - INFO - Running: traceroute -w 3 -q 3 -m 30 -T -p 443 140.123.26.30
+2025-10-15 12:33:39,311 - INFO - Progress: 37/131 - ntnu.edu.tw
+2025-10-15 12:33:39,651 - INFO - Found 11 reachable service(s) for ntnu.edu.tw
+2025-10-15 12:33:39,652 - INFO - Running: traceroute -w 3 -q 3 -m 30 -I 140.122.65.193
+2025-10-15 12:35:39,667 - ERROR - Traceroute to www.ntnu.edu.tw timed out
+2025-10-15 12:35:40,700 - INFO - Running: traceroute -w 3 -q 3 -m 30 -T -p 80 140.122.65.193
+2025-10-15 12:35:41,731 - INFO - Running: traceroute -w 3 -q 3 -m 30 -T -p 443 140.122.65.193
+2025-10-15 12:35:42,785 - INFO - Running: traceroute -w 3 -q 3 -m 30 -I 140.122.65.37
+2025-10-15 12:36:02,303 - INFO - Running: traceroute -w 3 -q 3 -m 30 -T -p 80 140.122.65.37
+2025-10-15 12:36:03,335 - INFO - Running: traceroute -w 3 -q 3 -m 30 -T -p 443 140.122.65.37
+2025-10-15 12:36:04,350 - INFO - Progress: 38/131 - nuk.edu.tw
+2025-10-15 12:36:04,794 - INFO - Found 6 reachable service(s) for nuk.edu.tw
+2025-10-15 12:36:04,796 - INFO - Running: traceroute -w 3 -q 3 -m 30 -I 140.127.234.158
+2025-10-15 12:38:04,811 - ERROR - Traceroute to www.nuk.edu.tw timed out
+2025-10-15 12:38:05,823 - INFO - Running: traceroute -w 3 -q 3 -m 30 -T -p 80 140.127.234.158
+2025-10-15 12:38:06,857 - INFO - Running: traceroute -w 3 -q 3 -m 30 -T -p 443 140.127.234.158
+2025-10-15 12:38:07,885 - INFO - Running: traceroute -w 3 -q 3 -m 30 -I 140.127.234.157
+2025-10-15 12:40:07,897 - ERROR - Traceroute to www2.nuk.edu.tw timed out
+2025-10-15 12:40:08,911 - INFO - Running: traceroute -w 3 -q 3 -m 30 -T -p 80 140.127.234.157
+2025-10-15 12:40:09,940 - INFO - Running: traceroute -w 3 -q 3 -m 30 -T -p 443 140.127.234.157
+2025-10-15 12:40:10,978 - INFO - Running: traceroute -w 3 -q 3 -m 30 -I 140.127.234.2
+2025-10-15 12:42:10,993 - ERROR - Traceroute to smtp.nuk.edu.tw timed out
+2025-10-15 12:42:12,004 - INFO - Running: traceroute -w 3 -q 3 -m 30 -T -p 80 140.127.234.2
+2025-10-15 12:42:13,032 - INFO - Running: traceroute -w 3 -q 3 -m 30 -T -p 443 140.127.234.2
+2025-10-15 12:42:14,052 - INFO - Progress: 39/131 - tku.edu.tw
+2025-10-15 12:42:14,478 - INFO - Found 8 reachable service(s) for tku.edu.tw
+2025-10-15 12:42:14,480 - INFO - Running: traceroute -w 3 -q 3 -m 30 -I 203.145.221.108
+2025-10-15 12:42:34,022 - INFO - Running: traceroute -w 3 -q 3 -m 30 -T -p 80 203.145.221.108
+2025-10-15 12:42:35,045 - INFO - Running: traceroute -w 3 -q 3 -m 30 -T -p 443 203.145.221.108
+2025-10-15 12:42:36,070 - INFO - Running: traceroute -w 3 -q 3 -m 30 -I 163.13.240.169
+2025-10-15 12:42:55,565 - INFO - Running: traceroute -w 3 -q 3 -m 30 -T -p 80 163.13.240.169
+2025-10-15 12:42:56,601 - INFO - Running: traceroute -w 3 -q 3 -m 30 -T -p 443 163.13.240.169
+2025-10-15 12:42:57,621 - INFO - Running: traceroute -w 3 -q 3 -m 30 -I 13.76.154.183
+2025-10-15 12:44:57,636 - ERROR - Traceroute to mail.tku.edu.tw timed out
+2025-10-15 12:44:58,641 - INFO - Running: traceroute -w 3 -q 3 -m 30 -T -p 80 13.76.154.183
+2025-10-15 12:44:59,666 - INFO - Running: traceroute -w 3 -q 3 -m 30 -T -p 443 13.76.154.183
+2025-10-15 12:45:00,699 - INFO - Progress: 40/131 - fcu.edu.tw
+2025-10-15 12:45:01,245 - INFO - Found 3 reachable service(s) for fcu.edu.tw
+2025-10-15 12:45:01,247 - INFO - Running: traceroute -w 3 -q 3 -m 30 -I 3.169.55.34
+2025-10-15 12:46:14,725 - INFO - Running: traceroute -w 3 -q 3 -m 30 -T -p 80 3.169.55.34
+2025-10-15 12:46:15,753 - INFO - Running: traceroute -w 3 -q 3 -m 30 -T -p 443 3.169.55.34
+2025-10-15 12:46:16,773 - INFO - Running: traceroute -w 3 -q 3 -m 30 -I 140.134.17.1
+2025-10-15 12:48:16,787 - ERROR - Traceroute to ns2.fcu.edu.tw timed out
+2025-10-15 12:48:17,800 - INFO - Running: traceroute -w 3 -q 3 -m 30 -T -p 80 140.134.17.1
+2025-10-15 12:48:18,833 - INFO - Running: traceroute -w 3 -q 3 -m 30 -T -p 443 140.134.17.1
+2025-10-15 12:48:19,863 - INFO - Running: traceroute -w 3 -q 3 -m 30 -I 140.134.3.110
+2025-10-15 12:50:19,877 - ERROR - Traceroute to vpn.fcu.edu.tw timed out
+2025-10-15 12:50:20,891 - INFO - Running: traceroute -w 3 -q 3 -m 30 -T -p 80 140.134.3.110
+2025-10-15 12:50:21,916 - INFO - Running: traceroute -w 3 -q 3 -m 30 -T -p 443 140.134.3.110
+2025-10-15 12:50:22,941 - INFO - Progress: 41/131 - cycu.edu.tw
+2025-10-15 12:50:23,326 - INFO - Found 4 reachable service(s) for cycu.edu.tw
+2025-10-15 12:50:23,327 - INFO - Running: traceroute -w 3 -q 3 -m 30 -I 140.135.201.3
+2025-10-15 12:50:33,881 - INFO - Running: traceroute -w 3 -q 3 -m 30 -T -p 80 140.135.201.3
+2025-10-15 12:50:34,907 - INFO - Running: traceroute -w 3 -q 3 -m 30 -T -p 443 140.135.201.3
+2025-10-15 12:50:35,930 - INFO - Running: traceroute -w 3 -q 3 -m 30 -I 140.135.66.65
+2025-10-15 12:50:46,318 - INFO - Running: traceroute -w 3 -q 3 -m 30 -T -p 80 140.135.66.65
+2025-10-15 12:50:47,339 - INFO - Running: traceroute -w 3 -q 3 -m 30 -T -p 443 140.135.66.65
+2025-10-15 12:50:48,356 - INFO - Progress: 42/131 - tmu.edu.tw
+2025-10-15 12:50:48,793 - INFO - Found 9 reachable service(s) for tmu.edu.tw
+2025-10-15 12:50:48,795 - INFO - Running: traceroute -w 3 -q 3 -m 30 -I 35.194.238.141
+2025-10-15 12:52:48,812 - ERROR - Traceroute to www.tmu.edu.tw timed out
+2025-10-15 12:52:49,846 - INFO - Running: traceroute -w 3 -q 3 -m 30 -T -p 80 35.194.238.141
+2025-10-15 12:52:50,861 - INFO - Running: traceroute -w 3 -q 3 -m 30 -T -p 443 35.194.238.141
+2025-10-15 12:52:51,879 - INFO - Running: traceroute -w 3 -q 3 -m 30 -I 104.199.151.198
+2025-10-15 12:54:51,894 - ERROR - Traceroute to www2.tmu.edu.tw timed out
+2025-10-15 12:54:52,910 - INFO - Running: traceroute -w 3 -q 3 -m 30 -T -p 80 104.199.151.198
+2025-10-15 12:54:53,942 - INFO - Running: traceroute -w 3 -q 3 -m 30 -T -p 443 104.199.151.198
+2025-10-15 12:54:54,964 - INFO - Running: traceroute -w 3 -q 3 -m 30 -I 203.71.85.198
+2025-10-15 12:56:54,973 - ERROR - Traceroute to mail.tmu.edu.tw timed out
+2025-10-15 12:56:55,986 - INFO - Running: traceroute -w 3 -q 3 -m 30 -T -p 80 203.71.85.198
+2025-10-15 12:56:57,023 - INFO - Running: traceroute -w 3 -q 3 -m 30 -T -p 443 203.71.85.198
+2025-10-15 12:56:58,047 - INFO - Progress: 43/131 - nccu.edu.tw
+2025-10-15 12:56:58,466 - INFO - Found 7 reachable service(s) for nccu.edu.tw
+2025-10-15 12:56:58,467 - INFO - Running: traceroute -w 3 -q 3 -m 30 -I 140.119.166.199
+2025-10-15 12:57:08,914 - INFO - Running: traceroute -w 3 -q 3 -m 30 -T -p 80 140.119.166.199
+2025-10-15 12:57:09,944 - INFO - Running: traceroute -w 3 -q 3 -m 30 -T -p 443 140.119.166.199
+2025-10-15 12:57:10,962 - INFO - Running: traceroute -w 3 -q 3 -m 30 -I 140.119.168.10
+2025-10-15 12:57:21,309 - INFO - Running: traceroute -w 3 -q 3 -m 30 -T -p 80 140.119.168.10
+2025-10-15 12:57:22,334 - INFO - Running: traceroute -w 3 -q 3 -m 30 -T -p 443 140.119.168.10
+2025-10-15 12:57:23,350 - INFO - Running: traceroute -w 3 -q 3 -m 30 -I 140.119.209.2
+2025-10-15 12:59:23,365 - ERROR - Traceroute to www2.nccu.edu.tw timed out
+2025-10-15 12:59:24,379 - INFO - Running: traceroute -w 3 -q 3 -m 30 -T -p 80 140.119.209.2
+2025-10-15 12:59:25,402 - INFO - Running: traceroute -w 3 -q 3 -m 30 -T -p 443 140.119.209.2
+2025-10-15 12:59:26,430 - INFO - Processing category: financial_banks
+2025-10-15 12:59:26,430 - INFO - Progress: 44/131 - bot.com.tw
+2025-10-15 12:59:27,304 - INFO - Found 2 reachable service(s) for bot.com.tw
+2025-10-15 12:59:27,306 - INFO - Running: traceroute -w 3 -q 3 -m 30 -I 61.220.62.187
+2025-10-15 12:59:46,725 - INFO - Running: traceroute -w 3 -q 3 -m 30 -T -p 80 61.220.62.187
+2025-10-15 12:59:47,753 - INFO - Running: traceroute -w 3 -q 3 -m 30 -T -p 443 61.220.62.187
+2025-10-15 12:59:48,944 - INFO - Running: traceroute -w 3 -q 3 -m 30 -I 210.71.212.100
+2025-10-15 13:00:23,435 - INFO - Running: traceroute -w 3 -q 3 -m 30 -T -p 80 210.71.212.100
+2025-10-15 13:00:24,471 - INFO - Running: traceroute -w 3 -q 3 -m 30 -T -p 443 210.71.212.100
+2025-10-15 13:00:25,492 - INFO - Progress: 45/131 - megabank.com.tw
+2025-10-15 13:00:26,784 - INFO - Found 4 reachable service(s) for megabank.com.tw
+2025-10-15 13:00:26,786 - INFO - Running: traceroute -w 3 -q 3 -m 30 -I 203.66.132.201
+2025-10-15 13:00:49,719 - INFO - Running: traceroute -w 3 -q 3 -m 30 -T -p 80 203.66.132.201
+2025-10-15 13:00:50,743 - INFO - Running: traceroute -w 3 -q 3 -m 30 -T -p 443 203.66.132.201
+2025-10-15 13:00:51,827 - INFO - Running: traceroute -w 3 -q 3 -m 30 -I 23.42.108.232
+2025-10-15 13:01:11,072 - INFO - Running: traceroute -w 3 -q 3 -m 30 -T -p 80 23.42.108.232
+2025-10-15 13:01:12,096 - INFO - Running: traceroute -w 3 -q 3 -m 30 -T -p 443 23.42.108.232
+2025-10-15 13:01:13,141 - INFO - Running: traceroute -w 3 -q 3 -m 30 -I 61.220.62.130
+2025-10-15 13:01:32,379 - INFO - Running: traceroute -w 3 -q 3 -m 30 -T -p 80 61.220.62.130
+2025-10-15 13:01:33,403 - INFO - Running: traceroute -w 3 -q 3 -m 30 -T -p 443 61.220.62.130
+2025-10-15 13:01:34,422 - INFO - Progress: 46/131 - landbank.com.tw
+2025-10-15 13:01:34,810 - INFO - Found 2 reachable service(s) for landbank.com.tw
+2025-10-15 13:01:34,812 - INFO - Running: traceroute -w 3 -q 3 -m 30 -I 203.66.32.107
+2025-10-15 13:01:45,148 - INFO - Running: traceroute -w 3 -q 3 -m 30 -T -p 80 203.66.32.107
+2025-10-15 13:01:46,178 - INFO - Running: traceroute -w 3 -q 3 -m 30 -T -p 443 203.66.32.107
+2025-10-15 13:01:47,199 - INFO - Running: traceroute -w 3 -q 3 -m 30 -I 202.39.57.29
+2025-10-15 13:02:24,677 - INFO - Running: traceroute -w 3 -q 3 -m 30 -T -p 80 202.39.57.29
+2025-10-15 13:02:25,707 - INFO - Running: traceroute -w 3 -q 3 -m 30 -T -p 443 202.39.57.29
+2025-10-15 13:02:26,725 - INFO - Progress: 47/131 - tcb-bank.com.tw
+2025-10-15 13:02:27,246 - INFO - Found 3 reachable service(s) for tcb-bank.com.tw
+2025-10-15 13:02:27,247 - INFO - Running: traceroute -w 3 -q 3 -m 30 -I 203.74.167.1
+2025-10-15 13:03:31,747 - INFO - Running: traceroute -w 3 -q 3 -m 30 -T -p 80 203.74.167.1
+2025-10-15 13:03:32,781 - INFO - Running: traceroute -w 3 -q 3 -m 30 -T -p 443 203.74.167.1
+2025-10-15 13:03:33,822 - INFO - Running: traceroute -w 3 -q 3 -m 30 -I 60.244.119.144
+2025-10-15 13:03:53,572 - INFO - Running: traceroute -w 3 -q 3 -m 30 -T -p 80 60.244.119.144
+2025-10-15 13:03:54,598 - INFO - Running: traceroute -w 3 -q 3 -m 30 -T -p 443 60.244.119.144
+2025-10-15 13:03:55,611 - INFO - Progress: 48/131 - firstbank.com.tw
+2025-10-15 13:03:56,600 - INFO - Found 3 reachable service(s) for firstbank.com.tw
+2025-10-15 13:03:56,601 - INFO - Running: traceroute -w 3 -q 3 -m 30 -I 219.87.23.191
+2025-10-15 13:04:16,072 - INFO - Running: traceroute -w 3 -q 3 -m 30 -T -p 80 219.87.23.191
+2025-10-15 13:04:17,097 - INFO - Running: traceroute -w 3 -q 3 -m 30 -T -p 443 219.87.23.191
+2025-10-15 13:04:18,116 - INFO - Running: traceroute -w 3 -q 3 -m 30 -I 23.1.190.126
+2025-10-15 13:05:05,091 - INFO - Running: traceroute -w 3 -q 3 -m 30 -T -p 80 23.1.190.126
+2025-10-15 13:05:06,114 - INFO - Running: traceroute -w 3 -q 3 -m 30 -T -p 443 23.1.190.126
+2025-10-15 13:05:07,132 - INFO - Running: traceroute -w 3 -q 3 -m 30 -I 61.67.7.197
+2025-10-15 13:05:35,782 - INFO - Running: traceroute -w 3 -q 3 -m 30 -T -p 80 219.87.23.161
+2025-10-15 13:05:36,808 - INFO - Running: traceroute -w 3 -q 3 -m 30 -T -p 443 219.87.23.161
+2025-10-15 13:05:37,831 - INFO - Progress: 49/131 - huananbank.com.tw
+2025-10-15 13:05:38,238 - WARNING - No reachable services found for huananbank.com.tw
+2025-10-15 13:05:38,240 - INFO - Progress: 50/131 - changhwabank.com.tw
+2025-10-15 13:05:38,631 - WARNING - No reachable services found for changhwabank.com.tw
+2025-10-15 13:05:38,631 - INFO - Progress: 51/131 - ctbcbank.com
+2025-10-15 13:05:39,068 - INFO - Found 3 reachable service(s) for ctbcbank.com
+2025-10-15 13:05:39,069 - INFO - Running: traceroute -w 3 -q 3 -m 30 -I 175.184.243.207
+2025-10-15 13:06:34,560 - INFO - Running: traceroute -w 3 -q 3 -m 30 -T -p 80 175.184.243.207
+2025-10-15 13:06:35,593 - INFO - Running: traceroute -w 3 -q 3 -m 30 -T -p 443 175.184.243.207
+2025-10-15 13:06:36,608 - INFO - Running: traceroute -w 3 -q 3 -m 30 -I 203.66.181.152
+2025-10-15 13:08:36,626 - ERROR - Traceroute to ns1.ctbcbank.com timed out
+2025-10-15 13:08:37,631 - INFO - Running: traceroute -w 3 -q 3 -m 30 -T -p 80 203.66.181.152
+2025-10-15 13:08:38,648 - INFO - Running: traceroute -w 3 -q 3 -m 30 -T -p 443 203.66.181.152
+2025-10-15 13:08:39,676 - INFO - Running: traceroute -w 3 -q 3 -m 30 -I 203.66.181.153
+2025-10-15 13:10:39,691 - ERROR - Traceroute to ns2.ctbcbank.com timed out
+2025-10-15 13:10:40,701 - INFO - Running: traceroute -w 3 -q 3 -m 30 -T -p 80 203.66.181.153
+2025-10-15 13:10:41,733 - INFO - Running: traceroute -w 3 -q 3 -m 30 -T -p 443 203.66.181.153
+2025-10-15 13:10:42,765 - INFO - Progress: 52/131 - cathaybk.com.tw
+2025-10-15 13:10:43,139 - INFO - Found 2 reachable service(s) for cathaybk.com.tw
+2025-10-15 13:10:43,140 - INFO - Running: traceroute -w 3 -q 3 -m 30 -I 218.211.34.82
+2025-10-15 13:11:02,587 - INFO - Running: traceroute -w 3 -q 3 -m 30 -T -p 80 218.211.34.82
+2025-10-15 13:11:03,618 - INFO - Running: traceroute -w 3 -q 3 -m 30 -T -p 443 218.211.34.82
+2025-10-15 13:11:04,629 - INFO - Progress: 53/131 - fubon.com
+2025-10-15 13:11:05,752 - INFO - Found 5 reachable service(s) for fubon.com
+2025-10-15 13:11:05,754 - INFO - Running: traceroute -w 3 -q 3 -m 30 -I 60.248.209.142
+2025-10-15 13:13:05,767 - ERROR - Traceroute to fubon.com timed out
+2025-10-15 13:13:06,778 - INFO - Running: traceroute -w 3 -q 3 -m 30 -T -p 80 60.248.209.142
+2025-10-15 13:13:07,802 - INFO - Running: traceroute -w 3 -q 3 -m 30 -T -p 443 60.248.209.142
+2025-10-15 13:13:08,841 - INFO - Running: traceroute -w 3 -q 3 -m 30 -I 210.208.107.11
+2025-10-15 13:13:28,277 - INFO - Running: traceroute -w 3 -q 3 -m 30 -T -p 80 60.251.170.11
+2025-10-15 13:13:29,304 - INFO - Running: traceroute -w 3 -q 3 -m 30 -T -p 443 60.251.170.11
+2025-10-15 13:13:30,354 - INFO - Running: traceroute -w 3 -q 3 -m 30 -I 60.248.209.145
+2025-10-15 13:13:58,654 - INFO - Running: traceroute -w 3 -q 3 -m 30 -T -p 80 60.248.209.145
+2025-10-15 13:13:59,681 - INFO - Running: traceroute -w 3 -q 3 -m 30 -T -p 443 60.248.209.145
+2025-10-15 13:14:00,703 - INFO - Progress: 54/131 - esunbank.com.tw
+2025-10-15 13:14:01,284 - INFO - Found 3 reachable service(s) for esunbank.com.tw
+2025-10-15 13:14:01,285 - INFO - Running: traceroute -w 3 -q 3 -m 30 -I 219.87.57.163
+2025-10-15 13:14:20,699 - INFO - Running: traceroute -w 3 -q 3 -m 30 -T -p 80 219.87.57.163
+2025-10-15 13:14:21,725 - INFO - Running: traceroute -w 3 -q 3 -m 30 -T -p 443 219.87.57.163
+2025-10-15 13:14:22,765 - INFO - Running: traceroute -w 3 -q 3 -m 30 -I 124.219.113.2
+2025-10-15 13:14:42,350 - INFO - Running: traceroute -w 3 -q 3 -m 30 -T -p 80 124.219.113.2
+2025-10-15 13:14:43,378 - INFO - Running: traceroute -w 3 -q 3 -m 30 -T -p 443 124.219.113.2
+2025-10-15 13:14:44,399 - INFO - Progress: 55/131 - taishinbank.com.tw
+2025-10-15 13:14:44,762 - INFO - Found 4 reachable service(s) for taishinbank.com.tw
+2025-10-15 13:14:44,763 - INFO - Running: traceroute -w 3 -q 3 -m 30 -I 202.6.104.20
+2025-10-15 13:16:44,777 - ERROR - Traceroute to taishinbank.com.tw timed out
+2025-10-15 13:16:45,789 - INFO - Running: traceroute -w 3 -q 3 -m 30 -T -p 80 202.6.104.20
+2025-10-15 13:16:46,816 - INFO - Running: traceroute -w 3 -q 3 -m 30 -T -p 443 202.6.104.20
+2025-10-15 13:16:47,864 - INFO - Running: traceroute -w 3 -q 3 -m 30 -I 60.244.64.20
+2025-10-15 13:18:47,875 - ERROR - Traceroute to www.taishinbank.com.tw timed out
+2025-10-15 13:18:48,913 - INFO - Running: traceroute -w 3 -q 3 -m 30 -T -p 80 60.244.64.20
+2025-10-15 13:18:49,932 - INFO - Running: traceroute -w 3 -q 3 -m 30 -T -p 443 60.244.64.20
+2025-10-15 13:18:50,960 - INFO - Running: traceroute -w 3 -q 3 -m 30 -I 202.6.104.6
+2025-10-15 13:20:50,974 - ERROR - Traceroute to smtp.taishinbank.com.tw timed out
+2025-10-15 13:20:51,979 - INFO - Running: traceroute -w 3 -q 3 -m 30 -T -p 80 202.6.104.6
+2025-10-15 13:20:53,006 - INFO - Running: traceroute -w 3 -q 3 -m 30 -T -p 443 202.6.104.6
+2025-10-15 13:20:54,030 - INFO - Progress: 56/131 - sinopac.com
+2025-10-15 13:20:54,915 - INFO - Found 4 reachable service(s) for sinopac.com
+2025-10-15 13:20:54,916 - INFO - Running: traceroute -w 3 -q 3 -m 30 -I 211.76.148.17
+2025-10-15 13:22:54,890 - ERROR - Traceroute to www.sinopac.com timed out
+2025-10-15 13:22:55,902 - INFO - Running: traceroute -w 3 -q 3 -m 30 -T -p 80 211.76.148.17
+2025-10-15 13:22:56,930 - INFO - Running: traceroute -w 3 -q 3 -m 30 -T -p 443 211.76.148.17
+2025-10-15 13:22:57,952 - INFO - Running: traceroute -w 3 -q 3 -m 30 -I 211.76.151.64
+2025-10-15 13:24:57,956 - ERROR - Traceroute to mail.sinopac.com timed out
+2025-10-15 13:24:58,970 - INFO - Running: traceroute -w 3 -q 3 -m 30 -T -p 80 211.76.151.64
+2025-10-15 13:25:00,002 - INFO - Running: traceroute -w 3 -q 3 -m 30 -T -p 443 211.76.151.64
+2025-10-15 13:25:01,034 - INFO - Running: traceroute -w 3 -q 3 -m 30 -I 211.76.150.34
+2025-10-15 13:27:01,047 - ERROR - Traceroute to api.sinopac.com timed out
+2025-10-15 13:27:02,056 - INFO - Running: traceroute -w 3 -q 3 -m 30 -T -p 80 211.76.150.34
+2025-10-15 13:27:03,085 - INFO - Running: traceroute -w 3 -q 3 -m 30 -T -p 443 211.76.150.34
+2025-10-15 13:27:04,109 - INFO - Progress: 57/131 - skbank.com.tw
+2025-10-15 13:27:04,554 - INFO - Found 4 reachable service(s) for skbank.com.tw
+2025-10-15 13:27:04,556 - INFO - Running: traceroute -w 3 -q 3 -m 30 -I 203.66.35.14
+2025-10-15 13:27:14,775 - INFO - Running: traceroute -w 3 -q 3 -m 30 -T -p 80 203.66.35.14
+2025-10-15 13:27:15,802 - INFO - Running: traceroute -w 3 -q 3 -m 30 -T -p 443 203.66.35.14
+2025-10-15 13:27:16,814 - INFO - Running: traceroute -w 3 -q 3 -m 30 -I 175.98.118.170
+2025-10-15 13:27:36,199 - INFO - Running: traceroute -w 3 -q 3 -m 30 -T -p 80 175.98.118.170
+2025-10-15 13:27:37,228 - INFO - Running: traceroute -w 3 -q 3 -m 30 -T -p 443 175.98.118.170
+2025-10-15 13:27:38,278 - INFO - Running: traceroute -w 3 -q 3 -m 30 -I 59.124.68.60
+2025-10-15 13:27:57,586 - INFO - Running: traceroute -w 3 -q 3 -m 30 -T -p 80 59.124.68.60
+2025-10-15 13:27:58,616 - INFO - Running: traceroute -w 3 -q 3 -m 30 -T -p 443 59.124.68.60
+2025-10-15 13:27:59,637 - INFO - Progress: 58/131 - yuanta.com
+2025-10-15 13:28:00,671 - INFO - Found 4 reachable service(s) for yuanta.com
+2025-10-15 13:28:00,672 - INFO - Running: traceroute -w 3 -q 3 -m 30 -I 210.71.218.152
+2025-10-15 13:30:00,683 - ERROR - Traceroute to yuanta.com timed out
+2025-10-15 13:30:01,696 - INFO - Running: traceroute -w 3 -q 3 -m 30 -T -p 80 210.71.218.152
+2025-10-15 13:30:02,717 - INFO - Running: traceroute -w 3 -q 3 -m 30 -T -p 443 210.71.218.152
+2025-10-15 13:30:03,785 - INFO - Running: traceroute -w 3 -q 3 -m 30 -I 210.71.218.139
+2025-10-15 13:32:03,796 - ERROR - Traceroute to www.yuanta.com timed out
+2025-10-15 13:32:04,807 - INFO - Running: traceroute -w 3 -q 3 -m 30 -T -p 80 210.71.218.139
+2025-10-15 13:32:05,838 - INFO - Running: traceroute -w 3 -q 3 -m 30 -T -p 443 210.71.218.139
+2025-10-15 13:32:06,870 - INFO - Running: traceroute -w 3 -q 3 -m 30 -I 203.70.70.163
+2025-10-15 13:34:06,882 - ERROR - Traceroute to mail.yuanta.com timed out
+2025-10-15 13:34:07,899 - INFO - Running: traceroute -w 3 -q 3 -m 30 -T -p 80 203.70.70.163
+2025-10-15 13:34:08,918 - INFO - Running: traceroute -w 3 -q 3 -m 30 -T -p 443 203.70.70.163
+2025-10-15 13:34:09,940 - INFO - Processing category: financial_infra
+2025-10-15 13:34:09,942 - INFO - Progress: 59/131 - twse.com.tw
+2025-10-15 13:34:10,367 - INFO - Found 3 reachable service(s) for twse.com.tw
+2025-10-15 13:34:10,369 - INFO - Running: traceroute -w 3 -q 3 -m 30 -I 203.66.32.174
+2025-10-15 13:34:20,715 - INFO - Running: traceroute -w 3 -q 3 -m 30 -T -p 80 203.66.32.174
+2025-10-15 13:34:21,742 - INFO - Running: traceroute -w 3 -q 3 -m 30 -T -p 443 203.66.32.174
+2025-10-15 13:34:22,769 - INFO - Running: traceroute -w 3 -q 3 -m 30 -I 202.39.145.9
+2025-10-15 13:34:42,523 - INFO - Running: traceroute -w 3 -q 3 -m 30 -T -p 80 122.147.144.229
+2025-10-15 13:34:43,554 - INFO - Running: traceroute -w 3 -q 3 -m 30 -T -p 443 122.147.144.229
+2025-10-15 13:34:44,602 - INFO - Running: traceroute -w 3 -q 3 -m 30 -I 163.29.17.173
+2025-10-15 13:35:13,074 - INFO - Running: traceroute -w 3 -q 3 -m 30 -T -p 80 163.29.17.173
+2025-10-15 13:35:14,105 - INFO - Running: traceroute -w 3 -q 3 -m 30 -T -p 443 163.29.17.173
+2025-10-15 13:35:15,118 - INFO - Progress: 60/131 - tpex.org.tw
+2025-10-15 13:35:15,527 - INFO - Found 5 reachable service(s) for tpex.org.tw
+2025-10-15 13:35:15,529 - INFO - Running: traceroute -w 3 -q 3 -m 30 -I 210.63.162.253
+2025-10-15 13:37:15,539 - ERROR - Traceroute to tpex.org.tw timed out
+2025-10-15 13:37:16,571 - INFO - Running: traceroute -w 3 -q 3 -m 30 -T -p 80 210.63.162.253
+2025-10-15 13:37:17,598 - INFO - Running: traceroute -w 3 -q 3 -m 30 -T -p 443 210.63.162.253
+2025-10-15 13:37:18,650 - INFO - Running: traceroute -w 3 -q 3 -m 30 -I 218.210.125.130
+2025-10-15 13:39:18,662 - ERROR - Traceroute to www.tpex.org.tw timed out
+2025-10-15 13:39:19,700 - INFO - Running: traceroute -w 3 -q 3 -m 30 -T -p 80 203.74.185.130
+2025-10-15 13:39:20,728 - INFO - Running: traceroute -w 3 -q 3 -m 30 -T -p 443 203.74.185.130
+2025-10-15 13:39:21,749 - INFO - Progress: 61/131 - tdcc.com.tw
+2025-10-15 13:39:25,175 - INFO - Found 5 reachable service(s) for tdcc.com.tw
+2025-10-15 13:39:25,179 - INFO - Running: traceroute -w 3 -q 3 -m 30 -I 203.66.35.68
+2025-10-15 13:39:44,461 - INFO - Running: traceroute -w 3 -q 3 -m 30 -T -p 80 203.66.35.68
+2025-10-15 13:39:45,485 - INFO - Running: traceroute -w 3 -q 3 -m 30 -T -p 443 203.66.35.68
+2025-10-15 13:39:46,502 - INFO - Running: traceroute -w 3 -q 3 -m 30 -I 211.72.107.23
+2025-10-15 13:40:14,976 - INFO - Running: traceroute -w 3 -q 3 -m 30 -T -p 80 211.72.107.23
+2025-10-15 13:40:16,003 - INFO - Running: traceroute -w 3 -q 3 -m 30 -T -p 443 211.72.107.23
+2025-10-15 13:40:17,061 - INFO - Running: traceroute -w 3 -q 3 -m 30 -I 203.74.20.154
+2025-10-15 13:40:48,549 - INFO - Running: traceroute -w 3 -q 3 -m 30 -T -p 80 211.72.107.26
+2025-10-15 13:40:49,568 - INFO - Running: traceroute -w 3 -q 3 -m 30 -T -p 443 211.72.107.26
+2025-10-15 13:40:50,584 - INFO - Progress: 62/131 - fisc.com.tw
+2025-10-15 13:40:50,957 - INFO - Found 4 reachable service(s) for fisc.com.tw
+2025-10-15 13:40:50,958 - INFO - Running: traceroute -w 3 -q 3 -m 30 -I 61.218.86.231
+2025-10-15 13:41:10,339 - INFO - Running: traceroute -w 3 -q 3 -m 30 -T -p 80 60.248.149.83
+2025-10-15 13:41:11,365 - INFO - Running: traceroute -w 3 -q 3 -m 30 -T -p 443 60.248.149.83
+2025-10-15 13:41:12,385 - INFO - Running: traceroute -w 3 -q 3 -m 30 -I 60.248.149.72
+2025-10-15 13:41:40,736 - INFO - Running: traceroute -w 3 -q 3 -m 30 -T -p 80 60.248.149.72
+2025-10-15 13:41:41,759 - INFO - Running: traceroute -w 3 -q 3 -m 30 -T -p 443 60.248.149.72
+2025-10-15 13:41:42,781 - INFO - Running: traceroute -w 3 -q 3 -m 30 -I 203.66.154.10
+2025-10-15 13:42:11,170 - INFO - Running: traceroute -w 3 -q 3 -m 30 -T -p 80 203.66.154.10
+2025-10-15 13:42:12,195 - INFO - Running: traceroute -w 3 -q 3 -m 30 -T -p 443 203.66.154.10
+2025-10-15 13:42:13,214 - INFO - Processing category: ecommerce_tech
+2025-10-15 13:42:13,215 - INFO - Progress: 63/131 - pchome.com.tw
+2025-10-15 13:42:13,537 - INFO - Found 5 reachable service(s) for pchome.com.tw
+2025-10-15 13:42:13,539 - INFO - Running: traceroute -w 3 -q 3 -m 30 -I 34.110.144.106
+2025-10-15 13:42:32,749 - INFO - Running: traceroute -w 3 -q 3 -m 30 -T -p 80 34.110.144.106
+2025-10-15 13:42:33,772 - INFO - Running: traceroute -w 3 -q 3 -m 30 -T -p 443 34.110.144.106
+2025-10-15 13:42:34,788 - INFO - Running: traceroute -w 3 -q 3 -m 30 -I 210.59.230.45
+2025-10-15 13:44:34,797 - ERROR - Traceroute to mail.pchome.com.tw timed out
+2025-10-15 13:44:35,828 - INFO - Running: traceroute -w 3 -q 3 -m 30 -T -p 80 210.59.230.45
+2025-10-15 13:44:36,853 - INFO - Running: traceroute -w 3 -q 3 -m 30 -T -p 443 210.59.230.45
+2025-10-15 13:44:37,875 - INFO - Progress: 64/131 - 24h.pchome.com.tw
+2025-10-15 13:44:38,199 - INFO - Found 1 reachable service(s) for 24h.pchome.com.tw
+2025-10-15 13:44:38,200 - INFO - Running: traceroute -w 3 -q 3 -m 30 -I 34.149.253.14
+2025-10-15 13:44:48,512 - INFO - Running: traceroute -w 3 -q 3 -m 30 -T -p 80 34.149.253.14
+2025-10-15 13:44:49,536 - INFO - Running: traceroute -w 3 -q 3 -m 30 -T -p 443 34.149.253.14
+2025-10-15 13:44:50,554 - INFO - Progress: 65/131 - momoshop.com.tw
+2025-10-15 13:44:50,955 - INFO - Found 3 reachable service(s) for momoshop.com.tw
+2025-10-15 13:44:50,956 - INFO - Running: traceroute -w 3 -q 3 -m 30 -I 219.87.10.142
+2025-10-15 13:45:10,377 - INFO - Running: traceroute -w 3 -q 3 -m 30 -T -p 80 219.87.10.142
+2025-10-15 13:45:11,405 - INFO - Running: traceroute -w 3 -q 3 -m 30 -T -p 443 219.87.10.142
+2025-10-15 13:45:12,431 - INFO - Running: traceroute -w 3 -q 3 -m 30 -I 203.74.67.17
+2025-10-15 13:45:31,804 - INFO - Running: traceroute -w 3 -q 3 -m 30 -T -p 80 23.35.148.190
+2025-10-15 13:45:32,835 - INFO - Running: traceroute -w 3 -q 3 -m 30 -T -p 443 23.35.148.190
+2025-10-15 13:45:33,908 - INFO - Running: traceroute -w 3 -q 3 -m 30 -I 23.35.148.190
+2025-10-15 13:46:32,338 - INFO - Running: traceroute -w 3 -q 3 -m 30 -T -p 80 23.35.148.138
+2025-10-15 13:46:33,356 - INFO - Running: traceroute -w 3 -q 3 -m 30 -T -p 443 23.35.148.138
+2025-10-15 13:46:34,376 - INFO - Progress: 66/131 - shopee.tw
+2025-10-15 13:46:34,842 - INFO - Found 3 reachable service(s) for shopee.tw
+2025-10-15 13:46:34,843 - INFO - Running: traceroute -w 3 -q 3 -m 30 -I 103.117.4.112
+2025-10-15 13:47:42,595 - INFO - Running: traceroute -w 3 -q 3 -m 30 -T -p 80 103.117.4.112
+2025-10-15 13:47:43,614 - INFO - Running: traceroute -w 3 -q 3 -m 30 -T -p 443 103.117.4.112
+2025-10-15 13:47:44,638 - INFO - Running: traceroute -w 3 -q 3 -m 30 -I 147.136.146.133
+2025-10-15 13:48:31,989 - INFO - Running: traceroute -w 3 -q 3 -m 30 -T -p 80 147.136.172.142
+2025-10-15 13:48:33,019 - INFO - Running: traceroute -w 3 -q 3 -m 30 -T -p 443 147.136.172.142
+2025-10-15 13:48:34,032 - INFO - Progress: 67/131 - ruten.com.tw
+2025-10-15 13:48:34,496 - INFO - Found 6 reachable service(s) for ruten.com.tw
+2025-10-15 13:48:34,497 - INFO - Running: traceroute -w 3 -q 3 -m 30 -I 104.18.10.27
+2025-10-15 13:48:44,809 - INFO - Running: traceroute -w 3 -q 3 -m 30 -T -p 80 104.18.10.27
+2025-10-15 13:48:45,832 - INFO - Running: traceroute -w 3 -q 3 -m 30 -T -p 443 104.18.10.27
+2025-10-15 13:48:46,848 - INFO - Running: traceroute -w 3 -q 3 -m 30 -I 124.219.24.42
+2025-10-15 13:50:46,873 - ERROR - Traceroute to ns.ruten.com.tw timed out
+2025-10-15 13:50:47,886 - INFO - Running: traceroute -w 3 -q 3 -m 30 -T -p 80 124.219.24.42
+2025-10-15 13:50:48,914 - INFO - Running: traceroute -w 3 -q 3 -m 30 -T -p 443 124.219.24.42
+2025-10-15 13:50:49,939 - INFO - Progress: 68/131 - books.com.tw
+2025-10-15 13:50:50,299 - INFO - Found 7 reachable service(s) for books.com.tw
+2025-10-15 13:50:50,301 - INFO - Running: traceroute -w 3 -q 3 -m 30 -I 113.196.250.30
+2025-10-15 13:52:50,313 - ERROR - Traceroute to books.com.tw timed out
+2025-10-15 13:52:51,322 - INFO - Running: traceroute -w 3 -q 3 -m 30 -T -p 80 113.196.250.30
+2025-10-15 13:52:52,360 - INFO - Running: traceroute -w 3 -q 3 -m 30 -T -p 443 113.196.250.30
+2025-10-15 13:52:53,392 - INFO - Running: traceroute -w 3 -q 3 -m 30 -I 113.196.240.239
+2025-10-15 13:54:53,408 - ERROR - Traceroute to mail.books.com.tw timed out
+2025-10-15 13:54:54,418 - INFO - Running: traceroute -w 3 -q 3 -m 30 -T -p 80 113.196.240.239
+2025-10-15 13:54:55,440 - INFO - Running: traceroute -w 3 -q 3 -m 30 -T -p 443 113.196.240.239
+2025-10-15 13:54:56,462 - INFO - Progress: 69/131 - 104.com.tw
+2025-10-15 13:54:57,066 - INFO - Found 3 reachable service(s) for 104.com.tw
+2025-10-15 13:54:57,068 - INFO - Running: traceroute -w 3 -q 3 -m 30 -I 104.18.9.226
+2025-10-15 13:55:07,572 - INFO - Running: traceroute -w 3 -q 3 -m 30 -T -p 80 104.18.9.226
+2025-10-15 13:55:08,597 - INFO - Running: traceroute -w 3 -q 3 -m 30 -T -p 443 104.18.9.226
+2025-10-15 13:55:09,612 - INFO - Running: traceroute -w 3 -q 3 -m 30 -I 210.71.174.246
+2025-10-15 13:57:09,620 - ERROR - Traceroute to ftp.104.com.tw timed out
+2025-10-15 13:57:10,630 - INFO - Running: traceroute -w 3 -q 3 -m 30 -T -p 80 210.71.174.246
+2025-10-15 13:57:11,654 - INFO - Running: traceroute -w 3 -q 3 -m 30 -T -p 443 210.71.174.246
+2025-10-15 13:57:12,677 - INFO - Progress: 70/131 - 1111.com.tw
+2025-10-15 13:57:13,208 - INFO - Found 4 reachable service(s) for 1111.com.tw
+2025-10-15 13:57:13,212 - INFO - Running: traceroute -w 3 -q 3 -m 30 -I 202.153.190.10
+2025-10-15 13:59:13,226 - ERROR - Traceroute to 1111.com.tw timed out
+2025-10-15 13:59:14,239 - INFO - Running: traceroute -w 3 -q 3 -m 30 -T -p 80 202.153.190.10
+2025-10-15 13:59:15,271 - INFO - Running: traceroute -w 3 -q 3 -m 30 -T -p 443 202.153.190.10
+2025-10-15 13:59:16,293 - INFO - Running: traceroute -w 3 -q 3 -m 30 -I 202.153.190.13
+2025-10-15 14:01:16,338 - ERROR - Traceroute to api.1111.com.tw timed out
+2025-10-15 14:01:17,363 - INFO - Running: traceroute -w 3 -q 3 -m 30 -T -p 80 202.153.190.13
+2025-10-15 14:01:18,428 - INFO - Running: traceroute -w 3 -q 3 -m 30 -T -p 443 202.153.190.13
+2025-10-15 14:01:19,449 - INFO - Progress: 71/131 - yes123.com.tw
+2025-10-15 14:01:19,838 - INFO - Found 5 reachable service(s) for yes123.com.tw
+2025-10-15 14:01:19,840 - INFO - Running: traceroute -w 3 -q 3 -m 30 -I 168.63.250.12
+2025-10-15 14:03:09,646 - INFO - Running: traceroute -w 3 -q 3 -m 30 -T -p 80 168.63.250.12
+2025-10-15 14:03:10,681 - INFO - Running: traceroute -w 3 -q 3 -m 30 -T -p 443 168.63.250.12
+2025-10-15 14:03:11,703 - INFO - Running: traceroute -w 3 -q 3 -m 30 -I 218.211.34.44
+2025-10-15 14:03:31,105 - INFO - Running: traceroute -w 3 -q 3 -m 30 -T -p 80 218.211.34.44
+2025-10-15 14:03:32,142 - INFO - Running: traceroute -w 3 -q 3 -m 30 -T -p 443 218.211.34.44
+2025-10-15 14:03:33,159 - INFO - Progress: 72/131 - 591.com.tw
+2025-10-15 14:03:33,661 - INFO - Found 15 reachable service(s) for 591.com.tw
+2025-10-15 14:03:33,662 - INFO - Running: traceroute -w 3 -q 3 -m 30 -I 203.69.66.146
+2025-10-15 14:05:33,689 - ERROR - Traceroute to 591.com.tw timed out
+2025-10-15 14:05:34,711 - INFO - Running: traceroute -w 3 -q 3 -m 30 -T -p 80 203.69.66.146
+2025-10-15 14:05:35,741 - INFO - Running: traceroute -w 3 -q 3 -m 30 -T -p 443 203.69.66.146
+2025-10-15 14:05:36,759 - INFO - Progress: 73/131 - mobile01.com
+2025-10-15 14:05:38,183 - INFO - Found 3 reachable service(s) for mobile01.com
+2025-10-15 14:05:38,185 - INFO - Running: traceroute -w 3 -q 3 -m 30 -I 34.36.92.153
+2025-10-15 14:05:57,585 - INFO - Running: traceroute -w 3 -q 3 -m 30 -T -p 80 34.36.92.153
+2025-10-15 14:05:58,616 - INFO - Running: traceroute -w 3 -q 3 -m 30 -T -p 443 34.36.92.153
+2025-10-15 14:05:59,633 - INFO - Running: traceroute -w 3 -q 3 -m 30 -I 184.26.127.137
+2025-10-15 14:06:35,827 - INFO - Running: traceroute -w 3 -q 3 -m 30 -T -p 80 184.26.127.137
+2025-10-15 14:06:36,860 - INFO - Running: traceroute -w 3 -q 3 -m 30 -T -p 443 184.26.127.137
+2025-10-15 14:06:37,881 - INFO - Running: traceroute -w 3 -q 3 -m 30 -I 168.245.69.1
+2025-10-15 14:07:10,730 - INFO - Running: traceroute -w 3 -q 3 -m 30 -T -p 80 168.245.69.1
+2025-10-15 14:07:11,797 - INFO - Running: traceroute -w 3 -q 3 -m 30 -T -p 443 168.245.69.1
+2025-10-15 14:07:12,843 - INFO - Progress: 74/131 - ptt.cc
+2025-10-15 14:07:13,342 - INFO - Found 2 reachable service(s) for ptt.cc
+2025-10-15 14:07:13,349 - INFO - Running: traceroute -w 3 -q 3 -m 30 -I 140.112.172.3
+2025-10-15 14:07:41,720 - INFO - Running: traceroute -w 3 -q 3 -m 30 -T -p 80 140.112.172.3
+2025-10-15 14:07:42,741 - INFO - Running: traceroute -w 3 -q 3 -m 30 -T -p 443 140.112.172.3
+2025-10-15 14:07:43,770 - INFO - Running: traceroute -w 3 -q 3 -m 30 -I 104.21.30.106
+2025-10-15 14:07:55,938 - INFO - Running: traceroute -w 3 -q 3 -m 30 -T -p 80 104.21.30.106
+2025-10-15 14:07:56,973 - INFO - Running: traceroute -w 3 -q 3 -m 30 -T -p 443 104.21.30.106
+2025-10-15 14:07:58,004 - INFO - Progress: 75/131 - dcard.tw
+2025-10-15 14:07:58,650 - INFO - Found 3 reachable service(s) for dcard.tw
+2025-10-15 14:07:58,652 - INFO - Running: traceroute -w 3 -q 3 -m 30 -I 104.19.247.7
+2025-10-15 14:08:08,927 - INFO - Running: traceroute -w 3 -q 3 -m 30 -T -p 80 104.19.247.7
+2025-10-15 14:08:10,391 - INFO - Running: traceroute -w 3 -q 3 -m 30 -T -p 443 104.19.247.7
+2025-10-15 14:08:11,438 - INFO - Running: traceroute -w 3 -q 3 -m 30 -I 34.110.180.34
+2025-10-15 14:08:21,754 - INFO - Running: traceroute -w 3 -q 3 -m 30 -T -p 80 34.110.180.34
+2025-10-15 14:08:22,776 - INFO - Running: traceroute -w 3 -q 3 -m 30 -T -p 443 34.110.180.34
+2025-10-15 14:08:23,794 - INFO - Progress: 76/131 - bahamut.com.tw
+2025-10-15 14:08:24,212 - WARNING - No reachable services found for bahamut.com.tw
+2025-10-15 14:08:24,214 - INFO - Progress: 77/131 - gamer.com.tw
+2025-10-15 14:08:24,676 - INFO - Found 5 reachable service(s) for gamer.com.tw
+2025-10-15 14:08:24,678 - INFO - Running: traceroute -w 3 -q 3 -m 30 -I 104.18.2.197
+2025-10-15 14:08:37,854 - INFO - Running: traceroute -w 3 -q 3 -m 30 -T -p 80 104.18.2.197
+2025-10-15 14:08:38,874 - INFO - Running: traceroute -w 3 -q 3 -m 30 -T -p 443 104.18.2.197
+2025-10-15 14:08:39,896 - INFO - Running: traceroute -w 3 -q 3 -m 30 -I 142.250.66.83
+2025-10-15 14:08:59,223 - INFO - Running: traceroute -w 3 -q 3 -m 30 -T -p 80 142.250.66.83
+2025-10-15 14:09:00,259 - INFO - Running: traceroute -w 3 -q 3 -m 30 -T -p 443 142.250.66.83
+2025-10-15 14:09:01,286 - INFO - Processing category: media
+2025-10-15 14:09:01,287 - INFO - Progress: 78/131 - ltn.com.tw
+2025-10-15 14:09:01,816 - INFO - Found 5 reachable service(s) for ltn.com.tw
+2025-10-15 14:09:01,818 - INFO - Running: traceroute -w 3 -q 3 -m 30 -I 34.80.242.206
+2025-10-15 14:11:01,803 - ERROR - Traceroute to ltn.com.tw timed out
+2025-10-15 14:11:02,827 - INFO - Running: traceroute -w 3 -q 3 -m 30 -T -p 80 34.80.242.206
+2025-10-15 14:11:03,860 - INFO - Running: traceroute -w 3 -q 3 -m 30 -T -p 443 34.80.242.206
+2025-10-15 14:11:04,940 - INFO - Running: traceroute -w 3 -q 3 -m 30 -I 3.169.55.100
+2025-10-15 14:12:18,269 - INFO - Running: traceroute -w 3 -q 3 -m 30 -T -p 80 3.169.55.100
+2025-10-15 14:12:19,352 - INFO - Running: traceroute -w 3 -q 3 -m 30 -T -p 443 3.169.55.100
+2025-10-15 14:12:20,371 - INFO - Running: traceroute -w 3 -q 3 -m 30 -I 123.51.239.29
+2025-10-15 14:14:20,390 - ERROR - Traceroute to mail.ltn.com.tw timed out
+2025-10-15 14:14:21,413 - INFO - Running: traceroute -w 3 -q 3 -m 30 -T -p 80 123.51.239.29
+2025-10-15 14:14:22,461 - INFO - Running: traceroute -w 3 -q 3 -m 30 -T -p 443 123.51.239.29
+2025-10-15 14:14:23,501 - INFO - Progress: 79/131 - udn.com
+2025-10-15 14:14:24,756 - INFO - Found 2 reachable service(s) for udn.com
+2025-10-15 14:14:24,758 - INFO - Running: traceroute -w 3 -q 3 -m 30 -I 23.47.103.4
+2025-10-15 14:15:03,077 - INFO - Running: traceroute -w 3 -q 3 -m 30 -T -p 80 23.47.103.4
+2025-10-15 14:15:04,110 - INFO - Running: traceroute -w 3 -q 3 -m 30 -T -p 443 23.47.103.4
+2025-10-15 14:15:05,148 - INFO - Progress: 80/131 - chinatimes.com
+2025-10-15 14:15:06,235 - INFO - Found 6 reachable service(s) for chinatimes.com
+2025-10-15 14:15:06,236 - INFO - Running: traceroute -w 3 -q 3 -m 30 -I 35.244.236.6
+2025-10-15 14:15:25,454 - INFO - Running: traceroute -w 3 -q 3 -m 30 -T -p 80 35.244.236.6
+2025-10-15 14:15:26,482 - INFO - Running: traceroute -w 3 -q 3 -m 30 -T -p 443 35.244.236.6
+2025-10-15 14:15:27,503 - INFO - Running: traceroute -w 3 -q 3 -m 30 -I 172.66.140.98
+2025-10-15 14:15:55,679 - INFO - Running: traceroute -w 3 -q 3 -m 30 -T -p 80 172.66.140.98
+2025-10-15 14:15:56,720 - INFO - Running: traceroute -w 3 -q 3 -m 30 -T -p 443 172.66.140.98
+2025-10-15 14:15:57,739 - INFO - Running: traceroute -w 3 -q 3 -m 30 -I 219.87.68.174
+2025-10-15 14:17:57,753 - ERROR - Traceroute to mail.chinatimes.com timed out
+2025-10-15 14:17:58,768 - INFO - Running: traceroute -w 3 -q 3 -m 30 -T -p 80 219.87.68.174
+2025-10-15 14:17:59,798 - INFO - Running: traceroute -w 3 -q 3 -m 30 -T -p 443 219.87.68.174
+2025-10-15 14:18:00,818 - INFO - Progress: 81/131 - tvbs.com.tw
+2025-10-15 14:18:01,369 - INFO - Found 4 reachable service(s) for tvbs.com.tw
+2025-10-15 14:18:01,377 - INFO - Running: traceroute -w 3 -q 3 -m 30 -I 3.169.137.51
+2025-10-15 14:19:14,750 - INFO - Running: traceroute -w 3 -q 3 -m 30 -T -p 80 3.169.137.51
+2025-10-15 14:19:15,784 - INFO - Running: traceroute -w 3 -q 3 -m 30 -T -p 443 3.169.137.51
+2025-10-15 14:19:16,832 - INFO - Running: traceroute -w 3 -q 3 -m 30 -I 210.71.227.35
+2025-10-15 14:19:36,230 - INFO - Running: traceroute -w 3 -q 3 -m 30 -T -p 80 210.71.227.35
+2025-10-15 14:19:37,258 - INFO - Running: traceroute -w 3 -q 3 -m 30 -T -p 443 210.71.227.35
+2025-10-15 14:19:38,291 - INFO - Running: traceroute -w 3 -q 3 -m 30 -I 40.104.20.34
+2025-10-15 14:20:33,812 - INFO - Running: traceroute -w 3 -q 3 -m 30 -T -p 80 40.104.20.34
+2025-10-15 14:20:34,886 - INFO - Running: traceroute -w 3 -q 3 -m 30 -T -p 443 40.104.20.34
+2025-10-15 14:20:35,923 - INFO - Progress: 82/131 - settv.com.tw
+2025-10-15 14:20:36,460 - INFO - Found 1 reachable service(s) for settv.com.tw
+2025-10-15 14:20:36,463 - INFO - Running: traceroute -w 3 -q 3 -m 30 -I 3.169.137.84
+2025-10-15 14:21:49,758 - INFO - Running: traceroute -w 3 -q 3 -m 30 -T -p 80 3.169.137.84
+2025-10-15 14:21:50,789 - INFO - Running: traceroute -w 3 -q 3 -m 30 -T -p 443 3.169.137.84
+2025-10-15 14:21:51,810 - INFO - Progress: 83/131 - cts.com.tw
+2025-10-15 14:21:52,465 - INFO - Found 2 reachable service(s) for cts.com.tw
+2025-10-15 14:21:52,469 - INFO - Running: traceroute -w 3 -q 3 -m 30 -I 52.219.1.28
+2025-10-15 14:23:33,135 - INFO - Running: traceroute -w 3 -q 3 -m 30 -T -p 80 3.5.155.109
+2025-10-15 14:23:34,310 - INFO - Running: traceroute -w 3 -q 3 -m 30 -T -p 443 3.5.155.109
+2025-10-15 14:23:35,372 - INFO - Running: traceroute -w 3 -q 3 -m 30 -I 3.169.137.51
+2025-10-15 14:24:48,623 - INFO - Running: traceroute -w 3 -q 3 -m 30 -T -p 80 3.169.137.51
+2025-10-15 14:24:49,668 - INFO - Running: traceroute -w 3 -q 3 -m 30 -T -p 443 3.169.137.51
+2025-10-15 14:24:50,682 - INFO - Progress: 84/131 - ftv.com.tw
+2025-10-15 14:24:51,100 - INFO - Found 4 reachable service(s) for ftv.com.tw
+2025-10-15 14:24:51,101 - INFO - Running: traceroute -w 3 -q 3 -m 30 -I 104.18.27.53
+2025-10-15 14:25:07,312 - INFO - Running: traceroute -w 3 -q 3 -m 30 -T -p 80 104.18.27.53
+2025-10-15 14:25:08,336 - INFO - Running: traceroute -w 3 -q 3 -m 30 -T -p 443 104.18.27.53
+2025-10-15 14:25:09,354 - INFO - Running: traceroute -w 3 -q 3 -m 30 -I 104.18.26.53
+2025-10-15 14:25:22,730 - INFO - Running: traceroute -w 3 -q 3 -m 30 -T -p 80 104.18.26.53
+2025-10-15 14:25:23,751 - INFO - Running: traceroute -w 3 -q 3 -m 30 -T -p 443 104.18.26.53
+2025-10-15 14:25:24,791 - INFO - Running: traceroute -w 3 -q 3 -m 30 -I 40.104.21.82
+2025-10-15 14:26:29,459 - INFO - Running: traceroute -w 3 -q 3 -m 30 -T -p 80 40.104.21.34
+2025-10-15 14:26:30,488 - INFO - Running: traceroute -w 3 -q 3 -m 30 -T -p 443 40.104.21.34
+2025-10-15 14:26:31,504 - INFO - Progress: 85/131 - pts.org.tw
+2025-10-15 14:26:31,863 - INFO - Found 3 reachable service(s) for pts.org.tw
+2025-10-15 14:26:31,863 - INFO - Running: traceroute -w 3 -q 3 -m 30 -I 34.96.73.68
+2025-10-15 14:26:51,344 - INFO - Running: traceroute -w 3 -q 3 -m 30 -T -p 80 34.96.73.68
+2025-10-15 14:26:52,371 - INFO - Running: traceroute -w 3 -q 3 -m 30 -T -p 443 34.96.73.68
+2025-10-15 14:26:53,419 - INFO - Running: traceroute -w 3 -q 3 -m 30 -I 61.67.73.245
+2025-10-15 14:28:53,439 - ERROR - Traceroute to webmail.pts.org.tw timed out
+2025-10-15 14:28:54,486 - INFO - Running: traceroute -w 3 -q 3 -m 30 -T -p 80 61.67.73.245
+2025-10-15 14:28:55,607 - INFO - Running: traceroute -w 3 -q 3 -m 30 -T -p 443 61.67.73.245
+2025-10-15 14:28:56,677 - INFO - Running: traceroute -w 3 -q 3 -m 30 -I 61.67.73.253
+2025-10-15 14:30:56,688 - ERROR - Traceroute to vpn.pts.org.tw timed out
+2025-10-15 14:30:57,724 - INFO - Running: traceroute -w 3 -q 3 -m 30 -T -p 80 61.67.73.253
+2025-10-15 14:30:58,746 - INFO - Running: traceroute -w 3 -q 3 -m 30 -T -p 443 61.67.73.253
+2025-10-15 14:30:59,770 - INFO - Progress: 86/131 - cna.com.tw
+2025-10-15 14:31:01,023 - INFO - Found 8 reachable service(s) for cna.com.tw
+2025-10-15 14:31:01,024 - INFO - Running: traceroute -w 3 -q 3 -m 30 -I 34.160.71.205
+2025-10-15 14:31:20,377 - INFO - Running: traceroute -w 3 -q 3 -m 30 -T -p 80 34.160.71.205
+2025-10-15 14:31:21,398 - INFO - Running: traceroute -w 3 -q 3 -m 30 -T -p 443 34.160.71.205
+2025-10-15 14:31:22,418 - INFO - Running: traceroute -w 3 -q 3 -m 30 -I 61.219.29.196
+2025-10-15 14:33:22,435 - ERROR - Traceroute to mail.cna.com.tw timed out
+2025-10-15 14:33:23,449 - INFO - Running: traceroute -w 3 -q 3 -m 30 -T -p 80 61.219.29.196
+2025-10-15 14:33:24,484 - INFO - Running: traceroute -w 3 -q 3 -m 30 -T -p 443 61.219.29.196
+2025-10-15 14:33:25,505 - INFO - Progress: 87/131 - storm.mg
+2025-10-15 14:33:26,119 - INFO - Found 5 reachable service(s) for storm.mg
+2025-10-15 14:33:26,120 - INFO - Running: traceroute -w 3 -q 3 -m 30 -I 54.65.246.243
+2025-10-15 14:35:26,131 - ERROR - Traceroute to storm.mg timed out
+2025-10-15 14:35:27,158 - INFO - Running: traceroute -w 3 -q 3 -m 30 -T -p 80 54.65.246.243
+2025-10-15 14:35:28,180 - INFO - Running: traceroute -w 3 -q 3 -m 30 -T -p 443 54.65.246.243
+2025-10-15 14:35:29,250 - INFO - Running: traceroute -w 3 -q 3 -m 30 -I 3.169.121.79
+2025-10-15 14:36:33,596 - INFO - Running: traceroute -w 3 -q 3 -m 30 -T -p 80 3.169.121.8
+2025-10-15 14:36:34,636 - INFO - Running: traceroute -w 3 -q 3 -m 30 -T -p 443 3.169.121.8
+2025-10-15 14:36:35,682 - INFO - Running: traceroute -w 3 -q 3 -m 30 -I 142.250.196.211
+2025-10-15 14:36:55,197 - INFO - Running: traceroute -w 3 -q 3 -m 30 -T -p 80 142.250.196.211
+2025-10-15 14:36:56,228 - INFO - Running: traceroute -w 3 -q 3 -m 30 -T -p 443 142.250.196.211
+2025-10-15 14:36:57,252 - INFO - Progress: 88/131 - thenewslens.com
+2025-10-15 14:36:58,619 - INFO - Found 3 reachable service(s) for thenewslens.com
+2025-10-15 14:36:58,622 - INFO - Running: traceroute -w 3 -q 3 -m 30 -I 34.54.142.250
+2025-10-15 14:37:17,932 - INFO - Running: traceroute -w 3 -q 3 -m 30 -T -p 80 34.54.142.250
+2025-10-15 14:37:18,961 - INFO - Running: traceroute -w 3 -q 3 -m 30 -T -p 443 34.54.142.250
+2025-10-15 14:37:19,983 - INFO - Running: traceroute -w 3 -q 3 -m 30 -I 142.250.204.51
+2025-10-15 14:37:33,686 - INFO - Running: traceroute -w 3 -q 3 -m 30 -T -p 80 142.250.204.51
+2025-10-15 14:37:34,710 - INFO - Running: traceroute -w 3 -q 3 -m 30 -T -p 443 142.250.204.51
+2025-10-15 14:37:35,729 - INFO - Processing category: telecom
+2025-10-15 14:37:35,730 - INFO - Progress: 89/131 - cht.com.tw
+2025-10-15 14:37:36,315 - INFO - Found 1 reachable service(s) for cht.com.tw
+2025-10-15 14:37:36,317 - INFO - Running: traceroute -w 3 -q 3 -m 30 -I 203.66.32.202
+2025-10-15 14:37:46,767 - INFO - Running: traceroute -w 3 -q 3 -m 30 -T -p 80 203.66.32.202
+2025-10-15 14:37:47,804 - INFO - Running: traceroute -w 3 -q 3 -m 30 -T -p 443 203.66.32.202
+2025-10-15 14:37:48,838 - INFO - Progress: 90/131 - fetnet.net
+2025-10-15 14:37:50,035 - INFO - Found 7 reachable service(s) for fetnet.net
+2025-10-15 14:37:50,037 - INFO - Running: traceroute -w 3 -q 3 -m 30 -I 211.73.147.119
+2025-10-15 14:39:50,062 - ERROR - Traceroute to fetnet.net timed out
+2025-10-15 14:39:51,075 - INFO - Running: traceroute -w 3 -q 3 -m 30 -T -p 80 211.73.147.119
+2025-10-15 14:39:52,166 - INFO - Running: traceroute -w 3 -q 3 -m 30 -T -p 443 211.73.147.119
+2025-10-15 14:39:53,234 - INFO - Running: traceroute -w 3 -q 3 -m 30 -I 3.169.137.83
+2025-10-15 14:41:06,545 - INFO - Running: traceroute -w 3 -q 3 -m 30 -T -p 80 3.169.137.83
+2025-10-15 14:41:07,580 - INFO - Running: traceroute -w 3 -q 3 -m 30 -T -p 443 3.169.137.83
+2025-10-15 14:41:08,614 - INFO - Running: traceroute -w 3 -q 3 -m 30 -I 61.20.33.126
+2025-10-15 14:43:08,650 - ERROR - Traceroute to mail.fetnet.net timed out
+2025-10-15 14:43:09,696 - INFO - Running: traceroute -w 3 -q 3 -m 30 -T -p 80 61.20.33.126
+2025-10-15 14:43:10,749 - INFO - Running: traceroute -w 3 -q 3 -m 30 -T -p 443 61.20.33.126
+2025-10-15 14:43:11,813 - INFO - Progress: 91/131 - taiwanmobile.com
+2025-10-15 14:43:12,285 - INFO - Found 3 reachable service(s) for taiwanmobile.com
+2025-10-15 14:43:12,288 - INFO - Running: traceroute -w 3 -q 3 -m 30 -I 124.29.139.21
+2025-10-15 14:44:35,155 - INFO - Running: traceroute -w 3 -q 3 -m 30 -T -p 80 124.29.139.21
+2025-10-15 14:44:36,190 - INFO - Running: traceroute -w 3 -q 3 -m 30 -T -p 443 124.29.139.21
+2025-10-15 14:44:37,243 - INFO - Running: traceroute -w 3 -q 3 -m 30 -I 124.29.151.21
+2025-10-15 14:45:59,864 - INFO - Running: traceroute -w 3 -q 3 -m 30 -T -p 80 124.29.151.21
+2025-10-15 14:46:00,893 - INFO - Running: traceroute -w 3 -q 3 -m 30 -T -p 443 124.29.151.21
+2025-10-15 14:46:01,948 - INFO - Running: traceroute -w 3 -q 3 -m 30 -I 124.29.139.15
+2025-10-15 14:47:24,553 - INFO - Running: traceroute -w 3 -q 3 -m 30 -T -p 80 124.29.139.15
+2025-10-15 14:47:25,584 - INFO - Running: traceroute -w 3 -q 3 -m 30 -T -p 443 124.29.139.15
+2025-10-15 14:47:26,602 - INFO - Progress: 92/131 - aptg.com.tw
+2025-10-15 14:47:26,985 - INFO - Found 2 reachable service(s) for aptg.com.tw
+2025-10-15 14:47:26,986 - INFO - Running: traceroute -w 3 -q 3 -m 30 -I 210.200.64.235
+2025-10-15 14:49:27,022 - ERROR - Traceroute to aptg.com.tw timed out
+2025-10-15 14:49:28,043 - INFO - Running: traceroute -w 3 -q 3 -m 30 -T -p 80 210.200.64.235
+2025-10-15 14:49:29,132 - INFO - Running: traceroute -w 3 -q 3 -m 30 -T -p 443 210.200.64.235
+2025-10-15 14:49:30,168 - INFO - Running: traceroute -w 3 -q 3 -m 30 -I 210.200.69.126
+2025-10-15 14:51:30,189 - ERROR - Traceroute to www.aptg.com.tw timed out
+2025-10-15 14:51:31,201 - INFO - Running: traceroute -w 3 -q 3 -m 30 -T -p 80 210.200.69.126
+2025-10-15 14:51:32,235 - INFO - Running: traceroute -w 3 -q 3 -m 30 -T -p 443 210.200.69.126
+2025-10-15 14:51:33,260 - INFO - Progress: 93/131 - tstar.com.tw
+2025-10-15 14:52:05,358 - WARNING - No reachable services found for tstar.com.tw
+2025-10-15 14:52:05,364 - INFO - Progress: 94/131 - chief.com.tw
+2025-10-15 14:52:05,758 - INFO - Found 4 reachable service(s) for chief.com.tw
+2025-10-15 14:52:05,761 - INFO - Running: traceroute -w 3 -q 3 -m 30 -I 202.55.247.128
+2025-10-15 14:52:25,204 - INFO - Running: traceroute -w 3 -q 3 -m 30 -T -p 80 202.55.247.128
+2025-10-15 14:52:26,235 - INFO - Running: traceroute -w 3 -q 3 -m 30 -T -p 443 202.55.247.128
+2025-10-15 14:52:27,254 - INFO - Running: traceroute -w 3 -q 3 -m 30 -I 202.3.168.6
+2025-10-15 14:54:27,270 - ERROR - Traceroute to mail.chief.com.tw timed out
+2025-10-15 14:54:28,288 - INFO - Running: traceroute -w 3 -q 3 -m 30 -T -p 80 202.3.168.6
+2025-10-15 14:54:29,314 - INFO - Running: traceroute -w 3 -q 3 -m 30 -T -p 443 202.3.168.6
+2025-10-15 14:54:30,338 - INFO - Progress: 95/131 - so-net.net.tw
+2025-10-15 14:54:30,656 - INFO - Found 7 reachable service(s) for so-net.net.tw
+2025-10-15 14:54:30,657 - INFO - Running: traceroute -w 3 -q 3 -m 30 -I 61.64.127.156
+2025-10-15 14:56:30,703 - ERROR - Traceroute to so-net.net.tw timed out
+2025-10-15 14:56:31,785 - INFO - Running: traceroute -w 3 -q 3 -m 30 -T -p 80 61.64.127.156
+2025-10-15 14:56:32,925 - INFO - Running: traceroute -w 3 -q 3 -m 30 -T -p 443 61.64.127.156
+2025-10-15 14:56:33,972 - INFO - Running: traceroute -w 3 -q 3 -m 30 -I 61.64.127.28
+2025-10-15 14:57:01,397 - INFO - Running: traceroute -w 3 -q 3 -m 30 -T -p 80 61.64.127.28
+2025-10-15 14:57:02,414 - INFO - Running: traceroute -w 3 -q 3 -m 30 -T -p 443 61.64.127.28
+2025-10-15 14:57:03,434 - INFO - Progress: 96/131 - seednet.net
+2025-10-15 14:57:09,820 - INFO - Found 5 reachable service(s) for seednet.net
+2025-10-15 14:57:09,821 - INFO - Running: traceroute -w 3 -q 3 -m 30 -I 64.131.64.91
+2025-10-15 14:57:36,025 - INFO - Running: traceroute -w 3 -q 3 -m 30 -T -p 80 64.131.64.91
+2025-10-15 14:57:37,048 - INFO - Running: traceroute -w 3 -q 3 -m 30 -T -p 443 64.131.64.91
+2025-10-15 14:57:38,073 - INFO - Processing category: healthcare
+2025-10-15 14:57:38,075 - INFO - Progress: 97/131 - ntuh.gov.tw
+2025-10-15 14:57:38,471 - INFO - Found 3 reachable service(s) for ntuh.gov.tw
+2025-10-15 14:57:38,472 - INFO - Running: traceroute -w 3 -q 3 -m 30 -I 140.112.125.210
+2025-10-15 14:59:38,494 - ERROR - Traceroute to www.ntuh.gov.tw timed out
+2025-10-15 14:59:39,534 - INFO - Running: traceroute -w 3 -q 3 -m 30 -T -p 80 140.112.125.210
+2025-10-15 14:59:40,562 - INFO - Running: traceroute -w 3 -q 3 -m 30 -T -p 443 140.112.125.210
+2025-10-15 14:59:41,596 - INFO - Running: traceroute -w 3 -q 3 -m 30 -I 140.112.125.97
+2025-10-15 15:01:41,612 - ERROR - Traceroute to ns1.ntuh.gov.tw timed out
+2025-10-15 15:01:42,621 - INFO - Running: traceroute -w 3 -q 3 -m 30 -T -p 80 140.112.125.97
+2025-10-15 15:01:43,652 - INFO - Running: traceroute -w 3 -q 3 -m 30 -T -p 443 140.112.125.97
+2025-10-15 15:01:44,686 - INFO - Running: traceroute -w 3 -q 3 -m 30 -I 140.112.125.98
+2025-10-15 15:12:06,067 - ERROR - Traceroute to ns2.ntuh.gov.tw timed out
+2025-10-15 15:12:13,630 - INFO - Running: traceroute -w 3 -q 3 -m 30 -T -p 80 140.112.125.98
+2025-10-15 15:12:22,593 - INFO - Running: traceroute -w 3 -q 3 -m 30 -T -p 443 140.112.125.98
+2025-10-15 15:12:53,310 - INFO - Progress: 98/131 - vghtpe.gov.tw
+2025-10-15 15:12:54,684 - WARNING - No reachable services found for vghtpe.gov.tw
+2025-10-15 15:12:54,821 - INFO - Progress: 99/131 - mmh.org.tw
+2025-10-15 15:12:55,582 - WARNING - No reachable services found for mmh.org.tw
+2025-10-15 15:12:55,583 - INFO - Progress: 100/131 - cgmh.org.tw
+2025-10-15 15:12:55,830 - WARNING - No reachable services found for cgmh.org.tw
+2025-10-15 15:12:55,832 - INFO - Progress: 101/131 - kmuh.org.tw
+2025-10-15 15:12:56,391 - WARNING - No reachable services found for kmuh.org.tw
+2025-10-15 15:12:56,392 - INFO - Progress: 102/131 - nckuh.org.tw
+2025-10-15 15:12:56,449 - WARNING - No reachable services found for nckuh.org.tw
+2025-10-15 15:12:56,450 - INFO - Progress: 103/131 - vghks.gov.tw
+2025-10-15 15:12:56,499 - WARNING - No reachable services found for vghks.gov.tw
+2025-10-15 15:12:56,499 - INFO - Progress: 104/131 - tch.org.tw
+2025-10-15 15:12:56,517 - WARNING - No reachable services found for tch.org.tw
+2025-10-15 15:12:56,518 - INFO - Progress: 105/131 - vghtc.gov.tw
+2025-10-15 15:12:56,560 - WARNING - No reachable services found for vghtc.gov.tw
+2025-10-15 15:12:56,560 - INFO - Progress: 106/131 - chimei.org.tw
+2025-10-15 15:12:56,589 - WARNING - No reachable services found for chimei.org.tw
+2025-10-15 15:12:56,601 - INFO - Processing category: critical_infra
+2025-10-15 15:12:56,602 - INFO - Progress: 107/131 - taipower.com.tw
+2025-10-15 15:12:56,894 - WARNING - No reachable services found for taipower.com.tw
+2025-10-15 15:12:56,894 - INFO - Progress: 108/131 - cpc.com.tw
+2025-10-15 15:12:56,915 - WARNING - No reachable services found for cpc.com.tw
+2025-10-15 15:12:56,915 - INFO - Progress: 109/131 - thsrc.com.tw
+2025-10-15 15:12:56,973 - WARNING - No reachable services found for thsrc.com.tw
+2025-10-15 15:12:57,001 - INFO - Progress: 110/131 - railway.gov.tw
+2025-10-15 15:12:57,510 - WARNING - No reachable services found for railway.gov.tw
+2025-10-15 15:12:57,511 - INFO - Progress: 111/131 - metro.taipei
+2025-10-15 15:12:57,543 - WARNING - No reachable services found for metro.taipei
+2025-10-15 15:12:57,544 - INFO - Progress: 112/131 - krtco.com.tw
+2025-10-15 15:12:57,560 - WARNING - No reachable services found for krtco.com.tw
+2025-10-15 15:12:57,560 - INFO - Progress: 113/131 - taoyuan-airport.com
+2025-10-15 15:12:57,587 - WARNING - No reachable services found for taoyuan-airport.com
+2025-10-15 15:12:57,587 - INFO - Processing category: cdn_global
+2025-10-15 15:12:57,587 - INFO - Progress: 114/131 - google.com.tw
+2025-10-15 15:12:57,718 - WARNING - No reachable services found for google.com.tw
+2025-10-15 15:12:57,719 - INFO - Progress: 115/131 - facebook.com
+2025-10-15 15:12:58,727 - INFO - Found 4 reachable service(s) for facebook.com
+2025-10-15 15:12:58,821 - INFO - Running: traceroute -w 3 -q 3 -m 30 -I 31.13.87.36
+2025-10-15 15:13:06,082 - INFO - Running: traceroute -w 3 -q 3 -m 30 -T -p 80 31.13.87.36
+2025-10-15 15:13:08,527 - INFO - Running: traceroute -w 3 -q 3 -m 30 -T -p 443 31.13.87.36
+2025-10-15 15:13:10,221 - INFO - Running: traceroute -w 3 -q 3 -m 30 -I 31.13.87.1
+2025-10-15 15:13:13,364 - INFO - Running: traceroute -w 3 -q 3 -m 30 -T -p 80 31.13.87.1
+2025-10-15 15:13:14,467 - INFO - Running: traceroute -w 3 -q 3 -m 30 -T -p 443 31.13.87.1
+2025-10-15 15:13:15,811 - INFO - Progress: 116/131 - youtube.com
+2025-10-15 15:13:16,312 - INFO - Found 3 reachable service(s) for youtube.com
+2025-10-15 15:13:16,333 - INFO - Running: traceroute -w 3 -q 3 -m 30 -I 142.250.204.46
+2025-10-15 15:13:18,327 - INFO - Running: traceroute -w 3 -q 3 -m 30 -T -p 80 142.250.204.46
+2025-10-15 15:13:20,121 - INFO - Running: traceroute -w 3 -q 3 -m 30 -T -p 443 142.250.204.46
+2025-10-15 15:13:21,177 - INFO - Running: traceroute -w 3 -q 3 -m 30 -I 142.250.198.78
+2025-10-15 15:13:22,897 - INFO - Running: traceroute -w 3 -q 3 -m 30 -T -p 80 142.250.198.78
+2025-10-15 15:13:23,932 - INFO - Running: traceroute -w 3 -q 3 -m 30 -T -p 443 142.250.198.78
+2025-10-15 15:13:25,276 - INFO - Progress: 117/131 - netflix.com
+2025-10-15 15:13:27,507 - INFO - Found 6 reachable service(s) for netflix.com
+2025-10-15 15:13:27,516 - INFO - Running: traceroute -w 3 -q 3 -m 30 -I 52.38.7.83

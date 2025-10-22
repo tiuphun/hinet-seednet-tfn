@@ -1,0 +1,138 @@
+{
+  "timestamp": "2025-10-21T21:13:36.888817",
+  "vantage_point": "university",
+  "target": "smtp.tku.edu.tw",
+  "target_ip": "163.13.240.204",
+  "protocol": "icmp",
+  "port": null,
+  "duration_seconds": 0.38,
+  "hops": [
+    {
+      "hop": 2,
+      "ip": "140.123.103.250",
+      "hostname": "csgate103.cs.ccu.edu.tw",
+      "rtts": [
+        2.174,
+        2.197,
+        2.148
+      ],
+      "avg_rtt": 2.17,
+      "timeout": false
+    },
+    {
+      "hop": 3,
+      "ip": "140.123.9.249",
+      "hostname": "140.123.9.249",
+      "rtts": [
+        2.223,
+        3.589,
+        6.181
+      ],
+      "avg_rtt": 4.0,
+      "timeout": false
+    },
+    {
+      "hop": 4,
+      "ip": "140.123.0.246",
+      "hostname": "140.123.0.246",
+      "rtts": [
+        5.667,
+        7.832,
+        2.84
+      ],
+      "avg_rtt": 5.45,
+      "timeout": false
+    },
+    {
+      "hop": 5,
+      "ip": "211.79.57.25",
+      "hostname": "ccu-ccu-76.twaren.net",
+      "rtts": [
+        8.901,
+        10.432,
+        13.01
+      ],
+      "avg_rtt": 10.78,
+      "timeout": false
+    },
+    {
+      "hop": 6,
+      "ip": "211.73.76.209",
+      "hostname": "tp-a1.twaren.net",
+      "rtts": [
+        5.895,
+        29.726,
+        5.595
+      ],
+      "avg_rtt": 13.74,
+      "timeout": false
+    },
+    {
+      "hop": 7,
+      "ip": "211.73.76.81",
+      "hostname": "tp-a1.twaren.net",
+      "rtts": [
+        13.775,
+        28.882,
+        11.246
+      ],
+      "avg_rtt": 17.97,
+      "timeout": false
+    },
+    {
+      "hop": 8,
+      "ip": "211.73.76.86",
+      "hostname": "ntu-a1.twaren.net",
+      "rtts": [
+        11.981,
+        17.194,
+        11.785
+      ],
+      "avg_rtt": 13.65,
+      "timeout": false
+    },
+    {
+      "hop": 9,
+      "ip": "211.79.49.82",
+      "hostname": "211.79.49.82",
+      "rtts": [
+        12.714,
+        14.591,
+        16.173
+      ],
+      "avg_rtt": 14.49,
+      "timeout": false
+    },
+    {
+      "hop": 10,
+      "ip": "163.13.254.253",
+      "hostname": "163.13.254.253",
+      "rtts": [
+        14.891,
+        16.17,
+        13.327
+      ],
+      "avg_rtt": 14.8,
+      "timeout": false
+    },
+    {
+      "hop": 11,
+      "ip": "163.13.240.204",
+      "hostname": "sendmail.tku.edu.tw",
+      "rtts": [
+        12.704,
+        16.701,
+        17.914
+      ],
+      "avg_rtt": 15.77,
+      "timeout": false
+    }
+  ],
+  "num_hops": 10,
+  "success": true,
+  "raw_output": " 1  192.168.50.1 (192.168.50.1)  3.603 ms  3.257 ms  2.526 ms\n 2  csgate103.cs.ccu.edu.tw (140.123.103.250)  2.174 ms  2.197 ms  2.148 ms\n 3  140.123.9.249 (140.123.9.249)  2.223 ms  3.589 ms  6.181 ms\n 4  140.123.0.246 (140.123.0.246)  5.667 ms  7.832 ms  2.840 ms\n 5  ccu-ccu-76.twaren.net (211.79.57.25)  8.901 ms  10.432 ms  13.010 ms\n 6  tp-a1.twaren.net (211.73.76.209)  5.895 ms  29.726 ms  5.595 ms\n 7  tp-a1.twaren.net (211.73.76.81)  13.775 ms  28.882 ms  11.246 ms\n 8  ntu-a1.twaren.net (211.73.76.86)  11.981 ms  17.194 ms  11.785 ms\n 9  211.79.49.82 (211.79.49.82)  12.714 ms  14.591 ms  16.173 ms\n10  163.13.254.253 (163.13.254.253)  14.891 ms  16.170 ms  13.327 ms\n11  sendmail.tku.edu.tw (163.13.240.204)  12.704 ms  16.701 ms  17.914 ms\n",
+  "category": "universities",
+  "base_domain": "tku.edu.tw",
+  "service_variant": "smtp.tku.edu.tw",
+  "is_bare_domain": false
+}

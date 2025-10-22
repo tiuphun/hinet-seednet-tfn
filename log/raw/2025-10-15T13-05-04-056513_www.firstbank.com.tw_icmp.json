@@ -1,0 +1,236 @@
+{
+  "timestamp": "2025-10-15T13:05:04.056513",
+  "vantage_point": "itaiwan",
+  "target": "www.firstbank.com.tw",
+  "target_ip": "23.1.190.126",
+  "protocol": "icmp",
+  "port": null,
+  "duration_seconds": 45.94,
+  "hops": [
+    {
+      "hop": 2,
+      "ip": "168.95.98.254",
+      "hostname": "h254.s98.ts.hinet.net",
+      "rtts": [
+        3.554,
+        4.253,
+        3.172
+      ],
+      "avg_rtt": 3.66,
+      "timeout": false,
+      "network": "hinet",
+      "network_name": "HiNet (Chunghwa Telecom)",
+      "is_interesting": true,
+      "is_private": false
+    },
+    {
+      "hop": 3,
+      "ip": "168.95.129.46",
+      "hostname": "168-95-129-46.caw1-3332.hinet.net",
+      "rtts": [
+        3.742,
+        3.766,
+        4.137
+      ],
+      "avg_rtt": 3.88,
+      "timeout": false,
+      "network": "hinet",
+      "network_name": "HiNet (Chunghwa Telecom)",
+      "is_interesting": true,
+      "is_private": false
+    },
+    {
+      "hop": 4,
+      "ip": null,
+      "hostname": null,
+      "rtts": [],
+      "timeout": true
+    },
+    {
+      "hop": 5,
+      "ip": null,
+      "hostname": null,
+      "rtts": [],
+      "timeout": true
+    },
+    {
+      "hop": 6,
+      "ip": "220.128.13.25",
+      "hostname": "220-128-13-25.pcpd-4101.hinet.net",
+      "rtts": [
+        10.728,
+        9.268,
+        9.757
+      ],
+      "avg_rtt": 9.92,
+      "timeout": false,
+      "network": "hinet",
+      "network_name": "HiNet (Chunghwa Telecom)",
+      "is_interesting": true,
+      "is_private": false
+    },
+    {
+      "hop": 7,
+      "ip": "220.128.6.145",
+      "hostname": "220-128-6-145.pcpd-4001.hinet.net",
+      "rtts": [
+        10.137,
+        16.561,
+        17.289
+      ],
+      "avg_rtt": 14.66,
+      "timeout": false,
+      "network": "hinet",
+      "network_name": "HiNet (Chunghwa Telecom)",
+      "is_interesting": true,
+      "is_private": false
+    },
+    {
+      "hop": 8,
+      "ip": "129.250.66.109",
+      "hostname": "ae-41.a02.osakjp02.jp.bb.gin.ntt.net",
+      "rtts": [
+        38.921,
+        37.204,
+        38.02
+      ],
+      "avg_rtt": 38.05,
+      "timeout": false,
+      "network": "other",
+      "network_name": "Other Network",
+      "is_interesting": false,
+      "is_private": false
+    },
+    {
+      "hop": 9,
+      "ip": null,
+      "hostname": null,
+      "rtts": [],
+      "timeout": true
+    },
+    {
+      "hop": 10,
+      "ip": "129.250.4.219",
+      "hostname": "ae-1.a03.osakjp02.jp.bb.gin.ntt.net",
+      "rtts": [
+        39.236,
+        40.814,
+        39.806
+      ],
+      "avg_rtt": 39.95,
+      "timeout": false,
+      "network": "other",
+      "network_name": "Other Network",
+      "is_interesting": false,
+      "is_private": false
+    },
+    {
+      "hop": 11,
+      "ip": "61.200.91.82",
+      "hostname": "ae-4.akamai-osa.osakjp02.jp.bb.gin.ntt.net",
+      "rtts": [
+        57.157,
+        72.483,
+        53.023
+      ],
+      "avg_rtt": 60.89,
+      "timeout": false,
+      "network": "other",
+      "network_name": "Other Network",
+      "is_interesting": false,
+      "is_private": false
+    },
+    {
+      "hop": 12,
+      "ip": null,
+      "hostname": null,
+      "rtts": [],
+      "timeout": true
+    },
+    {
+      "hop": 13,
+      "ip": null,
+      "hostname": null,
+      "rtts": [],
+      "timeout": true
+    },
+    {
+      "hop": 14,
+      "ip": "23.1.190.126",
+      "hostname": "a23-1-190-126.deploy.static.akamaitechnologies.com",
+      "rtts": [
+        45.464,
+        39.061,
+        38.886
+      ],
+      "avg_rtt": 41.14,
+      "timeout": false,
+      "network": "other",
+      "network_name": "Other Network",
+      "is_interesting": false,
+      "is_private": false
+    }
+  ],
+  "num_hops": 13,
+  "success": true,
+  "path_analysis": {
+    "networks_traversed": [
+      {
+        "network": "hinet",
+        "network_name": "HiNet (Chunghwa Telecom)",
+        "first_hop": 2
+      },
+      {
+        "network": "other",
+        "network_name": "Other Network",
+        "first_hop": 8
+      }
+    ],
+    "interesting_routers": [
+      {
+        "hop": 2,
+        "ip": "168.95.98.254",
+        "hostname": "h254.s98.ts.hinet.net",
+        "network": "hinet",
+        "network_name": "HiNet (Chunghwa Telecom)"
+      },
+      {
+        "hop": 3,
+        "ip": "168.95.129.46",
+        "hostname": "168-95-129-46.caw1-3332.hinet.net",
+        "network": "hinet",
+        "network_name": "HiNet (Chunghwa Telecom)"
+      },
+      {
+        "hop": 6,
+        "ip": "220.128.13.25",
+        "hostname": "220-128-13-25.pcpd-4101.hinet.net",
+        "network": "hinet",
+        "network_name": "HiNet (Chunghwa Telecom)"
+      },
+      {
+        "hop": 7,
+        "ip": "220.128.6.145",
+        "hostname": "220-128-6-145.pcpd-4001.hinet.net",
+        "network": "hinet",
+        "network_name": "HiNet (Chunghwa Telecom)"
+      }
+    ],
+    "private_hops": 0,
+    "total_hops": 13,
+    "network_transitions": [
+      {
+        "hop": 8,
+        "from": "hinet",
+        "to": "other",
+        "from_ip": "129.250.66.109",
+        "to_ip": "129.250.66.109"
+      }
+    ]
+  },
+  "raw_output": " 1  172.16.193.250 (172.16.193.250)  5.961 ms  2.774 ms  2.788 ms\n 2  h254.s98.ts.hinet.net (168.95.98.254)  3.554 ms  4.253 ms  3.172 ms\n 3  168-95-129-46.caw1-3332.hinet.net (168.95.129.46)  3.742 ms  3.766 ms  4.137 ms\n 4  * * *\n 5  * * *\n 6  220-128-13-25.pcpd-4101.hinet.net (220.128.13.25)  10.728 ms  9.268 ms  9.757 ms\n 7  220-128-6-145.pcpd-4001.hinet.net (220.128.6.145)  10.137 ms  16.561 ms  17.289 ms\n 8  ae-41.a02.osakjp02.jp.bb.gin.ntt.net (129.250.66.109)  38.921 ms  37.204 ms  38.020 ms\n 9  * * *\n10  ae-1.a03.osakjp02.jp.bb.gin.ntt.net (129.250.4.219)  39.236 ms  40.814 ms  39.806 ms\n11  ae-4.akamai-osa.osakjp02.jp.bb.gin.ntt.net (61.200.91.82)  57.157 ms  72.483 ms  53.023 ms\n12  * * *\n13  * * *\n14  a23-1-190-126.deploy.static.akamaitechnologies.com (23.1.190.126)  45.464 ms  39.061 ms  38.886 ms\n",
+  "category": "financial_banks",
+  "base_domain": "firstbank.com.tw",
+  "service_variant": "www.firstbank.com.tw",
+  "is_bare_domain": false
+}

@@ -1,0 +1,126 @@
+{
+  "timestamp": "2025-10-21T21:52:45.470773",
+  "vantage_point": "university",
+  "target": "www.tcb-bank.com.tw",
+  "target_ip": "60.244.119.144",
+  "protocol": "icmp",
+  "port": null,
+  "duration_seconds": 0.44,
+  "hops": [
+    {
+      "hop": 2,
+      "ip": "140.123.103.250",
+      "hostname": "csgate103.cs.ccu.edu.tw",
+      "rtts": [
+        2.677,
+        2.581,
+        2.035
+      ],
+      "avg_rtt": 2.43,
+      "timeout": false
+    },
+    {
+      "hop": 3,
+      "ip": "140.123.9.249",
+      "hostname": "140.123.9.249",
+      "rtts": [
+        2.353,
+        4.251,
+        6.424
+      ],
+      "avg_rtt": 4.34,
+      "timeout": false
+    },
+    {
+      "hop": 4,
+      "ip": "140.123.0.246",
+      "hostname": "140.123.0.246",
+      "rtts": [
+        6.167,
+        4.826,
+        5.99
+      ],
+      "avg_rtt": 5.66,
+      "timeout": false
+    },
+    {
+      "hop": 5,
+      "ip": "140.130.252.251",
+      "hostname": "140.130.252.251",
+      "rtts": [
+        6.189,
+        5.322,
+        3.36
+      ],
+      "avg_rtt": 4.96,
+      "timeout": false
+    },
+    {
+      "hop": 6,
+      "ip": "140.123.231.111",
+      "hostname": "140.123.231.111",
+      "rtts": [
+        8.899,
+        11.357,
+        9.697
+      ],
+      "avg_rtt": 9.98,
+      "timeout": false
+    },
+    {
+      "hop": 7,
+      "ip": "211.76.96.77",
+      "hostname": "211.76.96.77",
+      "rtts": [
+        9.681,
+        9.094,
+        8.763
+      ],
+      "avg_rtt": 9.18,
+      "timeout": false
+    },
+    {
+      "hop": 8,
+      "ip": "203.79.251.98",
+      "hostname": "il203-79-251-98.static.apol.com.tw",
+      "rtts": [
+        15.794,
+        14.888,
+        15.174
+      ],
+      "avg_rtt": 15.29,
+      "timeout": false
+    },
+    {
+      "hop": 9,
+      "ip": "203.79.208.138",
+      "hostname": "203.79.208.138",
+      "rtts": [
+        13.381,
+        10.575,
+        9.406
+      ],
+      "avg_rtt": 11.12,
+      "timeout": false
+    },
+    {
+      "hop": 10,
+      "ip": "60.244.119.144",
+      "hostname": "60-244-119-144.vdslpro.static.apol.com.tw",
+      "rtts": [
+        11.347,
+        8.758,
+        14.291
+      ],
+      "avg_rtt": 11.47,
+      "timeout": false
+    }
+  ],
+  "num_hops": 9,
+  "success": true,
+  "raw_output": " 1  192.168.50.1 (192.168.50.1)  12.970 ms  17.516 ms  9.520 ms\n 2  csgate103.cs.ccu.edu.tw (140.123.103.250)  2.677 ms  2.581 ms  2.035 ms\n 3  140.123.9.249 (140.123.9.249)  2.353 ms  4.251 ms  6.424 ms\n 4  140.123.0.246 (140.123.0.246)  6.167 ms  4.826 ms  5.990 ms\n 5  140.130.252.251 (140.130.252.251)  6.189 ms  5.322 ms  3.360 ms\n 6  140.123.231.111 (140.123.231.111)  8.899 ms  11.357 ms  9.697 ms\n 7  211.76.96.77 (211.76.96.77)  9.681 ms  9.094 ms  8.763 ms\n 8  il203-79-251-98.static.apol.com.tw (203.79.251.98)  15.794 ms  14.888 ms  15.174 ms\n 9  203.79.208.138 (203.79.208.138)  13.381 ms  10.575 ms  9.406 ms\n10  60-244-119-144.vdslpro.static.apol.com.tw (60.244.119.144)  11.347 ms  8.758 ms  14.291 ms\n",
+  "category": "financial_banks",
+  "base_domain": "tcb-bank.com.tw",
+  "service_variant": "www.tcb-bank.com.tw",
+  "is_bare_domain": false
+}

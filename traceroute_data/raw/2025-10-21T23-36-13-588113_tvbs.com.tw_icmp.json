@@ -1,0 +1,161 @@
+{
+  "timestamp": "2025-10-21T23:36:13.588113",
+  "vantage_point": "university",
+  "target": "tvbs.com.tw",
+  "target_ip": "3.169.137.73",
+  "protocol": "icmp",
+  "port": null,
+  "duration_seconds": 55.6,
+  "hops": [
+    {
+      "hop": 2,
+      "ip": "140.123.103.250",
+      "hostname": "csgate103.cs.ccu.edu.tw",
+      "rtts": [
+        4.496,
+        6.207,
+        6.903
+      ],
+      "avg_rtt": 5.87,
+      "timeout": false
+    },
+    {
+      "hop": 3,
+      "ip": "140.123.9.249",
+      "hostname": "140.123.9.249",
+      "rtts": [
+        3.222,
+        3.505,
+        2.634
+      ],
+      "avg_rtt": 3.12,
+      "timeout": false
+    },
+    {
+      "hop": 4,
+      "ip": "140.123.0.246",
+      "hostname": "140.123.0.246",
+      "rtts": [
+        3.876,
+        3.4,
+        3.91
+      ],
+      "avg_rtt": 3.73,
+      "timeout": false
+    },
+    {
+      "hop": 5,
+      "ip": "140.130.252.251",
+      "hostname": "140.130.252.251",
+      "rtts": [
+        26.847,
+        6.956,
+        4.592
+      ],
+      "avg_rtt": 12.8,
+      "timeout": false
+    },
+    {
+      "hop": 6,
+      "ip": "192.192.61.142",
+      "hostname": "192.192.61.142",
+      "rtts": [
+        8.95,
+        9.563,
+        11.869
+      ],
+      "avg_rtt": 10.13,
+      "timeout": false
+    },
+    {
+      "hop": 7,
+      "ip": "192.192.61.20",
+      "hostname": "192.192.61.20",
+      "rtts": [
+        7.779,
+        8.27,
+        7.795
+      ],
+      "avg_rtt": 7.95,
+      "timeout": false
+    },
+    {
+      "hop": 8,
+      "ip": "192.192.61.48",
+      "hostname": "192.192.61.48",
+      "rtts": [
+        8.327,
+        10.149,
+        13.223
+      ],
+      "avg_rtt": 10.57,
+      "timeout": false
+    },
+    {
+      "hop": 9,
+      "ip": "192.192.68.62",
+      "hostname": "192.192.68.62",
+      "rtts": [
+        19.591,
+        8.257,
+        19.157
+      ],
+      "avg_rtt": 15.67,
+      "timeout": false
+    },
+    {
+      "hop": 10,
+      "ip": null,
+      "hostname": null,
+      "rtts": [],
+      "timeout": true
+    },
+    {
+      "hop": 11,
+      "ip": null,
+      "hostname": null,
+      "rtts": [],
+      "timeout": true
+    },
+    {
+      "hop": 12,
+      "ip": null,
+      "hostname": null,
+      "rtts": [],
+      "timeout": true
+    },
+    {
+      "hop": 13,
+      "ip": null,
+      "hostname": null,
+      "rtts": [],
+      "timeout": true
+    },
+    {
+      "hop": 14,
+      "ip": null,
+      "hostname": null,
+      "rtts": [],
+      "timeout": true
+    },
+    {
+      "hop": 15,
+      "ip": "3.169.137.73",
+      "hostname": "server-3-169-137-73.tpe54.r.cloudfront.net",
+      "rtts": [
+        11.524,
+        10.364,
+        8.876
+      ],
+      "avg_rtt": 10.25,
+      "timeout": false
+    }
+  ],
+  "num_hops": 14,
+  "success": true,
+  "raw_output": " 1  192.168.50.1 (192.168.50.1)  4.041 ms  2.493 ms  2.325 ms\n 2  csgate103.cs.ccu.edu.tw (140.123.103.250)  4.496 ms  6.207 ms  6.903 ms\n 3  140.123.9.249 (140.123.9.249)  3.222 ms  3.505 ms  2.634 ms\n 4  140.123.0.246 (140.123.0.246)  3.876 ms  3.400 ms  3.910 ms\n 5  140.130.252.251 (140.130.252.251)  26.847 ms  6.956 ms  4.592 ms\n 6  192.192.61.142 (192.192.61.142)  8.950 ms  9.563 ms  11.869 ms\n 7  192.192.61.20 (192.192.61.20)  7.779 ms  8.270 ms  7.795 ms\n 8  192.192.61.48 (192.192.61.48)  8.327 ms  10.149 ms  13.223 ms\n 9  192.192.68.62 (192.192.68.62)  19.591 ms  8.257 ms  19.157 ms\n10  * * *\n11  * * *\n12  * * *\n13  * * *\n14  * * *\n15  server-3-169-137-73.tpe54.r.cloudfront.net (3.169.137.73)  11.524 ms  10.364 ms  8.876 ms\n",
+  "category": "media",
+  "base_domain": "tvbs.com.tw",
+  "service_variant": "tvbs.com.tw",
+  "is_bare_domain": true
+}

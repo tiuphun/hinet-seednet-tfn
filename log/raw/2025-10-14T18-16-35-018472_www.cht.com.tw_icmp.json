@@ -1,0 +1,145 @@
+{
+  "timestamp": "2025-10-14T18:16:35.018472",
+  "vantage_point": "university",
+  "target": "www.cht.com.tw",
+  "target_ip": "203.66.32.206",
+  "protocol": "icmp",
+  "port": null,
+  "duration_seconds": 9.28,
+  "hops": [
+    {
+      "hop": 2,
+      "ip": "140.123.103.250",
+      "hostname": null,
+      "rtts": [
+        2.49,
+        3.858,
+        1.964
+      ],
+      "avg_rtt": 2.77,
+      "timeout": false
+    },
+    {
+      "hop": 3,
+      "ip": "140.123.9.249",
+      "hostname": null,
+      "rtts": [
+        4.787,
+        2.229,
+        4.271
+      ],
+      "avg_rtt": 3.76,
+      "timeout": false
+    },
+    {
+      "hop": 4,
+      "ip": "140.123.0.246",
+      "hostname": null,
+      "rtts": [
+        2.899,
+        3.311,
+        3.103
+      ],
+      "avg_rtt": 3.1,
+      "timeout": false
+    },
+    {
+      "hop": 5,
+      "ip": "140.130.252.251",
+      "hostname": null,
+      "rtts": [
+        5.158,
+        3.719,
+        3.318
+      ],
+      "avg_rtt": 4.07,
+      "timeout": false
+    },
+    {
+      "hop": 6,
+      "ip": "211.22.226.198",
+      "hostname": null,
+      "rtts": [
+        4.952,
+        6.18,
+        36.252
+      ],
+      "avg_rtt": 15.79,
+      "timeout": false
+    },
+    {
+      "hop": 7,
+      "ip": null,
+      "hostname": null,
+      "rtts": [],
+      "timeout": true
+    },
+    {
+      "hop": 8,
+      "ip": "220.128.9.130",
+      "hostname": null,
+      "rtts": [
+        21.71,
+        9.708,
+        9.8
+      ],
+      "avg_rtt": 13.74,
+      "timeout": false
+    },
+    {
+      "hop": 9,
+      "ip": "220.128.8.194",
+      "hostname": null,
+      "rtts": [
+        13.622,
+        9.538,
+        9.934
+      ],
+      "avg_rtt": 11.03,
+      "timeout": false
+    },
+    {
+      "hop": 10,
+      "ip": "220.128.8.5",
+      "hostname": null,
+      "rtts": [
+        10.231,
+        9.467,
+        10.065
+      ],
+      "avg_rtt": 9.92,
+      "timeout": false
+    },
+    {
+      "hop": 11,
+      "ip": "211.22.224.109",
+      "hostname": null,
+      "rtts": [
+        9.215,
+        9.663,
+        9.514
+      ],
+      "avg_rtt": 9.46,
+      "timeout": false
+    },
+    {
+      "hop": 12,
+      "ip": "203.66.32.206",
+      "hostname": null,
+      "rtts": [
+        9.348,
+        11.129,
+        12.019
+      ],
+      "avg_rtt": 10.83,
+      "timeout": false
+    }
+  ],
+  "num_hops": 11,
+  "success": true,
+  "raw_output": " 1  192.168.50.1  2.523 ms  2.241 ms  1.959 ms\n 2  140.123.103.250  2.490 ms  3.858 ms  1.964 ms\n 3  140.123.9.249  4.787 ms  2.229 ms  4.271 ms\n 4  140.123.0.246  2.899 ms  3.311 ms  3.103 ms\n 5  140.130.252.251  5.158 ms  3.719 ms  3.318 ms\n 6  211.22.226.198  4.952 ms  6.180 ms  36.252 ms\n 7  * * *\n 8  220.128.9.130  21.710 ms  9.708 ms  9.800 ms\n 9  220.128.8.194  13.622 ms  9.538 ms  9.934 ms\n10  220.128.8.5  10.231 ms  9.467 ms  10.065 ms\n11  211.22.224.109  9.215 ms  9.663 ms  9.514 ms\n12  203.66.32.206  9.348 ms  11.129 ms  12.019 ms\n",
+  "category": "telecom",
+  "base_domain": "cht.com.tw",
+  "service_variant": "www.cht.com.tw",
+  "is_bare_domain": false
+}

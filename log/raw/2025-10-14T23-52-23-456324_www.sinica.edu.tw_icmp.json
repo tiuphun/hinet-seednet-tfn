@@ -1,0 +1,135 @@
+{
+  "timestamp": "2025-10-14T23:52:23.456324",
+  "vantage_point": "university",
+  "target": "www.sinica.edu.tw",
+  "target_ip": "203.66.32.131",
+  "protocol": "icmp",
+  "port": null,
+  "duration_seconds": 27.24,
+  "hops": [
+    {
+      "hop": 2,
+      "ip": "140.123.103.250",
+      "hostname": null,
+      "rtts": [
+        2.889,
+        2.902,
+        2.785
+      ],
+      "avg_rtt": 2.86,
+      "timeout": false
+    },
+    {
+      "hop": 3,
+      "ip": "140.123.9.249",
+      "hostname": null,
+      "rtts": [
+        2.799,
+        2.811,
+        4.554
+      ],
+      "avg_rtt": 3.39,
+      "timeout": false
+    },
+    {
+      "hop": 4,
+      "ip": "140.123.0.246",
+      "hostname": null,
+      "rtts": [
+        5.383,
+        3.515,
+        3.768
+      ],
+      "avg_rtt": 4.22,
+      "timeout": false
+    },
+    {
+      "hop": 5,
+      "ip": "140.130.252.251",
+      "hostname": null,
+      "rtts": [
+        4.052,
+        3.864,
+        4.18
+      ],
+      "avg_rtt": 4.03,
+      "timeout": false
+    },
+    {
+      "hop": 6,
+      "ip": "211.22.226.198",
+      "hostname": null,
+      "rtts": [
+        4.189,
+        3.981,
+        4.091
+      ],
+      "avg_rtt": 4.09,
+      "timeout": false
+    },
+    {
+      "hop": 7,
+      "ip": null,
+      "hostname": null,
+      "rtts": [],
+      "timeout": true
+    },
+    {
+      "hop": 8,
+      "ip": null,
+      "hostname": null,
+      "rtts": [],
+      "timeout": true
+    },
+    {
+      "hop": 9,
+      "ip": null,
+      "hostname": null,
+      "rtts": [],
+      "timeout": true
+    },
+    {
+      "hop": 10,
+      "ip": "220.128.13.133",
+      "hostname": null,
+      "rtts": [
+        19.658,
+        11.003,
+        10.395
+      ],
+      "avg_rtt": 13.69,
+      "timeout": false
+    },
+    {
+      "hop": 11,
+      "ip": "211.22.224.137",
+      "hostname": null,
+      "rtts": [
+        11.48,
+        10.256,
+        10.637
+      ],
+      "avg_rtt": 10.79,
+      "timeout": false
+    },
+    {
+      "hop": 12,
+      "ip": "203.66.32.131",
+      "hostname": null,
+      "rtts": [
+        11.7,
+        10.05,
+        10.244
+      ],
+      "avg_rtt": 10.66,
+      "timeout": false
+    }
+  ],
+  "num_hops": 11,
+  "success": true,
+  "raw_output": " 1  192.168.50.1  2.737 ms  2.278 ms  2.509 ms\n 2  140.123.103.250  2.889 ms  2.902 ms  2.785 ms\n 3  140.123.9.249  2.799 ms  2.811 ms  4.554 ms\n 4  140.123.0.246  5.383 ms  3.515 ms  3.768 ms\n 5  140.130.252.251  4.052 ms  3.864 ms  4.180 ms\n 6  211.22.226.198  4.189 ms  3.981 ms  4.091 ms\n 7  * * *\n 8  * * *\n 9  * * *\n10  220.128.13.133  19.658 ms  11.003 ms  10.395 ms\n11  211.22.224.137  11.480 ms  10.256 ms  10.637 ms\n12  203.66.32.131  11.700 ms  10.050 ms  10.244 ms\n",
+  "category": "education_network",
+  "base_domain": "sinica.edu.tw",
+  "service_variant": "www.sinica.edu.tw",
+  "is_bare_domain": false
+}

@@ -1,0 +1,137 @@
+{
+  "timestamp": "2025-10-22T05:31:53.578391",
+  "vantage_point": "university",
+  "target": "ns2.fubon.com",
+  "target_ip": "219.87.145.212",
+  "protocol": "icmp",
+  "port": null,
+  "duration_seconds": 3.56,
+  "hops": [
+    {
+      "hop": 2,
+      "ip": "140.123.103.250",
+      "hostname": "csgate103.cs.ccu.edu.tw",
+      "rtts": [
+        3.427,
+        2.741,
+        2.71
+      ],
+      "avg_rtt": 2.96,
+      "timeout": false
+    },
+    {
+      "hop": 3,
+      "ip": "140.123.9.249",
+      "hostname": "140.123.9.249",
+      "rtts": [
+        2.779,
+        3.68,
+        2.931
+      ],
+      "avg_rtt": 3.13,
+      "timeout": false
+    },
+    {
+      "hop": 4,
+      "ip": "140.123.0.246",
+      "hostname": "140.123.0.246",
+      "rtts": [
+        3.901,
+        5.926,
+        5.651
+      ],
+      "avg_rtt": 5.16,
+      "timeout": false
+    },
+    {
+      "hop": 5,
+      "ip": "140.130.252.251",
+      "hostname": "140.130.252.251",
+      "rtts": [
+        4.769,
+        7.367,
+        6.161
+      ],
+      "avg_rtt": 6.1,
+      "timeout": false
+    },
+    {
+      "hop": 6,
+      "ip": "61.31.254.69",
+      "hostname": "61-31-254-69.static.tfn.net.tw",
+      "rtts": [
+        9.851,
+        13.974,
+        20.113
+      ],
+      "avg_rtt": 14.65,
+      "timeout": false
+    },
+    {
+      "hop": 7,
+      "ip": "60.199.27.161",
+      "hostname": "60-199-27-161.static.tfn.net.tw",
+      "rtts": [
+        6.463,
+        10.424,
+        7.352
+      ],
+      "avg_rtt": 8.08,
+      "timeout": false
+    },
+    {
+      "hop": 8,
+      "ip": "60.199.82.101",
+      "hostname": "60-199-82-101.static.tfn.net.tw",
+      "rtts": [
+        13.819,
+        15.414,
+        45.087
+      ],
+      "avg_rtt": 24.77,
+      "timeout": false
+    },
+    {
+      "hop": 9,
+      "ip": "60.199.82.13",
+      "hostname": "60-199-82-13.static.tfn.net.tw",
+      "rtts": [
+        105.178,
+        12.669,
+        11.793
+      ],
+      "avg_rtt": 43.21,
+      "timeout": false
+    },
+    {
+      "hop": 10,
+      "ip": "60.199.17.230",
+      "hostname": "60-199-17-230.static.tfn.net.tw",
+      "rtts": [
+        22.793,
+        21.175,
+        14.514
+      ],
+      "avg_rtt": 19.49,
+      "timeout": false
+    },
+    {
+      "hop": 11,
+      "ip": "219.87.145.212",
+      "hostname": "219-87-145-212.static.tfn.net.tw",
+      "rtts": [
+        11.909,
+        22.451
+      ],
+      "avg_rtt": 17.18,
+      "timeout": false
+    }
+  ],
+  "num_hops": 10,
+  "success": true,
+  "raw_output": " 1  192.168.50.1 (192.168.50.1)  16.571 ms  57.071 ms  4.101 ms\n 2  csgate103.cs.ccu.edu.tw (140.123.103.250)  3.427 ms  2.741 ms  2.710 ms\n 3  140.123.9.249 (140.123.9.249)  2.779 ms  3.680 ms  2.931 ms\n 4  140.123.0.246 (140.123.0.246)  3.901 ms  5.926 ms  5.651 ms\n 5  140.130.252.251 (140.130.252.251)  4.769 ms  7.367 ms  6.161 ms\n 6  61-31-254-69.static.tfn.net.tw (61.31.254.69)  9.851 ms  13.974 ms  20.113 ms\n 7  60-199-27-161.static.tfn.net.tw (60.199.27.161)  6.463 ms  10.424 ms  7.352 ms\n 8  60-199-82-101.static.tfn.net.tw (60.199.82.101)  13.819 ms  15.414 ms  45.087 ms\n 9  60-199-82-13.static.tfn.net.tw (60.199.82.13)  105.178 ms  12.669 ms  11.793 ms\n10  60-199-17-230.static.tfn.net.tw (60.199.17.230)  22.793 ms  21.175 ms  14.514 ms\n11  219-87-145-212.static.tfn.net.tw (219.87.145.212)  11.909 ms  22.451 ms *\n",
+  "category": "financial_banks",
+  "base_domain": "fubon.com",
+  "service_variant": "ns2.fubon.com",
+  "is_bare_domain": false
+}

@@ -1,0 +1,121 @@
+{
+  "timestamp": "2025-10-14T20:02:06.169229",
+  "vantage_point": "university",
+  "target": "www.hccg.gov.tw",
+  "target_ip": "203.66.35.107",
+  "protocol": "icmp",
+  "port": null,
+  "duration_seconds": 9.16,
+  "hops": [
+    {
+      "hop": 2,
+      "ip": "140.123.103.250",
+      "hostname": null,
+      "rtts": [
+        2.969,
+        4.001,
+        2.709
+      ],
+      "avg_rtt": 3.23,
+      "timeout": false
+    },
+    {
+      "hop": 3,
+      "ip": "140.123.9.249",
+      "hostname": null,
+      "rtts": [
+        3.127,
+        2.861,
+        4.736
+      ],
+      "avg_rtt": 3.57,
+      "timeout": false
+    },
+    {
+      "hop": 4,
+      "ip": "140.123.0.246",
+      "hostname": null,
+      "rtts": [
+        3.981,
+        3.583,
+        3.694
+      ],
+      "avg_rtt": 3.75,
+      "timeout": false
+    },
+    {
+      "hop": 5,
+      "ip": "140.130.252.251",
+      "hostname": null,
+      "rtts": [
+        4.264,
+        7.724,
+        4.284
+      ],
+      "avg_rtt": 5.42,
+      "timeout": false
+    },
+    {
+      "hop": 6,
+      "ip": "211.22.226.198",
+      "hostname": null,
+      "rtts": [
+        5.431,
+        6.428,
+        4.276
+      ],
+      "avg_rtt": 5.38,
+      "timeout": false
+    },
+    {
+      "hop": 7,
+      "ip": null,
+      "hostname": null,
+      "rtts": [],
+      "timeout": true
+    },
+    {
+      "hop": 8,
+      "ip": "220.128.26.57",
+      "hostname": null,
+      "rtts": [
+        5.74,
+        5.694,
+        6.127
+      ],
+      "avg_rtt": 5.85,
+      "timeout": false
+    },
+    {
+      "hop": 9,
+      "ip": "211.22.229.89",
+      "hostname": null,
+      "rtts": [
+        5.847,
+        7.399,
+        5.295
+      ],
+      "avg_rtt": 6.18,
+      "timeout": false
+    },
+    {
+      "hop": 10,
+      "ip": "203.66.35.107",
+      "hostname": null,
+      "rtts": [
+        7.104,
+        5.149,
+        6.682
+      ],
+      "avg_rtt": 6.31,
+      "timeout": false
+    }
+  ],
+  "num_hops": 9,
+  "success": true,
+  "raw_output": " 1  192.168.50.1  5.119 ms  2.650 ms  2.311 ms\n 2  140.123.103.250  2.969 ms  4.001 ms  2.709 ms\n 3  140.123.9.249  3.127 ms  2.861 ms  4.736 ms\n 4  140.123.0.246  3.981 ms  3.583 ms  3.694 ms\n 5  140.130.252.251  4.264 ms  7.724 ms  4.284 ms\n 6  211.22.226.198  5.431 ms  6.428 ms  4.276 ms\n 7  * * *\n 8  220.128.26.57  5.740 ms  5.694 ms  6.127 ms\n 9  211.22.229.89  5.847 ms  7.399 ms  5.295 ms\n10  203.66.35.107  7.104 ms  5.149 ms  6.682 ms\n",
+  "category": "government_local",
+  "base_domain": "hccg.gov.tw",
+  "service_variant": "www.hccg.gov.tw",
+  "is_bare_domain": false
+}

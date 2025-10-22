@@ -1,0 +1,133 @@
+{
+  "timestamp": "2025-10-14T17:46:58.010970",
+  "vantage_point": "university",
+  "target": "104.com.tw",
+  "target_ip": "104.18.9.226",
+  "protocol": "icmp",
+  "port": null,
+  "duration_seconds": 3.22,
+  "hops": [
+    {
+      "hop": 2,
+      "ip": "140.123.103.250",
+      "hostname": null,
+      "rtts": [
+        2.202,
+        2.413,
+        2.761
+      ],
+      "avg_rtt": 2.46,
+      "timeout": false
+    },
+    {
+      "hop": 3,
+      "ip": "140.123.9.249",
+      "hostname": null,
+      "rtts": [
+        2.37,
+        2.251,
+        2.292
+      ],
+      "avg_rtt": 2.3,
+      "timeout": false
+    },
+    {
+      "hop": 4,
+      "ip": "140.123.0.246",
+      "hostname": null,
+      "rtts": [
+        3.682,
+        3.264,
+        3.398
+      ],
+      "avg_rtt": 3.45,
+      "timeout": false
+    },
+    {
+      "hop": 5,
+      "ip": "140.130.252.251",
+      "hostname": null,
+      "rtts": [
+        9.931,
+        3.731,
+        4.111
+      ],
+      "avg_rtt": 5.92,
+      "timeout": false
+    },
+    {
+      "hop": 6,
+      "ip": "192.192.61.142",
+      "hostname": null,
+      "rtts": [
+        5.599,
+        5.905,
+        5.125
+      ],
+      "avg_rtt": 5.54,
+      "timeout": false
+    },
+    {
+      "hop": 7,
+      "ip": "192.192.61.20",
+      "hostname": null,
+      "rtts": [
+        8.267,
+        8.267,
+        7.264
+      ],
+      "avg_rtt": 7.93,
+      "timeout": false
+    },
+    {
+      "hop": 8,
+      "ip": "192.192.61.48",
+      "hostname": null,
+      "rtts": [
+        8.969,
+        8.67,
+        7.847
+      ],
+      "avg_rtt": 8.5,
+      "timeout": false
+    },
+    {
+      "hop": 9,
+      "ip": "192.192.68.62",
+      "hostname": null,
+      "rtts": [
+        8.098,
+        10.002,
+        9.731
+      ],
+      "avg_rtt": 9.28,
+      "timeout": false
+    },
+    {
+      "hop": 10,
+      "ip": null,
+      "hostname": null,
+      "rtts": [],
+      "timeout": true
+    },
+    {
+      "hop": 11,
+      "ip": "104.18.9.226",
+      "hostname": null,
+      "rtts": [
+        8.381,
+        9.068,
+        10.913
+      ],
+      "avg_rtt": 9.45,
+      "timeout": false
+    }
+  ],
+  "num_hops": 10,
+  "success": true,
+  "raw_output": " 1  192.168.50.1  2.661 ms  1.910 ms  1.952 ms\n 2  140.123.103.250  2.202 ms  2.413 ms  2.761 ms\n 3  140.123.9.249  2.370 ms  2.251 ms  2.292 ms\n 4  140.123.0.246  3.682 ms  3.264 ms  3.398 ms\n 5  140.130.252.251  9.931 ms  3.731 ms  4.111 ms\n 6  192.192.61.142  5.599 ms  5.905 ms  5.125 ms\n 7  192.192.61.20  8.267 ms  8.267 ms  7.264 ms\n 8  192.192.61.48  8.969 ms  8.670 ms  7.847 ms\n 9  192.192.68.62  8.098 ms  10.002 ms  9.731 ms\n10  * 203.163.222.39  14.596 ms  10.016 ms\n11  104.18.9.226  8.381 ms  9.068 ms  10.913 ms\n",
+  "category": "ecommerce_tech",
+  "base_domain": "104.com.tw",
+  "service_variant": "104.com.tw",
+  "is_bare_domain": true
+}

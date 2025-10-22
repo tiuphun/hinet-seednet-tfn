@@ -1,0 +1,221 @@
+{
+  "timestamp": "2025-10-21T09:35:26.018251",
+  "vantage_point": "university",
+  "target": "www2.president.gov.tw",
+  "target_ip": "4.216.205.136",
+  "protocol": "icmp",
+  "port": null,
+  "duration_seconds": 55.9,
+  "hops": [
+    {
+      "hop": 2,
+      "ip": "140.123.103.250",
+      "hostname": "csgate103.cs.ccu.edu.tw",
+      "rtts": [
+        2.485,
+        2.2,
+        2.423
+      ],
+      "avg_rtt": 2.37,
+      "timeout": false
+    },
+    {
+      "hop": 3,
+      "ip": "140.123.9.249",
+      "hostname": "140.123.9.249",
+      "rtts": [
+        2.542,
+        2.554,
+        1.65
+      ],
+      "avg_rtt": 2.25,
+      "timeout": false
+    },
+    {
+      "hop": 4,
+      "ip": "140.123.0.246",
+      "hostname": "140.123.0.246",
+      "rtts": [
+        3.157,
+        3.893,
+        3.947
+      ],
+      "avg_rtt": 3.67,
+      "timeout": false
+    },
+    {
+      "hop": 5,
+      "ip": "140.130.252.251",
+      "hostname": "140.130.252.251",
+      "rtts": [
+        5.623,
+        3.901,
+        3.854
+      ],
+      "avg_rtt": 4.46,
+      "timeout": false
+    },
+    {
+      "hop": 6,
+      "ip": "192.192.61.142",
+      "hostname": "192.192.61.142",
+      "rtts": [
+        5.227,
+        5.547,
+        5.788
+      ],
+      "avg_rtt": 5.52,
+      "timeout": false
+    },
+    {
+      "hop": 7,
+      "ip": "192.192.61.20",
+      "hostname": "192.192.61.20",
+      "rtts": [
+        7.311,
+        8.072,
+        7.961
+      ],
+      "avg_rtt": 7.78,
+      "timeout": false
+    },
+    {
+      "hop": 8,
+      "ip": "192.192.61.48",
+      "hostname": "192.192.61.48",
+      "rtts": [
+        8.151,
+        7.601,
+        7.795
+      ],
+      "avg_rtt": 7.85,
+      "timeout": false
+    },
+    {
+      "hop": 9,
+      "ip": "192.192.68.62",
+      "hostname": "192.192.68.62",
+      "rtts": [
+        8.058,
+        7.998,
+        7.894
+      ],
+      "avg_rtt": 7.98,
+      "timeout": false
+    },
+    {
+      "hop": 10,
+      "ip": "203.163.222.15",
+      "hostname": "15-222-163-203-static.tpix.net.tw",
+      "rtts": [
+        9.143,
+        8.69,
+        9.625
+      ],
+      "avg_rtt": 9.15,
+      "timeout": false
+    },
+    {
+      "hop": 11,
+      "ip": "104.44.51.226",
+      "hostname": "104.44.51.226",
+      "rtts": [
+        9.565,
+        10.535,
+        10.654
+      ],
+      "avg_rtt": 10.25,
+      "timeout": false
+    },
+    {
+      "hop": 12,
+      "ip": "104.44.23.161",
+      "hostname": "ae22-0.maa01-96cbe-1b.ntwk.msn.net",
+      "rtts": [
+        40.698,
+        40.527,
+        40.56
+      ],
+      "avg_rtt": 40.59,
+      "timeout": false
+    },
+    {
+      "hop": 13,
+      "ip": "104.44.17.166",
+      "hostname": "be-3-0.ibr04.cys04.ntwk.msn.net",
+      "rtts": [
+        38.628,
+        38.435,
+        38.69
+      ],
+      "avg_rtt": 38.58,
+      "timeout": false
+    },
+    {
+      "hop": 14,
+      "ip": "104.44.20.24",
+      "hostname": "ae102-0.icr02.tyo30.ntwk.msn.net",
+      "rtts": [
+        37.495,
+        37.992,
+        37.469
+      ],
+      "avg_rtt": 37.65,
+      "timeout": false
+    },
+    {
+      "hop": 15,
+      "ip": null,
+      "hostname": null,
+      "rtts": [],
+      "timeout": true
+    },
+    {
+      "hop": 16,
+      "ip": null,
+      "hostname": null,
+      "rtts": [],
+      "timeout": true
+    },
+    {
+      "hop": 17,
+      "ip": null,
+      "hostname": null,
+      "rtts": [],
+      "timeout": true
+    },
+    {
+      "hop": 18,
+      "ip": null,
+      "hostname": null,
+      "rtts": [],
+      "timeout": true
+    },
+    {
+      "hop": 19,
+      "ip": null,
+      "hostname": null,
+      "rtts": [],
+      "timeout": true
+    },
+    {
+      "hop": 20,
+      "ip": "4.216.205.136",
+      "hostname": "4.216.205.136",
+      "rtts": [
+        41.963,
+        38.153,
+        38.148
+      ],
+      "avg_rtt": 39.42,
+      "timeout": false
+    }
+  ],
+  "num_hops": 19,
+  "success": true,
+  "raw_output": " 1  192.168.50.1 (192.168.50.1)  6.427 ms  2.052 ms  2.081 ms\n 2  csgate103.cs.ccu.edu.tw (140.123.103.250)  2.485 ms  2.200 ms  2.423 ms\n 3  140.123.9.249 (140.123.9.249)  2.542 ms  2.554 ms  1.650 ms\n 4  140.123.0.246 (140.123.0.246)  3.157 ms  3.893 ms  3.947 ms\n 5  140.130.252.251 (140.130.252.251)  5.623 ms  3.901 ms  3.854 ms\n 6  192.192.61.142 (192.192.61.142)  5.227 ms  5.547 ms  5.788 ms\n 7  192.192.61.20 (192.192.61.20)  7.311 ms  8.072 ms  7.961 ms\n 8  192.192.61.48 (192.192.61.48)  8.151 ms  7.601 ms  7.795 ms\n 9  192.192.68.62 (192.192.68.62)  8.058 ms  7.998 ms  7.894 ms\n10  15-222-163-203-static.tpix.net.tw (203.163.222.15)  9.143 ms  8.690 ms  9.625 ms\n11  104.44.51.226 (104.44.51.226)  9.565 ms  10.535 ms  10.654 ms\n12  ae22-0.maa01-96cbe-1b.ntwk.msn.net (104.44.23.161)  40.698 ms  40.527 ms  40.560 ms\n13  be-3-0.ibr04.cys04.ntwk.msn.net (104.44.17.166)  38.628 ms  38.435 ms  38.690 ms\n14  ae102-0.icr02.tyo30.ntwk.msn.net (104.44.20.24)  37.495 ms  37.992 ms  37.469 ms\n15  * * *\n16  * * *\n17  * * *\n18  * * *\n19  * * *\n20  4.216.205.136 (4.216.205.136)  41.963 ms  38.153 ms  38.148 ms\n",
+  "category": "government_central",
+  "base_domain": "president.gov.tw",
+  "service_variant": "www2.president.gov.tw",
+  "is_bare_domain": false
+}

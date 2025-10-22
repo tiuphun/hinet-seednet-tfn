@@ -1,0 +1,138 @@
+{
+  "timestamp": "2025-10-21T22:19:14.401038",
+  "vantage_point": "university",
+  "target": "www2.skbank.com.tw",
+  "target_ip": "175.98.118.170",
+  "protocol": "icmp",
+  "port": null,
+  "duration_seconds": 0.36,
+  "hops": [
+    {
+      "hop": 2,
+      "ip": "140.123.103.250",
+      "hostname": "csgate103.cs.ccu.edu.tw",
+      "rtts": [
+        2.957,
+        2.488,
+        2.406
+      ],
+      "avg_rtt": 2.62,
+      "timeout": false
+    },
+    {
+      "hop": 3,
+      "ip": "140.123.9.249",
+      "hostname": "140.123.9.249",
+      "rtts": [
+        4.064,
+        2.67,
+        2.917
+      ],
+      "avg_rtt": 3.22,
+      "timeout": false
+    },
+    {
+      "hop": 4,
+      "ip": "140.123.0.246",
+      "hostname": "140.123.0.246",
+      "rtts": [
+        5.406,
+        3.367,
+        3.398
+      ],
+      "avg_rtt": 4.06,
+      "timeout": false
+    },
+    {
+      "hop": 5,
+      "ip": "140.130.252.251",
+      "hostname": "140.130.252.251",
+      "rtts": [
+        4.574,
+        4.247,
+        5.796
+      ],
+      "avg_rtt": 4.87,
+      "timeout": false
+    },
+    {
+      "hop": 6,
+      "ip": "61.31.254.69",
+      "hostname": "61-31-254-69.static.tfn.net.tw",
+      "rtts": [
+        10.919,
+        10.604,
+        9.99
+      ],
+      "avg_rtt": 10.5,
+      "timeout": false
+    },
+    {
+      "hop": 7,
+      "ip": "60.199.27.161",
+      "hostname": "60-199-27-161.static.tfn.net.tw",
+      "rtts": [
+        21.824,
+        15.817,
+        7.361
+      ],
+      "avg_rtt": 15.0,
+      "timeout": false
+    },
+    {
+      "hop": 8,
+      "ip": "60.199.82.101",
+      "hostname": "60-199-82-101.static.tfn.net.tw",
+      "rtts": [
+        16.324,
+        11.162,
+        14.794
+      ],
+      "avg_rtt": 14.09,
+      "timeout": false
+    },
+    {
+      "hop": 9,
+      "ip": "60.199.82.13",
+      "hostname": "60-199-82-13.static.tfn.net.tw",
+      "rtts": [
+        13.282,
+        11.376,
+        11.244
+      ],
+      "avg_rtt": 11.97,
+      "timeout": false
+    },
+    {
+      "hop": 10,
+      "ip": "60.199.17.230",
+      "hostname": "60-199-17-230.static.tfn.net.tw",
+      "rtts": [
+        13.716,
+        13.123,
+        12.365
+      ],
+      "avg_rtt": 13.07,
+      "timeout": false
+    },
+    {
+      "hop": 11,
+      "ip": "175.98.118.170",
+      "hostname": "175-98-118-170.static.tfn.net.tw",
+      "rtts": [
+        13.031,
+        13.896,
+        11.475
+      ],
+      "avg_rtt": 12.8,
+      "timeout": false
+    }
+  ],
+  "num_hops": 10,
+  "success": true,
+  "raw_output": " 1  192.168.50.1 (192.168.50.1)  16.100 ms  5.427 ms  2.634 ms\n 2  csgate103.cs.ccu.edu.tw (140.123.103.250)  2.957 ms  2.488 ms  2.406 ms\n 3  140.123.9.249 (140.123.9.249)  4.064 ms  2.670 ms  2.917 ms\n 4  140.123.0.246 (140.123.0.246)  5.406 ms  3.367 ms  3.398 ms\n 5  140.130.252.251 (140.130.252.251)  4.574 ms  4.247 ms  5.796 ms\n 6  61-31-254-69.static.tfn.net.tw (61.31.254.69)  10.919 ms  10.604 ms  9.990 ms\n 7  60-199-27-161.static.tfn.net.tw (60.199.27.161)  21.824 ms  15.817 ms  7.361 ms\n 8  60-199-82-101.static.tfn.net.tw (60.199.82.101)  16.324 ms  11.162 ms  14.794 ms\n 9  60-199-82-13.static.tfn.net.tw (60.199.82.13)  13.282 ms  11.376 ms  11.244 ms\n10  60-199-17-230.static.tfn.net.tw (60.199.17.230)  13.716 ms  13.123 ms  12.365 ms\n11  175-98-118-170.static.tfn.net.tw (175.98.118.170)  13.031 ms  13.896 ms  11.475 ms\n",
+  "category": "financial_banks",
+  "base_domain": "skbank.com.tw",
+  "service_variant": "www2.skbank.com.tw",
+  "is_bare_domain": false
+}

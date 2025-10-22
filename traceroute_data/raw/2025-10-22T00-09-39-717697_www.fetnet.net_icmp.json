@@ -1,0 +1,161 @@
+{
+  "timestamp": "2025-10-22T00:09:39.717697",
+  "vantage_point": "university",
+  "target": "www.fetnet.net",
+  "target_ip": "3.169.137.83",
+  "protocol": "icmp",
+  "port": null,
+  "duration_seconds": 55.76,
+  "hops": [
+    {
+      "hop": 2,
+      "ip": "140.123.103.250",
+      "hostname": "csgate103.cs.ccu.edu.tw",
+      "rtts": [
+        5.539,
+        7.317,
+        66.286
+      ],
+      "avg_rtt": 26.38,
+      "timeout": false
+    },
+    {
+      "hop": 3,
+      "ip": "140.123.9.249",
+      "hostname": "140.123.9.249",
+      "rtts": [
+        2.974,
+        7.086,
+        4.333
+      ],
+      "avg_rtt": 4.8,
+      "timeout": false
+    },
+    {
+      "hop": 4,
+      "ip": "140.123.0.246",
+      "hostname": "140.123.0.246",
+      "rtts": [
+        28.87,
+        9.433,
+        3.362
+      ],
+      "avg_rtt": 13.89,
+      "timeout": false
+    },
+    {
+      "hop": 5,
+      "ip": "140.130.252.251",
+      "hostname": "140.130.252.251",
+      "rtts": [
+        19.573,
+        9.098,
+        11.212
+      ],
+      "avg_rtt": 13.29,
+      "timeout": false
+    },
+    {
+      "hop": 6,
+      "ip": "192.192.61.142",
+      "hostname": "192.192.61.142",
+      "rtts": [
+        6.615,
+        92.419,
+        54.088
+      ],
+      "avg_rtt": 51.04,
+      "timeout": false
+    },
+    {
+      "hop": 7,
+      "ip": "192.192.61.20",
+      "hostname": "192.192.61.20",
+      "rtts": [
+        8.545,
+        16.132,
+        12.749
+      ],
+      "avg_rtt": 12.48,
+      "timeout": false
+    },
+    {
+      "hop": 8,
+      "ip": "192.192.61.48",
+      "hostname": "192.192.61.48",
+      "rtts": [
+        12.844,
+        32.617,
+        18.649
+      ],
+      "avg_rtt": 21.37,
+      "timeout": false
+    },
+    {
+      "hop": 9,
+      "ip": "192.192.68.62",
+      "hostname": "192.192.68.62",
+      "rtts": [
+        10.017,
+        9.852,
+        11.426
+      ],
+      "avg_rtt": 10.43,
+      "timeout": false
+    },
+    {
+      "hop": 10,
+      "ip": null,
+      "hostname": null,
+      "rtts": [],
+      "timeout": true
+    },
+    {
+      "hop": 11,
+      "ip": null,
+      "hostname": null,
+      "rtts": [],
+      "timeout": true
+    },
+    {
+      "hop": 12,
+      "ip": null,
+      "hostname": null,
+      "rtts": [],
+      "timeout": true
+    },
+    {
+      "hop": 13,
+      "ip": null,
+      "hostname": null,
+      "rtts": [],
+      "timeout": true
+    },
+    {
+      "hop": 14,
+      "ip": null,
+      "hostname": null,
+      "rtts": [],
+      "timeout": true
+    },
+    {
+      "hop": 15,
+      "ip": "3.169.137.83",
+      "hostname": "server-3-169-137-83.tpe54.r.cloudfront.net",
+      "rtts": [
+        10.767,
+        13.609,
+        23.44
+      ],
+      "avg_rtt": 15.94,
+      "timeout": false
+    }
+  ],
+  "num_hops": 14,
+  "success": true,
+  "raw_output": " 1  192.168.50.1 (192.168.50.1)  8.404 ms  32.284 ms  2.519 ms\n 2  csgate103.cs.ccu.edu.tw (140.123.103.250)  5.539 ms  7.317 ms  66.286 ms\n 3  140.123.9.249 (140.123.9.249)  2.974 ms  7.086 ms  4.333 ms\n 4  140.123.0.246 (140.123.0.246)  28.870 ms  9.433 ms  3.362 ms\n 5  140.130.252.251 (140.130.252.251)  19.573 ms  9.098 ms  11.212 ms\n 6  192.192.61.142 (192.192.61.142)  6.615 ms  92.419 ms  54.088 ms\n 7  192.192.61.20 (192.192.61.20)  8.545 ms  16.132 ms  12.749 ms\n 8  192.192.61.48 (192.192.61.48)  12.844 ms  32.617 ms  18.649 ms\n 9  192.192.68.62 (192.192.68.62)  10.017 ms  9.852 ms  11.426 ms\n10  * * *\n11  * * *\n12  * * *\n13  * * *\n14  * * *\n15  server-3-169-137-83.tpe54.r.cloudfront.net (3.169.137.83)  10.767 ms  13.609 ms  23.440 ms\n",
+  "category": "telecom",
+  "base_domain": "fetnet.net",
+  "service_variant": "www.fetnet.net",
+  "is_bare_domain": false
+}

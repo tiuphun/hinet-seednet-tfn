@@ -1,0 +1,186 @@
+{
+  "timestamp": "2025-10-14T14:39:47.744767",
+  "vantage_point": "cht-mobile",
+  "target": "www2.facebook.com",
+  "target_ip": "31.13.87.1",
+  "protocol": "icmp",
+  "port": null,
+  "duration_seconds": 0.38,
+  "hops": [
+    {
+      "hop": 2,
+      "ip": "140.123.103.250",
+      "hostname": null,
+      "rtts": [
+        10.976,
+        2.804,
+        2.828
+      ],
+      "avg_rtt": 5.54,
+      "timeout": false
+    },
+    {
+      "hop": 3,
+      "ip": "140.123.9.249",
+      "hostname": null,
+      "rtts": [
+        2.909,
+        2.896,
+        2.816
+      ],
+      "avg_rtt": 2.87,
+      "timeout": false
+    },
+    {
+      "hop": 4,
+      "ip": "140.123.0.246",
+      "hostname": null,
+      "rtts": [
+        3.655,
+        5.673,
+        3.39
+      ],
+      "avg_rtt": 4.24,
+      "timeout": false
+    },
+    {
+      "hop": 5,
+      "ip": "140.130.252.251",
+      "hostname": null,
+      "rtts": [
+        12.332,
+        3.996,
+        7.559
+      ],
+      "avg_rtt": 7.96,
+      "timeout": false
+    },
+    {
+      "hop": 6,
+      "ip": "192.192.61.142",
+      "hostname": null,
+      "rtts": [
+        6.28,
+        5.498,
+        6.184
+      ],
+      "avg_rtt": 5.99,
+      "timeout": false
+    },
+    {
+      "hop": 7,
+      "ip": "192.192.61.9",
+      "hostname": null,
+      "rtts": [
+        8.616,
+        6.024,
+        8.581
+      ],
+      "avg_rtt": 7.74,
+      "timeout": false
+    },
+    {
+      "hop": 8,
+      "ip": "192.192.61.30",
+      "hostname": null,
+      "rtts": [
+        10.252,
+        6.94,
+        6.948
+      ],
+      "avg_rtt": 8.05,
+      "timeout": false
+    },
+    {
+      "hop": 9,
+      "ip": "192.192.61.4",
+      "hostname": null,
+      "rtts": [
+        8.089,
+        9.61,
+        10.847
+      ],
+      "avg_rtt": 9.52,
+      "timeout": false
+    },
+    {
+      "hop": 10,
+      "ip": "192.192.61.209",
+      "hostname": null,
+      "rtts": [
+        7.136,
+        8.001,
+        7.017
+      ],
+      "avg_rtt": 7.38,
+      "timeout": false
+    },
+    {
+      "hop": 11,
+      "ip": "211.73.84.16",
+      "hostname": null,
+      "rtts": [
+        9.949,
+        7.732,
+        8.384
+      ],
+      "avg_rtt": 8.69,
+      "timeout": false
+    },
+    {
+      "hop": 12,
+      "ip": "129.134.55.108",
+      "hostname": null,
+      "rtts": [
+        10.45,
+        7.446,
+        7.721
+      ],
+      "avg_rtt": 8.54,
+      "timeout": false
+    },
+    {
+      "hop": 13,
+      "ip": "173.252.64.179",
+      "hostname": null,
+      "rtts": [
+        8.848,
+        9.451,
+        7.86
+      ],
+      "avg_rtt": 8.72,
+      "timeout": false
+    },
+    {
+      "hop": 14,
+      "ip": "129.134.117.45",
+      "hostname": null,
+      "rtts": [
+        10.301,
+        14.301,
+        11.527
+      ],
+      "avg_rtt": 12.04,
+      "timeout": false
+    },
+    {
+      "hop": 15,
+      "ip": "31.13.87.1",
+      "hostname": null,
+      "rtts": [
+        16.812,
+        9.023,
+        9.275
+      ],
+      "avg_rtt": 11.7,
+      "timeout": false
+    }
+  ],
+  "num_hops": 14,
+  "success": true,
+  "raw_output": " 1  192.168.50.1  22.971 ms  4.979 ms  12.898 ms\n 2  140.123.103.250  10.976 ms  2.804 ms  2.828 ms\n 3  140.123.9.249  2.909 ms  2.896 ms  2.816 ms\n 4  140.123.0.246  3.655 ms  5.673 ms  3.390 ms\n 5  140.130.252.251  12.332 ms  3.996 ms  7.559 ms\n 6  192.192.61.142  6.280 ms  5.498 ms  6.184 ms\n 7  192.192.61.9  8.616 ms  6.024 ms  8.581 ms\n 8  192.192.61.30  10.252 ms  6.940 ms  6.948 ms\n 9  192.192.61.4  8.089 ms  9.610 ms  10.847 ms\n10  192.192.61.209  7.136 ms  8.001 ms  7.017 ms\n11  211.73.84.16  9.949 ms  7.732 ms  8.384 ms\n12  129.134.55.108  10.450 ms  7.446 ms  7.721 ms\n13  173.252.64.179  8.848 ms  9.451 ms  7.860 ms\n14  129.134.117.45  10.301 ms  14.301 ms  11.527 ms\n15  31.13.87.1  16.812 ms  9.023 ms  9.275 ms\n",
+  "category": "cdn_global",
+  "base_domain": "facebook.com",
+  "service_variant": "www2.facebook.com",
+  "is_bare_domain": false
+}

@@ -1,0 +1,114 @@
+{
+  "timestamp": "2025-10-22T01:30:32.083857",
+  "vantage_point": "university",
+  "target": "mail.krtco.com.tw",
+  "target_ip": "219.87.161.130",
+  "protocol": "icmp",
+  "port": null,
+  "duration_seconds": 0.28,
+  "hops": [
+    {
+      "hop": 2,
+      "ip": "140.123.103.250",
+      "hostname": "csgate103.cs.ccu.edu.tw",
+      "rtts": [
+        2.657,
+        2.542,
+        2.352
+      ],
+      "avg_rtt": 2.52,
+      "timeout": false
+    },
+    {
+      "hop": 3,
+      "ip": "140.123.9.249",
+      "hostname": "140.123.9.249",
+      "rtts": [
+        2.061,
+        2.508,
+        2.175
+      ],
+      "avg_rtt": 2.25,
+      "timeout": false
+    },
+    {
+      "hop": 4,
+      "ip": "140.123.0.246",
+      "hostname": "140.123.0.246",
+      "rtts": [
+        3.437,
+        2.968,
+        2.94
+      ],
+      "avg_rtt": 3.11,
+      "timeout": false
+    },
+    {
+      "hop": 5,
+      "ip": "140.130.252.251",
+      "hostname": "140.130.252.251",
+      "rtts": [
+        5.018,
+        7.286,
+        3.811
+      ],
+      "avg_rtt": 5.37,
+      "timeout": false
+    },
+    {
+      "hop": 6,
+      "ip": "61.31.254.69",
+      "hostname": "61-31-254-69.static.tfn.net.tw",
+      "rtts": [
+        6.291,
+        6.236,
+        7.006
+      ],
+      "avg_rtt": 6.51,
+      "timeout": false
+    },
+    {
+      "hop": 7,
+      "ip": "60.199.27.161",
+      "hostname": "60-199-27-161.static.tfn.net.tw",
+      "rtts": [
+        10.501,
+        6.449,
+        8.742
+      ],
+      "avg_rtt": 8.56,
+      "timeout": false
+    },
+    {
+      "hop": 8,
+      "ip": "60.199.27.166",
+      "hostname": "60-199-27-166.static.tfn.net.tw",
+      "rtts": [
+        6.2,
+        6.725,
+        6.643
+      ],
+      "avg_rtt": 6.52,
+      "timeout": false
+    },
+    {
+      "hop": 9,
+      "ip": "219.87.161.130",
+      "hostname": "mail.krtco.com.tw",
+      "rtts": [
+        6.75,
+        13.838,
+        8.692
+      ],
+      "avg_rtt": 9.76,
+      "timeout": false
+    }
+  ],
+  "num_hops": 8,
+  "success": true,
+  "raw_output": " 1  192.168.50.1 (192.168.50.1)  6.419 ms  2.950 ms  1.782 ms\n 2  csgate103.cs.ccu.edu.tw (140.123.103.250)  2.657 ms  2.542 ms  2.352 ms\n 3  140.123.9.249 (140.123.9.249)  2.061 ms  2.508 ms  2.175 ms\n 4  140.123.0.246 (140.123.0.246)  3.437 ms  2.968 ms  2.940 ms\n 5  140.130.252.251 (140.130.252.251)  5.018 ms  7.286 ms  3.811 ms\n 6  61-31-254-69.static.tfn.net.tw (61.31.254.69)  6.291 ms  6.236 ms  7.006 ms\n 7  60-199-27-161.static.tfn.net.tw (60.199.27.161)  10.501 ms  6.449 ms  8.742 ms\n 8  60-199-27-166.static.tfn.net.tw (60.199.27.166)  6.200 ms  6.725 ms  6.643 ms\n 9  mail.krtco.com.tw (219.87.161.130)  6.750 ms  13.838 ms  8.692 ms\n",
+  "category": "critical_infra",
+  "base_domain": "krtco.com.tw",
+  "service_variant": "mail.krtco.com.tw",
+  "is_bare_domain": false
+}

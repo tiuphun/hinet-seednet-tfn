@@ -1,0 +1,125 @@
+{
+  "timestamp": "2025-10-22T01:24:06.571501",
+  "vantage_point": "university",
+  "target": "mail.railway.gov.tw",
+  "target_ip": "163.29.186.180",
+  "protocol": "icmp",
+  "port": null,
+  "duration_seconds": 3.5,
+  "hops": [
+    {
+      "hop": 2,
+      "ip": "140.123.103.250",
+      "hostname": "csgate103.cs.ccu.edu.tw",
+      "rtts": [
+        2.189,
+        2.146,
+        2.255
+      ],
+      "avg_rtt": 2.2,
+      "timeout": false
+    },
+    {
+      "hop": 3,
+      "ip": "140.123.9.249",
+      "hostname": "140.123.9.249",
+      "rtts": [
+        2.189,
+        2.235,
+        2.925
+      ],
+      "avg_rtt": 2.45,
+      "timeout": false
+    },
+    {
+      "hop": 4,
+      "ip": "140.123.0.246",
+      "hostname": "140.123.0.246",
+      "rtts": [
+        3.046,
+        2.984,
+        2.987
+      ],
+      "avg_rtt": 3.01,
+      "timeout": false
+    },
+    {
+      "hop": 5,
+      "ip": "140.130.252.251",
+      "hostname": "140.130.252.251",
+      "rtts": [
+        65.935,
+        43.523,
+        4.596
+      ],
+      "avg_rtt": 38.02,
+      "timeout": false
+    },
+    {
+      "hop": 6,
+      "ip": "192.192.61.142",
+      "hostname": "192.192.61.142",
+      "rtts": [
+        5.809,
+        5.164,
+        6.688
+      ],
+      "avg_rtt": 5.89,
+      "timeout": false
+    },
+    {
+      "hop": 7,
+      "ip": "192.192.61.37",
+      "hostname": "192.192.61.37",
+      "rtts": [
+        9.924,
+        9.052,
+        6.759
+      ],
+      "avg_rtt": 8.58,
+      "timeout": false
+    },
+    {
+      "hop": 8,
+      "ip": "192.192.61.32",
+      "hostname": "192.192.61.32",
+      "rtts": [
+        11.75,
+        9.217,
+        13.106
+      ],
+      "avg_rtt": 11.36,
+      "timeout": false
+    },
+    {
+      "hop": 9,
+      "ip": "192.192.61.209",
+      "hostname": "192.192.61.209",
+      "rtts": [
+        8.09,
+        9.193,
+        11.233
+      ],
+      "avg_rtt": 9.51,
+      "timeout": false
+    },
+    {
+      "hop": 10,
+      "ip": "10.96.81.12",
+      "hostname": "10.96.81.12",
+      "rtts": [
+        12.224,
+        10.592
+      ],
+      "avg_rtt": 11.41,
+      "timeout": false
+    }
+  ],
+  "num_hops": 9,
+  "success": false,
+  "raw_output": " 1  192.168.50.1 (192.168.50.1)  66.170 ms  2.091 ms  1.696 ms\n 2  csgate103.cs.ccu.edu.tw (140.123.103.250)  2.189 ms  2.146 ms  2.255 ms\n 3  140.123.9.249 (140.123.9.249)  2.189 ms  2.235 ms  2.925 ms\n 4  140.123.0.246 (140.123.0.246)  3.046 ms  2.984 ms  2.987 ms\n 5  140.130.252.251 (140.130.252.251)  65.935 ms  43.523 ms  4.596 ms\n 6  192.192.61.142 (192.192.61.142)  5.809 ms  5.164 ms  6.688 ms\n 7  192.192.61.37 (192.192.61.37)  9.924 ms  9.052 ms  6.759 ms\n 8  192.192.61.32 (192.192.61.32)  11.750 ms  9.217 ms  13.106 ms\n 9  192.192.61.209 (192.192.61.209)  8.090 ms  9.193 ms  11.233 ms\n10  10.96.81.12 (10.96.81.12)  12.224 ms !X *  10.592 ms !X\n",
+  "category": "critical_infra",
+  "base_domain": "railway.gov.tw",
+  "service_variant": "mail.railway.gov.tw",
+  "is_bare_domain": false
+}

@@ -1,0 +1,114 @@
+{
+  "timestamp": "2025-10-15T09:30:01.896664",
+  "vantage_point": "university",
+  "target": "ncku.edu.tw",
+  "target_ip": "140.116.229.1",
+  "protocol": "icmp",
+  "port": null,
+  "duration_seconds": 0.29,
+  "hops": [
+    {
+      "hop": 2,
+      "ip": "140.123.103.250",
+      "hostname": null,
+      "rtts": [
+        5.931,
+        5.581,
+        4.1
+      ],
+      "avg_rtt": 5.2,
+      "timeout": false
+    },
+    {
+      "hop": 3,
+      "ip": "140.123.9.249",
+      "hostname": null,
+      "rtts": [
+        46.596,
+        3.064,
+        4.603
+      ],
+      "avg_rtt": 18.09,
+      "timeout": false
+    },
+    {
+      "hop": 4,
+      "ip": "140.123.0.246",
+      "hostname": null,
+      "rtts": [
+        3.45,
+        5.141,
+        3.596
+      ],
+      "avg_rtt": 4.06,
+      "timeout": false
+    },
+    {
+      "hop": 5,
+      "ip": "211.79.57.25",
+      "hostname": null,
+      "rtts": [
+        4.104,
+        11.923,
+        8.983
+      ],
+      "avg_rtt": 8.34,
+      "timeout": false
+    },
+    {
+      "hop": 6,
+      "ip": "211.73.76.209",
+      "hostname": null,
+      "rtts": [
+        10.037,
+        7.179,
+        9.551
+      ],
+      "avg_rtt": 8.92,
+      "timeout": false
+    },
+    {
+      "hop": 7,
+      "ip": "211.73.76.214",
+      "hostname": null,
+      "rtts": [
+        16.766,
+        16.823,
+        7.035
+      ],
+      "avg_rtt": 13.54,
+      "timeout": false
+    },
+    {
+      "hop": 8,
+      "ip": "211.79.56.26",
+      "hostname": null,
+      "rtts": [
+        8.026,
+        6.865,
+        9.817
+      ],
+      "avg_rtt": 8.24,
+      "timeout": false
+    },
+    {
+      "hop": 9,
+      "ip": "140.116.229.1",
+      "hostname": null,
+      "rtts": [
+        44.76,
+        5.812,
+        6.944
+      ],
+      "avg_rtt": 19.17,
+      "timeout": false
+    }
+  ],
+  "num_hops": 8,
+  "success": true,
+  "raw_output": " 1  192.168.50.1  8.831 ms  5.511 ms  3.173 ms\n 2  140.123.103.250  5.931 ms  5.581 ms  4.100 ms\n 3  140.123.9.249  46.596 ms  3.064 ms  4.603 ms\n 4  140.123.0.246  3.450 ms  5.141 ms  3.596 ms\n 5  211.79.57.25  4.104 ms  11.923 ms  8.983 ms\n 6  211.73.76.209  10.037 ms  7.179 ms  9.551 ms\n 7  211.73.76.214  16.766 ms  16.823 ms  7.035 ms\n 8  211.79.56.26  8.026 ms  6.865 ms  9.817 ms\n 9  140.116.229.1  44.760 ms  5.812 ms  6.944 ms\n",
+  "category": "universities",
+  "base_domain": "ncku.edu.tw",
+  "service_variant": "ncku.edu.tw",
+  "is_bare_domain": true
+}

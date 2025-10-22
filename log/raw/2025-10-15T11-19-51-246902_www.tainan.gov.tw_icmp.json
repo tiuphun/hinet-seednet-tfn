@@ -1,0 +1,202 @@
+{
+  "timestamp": "2025-10-15T11:19:51.246902",
+  "vantage_point": "itaiwan",
+  "target": "www.tainan.gov.tw",
+  "target_ip": "3.169.121.122",
+  "protocol": "icmp",
+  "port": null,
+  "duration_seconds": 63.24,
+  "hops": [
+    {
+      "hop": 2,
+      "ip": "168.95.98.254",
+      "hostname": "h254.s98.ts.hinet.net",
+      "rtts": [
+        2.942,
+        2.729,
+        2.86
+      ],
+      "avg_rtt": 2.84,
+      "timeout": false,
+      "network": "hinet",
+      "network_name": "HiNet (Chunghwa Telecom)",
+      "is_interesting": true,
+      "is_private": false
+    },
+    {
+      "hop": 3,
+      "ip": "168.95.128.50",
+      "hostname": "168-95-128-50.caw1-3331.hinet.net",
+      "rtts": [
+        3.372,
+        4.819,
+        5.273
+      ],
+      "avg_rtt": 4.49,
+      "timeout": false,
+      "network": "hinet",
+      "network_name": "HiNet (Chunghwa Telecom)",
+      "is_interesting": true,
+      "is_private": false
+    },
+    {
+      "hop": 4,
+      "ip": null,
+      "hostname": null,
+      "rtts": [],
+      "timeout": true
+    },
+    {
+      "hop": 5,
+      "ip": null,
+      "hostname": null,
+      "rtts": [],
+      "timeout": true
+    },
+    {
+      "hop": 6,
+      "ip": "220.128.13.109",
+      "hostname": "220-128-13-109.pcpd-3332.hinet.net",
+      "rtts": [
+        13.89,
+        10.055,
+        9.437
+      ],
+      "avg_rtt": 11.13,
+      "timeout": false,
+      "network": "hinet",
+      "network_name": "HiNet (Chunghwa Telecom)",
+      "is_interesting": true,
+      "is_private": false
+    },
+    {
+      "hop": 7,
+      "ip": "203.75.72.41",
+      "hostname": "tn-cd-c6r1.router.hinet.net",
+      "rtts": [
+        9.979,
+        9.778,
+        9.947
+      ],
+      "avg_rtt": 9.9,
+      "timeout": false,
+      "network": "hinet",
+      "network_name": "HiNet (Chunghwa Telecom)",
+      "is_interesting": true,
+      "is_private": false
+    },
+    {
+      "hop": 8,
+      "ip": null,
+      "hostname": null,
+      "rtts": [],
+      "timeout": true
+    },
+    {
+      "hop": 9,
+      "ip": null,
+      "hostname": null,
+      "rtts": [],
+      "timeout": true
+    },
+    {
+      "hop": 10,
+      "ip": null,
+      "hostname": null,
+      "rtts": [],
+      "timeout": true
+    },
+    {
+      "hop": 11,
+      "ip": null,
+      "hostname": null,
+      "rtts": [],
+      "timeout": true
+    },
+    {
+      "hop": 12,
+      "ip": null,
+      "hostname": null,
+      "rtts": [],
+      "timeout": true
+    },
+    {
+      "hop": 13,
+      "ip": "3.169.121.122",
+      "hostname": "server-3-169-121-122.tpe53.r.cloudfront.net",
+      "rtts": [
+        8.694,
+        8.496,
+        8.524
+      ],
+      "avg_rtt": 8.57,
+      "timeout": false,
+      "network": "other",
+      "network_name": "Other Network",
+      "is_interesting": false,
+      "is_private": false
+    }
+  ],
+  "num_hops": 12,
+  "success": true,
+  "path_analysis": {
+    "networks_traversed": [
+      {
+        "network": "hinet",
+        "network_name": "HiNet (Chunghwa Telecom)",
+        "first_hop": 2
+      },
+      {
+        "network": "other",
+        "network_name": "Other Network",
+        "first_hop": 13
+      }
+    ],
+    "interesting_routers": [
+      {
+        "hop": 2,
+        "ip": "168.95.98.254",
+        "hostname": "h254.s98.ts.hinet.net",
+        "network": "hinet",
+        "network_name": "HiNet (Chunghwa Telecom)"
+      },
+      {
+        "hop": 3,
+        "ip": "168.95.128.50",
+        "hostname": "168-95-128-50.caw1-3331.hinet.net",
+        "network": "hinet",
+        "network_name": "HiNet (Chunghwa Telecom)"
+      },
+      {
+        "hop": 6,
+        "ip": "220.128.13.109",
+        "hostname": "220-128-13-109.pcpd-3332.hinet.net",
+        "network": "hinet",
+        "network_name": "HiNet (Chunghwa Telecom)"
+      },
+      {
+        "hop": 7,
+        "ip": "203.75.72.41",
+        "hostname": "tn-cd-c6r1.router.hinet.net",
+        "network": "hinet",
+        "network_name": "HiNet (Chunghwa Telecom)"
+      }
+    ],
+    "private_hops": 0,
+    "total_hops": 12,
+    "network_transitions": [
+      {
+        "hop": 13,
+        "from": "hinet",
+        "to": "other",
+        "from_ip": "3.169.121.122",
+        "to_ip": "3.169.121.122"
+      }
+    ]
+  },
+  "raw_output": " 1  172.16.193.250 (172.16.193.250)  2.363 ms  2.661 ms  2.135 ms\n 2  h254.s98.ts.hinet.net (168.95.98.254)  2.942 ms  2.729 ms  2.860 ms\n 3  168-95-128-50.caw1-3331.hinet.net (168.95.128.50)  3.372 ms  4.819 ms  5.273 ms\n 4  * * *\n 5  * * *\n 6  220-128-13-109.pcpd-3332.hinet.net (220.128.13.109)  13.890 ms  10.055 ms  9.437 ms\n 7  tn-cd-c6r1.router.hinet.net (203.75.72.41)  9.979 ms  9.778 ms  9.947 ms\n 8  * * *\n 9  * * *\n10  * * *\n11  * * *\n12  * * *\n13  server-3-169-121-122.tpe53.r.cloudfront.net (3.169.121.122)  8.694 ms  8.496 ms  8.524 ms\n",
+  "category": "government_local",
+  "base_domain": "tainan.gov.tw",
+  "service_variant": "www.tainan.gov.tw",
+  "is_bare_domain": false
+}

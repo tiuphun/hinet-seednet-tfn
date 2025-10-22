@@ -1,0 +1,133 @@
+{
+  "timestamp": "2025-10-22T09:29:55.306469",
+  "vantage_point": "university",
+  "target": "168.95.192.1",
+  "target_ip": "168.95.192.1",
+  "protocol": "icmp",
+  "port": null,
+  "duration_seconds": 9.34,
+  "hops": [
+    {
+      "hop": 2,
+      "ip": "140.123.103.250",
+      "hostname": "csgate103.cs.ccu.edu.tw",
+      "rtts": [
+        2.398,
+        2.228,
+        2.151
+      ],
+      "avg_rtt": 2.26,
+      "timeout": false
+    },
+    {
+      "hop": 3,
+      "ip": "140.123.9.249",
+      "hostname": "140.123.9.249",
+      "rtts": [
+        2.218,
+        9.388,
+        24.666
+      ],
+      "avg_rtt": 12.09,
+      "timeout": false
+    },
+    {
+      "hop": 4,
+      "ip": "140.123.0.246",
+      "hostname": "140.123.0.246",
+      "rtts": [
+        4.888,
+        3.522,
+        3.178
+      ],
+      "avg_rtt": 3.86,
+      "timeout": false
+    },
+    {
+      "hop": 5,
+      "ip": "140.130.252.251",
+      "hostname": "140.130.252.251",
+      "rtts": [
+        3.263,
+        3.267,
+        4.58
+      ],
+      "avg_rtt": 3.7,
+      "timeout": false
+    },
+    {
+      "hop": 6,
+      "ip": "211.22.226.198",
+      "hostname": "211-22-226-198.caw1-3332.hinet.net",
+      "rtts": [
+        5.74,
+        6.905,
+        22.921
+      ],
+      "avg_rtt": 11.86,
+      "timeout": false
+    },
+    {
+      "hop": 7,
+      "ip": null,
+      "hostname": null,
+      "rtts": [],
+      "timeout": true
+    },
+    {
+      "hop": 8,
+      "ip": "220.128.25.241",
+      "hostname": "220-128-25-241.skc1-3316.hinet.net",
+      "rtts": [
+        5.776,
+        6.268,
+        10.011
+      ],
+      "avg_rtt": 7.35,
+      "timeout": false
+    },
+    {
+      "hop": 9,
+      "ip": "203.74.41.245",
+      "hostname": "203-74-41-245.hinet-ip.hinet.net",
+      "rtts": [
+        71.407,
+        6.4,
+        9.265
+      ],
+      "avg_rtt": 29.02,
+      "timeout": false
+    },
+    {
+      "hop": 10,
+      "ip": "61.220.2.246",
+      "hostname": "61-220-2-246.hinet-ip.hinet.net",
+      "rtts": [
+        5.967,
+        7.827,
+        6.558
+      ],
+      "avg_rtt": 6.78,
+      "timeout": false
+    },
+    {
+      "hop": 11,
+      "ip": "168.95.192.1",
+      "hostname": "hntp1.hinet.net",
+      "rtts": [
+        5.688,
+        8.615,
+        6.198
+      ],
+      "avg_rtt": 6.83,
+      "timeout": false
+    }
+  ],
+  "num_hops": 10,
+  "success": true,
+  "raw_output": " 1  192.168.50.1 (192.168.50.1)  6.070 ms  2.137 ms  1.846 ms\n 2  csgate103.cs.ccu.edu.tw (140.123.103.250)  2.398 ms  2.228 ms  2.151 ms\n 3  140.123.9.249 (140.123.9.249)  2.218 ms  9.388 ms  24.666 ms\n 4  140.123.0.246 (140.123.0.246)  4.888 ms  3.522 ms  3.178 ms\n 5  140.130.252.251 (140.130.252.251)  3.263 ms  3.267 ms  4.580 ms\n 6  211-22-226-198.caw1-3332.hinet.net (211.22.226.198)  5.740 ms  6.905 ms  22.921 ms\n 7  * * *\n 8  220-128-25-241.skc1-3316.hinet.net (220.128.25.241)  5.776 ms  6.268 ms  10.011 ms\n 9  203-74-41-245.hinet-ip.hinet.net (203.74.41.245)  71.407 ms  6.400 ms  9.265 ms\n10  61-220-2-246.hinet-ip.hinet.net (61.220.2.246)  5.967 ms  7.827 ms  6.558 ms\n11  hntp1.hinet.net (168.95.192.1)  5.688 ms  8.615 ms  6.198 ms\n",
+  "category": "dns_resolvers",
+  "base_domain": "168.95.192.1",
+  "service_variant": "168.95.192.1",
+  "is_bare_domain": true
+}

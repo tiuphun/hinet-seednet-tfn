@@ -1,0 +1,150 @@
+{
+  "timestamp": "2025-10-22T04:14:53.939732",
+  "vantage_point": "university",
+  "target": "vpn.nsysu.edu.tw",
+  "target_ip": "140.117.111.1",
+  "protocol": "icmp",
+  "port": null,
+  "duration_seconds": 0.78,
+  "hops": [
+    {
+      "hop": 2,
+      "ip": "140.123.103.250",
+      "hostname": "csgate103.cs.ccu.edu.tw",
+      "rtts": [
+        2.65,
+        2.337,
+        4.039
+      ],
+      "avg_rtt": 3.01,
+      "timeout": false
+    },
+    {
+      "hop": 3,
+      "ip": "140.123.9.249",
+      "hostname": "140.123.9.249",
+      "rtts": [
+        2.56,
+        9.567,
+        2.773
+      ],
+      "avg_rtt": 4.97,
+      "timeout": false
+    },
+    {
+      "hop": 4,
+      "ip": "140.123.0.246",
+      "hostname": "140.123.0.246",
+      "rtts": [
+        3.507,
+        3.95,
+        11.39
+      ],
+      "avg_rtt": 6.28,
+      "timeout": false
+    },
+    {
+      "hop": 5,
+      "ip": "211.79.57.25",
+      "hostname": "ccu-ccu-76.twaren.net",
+      "rtts": [
+        9.896,
+        13.416,
+        30.342
+      ],
+      "avg_rtt": 17.88,
+      "timeout": false
+    },
+    {
+      "hop": 6,
+      "ip": "211.73.76.209",
+      "hostname": "tn-a1.twaren.net",
+      "rtts": [
+        11.35,
+        5.468,
+        7.786
+      ],
+      "avg_rtt": 8.2,
+      "timeout": false
+    },
+    {
+      "hop": 7,
+      "ip": "211.73.76.218",
+      "hostname": "nsysu-a1.twaren.net",
+      "rtts": [
+        6.915,
+        7.764,
+        6.371
+      ],
+      "avg_rtt": 7.02,
+      "timeout": false
+    },
+    {
+      "hop": 8,
+      "ip": "211.79.58.26",
+      "hostname": "nsysu_nsysu-a1.twaren.net",
+      "rtts": [
+        11.576,
+        11.168,
+        6.18
+      ],
+      "avg_rtt": 9.64,
+      "timeout": false
+    },
+    {
+      "hop": 9,
+      "ip": "140.117.232.34",
+      "hostname": "140.117.232.34",
+      "rtts": [
+        6.625,
+        9.606,
+        19.409
+      ],
+      "avg_rtt": 11.88,
+      "timeout": false
+    },
+    {
+      "hop": 10,
+      "ip": "140.117.232.86",
+      "hostname": "140.117.232.86",
+      "rtts": [
+        19.743,
+        23.866,
+        22.013
+      ],
+      "avg_rtt": 21.87,
+      "timeout": false
+    },
+    {
+      "hop": 11,
+      "ip": "140.117.232.14",
+      "hostname": "140.117.232.14",
+      "rtts": [
+        20.494,
+        7.434,
+        9.787
+      ],
+      "avg_rtt": 12.57,
+      "timeout": false
+    },
+    {
+      "hop": 12,
+      "ip": "140.117.111.1",
+      "hostname": "140.117.111.1",
+      "rtts": [
+        7.657,
+        50.065,
+        6.529
+      ],
+      "avg_rtt": 21.42,
+      "timeout": false
+    }
+  ],
+  "num_hops": 11,
+  "success": true,
+  "raw_output": " 1  192.168.50.1 (192.168.50.1)  2.627 ms  2.936 ms  2.043 ms\n 2  csgate103.cs.ccu.edu.tw (140.123.103.250)  2.650 ms  2.337 ms  4.039 ms\n 3  140.123.9.249 (140.123.9.249)  2.560 ms  9.567 ms  2.773 ms\n 4  140.123.0.246 (140.123.0.246)  3.507 ms  3.950 ms  11.390 ms\n 5  ccu-ccu-76.twaren.net (211.79.57.25)  9.896 ms  13.416 ms  30.342 ms\n 6  tn-a1.twaren.net (211.73.76.209)  11.350 ms  5.468 ms  7.786 ms\n 7  nsysu-a1.twaren.net (211.73.76.218)  6.915 ms  7.764 ms  6.371 ms\n 8  nsysu_nsysu-a1.twaren.net (211.79.58.26)  11.576 ms  11.168 ms  6.180 ms\n 9  140.117.232.34 (140.117.232.34)  6.625 ms  9.606 ms  19.409 ms\n10  140.117.232.86 (140.117.232.86)  19.743 ms  23.866 ms  22.013 ms\n11  140.117.232.14 (140.117.232.14)  20.494 ms  7.434 ms  9.787 ms\n12  140.117.111.1 (140.117.111.1)  7.657 ms  50.065 ms  6.529 ms\n",
+  "category": "universities",
+  "base_domain": "nsysu.edu.tw",
+  "service_variant": "vpn.nsysu.edu.tw",
+  "is_bare_domain": false
+}

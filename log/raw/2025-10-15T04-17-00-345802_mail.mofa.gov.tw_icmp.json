@@ -1,0 +1,159 @@
+{
+  "timestamp": "2025-10-15T04:17:00.345802",
+  "vantage_point": "university",
+  "target": "mail.mofa.gov.tw",
+  "target_ip": "211.72.255.68",
+  "protocol": "icmp",
+  "port": null,
+  "duration_seconds": 27.39,
+  "hops": [
+    {
+      "hop": 2,
+      "ip": "140.123.103.250",
+      "hostname": null,
+      "rtts": [
+        2.838,
+        2.835,
+        2.725
+      ],
+      "avg_rtt": 2.8,
+      "timeout": false
+    },
+    {
+      "hop": 3,
+      "ip": "140.123.9.249",
+      "hostname": null,
+      "rtts": [
+        2.741,
+        4.056,
+        2.422
+      ],
+      "avg_rtt": 3.07,
+      "timeout": false
+    },
+    {
+      "hop": 4,
+      "ip": "140.123.0.246",
+      "hostname": null,
+      "rtts": [
+        5.532,
+        3.637,
+        3.517
+      ],
+      "avg_rtt": 4.23,
+      "timeout": false
+    },
+    {
+      "hop": 5,
+      "ip": "140.130.252.251",
+      "hostname": null,
+      "rtts": [
+        3.885,
+        5.274,
+        5.393
+      ],
+      "avg_rtt": 4.85,
+      "timeout": false
+    },
+    {
+      "hop": 6,
+      "ip": "211.22.226.198",
+      "hostname": null,
+      "rtts": [
+        4.888,
+        4.494,
+        6.596
+      ],
+      "avg_rtt": 5.33,
+      "timeout": false
+    },
+    {
+      "hop": 7,
+      "ip": null,
+      "hostname": null,
+      "rtts": [],
+      "timeout": true
+    },
+    {
+      "hop": 8,
+      "ip": null,
+      "hostname": null,
+      "rtts": [],
+      "timeout": true
+    },
+    {
+      "hop": 9,
+      "ip": "220.128.2.197",
+      "hostname": null,
+      "rtts": [
+        19.745,
+        15.124,
+        19.502
+      ],
+      "avg_rtt": 18.12,
+      "timeout": false
+    },
+    {
+      "hop": 10,
+      "ip": "203.75.72.89",
+      "hostname": null,
+      "rtts": [
+        20.147,
+        15.515,
+        12.68
+      ],
+      "avg_rtt": 16.11,
+      "timeout": false
+    },
+    {
+      "hop": 11,
+      "ip": "203.75.250.229",
+      "hostname": null,
+      "rtts": [
+        11.304,
+        11.912,
+        11.632
+      ],
+      "avg_rtt": 11.62,
+      "timeout": false
+    },
+    {
+      "hop": 12,
+      "ip": "203.69.108.158",
+      "hostname": null,
+      "rtts": [
+        12.29,
+        18.234,
+        12.647
+      ],
+      "avg_rtt": 14.39,
+      "timeout": false
+    },
+    {
+      "hop": 13,
+      "ip": null,
+      "hostname": null,
+      "rtts": [],
+      "timeout": true
+    },
+    {
+      "hop": 14,
+      "ip": "211.72.255.68",
+      "hostname": null,
+      "rtts": [
+        20.052,
+        15.676,
+        35.373
+      ],
+      "avg_rtt": 23.7,
+      "timeout": false
+    }
+  ],
+  "num_hops": 13,
+  "success": true,
+  "raw_output": " 1  192.168.50.1  12.856 ms  5.160 ms  2.102 ms\n 2  140.123.103.250  2.838 ms  2.835 ms  2.725 ms\n 3  140.123.9.249  2.741 ms  4.056 ms  2.422 ms\n 4  140.123.0.246  5.532 ms  3.637 ms  3.517 ms\n 5  140.130.252.251  3.885 ms  5.274 ms  5.393 ms\n 6  211.22.226.198  4.888 ms  4.494 ms  6.596 ms\n 7  * * *\n 8  * * *\n 9  220.128.2.197  19.745 ms  15.124 ms  19.502 ms\n10  203.75.72.89  20.147 ms  15.515 ms  12.680 ms\n11  203.75.250.229  11.304 ms  11.912 ms  11.632 ms\n12  203.69.108.158  12.290 ms  18.234 ms  12.647 ms\n13  * * *\n14  211.72.255.68  20.052 ms  15.676 ms  35.373 ms\n",
+  "category": "government_central",
+  "base_domain": "mofa.gov.tw",
+  "service_variant": "mail.mofa.gov.tw",
+  "is_bare_domain": false
+}

@@ -1,0 +1,228 @@
+{
+  "timestamp": "2025-10-15T04:15:45.523524",
+  "vantage_point": "university",
+  "target": "www2.president.gov.tw",
+  "target_ip": "4.216.205.136",
+  "protocol": "icmp",
+  "port": null,
+  "duration_seconds": 54.88,
+  "hops": [
+    {
+      "hop": 2,
+      "ip": "140.123.103.250",
+      "hostname": null,
+      "rtts": [
+        2.889,
+        2.818,
+        3.303
+      ],
+      "avg_rtt": 3.0,
+      "timeout": false
+    },
+    {
+      "hop": 3,
+      "ip": "140.123.9.249",
+      "hostname": null,
+      "rtts": [
+        2.934,
+        6.522,
+        4.896
+      ],
+      "avg_rtt": 4.78,
+      "timeout": false
+    },
+    {
+      "hop": 4,
+      "ip": "140.123.0.246",
+      "hostname": null,
+      "rtts": [
+        3.324,
+        3.792,
+        6.984
+      ],
+      "avg_rtt": 4.7,
+      "timeout": false
+    },
+    {
+      "hop": 5,
+      "ip": "140.130.252.251",
+      "hostname": null,
+      "rtts": [
+        3.803,
+        4.714,
+        4.277
+      ],
+      "avg_rtt": 4.26,
+      "timeout": false
+    },
+    {
+      "hop": 6,
+      "ip": "192.192.61.142",
+      "hostname": null,
+      "rtts": [
+        5.405,
+        6.472,
+        8.446
+      ],
+      "avg_rtt": 6.77,
+      "timeout": false
+    },
+    {
+      "hop": 7,
+      "ip": "192.192.61.20",
+      "hostname": null,
+      "rtts": [
+        7.627,
+        7.844,
+        7.441
+      ],
+      "avg_rtt": 7.64,
+      "timeout": false
+    },
+    {
+      "hop": 8,
+      "ip": "192.192.61.48",
+      "hostname": null,
+      "rtts": [
+        7.978,
+        8.323,
+        9.998
+      ],
+      "avg_rtt": 8.77,
+      "timeout": false
+    },
+    {
+      "hop": 9,
+      "ip": "192.192.68.62",
+      "hostname": null,
+      "rtts": [
+        15.898,
+        11.052,
+        9.89
+      ],
+      "avg_rtt": 12.28,
+      "timeout": false
+    },
+    {
+      "hop": 10,
+      "ip": "203.163.222.15",
+      "hostname": null,
+      "rtts": [
+        12.064,
+        9.705,
+        17.34
+      ],
+      "avg_rtt": 13.04,
+      "timeout": false
+    },
+    {
+      "hop": 11,
+      "ip": "104.44.51.224",
+      "hostname": null,
+      "rtts": [
+        12.974,
+        10.255,
+        10.009
+      ],
+      "avg_rtt": 11.08,
+      "timeout": false
+    },
+    {
+      "hop": 12,
+      "ip": "104.44.23.163",
+      "hostname": null,
+      "rtts": [
+        39.258,
+        42.643,
+        40.32
+      ],
+      "avg_rtt": 40.74,
+      "timeout": false
+    },
+    {
+      "hop": 13,
+      "ip": "104.44.31.136",
+      "hostname": null,
+      "rtts": [
+        40.685,
+        39.504,
+        38.971
+      ],
+      "avg_rtt": 39.72,
+      "timeout": false
+    },
+    {
+      "hop": 14,
+      "ip": "104.44.20.40",
+      "hostname": null,
+      "rtts": [
+        38.358,
+        38.343,
+        39.318
+      ],
+      "avg_rtt": 38.67,
+      "timeout": false
+    },
+    {
+      "hop": 15,
+      "ip": null,
+      "hostname": null,
+      "rtts": [],
+      "timeout": true
+    },
+    {
+      "hop": 16,
+      "ip": null,
+      "hostname": null,
+      "rtts": [],
+      "timeout": true
+    },
+    {
+      "hop": 17,
+      "ip": null,
+      "hostname": null,
+      "rtts": [],
+      "timeout": true
+    },
+    {
+      "hop": 18,
+      "ip": null,
+      "hostname": null,
+      "rtts": [],
+      "timeout": true
+    },
+    {
+      "hop": 19,
+      "ip": null,
+      "hostname": null,
+      "rtts": [],
+      "timeout": true
+    },
+    {
+      "hop": 20,
+      "ip": null,
+      "hostname": null,
+      "rtts": [],
+      "timeout": true
+    },
+    {
+      "hop": 21,
+      "ip": "4.216.205.136",
+      "hostname": null,
+      "rtts": [
+        64.704,
+        38.794,
+        38.4
+      ],
+      "avg_rtt": 47.3,
+      "timeout": false
+    }
+  ],
+  "num_hops": 20,
+  "success": true,
+  "raw_output": " 1  192.168.50.1  31.931 ms  3.260 ms  2.628 ms\n 2  140.123.103.250  2.889 ms  2.818 ms  3.303 ms\n 3  140.123.9.249  2.934 ms  6.522 ms  4.896 ms\n 4  140.123.0.246  3.324 ms  3.792 ms  6.984 ms\n 5  140.130.252.251  3.803 ms  4.714 ms  4.277 ms\n 6  192.192.61.142  5.405 ms  6.472 ms  8.446 ms\n 7  192.192.61.20  7.627 ms  7.844 ms  7.441 ms\n 8  192.192.61.48  7.978 ms  8.323 ms  9.998 ms\n 9  192.192.68.62  15.898 ms  11.052 ms  9.890 ms\n10  203.163.222.15  12.064 ms  9.705 ms  17.340 ms\n11  104.44.51.224  12.974 ms  10.255 ms  10.009 ms\n12  104.44.23.163  39.258 ms  42.643 ms  40.320 ms\n13  104.44.31.136  40.685 ms  39.504 ms  38.971 ms\n14  104.44.20.40  38.358 ms  38.343 ms  39.318 ms\n15  * * *\n16  * * *\n17  * * *\n18  * * *\n19  * * *\n20  * * *\n21  4.216.205.136  64.704 ms  38.794 ms  38.400 ms\n",
+  "category": "government_central",
+  "base_domain": "president.gov.tw",
+  "service_variant": "www2.president.gov.tw",
+  "is_bare_domain": false
+}

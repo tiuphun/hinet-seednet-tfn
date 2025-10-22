@@ -1,0 +1,185 @@
+{
+  "timestamp": "2025-10-13T18:01:38.520661",
+  "vantage_point": "cht-mobile",
+  "target": "cathaybk.com.tw",
+  "target_ip": "218.211.34.82",
+  "protocol": "icmp",
+  "port": null,
+  "duration_seconds": 21.51,
+  "hops": [
+    {
+      "hop": 2,
+      "ip": "10.159.65.141",
+      "hostname": null,
+      "rtts": [
+        127.676,
+        211.273,
+        98.699
+      ],
+      "avg_rtt": 145.88,
+      "timeout": false
+    },
+    {
+      "hop": 3,
+      "ip": "10.159.65.85",
+      "hostname": null,
+      "rtts": [
+        129.779,
+        44.239,
+        121.46
+      ],
+      "avg_rtt": 98.49,
+      "timeout": false
+    },
+    {
+      "hop": 4,
+      "ip": "10.159.67.167",
+      "hostname": null,
+      "rtts": [
+        232.091,
+        36.952,
+        205.808
+      ],
+      "avg_rtt": 158.28,
+      "timeout": false
+    },
+    {
+      "hop": 5,
+      "ip": "10.159.67.178",
+      "hostname": null,
+      "rtts": [
+        132.578,
+        218.22,
+        229.016
+      ],
+      "avg_rtt": 193.27,
+      "timeout": false
+    },
+    {
+      "hop": 6,
+      "ip": "210.65.126.198",
+      "hostname": null,
+      "rtts": [
+        92.418,
+        73.395,
+        151.61
+      ],
+      "avg_rtt": 105.81,
+      "timeout": false
+    },
+    {
+      "hop": 7,
+      "ip": null,
+      "hostname": null,
+      "rtts": [],
+      "timeout": true
+    },
+    {
+      "hop": 8,
+      "ip": null,
+      "hostname": null,
+      "rtts": [],
+      "timeout": true
+    },
+    {
+      "hop": 9,
+      "ip": "220.128.2.125",
+      "hostname": null,
+      "rtts": [
+        64.402,
+        68.103,
+        142.702
+      ],
+      "avg_rtt": 91.74,
+      "timeout": false
+    },
+    {
+      "hop": 10,
+      "ip": "203.75.230.105",
+      "hostname": null,
+      "rtts": [
+        154.547,
+        36.711,
+        133.394
+      ],
+      "avg_rtt": 108.22,
+      "timeout": false
+    },
+    {
+      "hop": 11,
+      "ip": "192.72.107.53",
+      "hostname": null,
+      "rtts": [
+        46.678,
+        29.846,
+        30.021
+      ],
+      "avg_rtt": 35.52,
+      "timeout": false
+    },
+    {
+      "hop": 12,
+      "ip": "139.175.59.209",
+      "hostname": null,
+      "rtts": [
+        89.846,
+        40.751,
+        36.971
+      ],
+      "avg_rtt": 55.86,
+      "timeout": false
+    },
+    {
+      "hop": 13,
+      "ip": "139.175.58.146",
+      "hostname": null,
+      "rtts": [
+        41.719,
+        37.539,
+        40.977
+      ],
+      "avg_rtt": 40.08,
+      "timeout": false
+    },
+    {
+      "hop": 14,
+      "ip": "192.72.216.70",
+      "hostname": null,
+      "rtts": [
+        41.684,
+        42.668,
+        30.532
+      ],
+      "avg_rtt": 38.29,
+      "timeout": false
+    },
+    {
+      "hop": 15,
+      "ip": "220.228.20.150",
+      "hostname": null,
+      "rtts": [
+        29.463,
+        33.062,
+        56.489
+      ],
+      "avg_rtt": 39.67,
+      "timeout": false
+    },
+    {
+      "hop": 16,
+      "ip": "218.211.34.82",
+      "hostname": null,
+      "rtts": [
+        29.643,
+        36.324,
+        47.354
+      ],
+      "avg_rtt": 37.77,
+      "timeout": false
+    }
+  ],
+  "num_hops": 15,
+  "success": true,
+  "raw_output": " 1  172.20.10.1  7.327 ms  8.760 ms  3.670 ms\n 2  10.159.65.141  127.676 ms  211.273 ms  98.699 ms\n 3  10.159.65.85  129.779 ms  44.239 ms  121.460 ms\n 4  10.159.67.167  232.091 ms  36.952 ms  205.808 ms\n 5  10.159.67.178  132.578 ms  218.220 ms  229.016 ms\n 6  210.65.126.198  92.418 ms  73.395 ms  151.610 ms\n 7  * * *\n 8  * * *\n 9  220.128.2.125  64.402 ms  68.103 ms  142.702 ms\n10  203.75.230.105  154.547 ms  36.711 ms  133.394 ms\n11  192.72.107.53  46.678 ms  29.846 ms  30.021 ms\n12  139.175.59.209  89.846 ms  40.751 ms  36.971 ms\n13  139.175.58.146  41.719 ms  37.539 ms  40.977 ms\n14  192.72.216.70  41.684 ms  42.668 ms  30.532 ms\n15  220.228.20.150  29.463 ms  33.062 ms  56.489 ms\n16  218.211.34.82  29.643 ms  36.324 ms  47.354 ms\n",
+  "category": "financial_banks"
+}

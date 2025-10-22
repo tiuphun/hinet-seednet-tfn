@@ -1,0 +1,231 @@
+{
+  "timestamp": "2025-10-21T22:29:10.828213",
+  "vantage_point": "university",
+  "target": "app.twse.com.tw",
+  "target_ip": "117.56.218.173",
+  "protocol": "icmp",
+  "port": null,
+  "duration_seconds": 23.14,
+  "hops": [
+    {
+      "hop": 2,
+      "ip": "140.123.103.250",
+      "hostname": "csgate103.cs.ccu.edu.tw",
+      "rtts": [
+        3.822,
+        1.901,
+        2.737
+      ],
+      "avg_rtt": 2.82,
+      "timeout": false
+    },
+    {
+      "hop": 3,
+      "ip": "140.123.9.249",
+      "hostname": "140.123.9.249",
+      "rtts": [
+        2.469,
+        2.108,
+        2.406
+      ],
+      "avg_rtt": 2.33,
+      "timeout": false
+    },
+    {
+      "hop": 4,
+      "ip": "140.123.0.246",
+      "hostname": "140.123.0.246",
+      "rtts": [
+        2.795,
+        3.344,
+        3.828
+      ],
+      "avg_rtt": 3.32,
+      "timeout": false
+    },
+    {
+      "hop": 5,
+      "ip": "140.130.252.251",
+      "hostname": "140.130.252.251",
+      "rtts": [
+        6.517,
+        4.578,
+        4.154
+      ],
+      "avg_rtt": 5.08,
+      "timeout": false
+    },
+    {
+      "hop": 6,
+      "ip": "192.192.61.142",
+      "hostname": "192.192.61.142",
+      "rtts": [
+        5.744,
+        5.553,
+        5.867
+      ],
+      "avg_rtt": 5.72,
+      "timeout": false
+    },
+    {
+      "hop": 7,
+      "ip": "192.192.61.9",
+      "hostname": "192.192.61.9",
+      "rtts": [
+        5.178,
+        5.75,
+        7.371
+      ],
+      "avg_rtt": 6.1,
+      "timeout": false
+    },
+    {
+      "hop": 8,
+      "ip": "192.192.61.30",
+      "hostname": "192.192.61.30",
+      "rtts": [
+        7.25,
+        8.602,
+        6.845
+      ],
+      "avg_rtt": 7.57,
+      "timeout": false
+    },
+    {
+      "hop": 9,
+      "ip": "192.192.61.4",
+      "hostname": "192.192.61.4",
+      "rtts": [
+        8.354,
+        7.685,
+        8.8
+      ],
+      "avg_rtt": 8.28,
+      "timeout": false
+    },
+    {
+      "hop": 10,
+      "ip": "192.192.61.209",
+      "hostname": "192.192.61.209",
+      "rtts": [
+        6.347,
+        6.842,
+        7.349
+      ],
+      "avg_rtt": 6.85,
+      "timeout": false
+    },
+    {
+      "hop": 11,
+      "ip": "10.96.81.12",
+      "hostname": "10.96.81.12",
+      "rtts": [
+        8.707,
+        8.863,
+        8.118
+      ],
+      "avg_rtt": 8.56,
+      "timeout": false
+    },
+    {
+      "hop": 12,
+      "ip": "163.29.22.234",
+      "hostname": "163-29-22-234.hinet-ip.hinet.net",
+      "rtts": [
+        9.436,
+        13.467,
+        13.084
+      ],
+      "avg_rtt": 12.0,
+      "timeout": false
+    },
+    {
+      "hop": 13,
+      "ip": null,
+      "hostname": null,
+      "rtts": [],
+      "timeout": true
+    },
+    {
+      "hop": 14,
+      "ip": "220.128.4.221",
+      "hostname": "220-128-4-221.tpdt-3310.hinet.net",
+      "rtts": [
+        38.766,
+        27.455,
+        9.857
+      ],
+      "avg_rtt": 25.36,
+      "timeout": false
+    },
+    {
+      "hop": 15,
+      "ip": "168.95.211.29",
+      "hostname": "h29.s211.ts.hinet.net",
+      "rtts": [
+        15.745,
+        12.927,
+        10.672
+      ],
+      "avg_rtt": 13.11,
+      "timeout": false
+    },
+    {
+      "hop": 16,
+      "ip": null,
+      "hostname": null,
+      "rtts": [],
+      "timeout": true
+    },
+    {
+      "hop": 17,
+      "ip": "210.69.250.130",
+      "hostname": "210-69-250-130.hinet-ip.hinet.net",
+      "rtts": [
+        18.299,
+        10.13,
+        8.814
+      ],
+      "avg_rtt": 12.41,
+      "timeout": false
+    },
+    {
+      "hop": 18,
+      "ip": "210.69.250.53",
+      "hostname": "210-69-250-53.hinet-ip.hinet.net",
+      "rtts": [
+        10.149,
+        11.687,
+        10.745
+      ],
+      "avg_rtt": 10.86,
+      "timeout": false
+    },
+    {
+      "hop": 19,
+      "ip": "163.29.46.101",
+      "hostname": "163-29-46-101.hinet-ip.hinet.net",
+      "rtts": [
+        8.862,
+        14.64,
+        14.29
+      ],
+      "avg_rtt": 12.6,
+      "timeout": false
+    },
+    {
+      "hop": 20,
+      "ip": null,
+      "hostname": null,
+      "rtts": [],
+      "timeout": true
+    }
+  ],
+  "num_hops": 19,
+  "success": false,
+  "raw_output": " 1  192.168.50.1 (192.168.50.1)  16.230 ms  12.764 ms  2.046 ms\n 2  csgate103.cs.ccu.edu.tw (140.123.103.250)  3.822 ms  1.901 ms  2.737 ms\n 3  140.123.9.249 (140.123.9.249)  2.469 ms  2.108 ms  2.406 ms\n 4  140.123.0.246 (140.123.0.246)  2.795 ms  3.344 ms  3.828 ms\n 5  140.130.252.251 (140.130.252.251)  6.517 ms  4.578 ms  4.154 ms\n 6  192.192.61.142 (192.192.61.142)  5.744 ms  5.553 ms  5.867 ms\n 7  192.192.61.9 (192.192.61.9)  5.178 ms  5.750 ms  7.371 ms\n 8  192.192.61.30 (192.192.61.30)  7.250 ms  8.602 ms  6.845 ms\n 9  192.192.61.4 (192.192.61.4)  8.354 ms  7.685 ms  8.800 ms\n10  192.192.61.209 (192.192.61.209)  6.347 ms  6.842 ms  7.349 ms\n11  10.96.81.12 (10.96.81.12)  8.707 ms  8.863 ms  8.118 ms\n12  163-29-22-234.hinet-ip.hinet.net (163.29.22.234)  9.436 ms  13.467 ms  13.084 ms\n13  * * *\n14  220-128-4-221.tpdt-3310.hinet.net (220.128.4.221)  38.766 ms  27.455 ms  9.857 ms\n15  h29.s211.ts.hinet.net (168.95.211.29)  15.745 ms  12.927 ms  10.672 ms\n16  * * *\n17  210-69-250-130.hinet-ip.hinet.net (210.69.250.130)  18.299 ms  10.130 ms  8.814 ms\n18  210-69-250-53.hinet-ip.hinet.net (210.69.250.53)  10.149 ms  11.687 ms  10.745 ms\n19  163-29-46-101.hinet-ip.hinet.net (163.29.46.101)  8.862 ms  14.640 ms  14.290 ms\n20  * 117-56-218-173.hinet-ip.hinet.net (117.56.218.173)  35.502 ms  10.765 ms\n",
+  "category": "financial_infra",
+  "base_domain": "twse.com.tw",
+  "service_variant": "app.twse.com.tw",
+  "is_bare_domain": false
+}

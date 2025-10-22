@@ -1,0 +1,171 @@
+{
+  "timestamp": "2025-10-22T06:20:05.039494",
+  "vantage_point": "university",
+  "target": "api.ruten.com.tw",
+  "target_ip": "60.199.140.77",
+  "protocol": "icmp",
+  "port": null,
+  "duration_seconds": 37.46,
+  "hops": [
+    {
+      "hop": 2,
+      "ip": "140.123.103.250",
+      "hostname": "csgate103.cs.ccu.edu.tw",
+      "rtts": [
+        4.742,
+        2.312,
+        2.212
+      ],
+      "avg_rtt": 3.09,
+      "timeout": false
+    },
+    {
+      "hop": 3,
+      "ip": "140.123.9.249",
+      "hostname": "140.123.9.249",
+      "rtts": [
+        2.865,
+        2.973,
+        3.118
+      ],
+      "avg_rtt": 2.99,
+      "timeout": false
+    },
+    {
+      "hop": 4,
+      "ip": "140.123.0.246",
+      "hostname": "140.123.0.246",
+      "rtts": [
+        10.301,
+        3.199,
+        3.039
+      ],
+      "avg_rtt": 5.51,
+      "timeout": false
+    },
+    {
+      "hop": 5,
+      "ip": "140.130.252.251",
+      "hostname": "140.130.252.251",
+      "rtts": [
+        9.662,
+        5.212,
+        4.277
+      ],
+      "avg_rtt": 6.38,
+      "timeout": false
+    },
+    {
+      "hop": 6,
+      "ip": "61.31.254.69",
+      "hostname": "61-31-254-69.static.tfn.net.tw",
+      "rtts": [
+        14.883,
+        21.321,
+        5.51
+      ],
+      "avg_rtt": 13.9,
+      "timeout": false
+    },
+    {
+      "hop": 7,
+      "ip": "60.199.27.121",
+      "hostname": "60-199-27-121.static.tfn.net.tw",
+      "rtts": [
+        6.502,
+        5.435,
+        5.701
+      ],
+      "avg_rtt": 5.88,
+      "timeout": false
+    },
+    {
+      "hop": 8,
+      "ip": "60.199.82.97",
+      "hostname": "60-199-82-97.static.tfn.net.tw",
+      "rtts": [
+        17.757,
+        11.695,
+        11.307
+      ],
+      "avg_rtt": 13.59,
+      "timeout": false
+    },
+    {
+      "hop": 9,
+      "ip": "60.199.82.5",
+      "hostname": "60-199-82-5.static.tfn.net.tw",
+      "rtts": [
+        10.727,
+        13.956,
+        12.481
+      ],
+      "avg_rtt": 12.39,
+      "timeout": false
+    },
+    {
+      "hop": 10,
+      "ip": "60.199.18.46",
+      "hostname": "60-199-18-46.static.tfn.net.tw",
+      "rtts": [
+        11.078,
+        10.43,
+        10.767
+      ],
+      "avg_rtt": 10.76,
+      "timeout": false
+    },
+    {
+      "hop": 11,
+      "ip": null,
+      "hostname": null,
+      "rtts": [],
+      "timeout": true
+    },
+    {
+      "hop": 12,
+      "ip": null,
+      "hostname": null,
+      "rtts": [],
+      "timeout": true
+    },
+    {
+      "hop": 13,
+      "ip": null,
+      "hostname": null,
+      "rtts": [],
+      "timeout": true
+    },
+    {
+      "hop": 14,
+      "ip": "175.99.122.37",
+      "hostname": "175-99-122-37.static.tfn.net.tw",
+      "rtts": [
+        23.702,
+        21.988,
+        15.307
+      ],
+      "avg_rtt": 20.33,
+      "timeout": false
+    },
+    {
+      "hop": 15,
+      "ip": "60.199.140.77",
+      "hostname": "60.199.140.77",
+      "rtts": [
+        12.8,
+        14.351,
+        11.099
+      ],
+      "avg_rtt": 12.75,
+      "timeout": false
+    }
+  ],
+  "num_hops": 14,
+  "success": true,
+  "raw_output": " 1  192.168.50.1 (192.168.50.1)  2.439 ms  2.876 ms  5.183 ms\n 2  csgate103.cs.ccu.edu.tw (140.123.103.250)  4.742 ms  2.312 ms  2.212 ms\n 3  140.123.9.249 (140.123.9.249)  2.865 ms  2.973 ms  3.118 ms\n 4  140.123.0.246 (140.123.0.246)  10.301 ms  3.199 ms  3.039 ms\n 5  140.130.252.251 (140.130.252.251)  9.662 ms  5.212 ms  4.277 ms\n 6  61-31-254-69.static.tfn.net.tw (61.31.254.69)  14.883 ms  21.321 ms  5.510 ms\n 7  60-199-27-121.static.tfn.net.tw (60.199.27.121)  6.502 ms  5.435 ms  5.701 ms\n 8  60-199-82-97.static.tfn.net.tw (60.199.82.97)  17.757 ms  11.695 ms  11.307 ms\n 9  60-199-82-5.static.tfn.net.tw (60.199.82.5)  10.727 ms  13.956 ms  12.481 ms\n10  60-199-18-46.static.tfn.net.tw (60.199.18.46)  11.078 ms  10.430 ms  10.767 ms\n11  * * *\n12  * * *\n13  * * *\n14  175-99-122-37.static.tfn.net.tw (175.99.122.37)  23.702 ms  21.988 ms  15.307 ms\n15  60.199.140.77 (60.199.140.77)  12.800 ms  14.351 ms  11.099 ms\n",
+  "category": "ecommerce_tech",
+  "base_domain": "ruten.com.tw",
+  "service_variant": "api.ruten.com.tw",
+  "is_bare_domain": false
+}

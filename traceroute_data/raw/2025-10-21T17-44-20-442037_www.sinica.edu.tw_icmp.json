@@ -1,0 +1,145 @@
+{
+  "timestamp": "2025-10-21T17:44:20.442037",
+  "vantage_point": "university",
+  "target": "www.sinica.edu.tw",
+  "target_ip": "203.66.32.41",
+  "protocol": "icmp",
+  "port": null,
+  "duration_seconds": 9.36,
+  "hops": [
+    {
+      "hop": 2,
+      "ip": "140.123.103.250",
+      "hostname": "csgate103.cs.ccu.edu.tw",
+      "rtts": [
+        2.181,
+        2.194,
+        2.28
+      ],
+      "avg_rtt": 2.22,
+      "timeout": false
+    },
+    {
+      "hop": 3,
+      "ip": "140.123.9.249",
+      "hostname": "140.123.9.249",
+      "rtts": [
+        2.37,
+        2.421,
+        2.565
+      ],
+      "avg_rtt": 2.45,
+      "timeout": false
+    },
+    {
+      "hop": 4,
+      "ip": "140.123.0.246",
+      "hostname": "140.123.0.246",
+      "rtts": [
+        4.321,
+        3.884,
+        2.579
+      ],
+      "avg_rtt": 3.59,
+      "timeout": false
+    },
+    {
+      "hop": 5,
+      "ip": "140.130.252.251",
+      "hostname": "140.130.252.251",
+      "rtts": [
+        3.549,
+        3.354,
+        7.031
+      ],
+      "avg_rtt": 4.64,
+      "timeout": false
+    },
+    {
+      "hop": 6,
+      "ip": "211.22.226.198",
+      "hostname": "211-22-226-198.caw1-3332.hinet.net",
+      "rtts": [
+        8.21,
+        4.012,
+        4.647
+      ],
+      "avg_rtt": 5.62,
+      "timeout": false
+    },
+    {
+      "hop": 7,
+      "ip": null,
+      "hostname": null,
+      "rtts": [],
+      "timeout": true
+    },
+    {
+      "hop": 8,
+      "ip": "220.128.9.222",
+      "hostname": "220-128-9-222.tylc-3032.hinet.net",
+      "rtts": [
+        14.094,
+        12.055,
+        10.527
+      ],
+      "avg_rtt": 12.23,
+      "timeout": false
+    },
+    {
+      "hop": 9,
+      "ip": "220.128.8.194",
+      "hostname": "220-128-8-194.tyfo-3031.hinet.net",
+      "rtts": [
+        14.47,
+        15.955,
+        10.481
+      ],
+      "avg_rtt": 13.64,
+      "timeout": false
+    },
+    {
+      "hop": 10,
+      "ip": "220.128.8.241",
+      "hostname": "220-128-8-241.tpe4-3331.hinet.net",
+      "rtts": [
+        11.617,
+        12.443,
+        18.67
+      ],
+      "avg_rtt": 14.24,
+      "timeout": false
+    },
+    {
+      "hop": 11,
+      "ip": "211.22.228.137",
+      "hostname": "211-22-228-137.hinet-ip.hinet.net",
+      "rtts": [
+        13.461,
+        9.449,
+        11.626
+      ],
+      "avg_rtt": 11.51,
+      "timeout": false
+    },
+    {
+      "hop": 12,
+      "ip": "203.66.32.41",
+      "hostname": "203-66-32-41.hinet-ip.hinet.net",
+      "rtts": [
+        12.277,
+        11.835,
+        14.351
+      ],
+      "avg_rtt": 12.82,
+      "timeout": false
+    }
+  ],
+  "num_hops": 11,
+  "success": true,
+  "raw_output": " 1  192.168.50.1 (192.168.50.1)  2.487 ms  1.984 ms  2.085 ms\n 2  csgate103.cs.ccu.edu.tw (140.123.103.250)  2.181 ms  2.194 ms  2.280 ms\n 3  140.123.9.249 (140.123.9.249)  2.370 ms  2.421 ms  2.565 ms\n 4  140.123.0.246 (140.123.0.246)  4.321 ms  3.884 ms  2.579 ms\n 5  140.130.252.251 (140.130.252.251)  3.549 ms  3.354 ms  7.031 ms\n 6  211-22-226-198.caw1-3332.hinet.net (211.22.226.198)  8.210 ms  4.012 ms  4.647 ms\n 7  * * *\n 8  220-128-9-222.tylc-3032.hinet.net (220.128.9.222)  14.094 ms  12.055 ms  10.527 ms\n 9  220-128-8-194.tyfo-3031.hinet.net (220.128.8.194)  14.470 ms  15.955 ms  10.481 ms\n10  220-128-8-241.tpe4-3331.hinet.net (220.128.8.241)  11.617 ms  12.443 ms  18.670 ms\n11  211-22-228-137.hinet-ip.hinet.net (211.22.228.137)  13.461 ms  9.449 ms  11.626 ms\n12  203-66-32-41.hinet-ip.hinet.net (203.66.32.41)  12.277 ms  11.835 ms  14.351 ms\n",
+  "category": "education_network",
+  "base_domain": "sinica.edu.tw",
+  "service_variant": "www.sinica.edu.tw",
+  "is_bare_domain": false
+}

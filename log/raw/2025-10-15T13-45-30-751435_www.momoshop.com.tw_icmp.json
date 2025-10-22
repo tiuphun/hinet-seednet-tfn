@@ -1,0 +1,161 @@
+{
+  "timestamp": "2025-10-15T13:45:30.751435",
+  "vantage_point": "itaiwan",
+  "target": "www.momoshop.com.tw",
+  "target_ip": "203.74.67.17",
+  "protocol": "icmp",
+  "port": null,
+  "duration_seconds": 18.32,
+  "hops": [
+    {
+      "hop": 2,
+      "ip": "168.95.98.254",
+      "hostname": "h254.s98.ts.hinet.net",
+      "rtts": [
+        4.02,
+        3.698,
+        3.211
+      ],
+      "avg_rtt": 3.64,
+      "timeout": false,
+      "network": "hinet",
+      "network_name": "HiNet (Chunghwa Telecom)",
+      "is_interesting": true,
+      "is_private": false
+    },
+    {
+      "hop": 3,
+      "ip": "168.95.128.50",
+      "hostname": "168-95-128-50.caw1-3331.hinet.net",
+      "rtts": [
+        3.286,
+        4.288,
+        4.493
+      ],
+      "avg_rtt": 4.02,
+      "timeout": false,
+      "network": "hinet",
+      "network_name": "HiNet (Chunghwa Telecom)",
+      "is_interesting": true,
+      "is_private": false
+    },
+    {
+      "hop": 4,
+      "ip": null,
+      "hostname": null,
+      "rtts": [],
+      "timeout": true
+    },
+    {
+      "hop": 5,
+      "ip": null,
+      "hostname": null,
+      "rtts": [],
+      "timeout": true
+    },
+    {
+      "hop": 6,
+      "ip": "220.128.16.21",
+      "hostname": "220-128-16-21.tcwh-3331.hinet.net",
+      "rtts": [
+        14.407,
+        7.922,
+        7.43
+      ],
+      "avg_rtt": 9.92,
+      "timeout": false,
+      "network": "hinet",
+      "network_name": "HiNet (Chunghwa Telecom)",
+      "is_interesting": true,
+      "is_private": false
+    },
+    {
+      "hop": 7,
+      "ip": "210.65.144.1",
+      "hostname": "210-65-144-1.hinet-ip.hinet.net",
+      "rtts": [
+        15.014,
+        12.621,
+        8.267
+      ],
+      "avg_rtt": 11.97,
+      "timeout": false,
+      "network": "hinet",
+      "network_name": "HiNet (Chunghwa Telecom)",
+      "is_interesting": true,
+      "is_private": false
+    },
+    {
+      "hop": 8,
+      "ip": "203.74.67.17",
+      "hostname": "203-74-67-17.hinet-ip.hinet.net",
+      "rtts": [
+        7.182,
+        7.097,
+        7.352
+      ],
+      "avg_rtt": 7.21,
+      "timeout": false,
+      "network": "hinet",
+      "network_name": "HiNet (Chunghwa Telecom)",
+      "is_interesting": true,
+      "is_private": false
+    }
+  ],
+  "num_hops": 7,
+  "success": true,
+  "path_analysis": {
+    "networks_traversed": [
+      {
+        "network": "hinet",
+        "network_name": "HiNet (Chunghwa Telecom)",
+        "first_hop": 2
+      }
+    ],
+    "interesting_routers": [
+      {
+        "hop": 2,
+        "ip": "168.95.98.254",
+        "hostname": "h254.s98.ts.hinet.net",
+        "network": "hinet",
+        "network_name": "HiNet (Chunghwa Telecom)"
+      },
+      {
+        "hop": 3,
+        "ip": "168.95.128.50",
+        "hostname": "168-95-128-50.caw1-3331.hinet.net",
+        "network": "hinet",
+        "network_name": "HiNet (Chunghwa Telecom)"
+      },
+      {
+        "hop": 6,
+        "ip": "220.128.16.21",
+        "hostname": "220-128-16-21.tcwh-3331.hinet.net",
+        "network": "hinet",
+        "network_name": "HiNet (Chunghwa Telecom)"
+      },
+      {
+        "hop": 7,
+        "ip": "210.65.144.1",
+        "hostname": "210-65-144-1.hinet-ip.hinet.net",
+        "network": "hinet",
+        "network_name": "HiNet (Chunghwa Telecom)"
+      },
+      {
+        "hop": 8,
+        "ip": "203.74.67.17",
+        "hostname": "203-74-67-17.hinet-ip.hinet.net",
+        "network": "hinet",
+        "network_name": "HiNet (Chunghwa Telecom)"
+      }
+    ],
+    "private_hops": 0,
+    "total_hops": 7,
+    "network_transitions": []
+  },
+  "raw_output": " 1  172.16.193.250 (172.16.193.250)  9.524 ms  2.738 ms  4.826 ms\n 2  h254.s98.ts.hinet.net (168.95.98.254)  4.020 ms  3.698 ms  3.211 ms\n 3  168-95-128-50.caw1-3331.hinet.net (168.95.128.50)  3.286 ms  4.288 ms  4.493 ms\n 4  * * *\n 5  * * *\n 6  220-128-16-21.tcwh-3331.hinet.net (220.128.16.21)  14.407 ms  7.922 ms  7.430 ms\n 7  210-65-144-1.hinet-ip.hinet.net (210.65.144.1)  15.014 ms  12.621 ms  8.267 ms\n 8  203-74-67-17.hinet-ip.hinet.net (203.74.67.17)  7.182 ms  7.097 ms  7.352 ms\n",
+  "category": "ecommerce_tech",
+  "base_domain": "momoshop.com.tw",
+  "service_variant": "www.momoshop.com.tw",
+  "is_bare_domain": false
+}

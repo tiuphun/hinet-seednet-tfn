@@ -1,0 +1,155 @@
+{
+  "timestamp": "2025-10-13T18:21:54.368702",
+  "vantage_point": "cht-mobile",
+  "target": "ptt.cc",
+  "target_ip": "140.112.172.5",
+  "protocol": "icmp",
+  "port": null,
+  "duration_seconds": 32.35,
+  "hops": [
+    {
+      "hop": 2,
+      "ip": "10.159.65.141",
+      "hostname": null,
+      "rtts": [
+        177.744,
+        585.317,
+        275.051
+      ],
+      "avg_rtt": 346.04,
+      "timeout": false
+    },
+    {
+      "hop": 3,
+      "ip": "10.159.65.85",
+      "hostname": null,
+      "rtts": [
+        24.812,
+        134.911
+      ],
+      "avg_rtt": 79.86,
+      "timeout": false
+    },
+    {
+      "hop": 4,
+      "ip": "10.159.67.167",
+      "hostname": null,
+      "rtts": [
+        59.771,
+        50.413,
+        42.792
+      ],
+      "avg_rtt": 50.99,
+      "timeout": false
+    },
+    {
+      "hop": 5,
+      "ip": "10.159.67.177",
+      "hostname": null,
+      "rtts": [
+        58.8,
+        110.173,
+        36.34
+      ],
+      "avg_rtt": 68.44,
+      "timeout": false
+    },
+    {
+      "hop": 6,
+      "ip": "210.65.126.194",
+      "hostname": null,
+      "rtts": [
+        26.614,
+        74.003,
+        32.201
+      ],
+      "avg_rtt": 44.27,
+      "timeout": false
+    },
+    {
+      "hop": 7,
+      "ip": null,
+      "hostname": null,
+      "rtts": [],
+      "timeout": true
+    },
+    {
+      "hop": 8,
+      "ip": null,
+      "hostname": null,
+      "rtts": [],
+      "timeout": true
+    },
+    {
+      "hop": 9,
+      "ip": "220.128.4.213",
+      "hostname": null,
+      "rtts": [
+        44.064,
+        29.646,
+        32.878
+      ],
+      "avg_rtt": 35.53,
+      "timeout": false
+    },
+    {
+      "hop": 10,
+      "ip": "211.22.226.201",
+      "hostname": null,
+      "rtts": [
+        59.507,
+        57.131,
+        41.517
+      ],
+      "avg_rtt": 52.72,
+      "timeout": false
+    },
+    {
+      "hop": 11,
+      "ip": null,
+      "hostname": null,
+      "rtts": [],
+      "timeout": true
+    },
+    {
+      "hop": 12,
+      "ip": "140.112.0.201",
+      "hostname": null,
+      "rtts": [
+        36.972,
+        29.947,
+        29.98
+      ],
+      "avg_rtt": 32.3,
+      "timeout": false
+    },
+    {
+      "hop": 13,
+      "ip": "140.112.0.213",
+      "hostname": null,
+      "rtts": [
+        40.39,
+        40.878,
+        28.348
+      ],
+      "avg_rtt": 36.54,
+      "timeout": false
+    },
+    {
+      "hop": 14,
+      "ip": "140.112.172.5",
+      "hostname": null,
+      "rtts": [
+        31.617,
+        28.177,
+        34.947
+      ],
+      "avg_rtt": 31.58,
+      "timeout": false
+    }
+  ],
+  "num_hops": 13,
+  "success": true,
+  "raw_output": " 1  172.20.10.1  5.662 ms  36.807 ms  3.250 ms\n 2  10.159.65.141  177.744 ms  585.317 ms  275.051 ms\n 3  10.159.65.85  24.812 ms  134.911 ms *\n 4  10.159.67.167  59.771 ms  50.413 ms  42.792 ms\n 5  10.159.67.177  58.800 ms  110.173 ms  36.340 ms\n 6  210.65.126.194  26.614 ms  74.003 ms  32.201 ms\n 7  * * *\n 8  * * *\n 9  220.128.4.213  44.064 ms  29.646 ms  32.878 ms\n10  211.22.226.201  59.507 ms  57.131 ms  41.517 ms\n11  * * *\n12  140.112.0.201  36.972 ms  29.947 ms  29.980 ms\n13  140.112.0.213  40.390 ms  40.878 ms  28.348 ms\n14  140.112.172.5  31.617 ms  28.177 ms  34.947 ms\n",
+  "category": "ecommerce_tech"
+}

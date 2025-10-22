@@ -1,0 +1,123 @@
+{
+  "timestamp": "2025-10-21T09:37:33.790689",
+  "vantage_point": "university",
+  "target": "www.moi.gov.tw",
+  "target_ip": "203.66.35.78",
+  "protocol": "icmp",
+  "port": null,
+  "duration_seconds": 21.18,
+  "hops": [
+    {
+      "hop": 2,
+      "ip": "140.123.103.250",
+      "hostname": "csgate103.cs.ccu.edu.tw",
+      "rtts": [
+        2.258,
+        2.175,
+        2.185
+      ],
+      "avg_rtt": 2.21,
+      "timeout": false
+    },
+    {
+      "hop": 3,
+      "ip": "140.123.9.249",
+      "hostname": "140.123.9.249",
+      "rtts": [
+        2.602,
+        2.072,
+        2.034
+      ],
+      "avg_rtt": 2.24,
+      "timeout": false
+    },
+    {
+      "hop": 4,
+      "ip": "140.123.0.246",
+      "hostname": "140.123.0.246",
+      "rtts": [
+        2.725,
+        3.083,
+        2.839
+      ],
+      "avg_rtt": 2.88,
+      "timeout": false
+    },
+    {
+      "hop": 5,
+      "ip": "140.130.252.251",
+      "hostname": "140.130.252.251",
+      "rtts": [
+        3.479,
+        4.367,
+        3.331
+      ],
+      "avg_rtt": 3.73,
+      "timeout": false
+    },
+    {
+      "hop": 6,
+      "ip": "211.22.226.198",
+      "hostname": "211-22-226-198.caw1-3332.hinet.net",
+      "rtts": [
+        4.154,
+        3.647,
+        3.947
+      ],
+      "avg_rtt": 3.92,
+      "timeout": false
+    },
+    {
+      "hop": 7,
+      "ip": null,
+      "hostname": null,
+      "rtts": [],
+      "timeout": true
+    },
+    {
+      "hop": 8,
+      "ip": null,
+      "hostname": null,
+      "rtts": [],
+      "timeout": true
+    },
+    {
+      "hop": 9,
+      "ip": null,
+      "hostname": null,
+      "rtts": [],
+      "timeout": true
+    },
+    {
+      "hop": 10,
+      "ip": "211.22.228.209",
+      "hostname": "211-22-228-209.hinet-ip.hinet.net",
+      "rtts": [
+        5.858,
+        6.163,
+        6.206
+      ],
+      "avg_rtt": 6.08,
+      "timeout": false
+    },
+    {
+      "hop": 11,
+      "ip": "203.66.35.78",
+      "hostname": "203-66-35-78.hinet-ip.hinet.net",
+      "rtts": [
+        5.998,
+        5.78,
+        5.692
+      ],
+      "avg_rtt": 5.82,
+      "timeout": false
+    }
+  ],
+  "num_hops": 10,
+  "success": true,
+  "raw_output": " 1  192.168.50.1 (192.168.50.1)  2.408 ms  1.998 ms  1.896 ms\n 2  csgate103.cs.ccu.edu.tw (140.123.103.250)  2.258 ms  2.175 ms  2.185 ms\n 3  140.123.9.249 (140.123.9.249)  2.602 ms  2.072 ms  2.034 ms\n 4  140.123.0.246 (140.123.0.246)  2.725 ms  3.083 ms  2.839 ms\n 5  140.130.252.251 (140.130.252.251)  3.479 ms  4.367 ms  3.331 ms\n 6  211-22-226-198.caw1-3332.hinet.net (211.22.226.198)  4.154 ms  3.647 ms  3.947 ms\n 7  * * *\n 8  * * *\n 9  * 220-128-26-101.tncd-3331.hinet.net (220.128.26.101)  8.347 ms  7.163 ms\n10  211-22-228-209.hinet-ip.hinet.net (211.22.228.209)  5.858 ms  6.163 ms  6.206 ms\n11  203-66-35-78.hinet-ip.hinet.net (203.66.35.78)  5.998 ms  5.780 ms  5.692 ms\n",
+  "category": "government_central",
+  "base_domain": "moi.gov.tw",
+  "service_variant": "www.moi.gov.tw",
+  "is_bare_domain": false
+}

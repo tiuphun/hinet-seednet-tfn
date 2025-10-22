@@ -1,0 +1,168 @@
+{
+  "timestamp": "2025-10-15T11:23:13.654611",
+  "vantage_point": "itaiwan",
+  "target": "www.ntpc.gov.tw",
+  "target_ip": "203.66.32.137",
+  "protocol": "icmp",
+  "port": null,
+  "duration_seconds": 27.35,
+  "hops": [
+    {
+      "hop": 2,
+      "ip": "168.95.98.254",
+      "hostname": "h254.s98.ts.hinet.net",
+      "rtts": [
+        2.712,
+        2.52,
+        2.798
+      ],
+      "avg_rtt": 2.68,
+      "timeout": false,
+      "network": "hinet",
+      "network_name": "HiNet (Chunghwa Telecom)",
+      "is_interesting": true,
+      "is_private": false
+    },
+    {
+      "hop": 3,
+      "ip": "168.95.129.50",
+      "hostname": "168-95-129-50.caw1-3332.hinet.net",
+      "rtts": [
+        3.222,
+        3.253,
+        3.189
+      ],
+      "avg_rtt": 3.22,
+      "timeout": false,
+      "network": "hinet",
+      "network_name": "HiNet (Chunghwa Telecom)",
+      "is_interesting": true,
+      "is_private": false
+    },
+    {
+      "hop": 4,
+      "ip": null,
+      "hostname": null,
+      "rtts": [],
+      "timeout": true
+    },
+    {
+      "hop": 5,
+      "ip": null,
+      "hostname": null,
+      "rtts": [],
+      "timeout": true
+    },
+    {
+      "hop": 6,
+      "ip": null,
+      "hostname": null,
+      "rtts": [],
+      "timeout": true
+    },
+    {
+      "hop": 7,
+      "ip": "220.128.13.133",
+      "hostname": "220-128-13-133.tpn2-3301.hinet.net",
+      "rtts": [
+        9.11,
+        77.417,
+        23.172
+      ],
+      "avg_rtt": 36.57,
+      "timeout": false,
+      "network": "hinet",
+      "network_name": "HiNet (Chunghwa Telecom)",
+      "is_interesting": true,
+      "is_private": false
+    },
+    {
+      "hop": 8,
+      "ip": "211.22.224.137",
+      "hostname": "211-22-224-137.hinet-ip.hinet.net",
+      "rtts": [
+        14.646,
+        20.768,
+        21.061
+      ],
+      "avg_rtt": 18.82,
+      "timeout": false,
+      "network": "hinet",
+      "network_name": "HiNet (Chunghwa Telecom)",
+      "is_interesting": true,
+      "is_private": false
+    },
+    {
+      "hop": 9,
+      "ip": "203.66.32.137",
+      "hostname": "203-66-32-137.hinet-ip.hinet.net",
+      "rtts": [
+        10.121,
+        13.603,
+        10.016
+      ],
+      "avg_rtt": 11.25,
+      "timeout": false,
+      "network": "hinet",
+      "network_name": "HiNet (Chunghwa Telecom)",
+      "is_interesting": true,
+      "is_private": false
+    }
+  ],
+  "num_hops": 8,
+  "success": true,
+  "path_analysis": {
+    "networks_traversed": [
+      {
+        "network": "hinet",
+        "network_name": "HiNet (Chunghwa Telecom)",
+        "first_hop": 2
+      }
+    ],
+    "interesting_routers": [
+      {
+        "hop": 2,
+        "ip": "168.95.98.254",
+        "hostname": "h254.s98.ts.hinet.net",
+        "network": "hinet",
+        "network_name": "HiNet (Chunghwa Telecom)"
+      },
+      {
+        "hop": 3,
+        "ip": "168.95.129.50",
+        "hostname": "168-95-129-50.caw1-3332.hinet.net",
+        "network": "hinet",
+        "network_name": "HiNet (Chunghwa Telecom)"
+      },
+      {
+        "hop": 7,
+        "ip": "220.128.13.133",
+        "hostname": "220-128-13-133.tpn2-3301.hinet.net",
+        "network": "hinet",
+        "network_name": "HiNet (Chunghwa Telecom)"
+      },
+      {
+        "hop": 8,
+        "ip": "211.22.224.137",
+        "hostname": "211-22-224-137.hinet-ip.hinet.net",
+        "network": "hinet",
+        "network_name": "HiNet (Chunghwa Telecom)"
+      },
+      {
+        "hop": 9,
+        "ip": "203.66.32.137",
+        "hostname": "203-66-32-137.hinet-ip.hinet.net",
+        "network": "hinet",
+        "network_name": "HiNet (Chunghwa Telecom)"
+      }
+    ],
+    "private_hops": 0,
+    "total_hops": 8,
+    "network_transitions": []
+  },
+  "raw_output": " 1  172.16.193.250 (172.16.193.250)  2.757 ms  2.516 ms  2.615 ms\n 2  h254.s98.ts.hinet.net (168.95.98.254)  2.712 ms  2.520 ms  2.798 ms\n 3  168-95-129-50.caw1-3332.hinet.net (168.95.129.50)  3.222 ms  3.253 ms  3.189 ms\n 4  * * *\n 5  * * *\n 6  * * *\n 7  220-128-13-133.tpn2-3301.hinet.net (220.128.13.133)  9.110 ms  77.417 ms  23.172 ms\n 8  211-22-224-137.hinet-ip.hinet.net (211.22.224.137)  14.646 ms  20.768 ms  21.061 ms\n 9  203-66-32-137.hinet-ip.hinet.net (203.66.32.137)  10.121 ms  13.603 ms  10.016 ms\n",
+  "category": "government_local",
+  "base_domain": "ntpc.gov.tw",
+  "service_variant": "www.ntpc.gov.tw",
+  "is_bare_domain": false
+}

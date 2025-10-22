@@ -1,0 +1,236 @@
+{
+  "timestamp": "2025-10-15T14:15:01.990511",
+  "vantage_point": "itaiwan",
+  "target": "udn.com",
+  "target_ip": "23.47.103.4",
+  "protocol": "icmp",
+  "port": null,
+  "duration_seconds": 37.23,
+  "hops": [
+    {
+      "hop": 2,
+      "ip": "168.95.98.254",
+      "hostname": "h254.s98.ts.hinet.net",
+      "rtts": [
+        3.084,
+        2.55,
+        2.86
+      ],
+      "avg_rtt": 2.83,
+      "timeout": false,
+      "network": "hinet",
+      "network_name": "HiNet (Chunghwa Telecom)",
+      "is_interesting": true,
+      "is_private": false
+    },
+    {
+      "hop": 3,
+      "ip": "168.95.128.42",
+      "hostname": "168-95-128-42.caw1-3331.hinet.net",
+      "rtts": [
+        3.264,
+        5.108,
+        3.48
+      ],
+      "avg_rtt": 3.95,
+      "timeout": false,
+      "network": "hinet",
+      "network_name": "HiNet (Chunghwa Telecom)",
+      "is_interesting": true,
+      "is_private": false
+    },
+    {
+      "hop": 4,
+      "ip": null,
+      "hostname": null,
+      "rtts": [],
+      "timeout": true
+    },
+    {
+      "hop": 5,
+      "ip": null,
+      "hostname": null,
+      "rtts": [],
+      "timeout": true
+    },
+    {
+      "hop": 6,
+      "ip": "220.128.1.109",
+      "hostname": "220-128-1-109.tpdt-4124.hinet.net",
+      "rtts": [
+        16.034,
+        9.084,
+        8.907
+      ],
+      "avg_rtt": 11.34,
+      "timeout": false,
+      "network": "hinet",
+      "network_name": "HiNet (Chunghwa Telecom)",
+      "is_interesting": true,
+      "is_private": false
+    },
+    {
+      "hop": 7,
+      "ip": "220.128.31.237",
+      "hostname": "220-128-31-237.tpdt-4014.hinet.net",
+      "rtts": [
+        10.42,
+        10.269,
+        9.77
+      ],
+      "avg_rtt": 10.15,
+      "timeout": false,
+      "network": "hinet",
+      "network_name": "HiNet (Chunghwa Telecom)",
+      "is_interesting": true,
+      "is_private": false
+    },
+    {
+      "hop": 8,
+      "ip": "211.22.33.129",
+      "hostname": "211-22-33-129.hinet-ip.hinet.net",
+      "rtts": [
+        38.419,
+        38.834,
+        37.881
+      ],
+      "avg_rtt": 38.38,
+      "timeout": false,
+      "network": "hinet",
+      "network_name": "HiNet (Chunghwa Telecom)",
+      "is_interesting": true,
+      "is_private": false
+    },
+    {
+      "hop": 9,
+      "ip": "180.87.146.204",
+      "hostname": "if-bundle-6-2.qcore1.h81-hongkong.as6453.net",
+      "rtts": [
+        37.645,
+        37.271,
+        36.978
+      ],
+      "avg_rtt": 37.3,
+      "timeout": false,
+      "network": "other",
+      "network_name": "Other Network",
+      "is_interesting": false,
+      "is_private": false
+    },
+    {
+      "hop": 10,
+      "ip": "180.87.160.102",
+      "hostname": "180.87.160.102",
+      "rtts": [
+        154.402,
+        175.573,
+        248.948
+      ],
+      "avg_rtt": 192.97,
+      "timeout": false,
+      "network": "other",
+      "network_name": "Other Network",
+      "is_interesting": false,
+      "is_private": false
+    },
+    {
+      "hop": 11,
+      "ip": null,
+      "hostname": null,
+      "rtts": [],
+      "timeout": true
+    },
+    {
+      "hop": 12,
+      "ip": null,
+      "hostname": null,
+      "rtts": [],
+      "timeout": true
+    },
+    {
+      "hop": 13,
+      "ip": "23.47.103.4",
+      "hostname": "a23-47-103-4.deploy.static.akamaitechnologies.com",
+      "rtts": [
+        44.977,
+        38.505,
+        38.162
+      ],
+      "avg_rtt": 40.55,
+      "timeout": false,
+      "network": "other",
+      "network_name": "Other Network",
+      "is_interesting": false,
+      "is_private": false
+    }
+  ],
+  "num_hops": 12,
+  "success": true,
+  "path_analysis": {
+    "networks_traversed": [
+      {
+        "network": "hinet",
+        "network_name": "HiNet (Chunghwa Telecom)",
+        "first_hop": 2
+      },
+      {
+        "network": "other",
+        "network_name": "Other Network",
+        "first_hop": 9
+      }
+    ],
+    "interesting_routers": [
+      {
+        "hop": 2,
+        "ip": "168.95.98.254",
+        "hostname": "h254.s98.ts.hinet.net",
+        "network": "hinet",
+        "network_name": "HiNet (Chunghwa Telecom)"
+      },
+      {
+        "hop": 3,
+        "ip": "168.95.128.42",
+        "hostname": "168-95-128-42.caw1-3331.hinet.net",
+        "network": "hinet",
+        "network_name": "HiNet (Chunghwa Telecom)"
+      },
+      {
+        "hop": 6,
+        "ip": "220.128.1.109",
+        "hostname": "220-128-1-109.tpdt-4124.hinet.net",
+        "network": "hinet",
+        "network_name": "HiNet (Chunghwa Telecom)"
+      },
+      {
+        "hop": 7,
+        "ip": "220.128.31.237",
+        "hostname": "220-128-31-237.tpdt-4014.hinet.net",
+        "network": "hinet",
+        "network_name": "HiNet (Chunghwa Telecom)"
+      },
+      {
+        "hop": 8,
+        "ip": "211.22.33.129",
+        "hostname": "211-22-33-129.hinet-ip.hinet.net",
+        "network": "hinet",
+        "network_name": "HiNet (Chunghwa Telecom)"
+      }
+    ],
+    "private_hops": 0,
+    "total_hops": 12,
+    "network_transitions": [
+      {
+        "hop": 9,
+        "from": "hinet",
+        "to": "other",
+        "from_ip": "180.87.146.204",
+        "to_ip": "180.87.146.204"
+      }
+    ]
+  },
+  "raw_output": " 1  172.16.193.250 (172.16.193.250)  2.769 ms  1.795 ms  3.761 ms\n 2  h254.s98.ts.hinet.net (168.95.98.254)  3.084 ms  2.550 ms  2.860 ms\n 3  168-95-128-42.caw1-3331.hinet.net (168.95.128.42)  3.264 ms  5.108 ms  3.480 ms\n 4  * * *\n 5  * * *\n 6  220-128-1-109.tpdt-4124.hinet.net (220.128.1.109)  16.034 ms  9.084 ms  8.907 ms\n 7  220-128-31-237.tpdt-4014.hinet.net (220.128.31.237)  10.420 ms  10.269 ms  9.770 ms\n 8  211-22-33-129.hinet-ip.hinet.net (211.22.33.129)  38.419 ms  38.834 ms  37.881 ms\n 9  if-bundle-6-2.qcore1.h81-hongkong.as6453.net (180.87.146.204)  37.645 ms  37.271 ms  36.978 ms\n10  180.87.160.102 (180.87.160.102)  154.402 ms  175.573 ms  248.948 ms\n11  * * *\n12  * * *\n13  a23-47-103-4.deploy.static.akamaitechnologies.com (23.47.103.4)  44.977 ms  38.505 ms  38.162 ms\n",
+  "category": "media",
+  "base_domain": "udn.com",
+  "service_variant": "udn.com",
+  "is_bare_domain": true
+}

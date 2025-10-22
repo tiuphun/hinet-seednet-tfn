@@ -1,0 +1,140 @@
+{
+  "timestamp": "2025-10-21T12:05:07.339942",
+  "vantage_point": "university",
+  "target": "webmail.megabank.com.tw",
+  "target_ip": "203.66.132.125",
+  "protocol": "icmp",
+  "port": null,
+  "duration_seconds": 18.44,
+  "hops": [
+    {
+      "hop": 2,
+      "ip": "140.123.103.250",
+      "hostname": "csgate103.cs.ccu.edu.tw",
+      "rtts": [
+        2.103,
+        4.174,
+        2.162
+      ],
+      "avg_rtt": 2.81,
+      "timeout": false
+    },
+    {
+      "hop": 3,
+      "ip": "140.123.9.249",
+      "hostname": "140.123.9.249",
+      "rtts": [
+        2.17,
+        2.307,
+        2.157
+      ],
+      "avg_rtt": 2.21,
+      "timeout": false
+    },
+    {
+      "hop": 4,
+      "ip": "140.123.0.246",
+      "hostname": "140.123.0.246",
+      "rtts": [
+        3.013,
+        3.077,
+        2.744
+      ],
+      "avg_rtt": 2.94,
+      "timeout": false
+    },
+    {
+      "hop": 5,
+      "ip": "140.130.252.251",
+      "hostname": "140.130.252.251",
+      "rtts": [
+        4.643,
+        3.234,
+        3.002
+      ],
+      "avg_rtt": 3.63,
+      "timeout": false
+    },
+    {
+      "hop": 6,
+      "ip": "211.22.226.198",
+      "hostname": "211-22-226-198.caw1-3332.hinet.net",
+      "rtts": [
+        3.639,
+        3.588,
+        3.48
+      ],
+      "avg_rtt": 3.57,
+      "timeout": false
+    },
+    {
+      "hop": 7,
+      "ip": null,
+      "hostname": null,
+      "rtts": [],
+      "timeout": true
+    },
+    {
+      "hop": 8,
+      "ip": null,
+      "hostname": null,
+      "rtts": [],
+      "timeout": true
+    },
+    {
+      "hop": 9,
+      "ip": "220.128.2.225",
+      "hostname": "220-128-2-225.tpdb-3316.hinet.net",
+      "rtts": [
+        11.088,
+        9.793,
+        9.649
+      ],
+      "avg_rtt": 10.18,
+      "timeout": false
+    },
+    {
+      "hop": 10,
+      "ip": "203.75.188.197",
+      "hostname": "203-75-188-197.hinet-ip.hinet.net",
+      "rtts": [
+        10.322,
+        10.015,
+        10.176
+      ],
+      "avg_rtt": 10.17,
+      "timeout": false
+    },
+    {
+      "hop": 11,
+      "ip": "210.65.22.37",
+      "hostname": "210-65-22-37.hinet-ip.hinet.net",
+      "rtts": [
+        37.912,
+        37.326,
+        37.141
+      ],
+      "avg_rtt": 37.46,
+      "timeout": false
+    },
+    {
+      "hop": 12,
+      "ip": "203.66.132.125",
+      "hostname": "203.66.132.125",
+      "rtts": [
+        33.409,
+        27.048,
+        34.65
+      ],
+      "avg_rtt": 31.7,
+      "timeout": false
+    }
+  ],
+  "num_hops": 11,
+  "success": true,
+  "raw_output": " 1  192.168.50.1 (192.168.50.1)  6.555 ms  1.839 ms  1.759 ms\n 2  csgate103.cs.ccu.edu.tw (140.123.103.250)  2.103 ms  4.174 ms  2.162 ms\n 3  140.123.9.249 (140.123.9.249)  2.170 ms  2.307 ms  2.157 ms\n 4  140.123.0.246 (140.123.0.246)  3.013 ms  3.077 ms  2.744 ms\n 5  140.130.252.251 (140.130.252.251)  4.643 ms  3.234 ms  3.002 ms\n 6  211-22-226-198.caw1-3332.hinet.net (211.22.226.198)  3.639 ms  3.588 ms  3.480 ms\n 7  * * *\n 8  * * *\n 9  220-128-2-225.tpdb-3316.hinet.net (220.128.2.225)  11.088 ms  9.793 ms  9.649 ms\n10  203-75-188-197.hinet-ip.hinet.net (203.75.188.197)  10.322 ms  10.015 ms  10.176 ms\n11  210-65-22-37.hinet-ip.hinet.net (210.65.22.37)  37.912 ms  37.326 ms  37.141 ms\n12  203.66.132.125 (203.66.132.125)  33.409 ms  27.048 ms  34.650 ms\n",
+  "category": "financial_banks",
+  "base_domain": "megabank.com.tw",
+  "service_variant": "webmail.megabank.com.tw",
+  "is_bare_domain": false
+}

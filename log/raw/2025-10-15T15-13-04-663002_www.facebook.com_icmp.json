@@ -1,0 +1,276 @@
+{
+  "timestamp": "2025-10-15T15:13:04.663002",
+  "vantage_point": "itaiwan",
+  "target": "www.facebook.com",
+  "target_ip": "31.13.87.36",
+  "protocol": "icmp",
+  "port": null,
+  "duration_seconds": 5.75,
+  "hops": [
+    {
+      "hop": 2,
+      "ip": "140.123.103.250",
+      "hostname": "csgate103.cs.ccu.edu.tw",
+      "rtts": [
+        4.874,
+        4.354,
+        2.803
+      ],
+      "avg_rtt": 4.01,
+      "timeout": false,
+      "network": "university",
+      "network_name": "Taiwan Universities",
+      "is_interesting": true,
+      "is_private": false
+    },
+    {
+      "hop": 3,
+      "ip": "140.123.9.249",
+      "hostname": "140.123.9.249",
+      "rtts": [
+        5.074,
+        2.379,
+        4.481
+      ],
+      "avg_rtt": 3.98,
+      "timeout": false,
+      "network": "other",
+      "network_name": "Other Network",
+      "is_interesting": false,
+      "is_private": false
+    },
+    {
+      "hop": 4,
+      "ip": "140.123.0.246",
+      "hostname": "140.123.0.246",
+      "rtts": [
+        4.612,
+        5.722,
+        6.243
+      ],
+      "avg_rtt": 5.53,
+      "timeout": false,
+      "network": "other",
+      "network_name": "Other Network",
+      "is_interesting": false,
+      "is_private": false
+    },
+    {
+      "hop": 5,
+      "ip": "140.130.252.251",
+      "hostname": "140.130.252.251",
+      "rtts": [
+        4.231,
+        6.472,
+        7.279
+      ],
+      "avg_rtt": 5.99,
+      "timeout": false,
+      "network": "other",
+      "network_name": "Other Network",
+      "is_interesting": false,
+      "is_private": false
+    },
+    {
+      "hop": 6,
+      "ip": "192.192.61.142",
+      "hostname": "192.192.61.142",
+      "rtts": [
+        6.227,
+        6.073,
+        27.434
+      ],
+      "avg_rtt": 13.24,
+      "timeout": false,
+      "network": "other",
+      "network_name": "Other Network",
+      "is_interesting": false,
+      "is_private": false
+    },
+    {
+      "hop": 7,
+      "ip": "192.192.61.9",
+      "hostname": "192.192.61.9",
+      "rtts": [
+        8.358,
+        11.763,
+        9.432
+      ],
+      "avg_rtt": 9.85,
+      "timeout": false,
+      "network": "other",
+      "network_name": "Other Network",
+      "is_interesting": false,
+      "is_private": false
+    },
+    {
+      "hop": 8,
+      "ip": "192.192.61.30",
+      "hostname": "192.192.61.30",
+      "rtts": [
+        7.326,
+        6.657,
+        6.476
+      ],
+      "avg_rtt": 6.82,
+      "timeout": false,
+      "network": "other",
+      "network_name": "Other Network",
+      "is_interesting": false,
+      "is_private": false
+    },
+    {
+      "hop": 9,
+      "ip": "192.192.61.4",
+      "hostname": "192.192.61.4",
+      "rtts": [
+        8.196,
+        7.418,
+        7.225
+      ],
+      "avg_rtt": 7.61,
+      "timeout": false,
+      "network": "other",
+      "network_name": "Other Network",
+      "is_interesting": false,
+      "is_private": false
+    },
+    {
+      "hop": 10,
+      "ip": "192.192.61.209",
+      "hostname": "192.192.61.209",
+      "rtts": [
+        6.837,
+        7.055,
+        7.083
+      ],
+      "avg_rtt": 6.99,
+      "timeout": false,
+      "network": "other",
+      "network_name": "Other Network",
+      "is_interesting": false,
+      "is_private": false
+    },
+    {
+      "hop": 11,
+      "ip": "211.73.84.16",
+      "hostname": "211.73.84.16",
+      "rtts": [
+        7.592,
+        7.378,
+        7.224
+      ],
+      "avg_rtt": 7.4,
+      "timeout": false,
+      "network": "other",
+      "network_name": "Other Network",
+      "is_interesting": false,
+      "is_private": false
+    },
+    {
+      "hop": 12,
+      "ip": "129.134.55.108",
+      "hostname": "po4000.asw03.tpe1.tfbnw.net",
+      "rtts": [
+        7.126,
+        7.357,
+        7.677
+      ],
+      "avg_rtt": 7.39,
+      "timeout": false,
+      "network": "other",
+      "network_name": "Other Network",
+      "is_interesting": false,
+      "is_private": false
+    },
+    {
+      "hop": 13,
+      "ip": "173.252.64.180",
+      "hostname": "psw01.tpe1.tfbnw.net",
+      "rtts": [
+        7.952,
+        7.732,
+        7.631
+      ],
+      "avg_rtt": 7.77,
+      "timeout": false,
+      "network": "other",
+      "network_name": "Other Network",
+      "is_interesting": false,
+      "is_private": false
+    },
+    {
+      "hop": 14,
+      "ip": "129.134.59.220",
+      "hostname": "msw1ai.01.tpe1.tfbnw.net",
+      "rtts": [
+        10.423,
+        9.871,
+        139.857
+      ],
+      "avg_rtt": 53.38,
+      "timeout": false,
+      "network": "other",
+      "network_name": "Other Network",
+      "is_interesting": false,
+      "is_private": false
+    },
+    {
+      "hop": 15,
+      "ip": "31.13.87.36",
+      "hostname": "edge-star-mini-shv-01-tpe1.facebook.com",
+      "rtts": [
+        6.829,
+        6.757,
+        7.078
+      ],
+      "avg_rtt": 6.89,
+      "timeout": false,
+      "network": "other",
+      "network_name": "Other Network",
+      "is_interesting": false,
+      "is_private": false
+    }
+  ],
+  "num_hops": 14,
+  "success": true,
+  "path_analysis": {
+    "networks_traversed": [
+      {
+        "network": "university",
+        "network_name": "Taiwan Universities",
+        "first_hop": 2
+      },
+      {
+        "network": "other",
+        "network_name": "Other Network",
+        "first_hop": 3
+      }
+    ],
+    "interesting_routers": [
+      {
+        "hop": 2,
+        "ip": "140.123.103.250",
+        "hostname": "csgate103.cs.ccu.edu.tw",
+        "network": "university",
+        "network_name": "Taiwan Universities"
+      }
+    ],
+    "private_hops": 0,
+    "total_hops": 14,
+    "network_transitions": [
+      {
+        "hop": 3,
+        "from": "university",
+        "to": "other",
+        "from_ip": "140.123.9.249",
+        "to_ip": "140.123.9.249"
+      }
+    ]
+  },
+  "raw_output": " 1  192.168.50.1 (192.168.50.1)  31.924 ms  4.073 ms  3.320 ms\n 2  csgate103.cs.ccu.edu.tw (140.123.103.250)  4.874 ms  4.354 ms  2.803 ms\n 3  140.123.9.249 (140.123.9.249)  5.074 ms  2.379 ms  4.481 ms\n 4  140.123.0.246 (140.123.0.246)  4.612 ms  5.722 ms  6.243 ms\n 5  140.130.252.251 (140.130.252.251)  4.231 ms  6.472 ms  7.279 ms\n 6  192.192.61.142 (192.192.61.142)  6.227 ms  6.073 ms  27.434 ms\n 7  192.192.61.9 (192.192.61.9)  8.358 ms  11.763 ms  9.432 ms\n 8  192.192.61.30 (192.192.61.30)  7.326 ms  6.657 ms  6.476 ms\n 9  192.192.61.4 (192.192.61.4)  8.196 ms  7.418 ms  7.225 ms\n10  192.192.61.209 (192.192.61.209)  6.837 ms  7.055 ms  7.083 ms\n11  211.73.84.16 (211.73.84.16)  7.592 ms  7.378 ms  7.224 ms\n12  po4000.asw03.tpe1.tfbnw.net (129.134.55.108)  7.126 ms  7.357 ms  7.677 ms\n13  psw01.tpe1.tfbnw.net (173.252.64.180)  7.952 ms  7.732 ms  7.631 ms\n14  msw1ai.01.tpe1.tfbnw.net (129.134.59.220)  10.423 ms  9.871 ms  139.857 ms\n15  edge-star-mini-shv-01-tpe1.facebook.com (31.13.87.36)  6.829 ms  6.757 ms  7.078 ms\n",
+  "category": "cdn_global",
+  "base_domain": "facebook.com",
+  "service_variant": "www.facebook.com",
+  "is_bare_domain": false
+}

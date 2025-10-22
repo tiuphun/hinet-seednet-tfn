@@ -1,0 +1,133 @@
+{
+  "timestamp": "2025-10-14T18:47:58.111338",
+  "vantage_point": "university",
+  "target": "mail.mmh.org.tw",
+  "target_ip": "60.250.172.182",
+  "protocol": "icmp",
+  "port": null,
+  "duration_seconds": 9.27,
+  "hops": [
+    {
+      "hop": 2,
+      "ip": "140.123.103.250",
+      "hostname": null,
+      "rtts": [
+        2.35,
+        2.589,
+        2.577
+      ],
+      "avg_rtt": 2.51,
+      "timeout": false
+    },
+    {
+      "hop": 3,
+      "ip": "140.123.9.249",
+      "hostname": null,
+      "rtts": [
+        3.082,
+        2.546,
+        2.675
+      ],
+      "avg_rtt": 2.77,
+      "timeout": false
+    },
+    {
+      "hop": 4,
+      "ip": "140.123.0.246",
+      "hostname": null,
+      "rtts": [
+        3.38,
+        3.282,
+        2.919
+      ],
+      "avg_rtt": 3.19,
+      "timeout": false
+    },
+    {
+      "hop": 5,
+      "ip": "140.130.252.251",
+      "hostname": null,
+      "rtts": [
+        9.811,
+        3.828,
+        4.016
+      ],
+      "avg_rtt": 5.89,
+      "timeout": false
+    },
+    {
+      "hop": 6,
+      "ip": "211.22.226.198",
+      "hostname": null,
+      "rtts": [
+        4.405,
+        4.879,
+        5.631
+      ],
+      "avg_rtt": 4.97,
+      "timeout": false
+    },
+    {
+      "hop": 7,
+      "ip": null,
+      "hostname": null,
+      "rtts": [],
+      "timeout": true
+    },
+    {
+      "hop": 8,
+      "ip": "220.128.9.58",
+      "hostname": null,
+      "rtts": [
+        21.238,
+        11.545,
+        13.799
+      ],
+      "avg_rtt": 15.53,
+      "timeout": false
+    },
+    {
+      "hop": 9,
+      "ip": "220.128.9.241",
+      "hostname": null,
+      "rtts": [
+        11.372,
+        10.513,
+        10.799
+      ],
+      "avg_rtt": 10.89,
+      "timeout": false
+    },
+    {
+      "hop": 10,
+      "ip": "168.95.82.229",
+      "hostname": null,
+      "rtts": [
+        18.56,
+        21.575,
+        19.59
+      ],
+      "avg_rtt": 19.91,
+      "timeout": false
+    },
+    {
+      "hop": 11,
+      "ip": "60.250.172.182",
+      "hostname": null,
+      "rtts": [
+        12.163,
+        12.388,
+        11.878
+      ],
+      "avg_rtt": 12.14,
+      "timeout": false
+    }
+  ],
+  "num_hops": 10,
+  "success": true,
+  "raw_output": " 1  192.168.50.1  4.855 ms  1.910 ms  2.070 ms\n 2  140.123.103.250  2.350 ms  2.589 ms  2.577 ms\n 3  140.123.9.249  3.082 ms  2.546 ms  2.675 ms\n 4  140.123.0.246  3.380 ms  3.282 ms  2.919 ms\n 5  140.130.252.251  9.811 ms  3.828 ms  4.016 ms\n 6  211.22.226.198  4.405 ms  4.879 ms  5.631 ms\n 7  * * *\n 8  220.128.9.58  21.238 ms  11.545 ms  13.799 ms\n 9  220.128.9.241  11.372 ms  10.513 ms  10.799 ms\n10  168.95.82.229  18.560 ms  21.575 ms  19.590 ms\n11  60.250.172.182  12.163 ms  12.388 ms  11.878 ms\n",
+  "category": "healthcare",
+  "base_domain": "mmh.org.tw",
+  "service_variant": "mail.mmh.org.tw",
+  "is_bare_domain": false
+}

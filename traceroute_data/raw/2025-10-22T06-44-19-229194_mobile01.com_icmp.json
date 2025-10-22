@@ -1,0 +1,138 @@
+{
+  "timestamp": "2025-10-22T06:44:19.229194",
+  "vantage_point": "university",
+  "target": "mobile01.com",
+  "target_ip": "34.36.92.153",
+  "protocol": "icmp",
+  "port": null,
+  "duration_seconds": 0.39,
+  "hops": [
+    {
+      "hop": 2,
+      "ip": "140.123.103.250",
+      "hostname": "csgate103.cs.ccu.edu.tw",
+      "rtts": [
+        3.438,
+        2.483,
+        2.879
+      ],
+      "avg_rtt": 2.93,
+      "timeout": false
+    },
+    {
+      "hop": 3,
+      "ip": "140.123.9.249",
+      "hostname": "140.123.9.249",
+      "rtts": [
+        3.8,
+        2.893,
+        4.825
+      ],
+      "avg_rtt": 3.84,
+      "timeout": false
+    },
+    {
+      "hop": 4,
+      "ip": "140.123.0.246",
+      "hostname": "140.123.0.246",
+      "rtts": [
+        3.393,
+        4.313,
+        3.155
+      ],
+      "avg_rtt": 3.62,
+      "timeout": false
+    },
+    {
+      "hop": 5,
+      "ip": "140.130.252.251",
+      "hostname": "140.130.252.251",
+      "rtts": [
+        6.159,
+        3.819,
+        4.296
+      ],
+      "avg_rtt": 4.76,
+      "timeout": false
+    },
+    {
+      "hop": 6,
+      "ip": "192.192.61.142",
+      "hostname": "192.192.61.142",
+      "rtts": [
+        6.559,
+        11.483,
+        7.401
+      ],
+      "avg_rtt": 8.48,
+      "timeout": false
+    },
+    {
+      "hop": 7,
+      "ip": "192.192.61.20",
+      "hostname": "192.192.61.20",
+      "rtts": [
+        9.357,
+        7.916,
+        7.851
+      ],
+      "avg_rtt": 8.37,
+      "timeout": false
+    },
+    {
+      "hop": 8,
+      "ip": "192.192.61.184",
+      "hostname": "192.192.61.184",
+      "rtts": [
+        9.896,
+        8.253,
+        9.136
+      ],
+      "avg_rtt": 9.1,
+      "timeout": false
+    },
+    {
+      "hop": 9,
+      "ip": "192.192.61.203",
+      "hostname": "192.192.61.203",
+      "rtts": [
+        12.614,
+        10.962,
+        9.75
+      ],
+      "avg_rtt": 11.11,
+      "timeout": false
+    },
+    {
+      "hop": 10,
+      "ip": "72.14.196.229",
+      "hostname": "72.14.196.229",
+      "rtts": [
+        20.732,
+        10.28,
+        9.567
+      ],
+      "avg_rtt": 13.53,
+      "timeout": false
+    },
+    {
+      "hop": 11,
+      "ip": "34.36.92.153",
+      "hostname": "153.92.36.34.bc.googleusercontent.com",
+      "rtts": [
+        11.015,
+        8.587,
+        14.564
+      ],
+      "avg_rtt": 11.39,
+      "timeout": false
+    }
+  ],
+  "num_hops": 10,
+  "success": true,
+  "raw_output": " 1  192.168.50.1 (192.168.50.1)  2.529 ms  19.429 ms  3.167 ms\n 2  csgate103.cs.ccu.edu.tw (140.123.103.250)  3.438 ms  2.483 ms  2.879 ms\n 3  140.123.9.249 (140.123.9.249)  3.800 ms  2.893 ms  4.825 ms\n 4  140.123.0.246 (140.123.0.246)  3.393 ms  4.313 ms  3.155 ms\n 5  140.130.252.251 (140.130.252.251)  6.159 ms  3.819 ms  4.296 ms\n 6  192.192.61.142 (192.192.61.142)  6.559 ms  11.483 ms  7.401 ms\n 7  192.192.61.20 (192.192.61.20)  9.357 ms  7.916 ms  7.851 ms\n 8  192.192.61.184 (192.192.61.184)  9.896 ms  8.253 ms  9.136 ms\n 9  192.192.61.203 (192.192.61.203)  12.614 ms  10.962 ms  9.750 ms\n10  72.14.196.229 (72.14.196.229)  20.732 ms  10.280 ms  9.567 ms\n11  153.92.36.34.bc.googleusercontent.com (34.36.92.153)  11.015 ms  8.587 ms  14.564 ms\n",
+  "category": "ecommerce_tech",
+  "base_domain": "mobile01.com",
+  "service_variant": "mobile01.com",
+  "is_bare_domain": true
+}

@@ -1,0 +1,144 @@
+{
+  "timestamp": "2025-10-15T14:37:16.925484",
+  "vantage_point": "itaiwan",
+  "target": "thenewslens.com",
+  "target_ip": "34.54.142.250",
+  "protocol": "icmp",
+  "port": null,
+  "duration_seconds": 18.3,
+  "hops": [
+    {
+      "hop": 2,
+      "ip": "168.95.98.254",
+      "hostname": "h254.s98.ts.hinet.net",
+      "rtts": [
+        8.862,
+        3.814,
+        11.08
+      ],
+      "avg_rtt": 7.92,
+      "timeout": false,
+      "network": "hinet",
+      "network_name": "HiNet (Chunghwa Telecom)",
+      "is_interesting": true,
+      "is_private": false
+    },
+    {
+      "hop": 3,
+      "ip": "168.95.129.50",
+      "hostname": "168-95-129-50.caw1-3332.hinet.net",
+      "rtts": [
+        5.782,
+        6.31,
+        11.796
+      ],
+      "avg_rtt": 7.96,
+      "timeout": false,
+      "network": "hinet",
+      "network_name": "HiNet (Chunghwa Telecom)",
+      "is_interesting": true,
+      "is_private": false
+    },
+    {
+      "hop": 4,
+      "ip": null,
+      "hostname": null,
+      "rtts": [],
+      "timeout": true
+    },
+    {
+      "hop": 5,
+      "ip": null,
+      "hostname": null,
+      "rtts": [],
+      "timeout": true
+    },
+    {
+      "hop": 6,
+      "ip": "220.128.13.101",
+      "hostname": "220-128-13-101.pcpd-3331.hinet.net",
+      "rtts": [
+        20.777,
+        11.279,
+        11.548
+      ],
+      "avg_rtt": 14.53,
+      "timeout": false,
+      "network": "hinet",
+      "network_name": "HiNet (Chunghwa Telecom)",
+      "is_interesting": true,
+      "is_private": false
+    },
+    {
+      "hop": 7,
+      "ip": "34.54.142.250",
+      "hostname": "250.142.54.34.bc.googleusercontent.com",
+      "rtts": [
+        11.579,
+        14.71,
+        14.481
+      ],
+      "avg_rtt": 13.59,
+      "timeout": false,
+      "network": "other",
+      "network_name": "Other Network",
+      "is_interesting": false,
+      "is_private": false
+    }
+  ],
+  "num_hops": 6,
+  "success": true,
+  "path_analysis": {
+    "networks_traversed": [
+      {
+        "network": "hinet",
+        "network_name": "HiNet (Chunghwa Telecom)",
+        "first_hop": 2
+      },
+      {
+        "network": "other",
+        "network_name": "Other Network",
+        "first_hop": 7
+      }
+    ],
+    "interesting_routers": [
+      {
+        "hop": 2,
+        "ip": "168.95.98.254",
+        "hostname": "h254.s98.ts.hinet.net",
+        "network": "hinet",
+        "network_name": "HiNet (Chunghwa Telecom)"
+      },
+      {
+        "hop": 3,
+        "ip": "168.95.129.50",
+        "hostname": "168-95-129-50.caw1-3332.hinet.net",
+        "network": "hinet",
+        "network_name": "HiNet (Chunghwa Telecom)"
+      },
+      {
+        "hop": 6,
+        "ip": "220.128.13.101",
+        "hostname": "220-128-13-101.pcpd-3331.hinet.net",
+        "network": "hinet",
+        "network_name": "HiNet (Chunghwa Telecom)"
+      }
+    ],
+    "private_hops": 0,
+    "total_hops": 6,
+    "network_transitions": [
+      {
+        "hop": 7,
+        "from": "hinet",
+        "to": "other",
+        "from_ip": "34.54.142.250",
+        "to_ip": "34.54.142.250"
+      }
+    ]
+  },
+  "raw_output": " 1  172.16.193.250 (172.16.193.250)  14.976 ms  18.745 ms  23.172 ms\n 2  h254.s98.ts.hinet.net (168.95.98.254)  8.862 ms  3.814 ms  11.080 ms\n 3  168-95-129-50.caw1-3332.hinet.net (168.95.129.50)  5.782 ms  6.310 ms  11.796 ms\n 4  * * *\n 5  * * *\n 6  220-128-13-101.pcpd-3331.hinet.net (220.128.13.101)  20.777 ms  11.279 ms  11.548 ms\n 7  250.142.54.34.bc.googleusercontent.com (34.54.142.250)  11.579 ms  14.710 ms  14.481 ms\n",
+  "category": "media",
+  "base_domain": "thenewslens.com",
+  "service_variant": "thenewslens.com",
+  "is_bare_domain": true
+}

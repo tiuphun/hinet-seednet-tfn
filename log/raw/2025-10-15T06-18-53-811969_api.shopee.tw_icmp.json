@@ -1,0 +1,248 @@
+{
+  "timestamp": "2025-10-15T06:18:53.811969",
+  "vantage_point": "university",
+  "target": "api.shopee.tw",
+  "target_ip": "147.136.172.142",
+  "protocol": "icmp",
+  "port": null,
+  "duration_seconds": 37.73,
+  "hops": [
+    {
+      "hop": 2,
+      "ip": "140.123.103.250",
+      "hostname": null,
+      "rtts": [
+        4.994,
+        8.98,
+        2.615
+      ],
+      "avg_rtt": 5.53,
+      "timeout": false
+    },
+    {
+      "hop": 3,
+      "ip": "140.123.9.249",
+      "hostname": null,
+      "rtts": [
+        3.243,
+        2.856,
+        2.643
+      ],
+      "avg_rtt": 2.91,
+      "timeout": false
+    },
+    {
+      "hop": 4,
+      "ip": "140.123.0.246",
+      "hostname": null,
+      "rtts": [
+        3.331,
+        3.257,
+        3.42
+      ],
+      "avg_rtt": 3.34,
+      "timeout": false
+    },
+    {
+      "hop": 5,
+      "ip": "140.130.252.251",
+      "hostname": null,
+      "rtts": [
+        4.155,
+        3.911,
+        4.436
+      ],
+      "avg_rtt": 4.17,
+      "timeout": false
+    },
+    {
+      "hop": 6,
+      "ip": "192.192.61.142",
+      "hostname": null,
+      "rtts": [
+        6.76,
+        7.216,
+        21.792
+      ],
+      "avg_rtt": 11.92,
+      "timeout": false
+    },
+    {
+      "hop": 7,
+      "ip": "192.192.61.20",
+      "hostname": null,
+      "rtts": [
+        15.379,
+        8.355,
+        8.118
+      ],
+      "avg_rtt": 10.62,
+      "timeout": false
+    },
+    {
+      "hop": 8,
+      "ip": "192.192.61.48",
+      "hostname": null,
+      "rtts": [
+        7.873,
+        8.724,
+        8.2
+      ],
+      "avg_rtt": 8.27,
+      "timeout": false
+    },
+    {
+      "hop": 9,
+      "ip": "192.192.68.62",
+      "hostname": null,
+      "rtts": [
+        8.955,
+        8.201,
+        8.933
+      ],
+      "avg_rtt": 8.7,
+      "timeout": false
+    },
+    {
+      "hop": 10,
+      "ip": "210.176.44.177",
+      "hostname": null,
+      "rtts": [
+        9.677,
+        9.36,
+        8.904
+      ],
+      "avg_rtt": 9.31,
+      "timeout": false
+    },
+    {
+      "hop": 11,
+      "ip": "202.84.137.254",
+      "hostname": null,
+      "rtts": [
+        11.317,
+        9.95,
+        10.874
+      ],
+      "avg_rtt": 10.71,
+      "timeout": false
+    },
+    {
+      "hop": 12,
+      "ip": null,
+      "hostname": null,
+      "rtts": [],
+      "timeout": true
+    },
+    {
+      "hop": 13,
+      "ip": "202.84.141.109",
+      "hostname": null,
+      "rtts": [
+        74.046,
+        59.331,
+        66.703
+      ],
+      "avg_rtt": 66.69,
+      "timeout": false
+    },
+    {
+      "hop": 14,
+      "ip": "202.84.207.182",
+      "hostname": null,
+      "rtts": [
+        71.438,
+        80.466,
+        59.245
+      ],
+      "avg_rtt": 70.38,
+      "timeout": false
+    },
+    {
+      "hop": 15,
+      "ip": "210.57.38.175",
+      "hostname": null,
+      "rtts": [
+        58.847,
+        55.695,
+        55.822
+      ],
+      "avg_rtt": 56.79,
+      "timeout": false
+    },
+    {
+      "hop": 16,
+      "ip": "143.92.108.196",
+      "hostname": null,
+      "rtts": [
+        60.056,
+        68.109,
+        68.666
+      ],
+      "avg_rtt": 65.61,
+      "timeout": false
+    },
+    {
+      "hop": 17,
+      "ip": "143.92.119.220",
+      "hostname": null,
+      "rtts": [
+        65.142
+      ],
+      "avg_rtt": 65.14,
+      "timeout": false
+    },
+    {
+      "hop": 18,
+      "ip": "143.92.119.227",
+      "hostname": null,
+      "rtts": [
+        64.337,
+        64.739,
+        65.743
+      ],
+      "avg_rtt": 64.94,
+      "timeout": false
+    },
+    {
+      "hop": 19,
+      "ip": null,
+      "hostname": null,
+      "rtts": [],
+      "timeout": true
+    },
+    {
+      "hop": 20,
+      "ip": null,
+      "hostname": null,
+      "rtts": [],
+      "timeout": true
+    },
+    {
+      "hop": 21,
+      "ip": null,
+      "hostname": null,
+      "rtts": [],
+      "timeout": true
+    },
+    {
+      "hop": 22,
+      "ip": "147.136.172.142",
+      "hostname": null,
+      "rtts": [
+        71.261,
+        61.231,
+        62.789
+      ],
+      "avg_rtt": 65.09,
+      "timeout": false
+    }
+  ],
+  "num_hops": 21,
+  "success": true,
+  "raw_output": " 1  192.168.50.1  17.933 ms  4.304 ms  3.396 ms\n 2  140.123.103.250  4.994 ms  8.980 ms  2.615 ms\n 3  140.123.9.249  3.243 ms  2.856 ms  2.643 ms\n 4  140.123.0.246  3.331 ms  3.257 ms  3.420 ms\n 5  140.130.252.251  4.155 ms  3.911 ms  4.436 ms\n 6  192.192.61.142  6.760 ms  7.216 ms  21.792 ms\n 7  192.192.61.20  15.379 ms  8.355 ms  8.118 ms\n 8  192.192.61.48  7.873 ms  8.724 ms  8.200 ms\n 9  192.192.68.62  8.955 ms  8.201 ms  8.933 ms\n10  210.176.44.177  9.677 ms  9.360 ms  8.904 ms\n11  202.84.137.254  11.317 ms  9.950 ms  10.874 ms\n12  * * *\n13  202.84.141.109  74.046 ms  59.331 ms  66.703 ms\n14  202.84.207.182  71.438 ms  80.466 ms  59.245 ms\n15  210.57.38.175  58.847 ms  55.695 ms  55.822 ms\n16  143.92.108.196  60.056 ms  68.109 ms  68.666 ms\n17  143.92.119.220  65.142 ms\n    143.92.119.226  67.484 ms\n    143.92.119.224  66.810 ms\n18  143.92.119.227  64.337 ms  64.739 ms  65.743 ms\n19  * * *\n20  * * *\n21  * * *\n22  147.136.172.142  71.261 ms  61.231 ms  62.789 ms\n",
+  "category": "ecommerce_tech",
+  "base_domain": "shopee.tw",
+  "service_variant": "api.shopee.tw",
+  "is_bare_domain": false
+}

@@ -1,0 +1,159 @@
+{
+  "timestamp": "2025-10-21T19:15:06.881099",
+  "vantage_point": "university",
+  "target": "mail.mofa.gov.tw",
+  "target_ip": "211.72.255.68",
+  "protocol": "icmp",
+  "port": null,
+  "duration_seconds": 27.47,
+  "hops": [
+    {
+      "hop": 2,
+      "ip": "140.123.103.250",
+      "hostname": "csgate103.cs.ccu.edu.tw",
+      "rtts": [
+        3.394,
+        8.13,
+        3.358
+      ],
+      "avg_rtt": 4.96,
+      "timeout": false
+    },
+    {
+      "hop": 3,
+      "ip": "140.123.9.249",
+      "hostname": "140.123.9.249",
+      "rtts": [
+        2.713,
+        2.257,
+        2.244
+      ],
+      "avg_rtt": 2.4,
+      "timeout": false
+    },
+    {
+      "hop": 4,
+      "ip": "140.123.0.246",
+      "hostname": "140.123.0.246",
+      "rtts": [
+        4.756,
+        2.907,
+        3.183
+      ],
+      "avg_rtt": 3.62,
+      "timeout": false
+    },
+    {
+      "hop": 5,
+      "ip": "140.130.252.251",
+      "hostname": "140.130.252.251",
+      "rtts": [
+        3.79,
+        3.61,
+        7.748
+      ],
+      "avg_rtt": 5.05,
+      "timeout": false
+    },
+    {
+      "hop": 6,
+      "ip": "211.22.226.198",
+      "hostname": "211-22-226-198.caw1-3332.hinet.net",
+      "rtts": [
+        7.232,
+        3.525,
+        4.294
+      ],
+      "avg_rtt": 5.02,
+      "timeout": false
+    },
+    {
+      "hop": 7,
+      "ip": null,
+      "hostname": null,
+      "rtts": [],
+      "timeout": true
+    },
+    {
+      "hop": 8,
+      "ip": null,
+      "hostname": null,
+      "rtts": [],
+      "timeout": true
+    },
+    {
+      "hop": 9,
+      "ip": "220.128.2.165",
+      "hostname": "220-128-2-165.tpdb-3336.hinet.net",
+      "rtts": [
+        12.334,
+        11.211,
+        36.139
+      ],
+      "avg_rtt": 19.89,
+      "timeout": false
+    },
+    {
+      "hop": 10,
+      "ip": "203.75.72.89",
+      "hostname": "tncd-4901.hinet.net",
+      "rtts": [
+        13.313,
+        15.632,
+        12.599
+      ],
+      "avg_rtt": 13.85,
+      "timeout": false
+    },
+    {
+      "hop": 11,
+      "ip": "203.75.250.229",
+      "hostname": "203.75.250.229",
+      "rtts": [
+        12.723,
+        10.305,
+        10.308
+      ],
+      "avg_rtt": 11.11,
+      "timeout": false
+    },
+    {
+      "hop": 12,
+      "ip": "203.69.108.158",
+      "hostname": "203.69.108.158",
+      "rtts": [
+        11.394,
+        21.956,
+        15.871
+      ],
+      "avg_rtt": 16.41,
+      "timeout": false
+    },
+    {
+      "hop": 13,
+      "ip": null,
+      "hostname": null,
+      "rtts": [],
+      "timeout": true
+    },
+    {
+      "hop": 14,
+      "ip": "211.72.255.68",
+      "hostname": "mail.mofa.gov.tw",
+      "rtts": [
+        10.964,
+        11.746,
+        10.702
+      ],
+      "avg_rtt": 11.14,
+      "timeout": false
+    }
+  ],
+  "num_hops": 13,
+  "success": true,
+  "raw_output": " 1  192.168.50.1 (192.168.50.1)  12.208 ms  5.555 ms  12.917 ms\n 2  csgate103.cs.ccu.edu.tw (140.123.103.250)  3.394 ms  8.130 ms  3.358 ms\n 3  140.123.9.249 (140.123.9.249)  2.713 ms  2.257 ms  2.244 ms\n 4  140.123.0.246 (140.123.0.246)  4.756 ms  2.907 ms  3.183 ms\n 5  140.130.252.251 (140.130.252.251)  3.790 ms  3.610 ms  7.748 ms\n 6  211-22-226-198.caw1-3332.hinet.net (211.22.226.198)  7.232 ms  3.525 ms  4.294 ms\n 7  * * *\n 8  * * *\n 9  220-128-2-165.tpdb-3336.hinet.net (220.128.2.165)  12.334 ms  11.211 ms  36.139 ms\n10  tncd-4901.hinet.net (203.75.72.89)  13.313 ms  15.632 ms  12.599 ms\n11  203.75.250.229 (203.75.250.229)  12.723 ms  10.305 ms  10.308 ms\n12  203.69.108.158 (203.69.108.158)  11.394 ms  21.956 ms  15.871 ms\n13  * * *\n14  mail.mofa.gov.tw (211.72.255.68)  10.964 ms  11.746 ms  10.702 ms\n",
+  "category": "government_central",
+  "base_domain": "mofa.gov.tw",
+  "service_variant": "mail.mofa.gov.tw",
+  "is_bare_domain": false
+}

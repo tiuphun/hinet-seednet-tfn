@@ -1,0 +1,144 @@
+{
+  "timestamp": "2025-10-15T06:15:20.151140",
+  "vantage_point": "university",
+  "target": "smtp.fisc.com.tw",
+  "target_ip": "61.218.86.236",
+  "protocol": "icmp",
+  "port": null,
+  "duration_seconds": 12.35,
+  "hops": [
+    {
+      "hop": 2,
+      "ip": "140.123.103.250",
+      "hostname": null,
+      "rtts": [
+        4.597,
+        4.876,
+        2.525
+      ],
+      "avg_rtt": 4.0,
+      "timeout": false
+    },
+    {
+      "hop": 3,
+      "ip": "140.123.9.249",
+      "hostname": null,
+      "rtts": [
+        17.003,
+        9.595,
+        3.87
+      ],
+      "avg_rtt": 10.16,
+      "timeout": false
+    },
+    {
+      "hop": 4,
+      "ip": "140.123.0.246",
+      "hostname": null,
+      "rtts": [
+        3.172,
+        3.728,
+        3.469
+      ],
+      "avg_rtt": 3.46,
+      "timeout": false
+    },
+    {
+      "hop": 5,
+      "ip": "140.130.252.251",
+      "hostname": null,
+      "rtts": [
+        3.974,
+        3.955,
+        4.868
+      ],
+      "avg_rtt": 4.27,
+      "timeout": false
+    },
+    {
+      "hop": 6,
+      "ip": "211.22.226.198",
+      "hostname": null,
+      "rtts": [
+        4.783,
+        4.737,
+        6.864
+      ],
+      "avg_rtt": 5.46,
+      "timeout": false
+    },
+    {
+      "hop": 7,
+      "ip": null,
+      "hostname": null,
+      "rtts": [],
+      "timeout": true
+    },
+    {
+      "hop": 8,
+      "ip": "220.128.9.130",
+      "hostname": null,
+      "rtts": [
+        20.261,
+        10.622,
+        11.015
+      ],
+      "avg_rtt": 13.97,
+      "timeout": false
+    },
+    {
+      "hop": 9,
+      "ip": "220.128.8.194",
+      "hostname": null,
+      "rtts": [
+        14.653,
+        20.212,
+        18.135
+      ],
+      "avg_rtt": 17.67,
+      "timeout": false
+    },
+    {
+      "hop": 10,
+      "ip": "220.128.8.33",
+      "hostname": null,
+      "rtts": [
+        10.558,
+        11.063
+      ],
+      "avg_rtt": 10.81,
+      "timeout": false
+    },
+    {
+      "hop": 11,
+      "ip": "168.95.80.225",
+      "hostname": null,
+      "rtts": [
+        27.661,
+        19.488,
+        10.771
+      ],
+      "avg_rtt": 19.31,
+      "timeout": false
+    },
+    {
+      "hop": 12,
+      "ip": "61.218.86.236",
+      "hostname": null,
+      "rtts": [
+        10.638,
+        10.599,
+        14.464
+      ],
+      "avg_rtt": 11.9,
+      "timeout": false
+    }
+  ],
+  "num_hops": 11,
+  "success": true,
+  "raw_output": " 1  192.168.50.1  12.670 ms  4.469 ms  4.604 ms\n 2  140.123.103.250  4.597 ms  4.876 ms  2.525 ms\n 3  140.123.9.249  17.003 ms  9.595 ms  3.870 ms\n 4  140.123.0.246  3.172 ms  3.728 ms  3.469 ms\n 5  140.130.252.251  3.974 ms  3.955 ms  4.868 ms\n 6  211.22.226.198  4.783 ms  4.737 ms  6.864 ms\n 7  * * *\n 8  220.128.9.130  20.261 ms  10.622 ms  11.015 ms\n 9  220.128.8.194  14.653 ms  20.212 ms  18.135 ms\n10  220.128.8.33  10.558 ms  11.063 ms *\n11  168.95.80.225  27.661 ms  19.488 ms  10.771 ms\n12  61.218.86.236  10.638 ms  10.599 ms  14.464 ms\n",
+  "category": "financial_infra",
+  "base_domain": "fisc.com.tw",
+  "service_variant": "smtp.fisc.com.tw",
+  "is_bare_domain": false
+}

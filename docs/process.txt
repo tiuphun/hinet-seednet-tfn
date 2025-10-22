@@ -1,0 +1,77 @@
+┌─────────────────────────────────────────────────────────────────┐
+│                    1. TARGET INITIALIZATION                     │
+│  Load 131 targets across 13 categories from configuration       │
+└────────────────────┬────────────────────────────────────────────┘
+                     │
+                     ▼
+┌─────────────────────────────────────────────────────────────────┐
+│                   2. SERVICE DISCOVERY                          │
+│  For each domain:                                               │
+│  • Test bare domain (example.gov.tw)                            │
+│  • Test www subdomain (www.example.gov.tw)                      │
+│  • Test service variants (mail, api, ftp, etc.)                 │
+│  • Resolve DNS to identify reachable services                   │
+└────────────────────┬────────────────────────────────────────────┘
+                     │
+                     ▼
+┌─────────────────────────────────────────────────────────────────┐
+│                   3. PROTOCOL SELECTION                         │
+│  For each reachable service, test with:                         │
+│  • ICMP (traceroute -I)                                         │
+│  • TCP Port 80 (traceroute -T -p 80)                            │
+│  • TCP Port 443 (traceroute -T -p 443)                          │
+└────────────────────┬────────────────────────────────────────────┘
+                     │
+                     ▼
+┌─────────────────────────────────────────────────────────────────┐
+│                   4. TRACEROUTE EXECUTION                       │
+│  • Run traceroute with 30 max hops                              │
+│  • 3 probes per hop, 3-second timeout                           │
+│  • Capture: hop number, IP, RTT values                          │
+│  • Record raw output and metadata                               │
+└────────────────────┬────────────────────────────────────────────┘
+                     │
+                     ▼
+┌─────────────────────────────────────────────────────────────────┐
+│                   5. DEDUPLICATION CHECK                        │
+│  Skip if already tested:                                        │
+│  • Same target IP + protocol + port combination                 │
+│  • Prevents redundant measurements                              │
+└────────────────────┬────────────────────────────────────────────┘
+                     │
+                     ▼
+┌─────────────────────────────────────────────────────────────────┐
+│                   6. DATA COLLECTION                            │
+│  Store for each traceroute:                                     │
+│  • Timestamp, vantage point, category                           │
+│  • Base domain vs service variant                               │
+│  • Protocol, port, target IP                                    │
+│  • Hop-by-hop path data (IP, RTT)                               │
+│  • Success status, duration                                     │
+└────────────────────┬────────────────────────────────────────────┘
+                     │
+                     ▼
+┌─────────────────────────────────────────────────────────────────┐
+│                   7. RATE LIMITING                              │
+│  • 1-second delay between traceroutes                           │
+│  • Prevents network flooding                                    │
+│  • Respectful measurement                                       │
+└────────────────────┬────────────────────────────────────────────┘
+                     │
+                     ▼
+┌─────────────────────────────────────────────────────────────────┐
+│                   8. DATA EXPORT                                │
+│  Generate outputs:                                              │
+│  • Individual JSON files per traceroute                         │
+│  • Summary JSON with statistics                                 │
+│  • CSV export for analysis                                      │
+└────────────────────┬────────────────────────────────────────────┘
+                     │
+                     ▼
+┌─────────────────────────────────────────────────────────────────┐
+│                   9. TOPOLOGY ANALYSIS                          │
+│  • Identify core routers (high-frequency IPs)                   │
+│  • Calculate service coverage per domain                        │
+│  • Analyze path diversity                                       │
+│  • Generate comprehensive report                                │
+└─────────────────────────────────────────────────────────────────┘

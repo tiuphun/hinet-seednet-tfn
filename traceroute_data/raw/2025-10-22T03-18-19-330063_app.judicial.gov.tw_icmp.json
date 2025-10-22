@@ -1,0 +1,160 @@
+{
+  "timestamp": "2025-10-22T03:18:19.330063",
+  "vantage_point": "university",
+  "target": "app.judicial.gov.tw",
+  "target_ip": "210.69.124.197",
+  "protocol": "icmp",
+  "port": null,
+  "duration_seconds": 33.44,
+  "hops": [
+    {
+      "hop": 2,
+      "ip": "140.123.103.250",
+      "hostname": "csgate103.cs.ccu.edu.tw",
+      "rtts": [
+        3.343,
+        2.848,
+        2.663
+      ],
+      "avg_rtt": 2.95,
+      "timeout": false
+    },
+    {
+      "hop": 3,
+      "ip": "140.123.9.249",
+      "hostname": "140.123.9.249",
+      "rtts": [
+        8.352,
+        4.946,
+        2.774
+      ],
+      "avg_rtt": 5.36,
+      "timeout": false
+    },
+    {
+      "hop": 4,
+      "ip": "140.123.0.246",
+      "hostname": "140.123.0.246",
+      "rtts": [
+        3.703,
+        5.105,
+        9.047
+      ],
+      "avg_rtt": 5.95,
+      "timeout": false
+    },
+    {
+      "hop": 5,
+      "ip": "140.130.252.251",
+      "hostname": "140.130.252.251",
+      "rtts": [
+        5.068,
+        10.916,
+        3.95
+      ],
+      "avg_rtt": 6.64,
+      "timeout": false
+    },
+    {
+      "hop": 6,
+      "ip": "192.192.61.142",
+      "hostname": "192.192.61.142",
+      "rtts": [
+        6.139,
+        6.803,
+        5.935
+      ],
+      "avg_rtt": 6.29,
+      "timeout": false
+    },
+    {
+      "hop": 7,
+      "ip": "192.192.61.37",
+      "hostname": "192.192.61.37",
+      "rtts": [
+        8.281,
+        9.712,
+        27.938
+      ],
+      "avg_rtt": 15.31,
+      "timeout": false
+    },
+    {
+      "hop": 8,
+      "ip": "192.192.61.32",
+      "hostname": "192.192.61.32",
+      "rtts": [
+        11.803,
+        17.229,
+        8.842
+      ],
+      "avg_rtt": 12.62,
+      "timeout": false
+    },
+    {
+      "hop": 9,
+      "ip": "192.192.61.209",
+      "hostname": "192.192.61.209",
+      "rtts": [
+        7.939,
+        8.33,
+        8.131
+      ],
+      "avg_rtt": 8.13,
+      "timeout": false
+    },
+    {
+      "hop": 10,
+      "ip": null,
+      "hostname": null,
+      "rtts": [],
+      "timeout": true
+    },
+    {
+      "hop": 11,
+      "ip": null,
+      "hostname": null,
+      "rtts": [],
+      "timeout": true
+    },
+    {
+      "hop": 12,
+      "ip": null,
+      "hostname": null,
+      "rtts": [],
+      "timeout": true
+    },
+    {
+      "hop": 13,
+      "ip": null,
+      "hostname": null,
+      "rtts": [],
+      "timeout": true
+    },
+    {
+      "hop": 14,
+      "ip": null,
+      "hostname": null,
+      "rtts": [],
+      "timeout": true
+    },
+    {
+      "hop": 15,
+      "ip": "10.96.81.12",
+      "hostname": "10.96.81.12",
+      "rtts": [
+        19.154,
+        28.449
+      ],
+      "avg_rtt": 23.8,
+      "timeout": false
+    }
+  ],
+  "num_hops": 14,
+  "success": false,
+  "raw_output": " 1  192.168.50.1 (192.168.50.1)  14.562 ms  2.725 ms  4.508 ms\n 2  csgate103.cs.ccu.edu.tw (140.123.103.250)  3.343 ms  2.848 ms  2.663 ms\n 3  140.123.9.249 (140.123.9.249)  8.352 ms  4.946 ms  2.774 ms\n 4  140.123.0.246 (140.123.0.246)  3.703 ms  5.105 ms  9.047 ms\n 5  140.130.252.251 (140.130.252.251)  5.068 ms  10.916 ms  3.950 ms\n 6  192.192.61.142 (192.192.61.142)  6.139 ms  6.803 ms  5.935 ms\n 7  192.192.61.37 (192.192.61.37)  8.281 ms  9.712 ms  27.938 ms\n 8  192.192.61.32 (192.192.61.32)  11.803 ms  17.229 ms  8.842 ms\n 9  192.192.61.209 (192.192.61.209)  7.939 ms  8.330 ms  8.131 ms\n10  * 10.96.81.12 (10.96.81.12)  22.082 ms !X *\n11  * 10.96.81.12 (10.96.81.12)  14.409 ms !X *\n12  * 10.96.81.12 (10.96.81.12)  17.905 ms !X *\n13  * * 10.96.81.12 (10.96.81.12)  19.246 ms !X\n14  * 10.96.81.12 (10.96.81.12)  20.200 ms !X *\n15  10.96.81.12 (10.96.81.12)  19.154 ms !X *  28.449 ms !X\n",
+  "category": "government_critical",
+  "base_domain": "judicial.gov.tw",
+  "service_variant": "app.judicial.gov.tw",
+  "is_bare_domain": false
+}

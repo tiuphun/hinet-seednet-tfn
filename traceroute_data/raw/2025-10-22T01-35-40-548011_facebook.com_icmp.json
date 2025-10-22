@@ -1,0 +1,186 @@
+{
+  "timestamp": "2025-10-22T01:35:40.548011",
+  "vantage_point": "university",
+  "target": "facebook.com",
+  "target_ip": "31.13.87.36",
+  "protocol": "icmp",
+  "port": null,
+  "duration_seconds": 0.67,
+  "hops": [
+    {
+      "hop": 2,
+      "ip": "140.123.103.250",
+      "hostname": "csgate103.cs.ccu.edu.tw",
+      "rtts": [
+        5.891,
+        3.297,
+        2.399
+      ],
+      "avg_rtt": 3.86,
+      "timeout": false
+    },
+    {
+      "hop": 3,
+      "ip": "140.123.9.249",
+      "hostname": "140.123.9.249",
+      "rtts": [
+        6.909,
+        2.818,
+        2.642
+      ],
+      "avg_rtt": 4.12,
+      "timeout": false
+    },
+    {
+      "hop": 4,
+      "ip": "140.123.0.246",
+      "hostname": "140.123.0.246",
+      "rtts": [
+        3.705,
+        3.536,
+        3.43
+      ],
+      "avg_rtt": 3.56,
+      "timeout": false
+    },
+    {
+      "hop": 5,
+      "ip": "140.130.252.251",
+      "hostname": "140.130.252.251",
+      "rtts": [
+        11.227,
+        5.535,
+        4.311
+      ],
+      "avg_rtt": 7.02,
+      "timeout": false
+    },
+    {
+      "hop": 6,
+      "ip": "192.192.61.142",
+      "hostname": "192.192.61.142",
+      "rtts": [
+        5.633,
+        5.655,
+        14.6
+      ],
+      "avg_rtt": 8.63,
+      "timeout": false
+    },
+    {
+      "hop": 7,
+      "ip": "192.192.61.9",
+      "hostname": "192.192.61.9",
+      "rtts": [
+        5.518,
+        6.454,
+        7.872
+      ],
+      "avg_rtt": 6.61,
+      "timeout": false
+    },
+    {
+      "hop": 8,
+      "ip": "192.192.61.30",
+      "hostname": "192.192.61.30",
+      "rtts": [
+        7.132,
+        7.68,
+        12.219
+      ],
+      "avg_rtt": 9.01,
+      "timeout": false
+    },
+    {
+      "hop": 9,
+      "ip": "192.192.61.4",
+      "hostname": "192.192.61.4",
+      "rtts": [
+        23.637,
+        8.235,
+        9.52
+      ],
+      "avg_rtt": 13.8,
+      "timeout": false
+    },
+    {
+      "hop": 10,
+      "ip": "192.192.61.209",
+      "hostname": "192.192.61.209",
+      "rtts": [
+        10.189,
+        16.141,
+        19.949
+      ],
+      "avg_rtt": 15.43,
+      "timeout": false
+    },
+    {
+      "hop": 11,
+      "ip": "211.73.84.16",
+      "hostname": "211.73.84.16",
+      "rtts": [
+        8.046,
+        10.167,
+        11.519
+      ],
+      "avg_rtt": 9.91,
+      "timeout": false
+    },
+    {
+      "hop": 12,
+      "ip": "129.134.55.108",
+      "hostname": "po4000.asw03.tpe1.tfbnw.net",
+      "rtts": [
+        12.211,
+        14.099,
+        9.445
+      ],
+      "avg_rtt": 11.92,
+      "timeout": false
+    },
+    {
+      "hop": 13,
+      "ip": "173.252.64.180",
+      "hostname": "psw01.tpe1.tfbnw.net",
+      "rtts": [
+        8.246,
+        10.383,
+        10.44
+      ],
+      "avg_rtt": 9.69,
+      "timeout": false
+    },
+    {
+      "hop": 14,
+      "ip": "129.134.59.220",
+      "hostname": "msw1ai.01.tpe1.tfbnw.net",
+      "rtts": [
+        8.447,
+        10.6,
+        10.503
+      ],
+      "avg_rtt": 9.85,
+      "timeout": false
+    },
+    {
+      "hop": 15,
+      "ip": "31.13.87.36",
+      "hostname": "edge-star-mini-shv-01-tpe1.facebook.com",
+      "rtts": [
+        8.332,
+        7.553,
+        11.378
+      ],
+      "avg_rtt": 9.09,
+      "timeout": false
+    }
+  ],
+  "num_hops": 14,
+  "success": true,
+  "raw_output": " 1  192.168.50.1 (192.168.50.1)  5.883 ms  3.285 ms  2.536 ms\n 2  csgate103.cs.ccu.edu.tw (140.123.103.250)  5.891 ms  3.297 ms  2.399 ms\n 3  140.123.9.249 (140.123.9.249)  6.909 ms  2.818 ms  2.642 ms\n 4  140.123.0.246 (140.123.0.246)  3.705 ms  3.536 ms  3.430 ms\n 5  140.130.252.251 (140.130.252.251)  11.227 ms  5.535 ms  4.311 ms\n 6  192.192.61.142 (192.192.61.142)  5.633 ms  5.655 ms  14.600 ms\n 7  192.192.61.9 (192.192.61.9)  5.518 ms  6.454 ms  7.872 ms\n 8  192.192.61.30 (192.192.61.30)  7.132 ms  7.680 ms  12.219 ms\n 9  192.192.61.4 (192.192.61.4)  23.637 ms  8.235 ms  9.520 ms\n10  192.192.61.209 (192.192.61.209)  10.189 ms  16.141 ms  19.949 ms\n11  211.73.84.16 (211.73.84.16)  8.046 ms  10.167 ms  11.519 ms\n12  po4000.asw03.tpe1.tfbnw.net (129.134.55.108)  12.211 ms  14.099 ms  9.445 ms\n13  psw01.tpe1.tfbnw.net (173.252.64.180)  8.246 ms  10.383 ms  10.440 ms\n14  msw1ai.01.tpe1.tfbnw.net (129.134.59.220)  8.447 ms  10.600 ms  10.503 ms\n15  edge-star-mini-shv-01-tpe1.facebook.com (31.13.87.36)  8.332 ms  7.553 ms  11.378 ms\n",
+  "category": "cdn_global",
+  "base_domain": "facebook.com",
+  "service_variant": "facebook.com",
+  "is_bare_domain": true
+}

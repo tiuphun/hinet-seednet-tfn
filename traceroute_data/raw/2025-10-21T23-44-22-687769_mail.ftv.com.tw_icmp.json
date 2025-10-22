@@ -1,0 +1,214 @@
+{
+  "timestamp": "2025-10-21T23:44:22.687769",
+  "vantage_point": "university",
+  "target": "mail.ftv.com.tw",
+  "target_ip": "40.104.21.66",
+  "protocol": "icmp",
+  "port": null,
+  "duration_seconds": 36.69,
+  "hops": [
+    {
+      "hop": 2,
+      "ip": "140.123.103.250",
+      "hostname": "csgate103.cs.ccu.edu.tw",
+      "rtts": [
+        3.176,
+        3.693,
+        4.018
+      ],
+      "avg_rtt": 3.63,
+      "timeout": false
+    },
+    {
+      "hop": 3,
+      "ip": "140.123.9.249",
+      "hostname": "140.123.9.249",
+      "rtts": [
+        2.675,
+        2.654,
+        24.337
+      ],
+      "avg_rtt": 9.89,
+      "timeout": false
+    },
+    {
+      "hop": 4,
+      "ip": "140.123.0.246",
+      "hostname": "140.123.0.246",
+      "rtts": [
+        13.757,
+        4.845,
+        4.541
+      ],
+      "avg_rtt": 7.71,
+      "timeout": false
+    },
+    {
+      "hop": 5,
+      "ip": "140.130.252.251",
+      "hostname": "140.130.252.251",
+      "rtts": [
+        4.12,
+        6.441,
+        4.639
+      ],
+      "avg_rtt": 5.07,
+      "timeout": false
+    },
+    {
+      "hop": 6,
+      "ip": "192.192.61.142",
+      "hostname": "192.192.61.142",
+      "rtts": [
+        7.259,
+        7.82,
+        9.537
+      ],
+      "avg_rtt": 8.21,
+      "timeout": false
+    },
+    {
+      "hop": 7,
+      "ip": "192.192.61.20",
+      "hostname": "192.192.61.20",
+      "rtts": [
+        8.284,
+        13.918,
+        8.744
+      ],
+      "avg_rtt": 10.32,
+      "timeout": false
+    },
+    {
+      "hop": 8,
+      "ip": "192.192.61.48",
+      "hostname": "192.192.61.48",
+      "rtts": [
+        16.981,
+        8.894,
+        8.826
+      ],
+      "avg_rtt": 11.57,
+      "timeout": false
+    },
+    {
+      "hop": 9,
+      "ip": "192.192.68.62",
+      "hostname": "192.192.68.62",
+      "rtts": [
+        12.806,
+        9.734,
+        10.85
+      ],
+      "avg_rtt": 11.13,
+      "timeout": false
+    },
+    {
+      "hop": 10,
+      "ip": "203.163.222.15",
+      "hostname": "15-222-163-203-static.tpix.net.tw",
+      "rtts": [
+        15.693,
+        8.397,
+        11.355
+      ],
+      "avg_rtt": 11.81,
+      "timeout": false
+    },
+    {
+      "hop": 11,
+      "ip": "104.44.51.224",
+      "hostname": "104.44.51.224",
+      "rtts": [
+        13.04,
+        9.425,
+        10.431
+      ],
+      "avg_rtt": 10.97,
+      "timeout": false
+    },
+    {
+      "hop": 12,
+      "ip": "104.44.23.161",
+      "hostname": "ae22-0.maa01-96cbe-1b.ntwk.msn.net",
+      "rtts": [
+        15.821,
+        27.567,
+        10.489
+      ],
+      "avg_rtt": 17.96,
+      "timeout": false
+    },
+    {
+      "hop": 13,
+      "ip": "104.44.53.205",
+      "hostname": "104.44.53.205",
+      "rtts": [
+        11.306,
+        13.028,
+        11.709
+      ],
+      "avg_rtt": 12.01,
+      "timeout": false
+    },
+    {
+      "hop": 14,
+      "ip": "104.44.48.24",
+      "hostname": "104.44.48.24",
+      "rtts": [
+        12.616,
+        30.096,
+        21.229
+      ],
+      "avg_rtt": 21.31,
+      "timeout": false
+    },
+    {
+      "hop": 15,
+      "ip": null,
+      "hostname": null,
+      "rtts": [],
+      "timeout": true
+    },
+    {
+      "hop": 16,
+      "ip": null,
+      "hostname": null,
+      "rtts": [],
+      "timeout": true
+    },
+    {
+      "hop": 17,
+      "ip": null,
+      "hostname": null,
+      "rtts": [],
+      "timeout": true
+    },
+    {
+      "hop": 18,
+      "ip": null,
+      "hostname": null,
+      "rtts": [],
+      "timeout": true
+    },
+    {
+      "hop": 19,
+      "ip": "40.104.21.66",
+      "hostname": "40.104.21.66",
+      "rtts": [
+        39.643,
+        9.244,
+        10.425
+      ],
+      "avg_rtt": 19.77,
+      "timeout": false
+    }
+  ],
+  "num_hops": 18,
+  "success": true,
+  "raw_output": " 1  192.168.50.1 (192.168.50.1)  12.171 ms  6.533 ms  3.123 ms\n 2  csgate103.cs.ccu.edu.tw (140.123.103.250)  3.176 ms  3.693 ms  4.018 ms\n 3  140.123.9.249 (140.123.9.249)  2.675 ms  2.654 ms  24.337 ms\n 4  140.123.0.246 (140.123.0.246)  13.757 ms  4.845 ms  4.541 ms\n 5  140.130.252.251 (140.130.252.251)  4.120 ms  6.441 ms  4.639 ms\n 6  192.192.61.142 (192.192.61.142)  7.259 ms  7.820 ms  9.537 ms\n 7  192.192.61.20 (192.192.61.20)  8.284 ms  13.918 ms  8.744 ms\n 8  192.192.61.48 (192.192.61.48)  16.981 ms  8.894 ms  8.826 ms\n 9  192.192.68.62 (192.192.68.62)  12.806 ms  9.734 ms  10.850 ms\n10  15-222-163-203-static.tpix.net.tw (203.163.222.15)  15.693 ms  8.397 ms  11.355 ms\n11  104.44.51.224 (104.44.51.224)  13.040 ms  9.425 ms  10.431 ms\n12  ae22-0.maa01-96cbe-1b.ntwk.msn.net (104.44.23.161)  15.821 ms  27.567 ms  10.489 ms\n13  104.44.53.205 (104.44.53.205)  11.306 ms  13.028 ms  11.709 ms\n14  104.44.48.24 (104.44.48.24)  12.616 ms  30.096 ms  21.229 ms\n15  * * *\n16  * * *\n17  * * *\n18  * * *\n19  40.104.21.66 (40.104.21.66)  39.643 ms  9.244 ms  10.425 ms\n",
+  "category": "media",
+  "base_domain": "ftv.com.tw",
+  "service_variant": "mail.ftv.com.tw",
+  "is_bare_domain": false
+}

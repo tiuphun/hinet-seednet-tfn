@@ -1,0 +1,138 @@
+{
+  "timestamp": "2025-10-22T06:46:39.616580",
+  "vantage_point": "university",
+  "target": "mail.dcard.tw",
+  "target_ip": "34.102.239.211",
+  "protocol": "icmp",
+  "port": null,
+  "duration_seconds": 0.64,
+  "hops": [
+    {
+      "hop": 2,
+      "ip": "140.123.103.250",
+      "hostname": "csgate103.cs.ccu.edu.tw",
+      "rtts": [
+        14.862,
+        2.861,
+        5.434
+      ],
+      "avg_rtt": 7.72,
+      "timeout": false
+    },
+    {
+      "hop": 3,
+      "ip": "140.123.9.249",
+      "hostname": "140.123.9.249",
+      "rtts": [
+        2.761,
+        5.753,
+        2.639
+      ],
+      "avg_rtt": 3.72,
+      "timeout": false
+    },
+    {
+      "hop": 4,
+      "ip": "140.123.0.246",
+      "hostname": "140.123.0.246",
+      "rtts": [
+        3.496,
+        4.009,
+        3.904
+      ],
+      "avg_rtt": 3.8,
+      "timeout": false
+    },
+    {
+      "hop": 5,
+      "ip": "140.130.252.251",
+      "hostname": "140.130.252.251",
+      "rtts": [
+        5.199,
+        6.078,
+        3.909
+      ],
+      "avg_rtt": 5.06,
+      "timeout": false
+    },
+    {
+      "hop": 6,
+      "ip": "192.192.61.142",
+      "hostname": "192.192.61.142",
+      "rtts": [
+        5.752,
+        5.739,
+        5.627
+      ],
+      "avg_rtt": 5.71,
+      "timeout": false
+    },
+    {
+      "hop": 7,
+      "ip": "192.192.61.20",
+      "hostname": "192.192.61.20",
+      "rtts": [
+        10.11,
+        9.598,
+        12.293
+      ],
+      "avg_rtt": 10.67,
+      "timeout": false
+    },
+    {
+      "hop": 8,
+      "ip": "192.192.61.184",
+      "hostname": "192.192.61.184",
+      "rtts": [
+        8.041,
+        9.979,
+        8.492
+      ],
+      "avg_rtt": 8.84,
+      "timeout": false
+    },
+    {
+      "hop": 9,
+      "ip": "192.192.61.203",
+      "hostname": "192.192.61.203",
+      "rtts": [
+        8.185,
+        11.134,
+        11.941
+      ],
+      "avg_rtt": 10.42,
+      "timeout": false
+    },
+    {
+      "hop": 10,
+      "ip": "72.14.196.229",
+      "hostname": "72.14.196.229",
+      "rtts": [
+        10.831,
+        8.588,
+        11.018
+      ],
+      "avg_rtt": 10.15,
+      "timeout": false
+    },
+    {
+      "hop": 11,
+      "ip": "34.102.239.211",
+      "hostname": "211.239.102.34.bc.googleusercontent.com",
+      "rtts": [
+        8.48,
+        8.621,
+        8.484
+      ],
+      "avg_rtt": 8.53,
+      "timeout": false
+    }
+  ],
+  "num_hops": 10,
+  "success": true,
+  "raw_output": " 1  192.168.50.1 (192.168.50.1)  14.739 ms  12.603 ms  23.472 ms\n 2  csgate103.cs.ccu.edu.tw (140.123.103.250)  14.862 ms  2.861 ms  5.434 ms\n 3  140.123.9.249 (140.123.9.249)  2.761 ms  5.753 ms  2.639 ms\n 4  140.123.0.246 (140.123.0.246)  3.496 ms  4.009 ms  3.904 ms\n 5  140.130.252.251 (140.130.252.251)  5.199 ms  6.078 ms  3.909 ms\n 6  192.192.61.142 (192.192.61.142)  5.752 ms  5.739 ms  5.627 ms\n 7  192.192.61.20 (192.192.61.20)  10.110 ms  9.598 ms  12.293 ms\n 8  192.192.61.184 (192.192.61.184)  8.041 ms  9.979 ms  8.492 ms\n 9  192.192.61.203 (192.192.61.203)  8.185 ms  11.134 ms  11.941 ms\n10  72.14.196.229 (72.14.196.229)  10.831 ms  8.588 ms  11.018 ms\n11  211.239.102.34.bc.googleusercontent.com (34.102.239.211)  8.480 ms  8.621 ms  8.484 ms\n",
+  "category": "ecommerce_tech",
+  "base_domain": "dcard.tw",
+  "service_variant": "mail.dcard.tw",
+  "is_bare_domain": false
+}

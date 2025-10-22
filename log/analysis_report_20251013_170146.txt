@@ -1,0 +1,66 @@
+================================================================================
+TAIWAN ISP TOPOLOGY MAPPING - ANALYSIS REPORT
+================================================================================
+
+SUMMARY STATISTICS
+--------------------------------------------------------------------------------
+Total traceroutes: 184
+Successful: 36
+Failed: 148
+
+CORE ROUTERS (appearing in 10+ paths)
+--------------------------------------------------------------------------------
+1. 140.123.103.250
+   Appearances: 47
+   Unique targets: 47
+   Avg hop position: 2.0
+   Categories: government_central, healthcare, ecommerce_tech, cdn_global, universities, dns_resolvers, financial_banks, telecom, media, government_critical
+
+2. 140.123.9.249
+   Appearances: 47
+   Unique targets: 47
+   Avg hop position: 3.0
+   Categories: government_central, healthcare, ecommerce_tech, cdn_global, universities, dns_resolvers, financial_banks, telecom, media, government_critical
+
+3. 140.123.0.246
+   Appearances: 47
+   Unique targets: 47
+   Avg hop position: 4.0
+   Categories: government_central, healthcare, ecommerce_tech, cdn_global, universities, dns_resolvers, financial_banks, telecom, media, government_critical
+
+4. 140.130.252.251
+   Appearances: 45
+   Unique targets: 45
+   Avg hop position: 5.0
+   Categories: government_central, healthcare, ecommerce_tech, cdn_global, universities, dns_resolvers, financial_banks, telecom, media, government_critical
+
+5. 192.192.61.142
+   Appearances: 32
+   Unique targets: 32
+   Avg hop position: 6.0
+   Categories: government_central, ecommerce_tech, cdn_global, universities, dns_resolvers, telecom, media, government_critical
+
+6. 192.192.61.20
+   Appearances: 22
+   Unique targets: 22
+   Avg hop position: 7.0
+   Categories: cdn_global, ecommerce_tech, telecom, media
+
+7. 192.192.61.48
+   Appearances: 13
+   Unique targets: 13
+   Avg hop position: 8.0
+   Categories: cdn_global, ecommerce_tech, telecom, media
+
+8. 192.192.68.62
+   Appearances: 13
+   Unique targets: 13
+   Avg hop position: 9.0
+   Categories: cdn_global, ecommerce_tech, telecom, media
+
+9. 10.96.81.12
+   Appearances: 10
+   Unique targets: 8
+   Avg hop position: 11.0
+   Categories: government_central, dns_resolvers, government_critical
+

@@ -1,0 +1,131 @@
+{
+  "timestamp": "2025-10-22T00:53:00.962371",
+  "vantage_point": "university",
+  "target": "ns2.cgmh.org.tw",
+  "target_ip": "59.124.190.3",
+  "protocol": "icmp",
+  "port": null,
+  "duration_seconds": 15.91,
+  "hops": [
+    {
+      "hop": 2,
+      "ip": "140.123.103.250",
+      "hostname": "csgate103.cs.ccu.edu.tw",
+      "rtts": [
+        5.023,
+        2.952,
+        5.892
+      ],
+      "avg_rtt": 4.62,
+      "timeout": false
+    },
+    {
+      "hop": 3,
+      "ip": "140.123.9.249",
+      "hostname": "140.123.9.249",
+      "rtts": [
+        2.95,
+        5.344,
+        6.857
+      ],
+      "avg_rtt": 5.05,
+      "timeout": false
+    },
+    {
+      "hop": 4,
+      "ip": "140.123.0.246",
+      "hostname": "140.123.0.246",
+      "rtts": [
+        7.858,
+        4.277
+      ],
+      "avg_rtt": 6.07,
+      "timeout": false
+    },
+    {
+      "hop": 5,
+      "ip": "140.130.252.251",
+      "hostname": "140.130.252.251",
+      "rtts": [
+        38.378,
+        9.937,
+        8.965
+      ],
+      "avg_rtt": 19.09,
+      "timeout": false
+    },
+    {
+      "hop": 6,
+      "ip": "211.22.226.198",
+      "hostname": "211-22-226-198.caw1-3332.hinet.net",
+      "rtts": [
+        24.528,
+        10.728,
+        32.137
+      ],
+      "avg_rtt": 22.46,
+      "timeout": false
+    },
+    {
+      "hop": 7,
+      "ip": null,
+      "hostname": null,
+      "rtts": [],
+      "timeout": true
+    },
+    {
+      "hop": 8,
+      "ip": "220.128.9.58",
+      "hostname": "220-128-9-58.tylc-3032.hinet.net",
+      "rtts": [
+        26.482,
+        12.916
+      ],
+      "avg_rtt": 19.7,
+      "timeout": false
+    },
+    {
+      "hop": 9,
+      "ip": "220.128.9.93",
+      "hostname": "220-128-9-93.tyfo-3331.hinet.net",
+      "rtts": [
+        10.326,
+        10.148,
+        13.363
+      ],
+      "avg_rtt": 11.28,
+      "timeout": false
+    },
+    {
+      "hop": 10,
+      "ip": "168.95.228.113",
+      "hostname": "h113.s228.ts.hinet.net",
+      "rtts": [
+        15.518,
+        18.389,
+        18.582
+      ],
+      "avg_rtt": 17.5,
+      "timeout": false
+    },
+    {
+      "hop": 11,
+      "ip": "59.124.190.3",
+      "hostname": "59-124-190-3.hinet-ip.hinet.net",
+      "rtts": [
+        11.775,
+        22.641,
+        14.132
+      ],
+      "avg_rtt": 16.18,
+      "timeout": false
+    }
+  ],
+  "num_hops": 10,
+  "success": true,
+  "raw_output": " 1  192.168.50.1 (192.168.50.1)  16.688 ms  6.716 ms  2.123 ms\n 2  csgate103.cs.ccu.edu.tw (140.123.103.250)  5.023 ms  2.952 ms  5.892 ms\n 3  140.123.9.249 (140.123.9.249)  2.950 ms  5.344 ms  6.857 ms\n 4  140.123.0.246 (140.123.0.246)  7.858 ms  4.277 ms *\n 5  140.130.252.251 (140.130.252.251)  38.378 ms  9.937 ms  8.965 ms\n 6  211-22-226-198.caw1-3332.hinet.net (211.22.226.198)  24.528 ms  10.728 ms  32.137 ms\n 7  * * *\n 8  220-128-9-58.tylc-3032.hinet.net (220.128.9.58)  26.482 ms *  12.916 ms\n 9  220-128-9-93.tyfo-3331.hinet.net (220.128.9.93)  10.326 ms  10.148 ms  13.363 ms\n10  h113.s228.ts.hinet.net (168.95.228.113)  15.518 ms  18.389 ms  18.582 ms\n11  59-124-190-3.hinet-ip.hinet.net (59.124.190.3)  11.775 ms  22.641 ms  14.132 ms\n",
+  "category": "healthcare",
+  "base_domain": "cgmh.org.tw",
+  "service_variant": "ns2.cgmh.org.tw",
+  "is_bare_domain": false
+}

@@ -1,0 +1,168 @@
+{
+  "timestamp": "2025-10-21T19:37:13.138078",
+  "vantage_point": "university",
+  "target": "www.tainan.gov.tw",
+  "target_ip": "3.169.121.5",
+  "protocol": "icmp",
+  "port": null,
+  "duration_seconds": 64.63,
+  "hops": [
+    {
+      "hop": 2,
+      "ip": "140.123.103.250",
+      "hostname": "csgate103.cs.ccu.edu.tw",
+      "rtts": [
+        3.428,
+        2.587,
+        2.359
+      ],
+      "avg_rtt": 2.79,
+      "timeout": false
+    },
+    {
+      "hop": 3,
+      "ip": "140.123.9.249",
+      "hostname": "140.123.9.249",
+      "rtts": [
+        2.536,
+        2.525,
+        4.589
+      ],
+      "avg_rtt": 3.22,
+      "timeout": false
+    },
+    {
+      "hop": 4,
+      "ip": "140.123.0.246",
+      "hostname": "140.123.0.246",
+      "rtts": [
+        3.283,
+        5.877,
+        11.139
+      ],
+      "avg_rtt": 6.77,
+      "timeout": false
+    },
+    {
+      "hop": 5,
+      "ip": "140.130.252.251",
+      "hostname": "140.130.252.251",
+      "rtts": [
+        6.614,
+        6.288,
+        5.044
+      ],
+      "avg_rtt": 5.98,
+      "timeout": false
+    },
+    {
+      "hop": 6,
+      "ip": "192.192.61.142",
+      "hostname": "192.192.61.142",
+      "rtts": [
+        6.227,
+        7.424,
+        14.347
+      ],
+      "avg_rtt": 9.33,
+      "timeout": false
+    },
+    {
+      "hop": 7,
+      "ip": "192.192.61.20",
+      "hostname": "192.192.61.20",
+      "rtts": [
+        16.701,
+        7.458,
+        7.643
+      ],
+      "avg_rtt": 10.6,
+      "timeout": false
+    },
+    {
+      "hop": 8,
+      "ip": "192.192.61.48",
+      "hostname": "192.192.61.48",
+      "rtts": [
+        11.077,
+        17.877,
+        9.772
+      ],
+      "avg_rtt": 12.91,
+      "timeout": false
+    },
+    {
+      "hop": 9,
+      "ip": "192.192.68.62",
+      "hostname": "192.192.68.62",
+      "rtts": [
+        23.68,
+        9.0,
+        9.693
+      ],
+      "avg_rtt": 14.12,
+      "timeout": false
+    },
+    {
+      "hop": 10,
+      "ip": null,
+      "hostname": null,
+      "rtts": [],
+      "timeout": true
+    },
+    {
+      "hop": 11,
+      "ip": null,
+      "hostname": null,
+      "rtts": [],
+      "timeout": true
+    },
+    {
+      "hop": 12,
+      "ip": null,
+      "hostname": null,
+      "rtts": [],
+      "timeout": true
+    },
+    {
+      "hop": 13,
+      "ip": null,
+      "hostname": null,
+      "rtts": [],
+      "timeout": true
+    },
+    {
+      "hop": 14,
+      "ip": null,
+      "hostname": null,
+      "rtts": [],
+      "timeout": true
+    },
+    {
+      "hop": 15,
+      "ip": null,
+      "hostname": null,
+      "rtts": [],
+      "timeout": true
+    },
+    {
+      "hop": 16,
+      "ip": "3.169.121.5",
+      "hostname": "server-3-169-121-5.tpe53.r.cloudfront.net",
+      "rtts": [
+        17.391,
+        10.151,
+        10.524
+      ],
+      "avg_rtt": 12.69,
+      "timeout": false
+    }
+  ],
+  "num_hops": 15,
+  "success": true,
+  "raw_output": " 1  192.168.50.1 (192.168.50.1)  2.739 ms  6.583 ms  2.963 ms\n 2  csgate103.cs.ccu.edu.tw (140.123.103.250)  3.428 ms  2.587 ms  2.359 ms\n 3  140.123.9.249 (140.123.9.249)  2.536 ms  2.525 ms  4.589 ms\n 4  140.123.0.246 (140.123.0.246)  3.283 ms  5.877 ms  11.139 ms\n 5  140.130.252.251 (140.130.252.251)  6.614 ms  6.288 ms  5.044 ms\n 6  192.192.61.142 (192.192.61.142)  6.227 ms  7.424 ms  14.347 ms\n 7  192.192.61.20 (192.192.61.20)  16.701 ms  7.458 ms  7.643 ms\n 8  192.192.61.48 (192.192.61.48)  11.077 ms  17.877 ms  9.772 ms\n 9  192.192.68.62 (192.192.68.62)  23.680 ms  9.000 ms  9.693 ms\n10  * * *\n11  * * *\n12  * * *\n13  * * *\n14  * * *\n15  * * *\n16  server-3-169-121-5.tpe53.r.cloudfront.net (3.169.121.5)  17.391 ms  10.151 ms  10.524 ms\n",
+  "category": "government_local",
+  "base_domain": "tainan.gov.tw",
+  "service_variant": "www.tainan.gov.tw",
+  "is_bare_domain": false
+}

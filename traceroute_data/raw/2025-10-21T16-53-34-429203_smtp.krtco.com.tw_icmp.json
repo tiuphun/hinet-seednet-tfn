@@ -1,0 +1,121 @@
+{
+  "timestamp": "2025-10-21T16:53:34.429203",
+  "vantage_point": "university",
+  "target": "smtp.krtco.com.tw",
+  "target_ip": "60.249.154.131",
+  "protocol": "icmp",
+  "port": null,
+  "duration_seconds": 9.51,
+  "hops": [
+    {
+      "hop": 2,
+      "ip": "140.123.103.250",
+      "hostname": "csgate103.cs.ccu.edu.tw",
+      "rtts": [
+        2.665,
+        5.8,
+        4.444
+      ],
+      "avg_rtt": 4.3,
+      "timeout": false
+    },
+    {
+      "hop": 3,
+      "ip": "140.123.9.249",
+      "hostname": "140.123.9.249",
+      "rtts": [
+        3.826,
+        27.88,
+        19.758
+      ],
+      "avg_rtt": 17.15,
+      "timeout": false
+    },
+    {
+      "hop": 4,
+      "ip": "140.123.0.246",
+      "hostname": "140.123.0.246",
+      "rtts": [
+        8.165,
+        13.856,
+        5.852
+      ],
+      "avg_rtt": 9.29,
+      "timeout": false
+    },
+    {
+      "hop": 5,
+      "ip": "140.130.252.251",
+      "hostname": "140.130.252.251",
+      "rtts": [
+        10.499,
+        9.424,
+        8.243
+      ],
+      "avg_rtt": 9.39,
+      "timeout": false
+    },
+    {
+      "hop": 6,
+      "ip": "211.22.226.198",
+      "hostname": "211-22-226-198.caw1-3332.hinet.net",
+      "rtts": [
+        8.779,
+        22.922,
+        3.978
+      ],
+      "avg_rtt": 11.89,
+      "timeout": false
+    },
+    {
+      "hop": 7,
+      "ip": null,
+      "hostname": null,
+      "rtts": [],
+      "timeout": true
+    },
+    {
+      "hop": 8,
+      "ip": "220.128.25.17",
+      "hostname": "220-128-25-17.skc1-3332.hinet.net",
+      "rtts": [
+        7.181,
+        11.836,
+        16.764
+      ],
+      "avg_rtt": 11.93,
+      "timeout": false
+    },
+    {
+      "hop": 9,
+      "ip": "168.95.211.205",
+      "hostname": "h205.s211.ts.hinet.net",
+      "rtts": [
+        37.737,
+        34.554,
+        21.055
+      ],
+      "avg_rtt": 31.12,
+      "timeout": false
+    },
+    {
+      "hop": 10,
+      "ip": "60.249.154.131",
+      "hostname": "wwwsmtp.krtco.com.tw",
+      "rtts": [
+        8.661,
+        13.916,
+        54.869
+      ],
+      "avg_rtt": 25.82,
+      "timeout": false
+    }
+  ],
+  "num_hops": 9,
+  "success": true,
+  "raw_output": " 1  192.168.50.1 (192.168.50.1)  9.778 ms  2.029 ms  11.075 ms\n 2  csgate103.cs.ccu.edu.tw (140.123.103.250)  2.665 ms  5.800 ms  4.444 ms\n 3  140.123.9.249 (140.123.9.249)  3.826 ms  27.880 ms  19.758 ms\n 4  140.123.0.246 (140.123.0.246)  8.165 ms  13.856 ms  5.852 ms\n 5  140.130.252.251 (140.130.252.251)  10.499 ms  9.424 ms  8.243 ms\n 6  211-22-226-198.caw1-3332.hinet.net (211.22.226.198)  8.779 ms  22.922 ms  3.978 ms\n 7  * * *\n 8  220-128-25-17.skc1-3332.hinet.net (220.128.25.17)  7.181 ms  11.836 ms  16.764 ms\n 9  h205.s211.ts.hinet.net (168.95.211.205)  37.737 ms  34.554 ms  21.055 ms\n10  wwwsmtp.krtco.com.tw (60.249.154.131)  8.661 ms  13.916 ms  54.869 ms\n",
+  "category": "critical_infra",
+  "base_domain": "krtco.com.tw",
+  "service_variant": "smtp.krtco.com.tw",
+  "is_bare_domain": false
+}

@@ -1,0 +1,219 @@
+{
+  "timestamp": "2025-10-21T19:29:41.255066",
+  "vantage_point": "university",
+  "target": "ftp.ncc.gov.tw",
+  "target_ip": "211.79.138.109",
+  "protocol": "icmp",
+  "port": null,
+  "duration_seconds": 87.72,
+  "hops": [
+    {
+      "hop": 2,
+      "ip": "140.123.103.250",
+      "hostname": "csgate103.cs.ccu.edu.tw",
+      "rtts": [
+        2.462,
+        12.054,
+        8.791
+      ],
+      "avg_rtt": 7.77,
+      "timeout": false
+    },
+    {
+      "hop": 3,
+      "ip": "140.123.9.249",
+      "hostname": "140.123.9.249",
+      "rtts": [
+        9.929,
+        3.24,
+        2.696
+      ],
+      "avg_rtt": 5.29,
+      "timeout": false
+    },
+    {
+      "hop": 4,
+      "ip": "140.123.0.246",
+      "hostname": "140.123.0.246",
+      "rtts": [
+        3.888,
+        3.643,
+        4.0
+      ],
+      "avg_rtt": 3.84,
+      "timeout": false
+    },
+    {
+      "hop": 5,
+      "ip": "140.130.252.251",
+      "hostname": "140.130.252.251",
+      "rtts": [
+        10.021,
+        5.185,
+        6.905
+      ],
+      "avg_rtt": 7.37,
+      "timeout": false
+    },
+    {
+      "hop": 6,
+      "ip": "192.192.61.142",
+      "hostname": "192.192.61.142",
+      "rtts": [
+        6.054,
+        7.647,
+        7.676
+      ],
+      "avg_rtt": 7.13,
+      "timeout": false
+    },
+    {
+      "hop": 7,
+      "ip": "192.192.61.37",
+      "hostname": "192.192.61.37",
+      "rtts": [
+        11.609,
+        9.118,
+        13.785
+      ],
+      "avg_rtt": 11.5,
+      "timeout": false
+    },
+    {
+      "hop": 8,
+      "ip": "192.192.61.32",
+      "hostname": "192.192.61.32",
+      "rtts": [
+        15.817,
+        8.187,
+        9.046
+      ],
+      "avg_rtt": 11.02,
+      "timeout": false
+    },
+    {
+      "hop": 9,
+      "ip": "192.192.61.209",
+      "hostname": "192.192.61.209",
+      "rtts": [
+        8.098,
+        10.055,
+        11.25
+      ],
+      "avg_rtt": 9.8,
+      "timeout": false
+    },
+    {
+      "hop": 10,
+      "ip": null,
+      "hostname": null,
+      "rtts": [],
+      "timeout": true
+    },
+    {
+      "hop": 11,
+      "ip": null,
+      "hostname": null,
+      "rtts": [],
+      "timeout": true
+    },
+    {
+      "hop": 12,
+      "ip": null,
+      "hostname": null,
+      "rtts": [],
+      "timeout": true
+    },
+    {
+      "hop": 13,
+      "ip": null,
+      "hostname": null,
+      "rtts": [],
+      "timeout": true
+    },
+    {
+      "hop": 14,
+      "ip": null,
+      "hostname": null,
+      "rtts": [],
+      "timeout": true
+    },
+    {
+      "hop": 15,
+      "ip": null,
+      "hostname": null,
+      "rtts": [],
+      "timeout": true
+    },
+    {
+      "hop": 16,
+      "ip": null,
+      "hostname": null,
+      "rtts": [],
+      "timeout": true
+    },
+    {
+      "hop": 17,
+      "ip": null,
+      "hostname": null,
+      "rtts": [],
+      "timeout": true
+    },
+    {
+      "hop": 18,
+      "ip": "10.96.81.12",
+      "hostname": "10.96.81.12",
+      "rtts": [
+        29.626
+      ],
+      "avg_rtt": 29.63,
+      "timeout": false
+    },
+    {
+      "hop": 19,
+      "ip": null,
+      "hostname": null,
+      "rtts": [],
+      "timeout": true
+    },
+    {
+      "hop": 20,
+      "ip": null,
+      "hostname": null,
+      "rtts": [],
+      "timeout": true
+    },
+    {
+      "hop": 21,
+      "ip": null,
+      "hostname": null,
+      "rtts": [],
+      "timeout": true
+    },
+    {
+      "hop": 22,
+      "ip": null,
+      "hostname": null,
+      "rtts": [],
+      "timeout": true
+    },
+    {
+      "hop": 23,
+      "ip": "10.96.81.12",
+      "hostname": "10.96.81.12",
+      "rtts": [
+        18.324,
+        24.091
+      ],
+      "avg_rtt": 21.21,
+      "timeout": false
+    }
+  ],
+  "num_hops": 22,
+  "success": false,
+  "raw_output": " 1  192.168.50.1 (192.168.50.1)  11.983 ms  3.343 ms  2.749 ms\n 2  csgate103.cs.ccu.edu.tw (140.123.103.250)  2.462 ms  12.054 ms  8.791 ms\n 3  140.123.9.249 (140.123.9.249)  9.929 ms  3.240 ms  2.696 ms\n 4  140.123.0.246 (140.123.0.246)  3.888 ms  3.643 ms  4.000 ms\n 5  140.130.252.251 (140.130.252.251)  10.021 ms  5.185 ms  6.905 ms\n 6  192.192.61.142 (192.192.61.142)  6.054 ms  7.647 ms  7.676 ms\n 7  192.192.61.37 (192.192.61.37)  11.609 ms  9.118 ms  13.785 ms\n 8  192.192.61.32 (192.192.61.32)  15.817 ms  8.187 ms  9.046 ms\n 9  192.192.61.209 (192.192.61.209)  8.098 ms  10.055 ms  11.250 ms\n10  * 10.96.81.12 (10.96.81.12)  34.689 ms !X *\n11  * 10.96.81.12 (10.96.81.12)  16.087 ms !X *\n12  * * *\n13  * * 10.96.81.12 (10.96.81.12)  18.836 ms !X\n14  * * 10.96.81.12 (10.96.81.12)  13.190 ms !X\n15  * * 10.96.81.12 (10.96.81.12)  27.541 ms !X\n16  * * *\n17  * 10.96.81.12 (10.96.81.12)  20.227 ms !X *\n18  10.96.81.12 (10.96.81.12)  29.626 ms !X * *\n19  * 10.96.81.12 (10.96.81.12)  22.510 ms !X *\n20  * * 10.96.81.12 (10.96.81.12)  17.794 ms !X\n21  * * 10.96.81.12 (10.96.81.12)  36.028 ms !X\n22  * 10.96.81.12 (10.96.81.12)  12.546 ms !X *\n23  10.96.81.12 (10.96.81.12)  18.324 ms !X *  24.091 ms !X\n",
+  "category": "government_central",
+  "base_domain": "ncc.gov.tw",
+  "service_variant": "ftp.ncc.gov.tw",
+  "is_bare_domain": false
+}

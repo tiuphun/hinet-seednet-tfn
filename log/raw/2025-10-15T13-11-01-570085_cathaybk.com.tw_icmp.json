@@ -1,0 +1,280 @@
+{
+  "timestamp": "2025-10-15T13:11:01.570085",
+  "vantage_point": "itaiwan",
+  "target": "cathaybk.com.tw",
+  "target_ip": "218.211.34.82",
+  "protocol": "icmp",
+  "port": null,
+  "duration_seconds": 18.43,
+  "hops": [
+    {
+      "hop": 2,
+      "ip": "168.95.98.254",
+      "hostname": "h254.s98.ts.hinet.net",
+      "rtts": [
+        2.703,
+        2.943,
+        2.742
+      ],
+      "avg_rtt": 2.8,
+      "timeout": false,
+      "network": "hinet",
+      "network_name": "HiNet (Chunghwa Telecom)",
+      "is_interesting": true,
+      "is_private": false
+    },
+    {
+      "hop": 3,
+      "ip": "168.95.129.46",
+      "hostname": "168-95-129-46.caw1-3332.hinet.net",
+      "rtts": [
+        3.28,
+        3.414,
+        3.515
+      ],
+      "avg_rtt": 3.4,
+      "timeout": false,
+      "network": "hinet",
+      "network_name": "HiNet (Chunghwa Telecom)",
+      "is_interesting": true,
+      "is_private": false
+    },
+    {
+      "hop": 4,
+      "ip": null,
+      "hostname": null,
+      "rtts": [],
+      "timeout": true
+    },
+    {
+      "hop": 5,
+      "ip": null,
+      "hostname": null,
+      "rtts": [],
+      "timeout": true
+    },
+    {
+      "hop": 6,
+      "ip": "220.128.2.105",
+      "hostname": "220-128-2-105.tpdb-4212.hinet.net",
+      "rtts": [
+        8.576,
+        8.496,
+        9.435
+      ],
+      "avg_rtt": 8.84,
+      "timeout": false,
+      "network": "hinet",
+      "network_name": "HiNet (Chunghwa Telecom)",
+      "is_interesting": true,
+      "is_private": false
+    },
+    {
+      "hop": 7,
+      "ip": "203.75.230.105",
+      "hostname": "203-75-230-105.hinet-ip.hinet.net",
+      "rtts": [
+        9.307,
+        9.792,
+        8.952
+      ],
+      "avg_rtt": 9.35,
+      "timeout": false,
+      "network": "hinet",
+      "network_name": "HiNet (Chunghwa Telecom)",
+      "is_interesting": true,
+      "is_private": false
+    },
+    {
+      "hop": 8,
+      "ip": "192.72.107.53",
+      "hostname": "h53-192-72-107.seed.net.tw",
+      "rtts": [
+        9.421,
+        9.56,
+        21.133
+      ],
+      "avg_rtt": 13.37,
+      "timeout": false,
+      "network": "seednet",
+      "network_name": "SEEDNet",
+      "is_interesting": true,
+      "is_private": false
+    },
+    {
+      "hop": 9,
+      "ip": "139.175.58.73",
+      "hostname": "r58-73.seed.net.tw",
+      "rtts": [
+        9.924,
+        10.499,
+        9.818
+      ],
+      "avg_rtt": 10.08,
+      "timeout": false,
+      "network": "seednet",
+      "network_name": "SEEDNet",
+      "is_interesting": true,
+      "is_private": false
+    },
+    {
+      "hop": 10,
+      "ip": "139.175.57.186",
+      "hostname": "r57-186.seed.net.tw",
+      "rtts": [
+        10.142,
+        10.096,
+        9.834
+      ],
+      "avg_rtt": 10.02,
+      "timeout": false,
+      "network": "seednet",
+      "network_name": "SEEDNet",
+      "is_interesting": true,
+      "is_private": false
+    },
+    {
+      "hop": 11,
+      "ip": "192.72.216.166",
+      "hostname": "192.72.216.166",
+      "rtts": [
+        10.096,
+        10.329,
+        10.753
+      ],
+      "avg_rtt": 10.39,
+      "timeout": false,
+      "network": "other",
+      "network_name": "Other Network",
+      "is_interesting": false,
+      "is_private": false
+    },
+    {
+      "hop": 12,
+      "ip": "220.228.20.158",
+      "hostname": "220.228.20.158",
+      "rtts": [
+        11.709,
+        10.829,
+        12.31
+      ],
+      "avg_rtt": 11.62,
+      "timeout": false,
+      "network": "other",
+      "network_name": "Other Network",
+      "is_interesting": false,
+      "is_private": false
+    },
+    {
+      "hop": 13,
+      "ip": "218.211.34.82",
+      "hostname": "ll-218-211-34-82.ll.sparqnet.net",
+      "rtts": [
+        11.381,
+        9.816,
+        11.593
+      ],
+      "avg_rtt": 10.93,
+      "timeout": false,
+      "network": "other",
+      "network_name": "Other Network",
+      "is_interesting": false,
+      "is_private": false
+    }
+  ],
+  "num_hops": 12,
+  "success": true,
+  "path_analysis": {
+    "networks_traversed": [
+      {
+        "network": "hinet",
+        "network_name": "HiNet (Chunghwa Telecom)",
+        "first_hop": 2
+      },
+      {
+        "network": "seednet",
+        "network_name": "SEEDNet",
+        "first_hop": 8
+      },
+      {
+        "network": "other",
+        "network_name": "Other Network",
+        "first_hop": 11
+      }
+    ],
+    "interesting_routers": [
+      {
+        "hop": 2,
+        "ip": "168.95.98.254",
+        "hostname": "h254.s98.ts.hinet.net",
+        "network": "hinet",
+        "network_name": "HiNet (Chunghwa Telecom)"
+      },
+      {
+        "hop": 3,
+        "ip": "168.95.129.46",
+        "hostname": "168-95-129-46.caw1-3332.hinet.net",
+        "network": "hinet",
+        "network_name": "HiNet (Chunghwa Telecom)"
+      },
+      {
+        "hop": 6,
+        "ip": "220.128.2.105",
+        "hostname": "220-128-2-105.tpdb-4212.hinet.net",
+        "network": "hinet",
+        "network_name": "HiNet (Chunghwa Telecom)"
+      },
+      {
+        "hop": 7,
+        "ip": "203.75.230.105",
+        "hostname": "203-75-230-105.hinet-ip.hinet.net",
+        "network": "hinet",
+        "network_name": "HiNet (Chunghwa Telecom)"
+      },
+      {
+        "hop": 8,
+        "ip": "192.72.107.53",
+        "hostname": "h53-192-72-107.seed.net.tw",
+        "network": "seednet",
+        "network_name": "SEEDNet"
+      },
+      {
+        "hop": 9,
+        "ip": "139.175.58.73",
+        "hostname": "r58-73.seed.net.tw",
+        "network": "seednet",
+        "network_name": "SEEDNet"
+      },
+      {
+        "hop": 10,
+        "ip": "139.175.57.186",
+        "hostname": "r57-186.seed.net.tw",
+        "network": "seednet",
+        "network_name": "SEEDNet"
+      }
+    ],
+    "private_hops": 0,
+    "total_hops": 12,
+    "network_transitions": [
+      {
+        "hop": 8,
+        "from": "hinet",
+        "to": "seednet",
+        "from_ip": "192.72.107.53",
+        "to_ip": "192.72.107.53"
+      },
+      {
+        "hop": 11,
+        "from": "seednet",
+        "to": "other",
+        "from_ip": "192.72.216.166",
+        "to_ip": "192.72.216.166"
+      }
+    ]
+  },
+  "raw_output": " 1  172.16.193.250 (172.16.193.250)  2.706 ms  1.786 ms  2.000 ms\n 2  h254.s98.ts.hinet.net (168.95.98.254)  2.703 ms  2.943 ms  2.742 ms\n 3  168-95-129-46.caw1-3332.hinet.net (168.95.129.46)  3.280 ms  3.414 ms  3.515 ms\n 4  * * *\n 5  * * *\n 6  220-128-2-105.tpdb-4212.hinet.net (220.128.2.105)  8.576 ms  8.496 ms  9.435 ms\n 7  203-75-230-105.hinet-ip.hinet.net (203.75.230.105)  9.307 ms  9.792 ms  8.952 ms\n 8  h53-192-72-107.seed.net.tw (192.72.107.53)  9.421 ms  9.560 ms  21.133 ms\n 9  r58-73.seed.net.tw (139.175.58.73)  9.924 ms  10.499 ms  9.818 ms\n10  r57-186.seed.net.tw (139.175.57.186)  10.142 ms  10.096 ms  9.834 ms\n11  192.72.216.166 (192.72.216.166)  10.096 ms  10.329 ms  10.753 ms\n12  220.228.20.158 (220.228.20.158)  11.709 ms  10.829 ms  12.310 ms\n13  ll-218-211-34-82.ll.sparqnet.net (218.211.34.82)  11.381 ms  9.816 ms  11.593 ms\n",
+  "category": "financial_banks",
+  "base_domain": "cathaybk.com.tw",
+  "service_variant": "cathaybk.com.tw",
+  "is_bare_domain": true
+}

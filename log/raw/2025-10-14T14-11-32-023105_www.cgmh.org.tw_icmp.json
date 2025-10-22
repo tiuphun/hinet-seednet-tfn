@@ -1,0 +1,168 @@
+{
+  "timestamp": "2025-10-14T14:11:32.023105",
+  "vantage_point": "cht-mobile",
+  "target": "www.cgmh.org.tw",
+  "target_ip": "3.169.36.102",
+  "protocol": "icmp",
+  "port": null,
+  "duration_seconds": 54.37,
+  "hops": [
+    {
+      "hop": 2,
+      "ip": "140.123.103.250",
+      "hostname": null,
+      "rtts": [
+        7.347,
+        3.554,
+        2.819
+      ],
+      "avg_rtt": 4.57,
+      "timeout": false
+    },
+    {
+      "hop": 3,
+      "ip": "140.123.9.249",
+      "hostname": null,
+      "rtts": [
+        2.981,
+        3.664,
+        6.249
+      ],
+      "avg_rtt": 4.3,
+      "timeout": false
+    },
+    {
+      "hop": 4,
+      "ip": "140.123.0.246",
+      "hostname": null,
+      "rtts": [
+        3.641,
+        3.52,
+        2.969
+      ],
+      "avg_rtt": 3.38,
+      "timeout": false
+    },
+    {
+      "hop": 5,
+      "ip": "140.130.252.251",
+      "hostname": null,
+      "rtts": [
+        7.649,
+        3.765,
+        4.896
+      ],
+      "avg_rtt": 5.44,
+      "timeout": false
+    },
+    {
+      "hop": 6,
+      "ip": "192.192.61.142",
+      "hostname": null,
+      "rtts": [
+        6.022,
+        5.574,
+        5.754
+      ],
+      "avg_rtt": 5.78,
+      "timeout": false
+    },
+    {
+      "hop": 7,
+      "ip": "192.192.61.20",
+      "hostname": null,
+      "rtts": [
+        10.752,
+        12.968,
+        15.277
+      ],
+      "avg_rtt": 13.0,
+      "timeout": false
+    },
+    {
+      "hop": 8,
+      "ip": "192.192.61.48",
+      "hostname": null,
+      "rtts": [
+        9.488,
+        19.08,
+        8.698
+      ],
+      "avg_rtt": 12.42,
+      "timeout": false
+    },
+    {
+      "hop": 9,
+      "ip": "192.192.68.62",
+      "hostname": null,
+      "rtts": [
+        8.237,
+        8.887,
+        8.301
+      ],
+      "avg_rtt": 8.47,
+      "timeout": false
+    },
+    {
+      "hop": 10,
+      "ip": null,
+      "hostname": null,
+      "rtts": [],
+      "timeout": true
+    },
+    {
+      "hop": 11,
+      "ip": null,
+      "hostname": null,
+      "rtts": [],
+      "timeout": true
+    },
+    {
+      "hop": 12,
+      "ip": null,
+      "hostname": null,
+      "rtts": [],
+      "timeout": true
+    },
+    {
+      "hop": 13,
+      "ip": null,
+      "hostname": null,
+      "rtts": [],
+      "timeout": true
+    },
+    {
+      "hop": 14,
+      "ip": null,
+      "hostname": null,
+      "rtts": [],
+      "timeout": true
+    },
+    {
+      "hop": 15,
+      "ip": null,
+      "hostname": null,
+      "rtts": [],
+      "timeout": true
+    },
+    {
+      "hop": 16,
+      "ip": "3.169.36.102",
+      "hostname": null,
+      "rtts": [
+        17.896,
+        14.105,
+        10.32
+      ],
+      "avg_rtt": 14.11,
+      "timeout": false
+    }
+  ],
+  "num_hops": 15,
+  "success": true,
+  "raw_output": " 1  192.168.50.1  13.288 ms  3.126 ms  2.828 ms\n 2  140.123.103.250  7.347 ms  3.554 ms  2.819 ms\n 3  140.123.9.249  2.981 ms  3.664 ms  6.249 ms\n 4  140.123.0.246  3.641 ms  3.520 ms  2.969 ms\n 5  140.130.252.251  7.649 ms  3.765 ms  4.896 ms\n 6  192.192.61.142  6.022 ms  5.574 ms  5.754 ms\n 7  192.192.61.20  10.752 ms  12.968 ms  15.277 ms\n 8  192.192.61.48  9.488 ms  19.080 ms  8.698 ms\n 9  192.192.68.62  8.237 ms  8.887 ms  8.301 ms\n10  * * *\n11  * * *\n12  * * *\n13  * * *\n14  * * *\n15  * * *\n16  3.169.36.102  17.896 ms  14.105 ms  10.320 ms\n",
+  "category": "healthcare",
+  "base_domain": "cgmh.org.tw",
+  "service_variant": "www.cgmh.org.tw",
+  "is_bare_domain": false
+}

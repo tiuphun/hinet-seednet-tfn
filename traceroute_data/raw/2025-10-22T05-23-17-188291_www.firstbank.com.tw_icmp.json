@@ -1,0 +1,263 @@
+{
+  "timestamp": "2025-10-22T05:23:17.188291",
+  "vantage_point": "university",
+  "target": "www.firstbank.com.tw",
+  "target_ip": "104.115.172.18",
+  "protocol": "icmp",
+  "port": null,
+  "duration_seconds": 65.32,
+  "hops": [
+    {
+      "hop": 2,
+      "ip": "140.123.103.250",
+      "hostname": "csgate103.cs.ccu.edu.tw",
+      "rtts": [
+        2.535,
+        2.613,
+        2.645
+      ],
+      "avg_rtt": 2.6,
+      "timeout": false
+    },
+    {
+      "hop": 3,
+      "ip": "140.123.9.249",
+      "hostname": "140.123.9.249",
+      "rtts": [
+        2.318,
+        2.928,
+        2.75
+      ],
+      "avg_rtt": 2.67,
+      "timeout": false
+    },
+    {
+      "hop": 4,
+      "ip": "140.123.0.246",
+      "hostname": "140.123.0.246",
+      "rtts": [
+        3.187,
+        4.535,
+        4.343
+      ],
+      "avg_rtt": 4.02,
+      "timeout": false
+    },
+    {
+      "hop": 5,
+      "ip": "140.130.252.251",
+      "hostname": "140.130.252.251",
+      "rtts": [
+        4.371,
+        4.16,
+        4.616
+      ],
+      "avg_rtt": 4.38,
+      "timeout": false
+    },
+    {
+      "hop": 6,
+      "ip": "192.192.61.142",
+      "hostname": "192.192.61.142",
+      "rtts": [
+        6.363,
+        5.479,
+        8.463
+      ],
+      "avg_rtt": 6.77,
+      "timeout": false
+    },
+    {
+      "hop": 7,
+      "ip": "192.192.61.20",
+      "hostname": "192.192.61.20",
+      "rtts": [
+        21.25,
+        8.404,
+        9.511
+      ],
+      "avg_rtt": 13.05,
+      "timeout": false
+    },
+    {
+      "hop": 8,
+      "ip": "192.192.61.48",
+      "hostname": "192.192.61.48",
+      "rtts": [
+        22.322,
+        9.224,
+        11.573
+      ],
+      "avg_rtt": 14.37,
+      "timeout": false
+    },
+    {
+      "hop": 9,
+      "ip": "192.192.68.62",
+      "hostname": "192.192.68.62",
+      "rtts": [
+        32.762,
+        12.636,
+        14.639
+      ],
+      "avg_rtt": 20.01,
+      "timeout": false
+    },
+    {
+      "hop": 10,
+      "ip": "65.49.108.1",
+      "hostname": "e0-11.switch2.tpe1.he.net",
+      "rtts": [
+        12.192,
+        10.553
+      ],
+      "avg_rtt": 11.37,
+      "timeout": false
+    },
+    {
+      "hop": 11,
+      "ip": "184.104.199.145",
+      "hostname": "port-channel6.core1.osa1.he.net",
+      "rtts": [
+        34.636,
+        36.453,
+        36.635
+      ],
+      "avg_rtt": 35.91,
+      "timeout": false
+    },
+    {
+      "hop": 12,
+      "ip": "184.104.188.97",
+      "hostname": "port-channel10.core2.osa1.he.net",
+      "rtts": [
+        35.789,
+        35.426,
+        36.238
+      ],
+      "avg_rtt": 35.82,
+      "timeout": false
+    },
+    {
+      "hop": 13,
+      "ip": null,
+      "hostname": null,
+      "rtts": [],
+      "timeout": true
+    },
+    {
+      "hop": 14,
+      "ip": null,
+      "hostname": null,
+      "rtts": [],
+      "timeout": true
+    },
+    {
+      "hop": 15,
+      "ip": "184.104.195.127",
+      "hostname": "port-channel1.core1.lax1.he.net",
+      "rtts": [
+        146.666,
+        140.916,
+        138.213
+      ],
+      "avg_rtt": 141.93,
+      "timeout": false
+    },
+    {
+      "hop": 16,
+      "ip": "207.45.208.18",
+      "hostname": "ix-be-40.ecore1.eql-losangeles.as6453.net",
+      "rtts": [
+        139.13,
+        139.951,
+        139.516
+      ],
+      "avg_rtt": 139.53,
+      "timeout": false
+    },
+    {
+      "hop": 17,
+      "ip": "207.45.208.48",
+      "hostname": "if-bundle-56-2.qcore1.eql-losangeles.as6453.net",
+      "rtts": [
+        186.857,
+        193.289,
+        191.151
+      ],
+      "avg_rtt": 190.43,
+      "timeout": false
+    },
+    {
+      "hop": 18,
+      "ip": null,
+      "hostname": null,
+      "rtts": [],
+      "timeout": true
+    },
+    {
+      "hop": 19,
+      "ip": null,
+      "hostname": null,
+      "rtts": [],
+      "timeout": true
+    },
+    {
+      "hop": 20,
+      "ip": null,
+      "hostname": null,
+      "rtts": [],
+      "timeout": true
+    },
+    {
+      "hop": 21,
+      "ip": null,
+      "hostname": null,
+      "rtts": [],
+      "timeout": true
+    },
+    {
+      "hop": 22,
+      "ip": "180.87.185.135",
+      "hostname": "if-ae-6-2.tcore1.yig-taipei.as6453.net",
+      "rtts": [
+        187.586,
+        186.563,
+        191.984
+      ],
+      "avg_rtt": 188.71,
+      "timeout": false
+    },
+    {
+      "hop": 23,
+      "ip": "180.87.70.7",
+      "hostname": "180.87.70.7",
+      "rtts": [
+        195.525,
+        308.452,
+        299.927
+      ],
+      "avg_rtt": 267.97,
+      "timeout": false
+    },
+    {
+      "hop": 24,
+      "ip": "104.115.172.18",
+      "hostname": "a104-115-172-18.deploy.static.akamaitechnologies.com",
+      "rtts": [
+        184.429,
+        187.608,
+        182.543
+      ],
+      "avg_rtt": 184.86,
+      "timeout": false
+    }
+  ],
+  "num_hops": 23,
+  "success": true,
+  "raw_output": " 1  192.168.50.1 (192.168.50.1)  12.461 ms  7.797 ms  2.080 ms\n 2  csgate103.cs.ccu.edu.tw (140.123.103.250)  2.535 ms  2.613 ms  2.645 ms\n 3  140.123.9.249 (140.123.9.249)  2.318 ms  2.928 ms  2.750 ms\n 4  140.123.0.246 (140.123.0.246)  3.187 ms  4.535 ms  4.343 ms\n 5  140.130.252.251 (140.130.252.251)  4.371 ms  4.160 ms  4.616 ms\n 6  192.192.61.142 (192.192.61.142)  6.363 ms  5.479 ms  8.463 ms\n 7  192.192.61.20 (192.192.61.20)  21.250 ms  8.404 ms  9.511 ms\n 8  192.192.61.48 (192.192.61.48)  22.322 ms  9.224 ms  11.573 ms\n 9  192.192.68.62 (192.192.68.62)  32.762 ms  12.636 ms  14.639 ms\n10  e0-11.switch2.tpe1.he.net (65.49.108.1)  12.192 ms *  10.553 ms\n11  port-channel6.core1.osa1.he.net (184.104.199.145)  34.636 ms  36.453 ms  36.635 ms\n12  port-channel10.core2.osa1.he.net (184.104.188.97)  35.789 ms  35.426 ms  36.238 ms\n13  * * *\n14  * port-channel8.core2.lax1.he.net (184.104.197.109)  146.322 ms  138.175 ms\n15  port-channel1.core1.lax1.he.net (184.104.195.127)  146.666 ms  140.916 ms  138.213 ms\n16  ix-be-40.ecore1.eql-losangeles.as6453.net (207.45.208.18)  139.130 ms  139.951 ms  139.516 ms\n17  if-bundle-56-2.qcore1.eql-losangeles.as6453.net (207.45.208.48)  186.857 ms  193.289 ms  191.151 ms\n18  * * *\n19  * * *\n20  * * if-bundle-2-2.qcore1.kv8-chiba.as6453.net (116.0.74.22)  200.104 ms\n21  * * *\n22  if-ae-6-2.tcore1.yig-taipei.as6453.net (180.87.185.135)  187.586 ms  186.563 ms  191.984 ms\n23  180.87.70.7 (180.87.70.7)  195.525 ms  308.452 ms  299.927 ms\n24  a104-115-172-18.deploy.static.akamaitechnologies.com (104.115.172.18)  184.429 ms  187.608 ms  182.543 ms\n",
+  "category": "financial_banks",
+  "base_domain": "firstbank.com.tw",
+  "service_variant": "www.firstbank.com.tw",
+  "is_bare_domain": false
+}

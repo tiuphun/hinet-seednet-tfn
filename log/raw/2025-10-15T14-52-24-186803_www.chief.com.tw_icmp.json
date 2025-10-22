@@ -1,0 +1,243 @@
+{
+  "timestamp": "2025-10-15T14:52:24.186803",
+  "vantage_point": "itaiwan",
+  "target": "www.chief.com.tw",
+  "target_ip": "202.55.247.128",
+  "protocol": "icmp",
+  "port": null,
+  "duration_seconds": 18.42,
+  "hops": [
+    {
+      "hop": 2,
+      "ip": "168.95.98.254",
+      "hostname": "h254.s98.ts.hinet.net",
+      "rtts": [
+        3.605,
+        3.156,
+        3.985
+      ],
+      "avg_rtt": 3.58,
+      "timeout": false,
+      "network": "hinet",
+      "network_name": "HiNet (Chunghwa Telecom)",
+      "is_interesting": true,
+      "is_private": false
+    },
+    {
+      "hop": 3,
+      "ip": "168.95.129.54",
+      "hostname": "168-95-129-54.caw1-3332.hinet.net",
+      "rtts": [
+        3.443,
+        3.765,
+        3.143
+      ],
+      "avg_rtt": 3.45,
+      "timeout": false,
+      "network": "hinet",
+      "network_name": "HiNet (Chunghwa Telecom)",
+      "is_interesting": true,
+      "is_private": false
+    },
+    {
+      "hop": 4,
+      "ip": null,
+      "hostname": null,
+      "rtts": [],
+      "timeout": true
+    },
+    {
+      "hop": 5,
+      "ip": null,
+      "hostname": null,
+      "rtts": [],
+      "timeout": true
+    },
+    {
+      "hop": 6,
+      "ip": "220.128.2.129",
+      "hostname": "220-128-2-129.tpdb-4512.hinet.net",
+      "rtts": [
+        9.143,
+        9.223,
+        8.682
+      ],
+      "avg_rtt": 9.02,
+      "timeout": false,
+      "network": "hinet",
+      "network_name": "HiNet (Chunghwa Telecom)",
+      "is_interesting": true,
+      "is_private": false
+    },
+    {
+      "hop": 7,
+      "ip": "203.75.229.113",
+      "hostname": "203-75-229-113.hinet-ip.hinet.net",
+      "rtts": [
+        9.99,
+        10.956,
+        10.661
+      ],
+      "avg_rtt": 10.54,
+      "timeout": false,
+      "network": "hinet",
+      "network_name": "HiNet (Chunghwa Telecom)",
+      "is_interesting": true,
+      "is_private": false
+    },
+    {
+      "hop": 8,
+      "ip": "103.123.253.13",
+      "hostname": "13-253-123-103-static.chief.net.tw",
+      "rtts": [
+        9.735,
+        9.407,
+        10.042
+      ],
+      "avg_rtt": 9.73,
+      "timeout": false,
+      "network": "chief",
+      "network_name": "Chief Telecom",
+      "is_interesting": true,
+      "is_private": false
+    },
+    {
+      "hop": 9,
+      "ip": "113.21.86.217",
+      "hostname": "217-86-21-113-static.chief.net.tw",
+      "rtts": [
+        9.816,
+        9.461,
+        9.05
+      ],
+      "avg_rtt": 9.44,
+      "timeout": false,
+      "network": "chief",
+      "network_name": "Chief Telecom",
+      "is_interesting": true,
+      "is_private": false
+    },
+    {
+      "hop": 10,
+      "ip": "113.21.86.218",
+      "hostname": "218-86-21-113-static.chief.net.tw",
+      "rtts": [
+        9.613,
+        9.675,
+        9.089
+      ],
+      "avg_rtt": 9.46,
+      "timeout": false,
+      "network": "chief",
+      "network_name": "Chief Telecom",
+      "is_interesting": true,
+      "is_private": false
+    },
+    {
+      "hop": 11,
+      "ip": "202.55.247.128",
+      "hostname": "128-247-55-202-static.chief.net.tw",
+      "rtts": [
+        9.645,
+        15.385,
+        10.028
+      ],
+      "avg_rtt": 11.69,
+      "timeout": false,
+      "network": "chief",
+      "network_name": "Chief Telecom",
+      "is_interesting": true,
+      "is_private": false
+    }
+  ],
+  "num_hops": 10,
+  "success": true,
+  "path_analysis": {
+    "networks_traversed": [
+      {
+        "network": "hinet",
+        "network_name": "HiNet (Chunghwa Telecom)",
+        "first_hop": 2
+      },
+      {
+        "network": "chief",
+        "network_name": "Chief Telecom",
+        "first_hop": 8
+      }
+    ],
+    "interesting_routers": [
+      {
+        "hop": 2,
+        "ip": "168.95.98.254",
+        "hostname": "h254.s98.ts.hinet.net",
+        "network": "hinet",
+        "network_name": "HiNet (Chunghwa Telecom)"
+      },
+      {
+        "hop": 3,
+        "ip": "168.95.129.54",
+        "hostname": "168-95-129-54.caw1-3332.hinet.net",
+        "network": "hinet",
+        "network_name": "HiNet (Chunghwa Telecom)"
+      },
+      {
+        "hop": 6,
+        "ip": "220.128.2.129",
+        "hostname": "220-128-2-129.tpdb-4512.hinet.net",
+        "network": "hinet",
+        "network_name": "HiNet (Chunghwa Telecom)"
+      },
+      {
+        "hop": 7,
+        "ip": "203.75.229.113",
+        "hostname": "203-75-229-113.hinet-ip.hinet.net",
+        "network": "hinet",
+        "network_name": "HiNet (Chunghwa Telecom)"
+      },
+      {
+        "hop": 8,
+        "ip": "103.123.253.13",
+        "hostname": "13-253-123-103-static.chief.net.tw",
+        "network": "chief",
+        "network_name": "Chief Telecom"
+      },
+      {
+        "hop": 9,
+        "ip": "113.21.86.217",
+        "hostname": "217-86-21-113-static.chief.net.tw",
+        "network": "chief",
+        "network_name": "Chief Telecom"
+      },
+      {
+        "hop": 10,
+        "ip": "113.21.86.218",
+        "hostname": "218-86-21-113-static.chief.net.tw",
+        "network": "chief",
+        "network_name": "Chief Telecom"
+      },
+      {
+        "hop": 11,
+        "ip": "202.55.247.128",
+        "hostname": "128-247-55-202-static.chief.net.tw",
+        "network": "chief",
+        "network_name": "Chief Telecom"
+      }
+    ],
+    "private_hops": 0,
+    "total_hops": 10,
+    "network_transitions": [
+      {
+        "hop": 8,
+        "from": "hinet",
+        "to": "chief",
+        "from_ip": "103.123.253.13",
+        "to_ip": "103.123.253.13"
+      }
+    ]
+  },
+  "raw_output": " 1  172.16.193.250 (172.16.193.250)  2.925 ms  2.512 ms  2.530 ms\n 2  h254.s98.ts.hinet.net (168.95.98.254)  3.605 ms  3.156 ms  3.985 ms\n 3  168-95-129-54.caw1-3332.hinet.net (168.95.129.54)  3.443 ms  3.765 ms  3.143 ms\n 4  * * *\n 5  * * *\n 6  220-128-2-129.tpdb-4512.hinet.net (220.128.2.129)  9.143 ms  9.223 ms  8.682 ms\n 7  203-75-229-113.hinet-ip.hinet.net (203.75.229.113)  9.990 ms  10.956 ms  10.661 ms\n 8  13-253-123-103-static.chief.net.tw (103.123.253.13)  9.735 ms  9.407 ms  10.042 ms\n 9  217-86-21-113-static.chief.net.tw (113.21.86.217)  9.816 ms  9.461 ms  9.050 ms\n10  218-86-21-113-static.chief.net.tw (113.21.86.218)  9.613 ms  9.675 ms  9.089 ms\n11  128-247-55-202-static.chief.net.tw (202.55.247.128)  9.645 ms  15.385 ms  10.028 ms\n",
+  "category": "telecom",
+  "base_domain": "chief.com.tw",
+  "service_variant": "www.chief.com.tw",
+  "is_bare_domain": false
+}

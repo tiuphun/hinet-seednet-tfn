@@ -1,0 +1,149 @@
+{
+  "timestamp": "2025-10-14T18:54:18.584860",
+  "vantage_point": "university",
+  "target": "ns1.kmuh.org.tw",
+  "target_ip": "61.221.186.21",
+  "protocol": "icmp",
+  "port": null,
+  "duration_seconds": 45.27,
+  "hops": [
+    {
+      "hop": 2,
+      "ip": "140.123.103.250",
+      "hostname": null,
+      "rtts": [
+        2.588,
+        2.367,
+        2.263
+      ],
+      "avg_rtt": 2.41,
+      "timeout": false
+    },
+    {
+      "hop": 3,
+      "ip": "140.123.9.249",
+      "hostname": null,
+      "rtts": [
+        2.447,
+        6.237,
+        2.638
+      ],
+      "avg_rtt": 3.77,
+      "timeout": false
+    },
+    {
+      "hop": 4,
+      "ip": "140.123.0.246",
+      "hostname": null,
+      "rtts": [
+        4.397,
+        3.317,
+        4.355
+      ],
+      "avg_rtt": 4.02,
+      "timeout": false
+    },
+    {
+      "hop": 5,
+      "ip": "140.130.252.251",
+      "hostname": null,
+      "rtts": [
+        3.872,
+        4.147,
+        5.299
+      ],
+      "avg_rtt": 4.44,
+      "timeout": false
+    },
+    {
+      "hop": 6,
+      "ip": "211.22.226.198",
+      "hostname": null,
+      "rtts": [
+        5.366,
+        4.147,
+        4.405
+      ],
+      "avg_rtt": 4.64,
+      "timeout": false
+    },
+    {
+      "hop": 7,
+      "ip": null,
+      "hostname": null,
+      "rtts": [],
+      "timeout": true
+    },
+    {
+      "hop": 8,
+      "ip": "220.128.25.117",
+      "hostname": null,
+      "rtts": [
+        18.339,
+        8.753,
+        6.578
+      ],
+      "avg_rtt": 11.22,
+      "timeout": false
+    },
+    {
+      "hop": 9,
+      "ip": "168.95.208.221",
+      "hostname": null,
+      "rtts": [
+        9.554,
+        6.204,
+        5.787
+      ],
+      "avg_rtt": 7.18,
+      "timeout": false
+    },
+    {
+      "hop": 10,
+      "ip": null,
+      "hostname": null,
+      "rtts": [],
+      "timeout": true
+    },
+    {
+      "hop": 11,
+      "ip": null,
+      "hostname": null,
+      "rtts": [],
+      "timeout": true
+    },
+    {
+      "hop": 12,
+      "ip": null,
+      "hostname": null,
+      "rtts": [],
+      "timeout": true
+    },
+    {
+      "hop": 13,
+      "ip": null,
+      "hostname": null,
+      "rtts": [],
+      "timeout": true
+    },
+    {
+      "hop": 14,
+      "ip": "61.221.186.21",
+      "hostname": null,
+      "rtts": [
+        17.096,
+        10.342,
+        12.911
+      ],
+      "avg_rtt": 13.45,
+      "timeout": false
+    }
+  ],
+  "num_hops": 13,
+  "success": true,
+  "raw_output": " 1  192.168.50.1  9.267 ms  2.253 ms  3.534 ms\n 2  140.123.103.250  2.588 ms  2.367 ms  2.263 ms\n 3  140.123.9.249  2.447 ms  6.237 ms  2.638 ms\n 4  140.123.0.246  4.397 ms  3.317 ms  4.355 ms\n 5  140.130.252.251  3.872 ms  4.147 ms  5.299 ms\n 6  211.22.226.198  5.366 ms  4.147 ms  4.405 ms\n 7  * * *\n 8  220.128.25.117  18.339 ms  8.753 ms  6.578 ms\n 9  168.95.208.221  9.554 ms  6.204 ms  5.787 ms\n10  * * *\n11  * * *\n12  * * *\n13  * * *\n14  61.221.186.21  17.096 ms  10.342 ms  12.911 ms\n",
+  "category": "healthcare",
+  "base_domain": "kmuh.org.tw",
+  "service_variant": "ns1.kmuh.org.tw",
+  "is_bare_domain": false
+}

@@ -1,0 +1,140 @@
+{
+  "timestamp": "2025-10-22T05:58:44.115983",
+  "vantage_point": "university",
+  "target": "mail.twse.com.tw",
+  "target_ip": "202.39.145.9",
+  "protocol": "icmp",
+  "port": null,
+  "duration_seconds": 18.38,
+  "hops": [
+    {
+      "hop": 2,
+      "ip": "140.123.103.250",
+      "hostname": "csgate103.cs.ccu.edu.tw",
+      "rtts": [
+        2.61,
+        2.916,
+        2.635
+      ],
+      "avg_rtt": 2.72,
+      "timeout": false
+    },
+    {
+      "hop": 3,
+      "ip": "140.123.9.249",
+      "hostname": "140.123.9.249",
+      "rtts": [
+        3.096,
+        2.776,
+        5.144
+      ],
+      "avg_rtt": 3.67,
+      "timeout": false
+    },
+    {
+      "hop": 4,
+      "ip": "140.123.0.246",
+      "hostname": "140.123.0.246",
+      "rtts": [
+        3.465,
+        3.554,
+        9.74
+      ],
+      "avg_rtt": 5.59,
+      "timeout": false
+    },
+    {
+      "hop": 5,
+      "ip": "140.130.252.251",
+      "hostname": "140.130.252.251",
+      "rtts": [
+        19.224,
+        5.268,
+        4.014
+      ],
+      "avg_rtt": 9.5,
+      "timeout": false
+    },
+    {
+      "hop": 6,
+      "ip": "211.22.226.198",
+      "hostname": "211-22-226-198.caw1-3332.hinet.net",
+      "rtts": [
+        4.305,
+        5.281,
+        6.452
+      ],
+      "avg_rtt": 5.35,
+      "timeout": false
+    },
+    {
+      "hop": 7,
+      "ip": null,
+      "hostname": null,
+      "rtts": [],
+      "timeout": true
+    },
+    {
+      "hop": 8,
+      "ip": null,
+      "hostname": null,
+      "rtts": [],
+      "timeout": true
+    },
+    {
+      "hop": 9,
+      "ip": "220.128.2.213",
+      "hostname": "220-128-2-213.tpdb-3316.hinet.net",
+      "rtts": [
+        23.755,
+        12.025,
+        13.721
+      ],
+      "avg_rtt": 16.5,
+      "timeout": false
+    },
+    {
+      "hop": 10,
+      "ip": "203.75.188.61",
+      "hostname": "tp-s2-c6r15.router.hinet.net",
+      "rtts": [
+        10.558,
+        11.148,
+        10.415
+      ],
+      "avg_rtt": 10.71,
+      "timeout": false
+    },
+    {
+      "hop": 11,
+      "ip": "202.39.35.65",
+      "hostname": "202-39-35-65.hinet-ip.hinet.net",
+      "rtts": [
+        16.412,
+        15.289,
+        12.755
+      ],
+      "avg_rtt": 14.82,
+      "timeout": false
+    },
+    {
+      "hop": 12,
+      "ip": "202.39.145.9",
+      "hostname": "202-39-145-9.hinet-ip.hinet.net",
+      "rtts": [
+        23.104,
+        11.82,
+        13.873
+      ],
+      "avg_rtt": 16.27,
+      "timeout": false
+    }
+  ],
+  "num_hops": 11,
+  "success": true,
+  "raw_output": " 1  192.168.50.1 (192.168.50.1)  45.136 ms  4.545 ms  2.394 ms\n 2  csgate103.cs.ccu.edu.tw (140.123.103.250)  2.610 ms  2.916 ms  2.635 ms\n 3  140.123.9.249 (140.123.9.249)  3.096 ms  2.776 ms  5.144 ms\n 4  140.123.0.246 (140.123.0.246)  3.465 ms  3.554 ms  9.740 ms\n 5  140.130.252.251 (140.130.252.251)  19.224 ms  5.268 ms  4.014 ms\n 6  211-22-226-198.caw1-3332.hinet.net (211.22.226.198)  4.305 ms  5.281 ms  6.452 ms\n 7  * * *\n 8  * * *\n 9  220-128-2-213.tpdb-3316.hinet.net (220.128.2.213)  23.755 ms  12.025 ms  13.721 ms\n10  tp-s2-c6r15.router.hinet.net (203.75.188.61)  10.558 ms  11.148 ms  10.415 ms\n11  202-39-35-65.hinet-ip.hinet.net (202.39.35.65)  16.412 ms  15.289 ms  12.755 ms\n12  202-39-145-9.hinet-ip.hinet.net (202.39.145.9)  23.104 ms  11.820 ms  13.873 ms\n",
+  "category": "financial_infra",
+  "base_domain": "twse.com.tw",
+  "service_variant": "mail.twse.com.tw",
+  "is_bare_domain": false
+}

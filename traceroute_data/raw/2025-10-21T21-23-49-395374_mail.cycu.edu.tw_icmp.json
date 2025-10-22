@@ -1,0 +1,150 @@
+{
+  "timestamp": "2025-10-21T21:23:49.395374",
+  "vantage_point": "university",
+  "target": "mail.cycu.edu.tw",
+  "target_ip": "140.135.66.65",
+  "protocol": "icmp",
+  "port": null,
+  "duration_seconds": 0.42,
+  "hops": [
+    {
+      "hop": 2,
+      "ip": "140.123.103.250",
+      "hostname": "csgate103.cs.ccu.edu.tw",
+      "rtts": [
+        3.99,
+        6.394,
+        4.688
+      ],
+      "avg_rtt": 5.02,
+      "timeout": false
+    },
+    {
+      "hop": 3,
+      "ip": "140.123.9.249",
+      "hostname": "140.123.9.249",
+      "rtts": [
+        5.213,
+        5.304,
+        2.899
+      ],
+      "avg_rtt": 4.47,
+      "timeout": false
+    },
+    {
+      "hop": 4,
+      "ip": "140.123.0.246",
+      "hostname": "140.123.0.246",
+      "rtts": [
+        4.254,
+        4.208,
+        4.36
+      ],
+      "avg_rtt": 4.27,
+      "timeout": false
+    },
+    {
+      "hop": 5,
+      "ip": "211.79.57.25",
+      "hostname": "ccu-ccu-76.twaren.net",
+      "rtts": [
+        8.656,
+        8.843,
+        6.048
+      ],
+      "avg_rtt": 7.85,
+      "timeout": false
+    },
+    {
+      "hop": 6,
+      "ip": "211.73.76.209",
+      "hostname": "tn-a1.twaren.net",
+      "rtts": [
+        6.257,
+        10.245,
+        9.208
+      ],
+      "avg_rtt": 8.57,
+      "timeout": false
+    },
+    {
+      "hop": 7,
+      "ip": "211.73.76.198",
+      "hostname": "tn-a2.twaren.net",
+      "rtts": [
+        13.094,
+        24.506,
+        23.557
+      ],
+      "avg_rtt": 20.39,
+      "timeout": false
+    },
+    {
+      "hop": 8,
+      "ip": "211.73.76.141",
+      "hostname": "hc-a2.twaren.net",
+      "rtts": [
+        9.863,
+        12.671,
+        9.268
+      ],
+      "avg_rtt": 10.6,
+      "timeout": false
+    },
+    {
+      "hop": 9,
+      "ip": "211.73.76.150",
+      "hostname": "ncu-a1.twaren.net",
+      "rtts": [
+        9.943,
+        12.849,
+        15.305
+      ],
+      "avg_rtt": 12.7,
+      "timeout": false
+    },
+    {
+      "hop": 10,
+      "ip": "211.79.51.74",
+      "hostname": "cycu_ncu-a1.twaren.net",
+      "rtts": [
+        16.35,
+        9.359,
+        10.712
+      ],
+      "avg_rtt": 12.14,
+      "timeout": false
+    },
+    {
+      "hop": 11,
+      "ip": "140.135.1.30",
+      "hostname": "140.135.1.30",
+      "rtts": [
+        11.057,
+        10.021,
+        9.905
+      ],
+      "avg_rtt": 10.33,
+      "timeout": false
+    },
+    {
+      "hop": 12,
+      "ip": "140.135.66.65",
+      "hostname": "mail.cycu.edu.tw",
+      "rtts": [
+        14.371,
+        9.807,
+        11.848
+      ],
+      "avg_rtt": 12.01,
+      "timeout": false
+    }
+  ],
+  "num_hops": 11,
+  "success": true,
+  "raw_output": " 1  192.168.50.1 (192.168.50.1)  14.839 ms  3.924 ms  3.823 ms\n 2  csgate103.cs.ccu.edu.tw (140.123.103.250)  3.990 ms  6.394 ms  4.688 ms\n 3  140.123.9.249 (140.123.9.249)  5.213 ms  5.304 ms  2.899 ms\n 4  140.123.0.246 (140.123.0.246)  4.254 ms  4.208 ms  4.360 ms\n 5  ccu-ccu-76.twaren.net (211.79.57.25)  8.656 ms  8.843 ms  6.048 ms\n 6  tn-a1.twaren.net (211.73.76.209)  6.257 ms  10.245 ms  9.208 ms\n 7  tn-a2.twaren.net (211.73.76.198)  13.094 ms  24.506 ms  23.557 ms\n 8  hc-a2.twaren.net (211.73.76.141)  9.863 ms  12.671 ms  9.268 ms\n 9  ncu-a1.twaren.net (211.73.76.150)  9.943 ms  12.849 ms  15.305 ms\n10  cycu_ncu-a1.twaren.net (211.79.51.74)  16.350 ms  9.359 ms  10.712 ms\n11  140.135.1.30 (140.135.1.30)  11.057 ms  10.021 ms  9.905 ms\n12  mail.cycu.edu.tw (140.135.66.65)  14.371 ms  9.807 ms  11.848 ms\n",
+  "category": "universities",
+  "base_domain": "cycu.edu.tw",
+  "service_variant": "mail.cycu.edu.tw",
+  "is_bare_domain": false
+}

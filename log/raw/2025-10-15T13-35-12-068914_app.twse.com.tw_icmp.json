@@ -1,0 +1,237 @@
+{
+  "timestamp": "2025-10-15T13:35:12.068914",
+  "vantage_point": "itaiwan",
+  "target": "app.twse.com.tw",
+  "target_ip": "163.29.17.173",
+  "protocol": "icmp",
+  "port": null,
+  "duration_seconds": 27.47,
+  "hops": [
+    {
+      "hop": 2,
+      "ip": "168.95.98.254",
+      "hostname": "h254.s98.ts.hinet.net",
+      "rtts": [
+        3.037,
+        3.291,
+        3.002
+      ],
+      "avg_rtt": 3.11,
+      "timeout": false,
+      "network": "hinet",
+      "network_name": "HiNet (Chunghwa Telecom)",
+      "is_interesting": true,
+      "is_private": false
+    },
+    {
+      "hop": 3,
+      "ip": "168.95.128.46",
+      "hostname": "168-95-128-46.caw1-3331.hinet.net",
+      "rtts": [
+        3.985,
+        4.442,
+        3.31
+      ],
+      "avg_rtt": 3.91,
+      "timeout": false,
+      "network": "hinet",
+      "network_name": "HiNet (Chunghwa Telecom)",
+      "is_interesting": true,
+      "is_private": false
+    },
+    {
+      "hop": 4,
+      "ip": null,
+      "hostname": null,
+      "rtts": [],
+      "timeout": true
+    },
+    {
+      "hop": 5,
+      "ip": null,
+      "hostname": null,
+      "rtts": [],
+      "timeout": true
+    },
+    {
+      "hop": 6,
+      "ip": "220.128.4.201",
+      "hostname": "220-128-4-201.tpdt-3310.hinet.net",
+      "rtts": [
+        10.298,
+        10.441,
+        9.756
+      ],
+      "avg_rtt": 10.17,
+      "timeout": false,
+      "network": "hinet",
+      "network_name": "HiNet (Chunghwa Telecom)",
+      "is_interesting": true,
+      "is_private": false
+    },
+    {
+      "hop": 7,
+      "ip": "168.95.211.29",
+      "hostname": "h29.s211.ts.hinet.net",
+      "rtts": [
+        9.91,
+        9.99,
+        9.652
+      ],
+      "avg_rtt": 9.85,
+      "timeout": false,
+      "network": "hinet",
+      "network_name": "HiNet (Chunghwa Telecom)",
+      "is_interesting": true,
+      "is_private": false
+    },
+    {
+      "hop": 8,
+      "ip": null,
+      "hostname": null,
+      "rtts": [],
+      "timeout": true
+    },
+    {
+      "hop": 9,
+      "ip": "210.69.250.126",
+      "hostname": "210-69-250-126.hinet-ip.hinet.net",
+      "rtts": [
+        12.206,
+        9.999,
+        9.785
+      ],
+      "avg_rtt": 10.66,
+      "timeout": false,
+      "network": "hinet",
+      "network_name": "HiNet (Chunghwa Telecom)",
+      "is_interesting": true,
+      "is_private": false
+    },
+    {
+      "hop": 10,
+      "ip": "210.69.250.49",
+      "hostname": "210-69-250-49.hinet-ip.hinet.net",
+      "rtts": [
+        10.769,
+        9.406,
+        9.519
+      ],
+      "avg_rtt": 9.9,
+      "timeout": false,
+      "network": "hinet",
+      "network_name": "HiNet (Chunghwa Telecom)",
+      "is_interesting": true,
+      "is_private": false
+    },
+    {
+      "hop": 11,
+      "ip": "163.29.183.89",
+      "hostname": "163-29-183-89.hinet-ip.hinet.net",
+      "rtts": [
+        9.359,
+        11.631,
+        9.579
+      ],
+      "avg_rtt": 10.19,
+      "timeout": false,
+      "network": "hinet",
+      "network_name": "HiNet (Chunghwa Telecom)",
+      "is_interesting": true,
+      "is_private": false
+    },
+    {
+      "hop": 12,
+      "ip": "163.29.17.173",
+      "hostname": "163-29-17-173.hinet-ip.hinet.net",
+      "rtts": [
+        10.798,
+        10.068,
+        10.678
+      ],
+      "avg_rtt": 10.51,
+      "timeout": false,
+      "network": "hinet",
+      "network_name": "HiNet (Chunghwa Telecom)",
+      "is_interesting": true,
+      "is_private": false
+    }
+  ],
+  "num_hops": 11,
+  "success": true,
+  "path_analysis": {
+    "networks_traversed": [
+      {
+        "network": "hinet",
+        "network_name": "HiNet (Chunghwa Telecom)",
+        "first_hop": 2
+      }
+    ],
+    "interesting_routers": [
+      {
+        "hop": 2,
+        "ip": "168.95.98.254",
+        "hostname": "h254.s98.ts.hinet.net",
+        "network": "hinet",
+        "network_name": "HiNet (Chunghwa Telecom)"
+      },
+      {
+        "hop": 3,
+        "ip": "168.95.128.46",
+        "hostname": "168-95-128-46.caw1-3331.hinet.net",
+        "network": "hinet",
+        "network_name": "HiNet (Chunghwa Telecom)"
+      },
+      {
+        "hop": 6,
+        "ip": "220.128.4.201",
+        "hostname": "220-128-4-201.tpdt-3310.hinet.net",
+        "network": "hinet",
+        "network_name": "HiNet (Chunghwa Telecom)"
+      },
+      {
+        "hop": 7,
+        "ip": "168.95.211.29",
+        "hostname": "h29.s211.ts.hinet.net",
+        "network": "hinet",
+        "network_name": "HiNet (Chunghwa Telecom)"
+      },
+      {
+        "hop": 9,
+        "ip": "210.69.250.126",
+        "hostname": "210-69-250-126.hinet-ip.hinet.net",
+        "network": "hinet",
+        "network_name": "HiNet (Chunghwa Telecom)"
+      },
+      {
+        "hop": 10,
+        "ip": "210.69.250.49",
+        "hostname": "210-69-250-49.hinet-ip.hinet.net",
+        "network": "hinet",
+        "network_name": "HiNet (Chunghwa Telecom)"
+      },
+      {
+        "hop": 11,
+        "ip": "163.29.183.89",
+        "hostname": "163-29-183-89.hinet-ip.hinet.net",
+        "network": "hinet",
+        "network_name": "HiNet (Chunghwa Telecom)"
+      },
+      {
+        "hop": 12,
+        "ip": "163.29.17.173",
+        "hostname": "163-29-17-173.hinet-ip.hinet.net",
+        "network": "hinet",
+        "network_name": "HiNet (Chunghwa Telecom)"
+      }
+    ],
+    "private_hops": 0,
+    "total_hops": 11,
+    "network_transitions": []
+  },
+  "raw_output": " 1  172.16.193.250 (172.16.193.250)  3.145 ms  2.638 ms  2.365 ms\n 2  h254.s98.ts.hinet.net (168.95.98.254)  3.037 ms  3.291 ms  3.002 ms\n 3  168-95-128-46.caw1-3331.hinet.net (168.95.128.46)  3.985 ms  4.442 ms  3.310 ms\n 4  * * *\n 5  * * *\n 6  220-128-4-201.tpdt-3310.hinet.net (220.128.4.201)  10.298 ms  10.441 ms  9.756 ms\n 7  h29.s211.ts.hinet.net (168.95.211.29)  9.910 ms  9.990 ms  9.652 ms\n 8  * * *\n 9  210-69-250-126.hinet-ip.hinet.net (210.69.250.126)  12.206 ms  9.999 ms  9.785 ms\n10  210-69-250-49.hinet-ip.hinet.net (210.69.250.49)  10.769 ms  9.406 ms  9.519 ms\n11  163-29-183-89.hinet-ip.hinet.net (163.29.183.89)  9.359 ms  11.631 ms  9.579 ms\n12  163-29-17-173.hinet-ip.hinet.net (163.29.17.173)  10.798 ms  10.068 ms  10.678 ms\n",
+  "category": "financial_infra",
+  "base_domain": "twse.com.tw",
+  "service_variant": "app.twse.com.tw",
+  "is_bare_domain": false
+}

@@ -1,0 +1,162 @@
+{
+  "timestamp": "2025-10-22T06:46:09.722717",
+  "vantage_point": "university",
+  "target": "ptt.cc",
+  "target_ip": "140.112.172.5",
+  "protocol": "icmp",
+  "port": null,
+  "duration_seconds": 4.35,
+  "hops": [
+    {
+      "hop": 2,
+      "ip": "140.123.103.250",
+      "hostname": "csgate103.cs.ccu.edu.tw",
+      "rtts": [
+        2.48,
+        2.37,
+        4.912
+      ],
+      "avg_rtt": 3.25,
+      "timeout": false
+    },
+    {
+      "hop": 3,
+      "ip": "140.123.9.249",
+      "hostname": "140.123.9.249",
+      "rtts": [
+        2.37,
+        2.249,
+        2.111
+      ],
+      "avg_rtt": 2.24,
+      "timeout": false
+    },
+    {
+      "hop": 4,
+      "ip": "140.123.0.246",
+      "hostname": "140.123.0.246",
+      "rtts": [
+        2.801,
+        3.637,
+        2.843
+      ],
+      "avg_rtt": 3.09,
+      "timeout": false
+    },
+    {
+      "hop": 5,
+      "ip": "140.130.252.251",
+      "hostname": "140.130.252.251",
+      "rtts": [
+        4.263,
+        3.462,
+        6.041
+      ],
+      "avg_rtt": 4.59,
+      "timeout": false
+    },
+    {
+      "hop": 6,
+      "ip": "192.192.61.142",
+      "hostname": "192.192.61.142",
+      "rtts": [
+        5.409,
+        7.581,
+        8.471
+      ],
+      "avg_rtt": 7.15,
+      "timeout": false
+    },
+    {
+      "hop": 7,
+      "ip": "192.192.61.20",
+      "hostname": "192.192.61.20",
+      "rtts": [
+        13.926,
+        12.571,
+        14.629
+      ],
+      "avg_rtt": 13.71,
+      "timeout": false
+    },
+    {
+      "hop": 8,
+      "ip": "192.192.61.81",
+      "hostname": "192.192.61.81",
+      "rtts": [
+        12.725,
+        8.128,
+        8.159
+      ],
+      "avg_rtt": 9.67,
+      "timeout": false
+    },
+    {
+      "hop": 9,
+      "ip": "140.112.0.69",
+      "hostname": "wan0069.cc.ntu.edu.tw",
+      "rtts": [
+        9.601,
+        8.432,
+        10.194
+      ],
+      "avg_rtt": 9.41,
+      "timeout": false
+    },
+    {
+      "hop": 10,
+      "ip": "10.199.199.2",
+      "hostname": "10.199.199.2",
+      "rtts": [
+        10.463,
+        9.418,
+        8.927
+      ],
+      "avg_rtt": 9.6,
+      "timeout": false
+    },
+    {
+      "hop": 11,
+      "ip": "140.112.0.201",
+      "hostname": "core_wan_0201.cc.ntu.edu.tw",
+      "rtts": [
+        7.77,
+        7.886,
+        7.817
+      ],
+      "avg_rtt": 7.82,
+      "timeout": false
+    },
+    {
+      "hop": 12,
+      "ip": "140.112.0.173",
+      "hostname": "140.112.0.173",
+      "rtts": [
+        8.233,
+        8.195,
+        9.489
+      ],
+      "avg_rtt": 8.64,
+      "timeout": false
+    },
+    {
+      "hop": 13,
+      "ip": "140.112.172.5",
+      "hostname": "e.ptt.cc",
+      "rtts": [
+        8.602,
+        10.657,
+        20.058
+      ],
+      "avg_rtt": 13.11,
+      "timeout": false
+    }
+  ],
+  "num_hops": 12,
+  "success": true,
+  "raw_output": " 1  192.168.50.1 (192.168.50.1)  3.080 ms  2.192 ms  1.998 ms\n 2  csgate103.cs.ccu.edu.tw (140.123.103.250)  2.480 ms  2.370 ms  4.912 ms\n 3  140.123.9.249 (140.123.9.249)  2.370 ms  2.249 ms  2.111 ms\n 4  140.123.0.246 (140.123.0.246)  2.801 ms  3.637 ms  2.843 ms\n 5  140.130.252.251 (140.130.252.251)  4.263 ms  3.462 ms  6.041 ms\n 6  192.192.61.142 (192.192.61.142)  5.409 ms  7.581 ms  8.471 ms\n 7  192.192.61.20 (192.192.61.20)  13.926 ms  12.571 ms  14.629 ms\n 8  192.192.61.81 (192.192.61.81)  12.725 ms  8.128 ms  8.159 ms\n 9  wan0069.cc.ntu.edu.tw (140.112.0.69)  9.601 ms  8.432 ms  10.194 ms\n10  10.199.199.2 (10.199.199.2)  10.463 ms  9.418 ms  8.927 ms\n11  core_wan_0201.cc.ntu.edu.tw (140.112.0.201)  7.770 ms  7.886 ms  7.817 ms\n12  140.112.0.173 (140.112.0.173)  8.233 ms  8.195 ms  9.489 ms\n13  e.ptt.cc (140.112.172.5)  8.602 ms  10.657 ms  20.058 ms\n",
+  "category": "ecommerce_tech",
+  "base_domain": "ptt.cc",
+  "service_variant": "ptt.cc",
+  "is_bare_domain": true
+}

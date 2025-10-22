@@ -1,0 +1,133 @@
+{
+  "timestamp": "2025-10-21T09:35:39.301152",
+  "vantage_point": "university",
+  "target": "www.ey.gov.tw",
+  "target_ip": "203.66.34.33",
+  "protocol": "icmp",
+  "port": null,
+  "duration_seconds": 9.26,
+  "hops": [
+    {
+      "hop": 2,
+      "ip": "140.123.103.250",
+      "hostname": "csgate103.cs.ccu.edu.tw",
+      "rtts": [
+        2.635,
+        2.369,
+        2.348
+      ],
+      "avg_rtt": 2.45,
+      "timeout": false
+    },
+    {
+      "hop": 3,
+      "ip": "140.123.9.249",
+      "hostname": "140.123.9.249",
+      "rtts": [
+        2.355,
+        2.553,
+        2.503
+      ],
+      "avg_rtt": 2.47,
+      "timeout": false
+    },
+    {
+      "hop": 4,
+      "ip": "140.123.0.246",
+      "hostname": "140.123.0.246",
+      "rtts": [
+        3.078,
+        3.455,
+        3.38
+      ],
+      "avg_rtt": 3.3,
+      "timeout": false
+    },
+    {
+      "hop": 5,
+      "ip": "140.130.252.251",
+      "hostname": "140.130.252.251",
+      "rtts": [
+        3.636,
+        3.732,
+        3.55
+      ],
+      "avg_rtt": 3.64,
+      "timeout": false
+    },
+    {
+      "hop": 6,
+      "ip": "211.22.226.198",
+      "hostname": "211-22-226-198.caw1-3332.hinet.net",
+      "rtts": [
+        12.601,
+        4.016,
+        4.11
+      ],
+      "avg_rtt": 6.91,
+      "timeout": false
+    },
+    {
+      "hop": 7,
+      "ip": null,
+      "hostname": null,
+      "rtts": [],
+      "timeout": true
+    },
+    {
+      "hop": 8,
+      "ip": "220.128.19.22",
+      "hostname": "220-128-19-22.chch-3032.hinet.net",
+      "rtts": [
+        11.845,
+        8.621,
+        8.98
+      ],
+      "avg_rtt": 9.82,
+      "timeout": false
+    },
+    {
+      "hop": 9,
+      "ip": "220.128.20.61",
+      "hostname": "220-128-20-61.chch-3331.hinet.net",
+      "rtts": [
+        9.152,
+        8.645,
+        8.74
+      ],
+      "avg_rtt": 8.85,
+      "timeout": false
+    },
+    {
+      "hop": 10,
+      "ip": "211.22.228.141",
+      "hostname": "pths-3502.hinet.net",
+      "rtts": [
+        7.951,
+        8.357,
+        7.775
+      ],
+      "avg_rtt": 8.03,
+      "timeout": false
+    },
+    {
+      "hop": 11,
+      "ip": "203.66.34.33",
+      "hostname": "203-66-34-33.hinet-ip.hinet.net",
+      "rtts": [
+        7.757,
+        7.919,
+        7.869
+      ],
+      "avg_rtt": 7.85,
+      "timeout": false
+    }
+  ],
+  "num_hops": 10,
+  "success": true,
+  "raw_output": " 1  192.168.50.1 (192.168.50.1)  2.589 ms  2.173 ms  2.090 ms\n 2  csgate103.cs.ccu.edu.tw (140.123.103.250)  2.635 ms  2.369 ms  2.348 ms\n 3  140.123.9.249 (140.123.9.249)  2.355 ms  2.553 ms  2.503 ms\n 4  140.123.0.246 (140.123.0.246)  3.078 ms  3.455 ms  3.380 ms\n 5  140.130.252.251 (140.130.252.251)  3.636 ms  3.732 ms  3.550 ms\n 6  211-22-226-198.caw1-3332.hinet.net (211.22.226.198)  12.601 ms  4.016 ms  4.110 ms\n 7  * * *\n 8  220-128-19-22.chch-3032.hinet.net (220.128.19.22)  11.845 ms  8.621 ms  8.980 ms\n 9  220-128-20-61.chch-3331.hinet.net (220.128.20.61)  9.152 ms  8.645 ms  8.740 ms\n10  pths-3502.hinet.net (211.22.228.141)  7.951 ms  8.357 ms  7.775 ms\n11  203-66-34-33.hinet-ip.hinet.net (203.66.34.33)  7.757 ms  7.919 ms  7.869 ms\n",
+  "category": "government_central",
+  "base_domain": "ey.gov.tw",
+  "service_variant": "www.ey.gov.tw",
+  "is_bare_domain": false
+}

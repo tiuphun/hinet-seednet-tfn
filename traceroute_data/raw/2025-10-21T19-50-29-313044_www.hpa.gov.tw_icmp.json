@@ -1,0 +1,125 @@
+{
+  "timestamp": "2025-10-21T19:50:29.313044",
+  "vantage_point": "university",
+  "target": "www.hpa.gov.tw",
+  "target_ip": "210.241.78.32",
+  "protocol": "icmp",
+  "port": null,
+  "duration_seconds": 3.26,
+  "hops": [
+    {
+      "hop": 2,
+      "ip": "140.123.103.250",
+      "hostname": "csgate103.cs.ccu.edu.tw",
+      "rtts": [
+        6.028,
+        4.711,
+        5.522
+      ],
+      "avg_rtt": 5.42,
+      "timeout": false
+    },
+    {
+      "hop": 3,
+      "ip": "140.123.9.249",
+      "hostname": "140.123.9.249",
+      "rtts": [
+        6.537,
+        4.541,
+        2.659
+      ],
+      "avg_rtt": 4.58,
+      "timeout": false
+    },
+    {
+      "hop": 4,
+      "ip": "140.123.0.246",
+      "hostname": "140.123.0.246",
+      "rtts": [
+        3.337,
+        6.334,
+        3.188
+      ],
+      "avg_rtt": 4.29,
+      "timeout": false
+    },
+    {
+      "hop": 5,
+      "ip": "140.130.252.251",
+      "hostname": "140.130.252.251",
+      "rtts": [
+        9.474,
+        6.163,
+        3.796
+      ],
+      "avg_rtt": 6.48,
+      "timeout": false
+    },
+    {
+      "hop": 6,
+      "ip": "192.192.61.142",
+      "hostname": "192.192.61.142",
+      "rtts": [
+        8.131,
+        6.789,
+        5.944
+      ],
+      "avg_rtt": 6.95,
+      "timeout": false
+    },
+    {
+      "hop": 7,
+      "ip": "192.192.61.37",
+      "hostname": "192.192.61.37",
+      "rtts": [
+        7.28,
+        9.428,
+        17.28
+      ],
+      "avg_rtt": 11.33,
+      "timeout": false
+    },
+    {
+      "hop": 8,
+      "ip": "192.192.61.32",
+      "hostname": "192.192.61.32",
+      "rtts": [
+        8.328,
+        9.476,
+        8.031
+      ],
+      "avg_rtt": 8.61,
+      "timeout": false
+    },
+    {
+      "hop": 9,
+      "ip": "192.192.61.209",
+      "hostname": "192.192.61.209",
+      "rtts": [
+        8.103,
+        10.352,
+        9.302
+      ],
+      "avg_rtt": 9.25,
+      "timeout": false
+    },
+    {
+      "hop": 10,
+      "ip": "10.96.81.12",
+      "hostname": "10.96.81.12",
+      "rtts": [
+        10.21,
+        9.755
+      ],
+      "avg_rtt": 9.98,
+      "timeout": false
+    }
+  ],
+  "num_hops": 9,
+  "success": false,
+  "raw_output": " 1  192.168.50.1 (192.168.50.1)  18.791 ms  2.286 ms  2.112 ms\n 2  csgate103.cs.ccu.edu.tw (140.123.103.250)  6.028 ms  4.711 ms  5.522 ms\n 3  140.123.9.249 (140.123.9.249)  6.537 ms  4.541 ms  2.659 ms\n 4  140.123.0.246 (140.123.0.246)  3.337 ms  6.334 ms  3.188 ms\n 5  140.130.252.251 (140.130.252.251)  9.474 ms  6.163 ms  3.796 ms\n 6  192.192.61.142 (192.192.61.142)  8.131 ms  6.789 ms  5.944 ms\n 7  192.192.61.37 (192.192.61.37)  7.280 ms  9.428 ms  17.280 ms\n 8  192.192.61.32 (192.192.61.32)  8.328 ms  9.476 ms  8.031 ms\n 9  192.192.61.209 (192.192.61.209)  8.103 ms  10.352 ms  9.302 ms\n10  10.96.81.12 (10.96.81.12)  10.210 ms !X *  9.755 ms !X\n",
+  "category": "government_critical",
+  "base_domain": "hpa.gov.tw",
+  "service_variant": "www.hpa.gov.tw",
+  "is_bare_domain": false
+}

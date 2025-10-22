@@ -1,0 +1,150 @@
+{
+  "timestamp": "2025-10-21T22:35:53.126009",
+  "vantage_point": "university",
+  "target": "ns1.tdcc.com.tw",
+  "target_ip": "124.9.52.90",
+  "protocol": "icmp",
+  "port": null,
+  "duration_seconds": 0.47,
+  "hops": [
+    {
+      "hop": 2,
+      "ip": "140.123.103.250",
+      "hostname": "csgate103.cs.ccu.edu.tw",
+      "rtts": [
+        4.122,
+        2.929,
+        3.437
+      ],
+      "avg_rtt": 3.5,
+      "timeout": false
+    },
+    {
+      "hop": 3,
+      "ip": "140.123.9.249",
+      "hostname": "140.123.9.249",
+      "rtts": [
+        2.658,
+        2.938,
+        3.134
+      ],
+      "avg_rtt": 2.91,
+      "timeout": false
+    },
+    {
+      "hop": 4,
+      "ip": "140.123.0.246",
+      "hostname": "140.123.0.246",
+      "rtts": [
+        5.617,
+        3.147,
+        2.962
+      ],
+      "avg_rtt": 3.91,
+      "timeout": false
+    },
+    {
+      "hop": 5,
+      "ip": "140.130.252.251",
+      "hostname": "140.130.252.251",
+      "rtts": [
+        4.272,
+        3.996,
+        3.701
+      ],
+      "avg_rtt": 3.99,
+      "timeout": false
+    },
+    {
+      "hop": 6,
+      "ip": "61.31.254.69",
+      "hostname": "61-31-254-69.static.tfn.net.tw",
+      "rtts": [
+        6.285,
+        17.116,
+        8.845
+      ],
+      "avg_rtt": 10.75,
+      "timeout": false
+    },
+    {
+      "hop": 7,
+      "ip": "60.199.27.121",
+      "hostname": "60-199-27-121.static.tfn.net.tw",
+      "rtts": [
+        12.564,
+        13.189,
+        5.811
+      ],
+      "avg_rtt": 10.52,
+      "timeout": false
+    },
+    {
+      "hop": 8,
+      "ip": "60.199.28.185",
+      "hostname": "60-199-28-185.static.tfn.net.tw",
+      "rtts": [
+        9.828,
+        10.983,
+        9.699
+      ],
+      "avg_rtt": 10.17,
+      "timeout": false
+    },
+    {
+      "hop": 9,
+      "ip": "60.199.28.121",
+      "hostname": "60-199-28-121.static.tfn.net.tw",
+      "rtts": [
+        10.113,
+        13.31,
+        12.465
+      ],
+      "avg_rtt": 11.96,
+      "timeout": false
+    },
+    {
+      "hop": 10,
+      "ip": "60.199.5.130",
+      "hostname": "60-199-5-130.static.tfn.net.tw",
+      "rtts": [
+        21.875,
+        12.684,
+        20.16
+      ],
+      "avg_rtt": 18.24,
+      "timeout": false
+    },
+    {
+      "hop": 11,
+      "ip": "219.81.17.38",
+      "hostname": "219-81-17-38.static.tfn.net.tw",
+      "rtts": [
+        11.616,
+        13.063,
+        16.404
+      ],
+      "avg_rtt": 13.69,
+      "timeout": false
+    },
+    {
+      "hop": 12,
+      "ip": "124.9.52.90",
+      "hostname": "124-9-52-90.static.tfn.net.tw",
+      "rtts": [
+        15.161,
+        14.477,
+        11.851
+      ],
+      "avg_rtt": 13.83,
+      "timeout": false
+    }
+  ],
+  "num_hops": 11,
+  "success": true,
+  "raw_output": " 1  192.168.50.1 (192.168.50.1)  2.866 ms  5.596 ms  6.965 ms\n 2  csgate103.cs.ccu.edu.tw (140.123.103.250)  4.122 ms  2.929 ms  3.437 ms\n 3  140.123.9.249 (140.123.9.249)  2.658 ms  2.938 ms  3.134 ms\n 4  140.123.0.246 (140.123.0.246)  5.617 ms  3.147 ms  2.962 ms\n 5  140.130.252.251 (140.130.252.251)  4.272 ms  3.996 ms  3.701 ms\n 6  61-31-254-69.static.tfn.net.tw (61.31.254.69)  6.285 ms  17.116 ms  8.845 ms\n 7  60-199-27-121.static.tfn.net.tw (60.199.27.121)  12.564 ms  13.189 ms  5.811 ms\n 8  60-199-28-185.static.tfn.net.tw (60.199.28.185)  9.828 ms  10.983 ms  9.699 ms\n 9  60-199-28-121.static.tfn.net.tw (60.199.28.121)  10.113 ms  13.310 ms  12.465 ms\n10  60-199-5-130.static.tfn.net.tw (60.199.5.130)  21.875 ms  12.684 ms  20.160 ms\n11  219-81-17-38.static.tfn.net.tw (219.81.17.38)  11.616 ms  13.063 ms  16.404 ms\n12  124-9-52-90.static.tfn.net.tw (124.9.52.90)  15.161 ms  14.477 ms  11.851 ms\n",
+  "category": "financial_infra",
+  "base_domain": "tdcc.com.tw",
+  "service_variant": "ns1.tdcc.com.tw",
+  "is_bare_domain": false
+}

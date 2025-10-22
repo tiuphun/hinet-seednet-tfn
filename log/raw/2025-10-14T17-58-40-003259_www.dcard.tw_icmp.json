@@ -1,0 +1,138 @@
+{
+  "timestamp": "2025-10-14T17:58:40.003259",
+  "vantage_point": "university",
+  "target": "www.dcard.tw",
+  "target_ip": "104.19.247.7",
+  "protocol": "icmp",
+  "port": null,
+  "duration_seconds": 0.24,
+  "hops": [
+    {
+      "hop": 2,
+      "ip": "140.123.103.250",
+      "hostname": null,
+      "rtts": [
+        5.17,
+        3.325,
+        2.661
+      ],
+      "avg_rtt": 3.72,
+      "timeout": false
+    },
+    {
+      "hop": 3,
+      "ip": "140.123.9.249",
+      "hostname": null,
+      "rtts": [
+        2.435,
+        2.252,
+        2.312
+      ],
+      "avg_rtt": 2.33,
+      "timeout": false
+    },
+    {
+      "hop": 4,
+      "ip": "140.123.0.246",
+      "hostname": null,
+      "rtts": [
+        3.257,
+        5.162,
+        3.914
+      ],
+      "avg_rtt": 4.11,
+      "timeout": false
+    },
+    {
+      "hop": 5,
+      "ip": "140.130.252.251",
+      "hostname": null,
+      "rtts": [
+        4.831,
+        5.593,
+        3.93
+      ],
+      "avg_rtt": 4.78,
+      "timeout": false
+    },
+    {
+      "hop": 6,
+      "ip": "192.192.61.142",
+      "hostname": null,
+      "rtts": [
+        5.808,
+        5.736,
+        6.318
+      ],
+      "avg_rtt": 5.95,
+      "timeout": false
+    },
+    {
+      "hop": 7,
+      "ip": "192.192.61.20",
+      "hostname": null,
+      "rtts": [
+        8.517,
+        7.955,
+        7.018
+      ],
+      "avg_rtt": 7.83,
+      "timeout": false
+    },
+    {
+      "hop": 8,
+      "ip": "192.192.61.48",
+      "hostname": null,
+      "rtts": [
+        8.111,
+        12.097,
+        11.498
+      ],
+      "avg_rtt": 10.57,
+      "timeout": false
+    },
+    {
+      "hop": 9,
+      "ip": "192.192.68.62",
+      "hostname": null,
+      "rtts": [
+        10.82,
+        7.971,
+        10.841
+      ],
+      "avg_rtt": 9.88,
+      "timeout": false
+    },
+    {
+      "hop": 10,
+      "ip": "203.163.222.39",
+      "hostname": null,
+      "rtts": [
+        9.317,
+        13.322,
+        8.877
+      ],
+      "avg_rtt": 10.51,
+      "timeout": false
+    },
+    {
+      "hop": 11,
+      "ip": "104.19.247.7",
+      "hostname": null,
+      "rtts": [
+        9.19,
+        8.396,
+        7.96
+      ],
+      "avg_rtt": 8.52,
+      "timeout": false
+    }
+  ],
+  "num_hops": 10,
+  "success": true,
+  "raw_output": " 1  192.168.50.1  11.192 ms  3.114 ms  2.216 ms\n 2  140.123.103.250  5.170 ms  3.325 ms  2.661 ms\n 3  140.123.9.249  2.435 ms  2.252 ms  2.312 ms\n 4  140.123.0.246  3.257 ms  5.162 ms  3.914 ms\n 5  140.130.252.251  4.831 ms  5.593 ms  3.930 ms\n 6  192.192.61.142  5.808 ms  5.736 ms  6.318 ms\n 7  192.192.61.20  8.517 ms  7.955 ms  7.018 ms\n 8  192.192.61.48  8.111 ms  12.097 ms  11.498 ms\n 9  192.192.68.62  10.820 ms  7.971 ms  10.841 ms\n10  203.163.222.39  9.317 ms  13.322 ms  8.877 ms\n11  104.19.247.7  9.190 ms  8.396 ms  7.960 ms\n",
+  "category": "ecommerce_tech",
+  "base_domain": "dcard.tw",
+  "service_variant": "www.dcard.tw",
+  "is_bare_domain": false
+}

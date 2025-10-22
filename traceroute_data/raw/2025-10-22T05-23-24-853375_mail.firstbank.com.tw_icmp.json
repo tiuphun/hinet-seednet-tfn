@@ -1,0 +1,210 @@
+{
+  "timestamp": "2025-10-22T05:23:24.853375",
+  "vantage_point": "university",
+  "target": "mail.firstbank.com.tw",
+  "target_ip": "61.67.7.197",
+  "protocol": "icmp",
+  "port": null,
+  "duration_seconds": 4.58,
+  "hops": [
+    {
+      "hop": 2,
+      "ip": "140.123.103.250",
+      "hostname": "csgate103.cs.ccu.edu.tw",
+      "rtts": [
+        2.344,
+        2.312,
+        2.254
+      ],
+      "avg_rtt": 2.3,
+      "timeout": false
+    },
+    {
+      "hop": 3,
+      "ip": "140.123.9.249",
+      "hostname": "140.123.9.249",
+      "rtts": [
+        2.192,
+        4.814,
+        3.54
+      ],
+      "avg_rtt": 3.52,
+      "timeout": false
+    },
+    {
+      "hop": 4,
+      "ip": "140.123.0.246",
+      "hostname": "140.123.0.246",
+      "rtts": [
+        3.156,
+        3.425,
+        4.042
+      ],
+      "avg_rtt": 3.54,
+      "timeout": false
+    },
+    {
+      "hop": 5,
+      "ip": "140.130.252.251",
+      "hostname": "140.130.252.251",
+      "rtts": [
+        3.293,
+        3.447,
+        3.804
+      ],
+      "avg_rtt": 3.51,
+      "timeout": false
+    },
+    {
+      "hop": 6,
+      "ip": "61.31.254.69",
+      "hostname": "61-31-254-69.static.tfn.net.tw",
+      "rtts": [
+        8.251,
+        15.27,
+        14.159
+      ],
+      "avg_rtt": 12.56,
+      "timeout": false
+    },
+    {
+      "hop": 7,
+      "ip": "60.199.27.121",
+      "hostname": "60-199-27-121.static.tfn.net.tw",
+      "rtts": [
+        10.764,
+        5.623,
+        6.064
+      ],
+      "avg_rtt": 7.48,
+      "timeout": false
+    },
+    {
+      "hop": 8,
+      "ip": "60.199.82.97",
+      "hostname": "60-199-82-97.static.tfn.net.tw",
+      "rtts": [
+        10.607,
+        13.683,
+        10.895
+      ],
+      "avg_rtt": 11.73,
+      "timeout": false
+    },
+    {
+      "hop": 9,
+      "ip": "60.199.21.1",
+      "hostname": "60-199-21-1.static.tfn.net.tw",
+      "rtts": [
+        11.347,
+        17.216,
+        9.7
+      ],
+      "avg_rtt": 12.75,
+      "timeout": false
+    },
+    {
+      "hop": 10,
+      "ip": "61.31.254.62",
+      "hostname": "61-31-254-62.static.tfn.net.tw",
+      "rtts": [
+        10.979,
+        10.741,
+        11.567
+      ],
+      "avg_rtt": 11.1,
+      "timeout": false
+    },
+    {
+      "hop": 11,
+      "ip": "139.175.57.107",
+      "hostname": "r57-107.seed.net.tw",
+      "rtts": [
+        11.389,
+        11.833,
+        34.979
+      ],
+      "avg_rtt": 19.4,
+      "timeout": false
+    },
+    {
+      "hop": 12,
+      "ip": "139.175.57.218",
+      "hostname": "r57-218.seed.net.tw",
+      "rtts": [
+        15.498,
+        13.254,
+        17.959
+      ],
+      "avg_rtt": 15.57,
+      "timeout": false
+    },
+    {
+      "hop": 13,
+      "ip": "192.72.107.98",
+      "hostname": "h98-192-72-107.seed.net.tw",
+      "rtts": [
+        11.314,
+        18.441,
+        22.838
+      ],
+      "avg_rtt": 17.53,
+      "timeout": false
+    },
+    {
+      "hop": 14,
+      "ip": "220.228.20.70",
+      "hostname": "220.228.20.70",
+      "rtts": [
+        16.716,
+        11.769,
+        12.834
+      ],
+      "avg_rtt": 13.77,
+      "timeout": false
+    },
+    {
+      "hop": 15,
+      "ip": "61.67.3.242",
+      "hostname": "h242.c3.gtbc.com.tw",
+      "rtts": [
+        18.45,
+        21.306,
+        15.818
+      ],
+      "avg_rtt": 18.52,
+      "timeout": false
+    },
+    {
+      "hop": 16,
+      "ip": "10.10.1.1",
+      "hostname": "10.10.1.1",
+      "rtts": [
+        26.314,
+        16.105,
+        12.915
+      ],
+      "avg_rtt": 18.44,
+      "timeout": false
+    },
+    {
+      "hop": 17,
+      "ip": "61.67.7.197",
+      "hostname": "mail.firstbank.com.tw",
+      "rtts": [
+        23.412,
+        12.08,
+        12.415
+      ],
+      "avg_rtt": 15.97,
+      "timeout": false
+    }
+  ],
+  "num_hops": 16,
+  "success": true,
+  "raw_output": " 1  * 192.168.50.1 (192.168.50.1)  2.277 ms  2.088 ms\n 2  csgate103.cs.ccu.edu.tw (140.123.103.250)  2.344 ms  2.312 ms  2.254 ms\n 3  140.123.9.249 (140.123.9.249)  2.192 ms  4.814 ms  3.540 ms\n 4  140.123.0.246 (140.123.0.246)  3.156 ms  3.425 ms  4.042 ms\n 5  140.130.252.251 (140.130.252.251)  3.293 ms  3.447 ms  3.804 ms\n 6  61-31-254-69.static.tfn.net.tw (61.31.254.69)  8.251 ms  15.270 ms  14.159 ms\n 7  60-199-27-121.static.tfn.net.tw (60.199.27.121)  10.764 ms  5.623 ms  6.064 ms\n 8  60-199-82-97.static.tfn.net.tw (60.199.82.97)  10.607 ms  13.683 ms  10.895 ms\n 9  60-199-21-1.static.tfn.net.tw (60.199.21.1)  11.347 ms  17.216 ms  9.700 ms\n10  61-31-254-62.static.tfn.net.tw (61.31.254.62)  10.979 ms  10.741 ms  11.567 ms\n11  r57-107.seed.net.tw (139.175.57.107)  11.389 ms  11.833 ms  34.979 ms\n12  r57-218.seed.net.tw (139.175.57.218)  15.498 ms  13.254 ms  17.959 ms\n13  h98-192-72-107.seed.net.tw (192.72.107.98)  11.314 ms  18.441 ms  22.838 ms\n14  220.228.20.70 (220.228.20.70)  16.716 ms  11.769 ms  12.834 ms\n15  h242.c3.gtbc.com.tw (61.67.3.242)  18.450 ms  21.306 ms  15.818 ms\n16  10.10.1.1 (10.10.1.1)  26.314 ms  16.105 ms  12.915 ms\n17  mail.firstbank.com.tw (61.67.7.197)  23.412 ms  12.080 ms  12.415 ms\n",
+  "category": "financial_banks",
+  "base_domain": "firstbank.com.tw",
+  "service_variant": "mail.firstbank.com.tw",
+  "is_bare_domain": false
+}

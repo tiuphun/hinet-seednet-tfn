@@ -1,0 +1,138 @@
+{
+  "timestamp": "2025-10-21T14:15:35.537520",
+  "vantage_point": "university",
+  "target": "pchome.com.tw",
+  "target_ip": "34.110.144.106",
+  "protocol": "icmp",
+  "port": null,
+  "duration_seconds": 0.42,
+  "hops": [
+    {
+      "hop": 2,
+      "ip": "140.123.103.250",
+      "hostname": "csgate103.cs.ccu.edu.tw",
+      "rtts": [
+        9.706,
+        6.504,
+        3.12
+      ],
+      "avg_rtt": 6.44,
+      "timeout": false
+    },
+    {
+      "hop": 3,
+      "ip": "140.123.9.249",
+      "hostname": "140.123.9.249",
+      "rtts": [
+        3.447,
+        6.222,
+        4.124
+      ],
+      "avg_rtt": 4.6,
+      "timeout": false
+    },
+    {
+      "hop": 4,
+      "ip": "140.123.0.246",
+      "hostname": "140.123.0.246",
+      "rtts": [
+        6.906,
+        7.94,
+        2.613
+      ],
+      "avg_rtt": 5.82,
+      "timeout": false
+    },
+    {
+      "hop": 5,
+      "ip": "140.130.252.251",
+      "hostname": "140.130.252.251",
+      "rtts": [
+        3.762,
+        3.234,
+        5.533
+      ],
+      "avg_rtt": 4.18,
+      "timeout": false
+    },
+    {
+      "hop": 6,
+      "ip": "192.192.61.142",
+      "hostname": "192.192.61.142",
+      "rtts": [
+        5.46,
+        5.44,
+        8.155
+      ],
+      "avg_rtt": 6.35,
+      "timeout": false
+    },
+    {
+      "hop": 7,
+      "ip": "192.192.61.20",
+      "hostname": "192.192.61.20",
+      "rtts": [
+        12.198,
+        23.577,
+        20.606
+      ],
+      "avg_rtt": 18.79,
+      "timeout": false
+    },
+    {
+      "hop": 8,
+      "ip": "192.192.61.184",
+      "hostname": "192.192.61.184",
+      "rtts": [
+        16.161,
+        7.999,
+        11.256
+      ],
+      "avg_rtt": 11.81,
+      "timeout": false
+    },
+    {
+      "hop": 9,
+      "ip": "192.192.61.203",
+      "hostname": "192.192.61.203",
+      "rtts": [
+        17.897,
+        10.948,
+        13.673
+      ],
+      "avg_rtt": 14.17,
+      "timeout": false
+    },
+    {
+      "hop": 10,
+      "ip": "72.14.196.229",
+      "hostname": "72.14.196.229",
+      "rtts": [
+        14.035,
+        9.715,
+        15.95
+      ],
+      "avg_rtt": 13.23,
+      "timeout": false
+    },
+    {
+      "hop": 11,
+      "ip": "34.110.144.106",
+      "hostname": "106.144.110.34.bc.googleusercontent.com",
+      "rtts": [
+        10.105,
+        8.265,
+        8.576
+      ],
+      "avg_rtt": 8.98,
+      "timeout": false
+    }
+  ],
+  "num_hops": 10,
+  "success": true,
+  "raw_output": " 1  192.168.50.1 (192.168.50.1)  2.451 ms  1.860 ms  12.087 ms\n 2  csgate103.cs.ccu.edu.tw (140.123.103.250)  9.706 ms  6.504 ms  3.120 ms\n 3  140.123.9.249 (140.123.9.249)  3.447 ms  6.222 ms  4.124 ms\n 4  140.123.0.246 (140.123.0.246)  6.906 ms  7.940 ms  2.613 ms\n 5  140.130.252.251 (140.130.252.251)  3.762 ms  3.234 ms  5.533 ms\n 6  192.192.61.142 (192.192.61.142)  5.460 ms  5.440 ms  8.155 ms\n 7  192.192.61.20 (192.192.61.20)  12.198 ms  23.577 ms  20.606 ms\n 8  192.192.61.184 (192.192.61.184)  16.161 ms  7.999 ms  11.256 ms\n 9  192.192.61.203 (192.192.61.203)  17.897 ms  10.948 ms  13.673 ms\n10  72.14.196.229 (72.14.196.229)  14.035 ms  9.715 ms  15.950 ms\n11  106.144.110.34.bc.googleusercontent.com (34.110.144.106)  10.105 ms  8.265 ms  8.576 ms\n",
+  "category": "ecommerce_tech",
+  "base_domain": "pchome.com.tw",
+  "service_variant": "pchome.com.tw",
+  "is_bare_domain": true
+}

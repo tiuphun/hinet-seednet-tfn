@@ -1,0 +1,114 @@
+{
+  "timestamp": "2025-10-21T12:03:12.056900",
+  "vantage_point": "university",
+  "target": "www.bot.com.tw",
+  "target_ip": "163.28.5.105",
+  "protocol": "icmp",
+  "port": null,
+  "duration_seconds": 0.21,
+  "hops": [
+    {
+      "hop": 2,
+      "ip": "140.123.103.250",
+      "hostname": "csgate103.cs.ccu.edu.tw",
+      "rtts": [
+        1.967,
+        1.954,
+        2.051
+      ],
+      "avg_rtt": 1.99,
+      "timeout": false
+    },
+    {
+      "hop": 3,
+      "ip": "140.123.9.249",
+      "hostname": "140.123.9.249",
+      "rtts": [
+        1.96,
+        1.994,
+        2.108
+      ],
+      "avg_rtt": 2.02,
+      "timeout": false
+    },
+    {
+      "hop": 4,
+      "ip": "140.123.0.246",
+      "hostname": "140.123.0.246",
+      "rtts": [
+        2.761,
+        2.632,
+        2.591
+      ],
+      "avg_rtt": 2.66,
+      "timeout": false
+    },
+    {
+      "hop": 5,
+      "ip": "140.130.252.251",
+      "hostname": "140.130.252.251",
+      "rtts": [
+        3.161,
+        3.213,
+        3.419
+      ],
+      "avg_rtt": 3.26,
+      "timeout": false
+    },
+    {
+      "hop": 6,
+      "ip": "192.192.61.142",
+      "hostname": "192.192.61.142",
+      "rtts": [
+        4.85,
+        5.189,
+        5.208
+      ],
+      "avg_rtt": 5.08,
+      "timeout": false
+    },
+    {
+      "hop": 7,
+      "ip": "192.192.61.20",
+      "hostname": "192.192.61.20",
+      "rtts": [
+        6.708,
+        6.516,
+        6.769
+      ],
+      "avg_rtt": 6.66,
+      "timeout": false
+    },
+    {
+      "hop": 8,
+      "ip": "192.192.61.48",
+      "hostname": "192.192.61.48",
+      "rtts": [
+        7.586,
+        7.556,
+        7.462
+      ],
+      "avg_rtt": 7.53,
+      "timeout": false
+    },
+    {
+      "hop": 9,
+      "ip": "163.28.5.105",
+      "hostname": "163.28.5.105",
+      "rtts": [
+        6.745,
+        6.868,
+        6.914
+      ],
+      "avg_rtt": 6.84,
+      "timeout": false
+    }
+  ],
+  "num_hops": 8,
+  "success": true,
+  "raw_output": " 1  192.168.50.1 (192.168.50.1)  2.034 ms  1.753 ms  1.705 ms\n 2  csgate103.cs.ccu.edu.tw (140.123.103.250)  1.967 ms  1.954 ms  2.051 ms\n 3  140.123.9.249 (140.123.9.249)  1.960 ms  1.994 ms  2.108 ms\n 4  140.123.0.246 (140.123.0.246)  2.761 ms  2.632 ms  2.591 ms\n 5  140.130.252.251 (140.130.252.251)  3.161 ms  3.213 ms  3.419 ms\n 6  192.192.61.142 (192.192.61.142)  4.850 ms  5.189 ms  5.208 ms\n 7  192.192.61.20 (192.192.61.20)  6.708 ms  6.516 ms  6.769 ms\n 8  192.192.61.48 (192.192.61.48)  7.586 ms  7.556 ms  7.462 ms\n 9  163.28.5.105 (163.28.5.105)  6.745 ms  6.868 ms  6.914 ms\n",
+  "category": "financial_banks",
+  "base_domain": "bot.com.tw",
+  "service_variant": "www.bot.com.tw",
+  "is_bare_domain": false
+}

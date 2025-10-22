@@ -1,0 +1,177 @@
+{
+  "timestamp": "2025-10-15T11:28:04.066985",
+  "vantage_point": "itaiwan",
+  "target": "www.chcg.gov.tw",
+  "target_ip": "203.66.34.45",
+  "protocol": "icmp",
+  "port": null,
+  "duration_seconds": 9.21,
+  "hops": [
+    {
+      "hop": 2,
+      "ip": "168.95.98.254",
+      "hostname": "h254.s98.ts.hinet.net",
+      "rtts": [
+        2.789,
+        2.772,
+        2.796
+      ],
+      "avg_rtt": 2.79,
+      "timeout": false,
+      "network": "hinet",
+      "network_name": "HiNet (Chunghwa Telecom)",
+      "is_interesting": true,
+      "is_private": false
+    },
+    {
+      "hop": 3,
+      "ip": "168.95.129.46",
+      "hostname": "168-95-129-46.caw1-3332.hinet.net",
+      "rtts": [
+        3.147,
+        2.949,
+        3.013
+      ],
+      "avg_rtt": 3.04,
+      "timeout": false,
+      "network": "hinet",
+      "network_name": "HiNet (Chunghwa Telecom)",
+      "is_interesting": true,
+      "is_private": false
+    },
+    {
+      "hop": 4,
+      "ip": null,
+      "hostname": null,
+      "rtts": [],
+      "timeout": true
+    },
+    {
+      "hop": 5,
+      "ip": "220.128.19.22",
+      "hostname": "220-128-19-22.chch-3032.hinet.net",
+      "rtts": [
+        12.159,
+        7.45,
+        7.602
+      ],
+      "avg_rtt": 9.07,
+      "timeout": false,
+      "network": "hinet",
+      "network_name": "HiNet (Chunghwa Telecom)",
+      "is_interesting": true,
+      "is_private": false
+    },
+    {
+      "hop": 6,
+      "ip": "220.128.20.17",
+      "hostname": "220-128-20-17.chch-3331.hinet.net",
+      "rtts": [
+        7.54,
+        8.086,
+        7.736
+      ],
+      "avg_rtt": 7.79,
+      "timeout": false,
+      "network": "hinet",
+      "network_name": "HiNet (Chunghwa Telecom)",
+      "is_interesting": true,
+      "is_private": false
+    },
+    {
+      "hop": 7,
+      "ip": "211.22.228.141",
+      "hostname": "pths-3502.hinet.net",
+      "rtts": [
+        7.868,
+        7.151,
+        7.097
+      ],
+      "avg_rtt": 7.37,
+      "timeout": false,
+      "network": "hinet",
+      "network_name": "HiNet (Chunghwa Telecom)",
+      "is_interesting": true,
+      "is_private": false
+    },
+    {
+      "hop": 8,
+      "ip": "203.66.34.45",
+      "hostname": "203-66-34-45.hinet-ip.hinet.net",
+      "rtts": [
+        7.84,
+        8.556,
+        8.165
+      ],
+      "avg_rtt": 8.19,
+      "timeout": false,
+      "network": "hinet",
+      "network_name": "HiNet (Chunghwa Telecom)",
+      "is_interesting": true,
+      "is_private": false
+    }
+  ],
+  "num_hops": 7,
+  "success": true,
+  "path_analysis": {
+    "networks_traversed": [
+      {
+        "network": "hinet",
+        "network_name": "HiNet (Chunghwa Telecom)",
+        "first_hop": 2
+      }
+    ],
+    "interesting_routers": [
+      {
+        "hop": 2,
+        "ip": "168.95.98.254",
+        "hostname": "h254.s98.ts.hinet.net",
+        "network": "hinet",
+        "network_name": "HiNet (Chunghwa Telecom)"
+      },
+      {
+        "hop": 3,
+        "ip": "168.95.129.46",
+        "hostname": "168-95-129-46.caw1-3332.hinet.net",
+        "network": "hinet",
+        "network_name": "HiNet (Chunghwa Telecom)"
+      },
+      {
+        "hop": 5,
+        "ip": "220.128.19.22",
+        "hostname": "220-128-19-22.chch-3032.hinet.net",
+        "network": "hinet",
+        "network_name": "HiNet (Chunghwa Telecom)"
+      },
+      {
+        "hop": 6,
+        "ip": "220.128.20.17",
+        "hostname": "220-128-20-17.chch-3331.hinet.net",
+        "network": "hinet",
+        "network_name": "HiNet (Chunghwa Telecom)"
+      },
+      {
+        "hop": 7,
+        "ip": "211.22.228.141",
+        "hostname": "pths-3502.hinet.net",
+        "network": "hinet",
+        "network_name": "HiNet (Chunghwa Telecom)"
+      },
+      {
+        "hop": 8,
+        "ip": "203.66.34.45",
+        "hostname": "203-66-34-45.hinet-ip.hinet.net",
+        "network": "hinet",
+        "network_name": "HiNet (Chunghwa Telecom)"
+      }
+    ],
+    "private_hops": 0,
+    "total_hops": 7,
+    "network_transitions": []
+  },
+  "raw_output": " 1  172.16.193.250 (172.16.193.250)  2.419 ms  1.906 ms  2.399 ms\n 2  h254.s98.ts.hinet.net (168.95.98.254)  2.789 ms  2.772 ms  2.796 ms\n 3  168-95-129-46.caw1-3332.hinet.net (168.95.129.46)  3.147 ms  2.949 ms  3.013 ms\n 4  * * *\n 5  220-128-19-22.chch-3032.hinet.net (220.128.19.22)  12.159 ms  7.450 ms  7.602 ms\n 6  220-128-20-17.chch-3331.hinet.net (220.128.20.17)  7.540 ms  8.086 ms  7.736 ms\n 7  pths-3502.hinet.net (211.22.228.141)  7.868 ms  7.151 ms  7.097 ms\n 8  203-66-34-45.hinet-ip.hinet.net (203.66.34.45)  7.840 ms  8.556 ms  8.165 ms\n",
+  "category": "government_local",
+  "base_domain": "chcg.gov.tw",
+  "service_variant": "www.chcg.gov.tw",
+  "is_bare_domain": false
+}

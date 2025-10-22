@@ -1,0 +1,182 @@
+{
+  "timestamp": "2025-10-22T07:08:27.246990",
+  "vantage_point": "university",
+  "target": "cts.com.tw",
+  "target_ip": "3.5.159.227",
+  "protocol": "icmp",
+  "port": null,
+  "duration_seconds": 82.83,
+  "hops": [
+    {
+      "hop": 2,
+      "ip": "140.123.103.250",
+      "hostname": "csgate103.cs.ccu.edu.tw",
+      "rtts": [
+        4.445,
+        8.378,
+        2.513
+      ],
+      "avg_rtt": 5.11,
+      "timeout": false
+    },
+    {
+      "hop": 3,
+      "ip": "140.123.9.249",
+      "hostname": "140.123.9.249",
+      "rtts": [
+        2.475,
+        2.347,
+        6.85
+      ],
+      "avg_rtt": 3.89,
+      "timeout": false
+    },
+    {
+      "hop": 4,
+      "ip": "140.123.0.246",
+      "hostname": "140.123.0.246",
+      "rtts": [
+        3.027,
+        4.679,
+        3.007
+      ],
+      "avg_rtt": 3.57,
+      "timeout": false
+    },
+    {
+      "hop": 5,
+      "ip": "140.130.252.251",
+      "hostname": "140.130.252.251",
+      "rtts": [
+        3.903,
+        3.782,
+        3.899
+      ],
+      "avg_rtt": 3.86,
+      "timeout": false
+    },
+    {
+      "hop": 6,
+      "ip": "192.192.61.142",
+      "hostname": "192.192.61.142",
+      "rtts": [
+        5.067,
+        5.176,
+        11.598
+      ],
+      "avg_rtt": 7.28,
+      "timeout": false
+    },
+    {
+      "hop": 7,
+      "ip": "192.192.61.20",
+      "hostname": "192.192.61.20",
+      "rtts": [
+        11.456,
+        8.241,
+        9.356
+      ],
+      "avg_rtt": 9.68,
+      "timeout": false
+    },
+    {
+      "hop": 8,
+      "ip": "192.192.61.48",
+      "hostname": "192.192.61.48",
+      "rtts": [
+        16.166,
+        12.987,
+        7.914
+      ],
+      "avg_rtt": 12.36,
+      "timeout": false
+    },
+    {
+      "hop": 9,
+      "ip": "192.192.68.62",
+      "hostname": "192.192.68.62",
+      "rtts": [
+        7.718,
+        10.368,
+        7.945
+      ],
+      "avg_rtt": 8.68,
+      "timeout": false
+    },
+    {
+      "hop": 10,
+      "ip": null,
+      "hostname": null,
+      "rtts": [],
+      "timeout": true
+    },
+    {
+      "hop": 11,
+      "ip": null,
+      "hostname": null,
+      "rtts": [],
+      "timeout": true
+    },
+    {
+      "hop": 12,
+      "ip": null,
+      "hostname": null,
+      "rtts": [],
+      "timeout": true
+    },
+    {
+      "hop": 13,
+      "ip": null,
+      "hostname": null,
+      "rtts": [],
+      "timeout": true
+    },
+    {
+      "hop": 14,
+      "ip": null,
+      "hostname": null,
+      "rtts": [],
+      "timeout": true
+    },
+    {
+      "hop": 15,
+      "ip": null,
+      "hostname": null,
+      "rtts": [],
+      "timeout": true
+    },
+    {
+      "hop": 16,
+      "ip": null,
+      "hostname": null,
+      "rtts": [],
+      "timeout": true
+    },
+    {
+      "hop": 17,
+      "ip": null,
+      "hostname": null,
+      "rtts": [],
+      "timeout": true
+    },
+    {
+      "hop": 18,
+      "ip": "3.5.159.227",
+      "hostname": "s3-website.ap-northeast-1.amazonaws.com",
+      "rtts": [
+        43.596,
+        47.329,
+        62.824
+      ],
+      "avg_rtt": 51.25,
+      "timeout": false
+    }
+  ],
+  "num_hops": 17,
+  "success": true,
+  "raw_output": " 1  192.168.50.1 (192.168.50.1)  9.608 ms  7.715 ms  6.835 ms\n 2  csgate103.cs.ccu.edu.tw (140.123.103.250)  4.445 ms  8.378 ms  2.513 ms\n 3  140.123.9.249 (140.123.9.249)  2.475 ms  2.347 ms  6.850 ms\n 4  140.123.0.246 (140.123.0.246)  3.027 ms  4.679 ms  3.007 ms\n 5  140.130.252.251 (140.130.252.251)  3.903 ms  3.782 ms  3.899 ms\n 6  192.192.61.142 (192.192.61.142)  5.067 ms  5.176 ms  11.598 ms\n 7  192.192.61.20 (192.192.61.20)  11.456 ms  8.241 ms  9.356 ms\n 8  192.192.61.48 (192.192.61.48)  16.166 ms  12.987 ms  7.914 ms\n 9  192.192.68.62 (192.192.68.62)  7.718 ms  10.368 ms  7.945 ms\n10  * * *\n11  * * *\n12  * * *\n13  * * *\n14  * * *\n15  * * *\n16  * * *\n17  * * *\n18  s3-website.ap-northeast-1.amazonaws.com (3.5.159.227)  43.596 ms  47.329 ms  62.824 ms\n",
+  "category": "media",
+  "base_domain": "cts.com.tw",
+  "service_variant": "cts.com.tw",
+  "is_bare_domain": true
+}

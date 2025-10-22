@@ -1,0 +1,114 @@
+{
+  "timestamp": "2025-10-22T07:02:16.453440",
+  "vantage_point": "university",
+  "target": "www.tvbs.com.tw",
+  "target_ip": "163.28.5.17",
+  "protocol": "icmp",
+  "port": null,
+  "duration_seconds": 0.27,
+  "hops": [
+    {
+      "hop": 2,
+      "ip": "140.123.103.250",
+      "hostname": "csgate103.cs.ccu.edu.tw",
+      "rtts": [
+        5.134,
+        8.728,
+        11.483
+      ],
+      "avg_rtt": 8.45,
+      "timeout": false
+    },
+    {
+      "hop": 3,
+      "ip": "140.123.9.249",
+      "hostname": "140.123.9.249",
+      "rtts": [
+        13.042,
+        4.378,
+        3.938
+      ],
+      "avg_rtt": 7.12,
+      "timeout": false
+    },
+    {
+      "hop": 4,
+      "ip": "140.123.0.246",
+      "hostname": "140.123.0.246",
+      "rtts": [
+        2.957,
+        2.961,
+        7.453
+      ],
+      "avg_rtt": 4.46,
+      "timeout": false
+    },
+    {
+      "hop": 5,
+      "ip": "140.130.252.251",
+      "hostname": "140.130.252.251",
+      "rtts": [
+        4.345,
+        3.962,
+        4.187
+      ],
+      "avg_rtt": 4.16,
+      "timeout": false
+    },
+    {
+      "hop": 6,
+      "ip": "192.192.61.142",
+      "hostname": "192.192.61.142",
+      "rtts": [
+        6.127,
+        6.116,
+        5.582
+      ],
+      "avg_rtt": 5.94,
+      "timeout": false
+    },
+    {
+      "hop": 7,
+      "ip": "192.192.61.20",
+      "hostname": "192.192.61.20",
+      "rtts": [
+        10.878,
+        11.283,
+        8.072
+      ],
+      "avg_rtt": 10.08,
+      "timeout": false
+    },
+    {
+      "hop": 8,
+      "ip": "192.192.61.48",
+      "hostname": "192.192.61.48",
+      "rtts": [
+        8.183,
+        12.217,
+        14.015
+      ],
+      "avg_rtt": 11.47,
+      "timeout": false
+    },
+    {
+      "hop": 9,
+      "ip": "163.28.5.17",
+      "hostname": "163.28.5.17",
+      "rtts": [
+        8.933,
+        24.794,
+        15.518
+      ],
+      "avg_rtt": 16.42,
+      "timeout": false
+    }
+  ],
+  "num_hops": 8,
+  "success": true,
+  "raw_output": " 1  192.168.50.1 (192.168.50.1)  2.862 ms  3.116 ms  4.971 ms\n 2  csgate103.cs.ccu.edu.tw (140.123.103.250)  5.134 ms  8.728 ms  11.483 ms\n 3  140.123.9.249 (140.123.9.249)  13.042 ms  4.378 ms  3.938 ms\n 4  140.123.0.246 (140.123.0.246)  2.957 ms  2.961 ms  7.453 ms\n 5  140.130.252.251 (140.130.252.251)  4.345 ms  3.962 ms  4.187 ms\n 6  192.192.61.142 (192.192.61.142)  6.127 ms  6.116 ms  5.582 ms\n 7  192.192.61.20 (192.192.61.20)  10.878 ms  11.283 ms  8.072 ms\n 8  192.192.61.48 (192.192.61.48)  8.183 ms  12.217 ms  14.015 ms\n 9  163.28.5.17 (163.28.5.17)  8.933 ms  24.794 ms  15.518 ms\n",
+  "category": "media",
+  "base_domain": "tvbs.com.tw",
+  "service_variant": "www.tvbs.com.tw",
+  "is_bare_domain": false
+}

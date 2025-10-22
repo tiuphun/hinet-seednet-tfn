@@ -1,0 +1,125 @@
+{
+  "timestamp": "2025-10-13T18:24:34.897548",
+  "vantage_point": "cht-mobile",
+  "target": "udn.com",
+  "target_ip": "23.42.102.253",
+  "protocol": "icmp",
+  "port": null,
+  "duration_seconds": 19.39,
+  "hops": [
+    {
+      "hop": 2,
+      "ip": "10.159.65.141",
+      "hostname": null,
+      "rtts": [
+        101.369,
+        318.261,
+        178.693
+      ],
+      "avg_rtt": 199.44,
+      "timeout": false
+    },
+    {
+      "hop": 3,
+      "ip": "10.159.65.81",
+      "hostname": null,
+      "rtts": [
+        39.955,
+        34.797,
+        36.547
+      ],
+      "avg_rtt": 37.1,
+      "timeout": false
+    },
+    {
+      "hop": 4,
+      "ip": "10.159.67.167",
+      "hostname": null,
+      "rtts": [
+        20.387,
+        20.894,
+        49.383
+      ],
+      "avg_rtt": 30.22,
+      "timeout": false
+    },
+    {
+      "hop": 5,
+      "ip": "10.159.67.177",
+      "hostname": null,
+      "rtts": [
+        21.976,
+        27.956,
+        22.911
+      ],
+      "avg_rtt": 24.28,
+      "timeout": false
+    },
+    {
+      "hop": 6,
+      "ip": "210.65.126.194",
+      "hostname": null,
+      "rtts": [
+        40.359,
+        27.571,
+        20.304
+      ],
+      "avg_rtt": 29.41,
+      "timeout": false
+    },
+    {
+      "hop": 7,
+      "ip": null,
+      "hostname": null,
+      "rtts": [],
+      "timeout": true
+    },
+    {
+      "hop": 8,
+      "ip": null,
+      "hostname": null,
+      "rtts": [],
+      "timeout": true
+    },
+    {
+      "hop": 9,
+      "ip": "220.128.1.197",
+      "hostname": null,
+      "rtts": [
+        50.955,
+        30.039,
+        37.317
+      ],
+      "avg_rtt": 39.44,
+      "timeout": false
+    },
+    {
+      "hop": 10,
+      "ip": "211.72.255.253",
+      "hostname": null,
+      "rtts": [
+        39.86,
+        36.385,
+        36.186
+      ],
+      "avg_rtt": 37.48,
+      "timeout": false
+    },
+    {
+      "hop": 11,
+      "ip": "23.42.102.253",
+      "hostname": null,
+      "rtts": [
+        25.649,
+        29.813,
+        50.249
+      ],
+      "avg_rtt": 35.24,
+      "timeout": false
+    }
+  ],
+  "num_hops": 10,
+  "success": true,
+  "raw_output": " 1  172.20.10.1  9.038 ms  10.360 ms  31.525 ms\n 2  10.159.65.141  101.369 ms  318.261 ms  178.693 ms\n 3  10.159.65.81  39.955 ms  34.797 ms  36.547 ms\n 4  10.159.67.167  20.387 ms  20.894 ms  49.383 ms\n 5  10.159.67.177  21.976 ms  27.956 ms  22.911 ms\n 6  210.65.126.194  40.359 ms  27.571 ms  20.304 ms\n 7  * * *\n 8  * * *\n 9  220.128.1.197  50.955 ms  30.039 ms  37.317 ms\n10  211.72.255.253  39.860 ms  36.385 ms  36.186 ms\n11  23.42.102.253  25.649 ms  29.813 ms  50.249 ms\n",
+  "category": "media"
+}

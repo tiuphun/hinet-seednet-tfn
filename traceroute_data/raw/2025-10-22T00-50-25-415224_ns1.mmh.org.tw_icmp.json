@@ -1,0 +1,140 @@
+{
+  "timestamp": "2025-10-22T00:50:25.415224",
+  "vantage_point": "university",
+  "target": "ns1.mmh.org.tw",
+  "target_ip": "203.69.179.66",
+  "protocol": "icmp",
+  "port": null,
+  "duration_seconds": 28.51,
+  "hops": [
+    {
+      "hop": 2,
+      "ip": "140.123.103.250",
+      "hostname": "csgate103.cs.ccu.edu.tw",
+      "rtts": [
+        3.128,
+        2.297,
+        6.324
+      ],
+      "avg_rtt": 3.92,
+      "timeout": false
+    },
+    {
+      "hop": 3,
+      "ip": "140.123.9.249",
+      "hostname": "140.123.9.249",
+      "rtts": [
+        2.706,
+        2.759,
+        4.536
+      ],
+      "avg_rtt": 3.33,
+      "timeout": false
+    },
+    {
+      "hop": 4,
+      "ip": "140.123.0.246",
+      "hostname": "140.123.0.246",
+      "rtts": [
+        4.862,
+        3.353,
+        3.349
+      ],
+      "avg_rtt": 3.85,
+      "timeout": false
+    },
+    {
+      "hop": 5,
+      "ip": "140.130.252.251",
+      "hostname": "140.130.252.251",
+      "rtts": [
+        4.186,
+        5.177,
+        4.146
+      ],
+      "avg_rtt": 4.5,
+      "timeout": false
+    },
+    {
+      "hop": 6,
+      "ip": "211.22.226.198",
+      "hostname": "211-22-226-198.caw1-3332.hinet.net",
+      "rtts": [
+        5.336,
+        5.84,
+        5.004
+      ],
+      "avg_rtt": 5.39,
+      "timeout": false
+    },
+    {
+      "hop": 7,
+      "ip": null,
+      "hostname": null,
+      "rtts": [],
+      "timeout": true
+    },
+    {
+      "hop": 8,
+      "ip": null,
+      "hostname": null,
+      "rtts": [],
+      "timeout": true
+    },
+    {
+      "hop": 9,
+      "ip": "220.128.2.213",
+      "hostname": "220-128-2-213.tpdb-3316.hinet.net",
+      "rtts": [
+        20.396,
+        22.063,
+        12.058
+      ],
+      "avg_rtt": 18.17,
+      "timeout": false
+    },
+    {
+      "hop": 10,
+      "ip": "203.75.188.61",
+      "hostname": "tp-s2-c6r15.router.hinet.net",
+      "rtts": [
+        61.723,
+        10.864,
+        12.83
+      ],
+      "avg_rtt": 28.47,
+      "timeout": false
+    },
+    {
+      "hop": 11,
+      "ip": "202.39.35.57",
+      "hostname": "202-39-35-57.hinet-ip.hinet.net",
+      "rtts": [
+        11.082,
+        11.786,
+        11.976
+      ],
+      "avg_rtt": 11.61,
+      "timeout": false
+    },
+    {
+      "hop": 12,
+      "ip": "203.69.179.66",
+      "hostname": "203.69.179.66",
+      "rtts": [
+        39.151,
+        17.572,
+        14.029
+      ],
+      "avg_rtt": 23.58,
+      "timeout": false
+    }
+  ],
+  "num_hops": 11,
+  "success": true,
+  "raw_output": " 1  192.168.50.1 (192.168.50.1)  14.396 ms  2.453 ms  2.514 ms\n 2  csgate103.cs.ccu.edu.tw (140.123.103.250)  3.128 ms  2.297 ms  6.324 ms\n 3  140.123.9.249 (140.123.9.249)  2.706 ms  2.759 ms  4.536 ms\n 4  140.123.0.246 (140.123.0.246)  4.862 ms  3.353 ms  3.349 ms\n 5  140.130.252.251 (140.130.252.251)  4.186 ms  5.177 ms  4.146 ms\n 6  211-22-226-198.caw1-3332.hinet.net (211.22.226.198)  5.336 ms  5.840 ms  5.004 ms\n 7  * * *\n 8  * * *\n 9  220-128-2-213.tpdb-3316.hinet.net (220.128.2.213)  20.396 ms  22.063 ms  12.058 ms\n10  tp-s2-c6r15.router.hinet.net (203.75.188.61)  61.723 ms  10.864 ms  12.830 ms\n11  202-39-35-57.hinet-ip.hinet.net (202.39.35.57)  11.082 ms  11.786 ms  11.976 ms\n12  203.69.179.66 (203.69.179.66)  39.151 ms  17.572 ms  14.029 ms\n",
+  "category": "healthcare",
+  "base_domain": "mmh.org.tw",
+  "service_variant": "ns1.mmh.org.tw",
+  "is_bare_domain": false
+}

@@ -1,0 +1,138 @@
+{
+  "timestamp": "2025-10-15T02:16:21.878946",
+  "vantage_point": "university",
+  "target": "mobile01.com",
+  "target_ip": "34.36.92.153",
+  "protocol": "icmp",
+  "port": null,
+  "duration_seconds": 0.35,
+  "hops": [
+    {
+      "hop": 2,
+      "ip": "140.123.103.250",
+      "hostname": null,
+      "rtts": [
+        3.78,
+        2.705,
+        2.705
+      ],
+      "avg_rtt": 3.06,
+      "timeout": false
+    },
+    {
+      "hop": 3,
+      "ip": "140.123.9.249",
+      "hostname": null,
+      "rtts": [
+        13.973,
+        2.819,
+        2.804
+      ],
+      "avg_rtt": 6.53,
+      "timeout": false
+    },
+    {
+      "hop": 4,
+      "ip": "140.123.0.246",
+      "hostname": null,
+      "rtts": [
+        6.697,
+        7.994,
+        3.607
+      ],
+      "avg_rtt": 6.1,
+      "timeout": false
+    },
+    {
+      "hop": 5,
+      "ip": "140.130.252.251",
+      "hostname": null,
+      "rtts": [
+        21.328,
+        4.209,
+        4.198
+      ],
+      "avg_rtt": 9.91,
+      "timeout": false
+    },
+    {
+      "hop": 6,
+      "ip": "192.192.61.142",
+      "hostname": null,
+      "rtts": [
+        13.319,
+        7.011,
+        11.82
+      ],
+      "avg_rtt": 10.72,
+      "timeout": false
+    },
+    {
+      "hop": 7,
+      "ip": "192.192.61.20",
+      "hostname": null,
+      "rtts": [
+        16.779,
+        7.71,
+        11.049
+      ],
+      "avg_rtt": 11.85,
+      "timeout": false
+    },
+    {
+      "hop": 8,
+      "ip": "192.192.61.184",
+      "hostname": null,
+      "rtts": [
+        15.22,
+        10.571,
+        13.713
+      ],
+      "avg_rtt": 13.17,
+      "timeout": false
+    },
+    {
+      "hop": 9,
+      "ip": "192.192.61.203",
+      "hostname": null,
+      "rtts": [
+        10.081,
+        13.026,
+        9.048
+      ],
+      "avg_rtt": 10.72,
+      "timeout": false
+    },
+    {
+      "hop": 10,
+      "ip": "72.14.196.229",
+      "hostname": null,
+      "rtts": [
+        14.878,
+        9.814,
+        42.33
+      ],
+      "avg_rtt": 22.34,
+      "timeout": false
+    },
+    {
+      "hop": 11,
+      "ip": "34.36.92.153",
+      "hostname": null,
+      "rtts": [
+        14.64,
+        11.041,
+        9.157
+      ],
+      "avg_rtt": 11.61,
+      "timeout": false
+    }
+  ],
+  "num_hops": 10,
+  "success": true,
+  "raw_output": " 1  192.168.50.1  4.835 ms  12.214 ms  4.434 ms\n 2  140.123.103.250  3.780 ms  2.705 ms  2.705 ms\n 3  140.123.9.249  13.973 ms  2.819 ms  2.804 ms\n 4  140.123.0.246  6.697 ms  7.994 ms  3.607 ms\n 5  140.130.252.251  21.328 ms  4.209 ms  4.198 ms\n 6  192.192.61.142  13.319 ms  7.011 ms  11.820 ms\n 7  192.192.61.20  16.779 ms  7.710 ms  11.049 ms\n 8  192.192.61.184  15.220 ms  10.571 ms  13.713 ms\n 9  192.192.61.203  10.081 ms  13.026 ms  9.048 ms\n10  72.14.196.229  14.878 ms  9.814 ms  42.330 ms\n11  34.36.92.153  14.640 ms  11.041 ms  9.157 ms\n",
+  "category": "ecommerce_tech",
+  "base_domain": "mobile01.com",
+  "service_variant": "mobile01.com",
+  "is_bare_domain": true
+}

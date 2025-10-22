@@ -1,0 +1,147 @@
+{
+  "timestamp": "2025-10-22T06:06:43.114189",
+  "vantage_point": "university",
+  "target": "ns1.fisc.com.tw",
+  "target_ip": "203.66.154.10",
+  "protocol": "icmp",
+  "port": null,
+  "duration_seconds": 37.46,
+  "hops": [
+    {
+      "hop": 2,
+      "ip": "140.123.103.250",
+      "hostname": "csgate103.cs.ccu.edu.tw",
+      "rtts": [
+        8.209,
+        5.63,
+        2.824
+      ],
+      "avg_rtt": 5.55,
+      "timeout": false
+    },
+    {
+      "hop": 3,
+      "ip": "140.123.9.249",
+      "hostname": "140.123.9.249",
+      "rtts": [
+        5.577,
+        3.086,
+        3.061
+      ],
+      "avg_rtt": 3.91,
+      "timeout": false
+    },
+    {
+      "hop": 4,
+      "ip": "140.123.0.246",
+      "hostname": "140.123.0.246",
+      "rtts": [
+        3.529,
+        3.358,
+        3.325
+      ],
+      "avg_rtt": 3.4,
+      "timeout": false
+    },
+    {
+      "hop": 5,
+      "ip": "140.130.252.251",
+      "hostname": "140.130.252.251",
+      "rtts": [
+        5.944,
+        6.161,
+        4.246
+      ],
+      "avg_rtt": 5.45,
+      "timeout": false
+    },
+    {
+      "hop": 6,
+      "ip": "211.22.226.198",
+      "hostname": "211-22-226-198.caw1-3332.hinet.net",
+      "rtts": [
+        6.298,
+        5.951,
+        18.009
+      ],
+      "avg_rtt": 10.09,
+      "timeout": false
+    },
+    {
+      "hop": 7,
+      "ip": null,
+      "hostname": null,
+      "rtts": [],
+      "timeout": true
+    },
+    {
+      "hop": 8,
+      "ip": null,
+      "hostname": null,
+      "rtts": [],
+      "timeout": true
+    },
+    {
+      "hop": 9,
+      "ip": "220.128.4.217",
+      "hostname": "220-128-4-217.tpdt-3309.hinet.net",
+      "rtts": [
+        25.983,
+        14.005,
+        14.184
+      ],
+      "avg_rtt": 18.06,
+      "timeout": false
+    },
+    {
+      "hop": 10,
+      "ip": "168.95.209.45",
+      "hostname": "h45.s209.ts.hinet.net",
+      "rtts": [
+        11.531,
+        13.981,
+        10.444
+      ],
+      "avg_rtt": 11.99,
+      "timeout": false
+    },
+    {
+      "hop": 11,
+      "ip": null,
+      "hostname": null,
+      "rtts": [],
+      "timeout": true
+    },
+    {
+      "hop": 12,
+      "ip": "210.65.93.5",
+      "hostname": "customer.wan-port.ar.hinet.net",
+      "rtts": [
+        12.853,
+        11.209,
+        10.805
+      ],
+      "avg_rtt": 11.62,
+      "timeout": false
+    },
+    {
+      "hop": 13,
+      "ip": "203.66.154.10",
+      "hostname": "203.66.154.10",
+      "rtts": [
+        12.722,
+        11.094,
+        11.79
+      ],
+      "avg_rtt": 11.87,
+      "timeout": false
+    }
+  ],
+  "num_hops": 12,
+  "success": true,
+  "raw_output": " 1  192.168.50.1 (192.168.50.1)  9.886 ms  3.106 ms  2.272 ms\n 2  csgate103.cs.ccu.edu.tw (140.123.103.250)  8.209 ms  5.630 ms  2.824 ms\n 3  140.123.9.249 (140.123.9.249)  5.577 ms  3.086 ms  3.061 ms\n 4  140.123.0.246 (140.123.0.246)  3.529 ms  3.358 ms  3.325 ms\n 5  140.130.252.251 (140.130.252.251)  5.944 ms  6.161 ms  4.246 ms\n 6  211-22-226-198.caw1-3332.hinet.net (211.22.226.198)  6.298 ms  5.951 ms  18.009 ms\n 7  * * *\n 8  * * *\n 9  220-128-4-217.tpdt-3309.hinet.net (220.128.4.217)  25.983 ms  14.005 ms  14.184 ms\n10  h45.s209.ts.hinet.net (168.95.209.45)  11.531 ms  13.981 ms  10.444 ms\n11  * * *\n12  customer.wan-port.ar.hinet.net (210.65.93.5)  12.853 ms  11.209 ms  10.805 ms\n13  203.66.154.10 (203.66.154.10)  12.722 ms  11.094 ms  11.790 ms\n",
+  "category": "financial_infra",
+  "base_domain": "fisc.com.tw",
+  "service_variant": "ns1.fisc.com.tw",
+  "is_bare_domain": false
+}

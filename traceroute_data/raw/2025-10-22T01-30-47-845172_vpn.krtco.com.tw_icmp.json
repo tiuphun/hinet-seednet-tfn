@@ -1,0 +1,126 @@
+{
+  "timestamp": "2025-10-22T01:30:47.845172",
+  "vantage_point": "university",
+  "target": "vpn.krtco.com.tw",
+  "target_ip": "219.87.161.154",
+  "protocol": "icmp",
+  "port": null,
+  "duration_seconds": 0.34,
+  "hops": [
+    {
+      "hop": 2,
+      "ip": "140.123.103.250",
+      "hostname": "csgate103.cs.ccu.edu.tw",
+      "rtts": [
+        2.704,
+        2.348,
+        2.946
+      ],
+      "avg_rtt": 2.67,
+      "timeout": false
+    },
+    {
+      "hop": 3,
+      "ip": "140.123.9.249",
+      "hostname": "140.123.9.249",
+      "rtts": [
+        2.532,
+        5.78,
+        2.51
+      ],
+      "avg_rtt": 3.61,
+      "timeout": false
+    },
+    {
+      "hop": 4,
+      "ip": "140.123.0.246",
+      "hostname": "140.123.0.246",
+      "rtts": [
+        3.072,
+        3.481,
+        3.149
+      ],
+      "avg_rtt": 3.23,
+      "timeout": false
+    },
+    {
+      "hop": 5,
+      "ip": "140.130.252.251",
+      "hostname": "140.130.252.251",
+      "rtts": [
+        4.676,
+        8.373,
+        4.528
+      ],
+      "avg_rtt": 5.86,
+      "timeout": false
+    },
+    {
+      "hop": 6,
+      "ip": "61.31.254.69",
+      "hostname": "61-31-254-69.static.tfn.net.tw",
+      "rtts": [
+        14.118,
+        5.758,
+        11.152
+      ],
+      "avg_rtt": 10.34,
+      "timeout": false
+    },
+    {
+      "hop": 7,
+      "ip": "60.199.27.121",
+      "hostname": "60-199-27-121.static.tfn.net.tw",
+      "rtts": [
+        13.769,
+        25.219,
+        11.971
+      ],
+      "avg_rtt": 16.99,
+      "timeout": false
+    },
+    {
+      "hop": 8,
+      "ip": "60.199.27.126",
+      "hostname": "60-199-27-126.static.tfn.net.tw",
+      "rtts": [
+        9.295,
+        21.63,
+        22.006
+      ],
+      "avg_rtt": 17.64,
+      "timeout": false
+    },
+    {
+      "hop": 9,
+      "ip": "219.87.161.154",
+      "hostname": "219-87-161-154.static.tfn.net.tw",
+      "rtts": [
+        6.305,
+        7.463,
+        6.301
+      ],
+      "avg_rtt": 6.69,
+      "timeout": false
+    },
+    {
+      "hop": 10,
+      "ip": "219.87.161.154",
+      "hostname": "219-87-161-154.static.tfn.net.tw",
+      "rtts": [
+        7.083,
+        7.469,
+        6.84
+      ],
+      "avg_rtt": 7.13,
+      "timeout": false
+    }
+  ],
+  "num_hops": 9,
+  "success": true,
+  "raw_output": " 1  192.168.50.1 (192.168.50.1)  10.753 ms  4.417 ms  2.122 ms\n 2  csgate103.cs.ccu.edu.tw (140.123.103.250)  2.704 ms  2.348 ms  2.946 ms\n 3  140.123.9.249 (140.123.9.249)  2.532 ms  5.780 ms  2.510 ms\n 4  140.123.0.246 (140.123.0.246)  3.072 ms  3.481 ms  3.149 ms\n 5  140.130.252.251 (140.130.252.251)  4.676 ms  8.373 ms  4.528 ms\n 6  61-31-254-69.static.tfn.net.tw (61.31.254.69)  14.118 ms  5.758 ms  11.152 ms\n 7  60-199-27-121.static.tfn.net.tw (60.199.27.121)  13.769 ms  25.219 ms  11.971 ms\n 8  60-199-27-126.static.tfn.net.tw (60.199.27.126)  9.295 ms  21.630 ms  22.006 ms\n 9  219-87-161-154.static.tfn.net.tw (219.87.161.154)  6.305 ms  7.463 ms  6.301 ms\n10  219-87-161-154.static.tfn.net.tw (219.87.161.154)  7.083 ms  7.469 ms  6.840 ms\n",
+  "category": "critical_infra",
+  "base_domain": "krtco.com.tw",
+  "service_variant": "vpn.krtco.com.tw",
+  "is_bare_domain": false
+}

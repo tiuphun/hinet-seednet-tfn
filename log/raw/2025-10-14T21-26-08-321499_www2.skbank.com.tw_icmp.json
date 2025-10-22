@@ -1,0 +1,138 @@
+{
+  "timestamp": "2025-10-14T21:26:08.321499",
+  "vantage_point": "university",
+  "target": "www2.skbank.com.tw",
+  "target_ip": "175.98.118.170",
+  "protocol": "icmp",
+  "port": null,
+  "duration_seconds": 0.3,
+  "hops": [
+    {
+      "hop": 2,
+      "ip": "140.123.103.250",
+      "hostname": null,
+      "rtts": [
+        2.796,
+        3.33,
+        2.672
+      ],
+      "avg_rtt": 2.93,
+      "timeout": false
+    },
+    {
+      "hop": 3,
+      "ip": "140.123.9.249",
+      "hostname": null,
+      "rtts": [
+        2.695,
+        2.491,
+        3.984
+      ],
+      "avg_rtt": 3.06,
+      "timeout": false
+    },
+    {
+      "hop": 4,
+      "ip": "140.123.0.246",
+      "hostname": null,
+      "rtts": [
+        3.539,
+        3.948,
+        3.305
+      ],
+      "avg_rtt": 3.6,
+      "timeout": false
+    },
+    {
+      "hop": 5,
+      "ip": "140.130.252.251",
+      "hostname": null,
+      "rtts": [
+        25.936,
+        4.594,
+        4.393
+      ],
+      "avg_rtt": 11.64,
+      "timeout": false
+    },
+    {
+      "hop": 6,
+      "ip": "61.31.254.69",
+      "hostname": null,
+      "rtts": [
+        7.469,
+        10.977,
+        8.506
+      ],
+      "avg_rtt": 8.98,
+      "timeout": false
+    },
+    {
+      "hop": 7,
+      "ip": "60.199.27.161",
+      "hostname": null,
+      "rtts": [
+        7.859,
+        6.096,
+        6.574
+      ],
+      "avg_rtt": 6.84,
+      "timeout": false
+    },
+    {
+      "hop": 8,
+      "ip": "60.199.82.101",
+      "hostname": null,
+      "rtts": [
+        10.903,
+        11.136,
+        10.838
+      ],
+      "avg_rtt": 10.96,
+      "timeout": false
+    },
+    {
+      "hop": 9,
+      "ip": "60.199.82.13",
+      "hostname": null,
+      "rtts": [
+        11.557,
+        13.193,
+        12.287
+      ],
+      "avg_rtt": 12.35,
+      "timeout": false
+    },
+    {
+      "hop": 10,
+      "ip": "60.199.17.230",
+      "hostname": null,
+      "rtts": [
+        16.865,
+        13.829,
+        13.943
+      ],
+      "avg_rtt": 14.88,
+      "timeout": false
+    },
+    {
+      "hop": 11,
+      "ip": "175.98.118.170",
+      "hostname": null,
+      "rtts": [
+        11.689,
+        17.646,
+        11.401
+      ],
+      "avg_rtt": 13.58,
+      "timeout": false
+    }
+  ],
+  "num_hops": 10,
+  "success": true,
+  "raw_output": " 1  192.168.50.1  10.477 ms  3.918 ms  2.510 ms\n 2  140.123.103.250  2.796 ms  3.330 ms  2.672 ms\n 3  140.123.9.249  2.695 ms  2.491 ms  3.984 ms\n 4  140.123.0.246  3.539 ms  3.948 ms  3.305 ms\n 5  140.130.252.251  25.936 ms  4.594 ms  4.393 ms\n 6  61.31.254.69  7.469 ms  10.977 ms  8.506 ms\n 7  60.199.27.161  7.859 ms  6.096 ms  6.574 ms\n 8  60.199.82.101  10.903 ms  11.136 ms  10.838 ms\n 9  60.199.82.13  11.557 ms  13.193 ms  12.287 ms\n10  60.199.17.230  16.865 ms  13.829 ms  13.943 ms\n11  175.98.118.170  11.689 ms  17.646 ms  11.401 ms\n",
+  "category": "financial_banks",
+  "base_domain": "skbank.com.tw",
+  "service_variant": "www2.skbank.com.tw",
+  "is_bare_domain": false
+}

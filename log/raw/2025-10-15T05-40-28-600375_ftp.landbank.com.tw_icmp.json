@@ -1,0 +1,178 @@
+{
+  "timestamp": "2025-10-15T05:40:28.600375",
+  "vantage_point": "university",
+  "target": "ftp.landbank.com.tw",
+  "target_ip": "202.39.57.29",
+  "protocol": "icmp",
+  "port": null,
+  "duration_seconds": 36.59,
+  "hops": [
+    {
+      "hop": 2,
+      "ip": "140.123.103.250",
+      "hostname": null,
+      "rtts": [
+        5.085,
+        2.904,
+        2.684
+      ],
+      "avg_rtt": 3.56,
+      "timeout": false
+    },
+    {
+      "hop": 3,
+      "ip": "140.123.9.249",
+      "hostname": null,
+      "rtts": [
+        3.152,
+        3.015,
+        4.19
+      ],
+      "avg_rtt": 3.45,
+      "timeout": false
+    },
+    {
+      "hop": 4,
+      "ip": "140.123.0.246",
+      "hostname": null,
+      "rtts": [
+        3.211,
+        3.364,
+        3.375
+      ],
+      "avg_rtt": 3.32,
+      "timeout": false
+    },
+    {
+      "hop": 5,
+      "ip": "140.130.252.251",
+      "hostname": null,
+      "rtts": [
+        6.693,
+        4.119,
+        16.621
+      ],
+      "avg_rtt": 9.14,
+      "timeout": false
+    },
+    {
+      "hop": 6,
+      "ip": "211.22.226.198",
+      "hostname": null,
+      "rtts": [
+        8.318,
+        14.908,
+        7.89
+      ],
+      "avg_rtt": 10.37,
+      "timeout": false
+    },
+    {
+      "hop": 7,
+      "ip": null,
+      "hostname": null,
+      "rtts": [],
+      "timeout": true
+    },
+    {
+      "hop": 8,
+      "ip": null,
+      "hostname": null,
+      "rtts": [],
+      "timeout": true
+    },
+    {
+      "hop": 9,
+      "ip": "220.128.2.225",
+      "hostname": null,
+      "rtts": [
+        98.657,
+        12.608,
+        15.895
+      ],
+      "avg_rtt": 42.39,
+      "timeout": false
+    },
+    {
+      "hop": 10,
+      "ip": "168.95.209.57",
+      "hostname": null,
+      "rtts": [
+        14.309,
+        11.782,
+        29.538
+      ],
+      "avg_rtt": 18.54,
+      "timeout": false
+    },
+    {
+      "hop": 11,
+      "ip": "192.168.252.2",
+      "hostname": null,
+      "rtts": [
+        55.363,
+        16.148,
+        11.065
+      ],
+      "avg_rtt": 27.53,
+      "timeout": false
+    },
+    {
+      "hop": 12,
+      "ip": null,
+      "hostname": null,
+      "rtts": [],
+      "timeout": true
+    },
+    {
+      "hop": 13,
+      "ip": "203.66.25.249",
+      "hostname": null,
+      "rtts": [
+        25.782,
+        16.695,
+        13.257
+      ],
+      "avg_rtt": 18.58,
+      "timeout": false
+    },
+    {
+      "hop": 14,
+      "ip": null,
+      "hostname": null,
+      "rtts": [],
+      "timeout": true
+    },
+    {
+      "hop": 15,
+      "ip": "202.39.57.251",
+      "hostname": null,
+      "rtts": [
+        16.672,
+        11.633,
+        11.215
+      ],
+      "avg_rtt": 13.17,
+      "timeout": false
+    },
+    {
+      "hop": 16,
+      "ip": "202.39.57.29",
+      "hostname": null,
+      "rtts": [
+        14.49,
+        13.856,
+        12.234
+      ],
+      "avg_rtt": 13.53,
+      "timeout": false
+    }
+  ],
+  "num_hops": 15,
+  "success": true,
+  "raw_output": " 1  192.168.50.1  2.452 ms  2.352 ms  2.265 ms\n 2  140.123.103.250  5.085 ms  2.904 ms  2.684 ms\n 3  140.123.9.249  3.152 ms  3.015 ms  4.190 ms\n 4  140.123.0.246  3.211 ms  3.364 ms  3.375 ms\n 5  140.130.252.251  6.693 ms  4.119 ms  16.621 ms\n 6  211.22.226.198  8.318 ms  14.908 ms  7.890 ms\n 7  * * *\n 8  * * *\n 9  220.128.2.225  98.657 ms  12.608 ms  15.895 ms\n10  168.95.209.57  14.309 ms  11.782 ms  29.538 ms\n11  192.168.252.2  55.363 ms  16.148 ms  11.065 ms\n12  * * *\n13  203.66.25.249  25.782 ms  16.695 ms  13.257 ms\n14  * * *\n15  202.39.57.251  16.672 ms  11.633 ms  11.215 ms\n16  202.39.57.29  14.490 ms  13.856 ms  12.234 ms\n",
+  "category": "financial_banks",
+  "base_domain": "landbank.com.tw",
+  "service_variant": "ftp.landbank.com.tw",
+  "is_bare_domain": false
+}

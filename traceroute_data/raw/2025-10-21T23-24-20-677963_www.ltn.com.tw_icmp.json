@@ -1,0 +1,161 @@
+{
+  "timestamp": "2025-10-21T23:24:20.677963",
+  "vantage_point": "university",
+  "target": "www.ltn.com.tw",
+  "target_ip": "3.169.55.125",
+  "protocol": "icmp",
+  "port": null,
+  "duration_seconds": 55.34,
+  "hops": [
+    {
+      "hop": 2,
+      "ip": "140.123.103.250",
+      "hostname": "csgate103.cs.ccu.edu.tw",
+      "rtts": [
+        2.366,
+        3.071,
+        2.237
+      ],
+      "avg_rtt": 2.56,
+      "timeout": false
+    },
+    {
+      "hop": 3,
+      "ip": "140.123.9.249",
+      "hostname": "140.123.9.249",
+      "rtts": [
+        9.708,
+        3.567,
+        4.509
+      ],
+      "avg_rtt": 5.93,
+      "timeout": false
+    },
+    {
+      "hop": 4,
+      "ip": "140.123.0.246",
+      "hostname": "140.123.0.246",
+      "rtts": [
+        20.035,
+        3.807,
+        4.409
+      ],
+      "avg_rtt": 9.42,
+      "timeout": false
+    },
+    {
+      "hop": 5,
+      "ip": "140.130.252.251",
+      "hostname": "140.130.252.251",
+      "rtts": [
+        10.798,
+        5.861,
+        6.305
+      ],
+      "avg_rtt": 7.65,
+      "timeout": false
+    },
+    {
+      "hop": 6,
+      "ip": "192.192.61.142",
+      "hostname": "192.192.61.142",
+      "rtts": [
+        6.407,
+        7.063,
+        5.911
+      ],
+      "avg_rtt": 6.46,
+      "timeout": false
+    },
+    {
+      "hop": 7,
+      "ip": "192.192.61.20",
+      "hostname": "192.192.61.20",
+      "rtts": [
+        6.759,
+        8.322,
+        8.021
+      ],
+      "avg_rtt": 7.7,
+      "timeout": false
+    },
+    {
+      "hop": 8,
+      "ip": "192.192.61.48",
+      "hostname": "192.192.61.48",
+      "rtts": [
+        8.197,
+        7.781,
+        7.429
+      ],
+      "avg_rtt": 7.8,
+      "timeout": false
+    },
+    {
+      "hop": 9,
+      "ip": "192.192.68.62",
+      "hostname": "192.192.68.62",
+      "rtts": [
+        7.703,
+        8.983,
+        10.035
+      ],
+      "avg_rtt": 8.91,
+      "timeout": false
+    },
+    {
+      "hop": 10,
+      "ip": null,
+      "hostname": null,
+      "rtts": [],
+      "timeout": true
+    },
+    {
+      "hop": 11,
+      "ip": null,
+      "hostname": null,
+      "rtts": [],
+      "timeout": true
+    },
+    {
+      "hop": 12,
+      "ip": null,
+      "hostname": null,
+      "rtts": [],
+      "timeout": true
+    },
+    {
+      "hop": 13,
+      "ip": null,
+      "hostname": null,
+      "rtts": [],
+      "timeout": true
+    },
+    {
+      "hop": 14,
+      "ip": null,
+      "hostname": null,
+      "rtts": [],
+      "timeout": true
+    },
+    {
+      "hop": 15,
+      "ip": "3.169.55.125",
+      "hostname": "server-3-169-55-125.tpe54.r.cloudfront.net",
+      "rtts": [
+        11.7,
+        12.511,
+        10.322
+      ],
+      "avg_rtt": 11.51,
+      "timeout": false
+    }
+  ],
+  "num_hops": 14,
+  "success": true,
+  "raw_output": " 1  192.168.50.1 (192.168.50.1)  2.653 ms  2.278 ms  1.950 ms\n 2  csgate103.cs.ccu.edu.tw (140.123.103.250)  2.366 ms  3.071 ms  2.237 ms\n 3  140.123.9.249 (140.123.9.249)  9.708 ms  3.567 ms  4.509 ms\n 4  140.123.0.246 (140.123.0.246)  20.035 ms  3.807 ms  4.409 ms\n 5  140.130.252.251 (140.130.252.251)  10.798 ms  5.861 ms  6.305 ms\n 6  192.192.61.142 (192.192.61.142)  6.407 ms  7.063 ms  5.911 ms\n 7  192.192.61.20 (192.192.61.20)  6.759 ms  8.322 ms  8.021 ms\n 8  192.192.61.48 (192.192.61.48)  8.197 ms  7.781 ms  7.429 ms\n 9  192.192.68.62 (192.192.68.62)  7.703 ms  8.983 ms  10.035 ms\n10  * * *\n11  * * *\n12  * * *\n13  * * *\n14  * * *\n15  server-3-169-55-125.tpe54.r.cloudfront.net (3.169.55.125)  11.700 ms  12.511 ms  10.322 ms\n",
+  "category": "media",
+  "base_domain": "ltn.com.tw",
+  "service_variant": "www.ltn.com.tw",
+  "is_bare_domain": false
+}

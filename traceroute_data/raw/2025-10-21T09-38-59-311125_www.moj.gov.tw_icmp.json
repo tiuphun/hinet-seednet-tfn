@@ -1,0 +1,173 @@
+{
+  "timestamp": "2025-10-21T09:38:59.311125",
+  "vantage_point": "university",
+  "target": "www.moj.gov.tw",
+  "target_ip": "163.29.130.159",
+  "protocol": "icmp",
+  "port": null,
+  "duration_seconds": 39.39,
+  "hops": [
+    {
+      "hop": 2,
+      "ip": "140.123.103.250",
+      "hostname": "csgate103.cs.ccu.edu.tw",
+      "rtts": [
+        2.977,
+        2.837,
+        2.822
+      ],
+      "avg_rtt": 2.88,
+      "timeout": false
+    },
+    {
+      "hop": 3,
+      "ip": "140.123.9.249",
+      "hostname": "140.123.9.249",
+      "rtts": [
+        2.853,
+        2.657,
+        2.612
+      ],
+      "avg_rtt": 2.71,
+      "timeout": false
+    },
+    {
+      "hop": 4,
+      "ip": "140.123.0.246",
+      "hostname": "140.123.0.246",
+      "rtts": [
+        3.543,
+        3.153,
+        3.347
+      ],
+      "avg_rtt": 3.35,
+      "timeout": false
+    },
+    {
+      "hop": 5,
+      "ip": "140.130.252.251",
+      "hostname": "140.130.252.251",
+      "rtts": [
+        3.917,
+        4.193,
+        3.487
+      ],
+      "avg_rtt": 3.87,
+      "timeout": false
+    },
+    {
+      "hop": 6,
+      "ip": "192.192.61.142",
+      "hostname": "192.192.61.142",
+      "rtts": [
+        6.616,
+        6.181,
+        5.919
+      ],
+      "avg_rtt": 6.24,
+      "timeout": false
+    },
+    {
+      "hop": 7,
+      "ip": "192.192.61.37",
+      "hostname": "192.192.61.37",
+      "rtts": [
+        7.052,
+        7.082,
+        7.034
+      ],
+      "avg_rtt": 7.06,
+      "timeout": false
+    },
+    {
+      "hop": 8,
+      "ip": "192.192.61.32",
+      "hostname": "192.192.61.32",
+      "rtts": [
+        8.286,
+        7.601,
+        7.832
+      ],
+      "avg_rtt": 7.91,
+      "timeout": false
+    },
+    {
+      "hop": 9,
+      "ip": "192.192.61.209",
+      "hostname": "192.192.61.209",
+      "rtts": [
+        7.885,
+        8.069,
+        8.717
+      ],
+      "avg_rtt": 8.22,
+      "timeout": false
+    },
+    {
+      "hop": 10,
+      "ip": null,
+      "hostname": null,
+      "rtts": [],
+      "timeout": true
+    },
+    {
+      "hop": 11,
+      "ip": null,
+      "hostname": null,
+      "rtts": [],
+      "timeout": true
+    },
+    {
+      "hop": 12,
+      "ip": null,
+      "hostname": null,
+      "rtts": [],
+      "timeout": true
+    },
+    {
+      "hop": 13,
+      "ip": null,
+      "hostname": null,
+      "rtts": [],
+      "timeout": true
+    },
+    {
+      "hop": 14,
+      "ip": "10.96.81.12",
+      "hostname": "10.96.81.12",
+      "rtts": [
+        13.423
+      ],
+      "avg_rtt": 13.42,
+      "timeout": false
+    },
+    {
+      "hop": 15,
+      "ip": "10.96.81.12",
+      "hostname": "10.96.81.12",
+      "rtts": [
+        95.01
+      ],
+      "avg_rtt": 95.01,
+      "timeout": false
+    },
+    {
+      "hop": 16,
+      "ip": "10.96.81.12",
+      "hostname": "10.96.81.12",
+      "rtts": [
+        9.645,
+        10.886
+      ],
+      "avg_rtt": 10.27,
+      "timeout": false
+    }
+  ],
+  "num_hops": 15,
+  "success": false,
+  "raw_output": " 1  192.168.50.1 (192.168.50.1)  2.929 ms  2.741 ms  2.444 ms\n 2  csgate103.cs.ccu.edu.tw (140.123.103.250)  2.977 ms  2.837 ms  2.822 ms\n 3  140.123.9.249 (140.123.9.249)  2.853 ms  2.657 ms  2.612 ms\n 4  140.123.0.246 (140.123.0.246)  3.543 ms  3.153 ms  3.347 ms\n 5  140.130.252.251 (140.130.252.251)  3.917 ms  4.193 ms  3.487 ms\n 6  192.192.61.142 (192.192.61.142)  6.616 ms  6.181 ms  5.919 ms\n 7  192.192.61.37 (192.192.61.37)  7.052 ms  7.082 ms  7.034 ms\n 8  192.192.61.32 (192.192.61.32)  8.286 ms  7.601 ms  7.832 ms\n 9  192.192.61.209 (192.192.61.209)  7.885 ms  8.069 ms  8.717 ms\n10  * 10.96.81.12 (10.96.81.12)  14.205 ms !X *\n11  * * 10.96.81.12 (10.96.81.12)  9.622 ms !X\n12  * 10.96.81.12 (10.96.81.12)  13.150 ms !X *\n13  * 10.96.81.12 (10.96.81.12)  13.203 ms !X *\n14  10.96.81.12 (10.96.81.12)  13.423 ms !X * *\n15  10.96.81.12 (10.96.81.12)  95.010 ms !X * *\n16  10.96.81.12 (10.96.81.12)  9.645 ms !X *  10.886 ms !X\n",
+  "category": "government_central",
+  "base_domain": "moj.gov.tw",
+  "service_variant": "www.moj.gov.tw",
+  "is_bare_domain": false
+}

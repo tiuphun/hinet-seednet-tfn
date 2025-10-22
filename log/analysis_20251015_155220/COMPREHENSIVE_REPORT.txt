@@ -1,0 +1,273 @@
+====================================================================================================
+TAIWAN ISP TOPOLOGY MAPPING - COMPREHENSIVE ANALYSIS REPORT
+====================================================================================================
+
+EXECUTIVE SUMMARY
+----------------------------------------------------------------------------------------------------
+Total Measurements: 784
+AS-Level Paths: 784
+AS Border Crossings: 396
+Unique Peering Relationships: 59
+Load-Balanced Targets: 199
+Network Nodes: 473
+Network Edges: 658
+
+
+TOP PEERING RELATIONSHIPS
+----------------------------------------------------------------------------------------------------
+1. AS1659 -> ASNA
+   Occurrences: 67
+   Unique targets: 67
+   IP pairs: 7
+
+2. AS3462 -> ASNA
+   Occurrences: 59
+   Unique targets: 55
+   IP pairs: 36
+
+3. ASNA -> AS3462
+   Occurrences: 59
+   Unique targets: 56
+   IP pairs: 54
+
+4. AS1659 -> AS3462
+   Occurrences: 55
+   Unique targets: 55
+   IP pairs: 1
+
+5. ASNA -> AS13335
+   Occurrences: 19
+   Unique targets: 19
+   IP pairs: 18
+
+6. AS1659 -> AS15169
+   Occurrences: 16
+   Unique targets: 16
+   IP pairs: 1
+
+7. AS1659 -> AS16509
+   Occurrences: 10
+   Unique targets: 10
+   IP pairs: 10
+
+8. AS1659 -> AS7539
+   Occurrences: 9
+   Unique targets: 9
+   IP pairs: 1
+
+9. AS1659 -> AS9924
+   Occurrences: 9
+   Unique targets: 9
+   IP pairs: 1
+
+10. AS15169 -> AS396982
+   Occurrences: 8
+   Unique targets: 8
+   IP pairs: 8
+
+11. AS7539 -> AS1659
+   Occurrences: 7
+   Unique targets: 7
+   IP pairs: 6
+
+12. ASNA -> AS8075
+   Occurrences: 6
+   Unique targets: 6
+   IP pairs: 3
+
+13. AS1659 -> AS4637
+   Occurrences: 6
+   Unique targets: 6
+   IP pairs: 2
+
+14. AS1659 -> AS6939
+   Occurrences: 4
+   Unique targets: 4
+   IP pairs: 4
+
+15. AS4637 -> AS16509
+   Occurrences: 3
+   Unique targets: 3
+   IP pairs: 3
+
+
+TOP HUB ROUTERS (Core Infrastructure)
+----------------------------------------------------------------------------------------------------
+1. 140.123.103.250 (Unknown)
+   Total degree: 398
+   In-degree: 199, Out-degree: 199
+
+2. 140.123.9.249 (Unknown)
+   Total degree: 396
+   In-degree: 198, Out-degree: 198
+
+3. 140.123.0.246 (Unknown)
+   Total degree: 394
+   In-degree: 197, Out-degree: 197
+
+4. 140.130.252.251 (Unknown)
+   Total degree: 378
+   In-degree: 189, Out-degree: 189
+
+5. 192.192.61.142 (Unknown)
+   Total degree: 242
+   In-degree: 121, Out-degree: 121
+
+6. SOURCE (Unknown)
+   Total degree: 199
+   In-degree: 0, Out-degree: 199
+
+7. 192.192.61.20 (Unknown)
+   Total degree: 156
+   In-degree: 78, Out-degree: 78
+
+8. 192.192.61.48 (Unknown)
+   Total degree: 114
+   In-degree: 57, Out-degree: 57
+
+9. 211.22.226.198 (Unknown)
+   Total degree: 110
+   In-degree: 55, Out-degree: 55
+
+10. 192.192.68.62 (Unknown)
+   Total degree: 100
+   In-degree: 50, Out-degree: 50
+
+11. 192.192.61.209 (Unknown)
+   Total degree: 78
+   In-degree: 39, Out-degree: 39
+
+12. 10.96.81.12 (Unknown)
+   Total degree: 57
+   In-degree: 47, Out-degree: 10
+
+13. 192.192.61.37 (Unknown)
+   Total degree: 44
+   In-degree: 22, Out-degree: 22
+
+14. 192.192.61.32 (Unknown)
+   Total degree: 44
+   In-degree: 22, Out-degree: 22
+
+15. 192.192.61.9 (Unknown)
+   Total degree: 42
+   In-degree: 21, Out-degree: 21
+
+16. 203.163.222.39 (Unknown)
+   Total degree: 38
+   In-degree: 19, Out-degree: 19
+
+17. 192.192.61.4 (Unknown)
+   Total degree: 34
+   In-degree: 17, Out-degree: 17
+
+18. 192.192.61.30 (Unknown)
+   Total degree: 34
+   In-degree: 17, Out-degree: 17
+
+19. 192.192.61.184 (Unknown)
+   Total degree: 32
+   In-degree: 16, Out-degree: 16
+
+20. 192.192.61.203 (Unknown)
+   Total degree: 32
+   In-degree: 16, Out-degree: 16
+
+
+ISP INFRASTRUCTURE USAGE
+----------------------------------------------------------------------------------------------------
+
+Unknown:
+  Total router appearances: 1863
+  Unique routers: 361
+  Unique targets reached: 199
+  Categories: healthcare, cdn_global, universities, ecommerce_tech, government_central, financial_banks, telecom, dns_resolvers, financial_infra, government_local, education_network, critical_infra, government_critical, media
+
+HiNet:
+  Total router appearances: 131
+  Unique routers: 95
+  Unique targets reached: 56
+  Categories: healthcare, cdn_global, government_central, financial_banks, telecom, dns_resolvers, financial_infra, government_local, education_network, critical_infra, government_critical, media
+
+SEEDnet:
+  Total router appearances: 10
+  Unique routers: 9
+  Unique targets reached: 6
+  Categories: ecommerce_tech, government_central, financial_banks, telecom, financial_infra
+
+TWAREN:
+  Total router appearances: 6
+  Unique routers: 6
+  Unique targets reached: 6
+  Categories: financial_banks, cdn_global, ecommerce_tech
+
+Taiwan Fixed Network:
+  Total router appearances: 1
+  Unique routers: 1
+  Unique targets reached: 1
+  Categories: dns_resolvers
+
+
+LOAD BALANCING DETECTED
+----------------------------------------------------------------------------------------------------
+
+Target: www.president.gov.tw
+  Unique paths: 2
+  Total measurements: 3
+
+Target: www2.president.gov.tw
+  Unique paths: 2
+  Total measurements: 3
+
+Target: www.ey.gov.tw
+  Unique paths: 2
+  Total measurements: 3
+
+Target: www.mofa.gov.tw
+  Unique paths: 2
+  Total measurements: 3
+
+Target: mail.mofa.gov.tw
+  Unique paths: 2
+  Total measurements: 3
+
+Target: ftp.mofa.gov.tw
+  Unique paths: 2
+  Total measurements: 3
+
+Target: www.moi.gov.tw
+  Unique paths: 2
+  Total measurements: 3
+
+Target: ns.moi.gov.tw
+  Unique paths: 2
+  Total measurements: 3
+
+Target: webmail.moi.gov.tw
+  Unique paths: 2
+  Total measurements: 3
+
+Target: www.mof.gov.tw
+  Unique paths: 2
+  Total measurements: 3
+
+
+LATENCY ANALYSIS BY HOP
+----------------------------------------------------------------------------------------------------
+Hop    Min (ms)     Avg (ms)     Max (ms)     Samples   
+----------------------------------------------------------------------------------------------------
+2      1.91         4.68         26.00        199       
+3      1.58         3.93         14.48        198       
+4      2.56         4.78         12.63        198       
+5      3.51         5.69         17.64        198       
+6      3.40         7.06         19.31        198       
+7      3.89         8.74         18.45        142       
+8      4.21         10.69        69.05        169       
+9      5.46         11.87        44.26        195       
+10     4.62         11.96        26.62        170       
+11     6.20         13.50        153.02       124       
+12     6.63         16.08        59.81        73        
+13     8.34         22.94        140.21       41        
+14     9.97         36.94        157.81       21        
+15     10.57        34.42        143.73       21        
+16     10.98        39.66        172.58       22        

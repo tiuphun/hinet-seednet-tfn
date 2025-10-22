@@ -1,0 +1,231 @@
+{
+  "timestamp": "2025-10-15T12:57:20.292759",
+  "vantage_point": "itaiwan",
+  "target": "www.nccu.edu.tw",
+  "target_ip": "140.119.168.10",
+  "protocol": "icmp",
+  "port": null,
+  "duration_seconds": 9.33,
+  "hops": [
+    {
+      "hop": 2,
+      "ip": "168.95.98.254",
+      "hostname": "h254.s98.ts.hinet.net",
+      "rtts": [
+        3.097,
+        3.143,
+        3.182
+      ],
+      "avg_rtt": 3.14,
+      "timeout": false,
+      "network": "hinet",
+      "network_name": "HiNet (Chunghwa Telecom)",
+      "is_interesting": true,
+      "is_private": false
+    },
+    {
+      "hop": 3,
+      "ip": "168.95.128.42",
+      "hostname": "168-95-128-42.caw1-3331.hinet.net",
+      "rtts": [
+        3.484,
+        3.427,
+        3.726
+      ],
+      "avg_rtt": 3.55,
+      "timeout": false,
+      "network": "hinet",
+      "network_name": "HiNet (Chunghwa Telecom)",
+      "is_interesting": true,
+      "is_private": false
+    },
+    {
+      "hop": 4,
+      "ip": null,
+      "hostname": null,
+      "rtts": [],
+      "timeout": true
+    },
+    {
+      "hop": 5,
+      "ip": "220.128.8.82",
+      "hostname": "220-128-8-82.tyfo-3031.hinet.net",
+      "rtts": [
+        9.59,
+        9.469,
+        9.688
+      ],
+      "avg_rtt": 9.58,
+      "timeout": false,
+      "network": "hinet",
+      "network_name": "HiNet (Chunghwa Telecom)",
+      "is_interesting": true,
+      "is_private": false
+    },
+    {
+      "hop": 6,
+      "ip": "220.128.8.17",
+      "hostname": "220-128-8-17.tyfo-3335.hinet.net",
+      "rtts": [
+        10.219,
+        10.432,
+        10.014
+      ],
+      "avg_rtt": 10.22,
+      "timeout": false,
+      "network": "hinet",
+      "network_name": "HiNet (Chunghwa Telecom)",
+      "is_interesting": true,
+      "is_private": false
+    },
+    {
+      "hop": 7,
+      "ip": "210.65.126.148",
+      "hostname": "210-65-126-148.hinet-ip.hinet.net",
+      "rtts": [
+        10.283,
+        9.875,
+        10.526
+      ],
+      "avg_rtt": 10.23,
+      "timeout": false,
+      "network": "hinet",
+      "network_name": "HiNet (Chunghwa Telecom)",
+      "is_interesting": true,
+      "is_private": false
+    },
+    {
+      "hop": 8,
+      "ip": "192.192.61.71",
+      "hostname": "192.192.61.71",
+      "rtts": [
+        10.417,
+        10.074,
+        10.314
+      ],
+      "avg_rtt": 10.27,
+      "timeout": false,
+      "network": "other",
+      "network_name": "Other Network",
+      "is_interesting": false,
+      "is_private": false
+    },
+    {
+      "hop": 9,
+      "ip": "192.192.61.89",
+      "hostname": "192.192.61.89",
+      "rtts": [
+        10.002,
+        9.943,
+        14.45
+      ],
+      "avg_rtt": 11.46,
+      "timeout": false,
+      "network": "other",
+      "network_name": "Other Network",
+      "is_interesting": false,
+      "is_private": false
+    },
+    {
+      "hop": 10,
+      "ip": "140.119.243.6",
+      "hostname": "140.119.243.6",
+      "rtts": [
+        11.214,
+        11.377,
+        11.284
+      ],
+      "avg_rtt": 11.29,
+      "timeout": false,
+      "network": "other",
+      "network_name": "Other Network",
+      "is_interesting": false,
+      "is_private": false
+    },
+    {
+      "hop": 11,
+      "ip": "140.119.168.10",
+      "hostname": "140.119.168.10",
+      "rtts": [
+        11.463,
+        10.939,
+        16.331
+      ],
+      "avg_rtt": 12.91,
+      "timeout": false,
+      "network": "other",
+      "network_name": "Other Network",
+      "is_interesting": false,
+      "is_private": false
+    }
+  ],
+  "num_hops": 10,
+  "success": true,
+  "path_analysis": {
+    "networks_traversed": [
+      {
+        "network": "hinet",
+        "network_name": "HiNet (Chunghwa Telecom)",
+        "first_hop": 2
+      },
+      {
+        "network": "other",
+        "network_name": "Other Network",
+        "first_hop": 8
+      }
+    ],
+    "interesting_routers": [
+      {
+        "hop": 2,
+        "ip": "168.95.98.254",
+        "hostname": "h254.s98.ts.hinet.net",
+        "network": "hinet",
+        "network_name": "HiNet (Chunghwa Telecom)"
+      },
+      {
+        "hop": 3,
+        "ip": "168.95.128.42",
+        "hostname": "168-95-128-42.caw1-3331.hinet.net",
+        "network": "hinet",
+        "network_name": "HiNet (Chunghwa Telecom)"
+      },
+      {
+        "hop": 5,
+        "ip": "220.128.8.82",
+        "hostname": "220-128-8-82.tyfo-3031.hinet.net",
+        "network": "hinet",
+        "network_name": "HiNet (Chunghwa Telecom)"
+      },
+      {
+        "hop": 6,
+        "ip": "220.128.8.17",
+        "hostname": "220-128-8-17.tyfo-3335.hinet.net",
+        "network": "hinet",
+        "network_name": "HiNet (Chunghwa Telecom)"
+      },
+      {
+        "hop": 7,
+        "ip": "210.65.126.148",
+        "hostname": "210-65-126-148.hinet-ip.hinet.net",
+        "network": "hinet",
+        "network_name": "HiNet (Chunghwa Telecom)"
+      }
+    ],
+    "private_hops": 0,
+    "total_hops": 10,
+    "network_transitions": [
+      {
+        "hop": 8,
+        "from": "hinet",
+        "to": "other",
+        "from_ip": "192.192.61.71",
+        "to_ip": "192.192.61.71"
+      }
+    ]
+  },
+  "raw_output": " 1  172.16.193.250 (172.16.193.250)  9.180 ms  2.427 ms  2.273 ms\n 2  h254.s98.ts.hinet.net (168.95.98.254)  3.097 ms  3.143 ms  3.182 ms\n 3  168-95-128-42.caw1-3331.hinet.net (168.95.128.42)  3.484 ms  3.427 ms  3.726 ms\n 4  * * *\n 5  220-128-8-82.tyfo-3031.hinet.net (220.128.8.82)  9.590 ms  9.469 ms  9.688 ms\n 6  220-128-8-17.tyfo-3335.hinet.net (220.128.8.17)  10.219 ms  10.432 ms  10.014 ms\n 7  210-65-126-148.hinet-ip.hinet.net (210.65.126.148)  10.283 ms  9.875 ms  10.526 ms\n 8  192.192.61.71 (192.192.61.71)  10.417 ms  10.074 ms  10.314 ms\n 9  192.192.61.89 (192.192.61.89)  10.002 ms  9.943 ms  14.450 ms\n10  140.119.243.6 (140.119.243.6)  11.214 ms  11.377 ms  11.284 ms\n11  140.119.168.10 (140.119.168.10)  11.463 ms  10.939 ms  16.331 ms\n",
+  "category": "universities",
+  "base_domain": "nccu.edu.tw",
+  "service_variant": "www.nccu.edu.tw",
+  "is_bare_domain": false
+}

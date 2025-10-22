@@ -1,0 +1,135 @@
+{
+  "timestamp": "2025-10-15T07:48:32.132972",
+  "vantage_point": "university",
+  "target": "mail.taipower.com.tw",
+  "target_ip": "203.74.177.231",
+  "protocol": "icmp",
+  "port": null,
+  "duration_seconds": 27.28,
+  "hops": [
+    {
+      "hop": 2,
+      "ip": "140.123.103.250",
+      "hostname": null,
+      "rtts": [
+        3.57,
+        2.517,
+        2.697
+      ],
+      "avg_rtt": 2.93,
+      "timeout": false
+    },
+    {
+      "hop": 3,
+      "ip": "140.123.9.249",
+      "hostname": null,
+      "rtts": [
+        2.727,
+        2.668,
+        4.043
+      ],
+      "avg_rtt": 3.15,
+      "timeout": false
+    },
+    {
+      "hop": 4,
+      "ip": "140.123.0.246",
+      "hostname": null,
+      "rtts": [
+        4.658,
+        3.355,
+        3.797
+      ],
+      "avg_rtt": 3.94,
+      "timeout": false
+    },
+    {
+      "hop": 5,
+      "ip": "140.130.252.251",
+      "hostname": null,
+      "rtts": [
+        4.071,
+        4.295,
+        4.731
+      ],
+      "avg_rtt": 4.37,
+      "timeout": false
+    },
+    {
+      "hop": 6,
+      "ip": "211.22.226.198",
+      "hostname": null,
+      "rtts": [
+        8.156,
+        5.08,
+        5.678
+      ],
+      "avg_rtt": 6.3,
+      "timeout": false
+    },
+    {
+      "hop": 7,
+      "ip": null,
+      "hostname": null,
+      "rtts": [],
+      "timeout": true
+    },
+    {
+      "hop": 8,
+      "ip": null,
+      "hostname": null,
+      "rtts": [],
+      "timeout": true
+    },
+    {
+      "hop": 9,
+      "ip": "220.128.2.225",
+      "hostname": null,
+      "rtts": [
+        15.872,
+        12.427,
+        12.754
+      ],
+      "avg_rtt": 13.68,
+      "timeout": false
+    },
+    {
+      "hop": 10,
+      "ip": "203.75.188.197",
+      "hostname": null,
+      "rtts": [
+        13.52,
+        22.721,
+        15.715
+      ],
+      "avg_rtt": 17.32,
+      "timeout": false
+    },
+    {
+      "hop": 11,
+      "ip": null,
+      "hostname": null,
+      "rtts": [],
+      "timeout": true
+    },
+    {
+      "hop": 12,
+      "ip": "203.74.177.231",
+      "hostname": null,
+      "rtts": [
+        21.816,
+        10.601,
+        10.442
+      ],
+      "avg_rtt": 14.29,
+      "timeout": false
+    }
+  ],
+  "num_hops": 11,
+  "success": true,
+  "raw_output": " 1  192.168.50.1  3.051 ms  2.185 ms  2.462 ms\n 2  140.123.103.250  3.570 ms  2.517 ms  2.697 ms\n 3  140.123.9.249  2.727 ms  2.668 ms  4.043 ms\n 4  140.123.0.246  4.658 ms  3.355 ms  3.797 ms\n 5  140.130.252.251  4.071 ms  4.295 ms  4.731 ms\n 6  211.22.226.198  8.156 ms  5.080 ms  5.678 ms\n 7  * * *\n 8  * * *\n 9  220.128.2.225  15.872 ms  12.427 ms  12.754 ms\n10  203.75.188.197  13.520 ms  22.721 ms  15.715 ms\n11  * * *\n12  203.74.177.231  21.816 ms  10.601 ms  10.442 ms\n",
+  "category": "critical_infra",
+  "base_domain": "taipower.com.tw",
+  "service_variant": "mail.taipower.com.tw",
+  "is_bare_domain": false
+}

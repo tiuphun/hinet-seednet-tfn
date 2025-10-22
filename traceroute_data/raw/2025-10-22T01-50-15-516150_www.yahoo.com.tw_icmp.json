@@ -1,0 +1,168 @@
+{
+  "timestamp": "2025-10-22T01:50:15.516150",
+  "vantage_point": "university",
+  "target": "www.yahoo.com.tw",
+  "target_ip": "13.248.158.7",
+  "protocol": "icmp",
+  "port": null,
+  "duration_seconds": 54.35,
+  "hops": [
+    {
+      "hop": 2,
+      "ip": "140.123.103.250",
+      "hostname": "csgate103.cs.ccu.edu.tw",
+      "rtts": [
+        2.419,
+        2.395,
+        2.145
+      ],
+      "avg_rtt": 2.32,
+      "timeout": false
+    },
+    {
+      "hop": 3,
+      "ip": "140.123.9.249",
+      "hostname": "140.123.9.249",
+      "rtts": [
+        2.155,
+        2.228,
+        2.577
+      ],
+      "avg_rtt": 2.32,
+      "timeout": false
+    },
+    {
+      "hop": 4,
+      "ip": "140.123.0.246",
+      "hostname": "140.123.0.246",
+      "rtts": [
+        3.043,
+        3.234,
+        2.678
+      ],
+      "avg_rtt": 2.98,
+      "timeout": false
+    },
+    {
+      "hop": 5,
+      "ip": "140.130.252.251",
+      "hostname": "140.130.252.251",
+      "rtts": [
+        3.732,
+        5.232,
+        6.223
+      ],
+      "avg_rtt": 5.06,
+      "timeout": false
+    },
+    {
+      "hop": 6,
+      "ip": "192.192.61.142",
+      "hostname": "192.192.61.142",
+      "rtts": [
+        9.186,
+        6.88,
+        5.867
+      ],
+      "avg_rtt": 7.31,
+      "timeout": false
+    },
+    {
+      "hop": 7,
+      "ip": "192.192.61.20",
+      "hostname": "192.192.61.20",
+      "rtts": [
+        8.996,
+        9.841,
+        7.521
+      ],
+      "avg_rtt": 8.79,
+      "timeout": false
+    },
+    {
+      "hop": 8,
+      "ip": "192.192.61.48",
+      "hostname": "192.192.61.48",
+      "rtts": [
+        10.316,
+        8.331,
+        12.519
+      ],
+      "avg_rtt": 10.39,
+      "timeout": false
+    },
+    {
+      "hop": 9,
+      "ip": "192.192.68.62",
+      "hostname": "192.192.68.62",
+      "rtts": [
+        8.777,
+        9.066,
+        8.087
+      ],
+      "avg_rtt": 8.64,
+      "timeout": false
+    },
+    {
+      "hop": 10,
+      "ip": null,
+      "hostname": null,
+      "rtts": [],
+      "timeout": true
+    },
+    {
+      "hop": 11,
+      "ip": null,
+      "hostname": null,
+      "rtts": [],
+      "timeout": true
+    },
+    {
+      "hop": 12,
+      "ip": null,
+      "hostname": null,
+      "rtts": [],
+      "timeout": true
+    },
+    {
+      "hop": 13,
+      "ip": null,
+      "hostname": null,
+      "rtts": [],
+      "timeout": true
+    },
+    {
+      "hop": 14,
+      "ip": null,
+      "hostname": null,
+      "rtts": [],
+      "timeout": true
+    },
+    {
+      "hop": 15,
+      "ip": null,
+      "hostname": null,
+      "rtts": [],
+      "timeout": true
+    },
+    {
+      "hop": 16,
+      "ip": "13.248.158.7",
+      "hostname": "a7de0457831fd11f7.awsglobalaccelerator.com",
+      "rtts": [
+        20.176,
+        9.384,
+        9.482
+      ],
+      "avg_rtt": 13.01,
+      "timeout": false
+    }
+  ],
+  "num_hops": 15,
+  "success": true,
+  "raw_output": " 1  192.168.50.1 (192.168.50.1)  7.626 ms  4.210 ms  2.437 ms\n 2  csgate103.cs.ccu.edu.tw (140.123.103.250)  2.419 ms  2.395 ms  2.145 ms\n 3  140.123.9.249 (140.123.9.249)  2.155 ms  2.228 ms  2.577 ms\n 4  140.123.0.246 (140.123.0.246)  3.043 ms  3.234 ms  2.678 ms\n 5  140.130.252.251 (140.130.252.251)  3.732 ms  5.232 ms  6.223 ms\n 6  192.192.61.142 (192.192.61.142)  9.186 ms  6.880 ms  5.867 ms\n 7  192.192.61.20 (192.192.61.20)  8.996 ms  9.841 ms  7.521 ms\n 8  192.192.61.48 (192.192.61.48)  10.316 ms  8.331 ms  12.519 ms\n 9  192.192.68.62 (192.192.68.62)  8.777 ms  9.066 ms  8.087 ms\n10  * * *\n11  * * *\n12  * * *\n13  * * *\n14  * * *\n15  * * *\n16  a7de0457831fd11f7.awsglobalaccelerator.com (13.248.158.7)  20.176 ms  9.384 ms  9.482 ms\n",
+  "category": "cdn_global",
+  "base_domain": "yahoo.com.tw",
+  "service_variant": "www.yahoo.com.tw",
+  "is_bare_domain": false
+}

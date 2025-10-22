@@ -1,0 +1,209 @@
+{
+  "timestamp": "2025-10-15T14:19:13.733051",
+  "vantage_point": "itaiwan",
+  "target": "tvbs.com.tw",
+  "target_ip": "3.169.137.51",
+  "protocol": "icmp",
+  "port": null,
+  "duration_seconds": 72.35,
+  "hops": [
+    {
+      "hop": 2,
+      "ip": "168.95.98.254",
+      "hostname": "h254.s98.ts.hinet.net",
+      "rtts": [
+        3.28,
+        3.732,
+        3.596
+      ],
+      "avg_rtt": 3.54,
+      "timeout": false,
+      "network": "hinet",
+      "network_name": "HiNet (Chunghwa Telecom)",
+      "is_interesting": true,
+      "is_private": false
+    },
+    {
+      "hop": 3,
+      "ip": "168.95.128.42",
+      "hostname": "168-95-128-42.caw1-3331.hinet.net",
+      "rtts": [
+        9.713,
+        4.276,
+        5.015
+      ],
+      "avg_rtt": 6.33,
+      "timeout": false,
+      "network": "hinet",
+      "network_name": "HiNet (Chunghwa Telecom)",
+      "is_interesting": true,
+      "is_private": false
+    },
+    {
+      "hop": 4,
+      "ip": null,
+      "hostname": null,
+      "rtts": [],
+      "timeout": true
+    },
+    {
+      "hop": 5,
+      "ip": null,
+      "hostname": null,
+      "rtts": [],
+      "timeout": true
+    },
+    {
+      "hop": 6,
+      "ip": "220.128.12.213",
+      "hostname": "220-128-12-213.pcpd-3332.hinet.net",
+      "rtts": [
+        11.083,
+        12.013,
+        14.675
+      ],
+      "avg_rtt": 12.59,
+      "timeout": false,
+      "network": "hinet",
+      "network_name": "HiNet (Chunghwa Telecom)",
+      "is_interesting": true,
+      "is_private": false
+    },
+    {
+      "hop": 7,
+      "ip": "211.22.229.217",
+      "hostname": "211-22-229-217.hinet-ip.hinet.net",
+      "rtts": [
+        11.157,
+        14.866,
+        9.791
+      ],
+      "avg_rtt": 11.94,
+      "timeout": false,
+      "network": "hinet",
+      "network_name": "HiNet (Chunghwa Telecom)",
+      "is_interesting": true,
+      "is_private": false
+    },
+    {
+      "hop": 8,
+      "ip": null,
+      "hostname": null,
+      "rtts": [],
+      "timeout": true
+    },
+    {
+      "hop": 9,
+      "ip": null,
+      "hostname": null,
+      "rtts": [],
+      "timeout": true
+    },
+    {
+      "hop": 10,
+      "ip": null,
+      "hostname": null,
+      "rtts": [],
+      "timeout": true
+    },
+    {
+      "hop": 11,
+      "ip": null,
+      "hostname": null,
+      "rtts": [],
+      "timeout": true
+    },
+    {
+      "hop": 12,
+      "ip": null,
+      "hostname": null,
+      "rtts": [],
+      "timeout": true
+    },
+    {
+      "hop": 13,
+      "ip": null,
+      "hostname": null,
+      "rtts": [],
+      "timeout": true
+    },
+    {
+      "hop": 14,
+      "ip": "3.169.137.51",
+      "hostname": "server-3-169-137-51.tpe54.r.cloudfront.net",
+      "rtts": [
+        21.805,
+        12.179,
+        12.448
+      ],
+      "avg_rtt": 15.48,
+      "timeout": false,
+      "network": "other",
+      "network_name": "Other Network",
+      "is_interesting": false,
+      "is_private": false
+    }
+  ],
+  "num_hops": 13,
+  "success": true,
+  "path_analysis": {
+    "networks_traversed": [
+      {
+        "network": "hinet",
+        "network_name": "HiNet (Chunghwa Telecom)",
+        "first_hop": 2
+      },
+      {
+        "network": "other",
+        "network_name": "Other Network",
+        "first_hop": 14
+      }
+    ],
+    "interesting_routers": [
+      {
+        "hop": 2,
+        "ip": "168.95.98.254",
+        "hostname": "h254.s98.ts.hinet.net",
+        "network": "hinet",
+        "network_name": "HiNet (Chunghwa Telecom)"
+      },
+      {
+        "hop": 3,
+        "ip": "168.95.128.42",
+        "hostname": "168-95-128-42.caw1-3331.hinet.net",
+        "network": "hinet",
+        "network_name": "HiNet (Chunghwa Telecom)"
+      },
+      {
+        "hop": 6,
+        "ip": "220.128.12.213",
+        "hostname": "220-128-12-213.pcpd-3332.hinet.net",
+        "network": "hinet",
+        "network_name": "HiNet (Chunghwa Telecom)"
+      },
+      {
+        "hop": 7,
+        "ip": "211.22.229.217",
+        "hostname": "211-22-229-217.hinet-ip.hinet.net",
+        "network": "hinet",
+        "network_name": "HiNet (Chunghwa Telecom)"
+      }
+    ],
+    "private_hops": 0,
+    "total_hops": 13,
+    "network_transitions": [
+      {
+        "hop": 14,
+        "from": "hinet",
+        "to": "other",
+        "from_ip": "3.169.137.51",
+        "to_ip": "3.169.137.51"
+      }
+    ]
+  },
+  "raw_output": " 1  172.16.193.250 (172.16.193.250)  4.762 ms  2.466 ms  3.883 ms\n 2  h254.s98.ts.hinet.net (168.95.98.254)  3.280 ms  3.732 ms  3.596 ms\n 3  168-95-128-42.caw1-3331.hinet.net (168.95.128.42)  9.713 ms  4.276 ms  5.015 ms\n 4  * * *\n 5  * * *\n 6  220-128-12-213.pcpd-3332.hinet.net (220.128.12.213)  11.083 ms  12.013 ms  14.675 ms\n 7  211-22-229-217.hinet-ip.hinet.net (211.22.229.217)  11.157 ms  14.866 ms  9.791 ms\n 8  * * *\n 9  * * *\n10  * * *\n11  * * *\n12  * * *\n13  * * *\n14  server-3-169-137-51.tpe54.r.cloudfront.net (3.169.137.51)  21.805 ms  12.179 ms  12.448 ms\n",
+  "category": "media",
+  "base_domain": "tvbs.com.tw",
+  "service_variant": "tvbs.com.tw",
+  "is_bare_domain": true
+}

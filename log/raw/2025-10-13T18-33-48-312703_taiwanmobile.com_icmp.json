@@ -1,0 +1,268 @@
+{
+  "timestamp": "2025-10-13T18:33:48.312703",
+  "vantage_point": "cht-mobile",
+  "target": "taiwanmobile.com",
+  "target_ip": "124.29.139.21",
+  "protocol": "icmp",
+  "port": null,
+  "duration_seconds": 83.58,
+  "hops": [
+    {
+      "hop": 2,
+      "ip": "10.159.65.141",
+      "hostname": null,
+      "rtts": [
+        206.977,
+        210.519,
+        90.178
+      ],
+      "avg_rtt": 169.22,
+      "timeout": false
+    },
+    {
+      "hop": 3,
+      "ip": "10.159.65.85",
+      "hostname": null,
+      "rtts": [
+        102.427,
+        18.299,
+        84.752
+      ],
+      "avg_rtt": 68.49,
+      "timeout": false
+    },
+    {
+      "hop": 4,
+      "ip": "10.159.67.167",
+      "hostname": null,
+      "rtts": [
+        27.196,
+        176.909,
+        57.583
+      ],
+      "avg_rtt": 87.23,
+      "timeout": false
+    },
+    {
+      "hop": 5,
+      "ip": "10.159.67.178",
+      "hostname": null,
+      "rtts": [
+        34.393,
+        28.307,
+        20.667
+      ],
+      "avg_rtt": 27.79,
+      "timeout": false
+    },
+    {
+      "hop": 6,
+      "ip": "210.65.126.198",
+      "hostname": null,
+      "rtts": [
+        25.638,
+        26.23,
+        50.405
+      ],
+      "avg_rtt": 34.09,
+      "timeout": false
+    },
+    {
+      "hop": 7,
+      "ip": null,
+      "hostname": null,
+      "rtts": [],
+      "timeout": true
+    },
+    {
+      "hop": 8,
+      "ip": null,
+      "hostname": null,
+      "rtts": [],
+      "timeout": true
+    },
+    {
+      "hop": 9,
+      "ip": "220.128.3.213",
+      "hostname": null,
+      "rtts": [
+        57.469,
+        40.056,
+        29.896
+      ],
+      "avg_rtt": 42.47,
+      "timeout": false
+    },
+    {
+      "hop": 10,
+      "ip": "220.128.1.125",
+      "hostname": null,
+      "rtts": [
+        31.206,
+        32.207,
+        26.946
+      ],
+      "avg_rtt": 30.12,
+      "timeout": false
+    },
+    {
+      "hop": 11,
+      "ip": "203.75.230.109",
+      "hostname": null,
+      "rtts": [
+        42.745,
+        31.722,
+        29.468
+      ],
+      "avg_rtt": 34.65,
+      "timeout": false
+    },
+    {
+      "hop": 12,
+      "ip": "60.199.3.57",
+      "hostname": null,
+      "rtts": [
+        30.497,
+        34.705,
+        32.184
+      ],
+      "avg_rtt": 32.46,
+      "timeout": false
+    },
+    {
+      "hop": 13,
+      "ip": "60.199.6.98",
+      "hostname": null,
+      "rtts": [
+        29.894,
+        29.698,
+        52.609
+      ],
+      "avg_rtt": 37.4,
+      "timeout": false
+    },
+    {
+      "hop": 14,
+      "ip": "60.199.82.13",
+      "hostname": null,
+      "rtts": [
+        38.701,
+        28.982,
+        30.976
+      ],
+      "avg_rtt": 32.89,
+      "timeout": false
+    },
+    {
+      "hop": 15,
+      "ip": "60.199.20.105",
+      "hostname": null,
+      "rtts": [
+        56.287,
+        33.619,
+        32.001
+      ],
+      "avg_rtt": 40.64,
+      "timeout": false
+    },
+    {
+      "hop": 16,
+      "ip": "60.199.21.42",
+      "hostname": null,
+      "rtts": [
+        27.246,
+        29.617,
+        29.827
+      ],
+      "avg_rtt": 28.9,
+      "timeout": false
+    },
+    {
+      "hop": 17,
+      "ip": "60.199.14.10",
+      "hostname": null,
+      "rtts": [
+        31.858,
+        30.491,
+        28.472
+      ],
+      "avg_rtt": 30.27,
+      "timeout": false
+    },
+    {
+      "hop": 18,
+      "ip": "219.80.116.246",
+      "hostname": null,
+      "rtts": [
+        63.98,
+        39.075,
+        30.057
+      ],
+      "avg_rtt": 44.37,
+      "timeout": false
+    },
+    {
+      "hop": 19,
+      "ip": "124.29.143.81",
+      "hostname": null,
+      "rtts": [
+        67.572
+      ],
+      "avg_rtt": 67.57,
+      "timeout": false
+    },
+    {
+      "hop": 20,
+      "ip": null,
+      "hostname": null,
+      "rtts": [],
+      "timeout": true
+    },
+    {
+      "hop": 21,
+      "ip": null,
+      "hostname": null,
+      "rtts": [],
+      "timeout": true
+    },
+    {
+      "hop": 22,
+      "ip": null,
+      "hostname": null,
+      "rtts": [],
+      "timeout": true
+    },
+    {
+      "hop": 23,
+      "ip": null,
+      "hostname": null,
+      "rtts": [],
+      "timeout": true
+    },
+    {
+      "hop": 24,
+      "ip": null,
+      "hostname": null,
+      "rtts": [],
+      "timeout": true
+    },
+    {
+      "hop": 25,
+      "ip": null,
+      "hostname": null,
+      "rtts": [],
+      "timeout": true
+    },
+    {
+      "hop": 26,
+      "ip": null,
+      "hostname": null,
+      "rtts": [],
+      "timeout": true
+    }
+  ],
+  "num_hops": 25,
+  "success": false,
+  "raw_output": " 1  172.20.10.1  19.897 ms  75.088 ms  3.998 ms\n 2  10.159.65.141  206.977 ms  210.519 ms  90.178 ms\n 3  10.159.65.85  102.427 ms  18.299 ms  84.752 ms\n 4  10.159.67.167  27.196 ms  176.909 ms  57.583 ms\n 5  10.159.67.178  34.393 ms  28.307 ms  20.667 ms\n 6  210.65.126.198  25.638 ms  26.230 ms  50.405 ms\n 7  * * *\n 8  * * *\n 9  220.128.3.213  57.469 ms  40.056 ms  29.896 ms\n10  220.128.1.125  31.206 ms  32.207 ms  26.946 ms\n11  203.75.230.109  42.745 ms  31.722 ms  29.468 ms\n12  60.199.3.57  30.497 ms  34.705 ms  32.184 ms\n13  60.199.6.98  29.894 ms  29.698 ms  52.609 ms\n14  60.199.82.13  38.701 ms  28.982 ms  30.976 ms\n15  60.199.20.105  56.287 ms  33.619 ms  32.001 ms\n16  60.199.21.42  27.246 ms  29.617 ms  29.827 ms\n17  60.199.14.10  31.858 ms  30.491 ms  28.472 ms\n18  219.80.116.246  63.980 ms  39.075 ms  30.057 ms\n19  124.29.143.81  67.572 ms * *\n20  * * *\n21  * * *\n22  * * *\n23  * * *\n24  * * *\n25  * * *\n26  * 124.29.139.21  41.725 ms  38.020 ms\n",
+  "category": "telecom"
+}

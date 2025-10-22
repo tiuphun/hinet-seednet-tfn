@@ -1,0 +1,138 @@
+{
+  "timestamp": "2025-10-15T01:01:58.614801",
+  "vantage_point": "university",
+  "target": "www.tku.edu.tw",
+  "target_ip": "203.145.221.108",
+  "protocol": "icmp",
+  "port": null,
+  "duration_seconds": 0.3,
+  "hops": [
+    {
+      "hop": 2,
+      "ip": "140.123.103.250",
+      "hostname": null,
+      "rtts": [
+        2.994,
+        2.952,
+        3.056
+      ],
+      "avg_rtt": 3.0,
+      "timeout": false
+    },
+    {
+      "hop": 3,
+      "ip": "140.123.9.249",
+      "hostname": null,
+      "rtts": [
+        3.463,
+        5.186,
+        2.659
+      ],
+      "avg_rtt": 3.77,
+      "timeout": false
+    },
+    {
+      "hop": 4,
+      "ip": "140.123.0.246",
+      "hostname": null,
+      "rtts": [
+        3.632,
+        3.869,
+        3.642
+      ],
+      "avg_rtt": 3.71,
+      "timeout": false
+    },
+    {
+      "hop": 5,
+      "ip": "211.79.57.25",
+      "hostname": null,
+      "rtts": [
+        4.392,
+        5.484,
+        6.156
+      ],
+      "avg_rtt": 5.34,
+      "timeout": false
+    },
+    {
+      "hop": 6,
+      "ip": "211.73.76.209",
+      "hostname": null,
+      "rtts": [
+        6.1,
+        5.604,
+        5.925
+      ],
+      "avg_rtt": 5.88,
+      "timeout": false
+    },
+    {
+      "hop": 7,
+      "ip": "211.73.76.165",
+      "hostname": null,
+      "rtts": [
+        7.898,
+        6.71,
+        8.113
+      ],
+      "avg_rtt": 7.57,
+      "timeout": false
+    },
+    {
+      "hop": 8,
+      "ip": "211.79.59.14",
+      "hostname": null,
+      "rtts": [
+        8.119,
+        6.886,
+        7.632
+      ],
+      "avg_rtt": 7.55,
+      "timeout": false
+    },
+    {
+      "hop": 9,
+      "ip": "10.42.217.41",
+      "hostname": null,
+      "rtts": [
+        9.44,
+        29.791,
+        11.073
+      ],
+      "avg_rtt": 16.77,
+      "timeout": false
+    },
+    {
+      "hop": 10,
+      "ip": "203.145.221.108",
+      "hostname": null,
+      "rtts": [
+        7.254,
+        10.048,
+        7.195
+      ],
+      "avg_rtt": 8.17,
+      "timeout": false
+    },
+    {
+      "hop": 11,
+      "ip": "203.145.221.108",
+      "hostname": null,
+      "rtts": [
+        24.095,
+        24.859,
+        10.862
+      ],
+      "avg_rtt": 19.94,
+      "timeout": false
+    }
+  ],
+  "num_hops": 10,
+  "success": true,
+  "raw_output": " 1  192.168.50.1  25.878 ms  8.072 ms  3.134 ms\n 2  140.123.103.250  2.994 ms  2.952 ms  3.056 ms\n 3  140.123.9.249  3.463 ms  5.186 ms  2.659 ms\n 4  140.123.0.246  3.632 ms  3.869 ms  3.642 ms\n 5  211.79.57.25  4.392 ms  5.484 ms  6.156 ms\n 6  211.73.76.209  6.100 ms  5.604 ms  5.925 ms\n 7  211.73.76.165  7.898 ms  6.710 ms  8.113 ms\n 8  211.79.59.14  8.119 ms  6.886 ms  7.632 ms\n 9  10.42.217.41  9.440 ms  29.791 ms  11.073 ms\n10  203.145.221.108  7.254 ms  10.048 ms  7.195 ms\n11  203.145.221.108  24.095 ms  24.859 ms  10.862 ms\n",
+  "category": "universities",
+  "base_domain": "tku.edu.tw",
+  "service_variant": "www.tku.edu.tw",
+  "is_bare_domain": false
+}
