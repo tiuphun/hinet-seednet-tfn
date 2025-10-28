@@ -1,0 +1,181 @@
+{
+  "timestamp": "2025-10-23T07:46:55.416576",
+  "vantage_point": "university",
+  "target": "www.storm.mg",
+  "target_ip": "3.169.121.79",
+  "protocol": "tcp",
+  "port": 80,
+  "duration_seconds": 47.1,
+  "hops": [
+    {
+      "hop": 1,
+      "ip": "192.168.50.1",
+      "hostname": null,
+      "rtts": [
+        18.47,
+        8.41,
+        6.44
+      ],
+      "timeout": false,
+      "avg_rtt": 11.11
+    },
+    {
+      "hop": 2,
+      "ip": "140.123.103.250",
+      "hostname": "csgate103.cs.ccu.edu.tw",
+      "rtts": [
+        6.73,
+        10.42,
+        4.55
+      ],
+      "timeout": false,
+      "avg_rtt": 7.23
+    },
+    {
+      "hop": 3,
+      "ip": "140.123.9.249",
+      "hostname": null,
+      "rtts": [
+        4.65,
+        4.68,
+        4.35
+      ],
+      "timeout": false,
+      "avg_rtt": 4.56
+    },
+    {
+      "hop": 4,
+      "ip": "140.123.0.246",
+      "hostname": null,
+      "rtts": [
+        4.85,
+        4.72,
+        20.09
+      ],
+      "timeout": false,
+      "avg_rtt": 9.89
+    },
+    {
+      "hop": 5,
+      "ip": "140.130.252.251",
+      "hostname": null,
+      "rtts": [
+        13.73,
+        6.49,
+        14.26
+      ],
+      "timeout": false,
+      "avg_rtt": 11.49
+    },
+    {
+      "hop": 6,
+      "ip": "192.192.61.142",
+      "hostname": null,
+      "rtts": [
+        6.96,
+        11.68,
+        7.32
+      ],
+      "timeout": false,
+      "avg_rtt": 8.65
+    },
+    {
+      "hop": 7,
+      "ip": "192.192.61.20",
+      "hostname": null,
+      "rtts": [
+        10.09,
+        12.42,
+        12.2
+      ],
+      "timeout": false,
+      "avg_rtt": 11.57
+    },
+    {
+      "hop": 8,
+      "ip": "192.192.61.48",
+      "hostname": null,
+      "rtts": [
+        17.88,
+        9.97,
+        13.63
+      ],
+      "timeout": false,
+      "avg_rtt": 13.83
+    },
+    {
+      "hop": 9,
+      "ip": "192.192.68.62",
+      "hostname": null,
+      "rtts": [
+        11.28,
+        23.03,
+        13.16
+      ],
+      "timeout": false,
+      "avg_rtt": 15.82
+    },
+    {
+      "hop": 10,
+      "ip": null,
+      "hostname": null,
+      "rtts": [],
+      "timeout": true
+    },
+    {
+      "hop": 11,
+      "ip": null,
+      "hostname": null,
+      "rtts": [],
+      "timeout": true
+    },
+    {
+      "hop": 12,
+      "ip": null,
+      "hostname": null,
+      "rtts": [],
+      "timeout": true
+    },
+    {
+      "hop": 13,
+      "ip": null,
+      "hostname": null,
+      "rtts": [],
+      "timeout": true
+    },
+    {
+      "hop": 14,
+      "ip": null,
+      "hostname": null,
+      "rtts": [],
+      "timeout": true
+    },
+    {
+      "hop": 15,
+      "ip": null,
+      "hostname": null,
+      "rtts": [],
+      "timeout": true
+    },
+    {
+      "hop": 16,
+      "ip": "3.169.121.79",
+      "hostname": "server-3-169-121-79.tpe53.r.cloudfront.net",
+      "rtts": [
+        24.39,
+        15.37,
+        14.53
+      ],
+      "timeout": false,
+      "reached_destination": true,
+      "avg_rtt": 18.1
+    }
+  ],
+  "num_hops": 16,
+  "success": true,
+  "method": "scapy",
+  "category": "media",
+  "base_domain": "storm.mg",
+  "service_variant": "www.storm.mg",
+  "is_bare_domain": false
+}

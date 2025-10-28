@@ -1,0 +1,150 @@
+{
+  "timestamp": "2025-10-23T04:50:54.855096",
+  "vantage_point": "university",
+  "target": "www.ruten.com.tw",
+  "target_ip": "104.18.11.27",
+  "protocol": "icmp",
+  "port": null,
+  "duration_seconds": 2.49,
+  "hops": [
+    {
+      "hop": 1,
+      "ip": "192.168.50.1",
+      "hostname": null,
+      "rtts": [
+        14.42,
+        6.03
+      ],
+      "timeout": false,
+      "avg_rtt": 10.22
+    },
+    {
+      "hop": 2,
+      "ip": "140.123.103.250",
+      "hostname": "csgate103.cs.ccu.edu.tw",
+      "rtts": [
+        8.36,
+        6.45,
+        10.7
+      ],
+      "timeout": false,
+      "avg_rtt": 8.5
+    },
+    {
+      "hop": 3,
+      "ip": "140.123.9.249",
+      "hostname": null,
+      "rtts": [
+        12.68,
+        12.4,
+        6.6
+      ],
+      "timeout": false,
+      "avg_rtt": 10.56
+    },
+    {
+      "hop": 4,
+      "ip": "140.123.0.246",
+      "hostname": null,
+      "rtts": [
+        6.71,
+        5.45,
+        5.91
+      ],
+      "timeout": false,
+      "avg_rtt": 6.02
+    },
+    {
+      "hop": 5,
+      "ip": "140.130.252.251",
+      "hostname": null,
+      "rtts": [
+        7.5,
+        7.51,
+        11.15
+      ],
+      "timeout": false,
+      "avg_rtt": 8.72
+    },
+    {
+      "hop": 6,
+      "ip": "192.192.61.142",
+      "hostname": null,
+      "rtts": [
+        11.91,
+        13.09,
+        13.57
+      ],
+      "timeout": false,
+      "avg_rtt": 12.86
+    },
+    {
+      "hop": 7,
+      "ip": "192.192.61.20",
+      "hostname": null,
+      "rtts": [
+        13.9,
+        21.73,
+        14.69
+      ],
+      "timeout": false,
+      "avg_rtt": 16.77
+    },
+    {
+      "hop": 8,
+      "ip": "192.192.61.48",
+      "hostname": null,
+      "rtts": [
+        26.65,
+        16.77,
+        13.49
+      ],
+      "timeout": false,
+      "avg_rtt": 18.97
+    },
+    {
+      "hop": 9,
+      "ip": "192.192.68.62",
+      "hostname": null,
+      "rtts": [
+        22.84,
+        14.05,
+        13.76
+      ],
+      "timeout": false,
+      "avg_rtt": 16.88
+    },
+    {
+      "hop": 10,
+      "ip": "203.163.222.39",
+      "hostname": "39-222-163-203-static.tpix.net.tw",
+      "rtts": [
+        14.62,
+        15.74,
+        14.81
+      ],
+      "timeout": false,
+      "avg_rtt": 15.06
+    },
+    {
+      "hop": 11,
+      "ip": "104.18.11.27",
+      "hostname": null,
+      "rtts": [
+        22.0,
+        12.92,
+        14.76
+      ],
+      "timeout": false,
+      "reached_destination": true,
+      "avg_rtt": 16.56
+    }
+  ],
+  "num_hops": 11,
+  "success": true,
+  "method": "scapy",
+  "category": "ecommerce_tech",
+  "base_domain": "ruten.com.tw",
+  "service_variant": "www.ruten.com.tw",
+  "is_bare_domain": false
+}

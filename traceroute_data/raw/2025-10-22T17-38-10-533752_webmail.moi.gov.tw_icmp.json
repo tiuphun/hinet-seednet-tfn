@@ -1,0 +1,344 @@
+{
+  "timestamp": "2025-10-22T17:38:10.533752",
+  "vantage_point": "university",
+  "target": "webmail.moi.gov.tw",
+  "target_ip": "223.200.22.41",
+  "protocol": "icmp",
+  "port": null,
+  "duration_seconds": 70.21,
+  "hops": [
+    {
+      "hop": 1,
+      "ip": "192.168.50.1",
+      "hostname": null,
+      "rtts": [
+        4.67,
+        4.84
+      ],
+      "timeout": false,
+      "avg_rtt": 4.75
+    },
+    {
+      "hop": 2,
+      "ip": "140.123.103.250",
+      "hostname": "csgate103.cs.ccu.edu.tw",
+      "rtts": [
+        23.28,
+        4.3,
+        4.43
+      ],
+      "timeout": false,
+      "avg_rtt": 10.67
+    },
+    {
+      "hop": 3,
+      "ip": "140.123.9.249",
+      "hostname": null,
+      "rtts": [
+        4.61,
+        4.27,
+        5.47
+      ],
+      "timeout": false,
+      "avg_rtt": 4.78
+    },
+    {
+      "hop": 4,
+      "ip": "140.123.0.246",
+      "hostname": null,
+      "rtts": [
+        6.31,
+        4.67,
+        5.46
+      ],
+      "timeout": false,
+      "avg_rtt": 5.48
+    },
+    {
+      "hop": 5,
+      "ip": "140.130.252.251",
+      "hostname": null,
+      "rtts": [
+        6.81,
+        5.43,
+        5.98
+      ],
+      "timeout": false,
+      "avg_rtt": 6.07
+    },
+    {
+      "hop": 6,
+      "ip": "192.192.61.142",
+      "hostname": null,
+      "rtts": [
+        7.11,
+        16.36,
+        7.26
+      ],
+      "timeout": false,
+      "avg_rtt": 10.24
+    },
+    {
+      "hop": 7,
+      "ip": "192.192.61.9",
+      "hostname": null,
+      "rtts": [
+        6.75,
+        7.55,
+        9.08
+      ],
+      "timeout": false,
+      "avg_rtt": 7.79
+    },
+    {
+      "hop": 8,
+      "ip": "192.192.61.30",
+      "hostname": null,
+      "rtts": [
+        8.96,
+        8.75,
+        9.2
+      ],
+      "timeout": false,
+      "avg_rtt": 8.97
+    },
+    {
+      "hop": 9,
+      "ip": "192.192.61.4",
+      "hostname": null,
+      "rtts": [
+        9.77,
+        12.68,
+        10.67
+      ],
+      "timeout": false,
+      "avg_rtt": 11.04
+    },
+    {
+      "hop": 10,
+      "ip": "192.192.61.209",
+      "hostname": null,
+      "rtts": [
+        10.0,
+        16.98,
+        15.79
+      ],
+      "timeout": false,
+      "avg_rtt": 14.26
+    },
+    {
+      "hop": 11,
+      "ip": "10.96.81.12",
+      "hostname": null,
+      "rtts": [
+        12.04,
+        23.41
+      ],
+      "timeout": false,
+      "avg_rtt": 17.73
+    },
+    {
+      "hop": 12,
+      "ip": "10.96.81.12",
+      "hostname": null,
+      "rtts": [
+        15.38
+      ],
+      "timeout": false,
+      "avg_rtt": 15.38
+    },
+    {
+      "hop": 13,
+      "ip": "10.96.81.12",
+      "hostname": null,
+      "rtts": [
+        20.31
+      ],
+      "timeout": false,
+      "avg_rtt": 20.31
+    },
+    {
+      "hop": 14,
+      "ip": "10.96.81.12",
+      "hostname": null,
+      "rtts": [
+        25.55,
+        26.84
+      ],
+      "timeout": false,
+      "avg_rtt": 26.2
+    },
+    {
+      "hop": 15,
+      "ip": "10.96.81.12",
+      "hostname": null,
+      "rtts": [
+        27.33
+      ],
+      "timeout": false,
+      "avg_rtt": 27.33
+    },
+    {
+      "hop": 16,
+      "ip": "10.96.81.12",
+      "hostname": null,
+      "rtts": [
+        19.37
+      ],
+      "timeout": false,
+      "avg_rtt": 19.37
+    },
+    {
+      "hop": 17,
+      "ip": "10.96.81.12",
+      "hostname": null,
+      "rtts": [
+        26.66,
+        9.36
+      ],
+      "timeout": false,
+      "avg_rtt": 18.01
+    },
+    {
+      "hop": 18,
+      "ip": "10.96.81.12",
+      "hostname": null,
+      "rtts": [
+        30.69
+      ],
+      "timeout": false,
+      "avg_rtt": 30.69
+    },
+    {
+      "hop": 19,
+      "ip": "10.96.81.12",
+      "hostname": null,
+      "rtts": [
+        60.53
+      ],
+      "timeout": false,
+      "avg_rtt": 60.53
+    },
+    {
+      "hop": 20,
+      "ip": "10.96.81.12",
+      "hostname": null,
+      "rtts": [
+        22.39
+      ],
+      "timeout": false,
+      "avg_rtt": 22.39
+    },
+    {
+      "hop": 21,
+      "ip": "10.96.81.12",
+      "hostname": null,
+      "rtts": [
+        36.59,
+        17.44
+      ],
+      "timeout": false,
+      "avg_rtt": 27.02
+    },
+    {
+      "hop": 22,
+      "ip": "10.96.81.12",
+      "hostname": null,
+      "rtts": [
+        20.37
+      ],
+      "timeout": false,
+      "avg_rtt": 20.37
+    },
+    {
+      "hop": 23,
+      "ip": "10.96.81.12",
+      "hostname": null,
+      "rtts": [
+        27.23,
+        19.38
+      ],
+      "timeout": false,
+      "avg_rtt": 23.3
+    },
+    {
+      "hop": 24,
+      "ip": "10.96.81.12",
+      "hostname": null,
+      "rtts": [
+        49.71
+      ],
+      "timeout": false,
+      "avg_rtt": 49.71
+    },
+    {
+      "hop": 25,
+      "ip": "10.96.81.12",
+      "hostname": null,
+      "rtts": [
+        20.18
+      ],
+      "timeout": false,
+      "avg_rtt": 20.18
+    },
+    {
+      "hop": 26,
+      "ip": "10.96.81.12",
+      "hostname": null,
+      "rtts": [
+        19.62,
+        10.34
+      ],
+      "timeout": false,
+      "avg_rtt": 14.98
+    },
+    {
+      "hop": 27,
+      "ip": "10.96.81.12",
+      "hostname": null,
+      "rtts": [
+        14.36
+      ],
+      "timeout": false,
+      "avg_rtt": 14.36
+    },
+    {
+      "hop": 28,
+      "ip": "10.96.81.12",
+      "hostname": null,
+      "rtts": [
+        52.33
+      ],
+      "timeout": false,
+      "avg_rtt": 52.33
+    },
+    {
+      "hop": 29,
+      "ip": "10.96.81.12",
+      "hostname": null,
+      "rtts": [
+        16.77,
+        13.61
+      ],
+      "timeout": false,
+      "avg_rtt": 15.19
+    },
+    {
+      "hop": 30,
+      "ip": "10.96.81.12",
+      "hostname": null,
+      "rtts": [
+        20.59
+      ],
+      "timeout": false,
+      "avg_rtt": 20.59
+    }
+  ],
+  "num_hops": 30,
+  "success": false,
+  "method": "scapy",
+  "category": "government_central",
+  "base_domain": "moi.gov.tw",
+  "service_variant": "webmail.moi.gov.tw",
+  "is_bare_domain": false
+}

@@ -1,0 +1,313 @@
+{
+  "timestamp": "2025-10-23T02:29:24.464133",
+  "vantage_point": "university",
+  "target": "mail.firstbank.com.tw",
+  "target_ip": "61.67.7.197",
+  "protocol": "tcp",
+  "port": 80,
+  "duration_seconds": 80.37,
+  "hops": [
+    {
+      "hop": 1,
+      "ip": "192.168.50.1",
+      "hostname": null,
+      "rtts": [
+        13.93,
+        7.47,
+        10.35
+      ],
+      "timeout": false,
+      "avg_rtt": 10.58
+    },
+    {
+      "hop": 2,
+      "ip": "140.123.103.250",
+      "hostname": "csgate103.cs.ccu.edu.tw",
+      "rtts": [
+        5.88,
+        6.84,
+        5.56
+      ],
+      "timeout": false,
+      "avg_rtt": 6.09
+    },
+    {
+      "hop": 3,
+      "ip": "140.123.9.249",
+      "hostname": null,
+      "rtts": [
+        4.94,
+        8.06,
+        5.14
+      ],
+      "timeout": false,
+      "avg_rtt": 6.05
+    },
+    {
+      "hop": 4,
+      "ip": "140.123.0.246",
+      "hostname": null,
+      "rtts": [
+        7.91,
+        5.66,
+        7.89
+      ],
+      "timeout": false,
+      "avg_rtt": 7.15
+    },
+    {
+      "hop": 5,
+      "ip": "140.130.252.251",
+      "hostname": null,
+      "rtts": [
+        16.75,
+        7.97,
+        13.99
+      ],
+      "timeout": false,
+      "avg_rtt": 12.9
+    },
+    {
+      "hop": 6,
+      "ip": "61.31.254.69",
+      "hostname": "61-31-254-69.static.tfn.net.tw",
+      "rtts": [
+        14.06,
+        10.34,
+        13.96
+      ],
+      "timeout": false,
+      "avg_rtt": 12.79
+    },
+    {
+      "hop": 7,
+      "ip": "60.199.27.161",
+      "hostname": "60-199-27-161.static.tfn.net.tw",
+      "rtts": [
+        10.47,
+        8.51,
+        10.31
+      ],
+      "timeout": false,
+      "avg_rtt": 9.76
+    },
+    {
+      "hop": 8,
+      "ip": "60.199.82.101",
+      "hostname": "60-199-82-101.static.tfn.net.tw",
+      "rtts": [
+        14.67,
+        15.79,
+        16.48
+      ],
+      "timeout": false,
+      "avg_rtt": 15.65
+    },
+    {
+      "hop": 9,
+      "ip": "60.199.21.245",
+      "hostname": "60-199-21-245.static.tfn.net.tw",
+      "rtts": [
+        16.79,
+        16.68,
+        18.16
+      ],
+      "timeout": false,
+      "avg_rtt": 17.21
+    },
+    {
+      "hop": 10,
+      "ip": "61.31.254.62",
+      "hostname": "61-31-254-62.static.tfn.net.tw",
+      "rtts": [
+        21.44,
+        66.29,
+        18.48
+      ],
+      "timeout": false,
+      "avg_rtt": 35.4
+    },
+    {
+      "hop": 11,
+      "ip": "139.175.57.105",
+      "hostname": "r57-105.seed.net.tw",
+      "rtts": [
+        21.27,
+        13.54,
+        17.13
+      ],
+      "timeout": false,
+      "avg_rtt": 17.31
+    },
+    {
+      "hop": 12,
+      "ip": "139.175.57.186",
+      "hostname": "r57-186.seed.net.tw",
+      "rtts": [
+        13.73,
+        14.8,
+        12.68
+      ],
+      "timeout": false,
+      "avg_rtt": 13.74
+    },
+    {
+      "hop": 13,
+      "ip": "192.72.107.190",
+      "hostname": "h190-192-72-107.seed.net.tw",
+      "rtts": [
+        14.55,
+        13.23,
+        17.05
+      ],
+      "timeout": false,
+      "avg_rtt": 14.94
+    },
+    {
+      "hop": 14,
+      "ip": "220.228.20.74",
+      "hostname": null,
+      "rtts": [
+        13.88,
+        12.87,
+        13.31
+      ],
+      "timeout": false,
+      "avg_rtt": 13.35
+    },
+    {
+      "hop": 15,
+      "ip": "61.67.3.242",
+      "hostname": "h242.c3.gtbc.com.tw",
+      "rtts": [
+        13.22,
+        16.35,
+        24.32
+      ],
+      "timeout": false,
+      "avg_rtt": 17.96
+    },
+    {
+      "hop": 16,
+      "ip": "10.10.1.1",
+      "hostname": null,
+      "rtts": [
+        19.0,
+        14.38,
+        14.66
+      ],
+      "timeout": false,
+      "avg_rtt": 16.01
+    },
+    {
+      "hop": 17,
+      "ip": "61.67.7.197",
+      "hostname": "mail.firstbank.com.tw",
+      "rtts": [
+        14.09,
+        14.28,
+        17.66
+      ],
+      "timeout": false,
+      "avg_rtt": 15.34
+    },
+    {
+      "hop": 18,
+      "ip": null,
+      "hostname": null,
+      "rtts": [],
+      "timeout": true
+    },
+    {
+      "hop": 19,
+      "ip": null,
+      "hostname": null,
+      "rtts": [],
+      "timeout": true
+    },
+    {
+      "hop": 20,
+      "ip": null,
+      "hostname": null,
+      "rtts": [],
+      "timeout": true
+    },
+    {
+      "hop": 21,
+      "ip": null,
+      "hostname": null,
+      "rtts": [],
+      "timeout": true
+    },
+    {
+      "hop": 22,
+      "ip": null,
+      "hostname": null,
+      "rtts": [],
+      "timeout": true
+    },
+    {
+      "hop": 23,
+      "ip": null,
+      "hostname": null,
+      "rtts": [],
+      "timeout": true
+    },
+    {
+      "hop": 24,
+      "ip": null,
+      "hostname": null,
+      "rtts": [],
+      "timeout": true
+    },
+    {
+      "hop": 25,
+      "ip": null,
+      "hostname": null,
+      "rtts": [],
+      "timeout": true
+    },
+    {
+      "hop": 26,
+      "ip": null,
+      "hostname": null,
+      "rtts": [],
+      "timeout": true
+    },
+    {
+      "hop": 27,
+      "ip": null,
+      "hostname": null,
+      "rtts": [],
+      "timeout": true
+    },
+    {
+      "hop": 28,
+      "ip": null,
+      "hostname": null,
+      "rtts": [],
+      "timeout": true
+    },
+    {
+      "hop": 29,
+      "ip": null,
+      "hostname": null,
+      "rtts": [],
+      "timeout": true
+    },
+    {
+      "hop": 30,
+      "ip": null,
+      "hostname": null,
+      "rtts": [],
+      "timeout": true
+    }
+  ],
+  "num_hops": 30,
+  "success": false,
+  "method": "scapy",
+  "category": "financial_banks",
+  "base_domain": "firstbank.com.tw",
+  "service_variant": "mail.firstbank.com.tw",
+  "is_bare_domain": false
+}

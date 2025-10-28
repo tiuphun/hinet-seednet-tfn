@@ -1,0 +1,158 @@
+{
+  "timestamp": "2025-10-22T14:45:02.485543",
+  "vantage_point": "university",
+  "target": "www.hccg.gov.tw",
+  "target_ip": "203.66.32.198",
+  "protocol": "tcp",
+  "port": 443,
+  "duration_seconds": 6.78,
+  "hops": [
+    {
+      "hop": 1,
+      "ip": "192.168.50.1",
+      "hostname": null,
+      "rtts": [
+        141.4,
+        4.99,
+        10.77
+      ],
+      "timeout": false,
+      "avg_rtt": 52.39
+    },
+    {
+      "hop": 2,
+      "ip": "140.123.103.250",
+      "hostname": "csgate103.cs.ccu.edu.tw",
+      "rtts": [
+        3.94,
+        5.65,
+        3.83
+      ],
+      "timeout": false,
+      "avg_rtt": 4.47
+    },
+    {
+      "hop": 3,
+      "ip": "140.123.9.249",
+      "hostname": null,
+      "rtts": [
+        4.55,
+        3.98,
+        137.81
+      ],
+      "timeout": false,
+      "avg_rtt": 48.78
+    },
+    {
+      "hop": 4,
+      "ip": "140.123.0.246",
+      "hostname": null,
+      "rtts": [
+        12.65,
+        6.44,
+        9.52
+      ],
+      "timeout": false,
+      "avg_rtt": 9.54
+    },
+    {
+      "hop": 5,
+      "ip": "140.130.252.251",
+      "hostname": null,
+      "rtts": [
+        8.91,
+        7.34,
+        6.96
+      ],
+      "timeout": false,
+      "avg_rtt": 7.74
+    },
+    {
+      "hop": 6,
+      "ip": "211.22.226.198",
+      "hostname": "211-22-226-198.caw1-3332.hinet.net",
+      "rtts": [
+        7.14,
+        6.6,
+        8.23
+      ],
+      "timeout": false,
+      "avg_rtt": 7.32
+    },
+    {
+      "hop": 7,
+      "ip": null,
+      "hostname": null,
+      "rtts": [],
+      "timeout": true
+    },
+    {
+      "hop": 8,
+      "ip": "220.128.9.222",
+      "hostname": "220-128-9-222.tylc-3032.hinet.net",
+      "rtts": [
+        32.46,
+        17.35,
+        15.94
+      ],
+      "timeout": false,
+      "avg_rtt": 21.92
+    },
+    {
+      "hop": 9,
+      "ip": "220.128.8.222",
+      "hostname": "220-128-8-222.tyfo-3031.hinet.net",
+      "rtts": [
+        17.31,
+        22.23,
+        16.46
+      ],
+      "timeout": false,
+      "avg_rtt": 18.67
+    },
+    {
+      "hop": 10,
+      "ip": "220.128.8.37",
+      "hostname": "220-128-8-37.clpy-3331.hinet.net",
+      "rtts": [
+        15.34,
+        18.92,
+        16.78
+      ],
+      "timeout": false,
+      "avg_rtt": 17.01
+    },
+    {
+      "hop": 11,
+      "ip": "211.22.224.109",
+      "hostname": "211-22-224-109.hinet-ip.hinet.net",
+      "rtts": [
+        20.92,
+        12.9,
+        14.74
+      ],
+      "timeout": false,
+      "avg_rtt": 16.19
+    },
+    {
+      "hop": 12,
+      "ip": "203.66.32.198",
+      "hostname": "203-66-32-198.hinet-ip.hinet.net",
+      "rtts": [
+        14.18,
+        13.48,
+        25.12
+      ],
+      "timeout": false,
+      "reached_destination": true,
+      "avg_rtt": 17.59
+    }
+  ],
+  "num_hops": 12,
+  "success": true,
+  "method": "scapy",
+  "category": "government_local",
+  "base_domain": "hccg.gov.tw",
+  "service_variant": "www.hccg.gov.tw",
+  "is_bare_domain": false
+}

@@ -1,0 +1,204 @@
+{
+  "timestamp": "2025-10-23T12:54:54.890475",
+  "vantage_point": "university",
+  "target": "portal.microsoft.com",
+  "target_ip": "150.171.73.13",
+  "protocol": "tcp",
+  "port": 443,
+  "duration_seconds": 39.35,
+  "hops": [
+    {
+      "hop": 1,
+      "ip": "192.168.50.1",
+      "hostname": null,
+      "rtts": [
+        14.38,
+        21.29,
+        17.95
+      ],
+      "timeout": false,
+      "avg_rtt": 17.87
+    },
+    {
+      "hop": 2,
+      "ip": "140.123.103.250",
+      "hostname": "csgate103.cs.ccu.edu.tw",
+      "rtts": [
+        6.28,
+        59.84,
+        8.58
+      ],
+      "timeout": false,
+      "avg_rtt": 24.9
+    },
+    {
+      "hop": 3,
+      "ip": "140.123.9.249",
+      "hostname": null,
+      "rtts": [
+        6.28,
+        6.68,
+        6.34
+      ],
+      "timeout": false,
+      "avg_rtt": 6.43
+    },
+    {
+      "hop": 4,
+      "ip": "140.123.0.246",
+      "hostname": null,
+      "rtts": [
+        6.42,
+        5.97,
+        6.62
+      ],
+      "timeout": false,
+      "avg_rtt": 6.34
+    },
+    {
+      "hop": 5,
+      "ip": "140.130.252.251",
+      "hostname": null,
+      "rtts": [
+        8.21,
+        7.2,
+        7.62
+      ],
+      "timeout": false,
+      "avg_rtt": 7.68
+    },
+    {
+      "hop": 6,
+      "ip": "192.192.61.142",
+      "hostname": null,
+      "rtts": [
+        10.75,
+        8.67,
+        17.56
+      ],
+      "timeout": false,
+      "avg_rtt": 12.33
+    },
+    {
+      "hop": 7,
+      "ip": "192.192.61.20",
+      "hostname": null,
+      "rtts": [
+        11.91,
+        13.1,
+        20.1
+      ],
+      "timeout": false,
+      "avg_rtt": 15.04
+    },
+    {
+      "hop": 8,
+      "ip": "192.192.61.48",
+      "hostname": null,
+      "rtts": [
+        12.29,
+        17.07,
+        42.04
+      ],
+      "timeout": false,
+      "avg_rtt": 23.8
+    },
+    {
+      "hop": 9,
+      "ip": "192.192.68.62",
+      "hostname": null,
+      "rtts": [
+        20.28,
+        12.96,
+        15.74
+      ],
+      "timeout": false,
+      "avg_rtt": 16.33
+    },
+    {
+      "hop": 10,
+      "ip": "203.163.222.15",
+      "hostname": "15-222-163-203-static.tpix.net.tw",
+      "rtts": [
+        20.91,
+        13.02,
+        14.02
+      ],
+      "timeout": false,
+      "avg_rtt": 15.98
+    },
+    {
+      "hop": 11,
+      "ip": "104.44.51.234",
+      "hostname": null,
+      "rtts": [
+        16.5,
+        16.31,
+        17.81
+      ],
+      "timeout": false,
+      "avg_rtt": 16.87
+    },
+    {
+      "hop": 12,
+      "ip": null,
+      "hostname": null,
+      "rtts": [],
+      "timeout": true
+    },
+    {
+      "hop": 13,
+      "ip": null,
+      "hostname": null,
+      "rtts": [],
+      "timeout": true
+    },
+    {
+      "hop": 14,
+      "ip": null,
+      "hostname": null,
+      "rtts": [],
+      "timeout": true
+    },
+    {
+      "hop": 15,
+      "ip": null,
+      "hostname": null,
+      "rtts": [],
+      "timeout": true
+    },
+    {
+      "hop": 16,
+      "ip": null,
+      "hostname": null,
+      "rtts": [],
+      "timeout": true
+    },
+    {
+      "hop": 17,
+      "ip": null,
+      "hostname": null,
+      "rtts": [],
+      "timeout": true
+    },
+    {
+      "hop": 18,
+      "ip": "150.171.73.13",
+      "hostname": null,
+      "rtts": [
+        12.53,
+        82.96
+      ],
+      "timeout": false,
+      "reached_destination": true,
+      "avg_rtt": 47.74
+    }
+  ],
+  "num_hops": 18,
+  "success": true,
+  "method": "scapy",
+  "category": "cdn_global",
+  "base_domain": "microsoft.com",
+  "service_variant": "portal.microsoft.com",
+  "is_bare_domain": false
+}

@@ -1,0 +1,278 @@
+{
+  "timestamp": "2025-10-23T02:03:29.046685",
+  "vantage_point": "university",
+  "target": "vpn.nccu.edu.tw",
+  "target_ip": "140.119.226.191",
+  "protocol": "icmp",
+  "port": null,
+  "duration_seconds": 122.68,
+  "hops": [
+    {
+      "hop": 1,
+      "ip": "192.168.50.1",
+      "hostname": null,
+      "rtts": [
+        9.03,
+        7.14,
+        6.39
+      ],
+      "timeout": false,
+      "avg_rtt": 7.52
+    },
+    {
+      "hop": 2,
+      "ip": "140.123.103.250",
+      "hostname": "csgate103.cs.ccu.edu.tw",
+      "rtts": [
+        9.22,
+        6.18,
+        6.25
+      ],
+      "timeout": false,
+      "avg_rtt": 7.22
+    },
+    {
+      "hop": 3,
+      "ip": "140.123.9.249",
+      "hostname": null,
+      "rtts": [
+        17.94,
+        8.01,
+        9.82
+      ],
+      "timeout": false,
+      "avg_rtt": 11.92
+    },
+    {
+      "hop": 4,
+      "ip": "140.123.0.246",
+      "hostname": null,
+      "rtts": [
+        15.38,
+        10.95,
+        7.3
+      ],
+      "timeout": false,
+      "avg_rtt": 11.21
+    },
+    {
+      "hop": 5,
+      "ip": "140.130.252.251",
+      "hostname": null,
+      "rtts": [
+        7.88,
+        8.13,
+        8.78
+      ],
+      "timeout": false,
+      "avg_rtt": 8.26
+    },
+    {
+      "hop": 6,
+      "ip": "192.192.61.142",
+      "hostname": null,
+      "rtts": [
+        12.96,
+        10.24,
+        10.96
+      ],
+      "timeout": false,
+      "avg_rtt": 11.39
+    },
+    {
+      "hop": 7,
+      "ip": "192.192.61.9",
+      "hostname": null,
+      "rtts": [
+        12.26,
+        18.05,
+        12.14
+      ],
+      "timeout": false,
+      "avg_rtt": 14.15
+    },
+    {
+      "hop": 8,
+      "ip": "192.192.61.22",
+      "hostname": null,
+      "rtts": [
+        13.19,
+        14.48,
+        16.54
+      ],
+      "timeout": false,
+      "avg_rtt": 14.74
+    },
+    {
+      "hop": 9,
+      "ip": "192.192.61.89",
+      "hostname": null,
+      "rtts": [
+        13.44,
+        12.9,
+        13.71
+      ],
+      "timeout": false,
+      "avg_rtt": 13.35
+    },
+    {
+      "hop": 10,
+      "ip": "140.119.243.6",
+      "hostname": null,
+      "rtts": [
+        15.24,
+        21.04,
+        14.05
+      ],
+      "timeout": false,
+      "avg_rtt": 16.78
+    },
+    {
+      "hop": 11,
+      "ip": null,
+      "hostname": null,
+      "rtts": [],
+      "timeout": true
+    },
+    {
+      "hop": 12,
+      "ip": null,
+      "hostname": null,
+      "rtts": [],
+      "timeout": true
+    },
+    {
+      "hop": 13,
+      "ip": null,
+      "hostname": null,
+      "rtts": [],
+      "timeout": true
+    },
+    {
+      "hop": 14,
+      "ip": null,
+      "hostname": null,
+      "rtts": [],
+      "timeout": true
+    },
+    {
+      "hop": 15,
+      "ip": null,
+      "hostname": null,
+      "rtts": [],
+      "timeout": true
+    },
+    {
+      "hop": 16,
+      "ip": null,
+      "hostname": null,
+      "rtts": [],
+      "timeout": true
+    },
+    {
+      "hop": 17,
+      "ip": null,
+      "hostname": null,
+      "rtts": [],
+      "timeout": true
+    },
+    {
+      "hop": 18,
+      "ip": null,
+      "hostname": null,
+      "rtts": [],
+      "timeout": true
+    },
+    {
+      "hop": 19,
+      "ip": null,
+      "hostname": null,
+      "rtts": [],
+      "timeout": true
+    },
+    {
+      "hop": 20,
+      "ip": null,
+      "hostname": null,
+      "rtts": [],
+      "timeout": true
+    },
+    {
+      "hop": 21,
+      "ip": null,
+      "hostname": null,
+      "rtts": [],
+      "timeout": true
+    },
+    {
+      "hop": 22,
+      "ip": null,
+      "hostname": null,
+      "rtts": [],
+      "timeout": true
+    },
+    {
+      "hop": 23,
+      "ip": null,
+      "hostname": null,
+      "rtts": [],
+      "timeout": true
+    },
+    {
+      "hop": 24,
+      "ip": null,
+      "hostname": null,
+      "rtts": [],
+      "timeout": true
+    },
+    {
+      "hop": 25,
+      "ip": null,
+      "hostname": null,
+      "rtts": [],
+      "timeout": true
+    },
+    {
+      "hop": 26,
+      "ip": null,
+      "hostname": null,
+      "rtts": [],
+      "timeout": true
+    },
+    {
+      "hop": 27,
+      "ip": null,
+      "hostname": null,
+      "rtts": [],
+      "timeout": true
+    },
+    {
+      "hop": 28,
+      "ip": null,
+      "hostname": null,
+      "rtts": [],
+      "timeout": true
+    },
+    {
+      "hop": 29,
+      "ip": null,
+      "hostname": null,
+      "rtts": [],
+      "timeout": true
+    },
+    {
+      "hop": 30,
+      "ip": null,
+      "hostname": null,
+      "rtts": [],
+      "timeout": true
+    }
+  ],
+  "num_hops": 30,
+  "success": false,
+  "method": "scapy",
+  "category": "universities",
+  "base_domain": "nccu.edu.tw",
+  "service_variant": "vpn.nccu.edu.tw",
+  "is_bare_domain": false
+}

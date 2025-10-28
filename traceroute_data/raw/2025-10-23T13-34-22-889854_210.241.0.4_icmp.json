@@ -1,0 +1,345 @@
+{
+  "timestamp": "2025-10-23T13:34:22.889854",
+  "vantage_point": "university",
+  "target": "210.241.0.4",
+  "target_ip": "210.241.0.4",
+  "protocol": "icmp",
+  "port": null,
+  "duration_seconds": 68.35,
+  "hops": [
+    {
+      "hop": 1,
+      "ip": "192.168.50.1",
+      "hostname": null,
+      "rtts": [
+        10.06,
+        8.89,
+        8.88
+      ],
+      "timeout": false,
+      "avg_rtt": 9.28
+    },
+    {
+      "hop": 2,
+      "ip": "140.123.103.250",
+      "hostname": "csgate103.cs.ccu.edu.tw",
+      "rtts": [
+        7.37,
+        7.28,
+        5.7
+      ],
+      "timeout": false,
+      "avg_rtt": 6.78
+    },
+    {
+      "hop": 3,
+      "ip": "140.123.9.249",
+      "hostname": null,
+      "rtts": [
+        5.83,
+        5.2,
+        4.76
+      ],
+      "timeout": false,
+      "avg_rtt": 5.26
+    },
+    {
+      "hop": 4,
+      "ip": "140.123.0.246",
+      "hostname": null,
+      "rtts": [
+        5.41,
+        6.18,
+        5.18
+      ],
+      "timeout": false,
+      "avg_rtt": 5.59
+    },
+    {
+      "hop": 5,
+      "ip": "140.130.252.251",
+      "hostname": null,
+      "rtts": [
+        10.15,
+        6.25,
+        7.53
+      ],
+      "timeout": false,
+      "avg_rtt": 7.98
+    },
+    {
+      "hop": 6,
+      "ip": "192.192.61.142",
+      "hostname": null,
+      "rtts": [
+        10.63,
+        12.91,
+        16.43
+      ],
+      "timeout": false,
+      "avg_rtt": 13.32
+    },
+    {
+      "hop": 7,
+      "ip": "192.192.61.9",
+      "hostname": null,
+      "rtts": [
+        13.4,
+        17.68,
+        10.35
+      ],
+      "timeout": false,
+      "avg_rtt": 13.81
+    },
+    {
+      "hop": 8,
+      "ip": "192.192.61.30",
+      "hostname": null,
+      "rtts": [
+        14.52,
+        11.14,
+        12.56
+      ],
+      "timeout": false,
+      "avg_rtt": 12.74
+    },
+    {
+      "hop": 9,
+      "ip": "192.192.61.4",
+      "hostname": null,
+      "rtts": [
+        15.74,
+        13.89,
+        18.52
+      ],
+      "timeout": false,
+      "avg_rtt": 16.05
+    },
+    {
+      "hop": 10,
+      "ip": "192.192.61.209",
+      "hostname": null,
+      "rtts": [
+        21.86,
+        11.76,
+        15.36
+      ],
+      "timeout": false,
+      "avg_rtt": 16.33
+    },
+    {
+      "hop": 11,
+      "ip": "10.96.81.12",
+      "hostname": null,
+      "rtts": [
+        12.37
+      ],
+      "timeout": false,
+      "avg_rtt": 12.37
+    },
+    {
+      "hop": 12,
+      "ip": "10.96.81.12",
+      "hostname": null,
+      "rtts": [
+        33.56
+      ],
+      "timeout": false,
+      "avg_rtt": 33.56
+    },
+    {
+      "hop": 13,
+      "ip": "10.96.81.12",
+      "hostname": null,
+      "rtts": [
+        14.04
+      ],
+      "timeout": false,
+      "avg_rtt": 14.04
+    },
+    {
+      "hop": 14,
+      "ip": "10.96.81.12",
+      "hostname": null,
+      "rtts": [
+        41.27,
+        24.53
+      ],
+      "timeout": false,
+      "avg_rtt": 32.9
+    },
+    {
+      "hop": 15,
+      "ip": "10.96.81.12",
+      "hostname": null,
+      "rtts": [
+        18.8
+      ],
+      "timeout": false,
+      "avg_rtt": 18.8
+    },
+    {
+      "hop": 16,
+      "ip": "10.96.81.12",
+      "hostname": null,
+      "rtts": [
+        22.3,
+        13.78
+      ],
+      "timeout": false,
+      "avg_rtt": 18.04
+    },
+    {
+      "hop": 17,
+      "ip": "10.96.81.12",
+      "hostname": null,
+      "rtts": [
+        19.0
+      ],
+      "timeout": false,
+      "avg_rtt": 19.0
+    },
+    {
+      "hop": 18,
+      "ip": "10.96.81.12",
+      "hostname": null,
+      "rtts": [
+        24.67
+      ],
+      "timeout": false,
+      "avg_rtt": 24.67
+    },
+    {
+      "hop": 19,
+      "ip": "10.96.81.12",
+      "hostname": null,
+      "rtts": [
+        26.18
+      ],
+      "timeout": false,
+      "avg_rtt": 26.18
+    },
+    {
+      "hop": 20,
+      "ip": "10.96.81.12",
+      "hostname": null,
+      "rtts": [
+        27.3,
+        32.45
+      ],
+      "timeout": false,
+      "avg_rtt": 29.88
+    },
+    {
+      "hop": 21,
+      "ip": "10.96.81.12",
+      "hostname": null,
+      "rtts": [
+        11.43
+      ],
+      "timeout": false,
+      "avg_rtt": 11.43
+    },
+    {
+      "hop": 22,
+      "ip": "10.96.81.12",
+      "hostname": null,
+      "rtts": [
+        24.89,
+        14.81
+      ],
+      "timeout": false,
+      "avg_rtt": 19.85
+    },
+    {
+      "hop": 23,
+      "ip": "10.96.81.12",
+      "hostname": null,
+      "rtts": [
+        39.66
+      ],
+      "timeout": false,
+      "avg_rtt": 39.66
+    },
+    {
+      "hop": 24,
+      "ip": "10.96.81.12",
+      "hostname": null,
+      "rtts": [
+        21.92
+      ],
+      "timeout": false,
+      "avg_rtt": 21.92
+    },
+    {
+      "hop": 25,
+      "ip": "10.96.81.12",
+      "hostname": null,
+      "rtts": [
+        21.44,
+        22.03
+      ],
+      "timeout": false,
+      "avg_rtt": 21.73
+    },
+    {
+      "hop": 26,
+      "ip": "10.96.81.12",
+      "hostname": null,
+      "rtts": [
+        37.64
+      ],
+      "timeout": false,
+      "avg_rtt": 37.64
+    },
+    {
+      "hop": 27,
+      "ip": "10.96.81.12",
+      "hostname": null,
+      "rtts": [
+        9.68
+      ],
+      "timeout": false,
+      "avg_rtt": 9.68
+    },
+    {
+      "hop": 28,
+      "ip": "10.96.81.12",
+      "hostname": null,
+      "rtts": [
+        10.64,
+        20.98
+      ],
+      "timeout": false,
+      "avg_rtt": 15.81
+    },
+    {
+      "hop": 29,
+      "ip": "10.96.81.12",
+      "hostname": null,
+      "rtts": [
+        19.81
+      ],
+      "timeout": false,
+      "avg_rtt": 19.81
+    },
+    {
+      "hop": 30,
+      "ip": "10.96.81.12",
+      "hostname": null,
+      "rtts": [
+        23.32,
+        23.23
+      ],
+      "timeout": false,
+      "avg_rtt": 23.27
+    }
+  ],
+  "num_hops": 30,
+  "success": false,
+  "method": "scapy",
+  "category": "dns_resolvers",
+  "base_domain": "210.241.0.4",
+  "service_variant": "210.241.0.4",
+  "is_bare_domain": true
+}

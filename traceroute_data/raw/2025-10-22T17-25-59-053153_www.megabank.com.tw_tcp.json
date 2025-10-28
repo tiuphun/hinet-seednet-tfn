@@ -1,0 +1,208 @@
+{
+  "timestamp": "2025-10-22T17:25:59.053153",
+  "vantage_point": "university",
+  "target": "www.megabank.com.tw",
+  "target_ip": "23.215.250.20",
+  "protocol": "tcp",
+  "port": 443,
+  "duration_seconds": 19.49,
+  "hops": [
+    {
+      "hop": 1,
+      "ip": "192.168.50.1",
+      "hostname": null,
+      "rtts": [
+        7.76,
+        12.63,
+        5.58
+      ],
+      "timeout": false,
+      "avg_rtt": 8.66
+    },
+    {
+      "hop": 2,
+      "ip": "140.123.103.250",
+      "hostname": "csgate103.cs.ccu.edu.tw",
+      "rtts": [
+        5.53,
+        8.88,
+        9.34
+      ],
+      "timeout": false,
+      "avg_rtt": 7.92
+    },
+    {
+      "hop": 3,
+      "ip": "140.123.9.249",
+      "hostname": null,
+      "rtts": [
+        7.25,
+        5.63,
+        5.1
+      ],
+      "timeout": false,
+      "avg_rtt": 5.99
+    },
+    {
+      "hop": 4,
+      "ip": "140.123.0.246",
+      "hostname": null,
+      "rtts": [
+        7.27,
+        7.67,
+        5.56
+      ],
+      "timeout": false,
+      "avg_rtt": 6.83
+    },
+    {
+      "hop": 5,
+      "ip": "140.130.252.251",
+      "hostname": null,
+      "rtts": [
+        7.08,
+        11.08,
+        25.33
+      ],
+      "timeout": false,
+      "avg_rtt": 14.5
+    },
+    {
+      "hop": 6,
+      "ip": "192.192.61.142",
+      "hostname": null,
+      "rtts": [
+        10.81,
+        14.24,
+        20.64
+      ],
+      "timeout": false,
+      "avg_rtt": 15.23
+    },
+    {
+      "hop": 7,
+      "ip": "192.192.61.20",
+      "hostname": null,
+      "rtts": [
+        15.42,
+        19.67,
+        11.98
+      ],
+      "timeout": false,
+      "avg_rtt": 15.69
+    },
+    {
+      "hop": 8,
+      "ip": "192.192.61.48",
+      "hostname": null,
+      "rtts": [
+        15.58,
+        13.28,
+        12.08
+      ],
+      "timeout": false,
+      "avg_rtt": 13.65
+    },
+    {
+      "hop": 9,
+      "ip": "192.192.68.62",
+      "hostname": null,
+      "rtts": [
+        16.2,
+        20.02,
+        11.89
+      ],
+      "timeout": false,
+      "avg_rtt": 16.04
+    },
+    {
+      "hop": 10,
+      "ip": null,
+      "hostname": null,
+      "rtts": [],
+      "timeout": true
+    },
+    {
+      "hop": 11,
+      "ip": null,
+      "hostname": null,
+      "rtts": [],
+      "timeout": true
+    },
+    {
+      "hop": 12,
+      "ip": null,
+      "hostname": null,
+      "rtts": [],
+      "timeout": true
+    },
+    {
+      "hop": 13,
+      "ip": "23.201.30.20",
+      "hostname": "lo1.r01.stem01.tyo02.fab.netarch.akamai.com",
+      "rtts": [
+        46.77,
+        43.9,
+        42.89
+      ],
+      "timeout": false,
+      "avg_rtt": 44.52
+    },
+    {
+      "hop": 14,
+      "ip": "23.201.30.5",
+      "hostname": "lo1.r02.spine01.tyo02.fab.netarch.akamai.com",
+      "rtts": [
+        43.72,
+        48.38,
+        49.12
+      ],
+      "timeout": false,
+      "avg_rtt": 47.07
+    },
+    {
+      "hop": 15,
+      "ip": "23.201.30.24",
+      "hostname": "lo1.r01.leaf01.tyo02.fab.netarch.akamai.com",
+      "rtts": [
+        51.99,
+        51.96,
+        62.34
+      ],
+      "timeout": false,
+      "avg_rtt": 55.43
+    },
+    {
+      "hop": 16,
+      "ip": "23.217.136.1",
+      "hostname": "vlan100.r15.tor01.tyo02.fab.netarch.akamai.com",
+      "rtts": [
+        48.03,
+        46.78,
+        58.83
+      ],
+      "timeout": false,
+      "avg_rtt": 51.21
+    },
+    {
+      "hop": 17,
+      "ip": "23.215.250.20",
+      "hostname": "a23-215-250-20.deploy.static.akamaitechnologies.com",
+      "rtts": [
+        56.56,
+        58.08,
+        46.56
+      ],
+      "timeout": false,
+      "reached_destination": true,
+      "avg_rtt": 53.73
+    }
+  ],
+  "num_hops": 17,
+  "success": true,
+  "method": "scapy",
+  "category": "financial_banks",
+  "base_domain": "megabank.com.tw",
+  "service_variant": "www.megabank.com.tw",
+  "is_bare_domain": false
+}

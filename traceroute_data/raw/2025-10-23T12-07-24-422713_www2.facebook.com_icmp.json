@@ -1,0 +1,236 @@
+{
+  "timestamp": "2025-10-23T12:07:24.422713",
+  "vantage_point": "university",
+  "target": "www2.facebook.com",
+  "target_ip": "57.144.144.141",
+  "protocol": "icmp",
+  "port": null,
+  "duration_seconds": 16.47,
+  "hops": [
+    {
+      "hop": 1,
+      "ip": "192.168.50.1",
+      "hostname": null,
+      "rtts": [
+        18.28,
+        19.51,
+        7.21
+      ],
+      "timeout": false,
+      "avg_rtt": 15.0
+    },
+    {
+      "hop": 2,
+      "ip": "140.123.103.250",
+      "hostname": "csgate103.cs.ccu.edu.tw",
+      "rtts": [
+        8.4,
+        8.12,
+        8.51
+      ],
+      "timeout": false,
+      "avg_rtt": 8.34
+    },
+    {
+      "hop": 3,
+      "ip": "140.123.9.249",
+      "hostname": null,
+      "rtts": [
+        6.65,
+        14.15,
+        20.69
+      ],
+      "timeout": false,
+      "avg_rtt": 13.83
+    },
+    {
+      "hop": 4,
+      "ip": "140.123.0.246",
+      "hostname": null,
+      "rtts": [
+        11.94,
+        21.91,
+        9.11
+      ],
+      "timeout": false,
+      "avg_rtt": 14.32
+    },
+    {
+      "hop": 5,
+      "ip": "140.130.252.251",
+      "hostname": null,
+      "rtts": [
+        16.95,
+        15.73,
+        11.81
+      ],
+      "timeout": false,
+      "avg_rtt": 14.83
+    },
+    {
+      "hop": 6,
+      "ip": "192.192.61.142",
+      "hostname": null,
+      "rtts": [
+        22.0,
+        16.81,
+        13.33
+      ],
+      "timeout": false,
+      "avg_rtt": 17.38
+    },
+    {
+      "hop": 7,
+      "ip": "192.192.61.20",
+      "hostname": null,
+      "rtts": [
+        14.12,
+        15.47,
+        34.43
+      ],
+      "timeout": false,
+      "avg_rtt": 21.34
+    },
+    {
+      "hop": 8,
+      "ip": "192.192.61.66",
+      "hostname": null,
+      "rtts": [
+        15.55,
+        11.22,
+        12.23
+      ],
+      "timeout": false,
+      "avg_rtt": 13.0
+    },
+    {
+      "hop": 9,
+      "ip": "192.192.68.30",
+      "hostname": null,
+      "rtts": [
+        14.66,
+        14.51,
+        23.14
+      ],
+      "timeout": false,
+      "avg_rtt": 17.44
+    },
+    {
+      "hop": 10,
+      "ip": "210.176.44.153",
+      "hostname": "unknown.telstraglobal.net",
+      "rtts": [
+        20.51,
+        16.41,
+        14.6
+      ],
+      "timeout": false,
+      "avg_rtt": 17.17
+    },
+    {
+      "hop": 11,
+      "ip": null,
+      "hostname": null,
+      "rtts": [],
+      "timeout": true
+    },
+    {
+      "hop": 12,
+      "ip": null,
+      "hostname": null,
+      "rtts": [],
+      "timeout": true
+    },
+    {
+      "hop": 13,
+      "ip": "202.84.141.109",
+      "hostname": "i-15152.sgcn-core01.telstraglobal.net",
+      "rtts": [
+        78.14,
+        81.94
+      ],
+      "timeout": false,
+      "avg_rtt": 80.04
+    },
+    {
+      "hop": 14,
+      "ip": "202.84.207.182",
+      "hostname": "unknown.telstraglobal.net",
+      "rtts": [
+        114.67,
+        65.58,
+        67.84
+      ],
+      "timeout": false,
+      "avg_rtt": 82.7
+    },
+    {
+      "hop": 15,
+      "ip": "157.240.68.34",
+      "hostname": "ae22.pr08.sin1.tfbnw.net",
+      "rtts": [
+        72.79,
+        83.54,
+        96.13
+      ],
+      "timeout": false,
+      "avg_rtt": 84.15
+    },
+    {
+      "hop": 16,
+      "ip": "129.134.99.94",
+      "hostname": "po202.asw01.sin6.tfbnw.net",
+      "rtts": [
+        81.68,
+        103.63,
+        66.92
+      ],
+      "timeout": false,
+      "avg_rtt": 84.08
+    },
+    {
+      "hop": 17,
+      "ip": "129.134.95.164",
+      "hostname": "psw02.sin11.tfbnw.net",
+      "rtts": [
+        71.2,
+        67.08,
+        65.91
+      ],
+      "timeout": false,
+      "avg_rtt": 68.06
+    },
+    {
+      "hop": 18,
+      "ip": "163.77.195.80",
+      "hostname": null,
+      "rtts": [
+        71.14,
+        68.83,
+        70.96
+      ],
+      "timeout": false,
+      "avg_rtt": 70.31
+    },
+    {
+      "hop": 19,
+      "ip": "57.144.144.141",
+      "hostname": "edge-star-shv-01-sin11.facebook.com",
+      "rtts": [
+        67.13,
+        86.1,
+        65.39
+      ],
+      "timeout": false,
+      "reached_destination": true,
+      "avg_rtt": 72.87
+    }
+  ],
+  "num_hops": 19,
+  "success": true,
+  "method": "scapy",
+  "category": "cdn_global",
+  "base_domain": "facebook.com",
+  "service_variant": "www2.facebook.com",
+  "is_bare_domain": false
+}

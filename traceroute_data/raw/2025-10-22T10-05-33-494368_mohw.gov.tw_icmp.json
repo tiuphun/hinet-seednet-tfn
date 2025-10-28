@@ -1,0 +1,341 @@
+{
+  "timestamp": "2025-10-22T10:05:33.494368",
+  "vantage_point": "university",
+  "target": "mohw.gov.tw",
+  "target_ip": "203.65.99.200",
+  "protocol": "icmp",
+  "port": null,
+  "duration_seconds": 76.37,
+  "hops": [
+    {
+      "hop": 1,
+      "ip": "192.168.50.1",
+      "hostname": null,
+      "rtts": [
+        9.31,
+        7.17,
+        14.26
+      ],
+      "timeout": false,
+      "avg_rtt": 10.25
+    },
+    {
+      "hop": 2,
+      "ip": "140.123.103.250",
+      "hostname": "csgate103.cs.ccu.edu.tw",
+      "rtts": [
+        10.38,
+        5.97,
+        8.17
+      ],
+      "timeout": false,
+      "avg_rtt": 8.17
+    },
+    {
+      "hop": 3,
+      "ip": "140.123.9.249",
+      "hostname": null,
+      "rtts": [
+        9.63,
+        23.42,
+        7.23
+      ],
+      "timeout": false,
+      "avg_rtt": 13.43
+    },
+    {
+      "hop": 4,
+      "ip": "140.123.0.246",
+      "hostname": null,
+      "rtts": [
+        8.28,
+        7.8,
+        28.77
+      ],
+      "timeout": false,
+      "avg_rtt": 14.95
+    },
+    {
+      "hop": 5,
+      "ip": "140.130.252.251",
+      "hostname": null,
+      "rtts": [
+        9.04,
+        15.61,
+        15.46
+      ],
+      "timeout": false,
+      "avg_rtt": 13.37
+    },
+    {
+      "hop": 6,
+      "ip": "192.192.61.142",
+      "hostname": null,
+      "rtts": [
+        18.06,
+        17.1,
+        16.58
+      ],
+      "timeout": false,
+      "avg_rtt": 17.25
+    },
+    {
+      "hop": 7,
+      "ip": "192.192.61.37",
+      "hostname": null,
+      "rtts": [
+        12.55,
+        15.24,
+        17.57
+      ],
+      "timeout": false,
+      "avg_rtt": 15.12
+    },
+    {
+      "hop": 8,
+      "ip": "192.192.61.32",
+      "hostname": null,
+      "rtts": [
+        13.79,
+        13.45,
+        14.14
+      ],
+      "timeout": false,
+      "avg_rtt": 13.79
+    },
+    {
+      "hop": 9,
+      "ip": "192.192.61.209",
+      "hostname": null,
+      "rtts": [
+        22.54,
+        20.27,
+        12.91
+      ],
+      "timeout": false,
+      "avg_rtt": 18.57
+    },
+    {
+      "hop": 10,
+      "ip": "10.96.81.12",
+      "hostname": null,
+      "rtts": [
+        25.11
+      ],
+      "timeout": false,
+      "avg_rtt": 25.11
+    },
+    {
+      "hop": 11,
+      "ip": "10.96.81.12",
+      "hostname": null,
+      "rtts": [
+        20.49
+      ],
+      "timeout": false,
+      "avg_rtt": 20.49
+    },
+    {
+      "hop": 12,
+      "ip": "10.96.81.12",
+      "hostname": null,
+      "rtts": [
+        44.58,
+        18.38
+      ],
+      "timeout": false,
+      "avg_rtt": 31.48
+    },
+    {
+      "hop": 13,
+      "ip": "10.96.81.12",
+      "hostname": null,
+      "rtts": [
+        45.81
+      ],
+      "timeout": false,
+      "avg_rtt": 45.81
+    },
+    {
+      "hop": 14,
+      "ip": "10.96.81.12",
+      "hostname": null,
+      "rtts": [
+        22.2,
+        23.18
+      ],
+      "timeout": false,
+      "avg_rtt": 22.69
+    },
+    {
+      "hop": 15,
+      "ip": "10.96.81.12",
+      "hostname": null,
+      "rtts": [
+        16.2
+      ],
+      "timeout": false,
+      "avg_rtt": 16.2
+    },
+    {
+      "hop": 16,
+      "ip": "10.96.81.12",
+      "hostname": null,
+      "rtts": [
+        23.51
+      ],
+      "timeout": false,
+      "avg_rtt": 23.51
+    },
+    {
+      "hop": 17,
+      "ip": "10.96.81.12",
+      "hostname": null,
+      "rtts": [
+        21.58,
+        46.37
+      ],
+      "timeout": false,
+      "avg_rtt": 33.97
+    },
+    {
+      "hop": 18,
+      "ip": "10.96.81.12",
+      "hostname": null,
+      "rtts": [
+        20.83
+      ],
+      "timeout": false,
+      "avg_rtt": 20.83
+    },
+    {
+      "hop": 19,
+      "ip": "10.96.81.12",
+      "hostname": null,
+      "rtts": [
+        14.81
+      ],
+      "timeout": false,
+      "avg_rtt": 14.81
+    },
+    {
+      "hop": 20,
+      "ip": "10.96.81.12",
+      "hostname": null,
+      "rtts": [
+        11.67
+      ],
+      "timeout": false,
+      "avg_rtt": 11.67
+    },
+    {
+      "hop": 21,
+      "ip": "10.96.81.12",
+      "hostname": null,
+      "rtts": [
+        13.93
+      ],
+      "timeout": false,
+      "avg_rtt": 13.93
+    },
+    {
+      "hop": 22,
+      "ip": "10.96.81.12",
+      "hostname": null,
+      "rtts": [
+        17.24
+      ],
+      "timeout": false,
+      "avg_rtt": 17.24
+    },
+    {
+      "hop": 23,
+      "ip": "10.96.81.12",
+      "hostname": null,
+      "rtts": [
+        17.3,
+        18.73
+      ],
+      "timeout": false,
+      "avg_rtt": 18.02
+    },
+    {
+      "hop": 24,
+      "ip": "10.96.81.12",
+      "hostname": null,
+      "rtts": [
+        11.52
+      ],
+      "timeout": false,
+      "avg_rtt": 11.52
+    },
+    {
+      "hop": 25,
+      "ip": "10.96.81.12",
+      "hostname": null,
+      "rtts": [
+        24.54
+      ],
+      "timeout": false,
+      "avg_rtt": 24.54
+    },
+    {
+      "hop": 26,
+      "ip": "10.96.81.12",
+      "hostname": null,
+      "rtts": [
+        17.93
+      ],
+      "timeout": false,
+      "avg_rtt": 17.93
+    },
+    {
+      "hop": 27,
+      "ip": "10.96.81.12",
+      "hostname": null,
+      "rtts": [
+        20.04,
+        103.47
+      ],
+      "timeout": false,
+      "avg_rtt": 61.75
+    },
+    {
+      "hop": 28,
+      "ip": "10.96.81.12",
+      "hostname": null,
+      "rtts": [
+        24.79
+      ],
+      "timeout": false,
+      "avg_rtt": 24.79
+    },
+    {
+      "hop": 29,
+      "ip": "10.96.81.12",
+      "hostname": null,
+      "rtts": [
+        21.91
+      ],
+      "timeout": false,
+      "avg_rtt": 21.91
+    },
+    {
+      "hop": 30,
+      "ip": "10.96.81.12",
+      "hostname": null,
+      "rtts": [
+        32.37
+      ],
+      "timeout": false,
+      "avg_rtt": 32.37
+    }
+  ],
+  "num_hops": 30,
+  "success": false,
+  "method": "scapy",
+  "category": "government_central",
+  "base_domain": "mohw.gov.tw",
+  "service_variant": "mohw.gov.tw",
+  "is_bare_domain": true
+}

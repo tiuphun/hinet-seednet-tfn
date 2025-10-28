@@ -1,0 +1,127 @@
+{
+  "timestamp": "2025-10-22T11:27:30.397347",
+  "vantage_point": "university",
+  "target": "mail.moe.gov.tw",
+  "target_ip": "140.111.34.172",
+  "protocol": "tcp",
+  "port": 443,
+  "duration_seconds": 10.4,
+  "hops": [
+    {
+      "hop": 1,
+      "ip": "192.168.50.1",
+      "hostname": null,
+      "rtts": [
+        6.04,
+        16.37,
+        12.62
+      ],
+      "timeout": false,
+      "avg_rtt": 11.68
+    },
+    {
+      "hop": 2,
+      "ip": "140.123.103.250",
+      "hostname": "csgate103.cs.ccu.edu.tw",
+      "rtts": [
+        12.96,
+        7.48,
+        5.65
+      ],
+      "timeout": false,
+      "avg_rtt": 8.7
+    },
+    {
+      "hop": 3,
+      "ip": "140.123.9.249",
+      "hostname": null,
+      "rtts": [
+        5.04,
+        4.91,
+        4.47
+      ],
+      "timeout": false,
+      "avg_rtt": 4.81
+    },
+    {
+      "hop": 4,
+      "ip": "140.123.0.246",
+      "hostname": null,
+      "rtts": [
+        5.46,
+        4.39,
+        32.59
+      ],
+      "timeout": false,
+      "avg_rtt": 14.15
+    },
+    {
+      "hop": 5,
+      "ip": "140.130.252.251",
+      "hostname": null,
+      "rtts": [
+        11.59,
+        6.57,
+        6.25
+      ],
+      "timeout": false,
+      "avg_rtt": 8.14
+    },
+    {
+      "hop": 6,
+      "ip": "192.192.61.142",
+      "hostname": null,
+      "rtts": [
+        10.64,
+        7.44,
+        24.61
+      ],
+      "timeout": false,
+      "avg_rtt": 14.23
+    },
+    {
+      "hop": 7,
+      "ip": "192.192.61.20",
+      "hostname": null,
+      "rtts": [
+        8.28,
+        14.04,
+        16.12
+      ],
+      "timeout": false,
+      "avg_rtt": 12.81
+    },
+    {
+      "hop": 8,
+      "ip": "140.111.192.21",
+      "hostname": null,
+      "rtts": [
+        8.21,
+        9.85,
+        7.98
+      ],
+      "timeout": false,
+      "avg_rtt": 8.68
+    },
+    {
+      "hop": 9,
+      "ip": "140.111.34.172",
+      "hostname": "mail.moe.gov.tw",
+      "rtts": [
+        13.77,
+        10.62,
+        11.49
+      ],
+      "timeout": false,
+      "reached_destination": true,
+      "avg_rtt": 11.96
+    }
+  ],
+  "num_hops": 9,
+  "success": true,
+  "method": "scapy",
+  "category": "government_central",
+  "base_domain": "moe.gov.tw",
+  "service_variant": "mail.moe.gov.tw",
+  "is_bare_domain": false
+}

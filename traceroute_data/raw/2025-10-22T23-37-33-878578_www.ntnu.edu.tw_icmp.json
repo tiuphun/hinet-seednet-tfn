@@ -1,0 +1,278 @@
+{
+  "timestamp": "2025-10-22T23:37:33.878578",
+  "vantage_point": "university",
+  "target": "www.ntnu.edu.tw",
+  "target_ip": "140.122.65.193",
+  "protocol": "icmp",
+  "port": null,
+  "duration_seconds": 122.8,
+  "hops": [
+    {
+      "hop": 1,
+      "ip": "192.168.50.1",
+      "hostname": null,
+      "rtts": [
+        8.53,
+        6.35,
+        4.78
+      ],
+      "timeout": false,
+      "avg_rtt": 6.55
+    },
+    {
+      "hop": 2,
+      "ip": "140.123.103.250",
+      "hostname": "csgate103.cs.ccu.edu.tw",
+      "rtts": [
+        4.64,
+        4.57,
+        4.74
+      ],
+      "timeout": false,
+      "avg_rtt": 4.65
+    },
+    {
+      "hop": 3,
+      "ip": "140.123.9.249",
+      "hostname": null,
+      "rtts": [
+        5.58,
+        5.13,
+        4.84
+      ],
+      "timeout": false,
+      "avg_rtt": 5.18
+    },
+    {
+      "hop": 4,
+      "ip": "140.123.0.246",
+      "hostname": null,
+      "rtts": [
+        5.94,
+        5.2,
+        5.48
+      ],
+      "timeout": false,
+      "avg_rtt": 5.54
+    },
+    {
+      "hop": 5,
+      "ip": "140.130.252.251",
+      "hostname": null,
+      "rtts": [
+        7.46,
+        8.27,
+        10.43
+      ],
+      "timeout": false,
+      "avg_rtt": 8.72
+    },
+    {
+      "hop": 6,
+      "ip": "192.192.61.142",
+      "hostname": null,
+      "rtts": [
+        10.05,
+        10.04,
+        11.33
+      ],
+      "timeout": false,
+      "avg_rtt": 10.47
+    },
+    {
+      "hop": 7,
+      "ip": "192.192.61.20",
+      "hostname": null,
+      "rtts": [
+        12.38,
+        13.99,
+        16.66
+      ],
+      "timeout": false,
+      "avg_rtt": 14.34
+    },
+    {
+      "hop": 8,
+      "ip": "192.192.61.81",
+      "hostname": null,
+      "rtts": [
+        12.21,
+        11.15,
+        10.14
+      ],
+      "timeout": false,
+      "avg_rtt": 11.17
+    },
+    {
+      "hop": 9,
+      "ip": "192.192.7.158",
+      "hostname": null,
+      "rtts": [
+        9.71,
+        12.97,
+        11.22
+      ],
+      "timeout": false,
+      "avg_rtt": 11.3
+    },
+    {
+      "hop": 10,
+      "ip": "140.122.6.209",
+      "hostname": null,
+      "rtts": [
+        33.52,
+        13.97,
+        17.98
+      ],
+      "timeout": false,
+      "avg_rtt": 21.82
+    },
+    {
+      "hop": 11,
+      "ip": null,
+      "hostname": null,
+      "rtts": [],
+      "timeout": true
+    },
+    {
+      "hop": 12,
+      "ip": null,
+      "hostname": null,
+      "rtts": [],
+      "timeout": true
+    },
+    {
+      "hop": 13,
+      "ip": null,
+      "hostname": null,
+      "rtts": [],
+      "timeout": true
+    },
+    {
+      "hop": 14,
+      "ip": null,
+      "hostname": null,
+      "rtts": [],
+      "timeout": true
+    },
+    {
+      "hop": 15,
+      "ip": null,
+      "hostname": null,
+      "rtts": [],
+      "timeout": true
+    },
+    {
+      "hop": 16,
+      "ip": null,
+      "hostname": null,
+      "rtts": [],
+      "timeout": true
+    },
+    {
+      "hop": 17,
+      "ip": null,
+      "hostname": null,
+      "rtts": [],
+      "timeout": true
+    },
+    {
+      "hop": 18,
+      "ip": null,
+      "hostname": null,
+      "rtts": [],
+      "timeout": true
+    },
+    {
+      "hop": 19,
+      "ip": null,
+      "hostname": null,
+      "rtts": [],
+      "timeout": true
+    },
+    {
+      "hop": 20,
+      "ip": null,
+      "hostname": null,
+      "rtts": [],
+      "timeout": true
+    },
+    {
+      "hop": 21,
+      "ip": null,
+      "hostname": null,
+      "rtts": [],
+      "timeout": true
+    },
+    {
+      "hop": 22,
+      "ip": null,
+      "hostname": null,
+      "rtts": [],
+      "timeout": true
+    },
+    {
+      "hop": 23,
+      "ip": null,
+      "hostname": null,
+      "rtts": [],
+      "timeout": true
+    },
+    {
+      "hop": 24,
+      "ip": null,
+      "hostname": null,
+      "rtts": [],
+      "timeout": true
+    },
+    {
+      "hop": 25,
+      "ip": null,
+      "hostname": null,
+      "rtts": [],
+      "timeout": true
+    },
+    {
+      "hop": 26,
+      "ip": null,
+      "hostname": null,
+      "rtts": [],
+      "timeout": true
+    },
+    {
+      "hop": 27,
+      "ip": null,
+      "hostname": null,
+      "rtts": [],
+      "timeout": true
+    },
+    {
+      "hop": 28,
+      "ip": null,
+      "hostname": null,
+      "rtts": [],
+      "timeout": true
+    },
+    {
+      "hop": 29,
+      "ip": null,
+      "hostname": null,
+      "rtts": [],
+      "timeout": true
+    },
+    {
+      "hop": 30,
+      "ip": null,
+      "hostname": null,
+      "rtts": [],
+      "timeout": true
+    }
+  ],
+  "num_hops": 30,
+  "success": false,
+  "method": "scapy",
+  "category": "universities",
+  "base_domain": "ntnu.edu.tw",
+  "service_variant": "www.ntnu.edu.tw",
+  "is_bare_domain": false
+}

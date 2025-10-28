@@ -1,0 +1,150 @@
+{
+  "timestamp": "2025-10-23T09:07:18.215820",
+  "vantage_point": "university",
+  "target": "www.vghtpe.gov.tw",
+  "target_ip": "104.18.10.246",
+  "protocol": "tcp",
+  "port": 443,
+  "duration_seconds": 2.4,
+  "hops": [
+    {
+      "hop": 1,
+      "ip": "192.168.50.1",
+      "hostname": null,
+      "rtts": [
+        6.92,
+        25.16,
+        7.66
+      ],
+      "timeout": false,
+      "avg_rtt": 13.25
+    },
+    {
+      "hop": 2,
+      "ip": "140.123.103.250",
+      "hostname": "csgate103.cs.ccu.edu.tw",
+      "rtts": [
+        6.15,
+        5.87,
+        6.6
+      ],
+      "timeout": false,
+      "avg_rtt": 6.21
+    },
+    {
+      "hop": 3,
+      "ip": "140.123.9.249",
+      "hostname": null,
+      "rtts": [
+        4.61,
+        4.24,
+        5.01
+      ],
+      "timeout": false,
+      "avg_rtt": 4.62
+    },
+    {
+      "hop": 4,
+      "ip": "140.123.0.246",
+      "hostname": null,
+      "rtts": [
+        6.35,
+        6.94,
+        4.35
+      ],
+      "timeout": false,
+      "avg_rtt": 5.88
+    },
+    {
+      "hop": 5,
+      "ip": "140.130.252.251",
+      "hostname": null,
+      "rtts": [
+        8.71,
+        17.36,
+        27.02
+      ],
+      "timeout": false,
+      "avg_rtt": 17.7
+    },
+    {
+      "hop": 6,
+      "ip": "192.192.61.142",
+      "hostname": null,
+      "rtts": [
+        9.47,
+        8.22,
+        8.63
+      ],
+      "timeout": false,
+      "avg_rtt": 8.77
+    },
+    {
+      "hop": 7,
+      "ip": "192.192.61.20",
+      "hostname": null,
+      "rtts": [
+        15.15,
+        11.32,
+        14.95
+      ],
+      "timeout": false,
+      "avg_rtt": 13.81
+    },
+    {
+      "hop": 8,
+      "ip": "192.192.61.48",
+      "hostname": null,
+      "rtts": [
+        9.76,
+        14.75,
+        20.46
+      ],
+      "timeout": false,
+      "avg_rtt": 14.99
+    },
+    {
+      "hop": 9,
+      "ip": "192.192.68.62",
+      "hostname": null,
+      "rtts": [
+        11.11,
+        9.43,
+        18.98
+      ],
+      "timeout": false,
+      "avg_rtt": 13.17
+    },
+    {
+      "hop": 10,
+      "ip": "203.163.222.39",
+      "hostname": "39-222-163-203-static.tpix.net.tw",
+      "rtts": [
+        14.13,
+        12.1
+      ],
+      "timeout": false,
+      "avg_rtt": 13.12
+    },
+    {
+      "hop": 11,
+      "ip": "104.18.10.246",
+      "hostname": null,
+      "rtts": [
+        11.02,
+        11.48,
+        12.92
+      ],
+      "timeout": false,
+      "reached_destination": true,
+      "avg_rtt": 11.81
+    }
+  ],
+  "num_hops": 11,
+  "success": true,
+  "method": "scapy",
+  "category": "healthcare",
+  "base_domain": "vghtpe.gov.tw",
+  "service_variant": "www.vghtpe.gov.tw",
+  "is_bare_domain": false
+}

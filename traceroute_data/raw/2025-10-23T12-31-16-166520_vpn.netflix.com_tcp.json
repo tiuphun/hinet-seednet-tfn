@@ -1,0 +1,297 @@
+{
+  "timestamp": "2025-10-23T12:31:16.166520",
+  "vantage_point": "university",
+  "target": "vpn.netflix.com",
+  "target_ip": "216.35.131.141",
+  "protocol": "tcp",
+  "port": 443,
+  "duration_seconds": 111.87,
+  "hops": [
+    {
+      "hop": 1,
+      "ip": "192.168.50.1",
+      "hostname": null,
+      "rtts": [
+        17.43,
+        6.53,
+        9.72
+      ],
+      "timeout": false,
+      "avg_rtt": 11.23
+    },
+    {
+      "hop": 2,
+      "ip": "140.123.103.250",
+      "hostname": "csgate103.cs.ccu.edu.tw",
+      "rtts": [
+        8.18,
+        8.01,
+        5.66
+      ],
+      "timeout": false,
+      "avg_rtt": 7.28
+    },
+    {
+      "hop": 3,
+      "ip": "140.123.9.249",
+      "hostname": null,
+      "rtts": [
+        6.68,
+        5.29,
+        8.59
+      ],
+      "timeout": false,
+      "avg_rtt": 6.85
+    },
+    {
+      "hop": 4,
+      "ip": "140.123.0.246",
+      "hostname": null,
+      "rtts": [
+        7.2,
+        9.38,
+        7.4
+      ],
+      "timeout": false,
+      "avg_rtt": 7.99
+    },
+    {
+      "hop": 5,
+      "ip": "140.130.252.251",
+      "hostname": null,
+      "rtts": [
+        10.55,
+        10.71,
+        27.77
+      ],
+      "timeout": false,
+      "avg_rtt": 16.34
+    },
+    {
+      "hop": 6,
+      "ip": "192.192.61.142",
+      "hostname": null,
+      "rtts": [
+        12.25,
+        12.94,
+        11.87
+      ],
+      "timeout": false,
+      "avg_rtt": 12.35
+    },
+    {
+      "hop": 7,
+      "ip": "192.192.61.20",
+      "hostname": null,
+      "rtts": [
+        13.04,
+        11.23,
+        12.41
+      ],
+      "timeout": false,
+      "avg_rtt": 12.23
+    },
+    {
+      "hop": 8,
+      "ip": "192.192.61.48",
+      "hostname": null,
+      "rtts": [
+        24.59,
+        31.88,
+        23.98
+      ],
+      "timeout": false,
+      "avg_rtt": 26.82
+    },
+    {
+      "hop": 9,
+      "ip": "192.192.68.62",
+      "hostname": null,
+      "rtts": [
+        22.61,
+        12.82,
+        14.81
+      ],
+      "timeout": false,
+      "avg_rtt": 16.75
+    },
+    {
+      "hop": 10,
+      "ip": "65.49.108.1",
+      "hostname": "e0-11.switch2.tpe1.he.net",
+      "rtts": [
+        16.18,
+        12.65
+      ],
+      "timeout": false,
+      "avg_rtt": 14.41
+    },
+    {
+      "hop": 11,
+      "ip": null,
+      "hostname": null,
+      "rtts": [],
+      "timeout": true
+    },
+    {
+      "hop": 12,
+      "ip": "184.104.199.10",
+      "hostname": "port-channel1.core3.tyo1.he.net",
+      "rtts": [
+        45.79,
+        55.19,
+        42.55
+      ],
+      "timeout": false,
+      "avg_rtt": 47.84
+    },
+    {
+      "hop": 13,
+      "ip": null,
+      "hostname": null,
+      "rtts": [],
+      "timeout": true
+    },
+    {
+      "hop": 14,
+      "ip": "216.218.134.234",
+      "hostname": "level3-as3356.e0-52.switch1.sea1.he.net",
+      "rtts": [
+        150.87,
+        149.66,
+        144.31
+      ],
+      "timeout": false,
+      "avg_rtt": 148.28
+    },
+    {
+      "hop": 15,
+      "ip": null,
+      "hostname": null,
+      "rtts": [],
+      "timeout": true
+    },
+    {
+      "hop": 16,
+      "ip": "4.68.110.166",
+      "hostname": "ae8.540.sea-edge-15.sp.lumen.tech",
+      "rtts": [
+        166.77,
+        165.92,
+        147.65
+      ],
+      "timeout": false,
+      "avg_rtt": 160.11
+    },
+    {
+      "hop": 17,
+      "ip": "67.14.43.82",
+      "hostname": "svl-edge-25.inet.qwest.net",
+      "rtts": [
+        148.89,
+        147.41,
+        146.69
+      ],
+      "timeout": false,
+      "avg_rtt": 147.66
+    },
+    {
+      "hop": 18,
+      "ip": null,
+      "hostname": null,
+      "rtts": [],
+      "timeout": true
+    },
+    {
+      "hop": 19,
+      "ip": null,
+      "hostname": null,
+      "rtts": [],
+      "timeout": true
+    },
+    {
+      "hop": 20,
+      "ip": null,
+      "hostname": null,
+      "rtts": [],
+      "timeout": true
+    },
+    {
+      "hop": 21,
+      "ip": null,
+      "hostname": null,
+      "rtts": [],
+      "timeout": true
+    },
+    {
+      "hop": 22,
+      "ip": null,
+      "hostname": null,
+      "rtts": [],
+      "timeout": true
+    },
+    {
+      "hop": 23,
+      "ip": null,
+      "hostname": null,
+      "rtts": [],
+      "timeout": true
+    },
+    {
+      "hop": 24,
+      "ip": null,
+      "hostname": null,
+      "rtts": [],
+      "timeout": true
+    },
+    {
+      "hop": 25,
+      "ip": null,
+      "hostname": null,
+      "rtts": [],
+      "timeout": true
+    },
+    {
+      "hop": 26,
+      "ip": null,
+      "hostname": null,
+      "rtts": [],
+      "timeout": true
+    },
+    {
+      "hop": 27,
+      "ip": null,
+      "hostname": null,
+      "rtts": [],
+      "timeout": true
+    },
+    {
+      "hop": 28,
+      "ip": null,
+      "hostname": null,
+      "rtts": [],
+      "timeout": true
+    },
+    {
+      "hop": 29,
+      "ip": null,
+      "hostname": null,
+      "rtts": [],
+      "timeout": true
+    },
+    {
+      "hop": 30,
+      "ip": null,
+      "hostname": null,
+      "rtts": [],
+      "timeout": true
+    }
+  ],
+  "num_hops": 30,
+  "success": false,
+  "method": "scapy",
+  "category": "cdn_global",
+  "base_domain": "netflix.com",
+  "service_variant": "vpn.netflix.com",
+  "is_bare_domain": false
+}

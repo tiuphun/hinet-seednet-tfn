@@ -1,0 +1,272 @@
+{
+  "timestamp": "2025-10-23T00:38:11.894427",
+  "vantage_point": "university",
+  "target": "app.tku.edu.tw",
+  "target_ip": "13.67.9.4",
+  "protocol": "tcp",
+  "port": 80,
+  "duration_seconds": 88.58,
+  "hops": [
+    {
+      "hop": 1,
+      "ip": "192.168.50.1",
+      "hostname": null,
+      "rtts": [
+        3.98,
+        16.15,
+        18.78
+      ],
+      "timeout": false,
+      "avg_rtt": 12.97
+    },
+    {
+      "hop": 2,
+      "ip": "140.123.103.250",
+      "hostname": "csgate103.cs.ccu.edu.tw",
+      "rtts": [
+        4.4,
+        4.23,
+        10.39
+      ],
+      "timeout": false,
+      "avg_rtt": 6.34
+    },
+    {
+      "hop": 3,
+      "ip": "140.123.9.249",
+      "hostname": null,
+      "rtts": [
+        20.69,
+        17.08,
+        12.89
+      ],
+      "timeout": false,
+      "avg_rtt": 16.89
+    },
+    {
+      "hop": 4,
+      "ip": "140.123.0.246",
+      "hostname": null,
+      "rtts": [
+        6.57,
+        4.91,
+        4.82
+      ],
+      "timeout": false,
+      "avg_rtt": 5.43
+    },
+    {
+      "hop": 5,
+      "ip": "140.130.252.251",
+      "hostname": null,
+      "rtts": [
+        5.65,
+        6.91,
+        6.13
+      ],
+      "timeout": false,
+      "avg_rtt": 6.23
+    },
+    {
+      "hop": 6,
+      "ip": "192.192.61.142",
+      "hostname": null,
+      "rtts": [
+        8.59,
+        15.71,
+        8.57
+      ],
+      "timeout": false,
+      "avg_rtt": 10.96
+    },
+    {
+      "hop": 7,
+      "ip": "192.192.61.20",
+      "hostname": null,
+      "rtts": [
+        9.41,
+        10.14,
+        9.12
+      ],
+      "timeout": false,
+      "avg_rtt": 9.56
+    },
+    {
+      "hop": 8,
+      "ip": "192.192.61.48",
+      "hostname": null,
+      "rtts": [
+        12.27,
+        9.7,
+        16.79
+      ],
+      "timeout": false,
+      "avg_rtt": 12.92
+    },
+    {
+      "hop": 9,
+      "ip": "192.192.68.62",
+      "hostname": null,
+      "rtts": [
+        21.88,
+        9.93,
+        12.43
+      ],
+      "timeout": false,
+      "avg_rtt": 14.75
+    },
+    {
+      "hop": 10,
+      "ip": "203.163.222.15",
+      "hostname": "15-222-163-203-static.tpix.net.tw",
+      "rtts": [
+        12.18,
+        45.05,
+        22.94
+      ],
+      "timeout": false,
+      "avg_rtt": 26.72
+    },
+    {
+      "hop": 11,
+      "ip": "104.44.51.224",
+      "hostname": null,
+      "rtts": [
+        14.5,
+        17.37,
+        16.56
+      ],
+      "timeout": false,
+      "avg_rtt": 16.14
+    },
+    {
+      "hop": 12,
+      "ip": null,
+      "hostname": null,
+      "rtts": [],
+      "timeout": true
+    },
+    {
+      "hop": 13,
+      "ip": null,
+      "hostname": null,
+      "rtts": [],
+      "timeout": true
+    },
+    {
+      "hop": 14,
+      "ip": null,
+      "hostname": null,
+      "rtts": [],
+      "timeout": true
+    },
+    {
+      "hop": 15,
+      "ip": null,
+      "hostname": null,
+      "rtts": [],
+      "timeout": true
+    },
+    {
+      "hop": 16,
+      "ip": "13.106.238.151",
+      "hostname": "ae1010-0.icr02.sg2.ntwk.msn.net",
+      "rtts": [
+        69.6,
+        55.65,
+        60.66
+      ],
+      "timeout": false,
+      "avg_rtt": 61.97
+    },
+    {
+      "hop": 17,
+      "ip": null,
+      "hostname": null,
+      "rtts": [],
+      "timeout": true
+    },
+    {
+      "hop": 18,
+      "ip": null,
+      "hostname": null,
+      "rtts": [],
+      "timeout": true
+    },
+    {
+      "hop": 19,
+      "ip": null,
+      "hostname": null,
+      "rtts": [],
+      "timeout": true
+    },
+    {
+      "hop": 20,
+      "ip": null,
+      "hostname": null,
+      "rtts": [],
+      "timeout": true
+    },
+    {
+      "hop": 21,
+      "ip": null,
+      "hostname": null,
+      "rtts": [],
+      "timeout": true
+    },
+    {
+      "hop": 22,
+      "ip": null,
+      "hostname": null,
+      "rtts": [],
+      "timeout": true
+    },
+    {
+      "hop": 23,
+      "ip": null,
+      "hostname": null,
+      "rtts": [],
+      "timeout": true
+    },
+    {
+      "hop": 24,
+      "ip": null,
+      "hostname": null,
+      "rtts": [],
+      "timeout": true
+    },
+    {
+      "hop": 25,
+      "ip": null,
+      "hostname": null,
+      "rtts": [],
+      "timeout": true
+    },
+    {
+      "hop": 26,
+      "ip": null,
+      "hostname": null,
+      "rtts": [],
+      "timeout": true
+    },
+    {
+      "hop": 27,
+      "ip": "13.67.9.4",
+      "hostname": null,
+      "rtts": [
+        66.7,
+        68.6
+      ],
+      "timeout": false,
+      "reached_destination": true,
+      "avg_rtt": 67.65
+    }
+  ],
+  "num_hops": 27,
+  "success": true,
+  "method": "scapy",
+  "category": "universities",
+  "base_domain": "tku.edu.tw",
+  "service_variant": "app.tku.edu.tw",
+  "is_bare_domain": false
+}

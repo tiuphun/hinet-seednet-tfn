@@ -1,0 +1,325 @@
+{
+  "timestamp": "2025-10-23T02:18:12.663134",
+  "vantage_point": "university",
+  "target": "tcb-bank.com.tw",
+  "target_ip": "203.74.167.1",
+  "protocol": "icmp",
+  "port": null,
+  "duration_seconds": 93.67,
+  "hops": [
+    {
+      "hop": 1,
+      "ip": "192.168.50.1",
+      "hostname": null,
+      "rtts": [
+        8.44,
+        6.78,
+        5.53
+      ],
+      "timeout": false,
+      "avg_rtt": 6.92
+    },
+    {
+      "hop": 2,
+      "ip": "140.123.103.250",
+      "hostname": "csgate103.cs.ccu.edu.tw",
+      "rtts": [
+        6.21,
+        5.52,
+        6.98
+      ],
+      "timeout": false,
+      "avg_rtt": 6.24
+    },
+    {
+      "hop": 3,
+      "ip": "140.123.9.249",
+      "hostname": null,
+      "rtts": [
+        6.38,
+        6.28,
+        9.73
+      ],
+      "timeout": false,
+      "avg_rtt": 7.46
+    },
+    {
+      "hop": 4,
+      "ip": "140.123.0.246",
+      "hostname": null,
+      "rtts": [
+        5.42,
+        5.83,
+        6.83
+      ],
+      "timeout": false,
+      "avg_rtt": 6.03
+    },
+    {
+      "hop": 5,
+      "ip": "140.130.252.251",
+      "hostname": null,
+      "rtts": [
+        7.12,
+        7.2,
+        7.28
+      ],
+      "timeout": false,
+      "avg_rtt": 7.2
+    },
+    {
+      "hop": 6,
+      "ip": "211.22.226.198",
+      "hostname": "211-22-226-198.caw1-3332.hinet.net",
+      "rtts": [
+        8.21,
+        8.18,
+        9.16
+      ],
+      "timeout": false,
+      "avg_rtt": 8.52
+    },
+    {
+      "hop": 7,
+      "ip": null,
+      "hostname": null,
+      "rtts": [],
+      "timeout": true
+    },
+    {
+      "hop": 8,
+      "ip": null,
+      "hostname": null,
+      "rtts": [],
+      "timeout": true
+    },
+    {
+      "hop": 9,
+      "ip": "220.128.4.217",
+      "hostname": "220-128-4-217.tpdt-3309.hinet.net",
+      "rtts": [
+        20.44,
+        14.62,
+        18.0
+      ],
+      "timeout": false,
+      "avg_rtt": 17.69
+    },
+    {
+      "hop": 10,
+      "ip": "168.95.208.45",
+      "hostname": "h45.s208.ts.hinet.net",
+      "rtts": [
+        17.0,
+        43.57,
+        18.58
+      ],
+      "timeout": false,
+      "avg_rtt": 26.38
+    },
+    {
+      "hop": 11,
+      "ip": null,
+      "hostname": null,
+      "rtts": [],
+      "timeout": true
+    },
+    {
+      "hop": 12,
+      "ip": "202.39.35.201",
+      "hostname": "202-39-35-201.hinet-ip.hinet.net",
+      "rtts": [
+        24.79
+      ],
+      "timeout": false,
+      "avg_rtt": 24.79
+    },
+    {
+      "hop": 13,
+      "ip": "202.39.35.201",
+      "hostname": "202-39-35-201.hinet-ip.hinet.net",
+      "rtts": [
+        19.97
+      ],
+      "timeout": false,
+      "avg_rtt": 19.97
+    },
+    {
+      "hop": 14,
+      "ip": "202.39.35.201",
+      "hostname": "202-39-35-201.hinet-ip.hinet.net",
+      "rtts": [
+        22.41
+      ],
+      "timeout": false,
+      "avg_rtt": 22.41
+    },
+    {
+      "hop": 15,
+      "ip": "202.39.35.201",
+      "hostname": "202-39-35-201.hinet-ip.hinet.net",
+      "rtts": [
+        24.38
+      ],
+      "timeout": false,
+      "avg_rtt": 24.38
+    },
+    {
+      "hop": 16,
+      "ip": "202.39.35.201",
+      "hostname": "202-39-35-201.hinet-ip.hinet.net",
+      "rtts": [
+        30.25
+      ],
+      "timeout": false,
+      "avg_rtt": 30.25
+    },
+    {
+      "hop": 17,
+      "ip": "202.39.35.201",
+      "hostname": "202-39-35-201.hinet-ip.hinet.net",
+      "rtts": [
+        34.51
+      ],
+      "timeout": false,
+      "avg_rtt": 34.51
+    },
+    {
+      "hop": 18,
+      "ip": "202.39.35.201",
+      "hostname": "202-39-35-201.hinet-ip.hinet.net",
+      "rtts": [
+        31.91
+      ],
+      "timeout": false,
+      "avg_rtt": 31.91
+    },
+    {
+      "hop": 19,
+      "ip": "202.39.35.201",
+      "hostname": "202-39-35-201.hinet-ip.hinet.net",
+      "rtts": [
+        25.1
+      ],
+      "timeout": false,
+      "avg_rtt": 25.1
+    },
+    {
+      "hop": 20,
+      "ip": "202.39.35.201",
+      "hostname": "202-39-35-201.hinet-ip.hinet.net",
+      "rtts": [
+        32.8,
+        25.93
+      ],
+      "timeout": false,
+      "avg_rtt": 29.36
+    },
+    {
+      "hop": 21,
+      "ip": "202.39.35.201",
+      "hostname": "202-39-35-201.hinet-ip.hinet.net",
+      "rtts": [
+        28.82
+      ],
+      "timeout": false,
+      "avg_rtt": 28.82
+    },
+    {
+      "hop": 22,
+      "ip": "202.39.35.201",
+      "hostname": "202-39-35-201.hinet-ip.hinet.net",
+      "rtts": [
+        27.03
+      ],
+      "timeout": false,
+      "avg_rtt": 27.03
+    },
+    {
+      "hop": 23,
+      "ip": "202.39.35.201",
+      "hostname": "202-39-35-201.hinet-ip.hinet.net",
+      "rtts": [
+        967.86,
+        25.28
+      ],
+      "timeout": false,
+      "avg_rtt": 496.57
+    },
+    {
+      "hop": 24,
+      "ip": null,
+      "hostname": null,
+      "rtts": [],
+      "timeout": true
+    },
+    {
+      "hop": 25,
+      "ip": "202.39.35.201",
+      "hostname": "202-39-35-201.hinet-ip.hinet.net",
+      "rtts": [
+        41.52
+      ],
+      "timeout": false,
+      "avg_rtt": 41.52
+    },
+    {
+      "hop": 26,
+      "ip": "202.39.35.201",
+      "hostname": "202-39-35-201.hinet-ip.hinet.net",
+      "rtts": [
+        31.52
+      ],
+      "timeout": false,
+      "avg_rtt": 31.52
+    },
+    {
+      "hop": 27,
+      "ip": "202.39.35.201",
+      "hostname": "202-39-35-201.hinet-ip.hinet.net",
+      "rtts": [
+        27.68,
+        30.3
+      ],
+      "timeout": false,
+      "avg_rtt": 28.99
+    },
+    {
+      "hop": 28,
+      "ip": "202.39.35.201",
+      "hostname": "202-39-35-201.hinet-ip.hinet.net",
+      "rtts": [
+        16.19
+      ],
+      "timeout": false,
+      "avg_rtt": 16.19
+    },
+    {
+      "hop": 29,
+      "ip": "202.39.35.201",
+      "hostname": "202-39-35-201.hinet-ip.hinet.net",
+      "rtts": [
+        15.8
+      ],
+      "timeout": false,
+      "avg_rtt": 15.8
+    },
+    {
+      "hop": 30,
+      "ip": "202.39.35.201",
+      "hostname": "202-39-35-201.hinet-ip.hinet.net",
+      "rtts": [
+        43.04
+      ],
+      "timeout": false,
+      "avg_rtt": 43.04
+    }
+  ],
+  "num_hops": 30,
+  "success": false,
+  "method": "scapy",
+  "category": "financial_banks",
+  "base_domain": "tcb-bank.com.tw",
+  "service_variant": "tcb-bank.com.tw",
+  "is_bare_domain": true
+}

@@ -1,0 +1,343 @@
+{
+  "timestamp": "2025-10-22T20:05:54.826831",
+  "vantage_point": "university",
+  "target": "www.nfa.gov.tw",
+  "target_ip": "210.69.173.31",
+  "protocol": "icmp",
+  "port": null,
+  "duration_seconds": 72.42,
+  "hops": [
+    {
+      "hop": 1,
+      "ip": "192.168.50.1",
+      "hostname": null,
+      "rtts": [
+        6.06,
+        4.25,
+        4.84
+      ],
+      "timeout": false,
+      "avg_rtt": 5.05
+    },
+    {
+      "hop": 2,
+      "ip": "140.123.103.250",
+      "hostname": "csgate103.cs.ccu.edu.tw",
+      "rtts": [
+        4.88,
+        4.33,
+        4.29
+      ],
+      "timeout": false,
+      "avg_rtt": 4.5
+    },
+    {
+      "hop": 3,
+      "ip": "140.123.9.249",
+      "hostname": null,
+      "rtts": [
+        4.74,
+        4.42,
+        6.62
+      ],
+      "timeout": false,
+      "avg_rtt": 5.26
+    },
+    {
+      "hop": 4,
+      "ip": "140.123.0.246",
+      "hostname": null,
+      "rtts": [
+        7.31,
+        4.88,
+        5.69
+      ],
+      "timeout": false,
+      "avg_rtt": 5.96
+    },
+    {
+      "hop": 5,
+      "ip": "140.130.252.251",
+      "hostname": null,
+      "rtts": [
+        6.45,
+        5.27,
+        5.02
+      ],
+      "timeout": false,
+      "avg_rtt": 5.58
+    },
+    {
+      "hop": 6,
+      "ip": "192.192.61.142",
+      "hostname": null,
+      "rtts": [
+        7.31,
+        9.93,
+        10.29
+      ],
+      "timeout": false,
+      "avg_rtt": 9.18
+    },
+    {
+      "hop": 7,
+      "ip": "192.192.61.37",
+      "hostname": null,
+      "rtts": [
+        9.6,
+        9.1,
+        14.33
+      ],
+      "timeout": false,
+      "avg_rtt": 11.01
+    },
+    {
+      "hop": 8,
+      "ip": "192.192.61.32",
+      "hostname": null,
+      "rtts": [
+        11.66,
+        9.88,
+        9.81
+      ],
+      "timeout": false,
+      "avg_rtt": 10.45
+    },
+    {
+      "hop": 9,
+      "ip": "192.192.61.209",
+      "hostname": null,
+      "rtts": [
+        11.86,
+        9.47,
+        11.44
+      ],
+      "timeout": false,
+      "avg_rtt": 10.92
+    },
+    {
+      "hop": 10,
+      "ip": "10.96.81.12",
+      "hostname": null,
+      "rtts": [
+        42.64
+      ],
+      "timeout": false,
+      "avg_rtt": 42.64
+    },
+    {
+      "hop": 11,
+      "ip": "10.96.81.12",
+      "hostname": null,
+      "rtts": [
+        40.07,
+        31.04
+      ],
+      "timeout": false,
+      "avg_rtt": 35.55
+    },
+    {
+      "hop": 12,
+      "ip": "10.96.81.12",
+      "hostname": null,
+      "rtts": [
+        28.65
+      ],
+      "timeout": false,
+      "avg_rtt": 28.65
+    },
+    {
+      "hop": 13,
+      "ip": "10.96.81.12",
+      "hostname": null,
+      "rtts": [
+        40.01
+      ],
+      "timeout": false,
+      "avg_rtt": 40.01
+    },
+    {
+      "hop": 14,
+      "ip": "10.96.81.12",
+      "hostname": null,
+      "rtts": [
+        35.58,
+        25.69
+      ],
+      "timeout": false,
+      "avg_rtt": 30.63
+    },
+    {
+      "hop": 15,
+      "ip": "10.96.81.12",
+      "hostname": null,
+      "rtts": [
+        31.91
+      ],
+      "timeout": false,
+      "avg_rtt": 31.91
+    },
+    {
+      "hop": 16,
+      "ip": "10.96.81.12",
+      "hostname": null,
+      "rtts": [
+        18.08,
+        13.21
+      ],
+      "timeout": false,
+      "avg_rtt": 15.64
+    },
+    {
+      "hop": 17,
+      "ip": "10.96.81.12",
+      "hostname": null,
+      "rtts": [
+        21.7
+      ],
+      "timeout": false,
+      "avg_rtt": 21.7
+    },
+    {
+      "hop": 18,
+      "ip": "10.96.81.12",
+      "hostname": null,
+      "rtts": [
+        22.51
+      ],
+      "timeout": false,
+      "avg_rtt": 22.51
+    },
+    {
+      "hop": 19,
+      "ip": "10.96.81.12",
+      "hostname": null,
+      "rtts": [
+        25.65,
+        16.11
+      ],
+      "timeout": false,
+      "avg_rtt": 20.88
+    },
+    {
+      "hop": 20,
+      "ip": "10.96.81.12",
+      "hostname": null,
+      "rtts": [
+        34.15
+      ],
+      "timeout": false,
+      "avg_rtt": 34.15
+    },
+    {
+      "hop": 21,
+      "ip": "10.96.81.12",
+      "hostname": null,
+      "rtts": [
+        22.6
+      ],
+      "timeout": false,
+      "avg_rtt": 22.6
+    },
+    {
+      "hop": 22,
+      "ip": "10.96.81.12",
+      "hostname": null,
+      "rtts": [
+        25.1,
+        29.28
+      ],
+      "timeout": false,
+      "avg_rtt": 27.19
+    },
+    {
+      "hop": 23,
+      "ip": "10.96.81.12",
+      "hostname": null,
+      "rtts": [
+        22.53
+      ],
+      "timeout": false,
+      "avg_rtt": 22.53
+    },
+    {
+      "hop": 24,
+      "ip": "10.96.81.12",
+      "hostname": null,
+      "rtts": [
+        25.47
+      ],
+      "timeout": false,
+      "avg_rtt": 25.47
+    },
+    {
+      "hop": 25,
+      "ip": "10.96.81.12",
+      "hostname": null,
+      "rtts": [
+        38.23,
+        38.4
+      ],
+      "timeout": false,
+      "avg_rtt": 38.31
+    },
+    {
+      "hop": 26,
+      "ip": "10.96.81.12",
+      "hostname": null,
+      "rtts": [
+        24.18
+      ],
+      "timeout": false,
+      "avg_rtt": 24.18
+    },
+    {
+      "hop": 27,
+      "ip": "10.96.81.12",
+      "hostname": null,
+      "rtts": [
+        26.35
+      ],
+      "timeout": false,
+      "avg_rtt": 26.35
+    },
+    {
+      "hop": 28,
+      "ip": "10.96.81.12",
+      "hostname": null,
+      "rtts": [
+        28.67,
+        19.99
+      ],
+      "timeout": false,
+      "avg_rtt": 24.33
+    },
+    {
+      "hop": 29,
+      "ip": "10.96.81.12",
+      "hostname": null,
+      "rtts": [
+        22.02
+      ],
+      "timeout": false,
+      "avg_rtt": 22.02
+    },
+    {
+      "hop": 30,
+      "ip": "10.96.81.12",
+      "hostname": null,
+      "rtts": [
+        23.65
+      ],
+      "timeout": false,
+      "avg_rtt": 23.65
+    }
+  ],
+  "num_hops": 30,
+  "success": false,
+  "method": "scapy",
+  "category": "government_critical",
+  "base_domain": "nfa.gov.tw",
+  "service_variant": "www.nfa.gov.tw",
+  "is_bare_domain": false
+}

@@ -1,0 +1,160 @@
+{
+  "timestamp": "2025-10-23T09:28:45.674138",
+  "vantage_point": "university",
+  "target": "www2.mmh.org.tw",
+  "target_ip": "60.251.96.49",
+  "protocol": "icmp",
+  "port": null,
+  "duration_seconds": 18.82,
+  "hops": [
+    {
+      "hop": 1,
+      "ip": "192.168.50.1",
+      "hostname": null,
+      "rtts": [
+        30.89,
+        6.64,
+        8.36
+      ],
+      "timeout": false,
+      "avg_rtt": 15.3
+    },
+    {
+      "hop": 2,
+      "ip": "140.123.103.250",
+      "hostname": "csgate103.cs.ccu.edu.tw",
+      "rtts": [
+        6.29,
+        5.42,
+        6.09
+      ],
+      "timeout": false,
+      "avg_rtt": 5.93
+    },
+    {
+      "hop": 3,
+      "ip": "140.123.9.249",
+      "hostname": null,
+      "rtts": [
+        5.4,
+        6.7,
+        5.96
+      ],
+      "timeout": false,
+      "avg_rtt": 6.02
+    },
+    {
+      "hop": 4,
+      "ip": "140.123.0.246",
+      "hostname": null,
+      "rtts": [
+        4.97,
+        12.75,
+        4.95
+      ],
+      "timeout": false,
+      "avg_rtt": 7.56
+    },
+    {
+      "hop": 5,
+      "ip": "140.130.252.251",
+      "hostname": null,
+      "rtts": [
+        7.16,
+        7.01,
+        8.14
+      ],
+      "timeout": false,
+      "avg_rtt": 7.44
+    },
+    {
+      "hop": 6,
+      "ip": "211.22.226.198",
+      "hostname": "211-22-226-198.caw1-3332.hinet.net",
+      "rtts": [
+        8.54,
+        7.82,
+        10.07
+      ],
+      "timeout": false,
+      "avg_rtt": 8.81
+    },
+    {
+      "hop": 7,
+      "ip": null,
+      "hostname": null,
+      "rtts": [],
+      "timeout": true
+    },
+    {
+      "hop": 8,
+      "ip": null,
+      "hostname": null,
+      "rtts": [],
+      "timeout": true
+    },
+    {
+      "hop": 9,
+      "ip": "220.128.2.5",
+      "hostname": "220-128-2-5.tpdb-3315.hinet.net",
+      "rtts": [
+        33.74,
+        20.73,
+        33.87
+      ],
+      "timeout": false,
+      "avg_rtt": 29.45
+    },
+    {
+      "hop": 10,
+      "ip": "168.95.80.233",
+      "hostname": "h233.s80.ts.hinet.net",
+      "rtts": [
+        16.27,
+        15.11,
+        16.35
+      ],
+      "timeout": false,
+      "avg_rtt": 15.91
+    },
+    {
+      "hop": 11,
+      "ip": "192.168.250.2",
+      "hostname": null,
+      "rtts": [
+        16.72,
+        16.17,
+        28.16
+      ],
+      "timeout": false,
+      "avg_rtt": 20.35
+    },
+    {
+      "hop": 12,
+      "ip": null,
+      "hostname": null,
+      "rtts": [],
+      "timeout": true
+    },
+    {
+      "hop": 13,
+      "ip": "60.251.96.49",
+      "hostname": "60-251-96-49.hinet-ip.hinet.net",
+      "rtts": [
+        22.02,
+        16.19,
+        18.05
+      ],
+      "timeout": false,
+      "reached_destination": true,
+      "avg_rtt": 18.75
+    }
+  ],
+  "num_hops": 13,
+  "success": true,
+  "method": "scapy",
+  "category": "healthcare",
+  "base_domain": "mmh.org.tw",
+  "service_variant": "www2.mmh.org.tw",
+  "is_bare_domain": false
+}

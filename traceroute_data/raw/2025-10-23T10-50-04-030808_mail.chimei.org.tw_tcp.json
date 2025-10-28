@@ -1,0 +1,175 @@
+{
+  "timestamp": "2025-10-23T10:50:04.030808",
+  "vantage_point": "university",
+  "target": "mail.chimei.org.tw",
+  "target_ip": "125.227.247.157",
+  "protocol": "tcp",
+  "port": 443,
+  "duration_seconds": 45.45,
+  "hops": [
+    {
+      "hop": 1,
+      "ip": "192.168.50.1",
+      "hostname": null,
+      "rtts": [
+        28.55,
+        4.42,
+        7.26
+      ],
+      "timeout": false,
+      "avg_rtt": 13.41
+    },
+    {
+      "hop": 2,
+      "ip": "140.123.103.250",
+      "hostname": "csgate103.cs.ccu.edu.tw",
+      "rtts": [
+        25.52,
+        19.82,
+        4.36
+      ],
+      "timeout": false,
+      "avg_rtt": 16.57
+    },
+    {
+      "hop": 3,
+      "ip": "140.123.9.249",
+      "hostname": null,
+      "rtts": [
+        17.34,
+        21.16,
+        17.06
+      ],
+      "timeout": false,
+      "avg_rtt": 18.52
+    },
+    {
+      "hop": 4,
+      "ip": "140.123.0.246",
+      "hostname": null,
+      "rtts": [
+        48.84,
+        7.68,
+        17.93
+      ],
+      "timeout": false,
+      "avg_rtt": 24.82
+    },
+    {
+      "hop": 5,
+      "ip": "140.130.252.251",
+      "hostname": null,
+      "rtts": [
+        70.41,
+        5.98,
+        7.53
+      ],
+      "timeout": false,
+      "avg_rtt": 27.97
+    },
+    {
+      "hop": 6,
+      "ip": "211.22.226.198",
+      "hostname": "211-22-226-198.caw1-3332.hinet.net",
+      "rtts": [
+        23.89,
+        6.22,
+        14.5
+      ],
+      "timeout": false,
+      "avg_rtt": 14.87
+    },
+    {
+      "hop": 7,
+      "ip": null,
+      "hostname": null,
+      "rtts": [],
+      "timeout": true
+    },
+    {
+      "hop": 8,
+      "ip": null,
+      "hostname": null,
+      "rtts": [],
+      "timeout": true
+    },
+    {
+      "hop": 9,
+      "ip": "220.128.26.101",
+      "hostname": "220-128-26-101.tncd-3331.hinet.net",
+      "rtts": [
+        34.42,
+        11.93,
+        25.7
+      ],
+      "timeout": false,
+      "avg_rtt": 24.02
+    },
+    {
+      "hop": 10,
+      "ip": null,
+      "hostname": null,
+      "rtts": [],
+      "timeout": true
+    },
+    {
+      "hop": 11,
+      "ip": null,
+      "hostname": null,
+      "rtts": [],
+      "timeout": true
+    },
+    {
+      "hop": 12,
+      "ip": null,
+      "hostname": null,
+      "rtts": [],
+      "timeout": true
+    },
+    {
+      "hop": 13,
+      "ip": null,
+      "hostname": null,
+      "rtts": [],
+      "timeout": true
+    },
+    {
+      "hop": 14,
+      "ip": "211.22.242.169",
+      "hostname": "www.chimei.org.tw",
+      "rtts": [
+        17.82,
+        19.37,
+        47.22
+      ],
+      "timeout": false,
+      "avg_rtt": 28.14
+    },
+    {
+      "hop": 15,
+      "ip": null,
+      "hostname": null,
+      "rtts": [],
+      "timeout": true
+    },
+    {
+      "hop": 16,
+      "ip": "125.227.247.157",
+      "hostname": "mail.chimei.org.tw",
+      "rtts": [
+        33.77,
+        98.37
+      ],
+      "timeout": false,
+      "reached_destination": true,
+      "avg_rtt": 66.07
+    }
+  ],
+  "num_hops": 16,
+  "success": true,
+  "method": "scapy",
+  "category": "healthcare",
+  "base_domain": "chimei.org.tw",
+  "service_variant": "mail.chimei.org.tw",
+  "is_bare_domain": false
+}

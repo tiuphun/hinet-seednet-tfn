@@ -1,0 +1,67 @@
+{
+  "timestamp": "2025-10-22T17:01:15.031467",
+  "vantage_point": "university",
+  "target": "mail.ccu.edu.tw",
+  "target_ip": "140.123.2.25",
+  "protocol": "tcp",
+  "port": 443,
+  "duration_seconds": 0.1,
+  "hops": [
+    {
+      "hop": 1,
+      "ip": "192.168.50.1",
+      "hostname": null,
+      "rtts": [
+        18.33,
+        12.09,
+        9.52
+      ],
+      "timeout": false,
+      "avg_rtt": 13.31
+    },
+    {
+      "hop": 2,
+      "ip": "140.123.103.250",
+      "hostname": "csgate103.cs.ccu.edu.tw",
+      "rtts": [
+        12.68,
+        3.85,
+        4.29
+      ],
+      "timeout": false,
+      "avg_rtt": 6.94
+    },
+    {
+      "hop": 3,
+      "ip": "140.123.9.249",
+      "hostname": null,
+      "rtts": [
+        7.9,
+        4.68,
+        7.38
+      ],
+      "timeout": false,
+      "avg_rtt": 6.65
+    },
+    {
+      "hop": 4,
+      "ip": "140.123.2.25",
+      "hostname": "incoming002025.ccu.edu.tw",
+      "rtts": [
+        5.16,
+        4.67,
+        6.76
+      ],
+      "timeout": false,
+      "reached_destination": true,
+      "avg_rtt": 5.53
+    }
+  ],
+  "num_hops": 4,
+  "success": true,
+  "method": "scapy",
+  "category": "universities",
+  "base_domain": "ccu.edu.tw",
+  "service_variant": "mail.ccu.edu.tw",
+  "is_bare_domain": false
+}

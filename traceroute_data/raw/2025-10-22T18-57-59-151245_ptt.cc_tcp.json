@@ -1,0 +1,175 @@
+{
+  "timestamp": "2025-10-22T18:57:59.151245",
+  "vantage_point": "university",
+  "target": "ptt.cc",
+  "target_ip": "140.112.172.2",
+  "protocol": "tcp",
+  "port": 80,
+  "duration_seconds": 0.55,
+  "hops": [
+    {
+      "hop": 1,
+      "ip": "192.168.50.1",
+      "hostname": null,
+      "rtts": [
+        19.04,
+        5.51,
+        5.89
+      ],
+      "timeout": false,
+      "avg_rtt": 10.15
+    },
+    {
+      "hop": 2,
+      "ip": "140.123.103.250",
+      "hostname": "csgate103.cs.ccu.edu.tw",
+      "rtts": [
+        5.17,
+        4.73,
+        5.59
+      ],
+      "timeout": false,
+      "avg_rtt": 5.16
+    },
+    {
+      "hop": 3,
+      "ip": "140.123.9.249",
+      "hostname": null,
+      "rtts": [
+        7.29,
+        4.76,
+        5.66
+      ],
+      "timeout": false,
+      "avg_rtt": 5.9
+    },
+    {
+      "hop": 4,
+      "ip": "140.123.0.246",
+      "hostname": null,
+      "rtts": [
+        5.31,
+        5.33,
+        4.8
+      ],
+      "timeout": false,
+      "avg_rtt": 5.15
+    },
+    {
+      "hop": 5,
+      "ip": "140.130.252.251",
+      "hostname": null,
+      "rtts": [
+        6.96,
+        9.36,
+        9.53
+      ],
+      "timeout": false,
+      "avg_rtt": 8.62
+    },
+    {
+      "hop": 6,
+      "ip": "192.192.61.142",
+      "hostname": null,
+      "rtts": [
+        9.48,
+        8.78,
+        21.32
+      ],
+      "timeout": false,
+      "avg_rtt": 13.19
+    },
+    {
+      "hop": 7,
+      "ip": "192.192.61.20",
+      "hostname": null,
+      "rtts": [
+        38.21,
+        12.66,
+        11.51
+      ],
+      "timeout": false,
+      "avg_rtt": 20.79
+    },
+    {
+      "hop": 8,
+      "ip": "192.192.61.81",
+      "hostname": null,
+      "rtts": [
+        13.54,
+        20.02,
+        15.11
+      ],
+      "timeout": false,
+      "avg_rtt": 16.22
+    },
+    {
+      "hop": 9,
+      "ip": "140.112.0.69",
+      "hostname": "wan0069.cc.ntu.edu.tw",
+      "rtts": [
+        17.67,
+        18.21,
+        15.22
+      ],
+      "timeout": false,
+      "avg_rtt": 17.03
+    },
+    {
+      "hop": 10,
+      "ip": "10.199.199.2",
+      "hostname": null,
+      "rtts": [
+        12.67,
+        27.69,
+        20.1
+      ],
+      "timeout": false,
+      "avg_rtt": 20.15
+    },
+    {
+      "hop": 11,
+      "ip": "140.112.0.201",
+      "hostname": "core_wan_0201.cc.ntu.edu.tw",
+      "rtts": [
+        15.2,
+        19.38,
+        12.35
+      ],
+      "timeout": false,
+      "avg_rtt": 15.64
+    },
+    {
+      "hop": 12,
+      "ip": "140.112.0.213",
+      "hostname": null,
+      "rtts": [
+        30.65,
+        17.45,
+        15.61
+      ],
+      "timeout": false,
+      "avg_rtt": 21.24
+    },
+    {
+      "hop": 13,
+      "ip": "140.112.172.2",
+      "hostname": "b.ptt.cc",
+      "rtts": [
+        20.52,
+        13.76,
+        10.75
+      ],
+      "timeout": false,
+      "reached_destination": true,
+      "avg_rtt": 15.01
+    }
+  ],
+  "num_hops": 13,
+  "success": true,
+  "method": "scapy",
+  "category": "ecommerce_tech",
+  "base_domain": "ptt.cc",
+  "service_variant": "ptt.cc",
+  "is_bare_domain": true
+}

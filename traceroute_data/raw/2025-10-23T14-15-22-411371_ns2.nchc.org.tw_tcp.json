@@ -1,0 +1,109 @@
+{
+  "timestamp": "2025-10-23T14:15:22.411371",
+  "vantage_point": "university",
+  "target": "ns2.nchc.org.tw",
+  "target_ip": "140.110.96.2",
+  "protocol": "tcp",
+  "port": 443,
+  "duration_seconds": 8.42,
+  "hops": [
+    {
+      "hop": 1,
+      "ip": "192.168.50.1",
+      "hostname": null,
+      "rtts": [
+        3.64,
+        32.7,
+        7.15
+      ],
+      "timeout": false,
+      "avg_rtt": 14.5
+    },
+    {
+      "hop": 2,
+      "ip": "140.123.103.250",
+      "hostname": "csgate103.cs.ccu.edu.tw",
+      "rtts": [
+        8.1,
+        3.61,
+        10.37
+      ],
+      "timeout": false,
+      "avg_rtt": 7.36
+    },
+    {
+      "hop": 3,
+      "ip": "140.123.9.249",
+      "hostname": null,
+      "rtts": [
+        3.75,
+        4.69,
+        5.8
+      ],
+      "timeout": false,
+      "avg_rtt": 4.75
+    },
+    {
+      "hop": 4,
+      "ip": "140.123.0.246",
+      "hostname": null,
+      "rtts": [
+        4.46,
+        10.36,
+        8.12
+      ],
+      "timeout": false,
+      "avg_rtt": 7.65
+    },
+    {
+      "hop": 5,
+      "ip": "211.79.57.25",
+      "hostname": "ccu-ccu-76.twaren.net",
+      "rtts": [
+        9.61,
+        23.33,
+        5.52
+      ],
+      "timeout": false,
+      "avg_rtt": 12.82
+    },
+    {
+      "hop": 6,
+      "ip": "211.73.76.209",
+      "hostname": "tp-a1.twaren.net",
+      "rtts": [
+        8.8,
+        11.15,
+        6.31
+      ],
+      "timeout": false,
+      "avg_rtt": 8.75
+    },
+    {
+      "hop": 7,
+      "ip": null,
+      "hostname": null,
+      "rtts": [],
+      "timeout": true
+    },
+    {
+      "hop": 8,
+      "ip": "140.110.96.2",
+      "hostname": "ns2.nchc.org.tw",
+      "rtts": [
+        14.62,
+        16.91
+      ],
+      "timeout": false,
+      "reached_destination": true,
+      "avg_rtt": 15.77
+    }
+  ],
+  "num_hops": 8,
+  "success": true,
+  "method": "scapy",
+  "category": "education_network",
+  "base_domain": "nchc.org.tw",
+  "service_variant": "ns2.nchc.org.tw",
+  "is_bare_domain": false
+}

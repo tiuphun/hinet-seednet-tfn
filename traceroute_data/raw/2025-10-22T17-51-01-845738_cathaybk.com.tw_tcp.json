@@ -1,0 +1,143 @@
+{
+  "timestamp": "2025-10-22T17:51:01.845738",
+  "vantage_point": "university",
+  "target": "cathaybk.com.tw",
+  "target_ip": "211.75.29.168",
+  "protocol": "tcp",
+  "port": 80,
+  "duration_seconds": 24.86,
+  "hops": [
+    {
+      "hop": 1,
+      "ip": "192.168.50.1",
+      "hostname": null,
+      "rtts": [
+        6.19,
+        11.6,
+        7.74
+      ],
+      "timeout": false,
+      "avg_rtt": 8.51
+    },
+    {
+      "hop": 2,
+      "ip": "140.123.103.250",
+      "hostname": "csgate103.cs.ccu.edu.tw",
+      "rtts": [
+        11.05,
+        4.97,
+        6.49
+      ],
+      "timeout": false,
+      "avg_rtt": 7.5
+    },
+    {
+      "hop": 3,
+      "ip": "140.123.9.249",
+      "hostname": null,
+      "rtts": [
+        12.37,
+        7.17,
+        7.44
+      ],
+      "timeout": false,
+      "avg_rtt": 8.99
+    },
+    {
+      "hop": 4,
+      "ip": "140.123.0.246",
+      "hostname": null,
+      "rtts": [
+        22.07,
+        7.31,
+        8.53
+      ],
+      "timeout": false,
+      "avg_rtt": 12.64
+    },
+    {
+      "hop": 5,
+      "ip": "140.130.252.251",
+      "hostname": null,
+      "rtts": [
+        33.45,
+        9.09,
+        12.7
+      ],
+      "timeout": false,
+      "avg_rtt": 18.41
+    },
+    {
+      "hop": 6,
+      "ip": "211.22.226.198",
+      "hostname": "211-22-226-198.caw1-3332.hinet.net",
+      "rtts": [
+        22.05,
+        19.75,
+        25.42
+      ],
+      "timeout": false,
+      "avg_rtt": 22.41
+    },
+    {
+      "hop": 7,
+      "ip": null,
+      "hostname": null,
+      "rtts": [],
+      "timeout": true
+    },
+    {
+      "hop": 8,
+      "ip": null,
+      "hostname": null,
+      "rtts": [],
+      "timeout": true
+    },
+    {
+      "hop": 9,
+      "ip": "220.128.4.217",
+      "hostname": "220-128-4-217.tpdt-3309.hinet.net",
+      "rtts": [
+        25.36,
+        13.65,
+        26.92
+      ],
+      "timeout": false,
+      "avg_rtt": 21.98
+    },
+    {
+      "hop": 10,
+      "ip": null,
+      "hostname": null,
+      "rtts": [],
+      "timeout": true
+    },
+    {
+      "hop": 11,
+      "ip": null,
+      "hostname": null,
+      "rtts": [],
+      "timeout": true
+    },
+    {
+      "hop": 12,
+      "ip": "211.75.29.168",
+      "hostname": "211-75-29-168.hinet-ip.hinet.net",
+      "rtts": [
+        28.67,
+        15.34,
+        11.47
+      ],
+      "timeout": false,
+      "reached_destination": true,
+      "avg_rtt": 18.49
+    }
+  ],
+  "num_hops": 12,
+  "success": true,
+  "method": "scapy",
+  "category": "financial_banks",
+  "base_domain": "cathaybk.com.tw",
+  "service_variant": "cathaybk.com.tw",
+  "is_bare_domain": true
+}

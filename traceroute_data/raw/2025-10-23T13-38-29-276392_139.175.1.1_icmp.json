@@ -1,0 +1,127 @@
+{
+  "timestamp": "2025-10-23T13:38:29.276392",
+  "vantage_point": "university",
+  "target": "139.175.1.1",
+  "target_ip": "139.175.1.1",
+  "protocol": "icmp",
+  "port": null,
+  "duration_seconds": 2.9,
+  "hops": [
+    {
+      "hop": 1,
+      "ip": "192.168.50.1",
+      "hostname": null,
+      "rtts": [
+        17.04,
+        15.04,
+        14.24
+      ],
+      "timeout": false,
+      "avg_rtt": 15.44
+    },
+    {
+      "hop": 2,
+      "ip": "140.123.103.250",
+      "hostname": "csgate103.cs.ccu.edu.tw",
+      "rtts": [
+        24.22,
+        10.17,
+        6.79
+      ],
+      "timeout": false,
+      "avg_rtt": 13.73
+    },
+    {
+      "hop": 3,
+      "ip": "140.123.9.249",
+      "hostname": null,
+      "rtts": [
+        7.71,
+        5.58,
+        5.17
+      ],
+      "timeout": false,
+      "avg_rtt": 6.15
+    },
+    {
+      "hop": 4,
+      "ip": "140.123.0.246",
+      "hostname": null,
+      "rtts": [
+        8.75,
+        8.13,
+        7.18
+      ],
+      "timeout": false,
+      "avg_rtt": 8.02
+    },
+    {
+      "hop": 5,
+      "ip": "140.130.252.251",
+      "hostname": null,
+      "rtts": [
+        8.51,
+        7.74,
+        18.94
+      ],
+      "timeout": false,
+      "avg_rtt": 11.73
+    },
+    {
+      "hop": 6,
+      "ip": "140.123.231.126",
+      "hostname": null,
+      "rtts": [
+        20.05,
+        19.74,
+        19.22
+      ],
+      "timeout": false,
+      "avg_rtt": 19.67
+    },
+    {
+      "hop": 7,
+      "ip": "139.175.57.113",
+      "hostname": "r57-113.seed.net.tw",
+      "rtts": [
+        13.6,
+        20.69,
+        12.73
+      ],
+      "timeout": false,
+      "avg_rtt": 15.67
+    },
+    {
+      "hop": 8,
+      "ip": "192.72.49.82",
+      "hostname": "h82-192-72-49.seed.net.tw",
+      "rtts": [
+        16.6,
+        14.19,
+        17.54
+      ],
+      "timeout": false,
+      "avg_rtt": 16.11
+    },
+    {
+      "hop": 9,
+      "ip": "139.175.1.1",
+      "hostname": "frd01.seed.net.tw",
+      "rtts": [
+        18.58,
+        14.75,
+        14.9
+      ],
+      "timeout": false,
+      "reached_destination": true,
+      "avg_rtt": 16.08
+    }
+  ],
+  "num_hops": 9,
+  "success": true,
+  "method": "scapy",
+  "category": "dns_resolvers",
+  "base_domain": "139.175.1.1",
+  "service_variant": "139.175.1.1",
+  "is_bare_domain": true
+}

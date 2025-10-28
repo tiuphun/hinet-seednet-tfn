@@ -1,0 +1,286 @@
+{
+  "timestamp": "2025-10-23T06:52:12.954597",
+  "vantage_point": "university",
+  "target": "ftp.tvbs.com.tw",
+  "target_ip": "118.163.125.90",
+  "protocol": "icmp",
+  "port": null,
+  "duration_seconds": 114.95,
+  "hops": [
+    {
+      "hop": 1,
+      "ip": "192.168.50.1",
+      "hostname": null,
+      "rtts": [
+        13.21,
+        6.37,
+        4.83
+      ],
+      "timeout": false,
+      "avg_rtt": 8.14
+    },
+    {
+      "hop": 2,
+      "ip": "140.123.103.250",
+      "hostname": "csgate103.cs.ccu.edu.tw",
+      "rtts": [
+        6.24,
+        5.11,
+        5.61
+      ],
+      "timeout": false,
+      "avg_rtt": 5.65
+    },
+    {
+      "hop": 3,
+      "ip": "140.123.9.249",
+      "hostname": null,
+      "rtts": [
+        5.91,
+        6.06,
+        4.62
+      ],
+      "timeout": false,
+      "avg_rtt": 5.53
+    },
+    {
+      "hop": 4,
+      "ip": "140.123.0.246",
+      "hostname": null,
+      "rtts": [
+        5.93,
+        12.64,
+        8.92
+      ],
+      "timeout": false,
+      "avg_rtt": 9.16
+    },
+    {
+      "hop": 5,
+      "ip": "140.130.252.251",
+      "hostname": null,
+      "rtts": [
+        17.32,
+        9.34,
+        8.04
+      ],
+      "timeout": false,
+      "avg_rtt": 11.57
+    },
+    {
+      "hop": 6,
+      "ip": "211.22.226.198",
+      "hostname": "211-22-226-198.caw1-3332.hinet.net",
+      "rtts": [
+        11.67,
+        12.38,
+        10.28
+      ],
+      "timeout": false,
+      "avg_rtt": 11.44
+    },
+    {
+      "hop": 7,
+      "ip": null,
+      "hostname": null,
+      "rtts": [],
+      "timeout": true
+    },
+    {
+      "hop": 8,
+      "ip": "220.128.9.58",
+      "hostname": "220-128-9-58.tylc-3032.hinet.net",
+      "rtts": [
+        29.17,
+        18.21,
+        19.24
+      ],
+      "timeout": false,
+      "avg_rtt": 22.21
+    },
+    {
+      "hop": 9,
+      "ip": "220.128.8.194",
+      "hostname": "220-128-8-194.tyfo-3031.hinet.net",
+      "rtts": [
+        18.03,
+        16.38,
+        23.38
+      ],
+      "timeout": false,
+      "avg_rtt": 19.26
+    },
+    {
+      "hop": 10,
+      "ip": "220.128.8.241",
+      "hostname": "220-128-8-241.tpe4-3331.hinet.net",
+      "rtts": [
+        16.22,
+        17.48,
+        18.99
+      ],
+      "timeout": false,
+      "avg_rtt": 17.56
+    },
+    {
+      "hop": 11,
+      "ip": "168.95.84.237",
+      "hostname": "h237.s84.ts.hinet.net",
+      "rtts": [
+        16.08,
+        20.13,
+        21.64
+      ],
+      "timeout": false,
+      "avg_rtt": 19.28
+    },
+    {
+      "hop": 12,
+      "ip": "118.163.125.85",
+      "hostname": "oa-line.tvbs.com.tw",
+      "rtts": [
+        20.8,
+        20.87,
+        19.09
+      ],
+      "timeout": false,
+      "avg_rtt": 20.25
+    },
+    {
+      "hop": 13,
+      "ip": null,
+      "hostname": null,
+      "rtts": [],
+      "timeout": true
+    },
+    {
+      "hop": 14,
+      "ip": null,
+      "hostname": null,
+      "rtts": [],
+      "timeout": true
+    },
+    {
+      "hop": 15,
+      "ip": null,
+      "hostname": null,
+      "rtts": [],
+      "timeout": true
+    },
+    {
+      "hop": 16,
+      "ip": null,
+      "hostname": null,
+      "rtts": [],
+      "timeout": true
+    },
+    {
+      "hop": 17,
+      "ip": null,
+      "hostname": null,
+      "rtts": [],
+      "timeout": true
+    },
+    {
+      "hop": 18,
+      "ip": null,
+      "hostname": null,
+      "rtts": [],
+      "timeout": true
+    },
+    {
+      "hop": 19,
+      "ip": null,
+      "hostname": null,
+      "rtts": [],
+      "timeout": true
+    },
+    {
+      "hop": 20,
+      "ip": null,
+      "hostname": null,
+      "rtts": [],
+      "timeout": true
+    },
+    {
+      "hop": 21,
+      "ip": null,
+      "hostname": null,
+      "rtts": [],
+      "timeout": true
+    },
+    {
+      "hop": 22,
+      "ip": "220.128.25.78",
+      "hostname": "220-128-25-78.skc1-3052.hinet.net",
+      "rtts": [
+        406.99
+      ],
+      "timeout": false,
+      "avg_rtt": 406.99
+    },
+    {
+      "hop": 23,
+      "ip": null,
+      "hostname": null,
+      "rtts": [],
+      "timeout": true
+    },
+    {
+      "hop": 24,
+      "ip": null,
+      "hostname": null,
+      "rtts": [],
+      "timeout": true
+    },
+    {
+      "hop": 25,
+      "ip": null,
+      "hostname": null,
+      "rtts": [],
+      "timeout": true
+    },
+    {
+      "hop": 26,
+      "ip": null,
+      "hostname": null,
+      "rtts": [],
+      "timeout": true
+    },
+    {
+      "hop": 27,
+      "ip": null,
+      "hostname": null,
+      "rtts": [],
+      "timeout": true
+    },
+    {
+      "hop": 28,
+      "ip": null,
+      "hostname": null,
+      "rtts": [],
+      "timeout": true
+    },
+    {
+      "hop": 29,
+      "ip": null,
+      "hostname": null,
+      "rtts": [],
+      "timeout": true
+    },
+    {
+      "hop": 30,
+      "ip": null,
+      "hostname": null,
+      "rtts": [],
+      "timeout": true
+    }
+  ],
+  "num_hops": 30,
+  "success": false,
+  "method": "scapy",
+  "category": "media",
+  "base_domain": "tvbs.com.tw",
+  "service_variant": "ftp.tvbs.com.tw",
+  "is_bare_domain": false
+}

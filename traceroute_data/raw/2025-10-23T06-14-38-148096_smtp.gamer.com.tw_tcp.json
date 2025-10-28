@@ -1,0 +1,308 @@
+{
+  "timestamp": "2025-10-23T06:14:38.148096",
+  "vantage_point": "university",
+  "target": "smtp.gamer.com.tw",
+  "target_ip": "142.250.157.108",
+  "protocol": "tcp",
+  "port": 443,
+  "duration_seconds": 86.4,
+  "hops": [
+    {
+      "hop": 1,
+      "ip": "192.168.50.1",
+      "hostname": null,
+      "rtts": [
+        7.59,
+        4.14,
+        4.58
+      ],
+      "timeout": false,
+      "avg_rtt": 5.44
+    },
+    {
+      "hop": 2,
+      "ip": "140.123.103.250",
+      "hostname": "csgate103.cs.ccu.edu.tw",
+      "rtts": [
+        4.83,
+        6.54,
+        8.86
+      ],
+      "timeout": false,
+      "avg_rtt": 6.74
+    },
+    {
+      "hop": 3,
+      "ip": "140.123.9.249",
+      "hostname": null,
+      "rtts": [
+        6.48,
+        24.06,
+        7.56
+      ],
+      "timeout": false,
+      "avg_rtt": 12.7
+    },
+    {
+      "hop": 4,
+      "ip": "140.123.0.246",
+      "hostname": null,
+      "rtts": [
+        7.33,
+        5.68,
+        7.23
+      ],
+      "timeout": false,
+      "avg_rtt": 6.75
+    },
+    {
+      "hop": 5,
+      "ip": "140.130.252.251",
+      "hostname": null,
+      "rtts": [
+        11.37,
+        12.23,
+        8.33
+      ],
+      "timeout": false,
+      "avg_rtt": 10.64
+    },
+    {
+      "hop": 6,
+      "ip": "192.192.61.142",
+      "hostname": null,
+      "rtts": [
+        29.27,
+        11.19,
+        24.86
+      ],
+      "timeout": false,
+      "avg_rtt": 21.77
+    },
+    {
+      "hop": 7,
+      "ip": "192.192.61.20",
+      "hostname": null,
+      "rtts": [
+        14.42,
+        21.19,
+        11.49
+      ],
+      "timeout": false,
+      "avg_rtt": 15.7
+    },
+    {
+      "hop": 8,
+      "ip": "192.192.61.184",
+      "hostname": null,
+      "rtts": [
+        19.55,
+        15.24,
+        13.1
+      ],
+      "timeout": false,
+      "avg_rtt": 15.96
+    },
+    {
+      "hop": 9,
+      "ip": "192.192.61.203",
+      "hostname": null,
+      "rtts": [
+        14.18,
+        13.79,
+        15.87
+      ],
+      "timeout": false,
+      "avg_rtt": 14.61
+    },
+    {
+      "hop": 10,
+      "ip": "72.14.196.229",
+      "hostname": null,
+      "rtts": [
+        18.16,
+        25.39,
+        13.42
+      ],
+      "timeout": false,
+      "avg_rtt": 18.99
+    },
+    {
+      "hop": 11,
+      "ip": "72.14.233.233",
+      "hostname": null,
+      "rtts": [
+        22.52,
+        22.37,
+        15.15
+      ],
+      "timeout": false,
+      "avg_rtt": 20.01
+    },
+    {
+      "hop": 12,
+      "ip": "192.178.106.58",
+      "hostname": null,
+      "rtts": [
+        25.84,
+        21.81,
+        16.27
+      ],
+      "timeout": false,
+      "avg_rtt": 21.31
+    },
+    {
+      "hop": 13,
+      "ip": "142.250.224.241",
+      "hostname": null,
+      "rtts": [
+        12.36,
+        16.13,
+        13.48
+      ],
+      "timeout": false,
+      "avg_rtt": 13.99
+    },
+    {
+      "hop": 14,
+      "ip": "142.250.224.230",
+      "hostname": null,
+      "rtts": [
+        23.17,
+        15.81,
+        70.12
+      ],
+      "timeout": false,
+      "avg_rtt": 36.37
+    },
+    {
+      "hop": 15,
+      "ip": "72.14.236.239",
+      "hostname": null,
+      "rtts": [
+        16.46,
+        16.61,
+        14.06
+      ],
+      "timeout": false,
+      "avg_rtt": 15.71
+    },
+    {
+      "hop": 16,
+      "ip": "142.251.49.237",
+      "hostname": null,
+      "rtts": [
+        13.84,
+        12.69,
+        12.26
+      ],
+      "timeout": false,
+      "avg_rtt": 12.93
+    },
+    {
+      "hop": 17,
+      "ip": null,
+      "hostname": null,
+      "rtts": [],
+      "timeout": true
+    },
+    {
+      "hop": 18,
+      "ip": null,
+      "hostname": null,
+      "rtts": [],
+      "timeout": true
+    },
+    {
+      "hop": 19,
+      "ip": null,
+      "hostname": null,
+      "rtts": [],
+      "timeout": true
+    },
+    {
+      "hop": 20,
+      "ip": null,
+      "hostname": null,
+      "rtts": [],
+      "timeout": true
+    },
+    {
+      "hop": 21,
+      "ip": null,
+      "hostname": null,
+      "rtts": [],
+      "timeout": true
+    },
+    {
+      "hop": 22,
+      "ip": null,
+      "hostname": null,
+      "rtts": [],
+      "timeout": true
+    },
+    {
+      "hop": 23,
+      "ip": null,
+      "hostname": null,
+      "rtts": [],
+      "timeout": true
+    },
+    {
+      "hop": 24,
+      "ip": null,
+      "hostname": null,
+      "rtts": [],
+      "timeout": true
+    },
+    {
+      "hop": 25,
+      "ip": null,
+      "hostname": null,
+      "rtts": [],
+      "timeout": true
+    },
+    {
+      "hop": 26,
+      "ip": null,
+      "hostname": null,
+      "rtts": [],
+      "timeout": true
+    },
+    {
+      "hop": 27,
+      "ip": null,
+      "hostname": null,
+      "rtts": [],
+      "timeout": true
+    },
+    {
+      "hop": 28,
+      "ip": null,
+      "hostname": null,
+      "rtts": [],
+      "timeout": true
+    },
+    {
+      "hop": 29,
+      "ip": null,
+      "hostname": null,
+      "rtts": [],
+      "timeout": true
+    },
+    {
+      "hop": 30,
+      "ip": null,
+      "hostname": null,
+      "rtts": [],
+      "timeout": true
+    }
+  ],
+  "num_hops": 30,
+  "success": false,
+  "method": "scapy",
+  "category": "ecommerce_tech",
+  "base_domain": "gamer.com.tw",
+  "service_variant": "smtp.gamer.com.tw",
+  "is_bare_domain": false
+}

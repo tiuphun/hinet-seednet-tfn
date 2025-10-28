@@ -1,0 +1,341 @@
+{
+  "timestamp": "2025-10-23T07:15:44.487920",
+  "vantage_point": "university",
+  "target": "vpn.pts.org.tw",
+  "target_ip": "61.67.73.253",
+  "protocol": "icmp",
+  "port": null,
+  "duration_seconds": 76.54,
+  "hops": [
+    {
+      "hop": 1,
+      "ip": "192.168.50.1",
+      "hostname": null,
+      "rtts": [
+        20.32,
+        57.06,
+        5.14
+      ],
+      "timeout": false,
+      "avg_rtt": 27.51
+    },
+    {
+      "hop": 2,
+      "ip": "140.123.103.250",
+      "hostname": "csgate103.cs.ccu.edu.tw",
+      "rtts": [
+        7.27,
+        7.03,
+        4.58
+      ],
+      "timeout": false,
+      "avg_rtt": 6.29
+    },
+    {
+      "hop": 3,
+      "ip": "140.123.9.249",
+      "hostname": null,
+      "rtts": [
+        6.77,
+        4.53,
+        7.27
+      ],
+      "timeout": false,
+      "avg_rtt": 6.19
+    },
+    {
+      "hop": 4,
+      "ip": "140.123.0.246",
+      "hostname": null,
+      "rtts": [
+        10.32,
+        7.16,
+        15.33
+      ],
+      "timeout": false,
+      "avg_rtt": 10.94
+    },
+    {
+      "hop": 5,
+      "ip": "140.130.252.251",
+      "hostname": null,
+      "rtts": [
+        10.85,
+        8.42,
+        8.71
+      ],
+      "timeout": false,
+      "avg_rtt": 9.33
+    },
+    {
+      "hop": 6,
+      "ip": "192.192.61.142",
+      "hostname": null,
+      "rtts": [
+        9.43,
+        11.27,
+        10.23
+      ],
+      "timeout": false,
+      "avg_rtt": 10.31
+    },
+    {
+      "hop": 7,
+      "ip": "192.192.61.37",
+      "hostname": null,
+      "rtts": [
+        13.24,
+        10.48,
+        12.14
+      ],
+      "timeout": false,
+      "avg_rtt": 11.95
+    },
+    {
+      "hop": 8,
+      "ip": "192.192.61.32",
+      "hostname": null,
+      "rtts": [
+        13.27,
+        14.54,
+        25.59
+      ],
+      "timeout": false,
+      "avg_rtt": 17.8
+    },
+    {
+      "hop": 9,
+      "ip": "192.192.61.209",
+      "hostname": null,
+      "rtts": [
+        44.75,
+        15.38,
+        12.28
+      ],
+      "timeout": false,
+      "avg_rtt": 24.14
+    },
+    {
+      "hop": 10,
+      "ip": "10.96.81.12",
+      "hostname": null,
+      "rtts": [
+        14.05,
+        26.06
+      ],
+      "timeout": false,
+      "avg_rtt": 20.05
+    },
+    {
+      "hop": 11,
+      "ip": "10.96.81.12",
+      "hostname": null,
+      "rtts": [
+        18.55
+      ],
+      "timeout": false,
+      "avg_rtt": 18.55
+    },
+    {
+      "hop": 12,
+      "ip": "10.96.81.12",
+      "hostname": null,
+      "rtts": [
+        43.75,
+        18.84
+      ],
+      "timeout": false,
+      "avg_rtt": 31.3
+    },
+    {
+      "hop": 13,
+      "ip": "10.96.81.12",
+      "hostname": null,
+      "rtts": [
+        30.34
+      ],
+      "timeout": false,
+      "avg_rtt": 30.34
+    },
+    {
+      "hop": 14,
+      "ip": "10.96.81.12",
+      "hostname": null,
+      "rtts": [
+        21.95
+      ],
+      "timeout": false,
+      "avg_rtt": 21.95
+    },
+    {
+      "hop": 15,
+      "ip": "10.96.81.12",
+      "hostname": null,
+      "rtts": [
+        25.9
+      ],
+      "timeout": false,
+      "avg_rtt": 25.9
+    },
+    {
+      "hop": 16,
+      "ip": "10.96.81.12",
+      "hostname": null,
+      "rtts": [
+        14.87
+      ],
+      "timeout": false,
+      "avg_rtt": 14.87
+    },
+    {
+      "hop": 17,
+      "ip": "10.96.81.12",
+      "hostname": null,
+      "rtts": [
+        18.66
+      ],
+      "timeout": false,
+      "avg_rtt": 18.66
+    },
+    {
+      "hop": 18,
+      "ip": "10.96.81.12",
+      "hostname": null,
+      "rtts": [
+        24.36
+      ],
+      "timeout": false,
+      "avg_rtt": 24.36
+    },
+    {
+      "hop": 19,
+      "ip": "10.96.81.12",
+      "hostname": null,
+      "rtts": [
+        19.3
+      ],
+      "timeout": false,
+      "avg_rtt": 19.3
+    },
+    {
+      "hop": 20,
+      "ip": "10.96.81.12",
+      "hostname": null,
+      "rtts": [
+        26.62,
+        25.92
+      ],
+      "timeout": false,
+      "avg_rtt": 26.27
+    },
+    {
+      "hop": 21,
+      "ip": "10.96.81.12",
+      "hostname": null,
+      "rtts": [
+        14.98
+      ],
+      "timeout": false,
+      "avg_rtt": 14.98
+    },
+    {
+      "hop": 22,
+      "ip": "10.96.81.12",
+      "hostname": null,
+      "rtts": [
+        39.24
+      ],
+      "timeout": false,
+      "avg_rtt": 39.24
+    },
+    {
+      "hop": 23,
+      "ip": "10.96.81.12",
+      "hostname": null,
+      "rtts": [
+        24.44,
+        24.85
+      ],
+      "timeout": false,
+      "avg_rtt": 24.65
+    },
+    {
+      "hop": 24,
+      "ip": "10.96.81.12",
+      "hostname": null,
+      "rtts": [
+        55.18
+      ],
+      "timeout": false,
+      "avg_rtt": 55.18
+    },
+    {
+      "hop": 25,
+      "ip": "10.96.81.12",
+      "hostname": null,
+      "rtts": [
+        28.24
+      ],
+      "timeout": false,
+      "avg_rtt": 28.24
+    },
+    {
+      "hop": 26,
+      "ip": "10.96.81.12",
+      "hostname": null,
+      "rtts": [
+        16.81,
+        12.08
+      ],
+      "timeout": false,
+      "avg_rtt": 14.45
+    },
+    {
+      "hop": 27,
+      "ip": "10.96.81.12",
+      "hostname": null,
+      "rtts": [
+        20.74
+      ],
+      "timeout": false,
+      "avg_rtt": 20.74
+    },
+    {
+      "hop": 28,
+      "ip": "10.96.81.12",
+      "hostname": null,
+      "rtts": [
+        38.66
+      ],
+      "timeout": false,
+      "avg_rtt": 38.66
+    },
+    {
+      "hop": 29,
+      "ip": "10.96.81.12",
+      "hostname": null,
+      "rtts": [
+        28.67
+      ],
+      "timeout": false,
+      "avg_rtt": 28.67
+    },
+    {
+      "hop": 30,
+      "ip": "10.96.81.12",
+      "hostname": null,
+      "rtts": [
+        164.58
+      ],
+      "timeout": false,
+      "avg_rtt": 164.58
+    }
+  ],
+  "num_hops": 30,
+  "success": false,
+  "method": "scapy",
+  "category": "media",
+  "base_domain": "pts.org.tw",
+  "service_variant": "vpn.pts.org.tw",
+  "is_bare_domain": false
+}

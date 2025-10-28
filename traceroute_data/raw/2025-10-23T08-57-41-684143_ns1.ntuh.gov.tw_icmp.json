@@ -1,0 +1,288 @@
+{
+  "timestamp": "2025-10-23T08:57:41.684143",
+  "vantage_point": "university",
+  "target": "ns1.ntuh.gov.tw",
+  "target_ip": "140.112.125.97",
+  "protocol": "icmp",
+  "port": null,
+  "duration_seconds": 110.5,
+  "hops": [
+    {
+      "hop": 1,
+      "ip": "192.168.50.1",
+      "hostname": null,
+      "rtts": [
+        16.01,
+        10.19,
+        5.01
+      ],
+      "timeout": false,
+      "avg_rtt": 10.4
+    },
+    {
+      "hop": 2,
+      "ip": "140.123.103.250",
+      "hostname": "csgate103.cs.ccu.edu.tw",
+      "rtts": [
+        5.37,
+        4.26,
+        4.93
+      ],
+      "timeout": false,
+      "avg_rtt": 4.85
+    },
+    {
+      "hop": 3,
+      "ip": "140.123.9.249",
+      "hostname": null,
+      "rtts": [
+        5.04,
+        6.06,
+        5.36
+      ],
+      "timeout": false,
+      "avg_rtt": 5.49
+    },
+    {
+      "hop": 4,
+      "ip": "140.123.0.246",
+      "hostname": null,
+      "rtts": [
+        5.94,
+        4.74,
+        5.26
+      ],
+      "timeout": false,
+      "avg_rtt": 5.31
+    },
+    {
+      "hop": 5,
+      "ip": "140.130.252.251",
+      "hostname": null,
+      "rtts": [
+        9.65,
+        5.82,
+        9.48
+      ],
+      "timeout": false,
+      "avg_rtt": 8.32
+    },
+    {
+      "hop": 6,
+      "ip": "192.192.61.142",
+      "hostname": null,
+      "rtts": [
+        7.57,
+        10.94,
+        8.27
+      ],
+      "timeout": false,
+      "avg_rtt": 8.93
+    },
+    {
+      "hop": 7,
+      "ip": "192.192.61.20",
+      "hostname": null,
+      "rtts": [
+        9.07,
+        9.34,
+        9.0
+      ],
+      "timeout": false,
+      "avg_rtt": 9.14
+    },
+    {
+      "hop": 8,
+      "ip": "192.192.61.81",
+      "hostname": null,
+      "rtts": [
+        9.68,
+        11.65,
+        12.96
+      ],
+      "timeout": false,
+      "avg_rtt": 11.43
+    },
+    {
+      "hop": 9,
+      "ip": "140.112.0.69",
+      "hostname": "wan0069.cc.ntu.edu.tw",
+      "rtts": [
+        43.56,
+        15.66,
+        10.22
+      ],
+      "timeout": false,
+      "avg_rtt": 23.15
+    },
+    {
+      "hop": 10,
+      "ip": "140.112.0.201",
+      "hostname": "core_wan_0201.cc.ntu.edu.tw",
+      "rtts": [
+        9.78,
+        9.49,
+        9.63
+      ],
+      "timeout": false,
+      "avg_rtt": 9.63
+    },
+    {
+      "hop": 11,
+      "ip": "140.112.0.233",
+      "hostname": null,
+      "rtts": [
+        9.92,
+        10.27,
+        10.4
+      ],
+      "timeout": false,
+      "avg_rtt": 10.2
+    },
+    {
+      "hop": 12,
+      "ip": "140.112.1.170",
+      "hostname": null,
+      "rtts": [
+        10.78,
+        9.96,
+        10.95
+      ],
+      "timeout": false,
+      "avg_rtt": 10.56
+    },
+    {
+      "hop": 13,
+      "ip": null,
+      "hostname": null,
+      "rtts": [],
+      "timeout": true
+    },
+    {
+      "hop": 14,
+      "ip": null,
+      "hostname": null,
+      "rtts": [],
+      "timeout": true
+    },
+    {
+      "hop": 15,
+      "ip": null,
+      "hostname": null,
+      "rtts": [],
+      "timeout": true
+    },
+    {
+      "hop": 16,
+      "ip": null,
+      "hostname": null,
+      "rtts": [],
+      "timeout": true
+    },
+    {
+      "hop": 17,
+      "ip": null,
+      "hostname": null,
+      "rtts": [],
+      "timeout": true
+    },
+    {
+      "hop": 18,
+      "ip": null,
+      "hostname": null,
+      "rtts": [],
+      "timeout": true
+    },
+    {
+      "hop": 19,
+      "ip": null,
+      "hostname": null,
+      "rtts": [],
+      "timeout": true
+    },
+    {
+      "hop": 20,
+      "ip": null,
+      "hostname": null,
+      "rtts": [],
+      "timeout": true
+    },
+    {
+      "hop": 21,
+      "ip": null,
+      "hostname": null,
+      "rtts": [],
+      "timeout": true
+    },
+    {
+      "hop": 22,
+      "ip": null,
+      "hostname": null,
+      "rtts": [],
+      "timeout": true
+    },
+    {
+      "hop": 23,
+      "ip": null,
+      "hostname": null,
+      "rtts": [],
+      "timeout": true
+    },
+    {
+      "hop": 24,
+      "ip": null,
+      "hostname": null,
+      "rtts": [],
+      "timeout": true
+    },
+    {
+      "hop": 25,
+      "ip": null,
+      "hostname": null,
+      "rtts": [],
+      "timeout": true
+    },
+    {
+      "hop": 26,
+      "ip": null,
+      "hostname": null,
+      "rtts": [],
+      "timeout": true
+    },
+    {
+      "hop": 27,
+      "ip": null,
+      "hostname": null,
+      "rtts": [],
+      "timeout": true
+    },
+    {
+      "hop": 28,
+      "ip": null,
+      "hostname": null,
+      "rtts": [],
+      "timeout": true
+    },
+    {
+      "hop": 29,
+      "ip": null,
+      "hostname": null,
+      "rtts": [],
+      "timeout": true
+    },
+    {
+      "hop": 30,
+      "ip": null,
+      "hostname": null,
+      "rtts": [],
+      "timeout": true
+    }
+  ],
+  "num_hops": 30,
+  "success": false,
+  "method": "scapy",
+  "category": "healthcare",
+  "base_domain": "ntuh.gov.tw",
+  "service_variant": "ns1.ntuh.gov.tw",
+  "is_bare_domain": false
+}

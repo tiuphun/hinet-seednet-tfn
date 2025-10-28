@@ -1,0 +1,261 @@
+{
+  "timestamp": "2025-10-23T12:25:40.360963",
+  "vantage_point": "university",
+  "target": "app.netflix.com",
+  "target_ip": "44.245.172.95",
+  "protocol": "tcp",
+  "port": 443,
+  "duration_seconds": 69.76,
+  "hops": [
+    {
+      "hop": 1,
+      "ip": "192.168.50.1",
+      "hostname": null,
+      "rtts": [
+        7.78,
+        5.94,
+        6.25
+      ],
+      "timeout": false,
+      "avg_rtt": 6.66
+    },
+    {
+      "hop": 2,
+      "ip": "140.123.103.250",
+      "hostname": "csgate103.cs.ccu.edu.tw",
+      "rtts": [
+        5.13,
+        6.32,
+        8.97
+      ],
+      "timeout": false,
+      "avg_rtt": 6.81
+    },
+    {
+      "hop": 3,
+      "ip": "140.123.9.249",
+      "hostname": null,
+      "rtts": [
+        7.8,
+        5.66,
+        4.8
+      ],
+      "timeout": false,
+      "avg_rtt": 6.09
+    },
+    {
+      "hop": 4,
+      "ip": "140.123.0.246",
+      "hostname": null,
+      "rtts": [
+        5.61,
+        6.57,
+        6.22
+      ],
+      "timeout": false,
+      "avg_rtt": 6.13
+    },
+    {
+      "hop": 5,
+      "ip": "140.130.252.251",
+      "hostname": null,
+      "rtts": [
+        16.34,
+        6.63,
+        5.84
+      ],
+      "timeout": false,
+      "avg_rtt": 9.6
+    },
+    {
+      "hop": 6,
+      "ip": "192.192.61.142",
+      "hostname": null,
+      "rtts": [
+        7.5,
+        7.43,
+        8.85
+      ],
+      "timeout": false,
+      "avg_rtt": 7.93
+    },
+    {
+      "hop": 7,
+      "ip": "192.192.61.20",
+      "hostname": null,
+      "rtts": [
+        15.45,
+        12.94,
+        28.01
+      ],
+      "timeout": false,
+      "avg_rtt": 18.8
+    },
+    {
+      "hop": 8,
+      "ip": "192.192.61.48",
+      "hostname": null,
+      "rtts": [
+        12.65,
+        13.55,
+        14.39
+      ],
+      "timeout": false,
+      "avg_rtt": 13.53
+    },
+    {
+      "hop": 9,
+      "ip": "192.192.68.62",
+      "hostname": null,
+      "rtts": [
+        14.74,
+        12.45,
+        19.29
+      ],
+      "timeout": false,
+      "avg_rtt": 15.49
+    },
+    {
+      "hop": 10,
+      "ip": "210.176.44.177",
+      "hostname": "unknown.telstraglobal.net",
+      "rtts": [
+        26.11,
+        32.18,
+        13.8
+      ],
+      "timeout": false,
+      "avg_rtt": 24.03
+    },
+    {
+      "hop": 11,
+      "ip": "202.84.137.254",
+      "hostname": "i-91.ttak-core02.telstraglobal.net",
+      "rtts": [
+        14.27,
+        15.25
+      ],
+      "timeout": false,
+      "avg_rtt": 14.76
+    },
+    {
+      "hop": 12,
+      "ip": null,
+      "hostname": null,
+      "rtts": [],
+      "timeout": true
+    },
+    {
+      "hop": 13,
+      "ip": "202.84.141.1",
+      "hostname": "i-10857.eqnx-core02.telstraglobal.net",
+      "rtts": [
+        155.81,
+        169.63,
+        153.9
+      ],
+      "timeout": false,
+      "avg_rtt": 159.78
+    },
+    {
+      "hop": 14,
+      "ip": "202.84.247.17",
+      "hostname": "i-92.eqnx03.telstraglobal.net",
+      "rtts": [
+        151.97,
+        156.1,
+        151.64
+      ],
+      "timeout": false,
+      "avg_rtt": 153.24
+    },
+    {
+      "hop": 15,
+      "ip": null,
+      "hostname": null,
+      "rtts": [],
+      "timeout": true
+    },
+    {
+      "hop": 16,
+      "ip": null,
+      "hostname": null,
+      "rtts": [],
+      "timeout": true
+    },
+    {
+      "hop": 17,
+      "ip": null,
+      "hostname": null,
+      "rtts": [],
+      "timeout": true
+    },
+    {
+      "hop": 18,
+      "ip": null,
+      "hostname": null,
+      "rtts": [],
+      "timeout": true
+    },
+    {
+      "hop": 19,
+      "ip": null,
+      "hostname": null,
+      "rtts": [],
+      "timeout": true
+    },
+    {
+      "hop": 20,
+      "ip": null,
+      "hostname": null,
+      "rtts": [],
+      "timeout": true
+    },
+    {
+      "hop": 21,
+      "ip": null,
+      "hostname": null,
+      "rtts": [],
+      "timeout": true
+    },
+    {
+      "hop": 22,
+      "ip": null,
+      "hostname": null,
+      "rtts": [],
+      "timeout": true
+    },
+    {
+      "hop": 23,
+      "ip": "44.245.172.95",
+      "hostname": "ec2-44-245-172-95.us-west-2.compute.amazonaws.com",
+      "rtts": [
+        165.41,
+        170.81,
+        167.82
+      ],
+      "timeout": false,
+      "avg_rtt": 168.01
+    },
+    {
+      "hop": 24,
+      "ip": "44.245.172.95",
+      "hostname": "ec2-44-245-172-95.us-west-2.compute.amazonaws.com",
+      "rtts": [
+        175.87,
+        168.35,
+        174.38
+      ],
+      "timeout": false,
+      "reached_destination": true,
+      "avg_rtt": 172.87
+    }
+  ],
+  "num_hops": 24,
+  "success": true,
+  "method": "scapy",
+  "category": "cdn_global",
+  "base_domain": "netflix.com",
+  "service_variant": "app.netflix.com",
+  "is_bare_domain": false
+}

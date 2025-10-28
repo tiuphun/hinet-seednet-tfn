@@ -1,0 +1,151 @@
+{
+  "timestamp": "2025-10-22T19:12:15.548735",
+  "vantage_point": "university",
+  "target": "chinatimes.com",
+  "target_ip": "35.244.236.6",
+  "protocol": "tcp",
+  "port": 443,
+  "duration_seconds": 0.37,
+  "hops": [
+    {
+      "hop": 1,
+      "ip": "192.168.50.1",
+      "hostname": null,
+      "rtts": [
+        14.37,
+        6.24,
+        6.35
+      ],
+      "timeout": false,
+      "avg_rtt": 8.99
+    },
+    {
+      "hop": 2,
+      "ip": "140.123.103.250",
+      "hostname": "csgate103.cs.ccu.edu.tw",
+      "rtts": [
+        22.79,
+        5.31,
+        6.52
+      ],
+      "timeout": false,
+      "avg_rtt": 11.54
+    },
+    {
+      "hop": 3,
+      "ip": "140.123.9.249",
+      "hostname": null,
+      "rtts": [
+        6.2,
+        6.73,
+        6.07
+      ],
+      "timeout": false,
+      "avg_rtt": 6.33
+    },
+    {
+      "hop": 4,
+      "ip": "140.123.0.246",
+      "hostname": null,
+      "rtts": [
+        5.76,
+        4.59,
+        4.45
+      ],
+      "timeout": false,
+      "avg_rtt": 4.93
+    },
+    {
+      "hop": 5,
+      "ip": "140.130.252.251",
+      "hostname": null,
+      "rtts": [
+        5.94,
+        5.49,
+        7.81
+      ],
+      "timeout": false,
+      "avg_rtt": 6.41
+    },
+    {
+      "hop": 6,
+      "ip": "192.192.61.142",
+      "hostname": null,
+      "rtts": [
+        8.94,
+        16.14,
+        9.52
+      ],
+      "timeout": false,
+      "avg_rtt": 11.53
+    },
+    {
+      "hop": 7,
+      "ip": "192.192.61.20",
+      "hostname": null,
+      "rtts": [
+        11.03,
+        9.91,
+        12.52
+      ],
+      "timeout": false,
+      "avg_rtt": 11.15
+    },
+    {
+      "hop": 8,
+      "ip": "192.192.61.184",
+      "hostname": null,
+      "rtts": [
+        21.8,
+        12.52,
+        9.7
+      ],
+      "timeout": false,
+      "avg_rtt": 14.67
+    },
+    {
+      "hop": 9,
+      "ip": "192.192.61.203",
+      "hostname": null,
+      "rtts": [
+        9.62,
+        18.99,
+        10.43
+      ],
+      "timeout": false,
+      "avg_rtt": 13.01
+    },
+    {
+      "hop": 10,
+      "ip": "72.14.196.229",
+      "hostname": null,
+      "rtts": [
+        12.56,
+        11.15,
+        10.11
+      ],
+      "timeout": false,
+      "avg_rtt": 11.27
+    },
+    {
+      "hop": 11,
+      "ip": "35.244.236.6",
+      "hostname": "6.236.244.35.bc.googleusercontent.com",
+      "rtts": [
+        10.05,
+        9.79,
+        35.53
+      ],
+      "timeout": false,
+      "reached_destination": true,
+      "avg_rtt": 18.46
+    }
+  ],
+  "num_hops": 11,
+  "success": true,
+  "method": "scapy",
+  "category": "media",
+  "base_domain": "chinatimes.com",
+  "service_variant": "chinatimes.com",
+  "is_bare_domain": true
+}

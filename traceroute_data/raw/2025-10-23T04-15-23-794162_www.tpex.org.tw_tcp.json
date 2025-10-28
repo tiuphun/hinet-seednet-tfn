@@ -1,0 +1,151 @@
+{
+  "timestamp": "2025-10-23T04:15:23.794162",
+  "vantage_point": "university",
+  "target": "www.tpex.org.tw",
+  "target_ip": "172.65.90.67",
+  "protocol": "tcp",
+  "port": 80,
+  "duration_seconds": 0.43,
+  "hops": [
+    {
+      "hop": 1,
+      "ip": "192.168.50.1",
+      "hostname": null,
+      "rtts": [
+        4.15,
+        75.46,
+        5.59
+      ],
+      "timeout": false,
+      "avg_rtt": 28.4
+    },
+    {
+      "hop": 2,
+      "ip": "140.123.103.250",
+      "hostname": "csgate103.cs.ccu.edu.tw",
+      "rtts": [
+        4.32,
+        7.33,
+        4.12
+      ],
+      "timeout": false,
+      "avg_rtt": 5.26
+    },
+    {
+      "hop": 3,
+      "ip": "140.123.9.249",
+      "hostname": null,
+      "rtts": [
+        4.34,
+        3.95,
+        5.05
+      ],
+      "timeout": false,
+      "avg_rtt": 4.45
+    },
+    {
+      "hop": 4,
+      "ip": "140.123.0.246",
+      "hostname": null,
+      "rtts": [
+        6.12,
+        55.8,
+        4.6
+      ],
+      "timeout": false,
+      "avg_rtt": 22.17
+    },
+    {
+      "hop": 5,
+      "ip": "140.130.252.251",
+      "hostname": null,
+      "rtts": [
+        6.95,
+        9.89,
+        5.15
+      ],
+      "timeout": false,
+      "avg_rtt": 7.33
+    },
+    {
+      "hop": 6,
+      "ip": "192.192.61.142",
+      "hostname": null,
+      "rtts": [
+        7.76,
+        10.88,
+        7.87
+      ],
+      "timeout": false,
+      "avg_rtt": 8.84
+    },
+    {
+      "hop": 7,
+      "ip": "192.192.61.20",
+      "hostname": null,
+      "rtts": [
+        10.72,
+        10.93,
+        9.84
+      ],
+      "timeout": false,
+      "avg_rtt": 10.5
+    },
+    {
+      "hop": 8,
+      "ip": "192.192.61.48",
+      "hostname": null,
+      "rtts": [
+        9.17,
+        11.91,
+        28.31
+      ],
+      "timeout": false,
+      "avg_rtt": 16.46
+    },
+    {
+      "hop": 9,
+      "ip": "192.192.68.62",
+      "hostname": null,
+      "rtts": [
+        12.35,
+        11.37,
+        11.95
+      ],
+      "timeout": false,
+      "avg_rtt": 11.89
+    },
+    {
+      "hop": 10,
+      "ip": "203.163.222.39",
+      "hostname": "39-222-163-203-static.tpix.net.tw",
+      "rtts": [
+        13.03,
+        11.75,
+        9.92
+      ],
+      "timeout": false,
+      "avg_rtt": 11.57
+    },
+    {
+      "hop": 11,
+      "ip": "172.65.90.67",
+      "hostname": null,
+      "rtts": [
+        12.01,
+        10.08,
+        12.92
+      ],
+      "timeout": false,
+      "reached_destination": true,
+      "avg_rtt": 11.67
+    }
+  ],
+  "num_hops": 11,
+  "success": true,
+  "method": "scapy",
+  "category": "financial_infra",
+  "base_domain": "tpex.org.tw",
+  "service_variant": "www.tpex.org.tw",
+  "is_bare_domain": false
+}

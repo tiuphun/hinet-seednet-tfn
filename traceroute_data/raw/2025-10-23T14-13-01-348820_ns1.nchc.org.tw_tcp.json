@@ -1,0 +1,101 @@
+{
+  "timestamp": "2025-10-23T14:13:01.348820",
+  "vantage_point": "university",
+  "target": "ns1.nchc.org.tw",
+  "target_ip": "140.110.16.2",
+  "protocol": "tcp",
+  "port": 443,
+  "duration_seconds": 4.24,
+  "hops": [
+    {
+      "hop": 1,
+      "ip": "192.168.50.1",
+      "hostname": null,
+      "rtts": [
+        16.7,
+        4.94,
+        5.87
+      ],
+      "timeout": false,
+      "avg_rtt": 9.17
+    },
+    {
+      "hop": 2,
+      "ip": "140.123.103.250",
+      "hostname": "csgate103.cs.ccu.edu.tw",
+      "rtts": [
+        4.61,
+        4.23,
+        4.4
+      ],
+      "timeout": false,
+      "avg_rtt": 4.41
+    },
+    {
+      "hop": 3,
+      "ip": "140.123.9.249",
+      "hostname": null,
+      "rtts": [
+        4.49,
+        4.2,
+        4.13
+      ],
+      "timeout": false,
+      "avg_rtt": 4.27
+    },
+    {
+      "hop": 4,
+      "ip": "140.123.0.246",
+      "hostname": null,
+      "rtts": [
+        5.2,
+        4.96,
+        8.36
+      ],
+      "timeout": false,
+      "avg_rtt": 6.17
+    },
+    {
+      "hop": 5,
+      "ip": "211.79.57.25",
+      "hostname": "ccu-ccu-76.twaren.net",
+      "rtts": [
+        7.36,
+        7.78,
+        7.06
+      ],
+      "timeout": false,
+      "avg_rtt": 7.4
+    },
+    {
+      "hop": 6,
+      "ip": "211.73.76.209",
+      "hostname": "tp-a1.twaren.net",
+      "rtts": [
+        8.97,
+        11.95,
+        9.56
+      ],
+      "timeout": false,
+      "avg_rtt": 10.16
+    },
+    {
+      "hop": 7,
+      "ip": "140.110.16.2",
+      "hostname": "ns1.nchc.org.tw",
+      "rtts": [
+        34.88
+      ],
+      "timeout": false,
+      "reached_destination": true,
+      "avg_rtt": 34.88
+    }
+  ],
+  "num_hops": 7,
+  "success": true,
+  "method": "scapy",
+  "category": "education_network",
+  "base_domain": "nchc.org.tw",
+  "service_variant": "ns1.nchc.org.tw",
+  "is_bare_domain": false
+}

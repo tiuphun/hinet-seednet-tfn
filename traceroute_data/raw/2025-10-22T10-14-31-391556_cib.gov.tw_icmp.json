@@ -1,0 +1,336 @@
+{
+  "timestamp": "2025-10-22T10:14:31.391556",
+  "vantage_point": "university",
+  "target": "cib.gov.tw",
+  "target_ip": "210.69.153.27",
+  "protocol": "icmp",
+  "port": null,
+  "duration_seconds": 78.33,
+  "hops": [
+    {
+      "hop": 1,
+      "ip": "192.168.50.1",
+      "hostname": null,
+      "rtts": [
+        8.53,
+        7.45,
+        4.68
+      ],
+      "timeout": false,
+      "avg_rtt": 6.89
+    },
+    {
+      "hop": 2,
+      "ip": "140.123.103.250",
+      "hostname": "csgate103.cs.ccu.edu.tw",
+      "rtts": [
+        5.13,
+        5.49,
+        6.5
+      ],
+      "timeout": false,
+      "avg_rtt": 5.71
+    },
+    {
+      "hop": 3,
+      "ip": "140.123.9.249",
+      "hostname": null,
+      "rtts": [
+        20.81,
+        22.87,
+        11.86
+      ],
+      "timeout": false,
+      "avg_rtt": 18.51
+    },
+    {
+      "hop": 4,
+      "ip": "140.123.0.246",
+      "hostname": null,
+      "rtts": [
+        22.86,
+        12.6,
+        12.78
+      ],
+      "timeout": false,
+      "avg_rtt": 16.08
+    },
+    {
+      "hop": 5,
+      "ip": "140.130.252.251",
+      "hostname": null,
+      "rtts": [
+        15.67,
+        44.5,
+        12.47
+      ],
+      "timeout": false,
+      "avg_rtt": 24.21
+    },
+    {
+      "hop": 6,
+      "ip": "192.192.61.142",
+      "hostname": null,
+      "rtts": [
+        23.13,
+        31.08,
+        18.48
+      ],
+      "timeout": false,
+      "avg_rtt": 24.23
+    },
+    {
+      "hop": 7,
+      "ip": "192.192.61.37",
+      "hostname": null,
+      "rtts": [
+        35.35,
+        29.44,
+        20.35
+      ],
+      "timeout": false,
+      "avg_rtt": 28.38
+    },
+    {
+      "hop": 8,
+      "ip": "192.192.61.32",
+      "hostname": null,
+      "rtts": [
+        33.53,
+        30.94,
+        15.39
+      ],
+      "timeout": false,
+      "avg_rtt": 26.62
+    },
+    {
+      "hop": 9,
+      "ip": "192.192.61.209",
+      "hostname": null,
+      "rtts": [
+        57.27,
+        51.65,
+        18.54
+      ],
+      "timeout": false,
+      "avg_rtt": 42.49
+    },
+    {
+      "hop": 10,
+      "ip": "10.96.81.12",
+      "hostname": null,
+      "rtts": [
+        52.71
+      ],
+      "timeout": false,
+      "avg_rtt": 52.71
+    },
+    {
+      "hop": 11,
+      "ip": "10.96.81.12",
+      "hostname": null,
+      "rtts": [
+        44.83
+      ],
+      "timeout": false,
+      "avg_rtt": 44.83
+    },
+    {
+      "hop": 12,
+      "ip": "10.96.81.12",
+      "hostname": null,
+      "rtts": [
+        14.77,
+        13.9
+      ],
+      "timeout": false,
+      "avg_rtt": 14.34
+    },
+    {
+      "hop": 13,
+      "ip": null,
+      "hostname": null,
+      "rtts": [],
+      "timeout": true
+    },
+    {
+      "hop": 14,
+      "ip": "10.96.81.12",
+      "hostname": null,
+      "rtts": [
+        15.55
+      ],
+      "timeout": false,
+      "avg_rtt": 15.55
+    },
+    {
+      "hop": 15,
+      "ip": "10.96.81.12",
+      "hostname": null,
+      "rtts": [
+        22.74,
+        55.02
+      ],
+      "timeout": false,
+      "avg_rtt": 38.88
+    },
+    {
+      "hop": 16,
+      "ip": null,
+      "hostname": null,
+      "rtts": [],
+      "timeout": true
+    },
+    {
+      "hop": 17,
+      "ip": "10.96.81.12",
+      "hostname": null,
+      "rtts": [
+        15.07
+      ],
+      "timeout": false,
+      "avg_rtt": 15.07
+    },
+    {
+      "hop": 18,
+      "ip": "10.96.81.12",
+      "hostname": null,
+      "rtts": [
+        17.5
+      ],
+      "timeout": false,
+      "avg_rtt": 17.5
+    },
+    {
+      "hop": 19,
+      "ip": "10.96.81.12",
+      "hostname": null,
+      "rtts": [
+        17.51,
+        17.33
+      ],
+      "timeout": false,
+      "avg_rtt": 17.42
+    },
+    {
+      "hop": 20,
+      "ip": "10.96.81.12",
+      "hostname": null,
+      "rtts": [
+        16.58
+      ],
+      "timeout": false,
+      "avg_rtt": 16.58
+    },
+    {
+      "hop": 21,
+      "ip": "10.96.81.12",
+      "hostname": null,
+      "rtts": [
+        19.51,
+        25.61
+      ],
+      "timeout": false,
+      "avg_rtt": 22.56
+    },
+    {
+      "hop": 22,
+      "ip": "10.96.81.12",
+      "hostname": null,
+      "rtts": [
+        21.38
+      ],
+      "timeout": false,
+      "avg_rtt": 21.38
+    },
+    {
+      "hop": 23,
+      "ip": "10.96.81.12",
+      "hostname": null,
+      "rtts": [
+        13.7
+      ],
+      "timeout": false,
+      "avg_rtt": 13.7
+    },
+    {
+      "hop": 24,
+      "ip": "10.96.81.12",
+      "hostname": null,
+      "rtts": [
+        44.13,
+        20.68
+      ],
+      "timeout": false,
+      "avg_rtt": 32.41
+    },
+    {
+      "hop": 25,
+      "ip": "10.96.81.12",
+      "hostname": null,
+      "rtts": [
+        23.76
+      ],
+      "timeout": false,
+      "avg_rtt": 23.76
+    },
+    {
+      "hop": 26,
+      "ip": "10.96.81.12",
+      "hostname": null,
+      "rtts": [
+        27.18
+      ],
+      "timeout": false,
+      "avg_rtt": 27.18
+    },
+    {
+      "hop": 27,
+      "ip": "10.96.81.12",
+      "hostname": null,
+      "rtts": [
+        102.55
+      ],
+      "timeout": false,
+      "avg_rtt": 102.55
+    },
+    {
+      "hop": 28,
+      "ip": "10.96.81.12",
+      "hostname": null,
+      "rtts": [
+        15.16,
+        51.71
+      ],
+      "timeout": false,
+      "avg_rtt": 33.44
+    },
+    {
+      "hop": 29,
+      "ip": "10.96.81.12",
+      "hostname": null,
+      "rtts": [
+        35.74
+      ],
+      "timeout": false,
+      "avg_rtt": 35.74
+    },
+    {
+      "hop": 30,
+      "ip": "10.96.81.12",
+      "hostname": null,
+      "rtts": [
+        25.42
+      ],
+      "timeout": false,
+      "avg_rtt": 25.42
+    }
+  ],
+  "num_hops": 30,
+  "success": false,
+  "method": "scapy",
+  "category": "government_critical",
+  "base_domain": "cib.gov.tw",
+  "service_variant": "cib.gov.tw",
+  "is_bare_domain": true
+}

@@ -1,0 +1,155 @@
+{
+  "timestamp": "2025-10-22T20:47:06.550602",
+  "vantage_point": "university",
+  "target": "mail.taipower.com.tw",
+  "target_ip": "203.74.176.231",
+  "protocol": "icmp",
+  "port": null,
+  "duration_seconds": 25.5,
+  "hops": [
+    {
+      "hop": 1,
+      "ip": "192.168.50.1",
+      "hostname": null,
+      "rtts": [
+        7.98,
+        9.73,
+        5.43
+      ],
+      "timeout": false,
+      "avg_rtt": 7.71
+    },
+    {
+      "hop": 2,
+      "ip": "140.123.103.250",
+      "hostname": "csgate103.cs.ccu.edu.tw",
+      "rtts": [
+        7.98,
+        7.28,
+        5.92
+      ],
+      "timeout": false,
+      "avg_rtt": 7.06
+    },
+    {
+      "hop": 3,
+      "ip": "140.123.9.249",
+      "hostname": null,
+      "rtts": [
+        6.61,
+        6.19,
+        6.47
+      ],
+      "timeout": false,
+      "avg_rtt": 6.42
+    },
+    {
+      "hop": 4,
+      "ip": "140.123.0.246",
+      "hostname": null,
+      "rtts": [
+        12.01,
+        8.78,
+        6.86
+      ],
+      "timeout": false,
+      "avg_rtt": 9.22
+    },
+    {
+      "hop": 5,
+      "ip": "140.130.252.251",
+      "hostname": null,
+      "rtts": [
+        7.87,
+        8.1,
+        7.32
+      ],
+      "timeout": false,
+      "avg_rtt": 7.76
+    },
+    {
+      "hop": 6,
+      "ip": "211.22.226.198",
+      "hostname": "211-22-226-198.caw1-3332.hinet.net",
+      "rtts": [
+        8.35,
+        8.66,
+        8.8
+      ],
+      "timeout": false,
+      "avg_rtt": 8.6
+    },
+    {
+      "hop": 7,
+      "ip": null,
+      "hostname": null,
+      "rtts": [],
+      "timeout": true
+    },
+    {
+      "hop": 8,
+      "ip": null,
+      "hostname": null,
+      "rtts": [],
+      "timeout": true
+    },
+    {
+      "hop": 9,
+      "ip": "220.128.4.221",
+      "hostname": "220-128-4-221.tpdt-3310.hinet.net",
+      "rtts": [
+        86.83,
+        14.24,
+        15.35
+      ],
+      "timeout": false,
+      "avg_rtt": 38.81
+    },
+    {
+      "hop": 10,
+      "ip": "168.95.210.45",
+      "hostname": "h45.s210.ts.hinet.net",
+      "rtts": [
+        16.04,
+        57.86,
+        19.06
+      ],
+      "timeout": false,
+      "avg_rtt": 30.99
+    },
+    {
+      "hop": 11,
+      "ip": null,
+      "hostname": null,
+      "rtts": [],
+      "timeout": true
+    },
+    {
+      "hop": 12,
+      "ip": null,
+      "hostname": null,
+      "rtts": [],
+      "timeout": true
+    },
+    {
+      "hop": 13,
+      "ip": "203.74.176.231",
+      "hostname": null,
+      "rtts": [
+        12.6,
+        14.06,
+        17.65
+      ],
+      "timeout": false,
+      "reached_destination": true,
+      "avg_rtt": 14.77
+    }
+  ],
+  "num_hops": 13,
+  "success": true,
+  "method": "scapy",
+  "category": "critical_infra",
+  "base_domain": "taipower.com.tw",
+  "service_variant": "mail.taipower.com.tw",
+  "is_bare_domain": false
+}

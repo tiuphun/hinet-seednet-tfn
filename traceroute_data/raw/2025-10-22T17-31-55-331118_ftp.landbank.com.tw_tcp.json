@@ -1,0 +1,189 @@
+{
+  "timestamp": "2025-10-22T17:31:55.331118",
+  "vantage_point": "university",
+  "target": "ftp.landbank.com.tw",
+  "target_ip": "202.39.57.29",
+  "protocol": "tcp",
+  "port": 80,
+  "duration_seconds": 30.12,
+  "hops": [
+    {
+      "hop": 1,
+      "ip": "192.168.50.1",
+      "hostname": null,
+      "rtts": [
+        42.36,
+        25.57,
+        7.17
+      ],
+      "timeout": false,
+      "avg_rtt": 25.03
+    },
+    {
+      "hop": 2,
+      "ip": "140.123.103.250",
+      "hostname": "csgate103.cs.ccu.edu.tw",
+      "rtts": [
+        8.43,
+        6.56,
+        7.61
+      ],
+      "timeout": false,
+      "avg_rtt": 7.53
+    },
+    {
+      "hop": 3,
+      "ip": "140.123.9.249",
+      "hostname": null,
+      "rtts": [
+        6.03,
+        8.17,
+        5.54
+      ],
+      "timeout": false,
+      "avg_rtt": 6.58
+    },
+    {
+      "hop": 4,
+      "ip": "140.123.0.246",
+      "hostname": null,
+      "rtts": [
+        7.09,
+        6.0,
+        5.7
+      ],
+      "timeout": false,
+      "avg_rtt": 6.26
+    },
+    {
+      "hop": 5,
+      "ip": "140.130.252.251",
+      "hostname": null,
+      "rtts": [
+        8.24,
+        6.38,
+        14.56
+      ],
+      "timeout": false,
+      "avg_rtt": 9.73
+    },
+    {
+      "hop": 6,
+      "ip": "211.22.226.198",
+      "hostname": "211-22-226-198.caw1-3332.hinet.net",
+      "rtts": [
+        9.92,
+        11.27,
+        11.69
+      ],
+      "timeout": false,
+      "avg_rtt": 10.96
+    },
+    {
+      "hop": 7,
+      "ip": null,
+      "hostname": null,
+      "rtts": [],
+      "timeout": true
+    },
+    {
+      "hop": 8,
+      "ip": null,
+      "hostname": null,
+      "rtts": [],
+      "timeout": true
+    },
+    {
+      "hop": 9,
+      "ip": "220.128.4.17",
+      "hostname": "220-128-4-17.tpdb-3315.hinet.net",
+      "rtts": [
+        32.13,
+        22.99,
+        18.44
+      ],
+      "timeout": false,
+      "avg_rtt": 24.52
+    },
+    {
+      "hop": 10,
+      "ip": "168.95.208.57",
+      "hostname": "h57.s208.ts.hinet.net",
+      "rtts": [
+        16.89,
+        18.12,
+        12.87
+      ],
+      "timeout": false,
+      "avg_rtt": 15.96
+    },
+    {
+      "hop": 11,
+      "ip": "192.168.252.2",
+      "hostname": null,
+      "rtts": [
+        12.93,
+        16.44,
+        17.68
+      ],
+      "timeout": false,
+      "avg_rtt": 15.68
+    },
+    {
+      "hop": 12,
+      "ip": null,
+      "hostname": null,
+      "rtts": [],
+      "timeout": true
+    },
+    {
+      "hop": 13,
+      "ip": "203.66.25.249",
+      "hostname": "customer.wan-port.ar.hinet.net",
+      "rtts": [
+        30.8,
+        21.75,
+        16.16
+      ],
+      "timeout": false,
+      "avg_rtt": 22.9
+    },
+    {
+      "hop": 14,
+      "ip": null,
+      "hostname": null,
+      "rtts": [],
+      "timeout": true
+    },
+    {
+      "hop": 15,
+      "ip": "202.39.57.251",
+      "hostname": "lb.landbank.com.tw",
+      "rtts": [
+        30.23,
+        19.33,
+        31.59
+      ],
+      "timeout": false,
+      "avg_rtt": 27.05
+    },
+    {
+      "hop": 16,
+      "ip": "202.39.57.29",
+      "hostname": "ftp.landbank.com.tw",
+      "rtts": [
+        918.38
+      ],
+      "timeout": false,
+      "reached_destination": true,
+      "avg_rtt": 918.38
+    }
+  ],
+  "num_hops": 16,
+  "success": true,
+  "method": "scapy",
+  "category": "financial_banks",
+  "base_domain": "landbank.com.tw",
+  "service_variant": "ftp.landbank.com.tw",
+  "is_bare_domain": false
+}

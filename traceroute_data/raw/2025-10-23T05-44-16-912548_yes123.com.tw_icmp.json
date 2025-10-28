@@ -1,0 +1,243 @@
+{
+  "timestamp": "2025-10-23T05:44:16.912548",
+  "vantage_point": "university",
+  "target": "yes123.com.tw",
+  "target_ip": "168.63.250.12",
+  "protocol": "icmp",
+  "port": null,
+  "duration_seconds": 53.86,
+  "hops": [
+    {
+      "hop": 1,
+      "ip": "192.168.50.1",
+      "hostname": null,
+      "rtts": [
+        6.2,
+        4.32,
+        4.36
+      ],
+      "timeout": false,
+      "avg_rtt": 4.96
+    },
+    {
+      "hop": 2,
+      "ip": "140.123.103.250",
+      "hostname": "csgate103.cs.ccu.edu.tw",
+      "rtts": [
+        4.36,
+        4.94,
+        6.15
+      ],
+      "timeout": false,
+      "avg_rtt": 5.15
+    },
+    {
+      "hop": 3,
+      "ip": "140.123.9.249",
+      "hostname": null,
+      "rtts": [
+        5.23,
+        20.84,
+        5.48
+      ],
+      "timeout": false,
+      "avg_rtt": 10.52
+    },
+    {
+      "hop": 4,
+      "ip": "140.123.0.246",
+      "hostname": null,
+      "rtts": [
+        14.51,
+        14.44,
+        8.44
+      ],
+      "timeout": false,
+      "avg_rtt": 12.46
+    },
+    {
+      "hop": 5,
+      "ip": "140.130.252.251",
+      "hostname": null,
+      "rtts": [
+        34.74,
+        10.57,
+        7.83
+      ],
+      "timeout": false,
+      "avg_rtt": 17.71
+    },
+    {
+      "hop": 6,
+      "ip": "192.192.61.142",
+      "hostname": null,
+      "rtts": [
+        17.05,
+        9.23,
+        11.99
+      ],
+      "timeout": false,
+      "avg_rtt": 12.76
+    },
+    {
+      "hop": 7,
+      "ip": "192.192.61.20",
+      "hostname": null,
+      "rtts": [
+        12.25,
+        13.71,
+        21.73
+      ],
+      "timeout": false,
+      "avg_rtt": 15.9
+    },
+    {
+      "hop": 8,
+      "ip": "192.192.61.48",
+      "hostname": null,
+      "rtts": [
+        23.15,
+        12.56,
+        12.3
+      ],
+      "timeout": false,
+      "avg_rtt": 16.0
+    },
+    {
+      "hop": 9,
+      "ip": "192.192.68.62",
+      "hostname": null,
+      "rtts": [
+        13.82,
+        21.51,
+        20.24
+      ],
+      "timeout": false,
+      "avg_rtt": 18.52
+    },
+    {
+      "hop": 10,
+      "ip": "203.163.222.15",
+      "hostname": "15-222-163-203-static.tpix.net.tw",
+      "rtts": [
+        21.27,
+        16.53,
+        13.46
+      ],
+      "timeout": false,
+      "avg_rtt": 17.09
+    },
+    {
+      "hop": 11,
+      "ip": "104.44.51.226",
+      "hostname": null,
+      "rtts": [
+        24.86,
+        19.2,
+        13.56
+      ],
+      "timeout": false,
+      "avg_rtt": 19.21
+    },
+    {
+      "hop": 12,
+      "ip": null,
+      "hostname": null,
+      "rtts": [],
+      "timeout": true
+    },
+    {
+      "hop": 13,
+      "ip": null,
+      "hostname": null,
+      "rtts": [],
+      "timeout": true
+    },
+    {
+      "hop": 14,
+      "ip": null,
+      "hostname": null,
+      "rtts": [],
+      "timeout": true
+    },
+    {
+      "hop": 15,
+      "ip": null,
+      "hostname": null,
+      "rtts": [],
+      "timeout": true
+    },
+    {
+      "hop": 16,
+      "ip": "13.106.238.151",
+      "hostname": "ae1010-0.icr02.sg2.ntwk.msn.net",
+      "rtts": [
+        68.86,
+        59.81,
+        65.79
+      ],
+      "timeout": false,
+      "avg_rtt": 64.82
+    },
+    {
+      "hop": 17,
+      "ip": "104.44.32.95",
+      "hostname": "ae20-0.maa01-96cbe-1a.ntwk.msn.net",
+      "rtts": [
+        1212.52,
+        1629.66,
+        1228.04
+      ],
+      "timeout": false,
+      "avg_rtt": 1356.74
+    },
+    {
+      "hop": 18,
+      "ip": null,
+      "hostname": null,
+      "rtts": [],
+      "timeout": true
+    },
+    {
+      "hop": 19,
+      "ip": null,
+      "hostname": null,
+      "rtts": [],
+      "timeout": true
+    },
+    {
+      "hop": 20,
+      "ip": null,
+      "hostname": null,
+      "rtts": [],
+      "timeout": true
+    },
+    {
+      "hop": 21,
+      "ip": null,
+      "hostname": null,
+      "rtts": [],
+      "timeout": true
+    },
+    {
+      "hop": 22,
+      "ip": "168.63.250.12",
+      "hostname": null,
+      "rtts": [
+        57.42,
+        65.28,
+        57.05
+      ],
+      "timeout": false,
+      "reached_destination": true,
+      "avg_rtt": 59.92
+    }
+  ],
+  "num_hops": 22,
+  "success": true,
+  "method": "scapy",
+  "category": "ecommerce_tech",
+  "base_domain": "yes123.com.tw",
+  "service_variant": "yes123.com.tw",
+  "is_bare_domain": true
+}

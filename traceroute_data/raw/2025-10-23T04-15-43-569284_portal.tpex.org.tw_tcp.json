@@ -1,0 +1,210 @@
+{
+  "timestamp": "2025-10-23T04:15:43.569284",
+  "vantage_point": "university",
+  "target": "portal.tpex.org.tw",
+  "target_ip": "218.210.125.200",
+  "protocol": "tcp",
+  "port": 443,
+  "duration_seconds": 2.84,
+  "hops": [
+    {
+      "hop": 1,
+      "ip": "192.168.50.1",
+      "hostname": null,
+      "rtts": [
+        9.17,
+        4.68,
+        7.91
+      ],
+      "timeout": false,
+      "avg_rtt": 7.25
+    },
+    {
+      "hop": 2,
+      "ip": "140.123.103.250",
+      "hostname": "csgate103.cs.ccu.edu.tw",
+      "rtts": [
+        5.92,
+        6.19,
+        5.78
+      ],
+      "timeout": false,
+      "avg_rtt": 5.96
+    },
+    {
+      "hop": 3,
+      "ip": "140.123.9.249",
+      "hostname": null,
+      "rtts": [
+        5.53,
+        5.19,
+        6.17
+      ],
+      "timeout": false,
+      "avg_rtt": 5.63
+    },
+    {
+      "hop": 4,
+      "ip": "140.123.0.246",
+      "hostname": null,
+      "rtts": [
+        9.28,
+        6.26,
+        6.4
+      ],
+      "timeout": false,
+      "avg_rtt": 7.31
+    },
+    {
+      "hop": 5,
+      "ip": "140.130.252.251",
+      "hostname": null,
+      "rtts": [
+        13.85,
+        9.85,
+        17.27
+      ],
+      "timeout": false,
+      "avg_rtt": 13.66
+    },
+    {
+      "hop": 6,
+      "ip": "192.192.61.142",
+      "hostname": null,
+      "rtts": [
+        12.65,
+        11.37,
+        30.63
+      ],
+      "timeout": false,
+      "avg_rtt": 18.22
+    },
+    {
+      "hop": 7,
+      "ip": "192.192.61.20",
+      "hostname": null,
+      "rtts": [
+        14.33,
+        15.09,
+        13.77
+      ],
+      "timeout": false,
+      "avg_rtt": 14.4
+    },
+    {
+      "hop": 8,
+      "ip": "192.192.61.48",
+      "hostname": null,
+      "rtts": [
+        18.02,
+        12.75,
+        14.06
+      ],
+      "timeout": false,
+      "avg_rtt": 14.94
+    },
+    {
+      "hop": 9,
+      "ip": "192.72.123.73",
+      "hostname": "h73-192-72-123.seed.net.tw",
+      "rtts": [
+        14.2,
+        19.99,
+        20.84
+      ],
+      "timeout": false,
+      "avg_rtt": 18.34
+    },
+    {
+      "hop": 10,
+      "ip": "139.175.57.61",
+      "hostname": "r57-61.seed.net.tw",
+      "rtts": [
+        14.83,
+        16.08,
+        15.76
+      ],
+      "timeout": false,
+      "avg_rtt": 15.56
+    },
+    {
+      "hop": 11,
+      "ip": "139.175.57.186",
+      "hostname": "r57-186.seed.net.tw",
+      "rtts": [
+        18.04,
+        16.93,
+        18.04
+      ],
+      "timeout": false,
+      "avg_rtt": 17.67
+    },
+    {
+      "hop": 12,
+      "ip": "192.72.49.90",
+      "hostname": "h90-192-72-49.seed.net.tw",
+      "rtts": [
+        27.7,
+        25.81,
+        14.69
+      ],
+      "timeout": false,
+      "avg_rtt": 22.73
+    },
+    {
+      "hop": 13,
+      "ip": "192.72.155.58",
+      "hostname": "h58-192-72-155.seed.net.tw",
+      "rtts": [
+        32.31,
+        18.29,
+        20.49
+      ],
+      "timeout": false,
+      "avg_rtt": 23.7
+    },
+    {
+      "hop": 14,
+      "ip": "220.228.20.174",
+      "hostname": null,
+      "rtts": [
+        17.73,
+        17.51,
+        15.11
+      ],
+      "timeout": false,
+      "avg_rtt": 16.78
+    },
+    {
+      "hop": 15,
+      "ip": "220.228.26.89",
+      "hostname": null,
+      "rtts": [
+        18.29,
+        16.92,
+        15.58
+      ],
+      "timeout": false,
+      "avg_rtt": 16.93
+    },
+    {
+      "hop": 16,
+      "ip": "218.210.125.200",
+      "hostname": "ll-218-210-125-200.ll.sparqnet.net",
+      "rtts": [
+        23.22,
+        27.72
+      ],
+      "timeout": false,
+      "reached_destination": true,
+      "avg_rtt": 25.47
+    }
+  ],
+  "num_hops": 16,
+  "success": true,
+  "method": "scapy",
+  "category": "financial_infra",
+  "base_domain": "tpex.org.tw",
+  "service_variant": "portal.tpex.org.tw",
+  "is_bare_domain": false
+}

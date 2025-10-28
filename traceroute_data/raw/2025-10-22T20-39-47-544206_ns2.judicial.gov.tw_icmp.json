@@ -1,0 +1,341 @@
+{
+  "timestamp": "2025-10-22T20:39:47.544206",
+  "vantage_point": "university",
+  "target": "ns2.judicial.gov.tw",
+  "target_ip": "210.241.37.166",
+  "protocol": "icmp",
+  "port": null,
+  "duration_seconds": 72.4,
+  "hops": [
+    {
+      "hop": 1,
+      "ip": "192.168.50.1",
+      "hostname": null,
+      "rtts": [
+        9.96,
+        5.5,
+        5.76
+      ],
+      "timeout": false,
+      "avg_rtt": 7.07
+    },
+    {
+      "hop": 2,
+      "ip": "140.123.103.250",
+      "hostname": "csgate103.cs.ccu.edu.tw",
+      "rtts": [
+        37.13,
+        11.38,
+        13.17
+      ],
+      "timeout": false,
+      "avg_rtt": 20.56
+    },
+    {
+      "hop": 3,
+      "ip": "140.123.9.249",
+      "hostname": null,
+      "rtts": [
+        7.28,
+        24.52,
+        10.6
+      ],
+      "timeout": false,
+      "avg_rtt": 14.13
+    },
+    {
+      "hop": 4,
+      "ip": "140.123.0.246",
+      "hostname": null,
+      "rtts": [
+        6.03,
+        5.77,
+        5.98
+      ],
+      "timeout": false,
+      "avg_rtt": 5.93
+    },
+    {
+      "hop": 5,
+      "ip": "140.130.252.251",
+      "hostname": null,
+      "rtts": [
+        7.55,
+        8.31,
+        6.93
+      ],
+      "timeout": false,
+      "avg_rtt": 7.6
+    },
+    {
+      "hop": 6,
+      "ip": "192.192.61.142",
+      "hostname": null,
+      "rtts": [
+        10.64,
+        12.35,
+        13.03
+      ],
+      "timeout": false,
+      "avg_rtt": 12.01
+    },
+    {
+      "hop": 7,
+      "ip": "192.192.61.9",
+      "hostname": null,
+      "rtts": [
+        11.75,
+        13.65,
+        10.07
+      ],
+      "timeout": false,
+      "avg_rtt": 11.82
+    },
+    {
+      "hop": 8,
+      "ip": "192.192.61.30",
+      "hostname": null,
+      "rtts": [
+        16.9,
+        16.2,
+        36.89
+      ],
+      "timeout": false,
+      "avg_rtt": 23.33
+    },
+    {
+      "hop": 9,
+      "ip": "192.192.61.4",
+      "hostname": null,
+      "rtts": [
+        15.77,
+        14.04,
+        12.14
+      ],
+      "timeout": false,
+      "avg_rtt": 13.98
+    },
+    {
+      "hop": 10,
+      "ip": "192.192.61.209",
+      "hostname": null,
+      "rtts": [
+        15.87,
+        10.82,
+        11.44
+      ],
+      "timeout": false,
+      "avg_rtt": 12.71
+    },
+    {
+      "hop": 11,
+      "ip": "10.96.81.12",
+      "hostname": null,
+      "rtts": [
+        22.14
+      ],
+      "timeout": false,
+      "avg_rtt": 22.14
+    },
+    {
+      "hop": 12,
+      "ip": "10.96.81.12",
+      "hostname": null,
+      "rtts": [
+        35.36
+      ],
+      "timeout": false,
+      "avg_rtt": 35.36
+    },
+    {
+      "hop": 13,
+      "ip": "10.96.81.12",
+      "hostname": null,
+      "rtts": [
+        25.45
+      ],
+      "timeout": false,
+      "avg_rtt": 25.45
+    },
+    {
+      "hop": 14,
+      "ip": "10.96.81.12",
+      "hostname": null,
+      "rtts": [
+        18.86,
+        20.32
+      ],
+      "timeout": false,
+      "avg_rtt": 19.59
+    },
+    {
+      "hop": 15,
+      "ip": "10.96.81.12",
+      "hostname": null,
+      "rtts": [
+        21.87
+      ],
+      "timeout": false,
+      "avg_rtt": 21.87
+    },
+    {
+      "hop": 16,
+      "ip": "10.96.81.12",
+      "hostname": null,
+      "rtts": [
+        19.74
+      ],
+      "timeout": false,
+      "avg_rtt": 19.74
+    },
+    {
+      "hop": 17,
+      "ip": "10.96.81.12",
+      "hostname": null,
+      "rtts": [
+        15.24,
+        19.19
+      ],
+      "timeout": false,
+      "avg_rtt": 17.21
+    },
+    {
+      "hop": 18,
+      "ip": "10.96.81.12",
+      "hostname": null,
+      "rtts": [
+        24.91
+      ],
+      "timeout": false,
+      "avg_rtt": 24.91
+    },
+    {
+      "hop": 19,
+      "ip": "10.96.81.12",
+      "hostname": null,
+      "rtts": [
+        27.08
+      ],
+      "timeout": false,
+      "avg_rtt": 27.08
+    },
+    {
+      "hop": 20,
+      "ip": "10.96.81.12",
+      "hostname": null,
+      "rtts": [
+        17.42
+      ],
+      "timeout": false,
+      "avg_rtt": 17.42
+    },
+    {
+      "hop": 21,
+      "ip": "10.96.81.12",
+      "hostname": null,
+      "rtts": [
+        18.75,
+        20.87
+      ],
+      "timeout": false,
+      "avg_rtt": 19.81
+    },
+    {
+      "hop": 22,
+      "ip": "10.96.81.12",
+      "hostname": null,
+      "rtts": [
+        22.34
+      ],
+      "timeout": false,
+      "avg_rtt": 22.34
+    },
+    {
+      "hop": 23,
+      "ip": "10.96.81.12",
+      "hostname": null,
+      "rtts": [
+        26.48
+      ],
+      "timeout": false,
+      "avg_rtt": 26.48
+    },
+    {
+      "hop": 24,
+      "ip": "10.96.81.12",
+      "hostname": null,
+      "rtts": [
+        22.73,
+        61.6
+      ],
+      "timeout": false,
+      "avg_rtt": 42.16
+    },
+    {
+      "hop": 25,
+      "ip": "10.96.81.12",
+      "hostname": null,
+      "rtts": [
+        26.22
+      ],
+      "timeout": false,
+      "avg_rtt": 26.22
+    },
+    {
+      "hop": 26,
+      "ip": "10.96.81.12",
+      "hostname": null,
+      "rtts": [
+        17.53
+      ],
+      "timeout": false,
+      "avg_rtt": 17.53
+    },
+    {
+      "hop": 27,
+      "ip": "10.96.81.12",
+      "hostname": null,
+      "rtts": [
+        18.03,
+        23.98
+      ],
+      "timeout": false,
+      "avg_rtt": 21.01
+    },
+    {
+      "hop": 28,
+      "ip": null,
+      "hostname": null,
+      "rtts": [],
+      "timeout": true
+    },
+    {
+      "hop": 29,
+      "ip": "10.96.81.12",
+      "hostname": null,
+      "rtts": [
+        32.37,
+        10.62
+      ],
+      "timeout": false,
+      "avg_rtt": 21.49
+    },
+    {
+      "hop": 30,
+      "ip": "10.96.81.12",
+      "hostname": null,
+      "rtts": [
+        21.64
+      ],
+      "timeout": false,
+      "avg_rtt": 21.64
+    }
+  ],
+  "num_hops": 30,
+  "success": false,
+  "method": "scapy",
+  "category": "government_critical",
+  "base_domain": "judicial.gov.tw",
+  "service_variant": "ns2.judicial.gov.tw",
+  "is_bare_domain": false
+}

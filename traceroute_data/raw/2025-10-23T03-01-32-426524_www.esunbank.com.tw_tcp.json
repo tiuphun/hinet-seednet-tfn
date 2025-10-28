@@ -1,0 +1,273 @@
+{
+  "timestamp": "2025-10-23T03:01:32.426524",
+  "vantage_point": "university",
+  "target": "www.esunbank.com.tw",
+  "target_ip": "124.219.113.2",
+  "protocol": "tcp",
+  "port": 443,
+  "duration_seconds": 128.87,
+  "hops": [
+    {
+      "hop": 1,
+      "ip": "192.168.50.1",
+      "hostname": null,
+      "rtts": [
+        7.81,
+        5.6,
+        11.59
+      ],
+      "timeout": false,
+      "avg_rtt": 8.33
+    },
+    {
+      "hop": 2,
+      "ip": "140.123.103.250",
+      "hostname": "csgate103.cs.ccu.edu.tw",
+      "rtts": [
+        9.24,
+        6.08,
+        5.37
+      ],
+      "timeout": false,
+      "avg_rtt": 6.9
+    },
+    {
+      "hop": 3,
+      "ip": "140.123.9.249",
+      "hostname": null,
+      "rtts": [
+        5.74,
+        4.71,
+        4.96
+      ],
+      "timeout": false,
+      "avg_rtt": 5.14
+    },
+    {
+      "hop": 4,
+      "ip": "140.123.0.246",
+      "hostname": null,
+      "rtts": [
+        5.52,
+        5.61,
+        5.05
+      ],
+      "timeout": false,
+      "avg_rtt": 5.39
+    },
+    {
+      "hop": 5,
+      "ip": "140.130.252.251",
+      "hostname": null,
+      "rtts": [
+        8.69,
+        6.22,
+        7.44
+      ],
+      "timeout": false,
+      "avg_rtt": 7.45
+    },
+    {
+      "hop": 6,
+      "ip": "140.123.231.111",
+      "hostname": null,
+      "rtts": [
+        12.25,
+        15.59,
+        12.86
+      ],
+      "timeout": false,
+      "avg_rtt": 13.57
+    },
+    {
+      "hop": 7,
+      "ip": "211.76.96.177",
+      "hostname": null,
+      "rtts": [
+        12.83,
+        22.22,
+        15.93
+      ],
+      "timeout": false,
+      "avg_rtt": 16.99
+    },
+    {
+      "hop": 8,
+      "ip": "203.79.251.102",
+      "hostname": "il203-79-251-102.static.apol.com.tw",
+      "rtts": [
+        13.06,
+        14.25,
+        13.47
+      ],
+      "timeout": false,
+      "avg_rtt": 13.59
+    },
+    {
+      "hop": 9,
+      "ip": "203.79.208.174",
+      "hostname": null,
+      "rtts": [
+        18.73,
+        16.43,
+        14.88
+      ],
+      "timeout": false,
+      "avg_rtt": 16.68
+    },
+    {
+      "hop": 10,
+      "ip": null,
+      "hostname": null,
+      "rtts": [],
+      "timeout": true
+    },
+    {
+      "hop": 11,
+      "ip": null,
+      "hostname": null,
+      "rtts": [],
+      "timeout": true
+    },
+    {
+      "hop": 12,
+      "ip": null,
+      "hostname": null,
+      "rtts": [],
+      "timeout": true
+    },
+    {
+      "hop": 13,
+      "ip": null,
+      "hostname": null,
+      "rtts": [],
+      "timeout": true
+    },
+    {
+      "hop": 14,
+      "ip": null,
+      "hostname": null,
+      "rtts": [],
+      "timeout": true
+    },
+    {
+      "hop": 15,
+      "ip": null,
+      "hostname": null,
+      "rtts": [],
+      "timeout": true
+    },
+    {
+      "hop": 16,
+      "ip": null,
+      "hostname": null,
+      "rtts": [],
+      "timeout": true
+    },
+    {
+      "hop": 17,
+      "ip": null,
+      "hostname": null,
+      "rtts": [],
+      "timeout": true
+    },
+    {
+      "hop": 18,
+      "ip": null,
+      "hostname": null,
+      "rtts": [],
+      "timeout": true
+    },
+    {
+      "hop": 19,
+      "ip": null,
+      "hostname": null,
+      "rtts": [],
+      "timeout": true
+    },
+    {
+      "hop": 20,
+      "ip": null,
+      "hostname": null,
+      "rtts": [],
+      "timeout": true
+    },
+    {
+      "hop": 21,
+      "ip": null,
+      "hostname": null,
+      "rtts": [],
+      "timeout": true
+    },
+    {
+      "hop": 22,
+      "ip": null,
+      "hostname": null,
+      "rtts": [],
+      "timeout": true
+    },
+    {
+      "hop": 23,
+      "ip": null,
+      "hostname": null,
+      "rtts": [],
+      "timeout": true
+    },
+    {
+      "hop": 24,
+      "ip": null,
+      "hostname": null,
+      "rtts": [],
+      "timeout": true
+    },
+    {
+      "hop": 25,
+      "ip": null,
+      "hostname": null,
+      "rtts": [],
+      "timeout": true
+    },
+    {
+      "hop": 26,
+      "ip": null,
+      "hostname": null,
+      "rtts": [],
+      "timeout": true
+    },
+    {
+      "hop": 27,
+      "ip": null,
+      "hostname": null,
+      "rtts": [],
+      "timeout": true
+    },
+    {
+      "hop": 28,
+      "ip": null,
+      "hostname": null,
+      "rtts": [],
+      "timeout": true
+    },
+    {
+      "hop": 29,
+      "ip": null,
+      "hostname": null,
+      "rtts": [],
+      "timeout": true
+    },
+    {
+      "hop": 30,
+      "ip": null,
+      "hostname": null,
+      "rtts": [],
+      "timeout": true
+    }
+  ],
+  "num_hops": 30,
+  "success": false,
+  "method": "scapy",
+  "category": "financial_banks",
+  "base_domain": "esunbank.com.tw",
+  "service_variant": "www.esunbank.com.tw",
+  "is_bare_domain": false
+}

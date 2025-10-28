@@ -1,0 +1,339 @@
+{
+  "timestamp": "2025-10-23T06:38:26.550202",
+  "vantage_point": "university",
+  "target": "ftp.chinatimes.com",
+  "target_ip": "60.250.9.200",
+  "protocol": "tcp",
+  "port": 80,
+  "duration_seconds": 102.88,
+  "hops": [
+    {
+      "hop": 1,
+      "ip": "192.168.50.1",
+      "hostname": null,
+      "rtts": [
+        4.16,
+        16.62,
+        5.51
+      ],
+      "timeout": false,
+      "avg_rtt": 8.76
+    },
+    {
+      "hop": 2,
+      "ip": "140.123.103.250",
+      "hostname": "csgate103.cs.ccu.edu.tw",
+      "rtts": [
+        13.8,
+        8.21,
+        4.18
+      ],
+      "timeout": false,
+      "avg_rtt": 8.73
+    },
+    {
+      "hop": 3,
+      "ip": "140.123.9.249",
+      "hostname": null,
+      "rtts": [
+        4.56,
+        8.01,
+        6.36
+      ],
+      "timeout": false,
+      "avg_rtt": 6.31
+    },
+    {
+      "hop": 4,
+      "ip": "140.123.0.246",
+      "hostname": null,
+      "rtts": [
+        18.04,
+        6.74,
+        4.84
+      ],
+      "timeout": false,
+      "avg_rtt": 9.87
+    },
+    {
+      "hop": 5,
+      "ip": "140.130.252.251",
+      "hostname": null,
+      "rtts": [
+        6.7,
+        5.67,
+        6.78
+      ],
+      "timeout": false,
+      "avg_rtt": 6.38
+    },
+    {
+      "hop": 6,
+      "ip": "211.22.226.198",
+      "hostname": "211-22-226-198.caw1-3332.hinet.net",
+      "rtts": [
+        14.38,
+        9.76,
+        6.36
+      ],
+      "timeout": false,
+      "avg_rtt": 10.17
+    },
+    {
+      "hop": 7,
+      "ip": null,
+      "hostname": null,
+      "rtts": [],
+      "timeout": true
+    },
+    {
+      "hop": 8,
+      "ip": null,
+      "hostname": null,
+      "rtts": [],
+      "timeout": true
+    },
+    {
+      "hop": 9,
+      "ip": "220.128.4.217",
+      "hostname": "220-128-4-217.tpdt-3309.hinet.net",
+      "rtts": [
+        49.48,
+        14.9,
+        22.93
+      ],
+      "timeout": false,
+      "avg_rtt": 29.1
+    },
+    {
+      "hop": 10,
+      "ip": "168.95.210.41",
+      "hostname": "h41.s210.ts.hinet.net",
+      "rtts": [
+        19.71,
+        20.02,
+        21.66
+      ],
+      "timeout": false,
+      "avg_rtt": 20.46
+    },
+    {
+      "hop": 11,
+      "ip": "118.163.56.205",
+      "hostname": "118-163-56-205.hinet-ip.hinet.net",
+      "rtts": [
+        18.64,
+        18.18,
+        14.92
+      ],
+      "timeout": false,
+      "avg_rtt": 17.25
+    },
+    {
+      "hop": 12,
+      "ip": "118.163.56.205",
+      "hostname": "118-163-56-205.hinet-ip.hinet.net",
+      "rtts": [
+        1131.84
+      ],
+      "timeout": false,
+      "avg_rtt": 1131.84
+    },
+    {
+      "hop": 13,
+      "ip": "118.163.56.205",
+      "hostname": "118-163-56-205.hinet-ip.hinet.net",
+      "rtts": [
+        1112.03,
+        1111.87
+      ],
+      "timeout": false,
+      "avg_rtt": 1111.95
+    },
+    {
+      "hop": 14,
+      "ip": "118.163.56.205",
+      "hostname": "118-163-56-205.hinet-ip.hinet.net",
+      "rtts": [
+        1156.32
+      ],
+      "timeout": false,
+      "avg_rtt": 1156.32
+    },
+    {
+      "hop": 15,
+      "ip": "118.163.56.205",
+      "hostname": "118-163-56-205.hinet-ip.hinet.net",
+      "rtts": [
+        1046.44,
+        1208.29
+      ],
+      "timeout": false,
+      "avg_rtt": 1127.37
+    },
+    {
+      "hop": 16,
+      "ip": "118.163.56.205",
+      "hostname": "118-163-56-205.hinet-ip.hinet.net",
+      "rtts": [
+        1060.94
+      ],
+      "timeout": false,
+      "avg_rtt": 1060.94
+    },
+    {
+      "hop": 17,
+      "ip": "118.163.56.205",
+      "hostname": "118-163-56-205.hinet-ip.hinet.net",
+      "rtts": [
+        1123.12,
+        1059.76
+      ],
+      "timeout": false,
+      "avg_rtt": 1091.44
+    },
+    {
+      "hop": 18,
+      "ip": "118.163.56.205",
+      "hostname": "118-163-56-205.hinet-ip.hinet.net",
+      "rtts": [
+        1137.56
+      ],
+      "timeout": false,
+      "avg_rtt": 1137.56
+    },
+    {
+      "hop": 19,
+      "ip": "118.163.56.205",
+      "hostname": "118-163-56-205.hinet-ip.hinet.net",
+      "rtts": [
+        1151.21,
+        1049.14
+      ],
+      "timeout": false,
+      "avg_rtt": 1100.18
+    },
+    {
+      "hop": 20,
+      "ip": "118.163.56.205",
+      "hostname": "118-163-56-205.hinet-ip.hinet.net",
+      "rtts": [
+        1014.96
+      ],
+      "timeout": false,
+      "avg_rtt": 1014.96
+    },
+    {
+      "hop": 21,
+      "ip": "118.163.56.205",
+      "hostname": "118-163-56-205.hinet-ip.hinet.net",
+      "rtts": [
+        1199.53,
+        1067.55
+      ],
+      "timeout": false,
+      "avg_rtt": 1133.54
+    },
+    {
+      "hop": 22,
+      "ip": "118.163.56.205",
+      "hostname": "118-163-56-205.hinet-ip.hinet.net",
+      "rtts": [
+        1156.17
+      ],
+      "timeout": false,
+      "avg_rtt": 1156.17
+    },
+    {
+      "hop": 23,
+      "ip": "118.163.56.205",
+      "hostname": "118-163-56-205.hinet-ip.hinet.net",
+      "rtts": [
+        1142.83,
+        1009.98
+      ],
+      "timeout": false,
+      "avg_rtt": 1076.4
+    },
+    {
+      "hop": 24,
+      "ip": "118.163.56.205",
+      "hostname": "118-163-56-205.hinet-ip.hinet.net",
+      "rtts": [
+        1019.84
+      ],
+      "timeout": false,
+      "avg_rtt": 1019.84
+    },
+    {
+      "hop": 25,
+      "ip": "118.163.56.205",
+      "hostname": "118-163-56-205.hinet-ip.hinet.net",
+      "rtts": [
+        1105.83,
+        1144.63
+      ],
+      "timeout": false,
+      "avg_rtt": 1125.23
+    },
+    {
+      "hop": 26,
+      "ip": "118.163.56.205",
+      "hostname": "118-163-56-205.hinet-ip.hinet.net",
+      "rtts": [
+        1139.89
+      ],
+      "timeout": false,
+      "avg_rtt": 1139.89
+    },
+    {
+      "hop": 27,
+      "ip": "118.163.56.205",
+      "hostname": "118-163-56-205.hinet-ip.hinet.net",
+      "rtts": [
+        1037.18,
+        1149.17
+      ],
+      "timeout": false,
+      "avg_rtt": 1093.18
+    },
+    {
+      "hop": 28,
+      "ip": "118.163.56.205",
+      "hostname": "118-163-56-205.hinet-ip.hinet.net",
+      "rtts": [
+        1250.29
+      ],
+      "timeout": false,
+      "avg_rtt": 1250.29
+    },
+    {
+      "hop": 29,
+      "ip": "118.163.56.205",
+      "hostname": "118-163-56-205.hinet-ip.hinet.net",
+      "rtts": [
+        1172.6,
+        1058.61
+      ],
+      "timeout": false,
+      "avg_rtt": 1115.61
+    },
+    {
+      "hop": 30,
+      "ip": "118.163.56.205",
+      "hostname": "118-163-56-205.hinet-ip.hinet.net",
+      "rtts": [
+        1208.14
+      ],
+      "timeout": false,
+      "avg_rtt": 1208.14
+    }
+  ],
+  "num_hops": 30,
+  "success": false,
+  "method": "scapy",
+  "category": "media",
+  "base_domain": "chinatimes.com",
+  "service_variant": "ftp.chinatimes.com",
+  "is_bare_domain": false
+}

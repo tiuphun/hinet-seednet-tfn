@@ -1,0 +1,148 @@
+{
+  "timestamp": "2025-10-22T17:34:39.980075",
+  "vantage_point": "university",
+  "target": "www.moi.gov.tw",
+  "target_ip": "203.66.32.139",
+  "protocol": "icmp",
+  "port": null,
+  "duration_seconds": 18.74,
+  "hops": [
+    {
+      "hop": 1,
+      "ip": "192.168.50.1",
+      "hostname": null,
+      "rtts": [
+        11.46,
+        6.0,
+        5.72
+      ],
+      "timeout": false,
+      "avg_rtt": 7.73
+    },
+    {
+      "hop": 2,
+      "ip": "140.123.103.250",
+      "hostname": "csgate103.cs.ccu.edu.tw",
+      "rtts": [
+        5.46,
+        6.27,
+        6.14
+      ],
+      "timeout": false,
+      "avg_rtt": 5.96
+    },
+    {
+      "hop": 3,
+      "ip": "140.123.9.249",
+      "hostname": null,
+      "rtts": [
+        9.15,
+        11.62,
+        10.4
+      ],
+      "timeout": false,
+      "avg_rtt": 10.39
+    },
+    {
+      "hop": 4,
+      "ip": "140.123.0.246",
+      "hostname": null,
+      "rtts": [
+        8.92,
+        6.39,
+        6.2
+      ],
+      "timeout": false,
+      "avg_rtt": 7.17
+    },
+    {
+      "hop": 5,
+      "ip": "140.130.252.251",
+      "hostname": null,
+      "rtts": [
+        14.17,
+        11.03,
+        9.31
+      ],
+      "timeout": false,
+      "avg_rtt": 11.5
+    },
+    {
+      "hop": 6,
+      "ip": "211.22.226.198",
+      "hostname": "211-22-226-198.caw1-3332.hinet.net",
+      "rtts": [
+        7.78,
+        7.94,
+        11.08
+      ],
+      "timeout": false,
+      "avg_rtt": 8.93
+    },
+    {
+      "hop": 7,
+      "ip": null,
+      "hostname": null,
+      "rtts": [],
+      "timeout": true
+    },
+    {
+      "hop": 8,
+      "ip": null,
+      "hostname": null,
+      "rtts": [],
+      "timeout": true
+    },
+    {
+      "hop": 9,
+      "ip": null,
+      "hostname": null,
+      "rtts": [],
+      "timeout": true
+    },
+    {
+      "hop": 10,
+      "ip": "220.128.13.133",
+      "hostname": "220-128-13-133.tpn2-3301.hinet.net",
+      "rtts": [
+        21.85,
+        16.69,
+        34.66
+      ],
+      "timeout": false,
+      "avg_rtt": 24.4
+    },
+    {
+      "hop": 11,
+      "ip": "211.22.224.137",
+      "hostname": "211-22-224-137.hinet-ip.hinet.net",
+      "rtts": [
+        20.94,
+        17.96,
+        22.0
+      ],
+      "timeout": false,
+      "avg_rtt": 20.3
+    },
+    {
+      "hop": 12,
+      "ip": "203.66.32.139",
+      "hostname": "203-66-32-139.hinet-ip.hinet.net",
+      "rtts": [
+        16.47,
+        13.42,
+        15.04
+      ],
+      "timeout": false,
+      "reached_destination": true,
+      "avg_rtt": 14.98
+    }
+  ],
+  "num_hops": 12,
+  "success": true,
+  "method": "scapy",
+  "category": "government_central",
+  "base_domain": "moi.gov.tw",
+  "service_variant": "www.moi.gov.tw",
+  "is_bare_domain": false
+}

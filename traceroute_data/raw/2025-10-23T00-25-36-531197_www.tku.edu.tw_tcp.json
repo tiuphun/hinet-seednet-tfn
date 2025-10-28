@@ -1,0 +1,151 @@
+{
+  "timestamp": "2025-10-23T00:25:36.531197",
+  "vantage_point": "university",
+  "target": "www.tku.edu.tw",
+  "target_ip": "203.145.221.108",
+  "protocol": "tcp",
+  "port": 80,
+  "duration_seconds": 0.58,
+  "hops": [
+    {
+      "hop": 1,
+      "ip": "192.168.50.1",
+      "hostname": null,
+      "rtts": [
+        15.58,
+        7.58,
+        9.9
+      ],
+      "timeout": false,
+      "avg_rtt": 11.02
+    },
+    {
+      "hop": 2,
+      "ip": "140.123.103.250",
+      "hostname": "csgate103.cs.ccu.edu.tw",
+      "rtts": [
+        26.59,
+        9.11,
+        8.38
+      ],
+      "timeout": false,
+      "avg_rtt": 14.69
+    },
+    {
+      "hop": 3,
+      "ip": "140.123.9.249",
+      "hostname": null,
+      "rtts": [
+        10.26,
+        7.59,
+        8.29
+      ],
+      "timeout": false,
+      "avg_rtt": 8.71
+    },
+    {
+      "hop": 4,
+      "ip": "140.123.0.246",
+      "hostname": null,
+      "rtts": [
+        9.75,
+        5.09,
+        8.13
+      ],
+      "timeout": false,
+      "avg_rtt": 7.66
+    },
+    {
+      "hop": 5,
+      "ip": "211.79.57.25",
+      "hostname": "ccu-ccu-76.twaren.net",
+      "rtts": [
+        7.89,
+        14.52,
+        8.09
+      ],
+      "timeout": false,
+      "avg_rtt": 10.17
+    },
+    {
+      "hop": 6,
+      "ip": "211.73.76.209",
+      "hostname": "tp-a1.twaren.net",
+      "rtts": [
+        11.22,
+        14.02,
+        10.58
+      ],
+      "timeout": false,
+      "avg_rtt": 11.94
+    },
+    {
+      "hop": 7,
+      "ip": "211.73.76.165",
+      "hostname": "tc-a1.twaren.net",
+      "rtts": [
+        17.32,
+        13.64,
+        14.63
+      ],
+      "timeout": false,
+      "avg_rtt": 15.2
+    },
+    {
+      "hop": 8,
+      "ip": "211.79.59.14",
+      "hostname": null,
+      "rtts": [
+        12.48,
+        11.4,
+        11.03
+      ],
+      "timeout": false,
+      "avg_rtt": 11.64
+    },
+    {
+      "hop": 9,
+      "ip": "10.42.217.41",
+      "hostname": null,
+      "rtts": [
+        24.69,
+        11.55,
+        17.02
+      ],
+      "timeout": false,
+      "avg_rtt": 17.75
+    },
+    {
+      "hop": 10,
+      "ip": "203.145.221.108",
+      "hostname": "203-145-221-108.twcc.ai",
+      "rtts": [
+        11.12,
+        11.66,
+        11.84
+      ],
+      "timeout": false,
+      "avg_rtt": 11.54
+    },
+    {
+      "hop": 11,
+      "ip": "203.145.221.108",
+      "hostname": "203-145-221-108.twcc.ai",
+      "rtts": [
+        8.52,
+        10.71,
+        12.22
+      ],
+      "timeout": false,
+      "reached_destination": true,
+      "avg_rtt": 10.48
+    }
+  ],
+  "num_hops": 11,
+  "success": true,
+  "method": "scapy",
+  "category": "universities",
+  "base_domain": "tku.edu.tw",
+  "service_variant": "www.tku.edu.tw",
+  "is_bare_domain": false
+}

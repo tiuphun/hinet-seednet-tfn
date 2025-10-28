@@ -1,0 +1,635 @@
+====================================================================================================
+TAIWAN ISP TOPOLOGY MAPPING - COMPREHENSIVE ANALYSIS REPORT
+====================================================================================================
+Report Generated: 2025-10-23 14:26:41
+Vantage Point: unknown
+Collection Timestamp: unknown
+====================================================================================================
+
+COLLECTION SUMMARY
+----------------------------------------------------------------------------------------------------
+Total Traceroutes Executed: 5253
+Successful: 1723 (32.8%)
+Failed: 3530 (67.2%)
+Unique Base Domains: 125
+Unique Target IPs: 668
+
+ANALYSIS BY CATEGORY
+----------------------------------------------------------------------------------------------------
+Category                       Total      Success    Failed     Success Rate   
+----------------------------------------------------------------------------------------------------
+universities                   881        247        634          28.0%
+ecommerce_tech                 535        224        311          41.9%
+financial_banks                522        207        315          39.7%
+media                          496        196        300          39.5%
+government_central             480        142        338          29.6%
+cdn_global                     372        156        216          41.9%
+critical_infra                 348        134        214          38.5%
+healthcare                     345        93         252          27.0%
+government_local               312        68         244          21.8%
+government_critical            300        46         254          15.3%
+telecom                        241        81         160          33.6%
+financial_infra                181        81         100          44.8%
+education_network              150        24         126          16.0%
+dns_resolvers                  90         24         66           26.7%
+
+ANALYSIS BY PROTOCOL
+----------------------------------------------------------------------------------------------------
+Protocol             Total      Success    Failed     Success Rate   
+----------------------------------------------------------------------------------------------------
+tcp-80               1907       382        1525         20.0%
+tcp-443              1906       429        1477         22.5%
+icmp                 1440       912        528          63.3%
+
+DOMAIN SUCCESS RATE ANALYSIS (Top 30 by attempts)
+----------------------------------------------------------------------------------------------------
+Domain                                   Attempts   Success    Success Rate   
+----------------------------------------------------------------------------------------------------
+nsysu.edu.tw                             92         18           19.6%
+ccu.edu.tw                               91         25           27.5%
+mohw.gov.tw                              87         8             9.2%
+ntnu.edu.tw                              82         30           36.6%
+tku.edu.tw                               82         35           42.7%
+railway.gov.tw                           81         18           22.2%
+nchu.edu.tw                              79         24           30.4%
+ncu.edu.tw                               79         35           44.3%
+judicial.gov.tw                          78         9            11.5%
+ruten.com.tw                             75         25           33.3%
+cna.com.tw                               75         19           25.3%
+kcg.gov.tw                               75         1             1.3%
+chinatimes.com                           73         22           30.1%
+cloudflare.com                           72         42           58.3%
+fetnet.net                               72         13           18.1%
+fubon.com                                72         36           50.0%
+tvbs.com.tw                              72         38           52.8%
+microsoft.com                            69         17           24.6%
+tmu.edu.tw                               69         6             8.7%
+nccu.edu.tw                              65         16           24.6%
+ltn.com.tw                               63         27           42.9%
+nchc.org.tw                              61         10           16.4%
+chcg.gov.tw                              60         13           21.7%
+google.com.tw                            60         26           43.3%
+megabank.com.tw                          60         32           53.3%
+cgmh.org.tw                              60         30           50.0%
+thsrc.com.tw                             60         32           53.3%
+moi.gov.tw                               60         20           33.3%
+tdcc.com.tw                              57         25           43.9%
+mmh.org.tw                               57         23           40.4%
+
+SERVICE DISCOVERY ANALYSIS
+----------------------------------------------------------------------------------------------------
+Service Prefix       Domains    Success    Failed     Success Rate   
+----------------------------------------------------------------------------------------------------
+www                  101        586        635          48.0%
+mail                 60         218        511          29.9%
+vpn                  25         43         218          16.5%
+ns2                  25         65         208          23.8%
+ns1                  24         51         218          19.0%
+ftp                  23         43         224          16.1%
+api                  22         72         149          32.6%
+app                  21         64         140          31.4%
+smtp                 19         43         166          20.6%
+webmail              17         52         135          27.8%
+www2                 16         53         139          27.6%
+portal               13         58         77           43.0%
+ns                   13         31         131          19.1%
+remote               3          0          26            0.0%
+
+PATH LENGTH ANALYSIS
+----------------------------------------------------------------------------------------------------
+Average Hops: 12.9
+Median Hops: 12.0
+Min Hops: 1
+Max Hops: 30
+Std Dev: 3.84
+
+Hop Count Distribution:
+   1 hops:    3 █
+   3 hops:    8 ████
+   4 hops:   12 ██████
+   5 hops:    3 █
+   6 hops:    5 ██
+   7 hops:    6 ███
+   8 hops:   20 ██████████
+   9 hops:   53 ██████████████████████████
+  10 hops:  247 ███████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████
+  11 hops:  431 ███████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████
+  12 hops:  250 █████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████
+  13 hops:  119 ███████████████████████████████████████████████████████████
+  14 hops:   85 ██████████████████████████████████████████
+  15 hops:  147 █████████████████████████████████████████████████████████████████████████
+  16 hops:  111 ███████████████████████████████████████████████████████
+  17 hops:   45 ██████████████████████
+  18 hops:   26 █████████████
+  19 hops:   43 █████████████████████
+  20 hops:   27 █████████████
+  21 hops:   24 ████████████
+  22 hops:    9 ████
+  23 hops:    5 ██
+  24 hops:    6 ███
+  25 hops:    6 ███
+  26 hops:    8 ████
+  27 hops:   13 ██████
+  28 hops:    1 
+  29 hops:    9 ████
+  30 hops:    1 
+
+LATENCY ANALYSIS
+----------------------------------------------------------------------------------------------------
+Final Hop RTT Statistics (successful traces):
+  Average: 45.62 ms
+  Median: 15.94 ms
+  Min: 1.81 ms
+  Max: 1946.70 ms
+  Std Dev: 148.79 ms
+
+CORE ROUTERS ANALYSIS (appearing in 10+ paths)
+----------------------------------------------------------------------------------------------------
+Found 240 core routers
+
+Rank   IP Address         Hostname                                      Appearances  Targets   
+----------------------------------------------------------------------------------------------------
+1      140.123.103.250    csgate103.cs.ccu.edu.tw                       2726         444       
+2      140.123.9.249      140.123.9.249                                 2719         443       
+3      140.123.0.246      140.123.0.246                                 2677         438       
+4      140.130.252.251    140.130.252.251                               2445         392       
+5      10.96.81.12        10.96.81.12                                   2360         63        
+6      192.168.50.1       No reverse DNS                                1937         432       
+7      192.192.61.142     192.192.61.142                                1548         259       
+8      192.192.61.20      192.192.61.20                                 936          171       
+9      211.22.226.198     211-22-226-198.caw1-3332.hinet.net            680          122       
+10     192.192.61.48      192.192.61.48                                 599          106       
+11     192.192.68.62      192.192.68.62                                 524          93        
+12     192.192.61.209     192.192.61.209                                501          67        
+13     211.73.76.209      tp-a1.twaren.net                              377          46        
+14     192.192.61.9       192.192.61.9                                  330          85        
+15     192.192.61.37      192.192.61.37                                 274          70        
+16     192.192.61.30      192.192.61.30                                 257          68        
+17     192.192.61.32      192.192.61.32                                 256          64        
+18     192.192.61.4       192.192.61.4                                  245          65        
+19     211.79.57.25       ccu-ccu-76.twaren.net                         234          46        
+20     210.69.250.126     210-69-250-126.hinet-ip.hinet.net             218          60        
+21     192.192.61.184     192.192.61.184                                169          25        
+22     192.192.61.203     192.192.61.203                                169          25        
+23     72.14.196.229      72.14.196.229                                 169          25        
+24     203.163.222.39     39-222-163-203-static.tpix.net.tw             149          30        
+25     61.31.254.69       61-31-254-69.static.tfn.net.tw                147          24        
+26     118.163.56.205     118-163-56-205.hinet-ip.hinet.net             125          1         
+27     10.0.0.202         No reverse DNS                                108          3         
+28     192.192.61.81      192.192.61.81                                 101          23        
+29     203.163.222.15     15-222-163-203-static.tpix.net.tw             94           17        
+30     211.73.76.198      tn-a2.twaren.net                              84           15        
+
+DETAILED ROUTER ANALYSIS (Top 50 by appearances)
+====================================================================================================
+
+1. csgate103.cs.ccu.edu.tw
+   IP Address: 140.123.103.250
+   Appearances: 2726
+   Unique Targets: 444
+   Categories: universities, government_central, cdn_global, government_local, telecom (+9 more)
+   Hop Position: avg=2, range=2-2
+   RTT: avg=7.37ms, range=1.84-198.07ms
+   Sample Targets: www.pts.org.tw, app.nccu.edu.tw, ftp.mofa.gov.tw, ns2.so-net.net.tw, nccu.edu.tw (+439 more)
+
+2. 140.123.9.249
+   IP Address: 140.123.9.249
+   Appearances: 2719
+   Unique Targets: 443
+   Categories: universities, government_central, cdn_global, government_local, telecom (+9 more)
+   Hop Position: avg=3, range=3-3
+   RTT: avg=7.12ms, range=1.92-185.57ms
+   Sample Targets: www.pts.org.tw, app.nccu.edu.tw, ftp.mofa.gov.tw, ns2.so-net.net.tw, nccu.edu.tw (+438 more)
+
+3. 140.123.0.246
+   IP Address: 140.123.0.246
+   Appearances: 2677
+   Unique Targets: 438
+   Categories: universities, government_central, cdn_global, government_local, telecom (+9 more)
+   Hop Position: avg=4, range=4-4
+   RTT: avg=8.04ms, range=2.64-115.87ms
+   Sample Targets: www.pts.org.tw, app.nccu.edu.tw, ftp.mofa.gov.tw, ns2.so-net.net.tw, nccu.edu.tw (+433 more)
+
+4. 140.130.252.251
+   IP Address: 140.130.252.251
+   Appearances: 2445
+   Unique Targets: 392
+   Categories: universities, government_central, cdn_global, government_local, telecom (+9 more)
+   Hop Position: avg=5, range=5-5
+   RTT: avg=10.04ms, range=2.93-108.78ms
+   Sample Targets: www.pts.org.tw, app.nccu.edu.tw, ftp.mofa.gov.tw, ns2.so-net.net.tw, nccu.edu.tw (+387 more)
+
+5. 10.96.81.12
+   IP Address: 10.96.81.12
+   Appearances: 2360
+   Unique Targets: 63
+   Categories: government_central, government_local, critical_infra, media, dns_resolvers (+2 more)
+   Hop Position: avg=18.4, range=10-30
+   RTT: avg=24.79ms, range=7.57-263.95ms
+   Sample Targets: ns.immigration.gov.tw, vpn.ntpc.gov.tw, mail.moj.gov.tw, vpn.moi.gov.tw, mail.hpa.gov.tw (+58 more)
+
+6. No reverse DNS
+   IP Address: 192.168.50.1
+   Appearances: 1937
+   Unique Targets: 432
+   Categories: government_central, cdn_global, government_local, telecom, government_critical (+9 more)
+   Hop Position: avg=1, range=1-1
+   RTT: avg=11.98ms, range=3.9-177.26ms
+   Sample Targets: www.pts.org.tw, app.nccu.edu.tw, ftp.mofa.gov.tw, ns2.so-net.net.tw, nccu.edu.tw (+427 more)
+
+7. 192.192.61.142
+   IP Address: 192.192.61.142
+   Appearances: 1548
+   Unique Targets: 259
+   Categories: government_central, cdn_global, government_local, telecom, government_critical (+9 more)
+   Hop Position: avg=6.1, range=6-24
+   RTT: avg=12.08ms, range=4.86-139.03ms
+   Sample Targets: cna.com.tw, storm.mg, www.pts.org.tw, vpn.ntpc.gov.tw, www.cts.com.tw (+254 more)
+
+8. 192.192.61.20
+   IP Address: 192.192.61.20
+   Appearances: 936
+   Unique Targets: 171
+   Categories: government_central, cdn_global, telecom, government_local, critical_infra (+7 more)
+   Hop Position: avg=7, range=7-7
+   RTT: avg=14.46ms, range=6.66-88.83ms
+   Sample Targets: cna.com.tw, storm.mg, www.pts.org.tw, www.cts.com.tw, microsoft.com (+166 more)
+
+9. 211-22-226-198.caw1-3332.hinet.net
+   IP Address: 211.22.226.198
+   Appearances: 680
+   Unique Targets: 122
+   Categories: government_central, cdn_global, government_local, telecom, critical_infra (+8 more)
+   Hop Position: avg=6.0, range=6-7
+   RTT: avg=10.47ms, range=2.28-92.94ms
+   Sample Targets: www.yuanta.com, ns2.tdcc.com.tw, ns2.taoyuan-airport.com, webmail.yuanta.com, app.sinopac.com (+117 more)
+
+10. 192.192.61.48
+   IP Address: 192.192.61.48
+   Appearances: 599
+   Unique Targets: 106
+   Categories: government_central, cdn_global, telecom, government_local, critical_infra (+6 more)
+   Hop Position: avg=8, range=8-8
+   RTT: avg=15.16ms, range=7.53-70.69ms
+   Sample Targets: storm.mg, www.cts.com.tw, netflix.com, microsoft.com, www.microsoft.com (+101 more)
+
+11. 192.192.68.62
+   IP Address: 192.192.68.62
+   Appearances: 524
+   Unique Targets: 93
+   Categories: government_central, cdn_global, telecom, government_local, critical_infra (+6 more)
+   Hop Position: avg=9, range=9-9
+   RTT: avg=15.94ms, range=6.87-72.85ms
+   Sample Targets: storm.mg, www.cts.com.tw, netflix.com, microsoft.com, www.microsoft.com (+88 more)
+
+12. 192.192.61.209
+   IP Address: 192.192.61.209
+   Appearances: 501
+   Unique Targets: 67
+   Categories: government_central, cdn_global, government_local, critical_infra, media (+4 more)
+   Hop Position: avg=9.5, range=9-10
+   RTT: avg=13.48ms, range=6.03-73.62ms
+   Sample Targets: ns.immigration.gov.tw, vpn.ntpc.gov.tw, mail.moj.gov.tw, vpn.moi.gov.tw, mail.hpa.gov.tw (+62 more)
+
+13. tp-a1.twaren.net
+   IP Address: 211.73.76.209
+   Appearances: 377
+   Unique Targets: 46
+   Categories: healthcare, education_network, universities
+   Hop Position: avg=10.8, range=6-30
+   RTT: avg=247.54ms, range=4.62-891.49ms
+   Sample Targets: portal.tku.edu.tw, www.nchc.org.tw, ns1.nctu.edu.tw, mail.nsysu.edu.tw, smtp.tku.edu.tw (+41 more)
+
+14. 192.192.61.9
+   IP Address: 192.192.61.9
+   Appearances: 330
+   Unique Targets: 85
+   Categories: government_central, cdn_global, government_local, government_critical, critical_infra (+7 more)
+   Hop Position: avg=7, range=7-7
+   RTT: avg=12.08ms, range=4.93-68.6ms
+   Sample Targets: ns.immigration.gov.tw, vpn.ntpc.gov.tw, app.nccu.edu.tw, www.nfa.gov.tw, smtp.judicial.gov.tw (+80 more)
+
+15. 192.192.61.37
+   IP Address: 192.192.61.37
+   Appearances: 274
+   Unique Targets: 70
+   Categories: government_central, cdn_global, government_local, government_critical, critical_infra (+5 more)
+   Hop Position: avg=7, range=7-7
+   RTT: avg=13.88ms, range=6.28-164.36ms
+   Sample Targets: ns.immigration.gov.tw, vpn.ntpc.gov.tw, mail.moj.gov.tw, vpn.moi.gov.tw, mail.nfa.gov.tw (+65 more)
+
+16. 192.192.61.30
+   IP Address: 192.192.61.30
+   Appearances: 257
+   Unique Targets: 68
+   Categories: universities, government_central, cdn_global, government_local, critical_infra (+6 more)
+   Hop Position: avg=8, range=8-8
+   RTT: avg=12.15ms, range=5.8-31.65ms
+   Sample Targets: ns.immigration.gov.tw, vpn.ntpc.gov.tw, mail.moj.gov.tw, vpn.moi.gov.tw, mail.hpa.gov.tw (+63 more)
+
+17. 192.192.61.32
+   IP Address: 192.192.61.32
+   Appearances: 256
+   Unique Targets: 64
+   Categories: government_central, cdn_global, government_local, critical_infra, media (+4 more)
+   Hop Position: avg=8, range=8-8
+   RTT: avg=14.47ms, range=7.31-91.29ms
+   Sample Targets: ns.immigration.gov.tw, vpn.ntpc.gov.tw, mail.moj.gov.tw, vpn.moi.gov.tw, mail.nfa.gov.tw (+59 more)
+
+18. 192.192.61.4
+   IP Address: 192.192.61.4
+   Appearances: 245
+   Unique Targets: 65
+   Categories: government_central, cdn_global, government_local, critical_infra, media (+4 more)
+   Hop Position: avg=9, range=9-9
+   RTT: avg=14.27ms, range=7.3-54.74ms
+   Sample Targets: ns.immigration.gov.tw, vpn.ntpc.gov.tw, mail.moj.gov.tw, vpn.moi.gov.tw, mail.hpa.gov.tw (+60 more)
+
+19. ccu-ccu-76.twaren.net
+   IP Address: 211.79.57.25
+   Appearances: 234
+   Unique Targets: 46
+   Categories: healthcare, education_network, universities
+   Hop Position: avg=5, range=5-5
+   RTT: avg=12.27ms, range=3.21-175.19ms
+   Sample Targets: portal.tku.edu.tw, www.nchc.org.tw, ns1.nctu.edu.tw, mail.nsysu.edu.tw, smtp.tku.edu.tw (+41 more)
+
+20. 210-69-250-126.hinet-ip.hinet.net
+   IP Address: 210.69.250.126
+   Appearances: 218
+   Unique Targets: 60
+   Categories: government_central, government_local, critical_infra, media, government_critical
+   Hop Position: avg=11.5, range=11-14
+   RTT: avg=16.94ms, range=9.88-34.22ms
+   Sample Targets: ns.immigration.gov.tw, vpn.ntpc.gov.tw, mail.moj.gov.tw, vpn.moi.gov.tw, mail.nfa.gov.tw (+55 more)
+
+21. 192.192.61.184
+   IP Address: 192.192.61.184
+   Appearances: 169
+   Unique Targets: 25
+   Categories: cdn_global, media, dns_resolvers, universities, ecommerce_tech
+   Hop Position: avg=8, range=8-8
+   RTT: avg=14.17ms, range=7.93-34.53ms
+   Sample Targets: cna.com.tw, youtube.com, www.pts.org.tw, api.books.com.tw, ns1.google.com.tw (+20 more)
+
+22. 192.192.61.203
+   IP Address: 192.192.61.203
+   Appearances: 169
+   Unique Targets: 25
+   Categories: cdn_global, media, dns_resolvers, universities, ecommerce_tech
+   Hop Position: avg=9, range=9-9
+   RTT: avg=14.27ms, range=8.11-33.72ms
+   Sample Targets: cna.com.tw, youtube.com, www.pts.org.tw, api.books.com.tw, ns1.google.com.tw (+20 more)
+
+23. 72.14.196.229
+   IP Address: 72.14.196.229
+   Appearances: 169
+   Unique Targets: 25
+   Categories: cdn_global, media, dns_resolvers, universities, ecommerce_tech
+   Hop Position: avg=10, range=10-10
+   RTT: avg=14.6ms, range=8.1-30.81ms
+   Sample Targets: cna.com.tw, youtube.com, www.pts.org.tw, api.books.com.tw, ns1.google.com.tw (+20 more)
+
+24. 39-222-163-203-static.tpix.net.tw
+   IP Address: 203.163.222.39
+   Appearances: 149
+   Unique Targets: 30
+   Categories: government_central, cdn_global, critical_infra, financial_infra, media (+2 more)
+   Hop Position: avg=10, range=10-10
+   RTT: avg=18.34ms, range=7.91-93.95ms
+   Sample Targets: api.metro.taipei, www.ruten.com.tw, www.ptt.cc, app.tpex.org.tw, ns2.cloudflare.com (+25 more)
+
+25. 61-31-254-69.static.tfn.net.tw
+   IP Address: 61.31.254.69
+   Appearances: 147
+   Unique Targets: 24
+   Categories: telecom, critical_infra, financial_infra, media, financial_banks (+1 more)
+   Hop Position: avg=6, range=6-6
+   RTT: avg=13.49ms, range=5.06-45.71ms
+   Sample Targets: www.esunbank.com.tw, vpn.pchome.com.tw, firstbank.com.tw, ns.thsrc.com.tw, mail.firstbank.com.tw (+19 more)
+
+26. 118-163-56-205.hinet-ip.hinet.net
+   IP Address: 118.163.56.205
+   Appearances: 125
+   Unique Targets: 1
+   Categories: media
+   Hop Position: avg=20.0, range=11-30
+   RTT: avg=994.73ms, range=10.54-1602.33ms
+   Sample Targets: ftp.chinatimes.com
+
+27. No reverse DNS
+   IP Address: 10.0.0.202
+   Appearances: 108
+   Unique Targets: 3
+   Categories: universities
+   Hop Position: avg=21.5, range=13-30
+   RTT: avg=952.88ms, range=11.59-1157.78ms
+   Sample Targets: ftp.tmu.edu.tw, app.tmu.edu.tw, mail.tmu.edu.tw
+
+28. 192.192.61.81
+   IP Address: 192.192.61.81
+   Appearances: 101
+   Unique Targets: 23
+   Categories: healthcare, ecommerce_tech, universities
+   Hop Position: avg=8, range=8-8
+   RTT: avg=15.43ms, range=7.77-35.93ms
+   Sample Targets: webmail.ntnu.edu.tw, ns2.tmu.edu.tw, ptt.cc, mail.ntnu.edu.tw, mail.ntu.edu.tw (+18 more)
+
+29. 15-222-163-203-static.tpix.net.tw
+   IP Address: 203.163.222.15
+   Appearances: 94
+   Unique Targets: 17
+   Categories: government_central, cdn_global, critical_infra, media, universities (+1 more)
+   Hop Position: avg=10, range=10-10
+   RTT: avg=19.49ms, range=8.91-62.08ms
+   Sample Targets: mail.ftv.com.tw, webmail.tku.edu.tw, microsoft.com, www2.president.gov.tw, mail.tku.edu.tw (+12 more)
+
+30. tn-a2.twaren.net
+   IP Address: 211.73.76.198
+   Appearances: 84
+   Unique Targets: 15
+   Categories: healthcare, education_network, universities
+   Hop Position: avg=7.0, range=7-8
+   RTT: avg=10.77ms, range=4.69-25.6ms
+   Sample Targets: ns2.nctu.edu.tw, ns.nctu.edu.tw, portal.ncu.edu.tw, www.ncu.edu.tw, ns1.nctu.edu.tw (+10 more)
+
+31. hc-a2.twaren.net
+   IP Address: 211.73.76.141
+   Appearances: 80
+   Unique Targets: 13
+   Categories: healthcare, education_network, universities
+   Hop Position: avg=8.0, range=8-9
+   RTT: avg=12.91ms, range=7.21-27.1ms
+   Sample Targets: ns2.nctu.edu.tw, ns.nctu.edu.tw, portal.ncu.edu.tw, www.ncu.edu.tw, ns1.nctu.edu.tw (+8 more)
+
+32. 60-199-27-121.static.tfn.net.tw
+   IP Address: 60.199.27.121
+   Appearances: 78
+   Unique Targets: 14
+   Categories: telecom, critical_infra, financial_infra, financial_banks, ecommerce_tech
+   Hop Position: avg=7, range=7-7
+   RTT: avg=12.46ms, range=5.55-26.59ms
+   Sample Targets: www.esunbank.com.tw, firstbank.com.tw, vpn.pchome.com.tw, taiwanmobile.com, vpn.krtco.com.tw (+9 more)
+
+33. 60-199-27-161.static.tfn.net.tw
+   IP Address: 60.199.27.161
+   Appearances: 70
+   Unique Targets: 17
+   Categories: critical_infra, financial_infra, media, financial_banks, ecommerce_tech
+   Hop Position: avg=7, range=7-7
+   RTT: avg=12.13ms, range=5.34-44.02ms
+   Sample Targets: www.ctbcbank.com, esunbank.com.tw, vpn.krtco.com.tw, vpn.pchome.com.tw, firstbank.com.tw (+12 more)
+
+34. nsysu-a1.twaren.net
+   IP Address: 211.73.76.218
+   Appearances: 65
+   Unique Targets: 12
+   Categories: healthcare, universities
+   Hop Position: avg=7, range=7-7
+   RTT: avg=17.78ms, range=7.02-68.12ms
+   Sample Targets: www.nsysu.edu.tw, ns2.nsysu.edu.tw, mail.nsysu.edu.tw, www2.nsysu.edu.tw, vghks.gov.tw (+7 more)
+
+35. 223-200-89-126.hinet-ip.hinet.net
+   IP Address: 223.200.89.126
+   Appearances: 64
+   Unique Targets: 1
+   Categories: government_central
+   Hop Position: avg=22.5, range=15-30
+   RTT: avg=945.13ms, range=11.15-1244.89ms
+   Sample Targets: ftp.moea.gov.tw
+
+36. www.chimei.org.tw
+   IP Address: 211.22.242.169
+   Appearances: 60
+   Unique Targets: 2
+   Categories: healthcare
+   Hop Position: avg=20.6, range=13-30
+   RTT: avg=909.88ms, range=17.58-1208.89ms
+   Sample Targets: mail.chimei.org.tw, chimei.org.tw
+
+37. 220-128-4-213.tpdt-3309.hinet.net
+   IP Address: 220.128.4.213
+   Appearances: 58
+   Unique Targets: 23
+   Categories: financial_banks, financial_infra, media, critical_infra
+   Hop Position: avg=9, range=9-9
+   RTT: avg=19.45ms, range=9.81-36.61ms
+   Sample Targets: ns2.tdcc.com.tw, ns2.taoyuan-airport.com, mail.taipower.com.tw, smtp.fisc.com.tw, mail.taoyuan-airport.com (+18 more)
+
+38. ncu-a1.twaren.net
+   IP Address: 211.73.76.150
+   Appearances: 57
+   Unique Targets: 8
+   Categories: universities
+   Hop Position: avg=9, range=9-9
+   RTT: avg=15.81ms, range=8.34-43.41ms
+   Sample Targets: portal.ncu.edu.tw, www.ncu.edu.tw, mail.cycu.edu.tw, ftp.ncu.edu.tw, mail.ncu.edu.tw (+3 more)
+
+39. 192.192.61.121
+   IP Address: 192.192.61.121
+   Appearances: 56
+   Unique Targets: 11
+   Categories: healthcare, financial_infra, financial_banks, universities
+   Hop Position: avg=8, range=8-8
+   RTT: avg=13.85ms, range=6.69-26.56ms
+   Sample Targets: mail.vghtc.gov.tw, smtp.nchu.edu.tw, mail.nchu.edu.tw, www.nchu.edu.tw, www.skbank.com.tw (+6 more)
+
+40. 220-128-4-217.tpdt-3309.hinet.net
+   IP Address: 220.128.4.217
+   Appearances: 55
+   Unique Targets: 24
+   Categories: financial_banks, media, critical_infra, financial_infra
+   Hop Position: avg=9.1, range=9-14
+   RTT: avg=20.26ms, range=10.69-37.82ms
+   Sample Targets: smtp.fisc.com.tw, mail.taoyuan-airport.com, app.sinopac.com, www.sinopac.com, ftp.chinatimes.com (+19 more)
+
+41. 60-199-82-101.static.tfn.net.tw
+   IP Address: 60.199.82.101
+   Appearances: 52
+   Unique Targets: 12
+   Categories: financial_banks, financial_infra, ecommerce_tech
+   Hop Position: avg=8, range=8-8
+   RTT: avg=18.04ms, range=8.67-42.99ms
+   Sample Targets: www.ctbcbank.com, esunbank.com.tw, firstbank.com.tw, mail.esunbank.com.tw, ns2.fubon.com (+7 more)
+
+42. 210-69-250-49.hinet-ip.hinet.net
+   IP Address: 210.69.250.49
+   Appearances: 52
+   Unique Targets: 20
+   Categories: government_central, government_local, critical_infra, media, government_critical
+   Hop Position: avg=12.6, range=12-15
+   RTT: avg=15.39ms, range=9.71-32.54ms
+   Sample Targets: vpn.ntpc.gov.tw, mail.moj.gov.tw, mail.nfa.gov.tw, www.nfa.gov.tw, smtp.ntpc.gov.tw (+15 more)
+
+43. 210-69-250-118.hinet-ip.hinet.net
+   IP Address: 210.69.250.118
+   Appearances: 51
+   Unique Targets: 20
+   Categories: government_local, government_central, government_critical
+   Hop Position: avg=12.5, range=12-13
+   RTT: avg=16.97ms, range=9.98-56.94ms
+   Sample Targets: smtp.judicial.gov.tw, mohw.gov.tw, www.gov.taipei, app.judicial.gov.tw, judicial.gov.tw (+15 more)
+
+44. nsysu_nsysu-a1.twaren.net
+   IP Address: 211.79.58.26
+   Appearances: 50
+   Unique Targets: 8
+   Categories: universities
+   Hop Position: avg=8, range=8-8
+   RTT: avg=16.04ms, range=7.4-65.08ms
+   Sample Targets: www.nsysu.edu.tw, ns2.nsysu.edu.tw, mail.nsysu.edu.tw, www2.nsysu.edu.tw, ns1.nsysu.edu.tw (+3 more)
+
+45. 140.117.232.34
+   IP Address: 140.117.232.34
+   Appearances: 50
+   Unique Targets: 8
+   Categories: universities
+   Hop Position: avg=9, range=9-9
+   RTT: avg=14.97ms, range=7.26-34.31ms
+   Sample Targets: www.nsysu.edu.tw, ns2.nsysu.edu.tw, mail.nsysu.edu.tw, www2.nsysu.edu.tw, ns1.nsysu.edu.tw (+3 more)
+
+46. 220-128-4-221.tpdt-3310.hinet.net
+   IP Address: 220.128.4.221
+   Appearances: 49
+   Unique Targets: 20
+   Categories: financial_banks, financial_infra, media, critical_infra
+   Hop Position: avg=9.2, range=9-14
+   RTT: avg=21.85ms, range=12.03-63.22ms
+   Sample Targets: ns2.taoyuan-airport.com, mail.taipower.com.tw, smtp.fisc.com.tw, api.sinopac.com, ns2.ctbcbank.com (+15 more)
+
+47. 192.192.61.66
+   IP Address: 192.192.61.66
+   Appearances: 45
+   Unique Targets: 10
+   Categories: telecom, cdn_global
+   Hop Position: avg=8, range=8-8
+   RTT: avg=15.32ms, range=8.72-34.61ms
+   Sample Targets: www.netflix.com, fetnet.net, www2.facebook.com, mail.fetnet.net, app.fetnet.net (+5 more)
+
+48. 192.192.68.30
+   IP Address: 192.192.68.30
+   Appearances: 45
+   Unique Targets: 10
+   Categories: telecom, cdn_global
+   Hop Position: avg=9, range=9-9
+   RTT: avg=16.36ms, range=8.01-36.76ms
+   Sample Targets: www.netflix.com, fetnet.net, www2.facebook.com, mail.fetnet.net, app.fetnet.net (+5 more)
+
+49. 104.44.51.226
+   IP Address: 104.44.51.226
+   Appearances: 45
+   Unique Targets: 11
+   Categories: government_central, cdn_global, critical_infra, media, universities (+1 more)
+   Hop Position: avg=11, range=11-11
+   RTT: avg=18.56ms, range=9.65-62.05ms
+   Sample Targets: mail.ftv.com.tw, www2.president.gov.tw, mail.tku.edu.tw, yes123.com.tw, api.yes123.com.tw (+6 more)
+
+50. No reverse DNS
+   IP Address: 104.19.193.29
+   Appearances: 44
+   Unique Targets: 1
+   Categories: cdn_global
+   Hop Position: avg=19.6, range=11-30
+   RTT: avg=25.12ms, range=9.95-81.03ms
+   Sample Targets: api.cloudflare.com
+

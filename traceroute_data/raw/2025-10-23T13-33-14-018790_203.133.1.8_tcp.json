@@ -1,0 +1,288 @@
+{
+  "timestamp": "2025-10-23T13:33:14.018790",
+  "vantage_point": "university",
+  "target": "203.133.1.8",
+  "target_ip": "203.133.1.8",
+  "protocol": "tcp",
+  "port": 443,
+  "duration_seconds": 110.68,
+  "hops": [
+    {
+      "hop": 1,
+      "ip": "192.168.50.1",
+      "hostname": null,
+      "rtts": [
+        14.45,
+        6.22,
+        15.49
+      ],
+      "timeout": false,
+      "avg_rtt": 12.05
+    },
+    {
+      "hop": 2,
+      "ip": "140.123.103.250",
+      "hostname": "csgate103.cs.ccu.edu.tw",
+      "rtts": [
+        10.09,
+        5.9,
+        6.71
+      ],
+      "timeout": false,
+      "avg_rtt": 7.57
+    },
+    {
+      "hop": 3,
+      "ip": "140.123.9.249",
+      "hostname": null,
+      "rtts": [
+        5.52,
+        4.05,
+        4.44
+      ],
+      "timeout": false,
+      "avg_rtt": 4.67
+    },
+    {
+      "hop": 4,
+      "ip": "140.123.0.246",
+      "hostname": null,
+      "rtts": [
+        11.66,
+        8.56,
+        6.6
+      ],
+      "timeout": false,
+      "avg_rtt": 8.94
+    },
+    {
+      "hop": 5,
+      "ip": "140.130.252.251",
+      "hostname": null,
+      "rtts": [
+        11.99,
+        7.52,
+        7.8
+      ],
+      "timeout": false,
+      "avg_rtt": 9.1
+    },
+    {
+      "hop": 6,
+      "ip": "140.123.231.108",
+      "hostname": null,
+      "rtts": [
+        12.56,
+        8.63,
+        16.7
+      ],
+      "timeout": false,
+      "avg_rtt": 12.63
+    },
+    {
+      "hop": 7,
+      "ip": "203.187.6.106",
+      "hostname": "tayang-m49-g2-10-cyccatv.ix.kbtelecom.net",
+      "rtts": [
+        16.21,
+        11.32,
+        9.76
+      ],
+      "timeout": false,
+      "avg_rtt": 12.43
+    },
+    {
+      "hop": 8,
+      "ip": "203.187.26.93",
+      "hostname": "peikong-m49-10g1-2-dayang.ix.kbtelecom.net",
+      "rtts": [
+        9.94,
+        16.17,
+        10.52
+      ],
+      "timeout": false,
+      "avg_rtt": 12.21
+    },
+    {
+      "hop": 9,
+      "ip": "203.187.26.89",
+      "hostname": "chialein-m49-10g1-2-peikong.ix.kbtelecom.net",
+      "rtts": [
+        12.66,
+        14.95,
+        23.23
+      ],
+      "timeout": false,
+      "avg_rtt": 16.95
+    },
+    {
+      "hop": 10,
+      "ip": "203.187.26.85",
+      "hostname": "sdtv-br93-eth1-45-chialein.ix.kbtelecom.net",
+      "rtts": [
+        10.23,
+        12.73,
+        12.7
+      ],
+      "timeout": false,
+      "avg_rtt": 11.89
+    },
+    {
+      "hop": 11,
+      "ip": "203.187.6.173",
+      "hostname": "tpnoc1-sc93-po10-sdtv.ix.kbtelecom.net",
+      "rtts": [
+        14.73,
+        13.64,
+        14.84
+      ],
+      "timeout": false,
+      "avg_rtt": 14.4
+    },
+    {
+      "hop": 12,
+      "ip": "203.187.6.53",
+      "hostname": "tpnoc1-c68-po82-sc93.ix.kbtelecom.net",
+      "rtts": [
+        13.05,
+        16.18,
+        17.15
+      ],
+      "timeout": false,
+      "avg_rtt": 15.46
+    },
+    {
+      "hop": 13,
+      "ip": null,
+      "hostname": null,
+      "rtts": [],
+      "timeout": true
+    },
+    {
+      "hop": 14,
+      "ip": null,
+      "hostname": null,
+      "rtts": [],
+      "timeout": true
+    },
+    {
+      "hop": 15,
+      "ip": null,
+      "hostname": null,
+      "rtts": [],
+      "timeout": true
+    },
+    {
+      "hop": 16,
+      "ip": null,
+      "hostname": null,
+      "rtts": [],
+      "timeout": true
+    },
+    {
+      "hop": 17,
+      "ip": null,
+      "hostname": null,
+      "rtts": [],
+      "timeout": true
+    },
+    {
+      "hop": 18,
+      "ip": null,
+      "hostname": null,
+      "rtts": [],
+      "timeout": true
+    },
+    {
+      "hop": 19,
+      "ip": null,
+      "hostname": null,
+      "rtts": [],
+      "timeout": true
+    },
+    {
+      "hop": 20,
+      "ip": null,
+      "hostname": null,
+      "rtts": [],
+      "timeout": true
+    },
+    {
+      "hop": 21,
+      "ip": null,
+      "hostname": null,
+      "rtts": [],
+      "timeout": true
+    },
+    {
+      "hop": 22,
+      "ip": null,
+      "hostname": null,
+      "rtts": [],
+      "timeout": true
+    },
+    {
+      "hop": 23,
+      "ip": null,
+      "hostname": null,
+      "rtts": [],
+      "timeout": true
+    },
+    {
+      "hop": 24,
+      "ip": null,
+      "hostname": null,
+      "rtts": [],
+      "timeout": true
+    },
+    {
+      "hop": 25,
+      "ip": null,
+      "hostname": null,
+      "rtts": [],
+      "timeout": true
+    },
+    {
+      "hop": 26,
+      "ip": null,
+      "hostname": null,
+      "rtts": [],
+      "timeout": true
+    },
+    {
+      "hop": 27,
+      "ip": null,
+      "hostname": null,
+      "rtts": [],
+      "timeout": true
+    },
+    {
+      "hop": 28,
+      "ip": null,
+      "hostname": null,
+      "rtts": [],
+      "timeout": true
+    },
+    {
+      "hop": 29,
+      "ip": null,
+      "hostname": null,
+      "rtts": [],
+      "timeout": true
+    },
+    {
+      "hop": 30,
+      "ip": null,
+      "hostname": null,
+      "rtts": [],
+      "timeout": true
+    }
+  ],
+  "num_hops": 30,
+  "success": false,
+  "method": "scapy",
+  "category": "dns_resolvers",
+  "base_domain": "203.133.1.8",
+  "service_variant": "203.133.1.8",
+  "is_bare_domain": true
+}

@@ -1,0 +1,201 @@
+{
+  "timestamp": "2025-10-23T14:29:43.951042",
+  "vantage_point": "university",
+  "target": "mail.sinica.edu.tw",
+  "target_ip": "140.109.5.50",
+  "protocol": "tcp",
+  "port": 80,
+  "duration_seconds": 13.25,
+  "hops": [
+    {
+      "hop": 1,
+      "ip": "192.168.50.1",
+      "hostname": null,
+      "rtts": [
+        46.53,
+        4.82,
+        3.7
+      ],
+      "timeout": false,
+      "avg_rtt": 18.35
+    },
+    {
+      "hop": 2,
+      "ip": "140.123.103.250",
+      "hostname": "csgate103.cs.ccu.edu.tw",
+      "rtts": [
+        4.48,
+        3.87,
+        10.59
+      ],
+      "timeout": false,
+      "avg_rtt": 6.31
+    },
+    {
+      "hop": 3,
+      "ip": "140.123.9.249",
+      "hostname": null,
+      "rtts": [
+        4.88,
+        4.4,
+        6.26
+      ],
+      "timeout": false,
+      "avg_rtt": 5.18
+    },
+    {
+      "hop": 4,
+      "ip": "140.123.0.246",
+      "hostname": null,
+      "rtts": [
+        6.05,
+        5.17,
+        4.69
+      ],
+      "timeout": false,
+      "avg_rtt": 5.3
+    },
+    {
+      "hop": 5,
+      "ip": "140.130.252.251",
+      "hostname": null,
+      "rtts": [
+        9.47,
+        12.3,
+        7.81
+      ],
+      "timeout": false,
+      "avg_rtt": 9.86
+    },
+    {
+      "hop": 6,
+      "ip": "192.192.61.142",
+      "hostname": null,
+      "rtts": [
+        7.59,
+        9.36,
+        11.64
+      ],
+      "timeout": false,
+      "avg_rtt": 9.53
+    },
+    {
+      "hop": 7,
+      "ip": "192.192.61.9",
+      "hostname": null,
+      "rtts": [
+        27.25,
+        10.05,
+        7.94
+      ],
+      "timeout": false,
+      "avg_rtt": 15.08
+    },
+    {
+      "hop": 8,
+      "ip": "192.192.61.30",
+      "hostname": null,
+      "rtts": [
+        12.74,
+        7.6,
+        8.34
+      ],
+      "timeout": false,
+      "avg_rtt": 9.56
+    },
+    {
+      "hop": 9,
+      "ip": "192.192.61.4",
+      "hostname": null,
+      "rtts": [
+        10.69,
+        10.41,
+        12.39
+      ],
+      "timeout": false,
+      "avg_rtt": 11.16
+    },
+    {
+      "hop": 10,
+      "ip": "192.192.61.209",
+      "hostname": null,
+      "rtts": [
+        17.39,
+        11.14,
+        12.36
+      ],
+      "timeout": false,
+      "avg_rtt": 13.63
+    },
+    {
+      "hop": 11,
+      "ip": "10.96.81.4",
+      "hostname": null,
+      "rtts": [
+        14.19,
+        11.98,
+        9.51
+      ],
+      "timeout": false,
+      "avg_rtt": 11.89
+    },
+    {
+      "hop": 12,
+      "ip": "202.169.174.50",
+      "hostname": null,
+      "rtts": [
+        10.21,
+        15.78,
+        10.73
+      ],
+      "timeout": false,
+      "avg_rtt": 12.24
+    },
+    {
+      "hop": 13,
+      "ip": "202.169.174.2",
+      "hostname": null,
+      "rtts": [
+        13.11,
+        14.77,
+        10.81
+      ],
+      "timeout": false,
+      "avg_rtt": 12.9
+    },
+    {
+      "hop": 14,
+      "ip": null,
+      "hostname": null,
+      "rtts": [],
+      "timeout": true
+    },
+    {
+      "hop": 15,
+      "ip": null,
+      "hostname": null,
+      "rtts": [],
+      "timeout": true
+    },
+    {
+      "hop": 16,
+      "ip": "140.109.5.50",
+      "hostname": null,
+      "rtts": [
+        35.73,
+        9.87,
+        32.46
+      ],
+      "timeout": false,
+      "reached_destination": true,
+      "avg_rtt": 26.02
+    }
+  ],
+  "num_hops": 16,
+  "success": true,
+  "method": "scapy",
+  "category": "education_network",
+  "base_domain": "sinica.edu.tw",
+  "service_variant": "mail.sinica.edu.tw",
+  "is_bare_domain": false
+}

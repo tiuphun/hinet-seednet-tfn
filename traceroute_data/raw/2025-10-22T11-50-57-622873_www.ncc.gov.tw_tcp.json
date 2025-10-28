@@ -1,0 +1,146 @@
+{
+  "timestamp": "2025-10-22T11:50:57.622873",
+  "vantage_point": "university",
+  "target": "www.ncc.gov.tw",
+  "target_ip": "172.65.90.67",
+  "protocol": "tcp",
+  "port": 443,
+  "duration_seconds": 6.43,
+  "hops": [
+    {
+      "hop": 1,
+      "ip": "192.168.50.1",
+      "hostname": null,
+      "rtts": [
+        6.96,
+        6.81,
+        6.04
+      ],
+      "timeout": false,
+      "avg_rtt": 6.6
+    },
+    {
+      "hop": 2,
+      "ip": "140.123.103.250",
+      "hostname": "csgate103.cs.ccu.edu.tw",
+      "rtts": [
+        4.7,
+        5.56,
+        7.12
+      ],
+      "timeout": false,
+      "avg_rtt": 5.79
+    },
+    {
+      "hop": 3,
+      "ip": "140.123.9.249",
+      "hostname": null,
+      "rtts": [
+        5.2,
+        7.83,
+        5.21
+      ],
+      "timeout": false,
+      "avg_rtt": 6.08
+    },
+    {
+      "hop": 4,
+      "ip": "140.123.0.246",
+      "hostname": null,
+      "rtts": [
+        5.48,
+        5.12,
+        4.64
+      ],
+      "timeout": false,
+      "avg_rtt": 5.08
+    },
+    {
+      "hop": 5,
+      "ip": "140.130.252.251",
+      "hostname": null,
+      "rtts": [
+        8.99,
+        5.95,
+        8.12
+      ],
+      "timeout": false,
+      "avg_rtt": 7.69
+    },
+    {
+      "hop": 6,
+      "ip": "192.192.61.142",
+      "hostname": null,
+      "rtts": [
+        9.53,
+        7.7,
+        6.51
+      ],
+      "timeout": false,
+      "avg_rtt": 7.91
+    },
+    {
+      "hop": 7,
+      "ip": "192.192.61.20",
+      "hostname": null,
+      "rtts": [
+        16.56,
+        17.03,
+        10.24
+      ],
+      "timeout": false,
+      "avg_rtt": 14.61
+    },
+    {
+      "hop": 8,
+      "ip": "192.192.61.48",
+      "hostname": null,
+      "rtts": [
+        15.01,
+        30.02,
+        10.22
+      ],
+      "timeout": false,
+      "avg_rtt": 18.42
+    },
+    {
+      "hop": 9,
+      "ip": "192.192.68.62",
+      "hostname": null,
+      "rtts": [
+        44.73,
+        22.31,
+        13.39
+      ],
+      "timeout": false,
+      "avg_rtt": 26.81
+    },
+    {
+      "hop": 10,
+      "ip": null,
+      "hostname": null,
+      "rtts": [],
+      "timeout": true
+    },
+    {
+      "hop": 11,
+      "ip": "172.65.90.67",
+      "hostname": null,
+      "rtts": [
+        13.66,
+        13.09,
+        11.61
+      ],
+      "timeout": false,
+      "reached_destination": true,
+      "avg_rtt": 12.79
+    }
+  ],
+  "num_hops": 11,
+  "success": true,
+  "method": "scapy",
+  "category": "government_central",
+  "base_domain": "ncc.gov.tw",
+  "service_variant": "www.ncc.gov.tw",
+  "is_bare_domain": false
+}

@@ -1,0 +1,278 @@
+{
+  "timestamp": "2025-10-23T01:27:51.673000",
+  "vantage_point": "university",
+  "target": "ns1.tmu.edu.tw",
+  "target_ip": "203.71.84.1",
+  "protocol": "tcp",
+  "port": 80,
+  "duration_seconds": 123.47,
+  "hops": [
+    {
+      "hop": 1,
+      "ip": "192.168.50.1",
+      "hostname": null,
+      "rtts": [
+        8.12,
+        5.84,
+        6.28
+      ],
+      "timeout": false,
+      "avg_rtt": 6.75
+    },
+    {
+      "hop": 2,
+      "ip": "140.123.103.250",
+      "hostname": "csgate103.cs.ccu.edu.tw",
+      "rtts": [
+        5.55,
+        6.44,
+        7.52
+      ],
+      "timeout": false,
+      "avg_rtt": 6.5
+    },
+    {
+      "hop": 3,
+      "ip": "140.123.9.249",
+      "hostname": null,
+      "rtts": [
+        6.8,
+        7.59,
+        6.95
+      ],
+      "timeout": false,
+      "avg_rtt": 7.11
+    },
+    {
+      "hop": 4,
+      "ip": "140.123.0.246",
+      "hostname": null,
+      "rtts": [
+        7.46,
+        6.04,
+        5.51
+      ],
+      "timeout": false,
+      "avg_rtt": 6.34
+    },
+    {
+      "hop": 5,
+      "ip": "140.130.252.251",
+      "hostname": null,
+      "rtts": [
+        8.8,
+        8.62,
+        21.4
+      ],
+      "timeout": false,
+      "avg_rtt": 12.94
+    },
+    {
+      "hop": 6,
+      "ip": "192.192.61.142",
+      "hostname": null,
+      "rtts": [
+        17.76,
+        14.37,
+        8.49
+      ],
+      "timeout": false,
+      "avg_rtt": 13.54
+    },
+    {
+      "hop": 7,
+      "ip": "192.192.61.20",
+      "hostname": null,
+      "rtts": [
+        13.18,
+        13.06,
+        12.69
+      ],
+      "timeout": false,
+      "avg_rtt": 12.98
+    },
+    {
+      "hop": 8,
+      "ip": "192.192.61.81",
+      "hostname": null,
+      "rtts": [
+        14.55,
+        13.64,
+        14.19
+      ],
+      "timeout": false,
+      "avg_rtt": 14.13
+    },
+    {
+      "hop": 9,
+      "ip": "192.192.7.114",
+      "hostname": null,
+      "rtts": [
+        12.05,
+        10.22,
+        10.75
+      ],
+      "timeout": false,
+      "avg_rtt": 11.01
+    },
+    {
+      "hop": 10,
+      "ip": "203.71.95.252",
+      "hostname": null,
+      "rtts": [
+        11.47,
+        10.37,
+        9.87
+      ],
+      "timeout": false,
+      "avg_rtt": 10.57
+    },
+    {
+      "hop": 11,
+      "ip": null,
+      "hostname": null,
+      "rtts": [],
+      "timeout": true
+    },
+    {
+      "hop": 12,
+      "ip": null,
+      "hostname": null,
+      "rtts": [],
+      "timeout": true
+    },
+    {
+      "hop": 13,
+      "ip": null,
+      "hostname": null,
+      "rtts": [],
+      "timeout": true
+    },
+    {
+      "hop": 14,
+      "ip": null,
+      "hostname": null,
+      "rtts": [],
+      "timeout": true
+    },
+    {
+      "hop": 15,
+      "ip": null,
+      "hostname": null,
+      "rtts": [],
+      "timeout": true
+    },
+    {
+      "hop": 16,
+      "ip": null,
+      "hostname": null,
+      "rtts": [],
+      "timeout": true
+    },
+    {
+      "hop": 17,
+      "ip": null,
+      "hostname": null,
+      "rtts": [],
+      "timeout": true
+    },
+    {
+      "hop": 18,
+      "ip": null,
+      "hostname": null,
+      "rtts": [],
+      "timeout": true
+    },
+    {
+      "hop": 19,
+      "ip": null,
+      "hostname": null,
+      "rtts": [],
+      "timeout": true
+    },
+    {
+      "hop": 20,
+      "ip": null,
+      "hostname": null,
+      "rtts": [],
+      "timeout": true
+    },
+    {
+      "hop": 21,
+      "ip": null,
+      "hostname": null,
+      "rtts": [],
+      "timeout": true
+    },
+    {
+      "hop": 22,
+      "ip": null,
+      "hostname": null,
+      "rtts": [],
+      "timeout": true
+    },
+    {
+      "hop": 23,
+      "ip": null,
+      "hostname": null,
+      "rtts": [],
+      "timeout": true
+    },
+    {
+      "hop": 24,
+      "ip": null,
+      "hostname": null,
+      "rtts": [],
+      "timeout": true
+    },
+    {
+      "hop": 25,
+      "ip": null,
+      "hostname": null,
+      "rtts": [],
+      "timeout": true
+    },
+    {
+      "hop": 26,
+      "ip": null,
+      "hostname": null,
+      "rtts": [],
+      "timeout": true
+    },
+    {
+      "hop": 27,
+      "ip": null,
+      "hostname": null,
+      "rtts": [],
+      "timeout": true
+    },
+    {
+      "hop": 28,
+      "ip": null,
+      "hostname": null,
+      "rtts": [],
+      "timeout": true
+    },
+    {
+      "hop": 29,
+      "ip": null,
+      "hostname": null,
+      "rtts": [],
+      "timeout": true
+    },
+    {
+      "hop": 30,
+      "ip": null,
+      "hostname": null,
+      "rtts": [],
+      "timeout": true
+    }
+  ],
+  "num_hops": 30,
+  "success": false,
+  "method": "scapy",
+  "category": "universities",
+  "base_domain": "tmu.edu.tw",
+  "service_variant": "ns1.tmu.edu.tw",
+  "is_bare_domain": false
+}

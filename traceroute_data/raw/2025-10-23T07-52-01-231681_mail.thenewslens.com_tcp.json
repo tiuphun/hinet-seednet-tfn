@@ -1,0 +1,174 @@
+{
+  "timestamp": "2025-10-23T07:52:01.231681",
+  "vantage_point": "university",
+  "target": "mail.thenewslens.com",
+  "target_ip": "142.250.66.83",
+  "protocol": "tcp",
+  "port": 443,
+  "duration_seconds": 2.52,
+  "hops": [
+    {
+      "hop": 1,
+      "ip": "192.168.50.1",
+      "hostname": null,
+      "rtts": [
+        25.18,
+        4.24
+      ],
+      "timeout": false,
+      "avg_rtt": 14.71
+    },
+    {
+      "hop": 2,
+      "ip": "140.123.103.250",
+      "hostname": "csgate103.cs.ccu.edu.tw",
+      "rtts": [
+        18.31,
+        5.86,
+        6.0
+      ],
+      "timeout": false,
+      "avg_rtt": 10.06
+    },
+    {
+      "hop": 3,
+      "ip": "140.123.9.249",
+      "hostname": null,
+      "rtts": [
+        6.55,
+        6.48,
+        13.62
+      ],
+      "timeout": false,
+      "avg_rtt": 8.88
+    },
+    {
+      "hop": 4,
+      "ip": "140.123.0.246",
+      "hostname": null,
+      "rtts": [
+        12.54,
+        8.99,
+        7.29
+      ],
+      "timeout": false,
+      "avg_rtt": 9.61
+    },
+    {
+      "hop": 5,
+      "ip": "140.130.252.251",
+      "hostname": null,
+      "rtts": [
+        7.54,
+        9.04,
+        7.65
+      ],
+      "timeout": false,
+      "avg_rtt": 8.08
+    },
+    {
+      "hop": 6,
+      "ip": "192.192.61.142",
+      "hostname": null,
+      "rtts": [
+        10.13,
+        8.87,
+        10.94
+      ],
+      "timeout": false,
+      "avg_rtt": 9.98
+    },
+    {
+      "hop": 7,
+      "ip": "192.192.61.20",
+      "hostname": null,
+      "rtts": [
+        16.34,
+        17.95,
+        11.89
+      ],
+      "timeout": false,
+      "avg_rtt": 15.39
+    },
+    {
+      "hop": 8,
+      "ip": "192.192.61.184",
+      "hostname": null,
+      "rtts": [
+        12.97,
+        13.98,
+        14.6
+      ],
+      "timeout": false,
+      "avg_rtt": 13.85
+    },
+    {
+      "hop": 9,
+      "ip": "192.192.61.203",
+      "hostname": null,
+      "rtts": [
+        15.5,
+        16.01,
+        16.75
+      ],
+      "timeout": false,
+      "avg_rtt": 16.09
+    },
+    {
+      "hop": 10,
+      "ip": "72.14.196.229",
+      "hostname": null,
+      "rtts": [
+        15.81,
+        14.39,
+        13.78
+      ],
+      "timeout": false,
+      "avg_rtt": 14.66
+    },
+    {
+      "hop": 11,
+      "ip": "172.253.64.127",
+      "hostname": null,
+      "rtts": [
+        16.24,
+        15.23,
+        13.62
+      ],
+      "timeout": false,
+      "avg_rtt": 15.03
+    },
+    {
+      "hop": 12,
+      "ip": "209.85.245.65",
+      "hostname": null,
+      "rtts": [
+        12.95,
+        13.5,
+        13.88
+      ],
+      "timeout": false,
+      "avg_rtt": 13.44
+    },
+    {
+      "hop": 13,
+      "ip": "142.250.66.83",
+      "hostname": "hkg12s27-in-f19.1e100.net",
+      "rtts": [
+        13.72,
+        12.2,
+        10.71
+      ],
+      "timeout": false,
+      "reached_destination": true,
+      "avg_rtt": 12.21
+    }
+  ],
+  "num_hops": 13,
+  "success": true,
+  "method": "scapy",
+  "category": "media",
+  "base_domain": "thenewslens.com",
+  "service_variant": "mail.thenewslens.com",
+  "is_bare_domain": false
+}

@@ -1,0 +1,213 @@
+{
+  "timestamp": "2025-10-22T20:44:38.213473",
+  "vantage_point": "university",
+  "target": "app.judicial.gov.tw",
+  "target_ip": "210.69.124.197",
+  "protocol": "tcp",
+  "port": 443,
+  "duration_seconds": 12.89,
+  "hops": [
+    {
+      "hop": 1,
+      "ip": "192.168.50.1",
+      "hostname": null,
+      "rtts": [
+        8.14,
+        6.32,
+        6.51
+      ],
+      "timeout": false,
+      "avg_rtt": 6.99
+    },
+    {
+      "hop": 2,
+      "ip": "140.123.103.250",
+      "hostname": "csgate103.cs.ccu.edu.tw",
+      "rtts": [
+        9.61,
+        8.59,
+        6.42
+      ],
+      "timeout": false,
+      "avg_rtt": 8.21
+    },
+    {
+      "hop": 3,
+      "ip": "140.123.9.249",
+      "hostname": null,
+      "rtts": [
+        12.06,
+        7.4,
+        18.97
+      ],
+      "timeout": false,
+      "avg_rtt": 12.81
+    },
+    {
+      "hop": 4,
+      "ip": "140.123.0.246",
+      "hostname": null,
+      "rtts": [
+        28.39,
+        11.27,
+        9.46
+      ],
+      "timeout": false,
+      "avg_rtt": 16.37
+    },
+    {
+      "hop": 5,
+      "ip": "140.130.252.251",
+      "hostname": null,
+      "rtts": [
+        8.3,
+        7.06,
+        8.39
+      ],
+      "timeout": false,
+      "avg_rtt": 7.92
+    },
+    {
+      "hop": 6,
+      "ip": "192.192.61.142",
+      "hostname": null,
+      "rtts": [
+        9.43,
+        10.54,
+        8.93
+      ],
+      "timeout": false,
+      "avg_rtt": 9.63
+    },
+    {
+      "hop": 7,
+      "ip": "192.192.61.9",
+      "hostname": null,
+      "rtts": [
+        16.54,
+        8.53,
+        9.9
+      ],
+      "timeout": false,
+      "avg_rtt": 11.66
+    },
+    {
+      "hop": 8,
+      "ip": "192.192.61.30",
+      "hostname": null,
+      "rtts": [
+        16.04,
+        15.25,
+        11.9
+      ],
+      "timeout": false,
+      "avg_rtt": 14.4
+    },
+    {
+      "hop": 9,
+      "ip": "192.192.61.4",
+      "hostname": null,
+      "rtts": [
+        10.6,
+        13.88,
+        9.99
+      ],
+      "timeout": false,
+      "avg_rtt": 11.49
+    },
+    {
+      "hop": 10,
+      "ip": "192.192.61.209",
+      "hostname": null,
+      "rtts": [
+        8.65,
+        20.51,
+        8.89
+      ],
+      "timeout": false,
+      "avg_rtt": 12.68
+    },
+    {
+      "hop": 11,
+      "ip": "10.96.81.12",
+      "hostname": null,
+      "rtts": [
+        26.13,
+        28.5,
+        16.31
+      ],
+      "timeout": false,
+      "avg_rtt": 23.65
+    },
+    {
+      "hop": 12,
+      "ip": "210.69.250.126",
+      "hostname": "210-69-250-126.hinet-ip.hinet.net",
+      "rtts": [
+        16.0,
+        12.07,
+        14.32
+      ],
+      "timeout": false,
+      "avg_rtt": 14.13
+    },
+    {
+      "hop": 13,
+      "ip": "210.69.250.118",
+      "hostname": "210-69-250-118.hinet-ip.hinet.net",
+      "rtts": [
+        15.35,
+        11.78,
+        15.02
+      ],
+      "timeout": false,
+      "avg_rtt": 14.05
+    },
+    {
+      "hop": 14,
+      "ip": "163.29.46.145",
+      "hostname": "163-29-46-145.hinet-ip.hinet.net",
+      "rtts": [
+        13.21,
+        17.61,
+        18.74
+      ],
+      "timeout": false,
+      "avg_rtt": 16.52
+    },
+    {
+      "hop": 15,
+      "ip": null,
+      "hostname": null,
+      "rtts": [],
+      "timeout": true
+    },
+    {
+      "hop": 16,
+      "ip": null,
+      "hostname": null,
+      "rtts": [],
+      "timeout": true
+    },
+    {
+      "hop": 17,
+      "ip": "210.69.124.197",
+      "hostname": "210-69-124-197.hinet-ip.hinet.net",
+      "rtts": [
+        17.55,
+        13.87,
+        13.98
+      ],
+      "timeout": false,
+      "reached_destination": true,
+      "avg_rtt": 15.13
+    }
+  ],
+  "num_hops": 17,
+  "success": true,
+  "method": "scapy",
+  "category": "government_critical",
+  "base_domain": "judicial.gov.tw",
+  "service_variant": "app.judicial.gov.tw",
+  "is_bare_domain": false
+}

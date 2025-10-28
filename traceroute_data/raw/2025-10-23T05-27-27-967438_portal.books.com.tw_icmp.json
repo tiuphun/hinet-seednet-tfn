@@ -1,0 +1,298 @@
+{
+  "timestamp": "2025-10-23T05:27:27.967438",
+  "vantage_point": "university",
+  "target": "portal.books.com.tw",
+  "target_ip": "113.196.250.214",
+  "protocol": "icmp",
+  "port": null,
+  "duration_seconds": 98.32,
+  "hops": [
+    {
+      "hop": 1,
+      "ip": "192.168.50.1",
+      "hostname": null,
+      "rtts": [
+        4.4,
+        6.01,
+        4.16
+      ],
+      "timeout": false,
+      "avg_rtt": 4.86
+    },
+    {
+      "hop": 2,
+      "ip": "140.123.103.250",
+      "hostname": "csgate103.cs.ccu.edu.tw",
+      "rtts": [
+        6.38,
+        6.07,
+        4.31
+      ],
+      "timeout": false,
+      "avg_rtt": 5.59
+    },
+    {
+      "hop": 3,
+      "ip": "140.123.9.249",
+      "hostname": null,
+      "rtts": [
+        4.62,
+        4.76,
+        4.36
+      ],
+      "timeout": false,
+      "avg_rtt": 4.58
+    },
+    {
+      "hop": 4,
+      "ip": "140.123.0.246",
+      "hostname": null,
+      "rtts": [
+        9.22,
+        7.61,
+        4.56
+      ],
+      "timeout": false,
+      "avg_rtt": 7.13
+    },
+    {
+      "hop": 5,
+      "ip": "140.130.252.251",
+      "hostname": null,
+      "rtts": [
+        22.69,
+        5.73,
+        10.32
+      ],
+      "timeout": false,
+      "avg_rtt": 12.91
+    },
+    {
+      "hop": 6,
+      "ip": "192.192.61.142",
+      "hostname": null,
+      "rtts": [
+        8.77,
+        8.55,
+        7.63
+      ],
+      "timeout": false,
+      "avg_rtt": 8.32
+    },
+    {
+      "hop": 7,
+      "ip": "192.192.61.20",
+      "hostname": null,
+      "rtts": [
+        8.92,
+        12.76,
+        15.95
+      ],
+      "timeout": false,
+      "avg_rtt": 12.54
+    },
+    {
+      "hop": 8,
+      "ip": "192.192.61.48",
+      "hostname": null,
+      "rtts": [
+        10.59,
+        11.14,
+        10.1
+      ],
+      "timeout": false,
+      "avg_rtt": 10.61
+    },
+    {
+      "hop": 9,
+      "ip": "192.72.123.101",
+      "hostname": "h101-192-72-123.seed.net.tw",
+      "rtts": [
+        24.41,
+        12.06,
+        12.51
+      ],
+      "timeout": false,
+      "avg_rtt": 16.33
+    },
+    {
+      "hop": 10,
+      "ip": "139.175.57.63",
+      "hostname": "r57-63.seed.net.tw",
+      "rtts": [
+        34.2,
+        13.72,
+        17.31
+      ],
+      "timeout": false,
+      "avg_rtt": 21.74
+    },
+    {
+      "hop": 11,
+      "ip": "139.175.57.218",
+      "hostname": "r57-218.seed.net.tw",
+      "rtts": [
+        14.3,
+        18.8,
+        11.35
+      ],
+      "timeout": false,
+      "avg_rtt": 14.82
+    },
+    {
+      "hop": 12,
+      "ip": "192.72.107.98",
+      "hostname": "h98-192-72-107.seed.net.tw",
+      "rtts": [
+        28.33,
+        17.51,
+        16.26
+      ],
+      "timeout": false,
+      "avg_rtt": 20.7
+    },
+    {
+      "hop": 13,
+      "ip": "220.228.20.30",
+      "hostname": null,
+      "rtts": [
+        11.7,
+        14.52,
+        11.53
+      ],
+      "timeout": false,
+      "avg_rtt": 12.58
+    },
+    {
+      "hop": 14,
+      "ip": "218.32.221.21",
+      "hostname": "ll-218-32-221-21.ll.sparqnet.net",
+      "rtts": [
+        11.49,
+        14.21,
+        12.49
+      ],
+      "timeout": false,
+      "avg_rtt": 12.73
+    },
+    {
+      "hop": 15,
+      "ip": null,
+      "hostname": null,
+      "rtts": [],
+      "timeout": true
+    },
+    {
+      "hop": 16,
+      "ip": null,
+      "hostname": null,
+      "rtts": [],
+      "timeout": true
+    },
+    {
+      "hop": 17,
+      "ip": null,
+      "hostname": null,
+      "rtts": [],
+      "timeout": true
+    },
+    {
+      "hop": 18,
+      "ip": null,
+      "hostname": null,
+      "rtts": [],
+      "timeout": true
+    },
+    {
+      "hop": 19,
+      "ip": null,
+      "hostname": null,
+      "rtts": [],
+      "timeout": true
+    },
+    {
+      "hop": 20,
+      "ip": null,
+      "hostname": null,
+      "rtts": [],
+      "timeout": true
+    },
+    {
+      "hop": 21,
+      "ip": null,
+      "hostname": null,
+      "rtts": [],
+      "timeout": true
+    },
+    {
+      "hop": 22,
+      "ip": null,
+      "hostname": null,
+      "rtts": [],
+      "timeout": true
+    },
+    {
+      "hop": 23,
+      "ip": null,
+      "hostname": null,
+      "rtts": [],
+      "timeout": true
+    },
+    {
+      "hop": 24,
+      "ip": null,
+      "hostname": null,
+      "rtts": [],
+      "timeout": true
+    },
+    {
+      "hop": 25,
+      "ip": null,
+      "hostname": null,
+      "rtts": [],
+      "timeout": true
+    },
+    {
+      "hop": 26,
+      "ip": null,
+      "hostname": null,
+      "rtts": [],
+      "timeout": true
+    },
+    {
+      "hop": 27,
+      "ip": null,
+      "hostname": null,
+      "rtts": [],
+      "timeout": true
+    },
+    {
+      "hop": 28,
+      "ip": null,
+      "hostname": null,
+      "rtts": [],
+      "timeout": true
+    },
+    {
+      "hop": 29,
+      "ip": null,
+      "hostname": null,
+      "rtts": [],
+      "timeout": true
+    },
+    {
+      "hop": 30,
+      "ip": null,
+      "hostname": null,
+      "rtts": [],
+      "timeout": true
+    }
+  ],
+  "num_hops": 30,
+  "success": false,
+  "method": "scapy",
+  "category": "ecommerce_tech",
+  "base_domain": "books.com.tw",
+  "service_variant": "portal.books.com.tw",
+  "is_bare_domain": false
+}

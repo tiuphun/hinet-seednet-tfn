@@ -1,0 +1,153 @@
+{
+  "timestamp": "2025-10-22T21:56:57.420695",
+  "vantage_point": "university",
+  "target": "mail.nchu.edu.tw",
+  "target_ip": "140.120.152.123",
+  "protocol": "tcp",
+  "port": 80,
+  "duration_seconds": 12.55,
+  "hops": [
+    {
+      "hop": 1,
+      "ip": "192.168.50.1",
+      "hostname": null,
+      "rtts": [
+        13.67,
+        4.08,
+        5.37
+      ],
+      "timeout": false,
+      "avg_rtt": 7.71
+    },
+    {
+      "hop": 2,
+      "ip": "140.123.103.250",
+      "hostname": "csgate103.cs.ccu.edu.tw",
+      "rtts": [
+        4.96,
+        4.18,
+        4.41
+      ],
+      "timeout": false,
+      "avg_rtt": 4.52
+    },
+    {
+      "hop": 3,
+      "ip": "140.123.9.249",
+      "hostname": null,
+      "rtts": [
+        4.27,
+        5.32,
+        5.0
+      ],
+      "timeout": false,
+      "avg_rtt": 4.86
+    },
+    {
+      "hop": 4,
+      "ip": "140.123.0.246",
+      "hostname": null,
+      "rtts": [
+        5.52,
+        4.48,
+        4.44
+      ],
+      "timeout": false,
+      "avg_rtt": 4.81
+    },
+    {
+      "hop": 5,
+      "ip": "140.130.252.251",
+      "hostname": null,
+      "rtts": [
+        8.67,
+        15.19,
+        5.31
+      ],
+      "timeout": false,
+      "avg_rtt": 9.72
+    },
+    {
+      "hop": 6,
+      "ip": "192.192.61.142",
+      "hostname": null,
+      "rtts": [
+        34.46,
+        10.82,
+        9.85
+      ],
+      "timeout": false,
+      "avg_rtt": 18.38
+    },
+    {
+      "hop": 7,
+      "ip": "192.192.61.9",
+      "hostname": null,
+      "rtts": [
+        9.43,
+        15.04,
+        8.19
+      ],
+      "timeout": false,
+      "avg_rtt": 10.89
+    },
+    {
+      "hop": 8,
+      "ip": "192.192.61.121",
+      "hostname": null,
+      "rtts": [
+        8.8,
+        7.25,
+        7.95
+      ],
+      "timeout": false,
+      "avg_rtt": 8.0
+    },
+    {
+      "hop": 9,
+      "ip": "140.128.251.249",
+      "hostname": null,
+      "rtts": [
+        10.98,
+        7.96,
+        6.86
+      ],
+      "timeout": false,
+      "avg_rtt": 8.6
+    },
+    {
+      "hop": 10,
+      "ip": null,
+      "hostname": null,
+      "rtts": [],
+      "timeout": true
+    },
+    {
+      "hop": 11,
+      "ip": null,
+      "hostname": null,
+      "rtts": [],
+      "timeout": true
+    },
+    {
+      "hop": 12,
+      "ip": "140.120.152.123",
+      "hostname": "mail.nchu.edu.tw",
+      "rtts": [
+        10.97,
+        14.82,
+        10.58
+      ],
+      "timeout": false,
+      "reached_destination": true,
+      "avg_rtt": 12.12
+    }
+  ],
+  "num_hops": 12,
+  "success": true,
+  "method": "scapy",
+  "category": "universities",
+  "base_domain": "nchu.edu.tw",
+  "service_variant": "mail.nchu.edu.tw",
+  "is_bare_domain": false
+}

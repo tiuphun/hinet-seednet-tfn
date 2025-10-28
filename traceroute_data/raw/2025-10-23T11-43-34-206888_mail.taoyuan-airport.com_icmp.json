@@ -1,0 +1,148 @@
+{
+  "timestamp": "2025-10-23T11:43:34.206888",
+  "vantage_point": "university",
+  "target": "mail.taoyuan-airport.com",
+  "target_ip": "60.251.215.149",
+  "protocol": "icmp",
+  "port": null,
+  "duration_seconds": 19.04,
+  "hops": [
+    {
+      "hop": 1,
+      "ip": "192.168.50.1",
+      "hostname": null,
+      "rtts": [
+        4.41,
+        6.52,
+        11.08
+      ],
+      "timeout": false,
+      "avg_rtt": 7.34
+    },
+    {
+      "hop": 2,
+      "ip": "140.123.103.250",
+      "hostname": "csgate103.cs.ccu.edu.tw",
+      "rtts": [
+        9.59,
+        9.47,
+        7.14
+      ],
+      "timeout": false,
+      "avg_rtt": 8.73
+    },
+    {
+      "hop": 3,
+      "ip": "140.123.9.249",
+      "hostname": null,
+      "rtts": [
+        9.53,
+        6.61,
+        7.27
+      ],
+      "timeout": false,
+      "avg_rtt": 7.8
+    },
+    {
+      "hop": 4,
+      "ip": "140.123.0.246",
+      "hostname": null,
+      "rtts": [
+        7.27,
+        5.0,
+        8.61
+      ],
+      "timeout": false,
+      "avg_rtt": 6.96
+    },
+    {
+      "hop": 5,
+      "ip": "140.130.252.251",
+      "hostname": null,
+      "rtts": [
+        10.85,
+        5.71,
+        19.82
+      ],
+      "timeout": false,
+      "avg_rtt": 12.13
+    },
+    {
+      "hop": 6,
+      "ip": "211.22.226.198",
+      "hostname": "211-22-226-198.caw1-3332.hinet.net",
+      "rtts": [
+        7.33,
+        11.67,
+        8.06
+      ],
+      "timeout": false,
+      "avg_rtt": 9.02
+    },
+    {
+      "hop": 7,
+      "ip": null,
+      "hostname": null,
+      "rtts": [],
+      "timeout": true
+    },
+    {
+      "hop": 8,
+      "ip": null,
+      "hostname": null,
+      "rtts": [],
+      "timeout": true
+    },
+    {
+      "hop": 9,
+      "ip": "220.128.4.217",
+      "hostname": "220-128-4-217.tpdt-3309.hinet.net",
+      "rtts": [
+        17.81,
+        22.92,
+        26.54
+      ],
+      "timeout": false,
+      "avg_rtt": 22.42
+    },
+    {
+      "hop": 10,
+      "ip": "168.95.209.29",
+      "hostname": "h29.s209.ts.hinet.net",
+      "rtts": [
+        24.81,
+        39.73,
+        41.57
+      ],
+      "timeout": false,
+      "avg_rtt": 35.37
+    },
+    {
+      "hop": 11,
+      "ip": null,
+      "hostname": null,
+      "rtts": [],
+      "timeout": true
+    },
+    {
+      "hop": 12,
+      "ip": "60.251.215.149",
+      "hostname": "mail.taoyuan-airport.com",
+      "rtts": [
+        15.58,
+        56.73,
+        23.83
+      ],
+      "timeout": false,
+      "reached_destination": true,
+      "avg_rtt": 32.05
+    }
+  ],
+  "num_hops": 12,
+  "success": true,
+  "method": "scapy",
+  "category": "critical_infra",
+  "base_domain": "taoyuan-airport.com",
+  "service_variant": "mail.taoyuan-airport.com",
+  "is_bare_domain": false
+}

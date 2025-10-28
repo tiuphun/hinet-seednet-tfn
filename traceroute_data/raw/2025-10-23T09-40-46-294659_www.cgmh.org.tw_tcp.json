@@ -1,0 +1,181 @@
+{
+  "timestamp": "2025-10-23T09:40:46.294659",
+  "vantage_point": "university",
+  "target": "www.cgmh.org.tw",
+  "target_ip": "3.169.36.53",
+  "protocol": "tcp",
+  "port": 80,
+  "duration_seconds": 37.18,
+  "hops": [
+    {
+      "hop": 1,
+      "ip": "192.168.50.1",
+      "hostname": null,
+      "rtts": [
+        8.56,
+        6.47,
+        5.63
+      ],
+      "timeout": false,
+      "avg_rtt": 6.89
+    },
+    {
+      "hop": 2,
+      "ip": "140.123.103.250",
+      "hostname": "csgate103.cs.ccu.edu.tw",
+      "rtts": [
+        6.52,
+        6.7,
+        6.18
+      ],
+      "timeout": false,
+      "avg_rtt": 6.47
+    },
+    {
+      "hop": 3,
+      "ip": "140.123.9.249",
+      "hostname": null,
+      "rtts": [
+        10.09,
+        7.78,
+        26.57
+      ],
+      "timeout": false,
+      "avg_rtt": 14.81
+    },
+    {
+      "hop": 4,
+      "ip": "140.123.0.246",
+      "hostname": null,
+      "rtts": [
+        8.76,
+        9.4,
+        6.89
+      ],
+      "timeout": false,
+      "avg_rtt": 8.35
+    },
+    {
+      "hop": 5,
+      "ip": "140.130.252.251",
+      "hostname": null,
+      "rtts": [
+        9.15,
+        17.77,
+        17.33
+      ],
+      "timeout": false,
+      "avg_rtt": 14.75
+    },
+    {
+      "hop": 6,
+      "ip": "192.192.61.142",
+      "hostname": null,
+      "rtts": [
+        11.92,
+        12.22,
+        17.47
+      ],
+      "timeout": false,
+      "avg_rtt": 13.87
+    },
+    {
+      "hop": 7,
+      "ip": "192.192.61.20",
+      "hostname": null,
+      "rtts": [
+        13.28,
+        13.98,
+        12.93
+      ],
+      "timeout": false,
+      "avg_rtt": 13.4
+    },
+    {
+      "hop": 8,
+      "ip": "192.192.61.48",
+      "hostname": null,
+      "rtts": [
+        15.0,
+        14.97,
+        13.63
+      ],
+      "timeout": false,
+      "avg_rtt": 14.53
+    },
+    {
+      "hop": 9,
+      "ip": "192.192.68.62",
+      "hostname": null,
+      "rtts": [
+        16.91,
+        14.92,
+        16.82
+      ],
+      "timeout": false,
+      "avg_rtt": 16.22
+    },
+    {
+      "hop": 10,
+      "ip": null,
+      "hostname": null,
+      "rtts": [],
+      "timeout": true
+    },
+    {
+      "hop": 11,
+      "ip": null,
+      "hostname": null,
+      "rtts": [],
+      "timeout": true
+    },
+    {
+      "hop": 12,
+      "ip": null,
+      "hostname": null,
+      "rtts": [],
+      "timeout": true
+    },
+    {
+      "hop": 13,
+      "ip": null,
+      "hostname": null,
+      "rtts": [],
+      "timeout": true
+    },
+    {
+      "hop": 14,
+      "ip": null,
+      "hostname": null,
+      "rtts": [],
+      "timeout": true
+    },
+    {
+      "hop": 15,
+      "ip": null,
+      "hostname": null,
+      "rtts": [],
+      "timeout": true
+    },
+    {
+      "hop": 16,
+      "ip": "3.169.36.53",
+      "hostname": "server-3-169-36-53.tpe53.r.cloudfront.net",
+      "rtts": [
+        23.39,
+        18.42,
+        17.44
+      ],
+      "timeout": false,
+      "reached_destination": true,
+      "avg_rtt": 19.75
+    }
+  ],
+  "num_hops": 16,
+  "success": true,
+  "method": "scapy",
+  "category": "healthcare",
+  "base_domain": "cgmh.org.tw",
+  "service_variant": "www.cgmh.org.tw",
+  "is_bare_domain": false
+}

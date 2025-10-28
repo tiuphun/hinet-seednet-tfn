@@ -1,0 +1,176 @@
+{
+  "timestamp": "2025-10-22T10:04:24.821447",
+  "vantage_point": "university",
+  "target": "app.sinica.edu.tw",
+  "target_ip": "140.109.4.111",
+  "protocol": "icmp",
+  "port": null,
+  "duration_seconds": 20.21,
+  "hops": [
+    {
+      "hop": 2,
+      "ip": "140.123.103.250",
+      "hostname": "csgate103.cs.ccu.edu.tw",
+      "rtts": [
+        2.352,
+        2.415,
+        2.261
+      ],
+      "avg_rtt": 2.34,
+      "timeout": false
+    },
+    {
+      "hop": 3,
+      "ip": "140.123.9.249",
+      "hostname": "140.123.9.249",
+      "rtts": [
+        2.467,
+        3.131,
+        2.513
+      ],
+      "avg_rtt": 2.7,
+      "timeout": false
+    },
+    {
+      "hop": 4,
+      "ip": "140.123.0.246",
+      "hostname": "140.123.0.246",
+      "rtts": [
+        4.099,
+        7.481,
+        3.286
+      ],
+      "avg_rtt": 4.96,
+      "timeout": false
+    },
+    {
+      "hop": 5,
+      "ip": "140.130.252.251",
+      "hostname": "140.130.252.251",
+      "rtts": [
+        11.667,
+        6.948,
+        10.69
+      ],
+      "avg_rtt": 9.77,
+      "timeout": false
+    },
+    {
+      "hop": 6,
+      "ip": "192.192.61.142",
+      "hostname": "192.192.61.142",
+      "rtts": [
+        6.251,
+        6.605,
+        5.243
+      ],
+      "avg_rtt": 6.03,
+      "timeout": false
+    },
+    {
+      "hop": 7,
+      "ip": "192.192.61.37",
+      "hostname": "192.192.61.37",
+      "rtts": [
+        171.368,
+        11.645,
+        14.429
+      ],
+      "avg_rtt": 65.81,
+      "timeout": false
+    },
+    {
+      "hop": 8,
+      "ip": "192.192.61.32",
+      "hostname": "192.192.61.32",
+      "rtts": [
+        7.992,
+        8.607,
+        45.977
+      ],
+      "avg_rtt": 20.86,
+      "timeout": false
+    },
+    {
+      "hop": 9,
+      "ip": "192.192.61.209",
+      "hostname": "192.192.61.209",
+      "rtts": [
+        13.131,
+        7.524,
+        10.627
+      ],
+      "avg_rtt": 10.43,
+      "timeout": false
+    },
+    {
+      "hop": 10,
+      "ip": "10.96.81.4",
+      "hostname": "10.96.81.4",
+      "rtts": [
+        9.176,
+        11.623,
+        9.663
+      ],
+      "avg_rtt": 10.15,
+      "timeout": false
+    },
+    {
+      "hop": 11,
+      "ip": "202.169.174.50",
+      "hostname": "202.169.174.50",
+      "rtts": [
+        9.605,
+        12.397,
+        9.998
+      ],
+      "avg_rtt": 10.67,
+      "timeout": false
+    },
+    {
+      "hop": 12,
+      "ip": "202.169.174.2",
+      "hostname": "202.169.174.2",
+      "rtts": [
+        10.057,
+        12.665,
+        10.19
+      ],
+      "avg_rtt": 10.97,
+      "timeout": false
+    },
+    {
+      "hop": 13,
+      "ip": null,
+      "hostname": null,
+      "rtts": [],
+      "timeout": true
+    },
+    {
+      "hop": 14,
+      "ip": null,
+      "hostname": null,
+      "rtts": [],
+      "timeout": true
+    },
+    {
+      "hop": 15,
+      "ip": "140.109.4.111",
+      "hostname": "app.sinica.edu.tw",
+      "rtts": [
+        159.927,
+        10.746,
+        19.923
+      ],
+      "avg_rtt": 63.53,
+      "timeout": false
+    }
+  ],
+  "num_hops": 14,
+  "success": true,
+  "raw_output": " 1  192.168.50.1 (192.168.50.1)  8.939 ms  1.881 ms  1.978 ms\n 2  csgate103.cs.ccu.edu.tw (140.123.103.250)  2.352 ms  2.415 ms  2.261 ms\n 3  140.123.9.249 (140.123.9.249)  2.467 ms  3.131 ms  2.513 ms\n 4  140.123.0.246 (140.123.0.246)  4.099 ms  7.481 ms  3.286 ms\n 5  140.130.252.251 (140.130.252.251)  11.667 ms  6.948 ms  10.690 ms\n 6  192.192.61.142 (192.192.61.142)  6.251 ms  6.605 ms  5.243 ms\n 7  192.192.61.37 (192.192.61.37)  171.368 ms  11.645 ms  14.429 ms\n 8  192.192.61.32 (192.192.61.32)  7.992 ms  8.607 ms  45.977 ms\n 9  192.192.61.209 (192.192.61.209)  13.131 ms  7.524 ms  10.627 ms\n10  10.96.81.4 (10.96.81.4)  9.176 ms  11.623 ms  9.663 ms\n11  202.169.174.50 (202.169.174.50)  9.605 ms  12.397 ms  9.998 ms\n12  202.169.174.2 (202.169.174.2)  10.057 ms  12.665 ms  10.190 ms\n13  * * *\n14  * * *\n15  app.sinica.edu.tw (140.109.4.111)  159.927 ms  10.746 ms  19.923 ms\n",
+  "category": "education_network",
+  "base_domain": "sinica.edu.tw",
+  "service_variant": "app.sinica.edu.tw",
+  "is_bare_domain": false
+}

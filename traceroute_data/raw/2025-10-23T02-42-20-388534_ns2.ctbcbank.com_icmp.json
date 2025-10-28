@@ -1,0 +1,285 @@
+{
+  "timestamp": "2025-10-23T02:42:20.388534",
+  "vantage_point": "university",
+  "target": "ns2.ctbcbank.com",
+  "target_ip": "203.66.181.153",
+  "protocol": "icmp",
+  "port": null,
+  "duration_seconds": 122.55,
+  "hops": [
+    {
+      "hop": 1,
+      "ip": "192.168.50.1",
+      "hostname": null,
+      "rtts": [
+        22.96,
+        7.22,
+        8.18
+      ],
+      "timeout": false,
+      "avg_rtt": 12.79
+    },
+    {
+      "hop": 2,
+      "ip": "140.123.103.250",
+      "hostname": "csgate103.cs.ccu.edu.tw",
+      "rtts": [
+        6.14,
+        5.36,
+        5.49
+      ],
+      "timeout": false,
+      "avg_rtt": 5.66
+    },
+    {
+      "hop": 3,
+      "ip": "140.123.9.249",
+      "hostname": null,
+      "rtts": [
+        5.81,
+        9.76,
+        6.79
+      ],
+      "timeout": false,
+      "avg_rtt": 7.45
+    },
+    {
+      "hop": 4,
+      "ip": "140.123.0.246",
+      "hostname": null,
+      "rtts": [
+        8.48,
+        12.05,
+        9.21
+      ],
+      "timeout": false,
+      "avg_rtt": 9.91
+    },
+    {
+      "hop": 5,
+      "ip": "140.130.252.251",
+      "hostname": null,
+      "rtts": [
+        12.02,
+        8.23,
+        7.6
+      ],
+      "timeout": false,
+      "avg_rtt": 9.28
+    },
+    {
+      "hop": 6,
+      "ip": "211.22.226.198",
+      "hostname": "211-22-226-198.caw1-3332.hinet.net",
+      "rtts": [
+        15.24,
+        13.15,
+        10.17
+      ],
+      "timeout": false,
+      "avg_rtt": 12.85
+    },
+    {
+      "hop": 7,
+      "ip": null,
+      "hostname": null,
+      "rtts": [],
+      "timeout": true
+    },
+    {
+      "hop": 8,
+      "ip": null,
+      "hostname": null,
+      "rtts": [],
+      "timeout": true
+    },
+    {
+      "hop": 9,
+      "ip": "220.128.4.221",
+      "hostname": "220-128-4-221.tpdt-3310.hinet.net",
+      "rtts": [
+        16.77,
+        21.06,
+        12.46
+      ],
+      "timeout": false,
+      "avg_rtt": 16.76
+    },
+    {
+      "hop": 10,
+      "ip": "168.95.210.45",
+      "hostname": "h45.s210.ts.hinet.net",
+      "rtts": [
+        14.56,
+        12.16,
+        14.65
+      ],
+      "timeout": false,
+      "avg_rtt": 13.79
+    },
+    {
+      "hop": 11,
+      "ip": null,
+      "hostname": null,
+      "rtts": [],
+      "timeout": true
+    },
+    {
+      "hop": 12,
+      "ip": "203.69.62.33",
+      "hostname": "customer.wan-port.ar.hinet.net",
+      "rtts": [
+        28.05,
+        16.77,
+        17.38
+      ],
+      "timeout": false,
+      "avg_rtt": 20.73
+    },
+    {
+      "hop": 13,
+      "ip": "203.69.62.33",
+      "hostname": "customer.wan-port.ar.hinet.net",
+      "rtts": [
+        35.51
+      ],
+      "timeout": false,
+      "avg_rtt": 35.51
+    },
+    {
+      "hop": 14,
+      "ip": "203.69.62.33",
+      "hostname": "customer.wan-port.ar.hinet.net",
+      "rtts": [
+        29.69
+      ],
+      "timeout": false,
+      "avg_rtt": 29.69
+    },
+    {
+      "hop": 15,
+      "ip": null,
+      "hostname": null,
+      "rtts": [],
+      "timeout": true
+    },
+    {
+      "hop": 16,
+      "ip": null,
+      "hostname": null,
+      "rtts": [],
+      "timeout": true
+    },
+    {
+      "hop": 17,
+      "ip": null,
+      "hostname": null,
+      "rtts": [],
+      "timeout": true
+    },
+    {
+      "hop": 18,
+      "ip": "203.69.62.33",
+      "hostname": "customer.wan-port.ar.hinet.net",
+      "rtts": [
+        23.39
+      ],
+      "timeout": false,
+      "avg_rtt": 23.39
+    },
+    {
+      "hop": 19,
+      "ip": null,
+      "hostname": null,
+      "rtts": [],
+      "timeout": true
+    },
+    {
+      "hop": 20,
+      "ip": null,
+      "hostname": null,
+      "rtts": [],
+      "timeout": true
+    },
+    {
+      "hop": 21,
+      "ip": null,
+      "hostname": null,
+      "rtts": [],
+      "timeout": true
+    },
+    {
+      "hop": 22,
+      "ip": "220.128.25.166",
+      "hostname": "220-128-25-166.tpdt-3052.hinet.net",
+      "rtts": [
+        1609.94
+      ],
+      "timeout": false,
+      "avg_rtt": 1609.94
+    },
+    {
+      "hop": 23,
+      "ip": null,
+      "hostname": null,
+      "rtts": [],
+      "timeout": true
+    },
+    {
+      "hop": 24,
+      "ip": null,
+      "hostname": null,
+      "rtts": [],
+      "timeout": true
+    },
+    {
+      "hop": 25,
+      "ip": null,
+      "hostname": null,
+      "rtts": [],
+      "timeout": true
+    },
+    {
+      "hop": 26,
+      "ip": null,
+      "hostname": null,
+      "rtts": [],
+      "timeout": true
+    },
+    {
+      "hop": 27,
+      "ip": null,
+      "hostname": null,
+      "rtts": [],
+      "timeout": true
+    },
+    {
+      "hop": 28,
+      "ip": null,
+      "hostname": null,
+      "rtts": [],
+      "timeout": true
+    },
+    {
+      "hop": 29,
+      "ip": null,
+      "hostname": null,
+      "rtts": [],
+      "timeout": true
+    },
+    {
+      "hop": 30,
+      "ip": null,
+      "hostname": null,
+      "rtts": [],
+      "timeout": true
+    }
+  ],
+  "num_hops": 30,
+  "success": false,
+  "method": "scapy",
+  "category": "financial_banks",
+  "base_domain": "ctbcbank.com",
+  "service_variant": "ns2.ctbcbank.com",
+  "is_bare_domain": false
+}

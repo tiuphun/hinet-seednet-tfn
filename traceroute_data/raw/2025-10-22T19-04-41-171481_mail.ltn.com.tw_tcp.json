@@ -1,0 +1,199 @@
+{
+  "timestamp": "2025-10-22T19:04:41.171481",
+  "vantage_point": "university",
+  "target": "mail.ltn.com.tw",
+  "target_ip": "123.51.239.29",
+  "protocol": "tcp",
+  "port": 80,
+  "duration_seconds": 1.95,
+  "hops": [
+    {
+      "hop": 1,
+      "ip": "192.168.50.1",
+      "hostname": null,
+      "rtts": [
+        4.69,
+        5.27,
+        7.11
+      ],
+      "timeout": false,
+      "avg_rtt": 5.69
+    },
+    {
+      "hop": 2,
+      "ip": "140.123.103.250",
+      "hostname": "csgate103.cs.ccu.edu.tw",
+      "rtts": [
+        13.43,
+        10.46,
+        4.41
+      ],
+      "timeout": false,
+      "avg_rtt": 9.43
+    },
+    {
+      "hop": 3,
+      "ip": "140.123.9.249",
+      "hostname": null,
+      "rtts": [
+        4.21,
+        4.12,
+        3.96
+      ],
+      "timeout": false,
+      "avg_rtt": 4.1
+    },
+    {
+      "hop": 4,
+      "ip": "140.123.0.246",
+      "hostname": null,
+      "rtts": [
+        4.76,
+        4.79,
+        6.45
+      ],
+      "timeout": false,
+      "avg_rtt": 5.33
+    },
+    {
+      "hop": 5,
+      "ip": "140.130.252.251",
+      "hostname": null,
+      "rtts": [
+        6.2,
+        6.3,
+        5.78
+      ],
+      "timeout": false,
+      "avg_rtt": 6.09
+    },
+    {
+      "hop": 6,
+      "ip": "192.192.61.142",
+      "hostname": null,
+      "rtts": [
+        7.47,
+        8.63,
+        8.34
+      ],
+      "timeout": false,
+      "avg_rtt": 8.15
+    },
+    {
+      "hop": 7,
+      "ip": "192.192.61.20",
+      "hostname": null,
+      "rtts": [
+        9.12,
+        9.98,
+        8.28
+      ],
+      "timeout": false,
+      "avg_rtt": 9.13
+    },
+    {
+      "hop": 8,
+      "ip": "192.192.61.48",
+      "hostname": null,
+      "rtts": [
+        9.61,
+        9.03,
+        10.1
+      ],
+      "timeout": false,
+      "avg_rtt": 9.58
+    },
+    {
+      "hop": 9,
+      "ip": "192.72.123.77",
+      "hostname": "h77-192-72-123.seed.net.tw",
+      "rtts": [
+        12.0,
+        22.34,
+        25.34
+      ],
+      "timeout": false,
+      "avg_rtt": 19.89
+    },
+    {
+      "hop": 10,
+      "ip": "139.175.57.63",
+      "hostname": "r57-63.seed.net.tw",
+      "rtts": [
+        11.53,
+        11.88,
+        18.33
+      ],
+      "timeout": false,
+      "avg_rtt": 13.91
+    },
+    {
+      "hop": 11,
+      "ip": "139.175.56.142",
+      "hostname": "r56-142.seed.net.tw",
+      "rtts": [
+        15.66,
+        15.04,
+        14.61
+      ],
+      "timeout": false,
+      "avg_rtt": 15.1
+    },
+    {
+      "hop": 12,
+      "ip": "192.72.107.190",
+      "hostname": "h190-192-72-107.seed.net.tw",
+      "rtts": [
+        19.15,
+        18.04,
+        16.19
+      ],
+      "timeout": false,
+      "avg_rtt": 17.79
+    },
+    {
+      "hop": 13,
+      "ip": "220.228.20.158",
+      "hostname": null,
+      "rtts": [
+        13.64,
+        12.89,
+        16.56
+      ],
+      "timeout": false,
+      "avg_rtt": 14.36
+    },
+    {
+      "hop": 14,
+      "ip": "123.51.239.24",
+      "hostname": null,
+      "rtts": [
+        14.88,
+        14.56,
+        14.35
+      ],
+      "timeout": false,
+      "avg_rtt": 14.6
+    },
+    {
+      "hop": 15,
+      "ip": "123.51.239.29",
+      "hostname": "mail.ltn.com.tw",
+      "rtts": [
+        14.57,
+        12.4,
+        12.1
+      ],
+      "timeout": false,
+      "reached_destination": true,
+      "avg_rtt": 13.02
+    }
+  ],
+  "num_hops": 15,
+  "success": true,
+  "method": "scapy",
+  "category": "media",
+  "base_domain": "ltn.com.tw",
+  "service_variant": "mail.ltn.com.tw",
+  "is_bare_domain": false
+}

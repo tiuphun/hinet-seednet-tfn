@@ -1,0 +1,149 @@
+{
+  "timestamp": "2025-10-23T11:30:13.813015",
+  "vantage_point": "university",
+  "target": "api.metro.taipei",
+  "target_ip": "104.18.10.245",
+  "protocol": "tcp",
+  "port": 443,
+  "duration_seconds": 4.63,
+  "hops": [
+    {
+      "hop": 1,
+      "ip": "192.168.50.1",
+      "hostname": null,
+      "rtts": [
+        39.22,
+        21.28,
+        11.39
+      ],
+      "timeout": false,
+      "avg_rtt": 23.96
+    },
+    {
+      "hop": 2,
+      "ip": "140.123.103.250",
+      "hostname": "csgate103.cs.ccu.edu.tw",
+      "rtts": [
+        10.22,
+        8.39,
+        10.14
+      ],
+      "timeout": false,
+      "avg_rtt": 9.58
+    },
+    {
+      "hop": 3,
+      "ip": "140.123.9.249",
+      "hostname": null,
+      "rtts": [
+        10.19,
+        11.13,
+        15.06
+      ],
+      "timeout": false,
+      "avg_rtt": 12.13
+    },
+    {
+      "hop": 4,
+      "ip": "140.123.0.246",
+      "hostname": null,
+      "rtts": [
+        10.05,
+        7.23,
+        15.98
+      ],
+      "timeout": false,
+      "avg_rtt": 11.09
+    },
+    {
+      "hop": 5,
+      "ip": "140.130.252.251",
+      "hostname": null,
+      "rtts": [
+        9.47,
+        15.12,
+        16.21
+      ],
+      "timeout": false,
+      "avg_rtt": 13.6
+    },
+    {
+      "hop": 6,
+      "ip": "192.192.61.142",
+      "hostname": null,
+      "rtts": [
+        11.57,
+        36.63,
+        12.48
+      ],
+      "timeout": false,
+      "avg_rtt": 20.23
+    },
+    {
+      "hop": 7,
+      "ip": "192.192.61.20",
+      "hostname": null,
+      "rtts": [
+        14.48,
+        51.44,
+        13.64
+      ],
+      "timeout": false,
+      "avg_rtt": 26.52
+    },
+    {
+      "hop": 8,
+      "ip": "192.192.61.48",
+      "hostname": null,
+      "rtts": [
+        26.84,
+        17.47,
+        30.67
+      ],
+      "timeout": false,
+      "avg_rtt": 24.99
+    },
+    {
+      "hop": 9,
+      "ip": "192.192.68.62",
+      "hostname": null,
+      "rtts": [
+        13.87,
+        14.84,
+        26.41
+      ],
+      "timeout": false,
+      "avg_rtt": 18.37
+    },
+    {
+      "hop": 10,
+      "ip": "203.163.222.39",
+      "hostname": "39-222-163-203-static.tpix.net.tw",
+      "rtts": [
+        13.71
+      ],
+      "timeout": false,
+      "avg_rtt": 13.71
+    },
+    {
+      "hop": 11,
+      "ip": "104.18.10.245",
+      "hostname": null,
+      "rtts": [
+        19.99,
+        14.98,
+        17.72
+      ],
+      "timeout": false,
+      "reached_destination": true,
+      "avg_rtt": 17.56
+    }
+  ],
+  "num_hops": 11,
+  "success": true,
+  "method": "scapy",
+  "category": "critical_infra",
+  "base_domain": "metro.taipei",
+  "service_variant": "api.metro.taipei",
+  "is_bare_domain": false
+}

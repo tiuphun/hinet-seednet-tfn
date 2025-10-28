@@ -1,0 +1,273 @@
+{
+  "timestamp": "2025-10-23T14:15:10.704808",
+  "vantage_point": "university",
+  "target": "ns2.nchc.org.tw",
+  "target_ip": "140.110.96.2",
+  "protocol": "icmp",
+  "port": null,
+  "duration_seconds": 128.84,
+  "hops": [
+    {
+      "hop": 1,
+      "ip": "192.168.50.1",
+      "hostname": null,
+      "rtts": [
+        20.78,
+        10.12,
+        9.23
+      ],
+      "timeout": false,
+      "avg_rtt": 13.38
+    },
+    {
+      "hop": 2,
+      "ip": "140.123.103.250",
+      "hostname": "csgate103.cs.ccu.edu.tw",
+      "rtts": [
+        6.31,
+        6.56,
+        6.62
+      ],
+      "timeout": false,
+      "avg_rtt": 6.5
+    },
+    {
+      "hop": 3,
+      "ip": "140.123.9.249",
+      "hostname": null,
+      "rtts": [
+        5.91,
+        8.16,
+        11.47
+      ],
+      "timeout": false,
+      "avg_rtt": 8.51
+    },
+    {
+      "hop": 4,
+      "ip": "140.123.0.246",
+      "hostname": null,
+      "rtts": [
+        6.77,
+        6.61,
+        8.34
+      ],
+      "timeout": false,
+      "avg_rtt": 7.24
+    },
+    {
+      "hop": 5,
+      "ip": "211.79.57.25",
+      "hostname": "ccu-ccu-76.twaren.net",
+      "rtts": [
+        11.12,
+        10.38,
+        8.12
+      ],
+      "timeout": false,
+      "avg_rtt": 9.87
+    },
+    {
+      "hop": 6,
+      "ip": "211.73.76.209",
+      "hostname": "tp-a1.twaren.net",
+      "rtts": [
+        16.76,
+        12.36,
+        11.32
+      ],
+      "timeout": false,
+      "avg_rtt": 13.48
+    },
+    {
+      "hop": 7,
+      "ip": "211.79.63.225",
+      "hostname": null,
+      "rtts": [
+        10.29,
+        8.73,
+        9.2
+      ],
+      "timeout": false,
+      "avg_rtt": 9.41
+    },
+    {
+      "hop": 8,
+      "ip": "211.79.59.54",
+      "hostname": "1ge-ge-rp1.tpc-tpc.twaren.net",
+      "rtts": [
+        22.72,
+        8.91,
+        11.51
+      ],
+      "timeout": false,
+      "avg_rtt": 14.38
+    },
+    {
+      "hop": 9,
+      "ip": "140.110.127.197",
+      "hostname": null,
+      "rtts": [
+        28.67,
+        10.22,
+        8.85
+      ],
+      "timeout": false,
+      "avg_rtt": 15.91
+    },
+    {
+      "hop": 10,
+      "ip": null,
+      "hostname": null,
+      "rtts": [],
+      "timeout": true
+    },
+    {
+      "hop": 11,
+      "ip": null,
+      "hostname": null,
+      "rtts": [],
+      "timeout": true
+    },
+    {
+      "hop": 12,
+      "ip": null,
+      "hostname": null,
+      "rtts": [],
+      "timeout": true
+    },
+    {
+      "hop": 13,
+      "ip": null,
+      "hostname": null,
+      "rtts": [],
+      "timeout": true
+    },
+    {
+      "hop": 14,
+      "ip": null,
+      "hostname": null,
+      "rtts": [],
+      "timeout": true
+    },
+    {
+      "hop": 15,
+      "ip": null,
+      "hostname": null,
+      "rtts": [],
+      "timeout": true
+    },
+    {
+      "hop": 16,
+      "ip": null,
+      "hostname": null,
+      "rtts": [],
+      "timeout": true
+    },
+    {
+      "hop": 17,
+      "ip": null,
+      "hostname": null,
+      "rtts": [],
+      "timeout": true
+    },
+    {
+      "hop": 18,
+      "ip": null,
+      "hostname": null,
+      "rtts": [],
+      "timeout": true
+    },
+    {
+      "hop": 19,
+      "ip": null,
+      "hostname": null,
+      "rtts": [],
+      "timeout": true
+    },
+    {
+      "hop": 20,
+      "ip": null,
+      "hostname": null,
+      "rtts": [],
+      "timeout": true
+    },
+    {
+      "hop": 21,
+      "ip": null,
+      "hostname": null,
+      "rtts": [],
+      "timeout": true
+    },
+    {
+      "hop": 22,
+      "ip": null,
+      "hostname": null,
+      "rtts": [],
+      "timeout": true
+    },
+    {
+      "hop": 23,
+      "ip": null,
+      "hostname": null,
+      "rtts": [],
+      "timeout": true
+    },
+    {
+      "hop": 24,
+      "ip": null,
+      "hostname": null,
+      "rtts": [],
+      "timeout": true
+    },
+    {
+      "hop": 25,
+      "ip": null,
+      "hostname": null,
+      "rtts": [],
+      "timeout": true
+    },
+    {
+      "hop": 26,
+      "ip": null,
+      "hostname": null,
+      "rtts": [],
+      "timeout": true
+    },
+    {
+      "hop": 27,
+      "ip": null,
+      "hostname": null,
+      "rtts": [],
+      "timeout": true
+    },
+    {
+      "hop": 28,
+      "ip": null,
+      "hostname": null,
+      "rtts": [],
+      "timeout": true
+    },
+    {
+      "hop": 29,
+      "ip": null,
+      "hostname": null,
+      "rtts": [],
+      "timeout": true
+    },
+    {
+      "hop": 30,
+      "ip": null,
+      "hostname": null,
+      "rtts": [],
+      "timeout": true
+    }
+  ],
+  "num_hops": 30,
+  "success": false,
+  "method": "scapy",
+  "category": "education_network",
+  "base_domain": "nchc.org.tw",
+  "service_variant": "ns2.nchc.org.tw",
+  "is_bare_domain": false
+}

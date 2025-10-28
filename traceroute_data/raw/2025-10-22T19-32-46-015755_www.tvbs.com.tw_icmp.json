@@ -1,0 +1,127 @@
+{
+  "timestamp": "2025-10-22T19:32:46.015755",
+  "vantage_point": "university",
+  "target": "www.tvbs.com.tw",
+  "target_ip": "163.28.5.17",
+  "protocol": "icmp",
+  "port": null,
+  "duration_seconds": 0.31,
+  "hops": [
+    {
+      "hop": 1,
+      "ip": "192.168.50.1",
+      "hostname": null,
+      "rtts": [
+        5.94,
+        6.28,
+        5.56
+      ],
+      "timeout": false,
+      "avg_rtt": 5.93
+    },
+    {
+      "hop": 2,
+      "ip": "140.123.103.250",
+      "hostname": "csgate103.cs.ccu.edu.tw",
+      "rtts": [
+        5.5,
+        5.78,
+        5.62
+      ],
+      "timeout": false,
+      "avg_rtt": 5.63
+    },
+    {
+      "hop": 3,
+      "ip": "140.123.9.249",
+      "hostname": null,
+      "rtts": [
+        7.75,
+        5.37,
+        8.41
+      ],
+      "timeout": false,
+      "avg_rtt": 7.18
+    },
+    {
+      "hop": 4,
+      "ip": "140.123.0.246",
+      "hostname": null,
+      "rtts": [
+        6.57,
+        6.51,
+        5.3
+      ],
+      "timeout": false,
+      "avg_rtt": 6.13
+    },
+    {
+      "hop": 5,
+      "ip": "140.130.252.251",
+      "hostname": null,
+      "rtts": [
+        10.06,
+        6.01,
+        6.09
+      ],
+      "timeout": false,
+      "avg_rtt": 7.39
+    },
+    {
+      "hop": 6,
+      "ip": "192.192.61.142",
+      "hostname": null,
+      "rtts": [
+        9.71,
+        21.95,
+        18.11
+      ],
+      "timeout": false,
+      "avg_rtt": 16.59
+    },
+    {
+      "hop": 7,
+      "ip": "192.192.61.20",
+      "hostname": null,
+      "rtts": [
+        9.51,
+        10.53,
+        15.88
+      ],
+      "timeout": false,
+      "avg_rtt": 11.97
+    },
+    {
+      "hop": 8,
+      "ip": "192.192.61.48",
+      "hostname": null,
+      "rtts": [
+        21.94,
+        12.01,
+        14.35
+      ],
+      "timeout": false,
+      "avg_rtt": 16.1
+    },
+    {
+      "hop": 9,
+      "ip": "163.28.5.17",
+      "hostname": null,
+      "rtts": [
+        9.49,
+        13.61,
+        13.43
+      ],
+      "timeout": false,
+      "reached_destination": true,
+      "avg_rtt": 12.18
+    }
+  ],
+  "num_hops": 9,
+  "success": true,
+  "method": "scapy",
+  "category": "media",
+  "base_domain": "tvbs.com.tw",
+  "service_variant": "www.tvbs.com.tw",
+  "is_bare_domain": false
+}

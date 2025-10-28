@@ -1,0 +1,273 @@
+{
+  "timestamp": "2025-10-22T22:43:56.621135",
+  "vantage_point": "university",
+  "target": "ns1.nsysu.edu.tw",
+  "target_ip": "140.117.11.122",
+  "protocol": "tcp",
+  "port": 443,
+  "duration_seconds": 128.88,
+  "hops": [
+    {
+      "hop": 1,
+      "ip": "192.168.50.1",
+      "hostname": null,
+      "rtts": [
+        16.76,
+        9.58,
+        9.07
+      ],
+      "timeout": false,
+      "avg_rtt": 11.8
+    },
+    {
+      "hop": 2,
+      "ip": "140.123.103.250",
+      "hostname": "csgate103.cs.ccu.edu.tw",
+      "rtts": [
+        6.77,
+        6.43,
+        5.79
+      ],
+      "timeout": false,
+      "avg_rtt": 6.33
+    },
+    {
+      "hop": 3,
+      "ip": "140.123.9.249",
+      "hostname": null,
+      "rtts": [
+        6.59,
+        5.39,
+        10.83
+      ],
+      "timeout": false,
+      "avg_rtt": 7.6
+    },
+    {
+      "hop": 4,
+      "ip": "140.123.0.246",
+      "hostname": null,
+      "rtts": [
+        26.42,
+        9.37,
+        9.79
+      ],
+      "timeout": false,
+      "avg_rtt": 15.19
+    },
+    {
+      "hop": 5,
+      "ip": "211.79.57.25",
+      "hostname": "ccu-ccu-76.twaren.net",
+      "rtts": [
+        8.43,
+        10.02,
+        9.16
+      ],
+      "timeout": false,
+      "avg_rtt": 9.2
+    },
+    {
+      "hop": 6,
+      "ip": "211.73.76.209",
+      "hostname": "tn-a1.twaren.net",
+      "rtts": [
+        9.78,
+        11.93,
+        9.89
+      ],
+      "timeout": false,
+      "avg_rtt": 10.53
+    },
+    {
+      "hop": 7,
+      "ip": "211.73.76.218",
+      "hostname": "nsysu-a1.twaren.net",
+      "rtts": [
+        10.94,
+        9.37,
+        10.94
+      ],
+      "timeout": false,
+      "avg_rtt": 10.42
+    },
+    {
+      "hop": 8,
+      "ip": "211.79.58.26",
+      "hostname": "nsysu_nsysu-a1.twaren.net",
+      "rtts": [
+        15.22,
+        10.6,
+        16.94
+      ],
+      "timeout": false,
+      "avg_rtt": 14.25
+    },
+    {
+      "hop": 9,
+      "ip": "140.117.232.34",
+      "hostname": null,
+      "rtts": [
+        10.88,
+        10.85,
+        12.36
+      ],
+      "timeout": false,
+      "avg_rtt": 11.36
+    },
+    {
+      "hop": 10,
+      "ip": null,
+      "hostname": null,
+      "rtts": [],
+      "timeout": true
+    },
+    {
+      "hop": 11,
+      "ip": null,
+      "hostname": null,
+      "rtts": [],
+      "timeout": true
+    },
+    {
+      "hop": 12,
+      "ip": null,
+      "hostname": null,
+      "rtts": [],
+      "timeout": true
+    },
+    {
+      "hop": 13,
+      "ip": null,
+      "hostname": null,
+      "rtts": [],
+      "timeout": true
+    },
+    {
+      "hop": 14,
+      "ip": null,
+      "hostname": null,
+      "rtts": [],
+      "timeout": true
+    },
+    {
+      "hop": 15,
+      "ip": null,
+      "hostname": null,
+      "rtts": [],
+      "timeout": true
+    },
+    {
+      "hop": 16,
+      "ip": null,
+      "hostname": null,
+      "rtts": [],
+      "timeout": true
+    },
+    {
+      "hop": 17,
+      "ip": null,
+      "hostname": null,
+      "rtts": [],
+      "timeout": true
+    },
+    {
+      "hop": 18,
+      "ip": null,
+      "hostname": null,
+      "rtts": [],
+      "timeout": true
+    },
+    {
+      "hop": 19,
+      "ip": null,
+      "hostname": null,
+      "rtts": [],
+      "timeout": true
+    },
+    {
+      "hop": 20,
+      "ip": null,
+      "hostname": null,
+      "rtts": [],
+      "timeout": true
+    },
+    {
+      "hop": 21,
+      "ip": null,
+      "hostname": null,
+      "rtts": [],
+      "timeout": true
+    },
+    {
+      "hop": 22,
+      "ip": null,
+      "hostname": null,
+      "rtts": [],
+      "timeout": true
+    },
+    {
+      "hop": 23,
+      "ip": null,
+      "hostname": null,
+      "rtts": [],
+      "timeout": true
+    },
+    {
+      "hop": 24,
+      "ip": null,
+      "hostname": null,
+      "rtts": [],
+      "timeout": true
+    },
+    {
+      "hop": 25,
+      "ip": null,
+      "hostname": null,
+      "rtts": [],
+      "timeout": true
+    },
+    {
+      "hop": 26,
+      "ip": null,
+      "hostname": null,
+      "rtts": [],
+      "timeout": true
+    },
+    {
+      "hop": 27,
+      "ip": null,
+      "hostname": null,
+      "rtts": [],
+      "timeout": true
+    },
+    {
+      "hop": 28,
+      "ip": null,
+      "hostname": null,
+      "rtts": [],
+      "timeout": true
+    },
+    {
+      "hop": 29,
+      "ip": null,
+      "hostname": null,
+      "rtts": [],
+      "timeout": true
+    },
+    {
+      "hop": 30,
+      "ip": null,
+      "hostname": null,
+      "rtts": [],
+      "timeout": true
+    }
+  ],
+  "num_hops": 30,
+  "success": false,
+  "method": "scapy",
+  "category": "universities",
+  "base_domain": "nsysu.edu.tw",
+  "service_variant": "ns1.nsysu.edu.tw",
+  "is_bare_domain": false
+}

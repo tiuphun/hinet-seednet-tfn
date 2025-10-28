@@ -1,0 +1,196 @@
+{
+  "timestamp": "2025-10-23T04:38:19.919780",
+  "vantage_point": "university",
+  "target": "webmail.pchome.com.tw",
+  "target_ip": "211.20.188.70",
+  "protocol": "icmp",
+  "port": null,
+  "duration_seconds": 19.76,
+  "hops": [
+    {
+      "hop": 1,
+      "ip": "192.168.50.1",
+      "hostname": null,
+      "rtts": [
+        26.63,
+        12.96,
+        7.02
+      ],
+      "timeout": false,
+      "avg_rtt": 15.54
+    },
+    {
+      "hop": 2,
+      "ip": "140.123.103.250",
+      "hostname": "csgate103.cs.ccu.edu.tw",
+      "rtts": [
+        9.03,
+        7.66,
+        7.12
+      ],
+      "timeout": false,
+      "avg_rtt": 7.94
+    },
+    {
+      "hop": 3,
+      "ip": "140.123.9.249",
+      "hostname": null,
+      "rtts": [
+        7.92,
+        7.09,
+        6.95
+      ],
+      "timeout": false,
+      "avg_rtt": 7.32
+    },
+    {
+      "hop": 4,
+      "ip": "140.123.0.246",
+      "hostname": null,
+      "rtts": [
+        11.25,
+        13.79,
+        8.21
+      ],
+      "timeout": false,
+      "avg_rtt": 11.08
+    },
+    {
+      "hop": 5,
+      "ip": "140.130.252.251",
+      "hostname": null,
+      "rtts": [
+        10.64,
+        22.33,
+        10.71
+      ],
+      "timeout": false,
+      "avg_rtt": 14.56
+    },
+    {
+      "hop": 6,
+      "ip": "211.22.226.198",
+      "hostname": "211-22-226-198.caw1-3332.hinet.net",
+      "rtts": [
+        16.72,
+        15.97,
+        8.87
+      ],
+      "timeout": false,
+      "avg_rtt": 13.85
+    },
+    {
+      "hop": 7,
+      "ip": null,
+      "hostname": null,
+      "rtts": [],
+      "timeout": true
+    },
+    {
+      "hop": 8,
+      "ip": null,
+      "hostname": null,
+      "rtts": [],
+      "timeout": true
+    },
+    {
+      "hop": 9,
+      "ip": "220.128.2.5",
+      "hostname": "220-128-2-5.tpdb-3315.hinet.net",
+      "rtts": [
+        43.46,
+        23.68,
+        20.54
+      ],
+      "timeout": false,
+      "avg_rtt": 29.23
+    },
+    {
+      "hop": 10,
+      "ip": "168.95.228.13",
+      "hostname": "h13.s228.ts.hinet.net",
+      "rtts": [
+        20.36,
+        15.82,
+        14.2
+      ],
+      "timeout": false,
+      "avg_rtt": 16.79
+    },
+    {
+      "hop": 11,
+      "ip": null,
+      "hostname": null,
+      "rtts": [],
+      "timeout": true
+    },
+    {
+      "hop": 12,
+      "ip": "203.69.108.45",
+      "hostname": null,
+      "rtts": [
+        34.73,
+        18.2,
+        29.01
+      ],
+      "timeout": false,
+      "avg_rtt": 27.31
+    },
+    {
+      "hop": 13,
+      "ip": "203.69.108.139",
+      "hostname": null,
+      "rtts": [
+        23.86,
+        14.78,
+        18.02
+      ],
+      "timeout": false,
+      "avg_rtt": 18.89
+    },
+    {
+      "hop": 14,
+      "ip": "203.69.108.154",
+      "hostname": null,
+      "rtts": [
+        23.7,
+        24.51,
+        25.71
+      ],
+      "timeout": false,
+      "avg_rtt": 24.64
+    },
+    {
+      "hop": 15,
+      "ip": "211.72.249.225",
+      "hostname": null,
+      "rtts": [
+        14.97,
+        21.55,
+        17.4
+      ],
+      "timeout": false,
+      "avg_rtt": 17.97
+    },
+    {
+      "hop": 16,
+      "ip": "211.20.188.70",
+      "hostname": "webmail.pchome.com.tw",
+      "rtts": [
+        26.14,
+        17.23,
+        19.87
+      ],
+      "timeout": false,
+      "reached_destination": true,
+      "avg_rtt": 21.08
+    }
+  ],
+  "num_hops": 16,
+  "success": true,
+  "method": "scapy",
+  "category": "ecommerce_tech",
+  "base_domain": "pchome.com.tw",
+  "service_variant": "webmail.pchome.com.tw",
+  "is_bare_domain": false
+}

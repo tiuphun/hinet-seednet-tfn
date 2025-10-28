@@ -1,0 +1,169 @@
+{
+  "timestamp": "2025-10-22T15:25:47.017959",
+  "vantage_point": "university",
+  "target": "mail.ncu.edu.tw",
+  "target_ip": "140.115.0.177",
+  "protocol": "tcp",
+  "port": 80,
+  "duration_seconds": 8.58,
+  "hops": [
+    {
+      "hop": 1,
+      "ip": "192.168.50.1",
+      "hostname": null,
+      "rtts": [
+        13.8,
+        4.27
+      ],
+      "timeout": false,
+      "avg_rtt": 9.04
+    },
+    {
+      "hop": 2,
+      "ip": "140.123.103.250",
+      "hostname": "csgate103.cs.ccu.edu.tw",
+      "rtts": [
+        18.51,
+        6.37,
+        6.71
+      ],
+      "timeout": false,
+      "avg_rtt": 10.53
+    },
+    {
+      "hop": 3,
+      "ip": "140.123.9.249",
+      "hostname": null,
+      "rtts": [
+        7.82,
+        6.85,
+        5.99
+      ],
+      "timeout": false,
+      "avg_rtt": 6.89
+    },
+    {
+      "hop": 4,
+      "ip": "140.123.0.246",
+      "hostname": null,
+      "rtts": [
+        5.69,
+        5.05,
+        4.91
+      ],
+      "timeout": false,
+      "avg_rtt": 5.22
+    },
+    {
+      "hop": 5,
+      "ip": "211.79.57.25",
+      "hostname": "ccu-ccu-76.twaren.net",
+      "rtts": [
+        9.09,
+        8.08,
+        10.31
+      ],
+      "timeout": false,
+      "avg_rtt": 9.16
+    },
+    {
+      "hop": 6,
+      "ip": "211.73.76.209",
+      "hostname": "tp-a1.twaren.net",
+      "rtts": [
+        9.82,
+        10.69,
+        28.97
+      ],
+      "timeout": false,
+      "avg_rtt": 16.49
+    },
+    {
+      "hop": 7,
+      "ip": "211.73.76.198",
+      "hostname": "tn-a2.twaren.net",
+      "rtts": [
+        11.11,
+        10.83,
+        10.46
+      ],
+      "timeout": false,
+      "avg_rtt": 10.8
+    },
+    {
+      "hop": 8,
+      "ip": "211.73.76.141",
+      "hostname": "hc-a2.twaren.net",
+      "rtts": [
+        11.79,
+        14.23,
+        14.0
+      ],
+      "timeout": false,
+      "avg_rtt": 13.34
+    },
+    {
+      "hop": 9,
+      "ip": "211.73.76.150",
+      "hostname": "ncu-a1.twaren.net",
+      "rtts": [
+        15.44,
+        19.8,
+        14.87
+      ],
+      "timeout": false,
+      "avg_rtt": 16.7
+    },
+    {
+      "hop": 10,
+      "ip": "211.79.51.26",
+      "hostname": "ncu-76-ncu.twaren.net",
+      "rtts": [
+        13.35,
+        14.45,
+        15.49
+      ],
+      "timeout": false,
+      "avg_rtt": 14.43
+    },
+    {
+      "hop": 11,
+      "ip": "203.72.244.50",
+      "hostname": "phy-cc.ncu.edu.tw",
+      "rtts": [
+        21.49,
+        19.07,
+        12.83
+      ],
+      "timeout": false,
+      "avg_rtt": 17.8
+    },
+    {
+      "hop": 12,
+      "ip": null,
+      "hostname": null,
+      "rtts": [],
+      "timeout": true
+    },
+    {
+      "hop": 13,
+      "ip": "140.115.0.177",
+      "hostname": "mail.ncu.edu.tw",
+      "rtts": [
+        26.58,
+        19.81,
+        18.14
+      ],
+      "timeout": false,
+      "reached_destination": true,
+      "avg_rtt": 21.51
+    }
+  ],
+  "num_hops": 13,
+  "success": true,
+  "method": "scapy",
+  "category": "universities",
+  "base_domain": "ncu.edu.tw",
+  "service_variant": "mail.ncu.edu.tw",
+  "is_bare_domain": false
+}

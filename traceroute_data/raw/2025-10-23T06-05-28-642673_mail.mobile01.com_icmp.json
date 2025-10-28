@@ -1,0 +1,226 @@
+{
+  "timestamp": "2025-10-23T06:05:28.642673",
+  "vantage_point": "university",
+  "target": "mail.mobile01.com",
+  "target_ip": "168.245.69.1",
+  "protocol": "icmp",
+  "port": null,
+  "duration_seconds": 33.21,
+  "hops": [
+    {
+      "hop": 1,
+      "ip": "192.168.50.1",
+      "hostname": null,
+      "rtts": [
+        8.67,
+        13.12,
+        6.76
+      ],
+      "timeout": false,
+      "avg_rtt": 9.52
+    },
+    {
+      "hop": 2,
+      "ip": "140.123.103.250",
+      "hostname": "csgate103.cs.ccu.edu.tw",
+      "rtts": [
+        6.7,
+        8.85,
+        7.7
+      ],
+      "timeout": false,
+      "avg_rtt": 7.75
+    },
+    {
+      "hop": 3,
+      "ip": "140.123.9.249",
+      "hostname": null,
+      "rtts": [
+        6.25,
+        5.46,
+        5.94
+      ],
+      "timeout": false,
+      "avg_rtt": 5.88
+    },
+    {
+      "hop": 4,
+      "ip": "140.123.0.246",
+      "hostname": null,
+      "rtts": [
+        6.89,
+        6.78,
+        7.64
+      ],
+      "timeout": false,
+      "avg_rtt": 7.1
+    },
+    {
+      "hop": 5,
+      "ip": "140.130.252.251",
+      "hostname": null,
+      "rtts": [
+        9.15,
+        17.7,
+        11.99
+      ],
+      "timeout": false,
+      "avg_rtt": 12.95
+    },
+    {
+      "hop": 6,
+      "ip": "192.192.61.142",
+      "hostname": null,
+      "rtts": [
+        10.67,
+        17.08,
+        16.63
+      ],
+      "timeout": false,
+      "avg_rtt": 14.79
+    },
+    {
+      "hop": 7,
+      "ip": "192.192.61.20",
+      "hostname": null,
+      "rtts": [
+        14.25,
+        13.71,
+        13.94
+      ],
+      "timeout": false,
+      "avg_rtt": 13.97
+    },
+    {
+      "hop": 8,
+      "ip": "192.192.61.48",
+      "hostname": null,
+      "rtts": [
+        16.23,
+        14.03,
+        13.61
+      ],
+      "timeout": false,
+      "avg_rtt": 14.62
+    },
+    {
+      "hop": 9,
+      "ip": "192.192.68.62",
+      "hostname": null,
+      "rtts": [
+        13.59,
+        17.35,
+        12.92
+      ],
+      "timeout": false,
+      "avg_rtt": 14.62
+    },
+    {
+      "hop": 10,
+      "ip": "65.49.108.1",
+      "hostname": "e0-11.switch2.tpe1.he.net",
+      "rtts": [
+        17.04,
+        16.8,
+        14.45
+      ],
+      "timeout": false,
+      "avg_rtt": 16.1
+    },
+    {
+      "hop": 11,
+      "ip": null,
+      "hostname": null,
+      "rtts": [],
+      "timeout": true
+    },
+    {
+      "hop": 12,
+      "ip": "184.104.199.10",
+      "hostname": "port-channel1.core3.tyo1.he.net",
+      "rtts": [
+        52.55
+      ],
+      "timeout": false,
+      "avg_rtt": 52.55
+    },
+    {
+      "hop": 13,
+      "ip": "184.105.213.117",
+      "hostname": "port-channel11.core2.sea1.he.net",
+      "rtts": [
+        126.34,
+        124.77,
+        126.44
+      ],
+      "timeout": false,
+      "avg_rtt": 125.85
+    },
+    {
+      "hop": 14,
+      "ip": "184.104.188.148",
+      "hostname": "port-channel10.core2.chi1.he.net",
+      "rtts": [
+        163.14
+      ],
+      "timeout": false,
+      "avg_rtt": 163.14
+    },
+    {
+      "hop": 15,
+      "ip": null,
+      "hostname": null,
+      "rtts": [],
+      "timeout": true
+    },
+    {
+      "hop": 16,
+      "ip": "184.105.222.174",
+      "hostname": "port-channel2.core1.ash1.he.net",
+      "rtts": [
+        199.62
+      ],
+      "timeout": false,
+      "avg_rtt": 199.62
+    },
+    {
+      "hop": 17,
+      "ip": "206.126.237.61",
+      "hostname": "eqix-dc2.sendgrid.com",
+      "rtts": [
+        194.01,
+        194.29,
+        198.75
+      ],
+      "timeout": false,
+      "avg_rtt": 195.68
+    },
+    {
+      "hop": 18,
+      "ip": null,
+      "hostname": null,
+      "rtts": [],
+      "timeout": true
+    },
+    {
+      "hop": 19,
+      "ip": "168.245.69.1",
+      "hostname": "o1.mail.mobile01.com",
+      "rtts": [
+        201.96,
+        196.17,
+        193.64
+      ],
+      "timeout": false,
+      "reached_destination": true,
+      "avg_rtt": 197.26
+    }
+  ],
+  "num_hops": 19,
+  "success": true,
+  "method": "scapy",
+  "category": "ecommerce_tech",
+  "base_domain": "mobile01.com",
+  "service_variant": "mail.mobile01.com",
+  "is_bare_domain": false
+}

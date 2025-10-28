@@ -1,0 +1,299 @@
+{
+  "timestamp": "2025-10-23T04:07:42.849297",
+  "vantage_point": "university",
+  "target": "mail.twse.com.tw",
+  "target_ip": "122.147.144.229",
+  "protocol": "tcp",
+  "port": 443,
+  "duration_seconds": 46.75,
+  "hops": [
+    {
+      "hop": 1,
+      "ip": "192.168.50.1",
+      "hostname": null,
+      "rtts": [
+        8.74,
+        5.58,
+        6.7
+      ],
+      "timeout": false,
+      "avg_rtt": 7.01
+    },
+    {
+      "hop": 2,
+      "ip": "140.123.103.250",
+      "hostname": "csgate103.cs.ccu.edu.tw",
+      "rtts": [
+        5.74,
+        10.39,
+        6.01
+      ],
+      "timeout": false,
+      "avg_rtt": 7.38
+    },
+    {
+      "hop": 3,
+      "ip": "140.123.9.249",
+      "hostname": null,
+      "rtts": [
+        5.72,
+        5.04,
+        36.43
+      ],
+      "timeout": false,
+      "avg_rtt": 15.73
+    },
+    {
+      "hop": 4,
+      "ip": "140.123.0.246",
+      "hostname": null,
+      "rtts": [
+        8.87,
+        8.05,
+        6.29
+      ],
+      "timeout": false,
+      "avg_rtt": 7.74
+    },
+    {
+      "hop": 5,
+      "ip": "140.130.252.251",
+      "hostname": null,
+      "rtts": [
+        9.27,
+        11.82,
+        9.96
+      ],
+      "timeout": false,
+      "avg_rtt": 10.35
+    },
+    {
+      "hop": 6,
+      "ip": "192.192.61.142",
+      "hostname": null,
+      "rtts": [
+        11.14,
+        10.08,
+        10.44
+      ],
+      "timeout": false,
+      "avg_rtt": 10.55
+    },
+    {
+      "hop": 7,
+      "ip": "192.192.61.20",
+      "hostname": null,
+      "rtts": [
+        15.5,
+        11.3,
+        21.42
+      ],
+      "timeout": false,
+      "avg_rtt": 16.07
+    },
+    {
+      "hop": 8,
+      "ip": "192.192.61.48",
+      "hostname": null,
+      "rtts": [
+        14.01,
+        14.4,
+        12.14
+      ],
+      "timeout": false,
+      "avg_rtt": 13.52
+    },
+    {
+      "hop": 9,
+      "ip": "192.192.68.62",
+      "hostname": null,
+      "rtts": [
+        15.64,
+        14.4,
+        13.77
+      ],
+      "timeout": false,
+      "avg_rtt": 14.6
+    },
+    {
+      "hop": 10,
+      "ip": "65.49.108.1",
+      "hostname": "e0-11.switch2.tpe1.he.net",
+      "rtts": [
+        12.04,
+        9.43
+      ],
+      "timeout": false,
+      "avg_rtt": 10.73
+    },
+    {
+      "hop": 11,
+      "ip": null,
+      "hostname": null,
+      "rtts": [],
+      "timeout": true
+    },
+    {
+      "hop": 12,
+      "ip": "184.104.209.50",
+      "hostname": "btn-asn-as3491.e0-74.core2.tyo1.he.net",
+      "rtts": [
+        51.76,
+        45.11
+      ],
+      "timeout": false,
+      "avg_rtt": 48.44
+    },
+    {
+      "hop": 13,
+      "ip": "63.223.9.226",
+      "hostname": "be43.br03.tap04.as3491.net",
+      "rtts": [
+        47.24,
+        46.15
+      ],
+      "timeout": false,
+      "avg_rtt": 46.7
+    },
+    {
+      "hop": 14,
+      "ip": "63.220.199.107",
+      "hostname": "63-220-199-107.static.as3491.net",
+      "rtts": [
+        59.99,
+        49.54,
+        49.33
+      ],
+      "timeout": false,
+      "avg_rtt": 52.95
+    },
+    {
+      "hop": 15,
+      "ip": "139.175.59.162",
+      "hostname": "r59-162.seed.net.tw",
+      "rtts": [
+        54.5,
+        48.57,
+        55.82
+      ],
+      "timeout": false,
+      "avg_rtt": 52.96
+    },
+    {
+      "hop": 16,
+      "ip": "139.175.58.146",
+      "hostname": "r58-146.seed.net.tw",
+      "rtts": [
+        45.95,
+        49.34,
+        62.06
+      ],
+      "timeout": false,
+      "avg_rtt": 52.45
+    },
+    {
+      "hop": 17,
+      "ip": "192.72.49.102",
+      "hostname": "h102-192-72-49.seed.net.tw",
+      "rtts": [
+        54.52,
+        48.33,
+        51.89
+      ],
+      "timeout": false,
+      "avg_rtt": 51.58
+    },
+    {
+      "hop": 18,
+      "ip": "192.72.155.70",
+      "hostname": "h70-192-72-155.seed.net.tw",
+      "rtts": [
+        49.55,
+        52.65,
+        51.48
+      ],
+      "timeout": false,
+      "avg_rtt": 51.23
+    },
+    {
+      "hop": 19,
+      "ip": "220.228.20.170",
+      "hostname": null,
+      "rtts": [
+        49.42,
+        54.77,
+        51.07
+      ],
+      "timeout": false,
+      "avg_rtt": 51.75
+    },
+    {
+      "hop": 20,
+      "ip": "122.147.144.229",
+      "hostname": "122-147-144-229.static.sparqnet.net",
+      "rtts": [
+        48.77,
+        73.78,
+        51.85
+      ],
+      "timeout": false,
+      "avg_rtt": 58.13
+    },
+    {
+      "hop": 21,
+      "ip": null,
+      "hostname": null,
+      "rtts": [],
+      "timeout": true
+    },
+    {
+      "hop": 22,
+      "ip": "122.147.144.229",
+      "hostname": "122-147-144-229.static.sparqnet.net",
+      "rtts": [
+        58.21
+      ],
+      "timeout": false,
+      "avg_rtt": 58.21
+    },
+    {
+      "hop": 23,
+      "ip": null,
+      "hostname": null,
+      "rtts": [],
+      "timeout": true
+    },
+    {
+      "hop": 24,
+      "ip": null,
+      "hostname": null,
+      "rtts": [],
+      "timeout": true
+    },
+    {
+      "hop": 25,
+      "ip": null,
+      "hostname": null,
+      "rtts": [],
+      "timeout": true
+    },
+    {
+      "hop": 26,
+      "ip": "122.147.144.229",
+      "hostname": "122-147-144-229.static.sparqnet.net",
+      "rtts": [
+        50.91
+      ],
+      "timeout": false,
+      "reached_destination": true,
+      "avg_rtt": 50.91
+    }
+  ],
+  "num_hops": 26,
+  "success": true,
+  "method": "scapy",
+  "category": "financial_infra",
+  "base_domain": "twse.com.tw",
+  "service_variant": "mail.twse.com.tw",
+  "is_bare_domain": false
+}

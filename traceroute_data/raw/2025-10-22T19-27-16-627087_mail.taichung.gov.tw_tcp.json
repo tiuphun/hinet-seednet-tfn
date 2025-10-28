@@ -1,0 +1,222 @@
+{
+  "timestamp": "2025-10-22T19:27:16.627087",
+  "vantage_point": "university",
+  "target": "mail.taichung.gov.tw",
+  "target_ip": "210.69.115.235",
+  "protocol": "tcp",
+  "port": 443,
+  "duration_seconds": 2.92,
+  "hops": [
+    {
+      "hop": 1,
+      "ip": "192.168.50.1",
+      "hostname": null,
+      "rtts": [
+        4.07,
+        7.93,
+        8.89
+      ],
+      "timeout": false,
+      "avg_rtt": 6.96
+    },
+    {
+      "hop": 2,
+      "ip": "140.123.103.250",
+      "hostname": "csgate103.cs.ccu.edu.tw",
+      "rtts": [
+        6.41,
+        4.71,
+        4.89
+      ],
+      "timeout": false,
+      "avg_rtt": 5.34
+    },
+    {
+      "hop": 3,
+      "ip": "140.123.9.249",
+      "hostname": null,
+      "rtts": [
+        4.82,
+        4.27,
+        3.8
+      ],
+      "timeout": false,
+      "avg_rtt": 4.3
+    },
+    {
+      "hop": 4,
+      "ip": "140.123.0.246",
+      "hostname": null,
+      "rtts": [
+        6.65,
+        7.2,
+        5.08
+      ],
+      "timeout": false,
+      "avg_rtt": 6.31
+    },
+    {
+      "hop": 5,
+      "ip": "140.130.252.251",
+      "hostname": null,
+      "rtts": [
+        42.26,
+        17.71,
+        6.37
+      ],
+      "timeout": false,
+      "avg_rtt": 22.11
+    },
+    {
+      "hop": 6,
+      "ip": "192.192.61.142",
+      "hostname": null,
+      "rtts": [
+        16.9,
+        20.07,
+        9.15
+      ],
+      "timeout": false,
+      "avg_rtt": 15.37
+    },
+    {
+      "hop": 7,
+      "ip": "192.192.61.37",
+      "hostname": null,
+      "rtts": [
+        9.12,
+        8.78,
+        13.13
+      ],
+      "timeout": false,
+      "avg_rtt": 10.34
+    },
+    {
+      "hop": 8,
+      "ip": "192.192.61.32",
+      "hostname": null,
+      "rtts": [
+        11.06,
+        9.97,
+        13.03
+      ],
+      "timeout": false,
+      "avg_rtt": 11.35
+    },
+    {
+      "hop": 9,
+      "ip": "192.192.61.209",
+      "hostname": null,
+      "rtts": [
+        14.21,
+        10.64,
+        11.53
+      ],
+      "timeout": false,
+      "avg_rtt": 12.13
+    },
+    {
+      "hop": 10,
+      "ip": "10.96.81.12",
+      "hostname": null,
+      "rtts": [
+        12.25,
+        15.73,
+        11.81
+      ],
+      "timeout": false,
+      "avg_rtt": 13.26
+    },
+    {
+      "hop": 11,
+      "ip": "210.69.250.126",
+      "hostname": "210-69-250-126.hinet-ip.hinet.net",
+      "rtts": [
+        14.07,
+        14.29,
+        14.43
+      ],
+      "timeout": false,
+      "avg_rtt": 14.26
+    },
+    {
+      "hop": 12,
+      "ip": "210.69.253.186",
+      "hostname": "210-69-253-186.hinet-ip.hinet.net",
+      "rtts": [
+        19.4,
+        31.63,
+        28.54
+      ],
+      "timeout": false,
+      "avg_rtt": 26.52
+    },
+    {
+      "hop": 13,
+      "ip": "210.69.221.186",
+      "hostname": "210-69-221-186.hinet-ip.hinet.net",
+      "rtts": [
+        21.87,
+        13.87,
+        16.66
+      ],
+      "timeout": false,
+      "avg_rtt": 17.47
+    },
+    {
+      "hop": 14,
+      "ip": "210.241.72.13",
+      "hostname": "210-241-72-13.hinet-ip.hinet.net",
+      "rtts": [
+        23.43,
+        17.84,
+        20.99
+      ],
+      "timeout": false,
+      "avg_rtt": 20.75
+    },
+    {
+      "hop": 15,
+      "ip": "210.69.49.254",
+      "hostname": "210-69-49-254.hinet-ip.hinet.net",
+      "rtts": [
+        29.25,
+        21.66,
+        18.16
+      ],
+      "timeout": false,
+      "avg_rtt": 23.02
+    },
+    {
+      "hop": 16,
+      "ip": "210.69.49.254",
+      "hostname": "210-69-49-254.hinet-ip.hinet.net",
+      "rtts": [
+        24.68,
+        35.32,
+        29.74
+      ],
+      "timeout": false,
+      "avg_rtt": 29.91
+    },
+    {
+      "hop": 17,
+      "ip": "210.69.115.235",
+      "hostname": "mail2000.taichung.gov.tw",
+      "rtts": [
+        26.1,
+        45.44
+      ],
+      "timeout": false,
+      "reached_destination": true,
+      "avg_rtt": 35.77
+    }
+  ],
+  "num_hops": 17,
+  "success": true,
+  "method": "scapy",
+  "category": "government_local",
+  "base_domain": "taichung.gov.tw",
+  "service_variant": "mail.taichung.gov.tw",
+  "is_bare_domain": false
+}

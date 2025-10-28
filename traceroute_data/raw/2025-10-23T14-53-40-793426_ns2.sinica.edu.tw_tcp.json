@@ -1,0 +1,364 @@
+{
+  "timestamp": "2025-10-23T14:53:40.793426",
+  "vantage_point": "university",
+  "target": "ns2.sinica.edu.tw",
+  "target_ip": "103.130.253.5",
+  "protocol": "tcp",
+  "port": 443,
+  "duration_seconds": 35.38,
+  "hops": [
+    {
+      "hop": 1,
+      "ip": "192.168.50.1",
+      "hostname": null,
+      "rtts": [
+        11.33,
+        4.08,
+        4.0
+      ],
+      "timeout": false,
+      "avg_rtt": 6.47
+    },
+    {
+      "hop": 2,
+      "ip": "140.123.103.250",
+      "hostname": "csgate103.cs.ccu.edu.tw",
+      "rtts": [
+        5.05,
+        5.32,
+        13.64
+      ],
+      "timeout": false,
+      "avg_rtt": 8.0
+    },
+    {
+      "hop": 3,
+      "ip": "140.123.9.249",
+      "hostname": null,
+      "rtts": [
+        4.21,
+        4.56,
+        6.92
+      ],
+      "timeout": false,
+      "avg_rtt": 5.23
+    },
+    {
+      "hop": 4,
+      "ip": "140.123.0.246",
+      "hostname": null,
+      "rtts": [
+        13.77,
+        4.47,
+        12.62
+      ],
+      "timeout": false,
+      "avg_rtt": 10.29
+    },
+    {
+      "hop": 5,
+      "ip": "211.79.57.25",
+      "hostname": "ccu-ccu-76.twaren.net",
+      "rtts": [
+        6.61,
+        67.32,
+        51.19
+      ],
+      "timeout": false,
+      "avg_rtt": 41.71
+    },
+    {
+      "hop": 6,
+      "ip": "211.73.76.209",
+      "hostname": "tp-a1.twaren.net",
+      "rtts": [
+        16.93,
+        16.87,
+        13.35
+      ],
+      "timeout": false,
+      "avg_rtt": 15.72
+    },
+    {
+      "hop": 7,
+      "ip": "211.73.76.81",
+      "hostname": "tp-a1.twaren.net",
+      "rtts": [
+        20.55,
+        10.95,
+        18.33
+      ],
+      "timeout": false,
+      "avg_rtt": 16.61
+    },
+    {
+      "hop": 8,
+      "ip": "211.73.76.66",
+      "hostname": "tp-a2.twaren.net",
+      "rtts": [
+        13.55,
+        12.39,
+        16.94
+      ],
+      "timeout": false,
+      "avg_rtt": 14.29
+    },
+    {
+      "hop": 9,
+      "ip": "211.73.76.98",
+      "hostname": "sinica-a1.twaren.net",
+      "rtts": [
+        13.4,
+        14.53,
+        14.95
+      ],
+      "timeout": false,
+      "avg_rtt": 14.29
+    },
+    {
+      "hop": 10,
+      "ip": "202.169.174.94",
+      "hostname": null,
+      "rtts": [
+        18.01,
+        9.71,
+        23.44
+      ],
+      "timeout": false,
+      "avg_rtt": 17.05
+    },
+    {
+      "hop": 11,
+      "ip": "202.169.174.50",
+      "hostname": null,
+      "rtts": [
+        16.32,
+        17.12,
+        9.82
+      ],
+      "timeout": false,
+      "avg_rtt": 14.42
+    },
+    {
+      "hop": 12,
+      "ip": "172.16.3.3",
+      "hostname": null,
+      "rtts": [
+        136.62,
+        141.78,
+        154.42
+      ],
+      "timeout": false,
+      "avg_rtt": 144.27
+    },
+    {
+      "hop": 13,
+      "ip": "172.17.201.2",
+      "hostname": null,
+      "rtts": [
+        136.88,
+        135.42,
+        135.09
+      ],
+      "timeout": false,
+      "avg_rtt": 135.8
+    },
+    {
+      "hop": 14,
+      "ip": "103.130.253.5",
+      "hostname": null,
+      "rtts": [
+        135.74,
+        138.1,
+        165.97
+      ],
+      "timeout": false,
+      "avg_rtt": 146.6
+    },
+    {
+      "hop": 15,
+      "ip": "103.130.253.5",
+      "hostname": null,
+      "rtts": [
+        141.93,
+        135.23
+      ],
+      "timeout": false,
+      "avg_rtt": 138.58
+    },
+    {
+      "hop": 16,
+      "ip": "103.130.253.5",
+      "hostname": null,
+      "rtts": [
+        137.04,
+        136.87
+      ],
+      "timeout": false,
+      "avg_rtt": 136.95
+    },
+    {
+      "hop": 17,
+      "ip": "103.130.253.5",
+      "hostname": null,
+      "rtts": [
+        141.21,
+        250.81
+      ],
+      "timeout": false,
+      "avg_rtt": 196.01
+    },
+    {
+      "hop": 18,
+      "ip": "103.130.253.5",
+      "hostname": null,
+      "rtts": [
+        138.15,
+        194.18
+      ],
+      "timeout": false,
+      "avg_rtt": 166.17
+    },
+    {
+      "hop": 19,
+      "ip": "103.130.253.5",
+      "hostname": null,
+      "rtts": [
+        138.38,
+        134.67
+      ],
+      "timeout": false,
+      "avg_rtt": 136.52
+    },
+    {
+      "hop": 20,
+      "ip": "103.130.253.5",
+      "hostname": null,
+      "rtts": [
+        136.34,
+        140.32,
+        146.01
+      ],
+      "timeout": false,
+      "avg_rtt": 140.89
+    },
+    {
+      "hop": 21,
+      "ip": "103.130.253.5",
+      "hostname": null,
+      "rtts": [
+        143.65,
+        159.77
+      ],
+      "timeout": false,
+      "avg_rtt": 151.71
+    },
+    {
+      "hop": 22,
+      "ip": "103.130.253.5",
+      "hostname": null,
+      "rtts": [
+        142.13,
+        138.78
+      ],
+      "timeout": false,
+      "avg_rtt": 140.45
+    },
+    {
+      "hop": 23,
+      "ip": "103.130.253.5",
+      "hostname": null,
+      "rtts": [
+        136.87,
+        137.8
+      ],
+      "timeout": false,
+      "avg_rtt": 137.34
+    },
+    {
+      "hop": 24,
+      "ip": "103.130.253.5",
+      "hostname": null,
+      "rtts": [
+        136.11,
+        139.28
+      ],
+      "timeout": false,
+      "avg_rtt": 137.69
+    },
+    {
+      "hop": 25,
+      "ip": "103.130.253.5",
+      "hostname": null,
+      "rtts": [
+        135.97,
+        139.52
+      ],
+      "timeout": false,
+      "avg_rtt": 137.75
+    },
+    {
+      "hop": 26,
+      "ip": "103.130.253.5",
+      "hostname": null,
+      "rtts": [
+        139.03,
+        287.1
+      ],
+      "timeout": false,
+      "avg_rtt": 213.06
+    },
+    {
+      "hop": 27,
+      "ip": "103.130.253.5",
+      "hostname": null,
+      "rtts": [
+        135.16,
+        135.05
+      ],
+      "timeout": false,
+      "avg_rtt": 135.11
+    },
+    {
+      "hop": 28,
+      "ip": "103.130.253.5",
+      "hostname": null,
+      "rtts": [
+        136.29,
+        148.31
+      ],
+      "timeout": false,
+      "avg_rtt": 142.3
+    },
+    {
+      "hop": 29,
+      "ip": "103.130.253.5",
+      "hostname": null,
+      "rtts": [
+        152.22,
+        142.06,
+        166.15
+      ],
+      "timeout": false,
+      "avg_rtt": 153.48
+    },
+    {
+      "hop": 30,
+      "ip": "103.130.253.5",
+      "hostname": null,
+      "rtts": [
+        145.77,
+        142.25
+      ],
+      "timeout": false,
+      "avg_rtt": 144.01
+    }
+  ],
+  "num_hops": 30,
+  "success": false,
+  "method": "scapy",
+  "category": "education_network",
+  "base_domain": "sinica.edu.tw",
+  "service_variant": "ns2.sinica.edu.tw",
+  "is_bare_domain": false
+}

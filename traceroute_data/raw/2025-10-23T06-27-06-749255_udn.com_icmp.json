@@ -1,0 +1,141 @@
+{
+  "timestamp": "2025-10-23T06:27:06.749255",
+  "vantage_point": "university",
+  "target": "udn.com",
+  "target_ip": "23.42.102.253",
+  "protocol": "icmp",
+  "port": null,
+  "duration_seconds": 13.15,
+  "hops": [
+    {
+      "hop": 1,
+      "ip": "192.168.50.1",
+      "hostname": null,
+      "rtts": [
+        8.08,
+        29.59,
+        8.31
+      ],
+      "timeout": false,
+      "avg_rtt": 15.33
+    },
+    {
+      "hop": 2,
+      "ip": "140.123.103.250",
+      "hostname": "csgate103.cs.ccu.edu.tw",
+      "rtts": [
+        6.33,
+        7.33,
+        9.12
+      ],
+      "timeout": false,
+      "avg_rtt": 7.59
+    },
+    {
+      "hop": 3,
+      "ip": "140.123.9.249",
+      "hostname": null,
+      "rtts": [
+        8.16,
+        6.62,
+        6.84
+      ],
+      "timeout": false,
+      "avg_rtt": 7.21
+    },
+    {
+      "hop": 4,
+      "ip": "140.123.0.246",
+      "hostname": null,
+      "rtts": [
+        7.18,
+        7.39,
+        22.9
+      ],
+      "timeout": false,
+      "avg_rtt": 12.49
+    },
+    {
+      "hop": 5,
+      "ip": "140.130.252.251",
+      "hostname": null,
+      "rtts": [
+        19.12,
+        10.71,
+        10.38
+      ],
+      "timeout": false,
+      "avg_rtt": 13.4
+    },
+    {
+      "hop": 6,
+      "ip": "211.22.226.198",
+      "hostname": "211-22-226-198.caw1-3332.hinet.net",
+      "rtts": [
+        10.93,
+        7.86,
+        7.53
+      ],
+      "timeout": false,
+      "avg_rtt": 8.77
+    },
+    {
+      "hop": 7,
+      "ip": null,
+      "hostname": null,
+      "rtts": [],
+      "timeout": true
+    },
+    {
+      "hop": 8,
+      "ip": null,
+      "hostname": null,
+      "rtts": [],
+      "timeout": true
+    },
+    {
+      "hop": 9,
+      "ip": "220.128.2.217",
+      "hostname": "220-128-2-217.tpdb-3335.hinet.net",
+      "rtts": [
+        39.34,
+        18.59,
+        17.82
+      ],
+      "timeout": false,
+      "avg_rtt": 25.25
+    },
+    {
+      "hop": 10,
+      "ip": "211.72.250.217",
+      "hostname": null,
+      "rtts": [
+        121.71,
+        313.69,
+        102.58
+      ],
+      "timeout": false,
+      "avg_rtt": 179.33
+    },
+    {
+      "hop": 11,
+      "ip": "23.42.102.253",
+      "hostname": "a23-42-102-253.deploy.static.akamaitechnologies.com",
+      "rtts": [
+        15.96,
+        19.27,
+        16.71
+      ],
+      "timeout": false,
+      "reached_destination": true,
+      "avg_rtt": 17.31
+    }
+  ],
+  "num_hops": 11,
+  "success": true,
+  "method": "scapy",
+  "category": "media",
+  "base_domain": "udn.com",
+  "service_variant": "udn.com",
+  "is_bare_domain": true
+}

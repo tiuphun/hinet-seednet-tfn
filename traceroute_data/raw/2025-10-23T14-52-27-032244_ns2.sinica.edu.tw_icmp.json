@@ -1,0 +1,187 @@
+{
+  "timestamp": "2025-10-23T14:52:27.032244",
+  "vantage_point": "university",
+  "target": "ns2.sinica.edu.tw",
+  "target_ip": "103.130.253.5",
+  "protocol": "icmp",
+  "port": null,
+  "duration_seconds": 2.38,
+  "hops": [
+    {
+      "hop": 1,
+      "ip": "192.168.50.1",
+      "hostname": null,
+      "rtts": [
+        6.68,
+        5.17,
+        5.45
+      ],
+      "timeout": false,
+      "avg_rtt": 5.77
+    },
+    {
+      "hop": 2,
+      "ip": "140.123.103.250",
+      "hostname": "csgate103.cs.ccu.edu.tw",
+      "rtts": [
+        6.54,
+        5.43,
+        11.65
+      ],
+      "timeout": false,
+      "avg_rtt": 7.87
+    },
+    {
+      "hop": 3,
+      "ip": "140.123.9.249",
+      "hostname": null,
+      "rtts": [
+        8.31,
+        23.98,
+        20.98
+      ],
+      "timeout": false,
+      "avg_rtt": 17.76
+    },
+    {
+      "hop": 4,
+      "ip": "140.123.0.246",
+      "hostname": null,
+      "rtts": [
+        20.87,
+        6.55,
+        18.89
+      ],
+      "timeout": false,
+      "avg_rtt": 15.44
+    },
+    {
+      "hop": 5,
+      "ip": "211.79.57.25",
+      "hostname": "ccu-ccu-76.twaren.net",
+      "rtts": [
+        8.16,
+        41.2,
+        11.42
+      ],
+      "timeout": false,
+      "avg_rtt": 20.26
+    },
+    {
+      "hop": 6,
+      "ip": "211.73.76.209",
+      "hostname": "tp-a1.twaren.net",
+      "rtts": [
+        8.88,
+        22.52,
+        10.83
+      ],
+      "timeout": false,
+      "avg_rtt": 14.08
+    },
+    {
+      "hop": 7,
+      "ip": "211.73.76.81",
+      "hostname": "tp-a1.twaren.net",
+      "rtts": [
+        28.67,
+        13.64,
+        16.38
+      ],
+      "timeout": false,
+      "avg_rtt": 19.56
+    },
+    {
+      "hop": 8,
+      "ip": "211.73.76.66",
+      "hostname": "tp-a2.twaren.net",
+      "rtts": [
+        11.12,
+        13.36,
+        13.82
+      ],
+      "timeout": false,
+      "avg_rtt": 12.77
+    },
+    {
+      "hop": 9,
+      "ip": "211.73.76.98",
+      "hostname": "sinica-a1.twaren.net",
+      "rtts": [
+        14.4,
+        25.47,
+        178.0
+      ],
+      "timeout": false,
+      "avg_rtt": 72.62
+    },
+    {
+      "hop": 10,
+      "ip": "202.169.174.94",
+      "hostname": null,
+      "rtts": [
+        16.72,
+        21.75,
+        11.31
+      ],
+      "timeout": false,
+      "avg_rtt": 16.59
+    },
+    {
+      "hop": 11,
+      "ip": "202.169.174.50",
+      "hostname": null,
+      "rtts": [
+        14.43,
+        14.01,
+        11.43
+      ],
+      "timeout": false,
+      "avg_rtt": 13.29
+    },
+    {
+      "hop": 12,
+      "ip": "172.16.3.3",
+      "hostname": null,
+      "rtts": [
+        137.43,
+        216.54,
+        214.83
+      ],
+      "timeout": false,
+      "avg_rtt": 189.6
+    },
+    {
+      "hop": 13,
+      "ip": "172.17.201.2",
+      "hostname": null,
+      "rtts": [
+        136.15,
+        137.15,
+        144.28
+      ],
+      "timeout": false,
+      "avg_rtt": 139.19
+    },
+    {
+      "hop": 14,
+      "ip": "103.130.253.5",
+      "hostname": null,
+      "rtts": [
+        140.77,
+        151.0,
+        138.47
+      ],
+      "timeout": false,
+      "reached_destination": true,
+      "avg_rtt": 143.41
+    }
+  ],
+  "num_hops": 14,
+  "success": true,
+  "method": "scapy",
+  "category": "education_network",
+  "base_domain": "sinica.edu.tw",
+  "service_variant": "ns2.sinica.edu.tw",
+  "is_bare_domain": false
+}

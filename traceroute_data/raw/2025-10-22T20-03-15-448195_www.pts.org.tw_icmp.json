@@ -1,0 +1,151 @@
+{
+  "timestamp": "2025-10-22T20:03:15.448195",
+  "vantage_point": "university",
+  "target": "www.pts.org.tw",
+  "target_ip": "34.96.73.68",
+  "protocol": "icmp",
+  "port": null,
+  "duration_seconds": 0.97,
+  "hops": [
+    {
+      "hop": 1,
+      "ip": "192.168.50.1",
+      "hostname": null,
+      "rtts": [
+        9.48,
+        7.74,
+        5.86
+      ],
+      "timeout": false,
+      "avg_rtt": 7.69
+    },
+    {
+      "hop": 2,
+      "ip": "140.123.103.250",
+      "hostname": "csgate103.cs.ccu.edu.tw",
+      "rtts": [
+        10.82,
+        6.64,
+        5.34
+      ],
+      "timeout": false,
+      "avg_rtt": 7.6
+    },
+    {
+      "hop": 3,
+      "ip": "140.123.9.249",
+      "hostname": null,
+      "rtts": [
+        6.64,
+        5.46,
+        6.32
+      ],
+      "timeout": false,
+      "avg_rtt": 6.14
+    },
+    {
+      "hop": 4,
+      "ip": "140.123.0.246",
+      "hostname": null,
+      "rtts": [
+        7.34,
+        31.45,
+        11.04
+      ],
+      "timeout": false,
+      "avg_rtt": 16.61
+    },
+    {
+      "hop": 5,
+      "ip": "140.130.252.251",
+      "hostname": null,
+      "rtts": [
+        10.28,
+        8.66,
+        7.78
+      ],
+      "timeout": false,
+      "avg_rtt": 8.91
+    },
+    {
+      "hop": 6,
+      "ip": "192.192.61.142",
+      "hostname": null,
+      "rtts": [
+        8.69,
+        8.59,
+        13.92
+      ],
+      "timeout": false,
+      "avg_rtt": 10.4
+    },
+    {
+      "hop": 7,
+      "ip": "192.192.61.20",
+      "hostname": null,
+      "rtts": [
+        15.78,
+        16.44,
+        13.97
+      ],
+      "timeout": false,
+      "avg_rtt": 15.4
+    },
+    {
+      "hop": 8,
+      "ip": "192.192.61.184",
+      "hostname": null,
+      "rtts": [
+        15.84,
+        18.03,
+        14.44
+      ],
+      "timeout": false,
+      "avg_rtt": 16.1
+    },
+    {
+      "hop": 9,
+      "ip": "192.192.61.203",
+      "hostname": null,
+      "rtts": [
+        25.15,
+        18.47,
+        12.75
+      ],
+      "timeout": false,
+      "avg_rtt": 18.79
+    },
+    {
+      "hop": 10,
+      "ip": "72.14.196.229",
+      "hostname": null,
+      "rtts": [
+        18.03,
+        13.52,
+        17.52
+      ],
+      "timeout": false,
+      "avg_rtt": 16.36
+    },
+    {
+      "hop": 11,
+      "ip": "34.96.73.68",
+      "hostname": "68.73.96.34.bc.googleusercontent.com",
+      "rtts": [
+        18.65,
+        15.29,
+        15.48
+      ],
+      "timeout": false,
+      "reached_destination": true,
+      "avg_rtt": 16.47
+    }
+  ],
+  "num_hops": 11,
+  "success": true,
+  "method": "scapy",
+  "category": "media",
+  "base_domain": "pts.org.tw",
+  "service_variant": "www.pts.org.tw",
+  "is_bare_domain": false
+}

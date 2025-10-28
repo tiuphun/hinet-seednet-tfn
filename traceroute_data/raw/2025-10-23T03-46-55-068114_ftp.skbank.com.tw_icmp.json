@@ -1,0 +1,153 @@
+{
+  "timestamp": "2025-10-23T03:46:55.068114",
+  "vantage_point": "university",
+  "target": "ftp.skbank.com.tw",
+  "target_ip": "203.74.251.88",
+  "protocol": "icmp",
+  "port": null,
+  "duration_seconds": 12.77,
+  "hops": [
+    {
+      "hop": 1,
+      "ip": "192.168.50.1",
+      "hostname": null,
+      "rtts": [
+        4.47,
+        4.65,
+        4.25
+      ],
+      "timeout": false,
+      "avg_rtt": 4.46
+    },
+    {
+      "hop": 2,
+      "ip": "140.123.103.250",
+      "hostname": "csgate103.cs.ccu.edu.tw",
+      "rtts": [
+        4.43,
+        4.67,
+        4.5
+      ],
+      "timeout": false,
+      "avg_rtt": 4.53
+    },
+    {
+      "hop": 3,
+      "ip": "140.123.9.249",
+      "hostname": null,
+      "rtts": [
+        4.63,
+        5.44,
+        4.61
+      ],
+      "timeout": false,
+      "avg_rtt": 4.89
+    },
+    {
+      "hop": 4,
+      "ip": "140.123.0.246",
+      "hostname": null,
+      "rtts": [
+        5.24,
+        5.02,
+        5.05
+      ],
+      "timeout": false,
+      "avg_rtt": 5.1
+    },
+    {
+      "hop": 5,
+      "ip": "140.130.252.251",
+      "hostname": null,
+      "rtts": [
+        5.48,
+        6.55,
+        10.41
+      ],
+      "timeout": false,
+      "avg_rtt": 7.48
+    },
+    {
+      "hop": 6,
+      "ip": "211.22.226.198",
+      "hostname": "211-22-226-198.caw1-3332.hinet.net",
+      "rtts": [
+        7.39,
+        5.7,
+        13.17
+      ],
+      "timeout": false,
+      "avg_rtt": 8.75
+    },
+    {
+      "hop": 7,
+      "ip": null,
+      "hostname": null,
+      "rtts": [],
+      "timeout": true
+    },
+    {
+      "hop": 8,
+      "ip": null,
+      "hostname": null,
+      "rtts": [],
+      "timeout": true
+    },
+    {
+      "hop": 9,
+      "ip": "220.128.2.225",
+      "hostname": "220-128-2-225.tpdb-3316.hinet.net",
+      "rtts": [
+        30.31,
+        15.64,
+        17.64
+      ],
+      "timeout": false,
+      "avg_rtt": 21.2
+    },
+    {
+      "hop": 10,
+      "ip": "203.75.188.61",
+      "hostname": "tp-s2-c6r15.router.hinet.net",
+      "rtts": [
+        20.43,
+        54.86,
+        17.65
+      ],
+      "timeout": false,
+      "avg_rtt": 30.98
+    },
+    {
+      "hop": 11,
+      "ip": "203.69.4.73",
+      "hostname": "customer.wan-port.ar.hinet.net",
+      "rtts": [
+        21.28,
+        21.08,
+        22.73
+      ],
+      "timeout": false,
+      "avg_rtt": 21.7
+    },
+    {
+      "hop": 12,
+      "ip": "203.74.251.88",
+      "hostname": "203-74-251-88.hinet-ip.hinet.net",
+      "rtts": [
+        22.56,
+        25.31,
+        22.57
+      ],
+      "timeout": false,
+      "reached_destination": true,
+      "avg_rtt": 23.48
+    }
+  ],
+  "num_hops": 12,
+  "success": true,
+  "method": "scapy",
+  "category": "financial_banks",
+  "base_domain": "skbank.com.tw",
+  "service_variant": "ftp.skbank.com.tw",
+  "is_bare_domain": false
+}

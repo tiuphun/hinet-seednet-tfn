@@ -1,0 +1,344 @@
+{
+  "timestamp": "2025-10-22T19:25:33.411182",
+  "vantage_point": "university",
+  "target": "mail.taichung.gov.tw",
+  "target_ip": "210.69.115.235",
+  "protocol": "icmp",
+  "port": null,
+  "duration_seconds": 70.48,
+  "hops": [
+    {
+      "hop": 1,
+      "ip": "192.168.50.1",
+      "hostname": null,
+      "rtts": [
+        13.29,
+        8.06,
+        5.25
+      ],
+      "timeout": false,
+      "avg_rtt": 8.87
+    },
+    {
+      "hop": 2,
+      "ip": "140.123.103.250",
+      "hostname": "csgate103.cs.ccu.edu.tw",
+      "rtts": [
+        7.02,
+        6.29,
+        6.05
+      ],
+      "timeout": false,
+      "avg_rtt": 6.45
+    },
+    {
+      "hop": 3,
+      "ip": "140.123.9.249",
+      "hostname": null,
+      "rtts": [
+        5.26,
+        5.1,
+        5.43
+      ],
+      "timeout": false,
+      "avg_rtt": 5.26
+    },
+    {
+      "hop": 4,
+      "ip": "140.123.0.246",
+      "hostname": null,
+      "rtts": [
+        10.86,
+        9.09,
+        7.52
+      ],
+      "timeout": false,
+      "avg_rtt": 9.16
+    },
+    {
+      "hop": 5,
+      "ip": "140.130.252.251",
+      "hostname": null,
+      "rtts": [
+        19.18,
+        12.9,
+        18.49
+      ],
+      "timeout": false,
+      "avg_rtt": 16.86
+    },
+    {
+      "hop": 6,
+      "ip": "192.192.61.142",
+      "hostname": null,
+      "rtts": [
+        10.89,
+        16.69,
+        19.96
+      ],
+      "timeout": false,
+      "avg_rtt": 15.85
+    },
+    {
+      "hop": 7,
+      "ip": "192.192.61.37",
+      "hostname": null,
+      "rtts": [
+        12.65,
+        13.95,
+        13.65
+      ],
+      "timeout": false,
+      "avg_rtt": 13.42
+    },
+    {
+      "hop": 8,
+      "ip": "192.192.61.32",
+      "hostname": null,
+      "rtts": [
+        11.72,
+        11.47,
+        16.7
+      ],
+      "timeout": false,
+      "avg_rtt": 13.3
+    },
+    {
+      "hop": 9,
+      "ip": "192.192.61.209",
+      "hostname": null,
+      "rtts": [
+        13.36,
+        15.56,
+        20.49
+      ],
+      "timeout": false,
+      "avg_rtt": 16.47
+    },
+    {
+      "hop": 10,
+      "ip": "10.96.81.12",
+      "hostname": null,
+      "rtts": [
+        17.45,
+        15.75
+      ],
+      "timeout": false,
+      "avg_rtt": 16.6
+    },
+    {
+      "hop": 11,
+      "ip": "10.96.81.12",
+      "hostname": null,
+      "rtts": [
+        16.95
+      ],
+      "timeout": false,
+      "avg_rtt": 16.95
+    },
+    {
+      "hop": 12,
+      "ip": "10.96.81.12",
+      "hostname": null,
+      "rtts": [
+        18.13
+      ],
+      "timeout": false,
+      "avg_rtt": 18.13
+    },
+    {
+      "hop": 13,
+      "ip": "10.96.81.12",
+      "hostname": null,
+      "rtts": [
+        19.65
+      ],
+      "timeout": false,
+      "avg_rtt": 19.65
+    },
+    {
+      "hop": 14,
+      "ip": "10.96.81.12",
+      "hostname": null,
+      "rtts": [
+        28.07,
+        34.25
+      ],
+      "timeout": false,
+      "avg_rtt": 31.16
+    },
+    {
+      "hop": 15,
+      "ip": "10.96.81.12",
+      "hostname": null,
+      "rtts": [
+        11.96
+      ],
+      "timeout": false,
+      "avg_rtt": 11.96
+    },
+    {
+      "hop": 16,
+      "ip": "10.96.81.12",
+      "hostname": null,
+      "rtts": [
+        51.01,
+        24.97
+      ],
+      "timeout": false,
+      "avg_rtt": 37.99
+    },
+    {
+      "hop": 17,
+      "ip": "10.96.81.12",
+      "hostname": null,
+      "rtts": [
+        26.29
+      ],
+      "timeout": false,
+      "avg_rtt": 26.29
+    },
+    {
+      "hop": 18,
+      "ip": "10.96.81.12",
+      "hostname": null,
+      "rtts": [
+        26.45,
+        19.37
+      ],
+      "timeout": false,
+      "avg_rtt": 22.91
+    },
+    {
+      "hop": 19,
+      "ip": "10.96.81.12",
+      "hostname": null,
+      "rtts": [
+        22.85
+      ],
+      "timeout": false,
+      "avg_rtt": 22.85
+    },
+    {
+      "hop": 20,
+      "ip": "10.96.81.12",
+      "hostname": null,
+      "rtts": [
+        14.69,
+        17.8
+      ],
+      "timeout": false,
+      "avg_rtt": 16.25
+    },
+    {
+      "hop": 21,
+      "ip": "10.96.81.12",
+      "hostname": null,
+      "rtts": [
+        21.37
+      ],
+      "timeout": false,
+      "avg_rtt": 21.37
+    },
+    {
+      "hop": 22,
+      "ip": "10.96.81.12",
+      "hostname": null,
+      "rtts": [
+        25.7
+      ],
+      "timeout": false,
+      "avg_rtt": 25.7
+    },
+    {
+      "hop": 23,
+      "ip": "10.96.81.12",
+      "hostname": null,
+      "rtts": [
+        27.4,
+        28.29
+      ],
+      "timeout": false,
+      "avg_rtt": 27.84
+    },
+    {
+      "hop": 24,
+      "ip": "10.96.81.12",
+      "hostname": null,
+      "rtts": [
+        13.42
+      ],
+      "timeout": false,
+      "avg_rtt": 13.42
+    },
+    {
+      "hop": 25,
+      "ip": "10.96.81.12",
+      "hostname": null,
+      "rtts": [
+        24.27,
+        19.34
+      ],
+      "timeout": false,
+      "avg_rtt": 21.8
+    },
+    {
+      "hop": 26,
+      "ip": "10.96.81.12",
+      "hostname": null,
+      "rtts": [
+        13.82
+      ],
+      "timeout": false,
+      "avg_rtt": 13.82
+    },
+    {
+      "hop": 27,
+      "ip": "10.96.81.12",
+      "hostname": null,
+      "rtts": [
+        22.06,
+        13.04
+      ],
+      "timeout": false,
+      "avg_rtt": 17.55
+    },
+    {
+      "hop": 28,
+      "ip": "10.96.81.12",
+      "hostname": null,
+      "rtts": [
+        22.08
+      ],
+      "timeout": false,
+      "avg_rtt": 22.08
+    },
+    {
+      "hop": 29,
+      "ip": "10.96.81.12",
+      "hostname": null,
+      "rtts": [
+        79.99
+      ],
+      "timeout": false,
+      "avg_rtt": 79.99
+    },
+    {
+      "hop": 30,
+      "ip": "10.96.81.12",
+      "hostname": null,
+      "rtts": [
+        44.19
+      ],
+      "timeout": false,
+      "avg_rtt": 44.19
+    }
+  ],
+  "num_hops": 30,
+  "success": false,
+  "method": "scapy",
+  "category": "government_local",
+  "base_domain": "taichung.gov.tw",
+  "service_variant": "mail.taichung.gov.tw",
+  "is_bare_domain": false
+}

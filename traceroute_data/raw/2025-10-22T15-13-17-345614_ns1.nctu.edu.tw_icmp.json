@@ -1,0 +1,283 @@
+{
+  "timestamp": "2025-10-22T15:13:17.345614",
+  "vantage_point": "university",
+  "target": "ns1.nctu.edu.tw",
+  "target_ip": "140.113.1.1",
+  "protocol": "icmp",
+  "port": null,
+  "duration_seconds": 116.55,
+  "hops": [
+    {
+      "hop": 1,
+      "ip": "192.168.50.1",
+      "hostname": null,
+      "rtts": [
+        19.86,
+        5.7,
+        11.24
+      ],
+      "timeout": false,
+      "avg_rtt": 12.27
+    },
+    {
+      "hop": 2,
+      "ip": "140.123.103.250",
+      "hostname": "csgate103.cs.ccu.edu.tw",
+      "rtts": [
+        8.59,
+        5.23,
+        5.63
+      ],
+      "timeout": false,
+      "avg_rtt": 6.48
+    },
+    {
+      "hop": 3,
+      "ip": "140.123.9.249",
+      "hostname": null,
+      "rtts": [
+        10.29,
+        26.06,
+        11.72
+      ],
+      "timeout": false,
+      "avg_rtt": 16.02
+    },
+    {
+      "hop": 4,
+      "ip": "140.123.0.246",
+      "hostname": null,
+      "rtts": [
+        6.54,
+        8.54,
+        6.73
+      ],
+      "timeout": false,
+      "avg_rtt": 7.27
+    },
+    {
+      "hop": 5,
+      "ip": "211.79.57.25",
+      "hostname": "ccu-ccu-76.twaren.net",
+      "rtts": [
+        12.86,
+        14.58,
+        12.55
+      ],
+      "timeout": false,
+      "avg_rtt": 13.33
+    },
+    {
+      "hop": 6,
+      "ip": "211.73.76.209",
+      "hostname": "tn-a1.twaren.net",
+      "rtts": [
+        15.81,
+        14.86,
+        10.02
+      ],
+      "timeout": false,
+      "avg_rtt": 13.56
+    },
+    {
+      "hop": 7,
+      "ip": "211.73.76.198",
+      "hostname": "tn-a2.twaren.net",
+      "rtts": [
+        9.37,
+        17.24,
+        16.1
+      ],
+      "timeout": false,
+      "avg_rtt": 14.24
+    },
+    {
+      "hop": 8,
+      "ip": "211.73.76.141",
+      "hostname": "hc-a2.twaren.net",
+      "rtts": [
+        13.68,
+        14.56,
+        17.05
+      ],
+      "timeout": false,
+      "avg_rtt": 15.1
+    },
+    {
+      "hop": 9,
+      "ip": "211.73.76.154",
+      "hostname": "nctu-a1.twaren.net",
+      "rtts": [
+        16.19,
+        18.85,
+        18.4
+      ],
+      "timeout": false,
+      "avg_rtt": 17.81
+    },
+    {
+      "hop": 10,
+      "ip": "211.79.53.30",
+      "hostname": "nctu-76-nctu.twaren.net",
+      "rtts": [
+        23.61,
+        19.83,
+        15.68
+      ],
+      "timeout": false,
+      "avg_rtt": 19.71
+    },
+    {
+      "hop": 11,
+      "ip": "140.113.0.73",
+      "hostname": null,
+      "rtts": [
+        13.86,
+        16.57,
+        15.28
+      ],
+      "timeout": false,
+      "avg_rtt": 15.24
+    },
+    {
+      "hop": 12,
+      "ip": null,
+      "hostname": null,
+      "rtts": [],
+      "timeout": true
+    },
+    {
+      "hop": 13,
+      "ip": null,
+      "hostname": null,
+      "rtts": [],
+      "timeout": true
+    },
+    {
+      "hop": 14,
+      "ip": null,
+      "hostname": null,
+      "rtts": [],
+      "timeout": true
+    },
+    {
+      "hop": 15,
+      "ip": null,
+      "hostname": null,
+      "rtts": [],
+      "timeout": true
+    },
+    {
+      "hop": 16,
+      "ip": null,
+      "hostname": null,
+      "rtts": [],
+      "timeout": true
+    },
+    {
+      "hop": 17,
+      "ip": null,
+      "hostname": null,
+      "rtts": [],
+      "timeout": true
+    },
+    {
+      "hop": 18,
+      "ip": null,
+      "hostname": null,
+      "rtts": [],
+      "timeout": true
+    },
+    {
+      "hop": 19,
+      "ip": null,
+      "hostname": null,
+      "rtts": [],
+      "timeout": true
+    },
+    {
+      "hop": 20,
+      "ip": null,
+      "hostname": null,
+      "rtts": [],
+      "timeout": true
+    },
+    {
+      "hop": 21,
+      "ip": null,
+      "hostname": null,
+      "rtts": [],
+      "timeout": true
+    },
+    {
+      "hop": 22,
+      "ip": null,
+      "hostname": null,
+      "rtts": [],
+      "timeout": true
+    },
+    {
+      "hop": 23,
+      "ip": null,
+      "hostname": null,
+      "rtts": [],
+      "timeout": true
+    },
+    {
+      "hop": 24,
+      "ip": null,
+      "hostname": null,
+      "rtts": [],
+      "timeout": true
+    },
+    {
+      "hop": 25,
+      "ip": null,
+      "hostname": null,
+      "rtts": [],
+      "timeout": true
+    },
+    {
+      "hop": 26,
+      "ip": null,
+      "hostname": null,
+      "rtts": [],
+      "timeout": true
+    },
+    {
+      "hop": 27,
+      "ip": null,
+      "hostname": null,
+      "rtts": [],
+      "timeout": true
+    },
+    {
+      "hop": 28,
+      "ip": null,
+      "hostname": null,
+      "rtts": [],
+      "timeout": true
+    },
+    {
+      "hop": 29,
+      "ip": null,
+      "hostname": null,
+      "rtts": [],
+      "timeout": true
+    },
+    {
+      "hop": 30,
+      "ip": null,
+      "hostname": null,
+      "rtts": [],
+      "timeout": true
+    }
+  ],
+  "num_hops": 30,
+  "success": false,
+  "method": "scapy",
+  "category": "universities",
+  "base_domain": "nctu.edu.tw",
+  "service_variant": "ns1.nctu.edu.tw",
+  "is_bare_domain": false
+}

@@ -1,0 +1,211 @@
+{
+  "timestamp": "2025-10-23T02:04:40.364308",
+  "vantage_point": "university",
+  "target": "www.bot.com.tw",
+  "target_ip": "23.217.205.208",
+  "protocol": "tcp",
+  "port": 443,
+  "duration_seconds": 17.51,
+  "hops": [
+    {
+      "hop": 1,
+      "ip": "192.168.50.1",
+      "hostname": null,
+      "rtts": [
+        9.51,
+        6.41,
+        7.13
+      ],
+      "timeout": false,
+      "avg_rtt": 7.68
+    },
+    {
+      "hop": 2,
+      "ip": "140.123.103.250",
+      "hostname": "csgate103.cs.ccu.edu.tw",
+      "rtts": [
+        6.86,
+        5.39,
+        26.66
+      ],
+      "timeout": false,
+      "avg_rtt": 12.97
+    },
+    {
+      "hop": 3,
+      "ip": "140.123.9.249",
+      "hostname": null,
+      "rtts": [
+        9.7,
+        7.01,
+        6.52
+      ],
+      "timeout": false,
+      "avg_rtt": 7.74
+    },
+    {
+      "hop": 4,
+      "ip": "140.123.0.246",
+      "hostname": null,
+      "rtts": [
+        6.01,
+        5.09,
+        5.84
+      ],
+      "timeout": false,
+      "avg_rtt": 5.65
+    },
+    {
+      "hop": 5,
+      "ip": "140.130.252.251",
+      "hostname": null,
+      "rtts": [
+        8.15,
+        13.5,
+        6.74
+      ],
+      "timeout": false,
+      "avg_rtt": 9.46
+    },
+    {
+      "hop": 6,
+      "ip": "192.192.61.142",
+      "hostname": null,
+      "rtts": [
+        17.29,
+        10.21,
+        13.37
+      ],
+      "timeout": false,
+      "avg_rtt": 13.62
+    },
+    {
+      "hop": 7,
+      "ip": "192.192.61.20",
+      "hostname": null,
+      "rtts": [
+        14.98,
+        11.62,
+        13.04
+      ],
+      "timeout": false,
+      "avg_rtt": 13.21
+    },
+    {
+      "hop": 8,
+      "ip": "192.192.61.48",
+      "hostname": null,
+      "rtts": [
+        14.99,
+        16.89,
+        14.45
+      ],
+      "timeout": false,
+      "avg_rtt": 15.44
+    },
+    {
+      "hop": 9,
+      "ip": "192.192.68.62",
+      "hostname": null,
+      "rtts": [
+        15.4,
+        15.1,
+        15.41
+      ],
+      "timeout": false,
+      "avg_rtt": 15.3
+    },
+    {
+      "hop": 10,
+      "ip": "65.49.108.1",
+      "hostname": "e0-11.switch2.tpe1.he.net",
+      "rtts": [
+        26.37
+      ],
+      "timeout": false,
+      "avg_rtt": 26.37
+    },
+    {
+      "hop": 11,
+      "ip": null,
+      "hostname": null,
+      "rtts": [],
+      "timeout": true
+    },
+    {
+      "hop": 12,
+      "ip": null,
+      "hostname": null,
+      "rtts": [],
+      "timeout": true
+    },
+    {
+      "hop": 13,
+      "ip": "23.201.30.23",
+      "hostname": "lo1.r04.stem01.tyo02.fab.netarch.akamai.com",
+      "rtts": [
+        58.95,
+        44.79,
+        57.05
+      ],
+      "timeout": false,
+      "avg_rtt": 53.6
+    },
+    {
+      "hop": 14,
+      "ip": "23.201.30.18",
+      "hostname": "lo1.r03.spine04.tyo02.fab.netarch.akamai.com",
+      "rtts": [
+        44.31,
+        45.53,
+        46.57
+      ],
+      "timeout": false,
+      "avg_rtt": 45.47
+    },
+    {
+      "hop": 15,
+      "ip": "23.201.30.27",
+      "hostname": "lo1.r04.leaf01.tyo02.fab.netarch.akamai.com",
+      "rtts": [
+        45.28,
+        58.36,
+        50.99
+      ],
+      "timeout": false,
+      "avg_rtt": 51.54
+    },
+    {
+      "hop": 16,
+      "ip": "23.214.199.97",
+      "hostname": "vlan100.r30.tor01.tyo02.fab.netarch.akamai.com",
+      "rtts": [
+        47.2,
+        44.28,
+        44.87
+      ],
+      "timeout": false,
+      "avg_rtt": 45.45
+    },
+    {
+      "hop": 17,
+      "ip": "23.217.205.208",
+      "hostname": "a23-217-205-208.deploy.static.akamaitechnologies.com",
+      "rtts": [
+        46.09,
+        47.55,
+        45.22
+      ],
+      "timeout": false,
+      "reached_destination": true,
+      "avg_rtt": 46.29
+    }
+  ],
+  "num_hops": 17,
+  "success": true,
+  "method": "scapy",
+  "category": "financial_banks",
+  "base_domain": "bot.com.tw",
+  "service_variant": "www.bot.com.tw",
+  "is_bare_domain": false
+}

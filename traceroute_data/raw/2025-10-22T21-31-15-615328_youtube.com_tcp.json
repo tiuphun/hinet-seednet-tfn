@@ -1,0 +1,175 @@
+{
+  "timestamp": "2025-10-22T21:31:15.615328",
+  "vantage_point": "university",
+  "target": "youtube.com",
+  "target_ip": "142.250.204.46",
+  "protocol": "tcp",
+  "port": 80,
+  "duration_seconds": 0.66,
+  "hops": [
+    {
+      "hop": 1,
+      "ip": "192.168.50.1",
+      "hostname": null,
+      "rtts": [
+        45.41,
+        128.5,
+        5.47
+      ],
+      "timeout": false,
+      "avg_rtt": 59.79
+    },
+    {
+      "hop": 2,
+      "ip": "140.123.103.250",
+      "hostname": "csgate103.cs.ccu.edu.tw",
+      "rtts": [
+        7.08,
+        8.43,
+        6.52
+      ],
+      "timeout": false,
+      "avg_rtt": 7.34
+    },
+    {
+      "hop": 3,
+      "ip": "140.123.9.249",
+      "hostname": null,
+      "rtts": [
+        5.75,
+        9.97,
+        6.05
+      ],
+      "timeout": false,
+      "avg_rtt": 7.26
+    },
+    {
+      "hop": 4,
+      "ip": "140.123.0.246",
+      "hostname": null,
+      "rtts": [
+        6.34,
+        7.96,
+        10.34
+      ],
+      "timeout": false,
+      "avg_rtt": 8.21
+    },
+    {
+      "hop": 5,
+      "ip": "140.130.252.251",
+      "hostname": null,
+      "rtts": [
+        9.99,
+        27.95,
+        11.24
+      ],
+      "timeout": false,
+      "avg_rtt": 16.39
+    },
+    {
+      "hop": 6,
+      "ip": "192.192.61.142",
+      "hostname": null,
+      "rtts": [
+        10.04,
+        11.7,
+        11.99
+      ],
+      "timeout": false,
+      "avg_rtt": 11.24
+    },
+    {
+      "hop": 7,
+      "ip": "192.192.61.20",
+      "hostname": null,
+      "rtts": [
+        12.04,
+        12.61,
+        13.36
+      ],
+      "timeout": false,
+      "avg_rtt": 12.67
+    },
+    {
+      "hop": 8,
+      "ip": "192.192.61.184",
+      "hostname": null,
+      "rtts": [
+        16.92,
+        15.77,
+        12.35
+      ],
+      "timeout": false,
+      "avg_rtt": 15.01
+    },
+    {
+      "hop": 9,
+      "ip": "192.192.61.203",
+      "hostname": null,
+      "rtts": [
+        12.57,
+        13.91,
+        15.35
+      ],
+      "timeout": false,
+      "avg_rtt": 13.94
+    },
+    {
+      "hop": 10,
+      "ip": "72.14.196.229",
+      "hostname": null,
+      "rtts": [
+        13.1,
+        13.76,
+        9.72
+      ],
+      "timeout": false,
+      "avg_rtt": 12.19
+    },
+    {
+      "hop": 11,
+      "ip": "209.85.254.217",
+      "hostname": null,
+      "rtts": [
+        9.24,
+        9.07,
+        14.63
+      ],
+      "timeout": false,
+      "avg_rtt": 10.98
+    },
+    {
+      "hop": 12,
+      "ip": "142.251.226.171",
+      "hostname": null,
+      "rtts": [
+        10.65,
+        9.77,
+        9.5
+      ],
+      "timeout": false,
+      "avg_rtt": 9.97
+    },
+    {
+      "hop": 13,
+      "ip": "142.250.204.46",
+      "hostname": "hkg07s38-in-f14.1e100.net",
+      "rtts": [
+        8.8,
+        19.92,
+        10.52
+      ],
+      "timeout": false,
+      "reached_destination": true,
+      "avg_rtt": 13.08
+    }
+  ],
+  "num_hops": 13,
+  "success": true,
+  "method": "scapy",
+  "category": "cdn_global",
+  "base_domain": "youtube.com",
+  "service_variant": "youtube.com",
+  "is_bare_domain": true
+}

@@ -1,0 +1,139 @@
+{
+  "timestamp": "2025-10-22T23:56:49.945064",
+  "vantage_point": "university",
+  "target": "portal.ntnu.edu.tw",
+  "target_ip": "140.122.64.138",
+  "protocol": "icmp",
+  "port": null,
+  "duration_seconds": 2.06,
+  "hops": [
+    {
+      "hop": 1,
+      "ip": "192.168.50.1",
+      "hostname": null,
+      "rtts": [
+        7.9,
+        6.36,
+        5.84
+      ],
+      "timeout": false,
+      "avg_rtt": 6.7
+    },
+    {
+      "hop": 2,
+      "ip": "140.123.103.250",
+      "hostname": "csgate103.cs.ccu.edu.tw",
+      "rtts": [
+        6.12,
+        5.83,
+        5.55
+      ],
+      "timeout": false,
+      "avg_rtt": 5.83
+    },
+    {
+      "hop": 3,
+      "ip": "140.123.9.249",
+      "hostname": null,
+      "rtts": [
+        5.55,
+        4.97,
+        6.19
+      ],
+      "timeout": false,
+      "avg_rtt": 5.57
+    },
+    {
+      "hop": 4,
+      "ip": "140.123.0.246",
+      "hostname": null,
+      "rtts": [
+        6.33,
+        6.79,
+        5.81
+      ],
+      "timeout": false,
+      "avg_rtt": 6.31
+    },
+    {
+      "hop": 5,
+      "ip": "140.130.252.251",
+      "hostname": null,
+      "rtts": [
+        9.28,
+        8.91,
+        6.7
+      ],
+      "timeout": false,
+      "avg_rtt": 8.3
+    },
+    {
+      "hop": 6,
+      "ip": "192.192.61.142",
+      "hostname": null,
+      "rtts": [
+        7.97,
+        7.46,
+        10.5
+      ],
+      "timeout": false,
+      "avg_rtt": 8.64
+    },
+    {
+      "hop": 7,
+      "ip": "192.192.61.20",
+      "hostname": null,
+      "rtts": [
+        12.19,
+        17.66,
+        13.09
+      ],
+      "timeout": false,
+      "avg_rtt": 14.31
+    },
+    {
+      "hop": 8,
+      "ip": "192.192.61.81",
+      "hostname": null,
+      "rtts": [
+        13.84,
+        16.6,
+        16.65
+      ],
+      "timeout": false,
+      "avg_rtt": 15.7
+    },
+    {
+      "hop": 9,
+      "ip": "192.192.7.158",
+      "hostname": null,
+      "rtts": [
+        13.65,
+        13.09,
+        20.77
+      ],
+      "timeout": false,
+      "avg_rtt": 15.84
+    },
+    {
+      "hop": 10,
+      "ip": "140.122.64.138",
+      "hostname": "iweb.ntnu.edu.tw",
+      "rtts": [
+        19.09,
+        14.57,
+        16.1
+      ],
+      "timeout": false,
+      "reached_destination": true,
+      "avg_rtt": 16.59
+    }
+  ],
+  "num_hops": 10,
+  "success": true,
+  "method": "scapy",
+  "category": "universities",
+  "base_domain": "ntnu.edu.tw",
+  "service_variant": "portal.ntnu.edu.tw",
+  "is_bare_domain": false
+}

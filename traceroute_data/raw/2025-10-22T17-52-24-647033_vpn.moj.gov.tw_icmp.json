@@ -1,0 +1,342 @@
+{
+  "timestamp": "2025-10-22T17:52:24.647033",
+  "vantage_point": "university",
+  "target": "vpn.moj.gov.tw",
+  "target_ip": "163.29.130.231",
+  "protocol": "icmp",
+  "port": null,
+  "duration_seconds": 74.23,
+  "hops": [
+    {
+      "hop": 1,
+      "ip": "192.168.50.1",
+      "hostname": null,
+      "rtts": [
+        14.44,
+        6.15,
+        19.66
+      ],
+      "timeout": false,
+      "avg_rtt": 13.42
+    },
+    {
+      "hop": 2,
+      "ip": "140.123.103.250",
+      "hostname": "csgate103.cs.ccu.edu.tw",
+      "rtts": [
+        9.75,
+        8.39,
+        6.57
+      ],
+      "timeout": false,
+      "avg_rtt": 8.24
+    },
+    {
+      "hop": 3,
+      "ip": "140.123.9.249",
+      "hostname": null,
+      "rtts": [
+        6.55,
+        5.92,
+        6.64
+      ],
+      "timeout": false,
+      "avg_rtt": 6.37
+    },
+    {
+      "hop": 4,
+      "ip": "140.123.0.246",
+      "hostname": null,
+      "rtts": [
+        6.28,
+        5.28,
+        5.3
+      ],
+      "timeout": false,
+      "avg_rtt": 5.62
+    },
+    {
+      "hop": 5,
+      "ip": "140.130.252.251",
+      "hostname": null,
+      "rtts": [
+        10.67,
+        6.39,
+        10.06
+      ],
+      "timeout": false,
+      "avg_rtt": 9.04
+    },
+    {
+      "hop": 6,
+      "ip": "192.192.61.142",
+      "hostname": null,
+      "rtts": [
+        11.93,
+        7.28,
+        8.57
+      ],
+      "timeout": false,
+      "avg_rtt": 9.26
+    },
+    {
+      "hop": 7,
+      "ip": "192.192.61.37",
+      "hostname": null,
+      "rtts": [
+        9.68,
+        14.37,
+        10.46
+      ],
+      "timeout": false,
+      "avg_rtt": 11.5
+    },
+    {
+      "hop": 8,
+      "ip": "192.192.61.32",
+      "hostname": null,
+      "rtts": [
+        14.54,
+        9.83,
+        10.46
+      ],
+      "timeout": false,
+      "avg_rtt": 11.61
+    },
+    {
+      "hop": 9,
+      "ip": "192.192.61.209",
+      "hostname": null,
+      "rtts": [
+        47.86,
+        10.81,
+        10.21
+      ],
+      "timeout": false,
+      "avg_rtt": 22.96
+    },
+    {
+      "hop": 10,
+      "ip": "10.96.81.12",
+      "hostname": null,
+      "rtts": [
+        13.71,
+        39.12
+      ],
+      "timeout": false,
+      "avg_rtt": 26.41
+    },
+    {
+      "hop": 11,
+      "ip": "10.96.81.12",
+      "hostname": null,
+      "rtts": [
+        20.79
+      ],
+      "timeout": false,
+      "avg_rtt": 20.79
+    },
+    {
+      "hop": 12,
+      "ip": "10.96.81.12",
+      "hostname": null,
+      "rtts": [
+        15.81,
+        12.98
+      ],
+      "timeout": false,
+      "avg_rtt": 14.39
+    },
+    {
+      "hop": 13,
+      "ip": "10.96.81.12",
+      "hostname": null,
+      "rtts": [
+        15.23
+      ],
+      "timeout": false,
+      "avg_rtt": 15.23
+    },
+    {
+      "hop": 14,
+      "ip": "10.96.81.12",
+      "hostname": null,
+      "rtts": [
+        24.04
+      ],
+      "timeout": false,
+      "avg_rtt": 24.04
+    },
+    {
+      "hop": 15,
+      "ip": "10.96.81.12",
+      "hostname": null,
+      "rtts": [
+        21.74,
+        25.81
+      ],
+      "timeout": false,
+      "avg_rtt": 23.77
+    },
+    {
+      "hop": 16,
+      "ip": "10.96.81.12",
+      "hostname": null,
+      "rtts": [
+        20.31
+      ],
+      "timeout": false,
+      "avg_rtt": 20.31
+    },
+    {
+      "hop": 17,
+      "ip": "10.96.81.12",
+      "hostname": null,
+      "rtts": [
+        14.51
+      ],
+      "timeout": false,
+      "avg_rtt": 14.51
+    },
+    {
+      "hop": 18,
+      "ip": "10.96.81.12",
+      "hostname": null,
+      "rtts": [
+        21.05
+      ],
+      "timeout": false,
+      "avg_rtt": 21.05
+    },
+    {
+      "hop": 19,
+      "ip": "10.96.81.12",
+      "hostname": null,
+      "rtts": [
+        17.66
+      ],
+      "timeout": false,
+      "avg_rtt": 17.66
+    },
+    {
+      "hop": 20,
+      "ip": "10.96.81.12",
+      "hostname": null,
+      "rtts": [
+        57.63
+      ],
+      "timeout": false,
+      "avg_rtt": 57.63
+    },
+    {
+      "hop": 21,
+      "ip": "10.96.81.12",
+      "hostname": null,
+      "rtts": [
+        28.87
+      ],
+      "timeout": false,
+      "avg_rtt": 28.87
+    },
+    {
+      "hop": 22,
+      "ip": "10.96.81.12",
+      "hostname": null,
+      "rtts": [
+        14.24,
+        16.69
+      ],
+      "timeout": false,
+      "avg_rtt": 15.46
+    },
+    {
+      "hop": 23,
+      "ip": "10.96.81.12",
+      "hostname": null,
+      "rtts": [
+        30.13
+      ],
+      "timeout": false,
+      "avg_rtt": 30.13
+    },
+    {
+      "hop": 24,
+      "ip": "10.96.81.12",
+      "hostname": null,
+      "rtts": [
+        29.29
+      ],
+      "timeout": false,
+      "avg_rtt": 29.29
+    },
+    {
+      "hop": 25,
+      "ip": "10.96.81.12",
+      "hostname": null,
+      "rtts": [
+        39.43,
+        51.4
+      ],
+      "timeout": false,
+      "avg_rtt": 45.41
+    },
+    {
+      "hop": 26,
+      "ip": "10.96.81.12",
+      "hostname": null,
+      "rtts": [
+        29.28
+      ],
+      "timeout": false,
+      "avg_rtt": 29.28
+    },
+    {
+      "hop": 27,
+      "ip": "10.96.81.12",
+      "hostname": null,
+      "rtts": [
+        18.23
+      ],
+      "timeout": false,
+      "avg_rtt": 18.23
+    },
+    {
+      "hop": 28,
+      "ip": "10.96.81.12",
+      "hostname": null,
+      "rtts": [
+        30.35
+      ],
+      "timeout": false,
+      "avg_rtt": 30.35
+    },
+    {
+      "hop": 29,
+      "ip": "10.96.81.12",
+      "hostname": null,
+      "rtts": [
+        37.05,
+        27.29
+      ],
+      "timeout": false,
+      "avg_rtt": 32.17
+    },
+    {
+      "hop": 30,
+      "ip": "10.96.81.12",
+      "hostname": null,
+      "rtts": [
+        23.76
+      ],
+      "timeout": false,
+      "avg_rtt": 23.76
+    }
+  ],
+  "num_hops": 30,
+  "success": false,
+  "method": "scapy",
+  "category": "government_central",
+  "base_domain": "moj.gov.tw",
+  "service_variant": "vpn.moj.gov.tw",
+  "is_bare_domain": false
+}

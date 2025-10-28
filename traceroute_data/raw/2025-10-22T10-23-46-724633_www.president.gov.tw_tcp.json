@@ -1,0 +1,153 @@
+{
+  "timestamp": "2025-10-22T10:23:46.724633",
+  "vantage_point": "university",
+  "target": "www.president.gov.tw",
+  "target_ip": "203.66.32.102",
+  "protocol": "tcp",
+  "port": 443,
+  "duration_seconds": 12.58,
+  "hops": [
+    {
+      "hop": 1,
+      "ip": "192.168.50.1",
+      "hostname": null,
+      "rtts": [
+        14.44,
+        9.29,
+        4.98
+      ],
+      "timeout": false,
+      "avg_rtt": 9.57
+    },
+    {
+      "hop": 2,
+      "ip": "140.123.103.250",
+      "hostname": "csgate103.cs.ccu.edu.tw",
+      "rtts": [
+        5.33,
+        4.43,
+        7.0
+      ],
+      "timeout": false,
+      "avg_rtt": 5.59
+    },
+    {
+      "hop": 3,
+      "ip": "140.123.9.249",
+      "hostname": null,
+      "rtts": [
+        8.41,
+        4.65,
+        4.04
+      ],
+      "timeout": false,
+      "avg_rtt": 5.7
+    },
+    {
+      "hop": 4,
+      "ip": "140.123.0.246",
+      "hostname": null,
+      "rtts": [
+        5.28,
+        7.15,
+        21.16
+      ],
+      "timeout": false,
+      "avg_rtt": 11.2
+    },
+    {
+      "hop": 5,
+      "ip": "140.130.252.251",
+      "hostname": null,
+      "rtts": [
+        12.78,
+        18.48,
+        6.07
+      ],
+      "timeout": false,
+      "avg_rtt": 12.44
+    },
+    {
+      "hop": 6,
+      "ip": "211.22.226.198",
+      "hostname": "211-22-226-198.caw1-3332.hinet.net",
+      "rtts": [
+        5.91,
+        5.16,
+        7.01
+      ],
+      "timeout": false,
+      "avg_rtt": 6.03
+    },
+    {
+      "hop": 7,
+      "ip": null,
+      "hostname": null,
+      "rtts": [],
+      "timeout": true
+    },
+    {
+      "hop": 8,
+      "ip": null,
+      "hostname": null,
+      "rtts": [],
+      "timeout": true
+    },
+    {
+      "hop": 9,
+      "ip": "220.128.8.82",
+      "hostname": "220-128-8-82.tyfo-3031.hinet.net",
+      "rtts": [
+        22.17,
+        14.02,
+        15.01
+      ],
+      "timeout": false,
+      "avg_rtt": 17.07
+    },
+    {
+      "hop": 10,
+      "ip": "220.128.4.193",
+      "hostname": "220-128-4-193.pcpc-3331.hinet.net",
+      "rtts": [
+        30.66,
+        13.96,
+        12.66
+      ],
+      "timeout": false,
+      "avg_rtt": 19.09
+    },
+    {
+      "hop": 11,
+      "ip": "211.22.227.217",
+      "hostname": "211-22-227-217.hinet-ip.hinet.net",
+      "rtts": [
+        16.63,
+        15.21,
+        12.4
+      ],
+      "timeout": false,
+      "avg_rtt": 14.75
+    },
+    {
+      "hop": 12,
+      "ip": "203.66.32.102",
+      "hostname": "203-66-32-102.hinet-ip.hinet.net",
+      "rtts": [
+        50.09,
+        14.53,
+        11.74
+      ],
+      "timeout": false,
+      "reached_destination": true,
+      "avg_rtt": 25.45
+    }
+  ],
+  "num_hops": 12,
+  "success": true,
+  "method": "scapy",
+  "category": "government_central",
+  "base_domain": "president.gov.tw",
+  "service_variant": "www.president.gov.tw",
+  "is_bare_domain": false
+}

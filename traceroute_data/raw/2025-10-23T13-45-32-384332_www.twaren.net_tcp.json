@@ -1,0 +1,163 @@
+{
+  "timestamp": "2025-10-23T13:45:32.384332",
+  "vantage_point": "university",
+  "target": "www.twaren.net",
+  "target_ip": "211.79.59.243",
+  "protocol": "tcp",
+  "port": 80,
+  "duration_seconds": 0.41,
+  "hops": [
+    {
+      "hop": 1,
+      "ip": "192.168.50.1",
+      "hostname": null,
+      "rtts": [
+        4.35,
+        4.81,
+        3.89
+      ],
+      "timeout": false,
+      "avg_rtt": 4.35
+    },
+    {
+      "hop": 2,
+      "ip": "140.123.103.250",
+      "hostname": "csgate103.cs.ccu.edu.tw",
+      "rtts": [
+        4.42,
+        4.26,
+        4.44
+      ],
+      "timeout": false,
+      "avg_rtt": 4.37
+    },
+    {
+      "hop": 3,
+      "ip": "140.123.9.249",
+      "hostname": null,
+      "rtts": [
+        5.47,
+        4.25,
+        4.01
+      ],
+      "timeout": false,
+      "avg_rtt": 4.58
+    },
+    {
+      "hop": 4,
+      "ip": "140.123.0.246",
+      "hostname": null,
+      "rtts": [
+        5.08,
+        5.55,
+        4.44
+      ],
+      "timeout": false,
+      "avg_rtt": 5.02
+    },
+    {
+      "hop": 5,
+      "ip": "211.79.57.25",
+      "hostname": "ccu-ccu-76.twaren.net",
+      "rtts": [
+        6.42,
+        8.29,
+        9.9
+      ],
+      "timeout": false,
+      "avg_rtt": 8.2
+    },
+    {
+      "hop": 6,
+      "ip": "211.73.76.209",
+      "hostname": "tp-a1.twaren.net",
+      "rtts": [
+        10.45,
+        6.64,
+        6.47
+      ],
+      "timeout": false,
+      "avg_rtt": 7.85
+    },
+    {
+      "hop": 7,
+      "ip": "211.79.63.225",
+      "hostname": null,
+      "rtts": [
+        8.18,
+        9.22,
+        7.41
+      ],
+      "timeout": false,
+      "avg_rtt": 8.27
+    },
+    {
+      "hop": 8,
+      "ip": "211.73.76.198",
+      "hostname": "tn-a2.twaren.net",
+      "rtts": [
+        6.45,
+        7.55,
+        6.41
+      ],
+      "timeout": false,
+      "avg_rtt": 6.8
+    },
+    {
+      "hop": 9,
+      "ip": "211.73.76.141",
+      "hostname": "hc-a2.twaren.net",
+      "rtts": [
+        9.35,
+        8.93,
+        10.87
+      ],
+      "timeout": false,
+      "avg_rtt": 9.72
+    },
+    {
+      "hop": 10,
+      "ip": "211.79.60.38",
+      "hostname": "1g-ge-rp1.tnc-tnc.twaren.net",
+      "rtts": [
+        10.57,
+        8.84,
+        8.89
+      ],
+      "timeout": false,
+      "avg_rtt": 9.43
+    },
+    {
+      "hop": 11,
+      "ip": "211.79.59.243",
+      "hostname": "twaren-web3.twaren.net",
+      "rtts": [
+        11.34,
+        10.94,
+        11.52
+      ],
+      "timeout": false,
+      "avg_rtt": 11.27
+    },
+    {
+      "hop": 12,
+      "ip": "211.79.59.243",
+      "hostname": "twaren-web3.twaren.net",
+      "rtts": [
+        9.94,
+        11.85,
+        11.75
+      ],
+      "timeout": false,
+      "reached_destination": true,
+      "avg_rtt": 11.18
+    }
+  ],
+  "num_hops": 12,
+  "success": true,
+  "method": "scapy",
+  "category": "education_network",
+  "base_domain": "twaren.net",
+  "service_variant": "www.twaren.net",
+  "is_bare_domain": false
+}

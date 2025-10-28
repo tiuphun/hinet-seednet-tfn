@@ -1,0 +1,146 @@
+{
+  "timestamp": "2025-10-22T18:58:33.720892",
+  "vantage_point": "university",
+  "target": "dcard.tw",
+  "target_ip": "104.19.248.7",
+  "protocol": "tcp",
+  "port": 80,
+  "duration_seconds": 6.57,
+  "hops": [
+    {
+      "hop": 1,
+      "ip": "192.168.50.1",
+      "hostname": null,
+      "rtts": [
+        17.65,
+        6.15,
+        5.34
+      ],
+      "timeout": false,
+      "avg_rtt": 9.71
+    },
+    {
+      "hop": 2,
+      "ip": "140.123.103.250",
+      "hostname": "csgate103.cs.ccu.edu.tw",
+      "rtts": [
+        12.58,
+        11.83,
+        6.73
+      ],
+      "timeout": false,
+      "avg_rtt": 10.38
+    },
+    {
+      "hop": 3,
+      "ip": "140.123.9.249",
+      "hostname": null,
+      "rtts": [
+        11.94,
+        6.73,
+        6.96
+      ],
+      "timeout": false,
+      "avg_rtt": 8.54
+    },
+    {
+      "hop": 4,
+      "ip": "140.123.0.246",
+      "hostname": null,
+      "rtts": [
+        6.64,
+        17.62,
+        17.19
+      ],
+      "timeout": false,
+      "avg_rtt": 13.82
+    },
+    {
+      "hop": 5,
+      "ip": "140.130.252.251",
+      "hostname": null,
+      "rtts": [
+        11.62,
+        12.11,
+        15.55
+      ],
+      "timeout": false,
+      "avg_rtt": 13.09
+    },
+    {
+      "hop": 6,
+      "ip": "192.192.61.142",
+      "hostname": null,
+      "rtts": [
+        12.55,
+        11.84,
+        11.35
+      ],
+      "timeout": false,
+      "avg_rtt": 11.91
+    },
+    {
+      "hop": 7,
+      "ip": "192.192.61.20",
+      "hostname": null,
+      "rtts": [
+        21.55,
+        10.99,
+        13.54
+      ],
+      "timeout": false,
+      "avg_rtt": 15.36
+    },
+    {
+      "hop": 8,
+      "ip": "192.192.61.48",
+      "hostname": null,
+      "rtts": [
+        15.82,
+        12.86,
+        19.03
+      ],
+      "timeout": false,
+      "avg_rtt": 15.9
+    },
+    {
+      "hop": 9,
+      "ip": "192.192.68.62",
+      "hostname": null,
+      "rtts": [
+        19.89,
+        14.29,
+        18.04
+      ],
+      "timeout": false,
+      "avg_rtt": 17.41
+    },
+    {
+      "hop": 10,
+      "ip": null,
+      "hostname": null,
+      "rtts": [],
+      "timeout": true
+    },
+    {
+      "hop": 11,
+      "ip": "104.19.248.7",
+      "hostname": null,
+      "rtts": [
+        26.8,
+        12.87,
+        15.2
+      ],
+      "timeout": false,
+      "reached_destination": true,
+      "avg_rtt": 18.29
+    }
+  ],
+  "num_hops": 11,
+  "success": true,
+  "method": "scapy",
+  "category": "ecommerce_tech",
+  "base_domain": "dcard.tw",
+  "service_variant": "dcard.tw",
+  "is_bare_domain": true
+}

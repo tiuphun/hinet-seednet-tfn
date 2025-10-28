@@ -1,0 +1,179 @@
+{
+  "timestamp": "2025-10-23T07:22:24.620001",
+  "vantage_point": "university",
+  "target": "mail.cna.com.tw",
+  "target_ip": "61.219.29.196",
+  "protocol": "tcp",
+  "port": 443,
+  "duration_seconds": 24.99,
+  "hops": [
+    {
+      "hop": 1,
+      "ip": "192.168.50.1",
+      "hostname": null,
+      "rtts": [
+        53.6,
+        11.64,
+        8.22
+      ],
+      "timeout": false,
+      "avg_rtt": 24.49
+    },
+    {
+      "hop": 2,
+      "ip": "140.123.103.250",
+      "hostname": "csgate103.cs.ccu.edu.tw",
+      "rtts": [
+        8.27,
+        8.8,
+        7.02
+      ],
+      "timeout": false,
+      "avg_rtt": 8.03
+    },
+    {
+      "hop": 3,
+      "ip": "140.123.9.249",
+      "hostname": null,
+      "rtts": [
+        6.3,
+        7.29,
+        8.85
+      ],
+      "timeout": false,
+      "avg_rtt": 7.48
+    },
+    {
+      "hop": 4,
+      "ip": "140.123.0.246",
+      "hostname": null,
+      "rtts": [
+        8.58,
+        6.84,
+        10.57
+      ],
+      "timeout": false,
+      "avg_rtt": 8.66
+    },
+    {
+      "hop": 5,
+      "ip": "140.130.252.251",
+      "hostname": null,
+      "rtts": [
+        8.22,
+        12.93,
+        8.69
+      ],
+      "timeout": false,
+      "avg_rtt": 9.95
+    },
+    {
+      "hop": 6,
+      "ip": "211.22.226.198",
+      "hostname": "211-22-226-198.caw1-3332.hinet.net",
+      "rtts": [
+        9.48,
+        13.39,
+        11.56
+      ],
+      "timeout": false,
+      "avg_rtt": 11.48
+    },
+    {
+      "hop": 7,
+      "ip": null,
+      "hostname": null,
+      "rtts": [],
+      "timeout": true
+    },
+    {
+      "hop": 8,
+      "ip": null,
+      "hostname": null,
+      "rtts": [],
+      "timeout": true
+    },
+    {
+      "hop": 9,
+      "ip": "220.128.4.213",
+      "hostname": "220-128-4-213.tpdt-3309.hinet.net",
+      "rtts": [
+        16.47,
+        32.02,
+        13.68
+      ],
+      "timeout": false,
+      "avg_rtt": 20.72
+    },
+    {
+      "hop": 10,
+      "ip": "168.95.228.37",
+      "hostname": "h37.s228.ts.hinet.net",
+      "rtts": [
+        13.2,
+        20.09,
+        21.11
+      ],
+      "timeout": false,
+      "avg_rtt": 18.13
+    },
+    {
+      "hop": 11,
+      "ip": null,
+      "hostname": null,
+      "rtts": [],
+      "timeout": true
+    },
+    {
+      "hop": 12,
+      "ip": "61.219.29.194",
+      "hostname": "61-219-29-194.hinet-ip.hinet.net",
+      "rtts": [
+        25.49,
+        16.28,
+        15.22
+      ],
+      "timeout": false,
+      "avg_rtt": 19.0
+    },
+    {
+      "hop": 13,
+      "ip": "61.219.29.194",
+      "hostname": "61-219-29-194.hinet-ip.hinet.net",
+      "rtts": [
+        25.14,
+        15.65,
+        18.95
+      ],
+      "timeout": false,
+      "avg_rtt": 19.91
+    },
+    {
+      "hop": 14,
+      "ip": null,
+      "hostname": null,
+      "rtts": [],
+      "timeout": true
+    },
+    {
+      "hop": 15,
+      "ip": "61.219.29.196",
+      "hostname": "mail.cna.com.tw",
+      "rtts": [
+        26.99,
+        15.62,
+        15.72
+      ],
+      "timeout": false,
+      "reached_destination": true,
+      "avg_rtt": 19.44
+    }
+  ],
+  "num_hops": 15,
+  "success": true,
+  "method": "scapy",
+  "category": "media",
+  "base_domain": "cna.com.tw",
+  "service_variant": "mail.cna.com.tw",
+  "is_bare_domain": false
+}

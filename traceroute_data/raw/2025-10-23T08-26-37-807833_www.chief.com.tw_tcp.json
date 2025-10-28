@@ -1,0 +1,176 @@
+{
+  "timestamp": "2025-10-23T08:26:37.807833",
+  "vantage_point": "university",
+  "target": "www.chief.com.tw",
+  "target_ip": "202.55.247.128",
+  "protocol": "tcp",
+  "port": 443,
+  "duration_seconds": 14.85,
+  "hops": [
+    {
+      "hop": 1,
+      "ip": "192.168.50.1",
+      "hostname": null,
+      "rtts": [
+        16.04,
+        7.33,
+        6.86
+      ],
+      "timeout": false,
+      "avg_rtt": 10.08
+    },
+    {
+      "hop": 2,
+      "ip": "140.123.103.250",
+      "hostname": "csgate103.cs.ccu.edu.tw",
+      "rtts": [
+        7.32,
+        13.67,
+        7.7
+      ],
+      "timeout": false,
+      "avg_rtt": 9.56
+    },
+    {
+      "hop": 3,
+      "ip": "140.123.9.249",
+      "hostname": null,
+      "rtts": [
+        5.93,
+        7.03,
+        5.16
+      ],
+      "timeout": false,
+      "avg_rtt": 6.04
+    },
+    {
+      "hop": 4,
+      "ip": "140.123.0.246",
+      "hostname": null,
+      "rtts": [
+        6.32,
+        6.06,
+        5.26
+      ],
+      "timeout": false,
+      "avg_rtt": 5.88
+    },
+    {
+      "hop": 5,
+      "ip": "140.130.252.251",
+      "hostname": null,
+      "rtts": [
+        7.96,
+        19.13,
+        18.84
+      ],
+      "timeout": false,
+      "avg_rtt": 15.31
+    },
+    {
+      "hop": 6,
+      "ip": "211.22.226.198",
+      "hostname": "211-22-226-198.caw1-3332.hinet.net",
+      "rtts": [
+        7.8,
+        13.67,
+        12.42
+      ],
+      "timeout": false,
+      "avg_rtt": 11.3
+    },
+    {
+      "hop": 7,
+      "ip": null,
+      "hostname": null,
+      "rtts": [],
+      "timeout": true
+    },
+    {
+      "hop": 8,
+      "ip": null,
+      "hostname": null,
+      "rtts": [],
+      "timeout": true
+    },
+    {
+      "hop": 9,
+      "ip": "220.128.2.129",
+      "hostname": "220-128-2-129.tpdb-4512.hinet.net",
+      "rtts": [
+        38.73,
+        13.9,
+        13.6
+      ],
+      "timeout": false,
+      "avg_rtt": 22.08
+    },
+    {
+      "hop": 10,
+      "ip": "203.75.229.113",
+      "hostname": "203-75-229-113.hinet-ip.hinet.net",
+      "rtts": [
+        19.12,
+        21.86,
+        16.8
+      ],
+      "timeout": false,
+      "avg_rtt": 19.26
+    },
+    {
+      "hop": 11,
+      "ip": "103.123.252.13",
+      "hostname": "13-252-123-103-static.chief.net.tw",
+      "rtts": [
+        17.83,
+        13.95,
+        14.89
+      ],
+      "timeout": false,
+      "avg_rtt": 15.56
+    },
+    {
+      "hop": 12,
+      "ip": "113.21.95.75",
+      "hostname": "75-95-21-113-static.chief.net.tw",
+      "rtts": [
+        16.83,
+        17.6,
+        14.55
+      ],
+      "timeout": false,
+      "avg_rtt": 16.33
+    },
+    {
+      "hop": 13,
+      "ip": "113.21.86.218",
+      "hostname": "218-86-21-113-static.chief.net.tw",
+      "rtts": [
+        16.47,
+        15.87,
+        18.6
+      ],
+      "timeout": false,
+      "avg_rtt": 16.98
+    },
+    {
+      "hop": 14,
+      "ip": "202.55.247.128",
+      "hostname": "128-247-55-202-static.chief.net.tw",
+      "rtts": [
+        17.64,
+        19.83
+      ],
+      "timeout": false,
+      "reached_destination": true,
+      "avg_rtt": 18.73
+    }
+  ],
+  "num_hops": 14,
+  "success": true,
+  "method": "scapy",
+  "category": "telecom",
+  "base_domain": "chief.com.tw",
+  "service_variant": "www.chief.com.tw",
+  "is_bare_domain": false
+}

@@ -1,0 +1,171 @@
+{
+  "timestamp": "2025-10-22T21:06:32.780922",
+  "vantage_point": "university",
+  "target": "www.railway.gov.tw",
+  "target_ip": "210.242.36.6",
+  "protocol": "icmp",
+  "port": null,
+  "duration_seconds": 20.86,
+  "hops": [
+    {
+      "hop": 1,
+      "ip": "192.168.50.1",
+      "hostname": null,
+      "rtts": [
+        20.58,
+        8.43
+      ],
+      "timeout": false,
+      "avg_rtt": 14.5
+    },
+    {
+      "hop": 2,
+      "ip": "140.123.103.250",
+      "hostname": "csgate103.cs.ccu.edu.tw",
+      "rtts": [
+        9.27,
+        7.87,
+        37.26
+      ],
+      "timeout": false,
+      "avg_rtt": 18.13
+    },
+    {
+      "hop": 3,
+      "ip": "140.123.9.249",
+      "hostname": null,
+      "rtts": [
+        7.11,
+        6.35,
+        5.92
+      ],
+      "timeout": false,
+      "avg_rtt": 6.46
+    },
+    {
+      "hop": 4,
+      "ip": "140.123.0.246",
+      "hostname": null,
+      "rtts": [
+        10.89,
+        7.35,
+        16.16
+      ],
+      "timeout": false,
+      "avg_rtt": 11.47
+    },
+    {
+      "hop": 5,
+      "ip": "140.130.252.251",
+      "hostname": null,
+      "rtts": [
+        17.01,
+        15.01,
+        10.6
+      ],
+      "timeout": false,
+      "avg_rtt": 14.21
+    },
+    {
+      "hop": 6,
+      "ip": "211.22.226.198",
+      "hostname": "211-22-226-198.caw1-3332.hinet.net",
+      "rtts": [
+        8.66,
+        10.14,
+        14.87
+      ],
+      "timeout": false,
+      "avg_rtt": 11.22
+    },
+    {
+      "hop": 7,
+      "ip": null,
+      "hostname": null,
+      "rtts": [],
+      "timeout": true
+    },
+    {
+      "hop": 8,
+      "ip": null,
+      "hostname": null,
+      "rtts": [],
+      "timeout": true
+    },
+    {
+      "hop": 9,
+      "ip": "220.128.4.221",
+      "hostname": "220-128-4-221.tpdt-3310.hinet.net",
+      "rtts": [
+        16.83,
+        14.79,
+        12.67
+      ],
+      "timeout": false,
+      "avg_rtt": 14.76
+    },
+    {
+      "hop": 10,
+      "ip": "168.95.211.45",
+      "hostname": "h45.s211.ts.hinet.net",
+      "rtts": [
+        15.12,
+        17.7,
+        16.78
+      ],
+      "timeout": false,
+      "avg_rtt": 16.53
+    },
+    {
+      "hop": 11,
+      "ip": null,
+      "hostname": null,
+      "rtts": [],
+      "timeout": true
+    },
+    {
+      "hop": 12,
+      "ip": "202.39.144.209",
+      "hostname": "customer.wan-port.ar.hinet.net",
+      "rtts": [
+        24.68,
+        14.62,
+        15.16
+      ],
+      "timeout": false,
+      "avg_rtt": 18.15
+    },
+    {
+      "hop": 13,
+      "ip": "210.242.36.217",
+      "hostname": "210-242-36-217.hinet-ip.hinet.net",
+      "rtts": [
+        11.99,
+        13.78,
+        11.87
+      ],
+      "timeout": false,
+      "avg_rtt": 12.55
+    },
+    {
+      "hop": 14,
+      "ip": "210.242.36.6",
+      "hostname": "210-242-36-6.hinet-ip.hinet.net",
+      "rtts": [
+        14.32,
+        12.09,
+        10.78
+      ],
+      "timeout": false,
+      "reached_destination": true,
+      "avg_rtt": 12.4
+    }
+  ],
+  "num_hops": 14,
+  "success": true,
+  "method": "scapy",
+  "category": "critical_infra",
+  "base_domain": "railway.gov.tw",
+  "service_variant": "www.railway.gov.tw",
+  "is_bare_domain": false
+}

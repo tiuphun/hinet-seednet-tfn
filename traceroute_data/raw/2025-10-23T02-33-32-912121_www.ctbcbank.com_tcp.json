@@ -1,0 +1,210 @@
+{
+  "timestamp": "2025-10-23T02:33:32.912121",
+  "vantage_point": "university",
+  "target": "www.ctbcbank.com",
+  "target_ip": "175.184.243.207",
+  "protocol": "tcp",
+  "port": 443,
+  "duration_seconds": 2.79,
+  "hops": [
+    {
+      "hop": 1,
+      "ip": "192.168.50.1",
+      "hostname": null,
+      "rtts": [
+        14.39,
+        3.9,
+        7.58
+      ],
+      "timeout": false,
+      "avg_rtt": 8.62
+    },
+    {
+      "hop": 2,
+      "ip": "140.123.103.250",
+      "hostname": "csgate103.cs.ccu.edu.tw",
+      "rtts": [
+        4.39,
+        4.22,
+        10.39
+      ],
+      "timeout": false,
+      "avg_rtt": 6.33
+    },
+    {
+      "hop": 3,
+      "ip": "140.123.9.249",
+      "hostname": null,
+      "rtts": [
+        8.71,
+        6.31
+      ],
+      "timeout": false,
+      "avg_rtt": 7.51
+    },
+    {
+      "hop": 4,
+      "ip": "140.123.0.246",
+      "hostname": null,
+      "rtts": [
+        10.58,
+        7.69,
+        8.9
+      ],
+      "timeout": false,
+      "avg_rtt": 9.06
+    },
+    {
+      "hop": 5,
+      "ip": "140.130.252.251",
+      "hostname": null,
+      "rtts": [
+        8.02,
+        8.34,
+        7.02
+      ],
+      "timeout": false,
+      "avg_rtt": 7.79
+    },
+    {
+      "hop": 6,
+      "ip": "61.31.254.69",
+      "hostname": "61-31-254-69.static.tfn.net.tw",
+      "rtts": [
+        9.9,
+        15.02,
+        11.67
+      ],
+      "timeout": false,
+      "avg_rtt": 12.2
+    },
+    {
+      "hop": 7,
+      "ip": "60.199.27.161",
+      "hostname": "60-199-27-161.static.tfn.net.tw",
+      "rtts": [
+        10.71,
+        10.23,
+        14.54
+      ],
+      "timeout": false,
+      "avg_rtt": 11.83
+    },
+    {
+      "hop": 8,
+      "ip": "60.199.82.101",
+      "hostname": "60-199-82-101.static.tfn.net.tw",
+      "rtts": [
+        30.52,
+        20.79,
+        20.0
+      ],
+      "timeout": false,
+      "avg_rtt": 23.77
+    },
+    {
+      "hop": 9,
+      "ip": "60.199.82.13",
+      "hostname": "60-199-82-13.static.tfn.net.tw",
+      "rtts": [
+        19.05,
+        16.63,
+        17.36
+      ],
+      "timeout": false,
+      "avg_rtt": 17.68
+    },
+    {
+      "hop": 10,
+      "ip": "60.199.6.194",
+      "hostname": "60-199-6-194.static.tfn.net.tw",
+      "rtts": [
+        14.53,
+        21.95,
+        16.35
+      ],
+      "timeout": false,
+      "avg_rtt": 17.61
+    },
+    {
+      "hop": 11,
+      "ip": "219.80.114.78",
+      "hostname": "219-80-114-78.static.tfn.net.tw",
+      "rtts": [
+        21.34,
+        17.16,
+        17.53
+      ],
+      "timeout": false,
+      "avg_rtt": 18.68
+    },
+    {
+      "hop": 12,
+      "ip": "10.248.219.97",
+      "hostname": null,
+      "rtts": [
+        19.31,
+        22.7,
+        34.83
+      ],
+      "timeout": false,
+      "avg_rtt": 25.61
+    },
+    {
+      "hop": 13,
+      "ip": "192.168.255.228",
+      "hostname": null,
+      "rtts": [
+        16.46,
+        18.42,
+        15.48
+      ],
+      "timeout": false,
+      "avg_rtt": 16.79
+    },
+    {
+      "hop": 14,
+      "ip": "192.168.254.197",
+      "hostname": null,
+      "rtts": [
+        18.89,
+        17.3,
+        20.17
+      ],
+      "timeout": false,
+      "avg_rtt": 18.79
+    },
+    {
+      "hop": 15,
+      "ip": "10.248.219.77",
+      "hostname": null,
+      "rtts": [
+        22.69,
+        15.61,
+        15.28
+      ],
+      "timeout": false,
+      "avg_rtt": 17.86
+    },
+    {
+      "hop": 16,
+      "ip": "175.184.243.207",
+      "hostname": null,
+      "rtts": [
+        15.52,
+        19.8,
+        17.1
+      ],
+      "timeout": false,
+      "reached_destination": true,
+      "avg_rtt": 17.47
+    }
+  ],
+  "num_hops": 16,
+  "success": true,
+  "method": "scapy",
+  "category": "financial_banks",
+  "base_domain": "ctbcbank.com",
+  "service_variant": "www.ctbcbank.com",
+  "is_bare_domain": false
+}

@@ -1,0 +1,298 @@
+{
+  "timestamp": "2025-10-22T19:42:52.802514",
+  "vantage_point": "university",
+  "target": "vpn.ntpc.gov.tw",
+  "target_ip": "61.60.127.60",
+  "protocol": "tcp",
+  "port": 443,
+  "duration_seconds": 98.45,
+  "hops": [
+    {
+      "hop": 1,
+      "ip": "192.168.50.1",
+      "hostname": null,
+      "rtts": [
+        14.33,
+        4.11,
+        3.82
+      ],
+      "timeout": false,
+      "avg_rtt": 7.42
+    },
+    {
+      "hop": 2,
+      "ip": "140.123.103.250",
+      "hostname": "csgate103.cs.ccu.edu.tw",
+      "rtts": [
+        5.87,
+        19.45,
+        8.7
+      ],
+      "timeout": false,
+      "avg_rtt": 11.34
+    },
+    {
+      "hop": 3,
+      "ip": "140.123.9.249",
+      "hostname": null,
+      "rtts": [
+        4.5,
+        6.4,
+        5.29
+      ],
+      "timeout": false,
+      "avg_rtt": 5.4
+    },
+    {
+      "hop": 4,
+      "ip": "140.123.0.246",
+      "hostname": null,
+      "rtts": [
+        5.26,
+        4.66,
+        7.55
+      ],
+      "timeout": false,
+      "avg_rtt": 5.82
+    },
+    {
+      "hop": 5,
+      "ip": "140.130.252.251",
+      "hostname": null,
+      "rtts": [
+        7.92,
+        5.65,
+        7.02
+      ],
+      "timeout": false,
+      "avg_rtt": 6.86
+    },
+    {
+      "hop": 6,
+      "ip": "192.192.61.142",
+      "hostname": null,
+      "rtts": [
+        7.15,
+        9.63,
+        6.8
+      ],
+      "timeout": false,
+      "avg_rtt": 7.86
+    },
+    {
+      "hop": 7,
+      "ip": "192.192.61.37",
+      "hostname": null,
+      "rtts": [
+        9.34,
+        9.99,
+        11.14
+      ],
+      "timeout": false,
+      "avg_rtt": 10.16
+    },
+    {
+      "hop": 8,
+      "ip": "192.192.61.32",
+      "hostname": null,
+      "rtts": [
+        10.34,
+        9.6,
+        11.29
+      ],
+      "timeout": false,
+      "avg_rtt": 10.41
+    },
+    {
+      "hop": 9,
+      "ip": "192.192.61.209",
+      "hostname": null,
+      "rtts": [
+        19.66,
+        14.65,
+        12.65
+      ],
+      "timeout": false,
+      "avg_rtt": 15.65
+    },
+    {
+      "hop": 10,
+      "ip": "10.96.81.12",
+      "hostname": null,
+      "rtts": [
+        11.83,
+        21.57,
+        13.9
+      ],
+      "timeout": false,
+      "avg_rtt": 15.77
+    },
+    {
+      "hop": 11,
+      "ip": "210.69.250.126",
+      "hostname": "210-69-250-126.hinet-ip.hinet.net",
+      "rtts": [
+        13.84,
+        11.72,
+        11.99
+      ],
+      "timeout": false,
+      "avg_rtt": 12.52
+    },
+    {
+      "hop": 12,
+      "ip": "210.69.250.49",
+      "hostname": "210-69-250-49.hinet-ip.hinet.net",
+      "rtts": [
+        10.93,
+        15.27,
+        11.47
+      ],
+      "timeout": false,
+      "avg_rtt": 12.56
+    },
+    {
+      "hop": 13,
+      "ip": "61.60.63.177",
+      "hostname": "61-60-63-177.hinet-ip.hinet.net",
+      "rtts": [
+        17.5,
+        19.74,
+        22.99
+      ],
+      "timeout": false,
+      "avg_rtt": 20.08
+    },
+    {
+      "hop": 14,
+      "ip": "61.60.126.231",
+      "hostname": null,
+      "rtts": [
+        18.91,
+        20.49,
+        22.31
+      ],
+      "timeout": false,
+      "avg_rtt": 20.57
+    },
+    {
+      "hop": 15,
+      "ip": null,
+      "hostname": null,
+      "rtts": [],
+      "timeout": true
+    },
+    {
+      "hop": 16,
+      "ip": null,
+      "hostname": null,
+      "rtts": [],
+      "timeout": true
+    },
+    {
+      "hop": 17,
+      "ip": null,
+      "hostname": null,
+      "rtts": [],
+      "timeout": true
+    },
+    {
+      "hop": 18,
+      "ip": null,
+      "hostname": null,
+      "rtts": [],
+      "timeout": true
+    },
+    {
+      "hop": 19,
+      "ip": null,
+      "hostname": null,
+      "rtts": [],
+      "timeout": true
+    },
+    {
+      "hop": 20,
+      "ip": null,
+      "hostname": null,
+      "rtts": [],
+      "timeout": true
+    },
+    {
+      "hop": 21,
+      "ip": null,
+      "hostname": null,
+      "rtts": [],
+      "timeout": true
+    },
+    {
+      "hop": 22,
+      "ip": null,
+      "hostname": null,
+      "rtts": [],
+      "timeout": true
+    },
+    {
+      "hop": 23,
+      "ip": null,
+      "hostname": null,
+      "rtts": [],
+      "timeout": true
+    },
+    {
+      "hop": 24,
+      "ip": null,
+      "hostname": null,
+      "rtts": [],
+      "timeout": true
+    },
+    {
+      "hop": 25,
+      "ip": null,
+      "hostname": null,
+      "rtts": [],
+      "timeout": true
+    },
+    {
+      "hop": 26,
+      "ip": null,
+      "hostname": null,
+      "rtts": [],
+      "timeout": true
+    },
+    {
+      "hop": 27,
+      "ip": null,
+      "hostname": null,
+      "rtts": [],
+      "timeout": true
+    },
+    {
+      "hop": 28,
+      "ip": null,
+      "hostname": null,
+      "rtts": [],
+      "timeout": true
+    },
+    {
+      "hop": 29,
+      "ip": null,
+      "hostname": null,
+      "rtts": [],
+      "timeout": true
+    },
+    {
+      "hop": 30,
+      "ip": null,
+      "hostname": null,
+      "rtts": [],
+      "timeout": true
+    }
+  ],
+  "num_hops": 30,
+  "success": false,
+  "method": "scapy",
+  "category": "government_local",
+  "base_domain": "ntpc.gov.tw",
+  "service_variant": "vpn.ntpc.gov.tw",
+  "is_bare_domain": false
+}

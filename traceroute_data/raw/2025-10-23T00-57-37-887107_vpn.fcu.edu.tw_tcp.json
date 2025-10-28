@@ -1,0 +1,293 @@
+{
+  "timestamp": "2025-10-23T00:57:37.887107",
+  "vantage_point": "university",
+  "target": "vpn.fcu.edu.tw",
+  "target_ip": "140.134.3.110",
+  "protocol": "tcp",
+  "port": 80,
+  "duration_seconds": 114.53,
+  "hops": [
+    {
+      "hop": 1,
+      "ip": "192.168.50.1",
+      "hostname": null,
+      "rtts": [
+        71.68,
+        5.27,
+        3.99
+      ],
+      "timeout": false,
+      "avg_rtt": 26.98
+    },
+    {
+      "hop": 2,
+      "ip": "140.123.103.250",
+      "hostname": "csgate103.cs.ccu.edu.tw",
+      "rtts": [
+        4.23,
+        3.99,
+        6.07
+      ],
+      "timeout": false,
+      "avg_rtt": 4.76
+    },
+    {
+      "hop": 3,
+      "ip": "140.123.9.249",
+      "hostname": null,
+      "rtts": [
+        4.38,
+        5.1,
+        4.15
+      ],
+      "timeout": false,
+      "avg_rtt": 4.54
+    },
+    {
+      "hop": 4,
+      "ip": "140.123.0.246",
+      "hostname": null,
+      "rtts": [
+        5.69,
+        4.49,
+        4.45
+      ],
+      "timeout": false,
+      "avg_rtt": 4.88
+    },
+    {
+      "hop": 5,
+      "ip": "211.79.57.25",
+      "hostname": "ccu-ccu-76.twaren.net",
+      "rtts": [
+        13.37,
+        5.25,
+        10.52
+      ],
+      "timeout": false,
+      "avg_rtt": 9.71
+    },
+    {
+      "hop": 6,
+      "ip": "211.73.76.209",
+      "hostname": "tp-a1.twaren.net",
+      "rtts": [
+        25.85,
+        8.48,
+        10.65
+      ],
+      "timeout": false,
+      "avg_rtt": 14.99
+    },
+    {
+      "hop": 7,
+      "ip": "211.73.76.198",
+      "hostname": "tn-a2.twaren.net",
+      "rtts": [
+        6.86,
+        6.45,
+        9.1
+      ],
+      "timeout": false,
+      "avg_rtt": 7.47
+    },
+    {
+      "hop": 8,
+      "ip": "211.73.77.229",
+      "hostname": null,
+      "rtts": [
+        20.17,
+        8.35,
+        7.79
+      ],
+      "timeout": false,
+      "avg_rtt": 12.1
+    },
+    {
+      "hop": 9,
+      "ip": "211.73.76.190",
+      "hostname": "nchu-a1.twaren.net",
+      "rtts": [
+        35.99,
+        19.17,
+        14.26
+      ],
+      "timeout": false,
+      "avg_rtt": 23.14
+    },
+    {
+      "hop": 10,
+      "ip": "211.79.54.30",
+      "hostname": "1g-ge-p1.fcun-chue.twaren.net",
+      "rtts": [
+        13.16,
+        17.86,
+        37.89
+      ],
+      "timeout": false,
+      "avg_rtt": 22.97
+    },
+    {
+      "hop": 11,
+      "ip": "140.134.7.130",
+      "hostname": null,
+      "rtts": [
+        14.58,
+        15.82,
+        15.32
+      ],
+      "timeout": false,
+      "avg_rtt": 15.24
+    },
+    {
+      "hop": 12,
+      "ip": "140.134.7.253",
+      "hostname": null,
+      "rtts": [
+        89.98,
+        17.67,
+        21.63
+      ],
+      "timeout": false,
+      "avg_rtt": 43.09
+    },
+    {
+      "hop": 13,
+      "ip": "140.134.1.210",
+      "hostname": null,
+      "rtts": [
+        17.7,
+        15.14,
+        12.26
+      ],
+      "timeout": false,
+      "avg_rtt": 15.03
+    },
+    {
+      "hop": 14,
+      "ip": null,
+      "hostname": null,
+      "rtts": [],
+      "timeout": true
+    },
+    {
+      "hop": 15,
+      "ip": null,
+      "hostname": null,
+      "rtts": [],
+      "timeout": true
+    },
+    {
+      "hop": 16,
+      "ip": null,
+      "hostname": null,
+      "rtts": [],
+      "timeout": true
+    },
+    {
+      "hop": 17,
+      "ip": null,
+      "hostname": null,
+      "rtts": [],
+      "timeout": true
+    },
+    {
+      "hop": 18,
+      "ip": null,
+      "hostname": null,
+      "rtts": [],
+      "timeout": true
+    },
+    {
+      "hop": 19,
+      "ip": null,
+      "hostname": null,
+      "rtts": [],
+      "timeout": true
+    },
+    {
+      "hop": 20,
+      "ip": null,
+      "hostname": null,
+      "rtts": [],
+      "timeout": true
+    },
+    {
+      "hop": 21,
+      "ip": null,
+      "hostname": null,
+      "rtts": [],
+      "timeout": true
+    },
+    {
+      "hop": 22,
+      "ip": null,
+      "hostname": null,
+      "rtts": [],
+      "timeout": true
+    },
+    {
+      "hop": 23,
+      "ip": null,
+      "hostname": null,
+      "rtts": [],
+      "timeout": true
+    },
+    {
+      "hop": 24,
+      "ip": null,
+      "hostname": null,
+      "rtts": [],
+      "timeout": true
+    },
+    {
+      "hop": 25,
+      "ip": null,
+      "hostname": null,
+      "rtts": [],
+      "timeout": true
+    },
+    {
+      "hop": 26,
+      "ip": null,
+      "hostname": null,
+      "rtts": [],
+      "timeout": true
+    },
+    {
+      "hop": 27,
+      "ip": null,
+      "hostname": null,
+      "rtts": [],
+      "timeout": true
+    },
+    {
+      "hop": 28,
+      "ip": null,
+      "hostname": null,
+      "rtts": [],
+      "timeout": true
+    },
+    {
+      "hop": 29,
+      "ip": null,
+      "hostname": null,
+      "rtts": [],
+      "timeout": true
+    },
+    {
+      "hop": 30,
+      "ip": null,
+      "hostname": null,
+      "rtts": [],
+      "timeout": true
+    }
+  ],
+  "num_hops": 30,
+  "success": false,
+  "method": "scapy",
+  "category": "universities",
+  "base_domain": "fcu.edu.tw",
+  "service_variant": "vpn.fcu.edu.tw",
+  "is_bare_domain": false
+}

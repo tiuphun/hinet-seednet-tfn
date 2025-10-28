@@ -1,0 +1,141 @@
+{
+  "timestamp": "2025-10-23T04:45:59.223171",
+  "vantage_point": "university",
+  "target": "www.momoshop.com.tw",
+  "target_ip": "61.220.62.234",
+  "protocol": "icmp",
+  "port": null,
+  "duration_seconds": 13.16,
+  "hops": [
+    {
+      "hop": 1,
+      "ip": "192.168.50.1",
+      "hostname": null,
+      "rtts": [
+        15.92,
+        5.67,
+        5.1
+      ],
+      "timeout": false,
+      "avg_rtt": 8.9
+    },
+    {
+      "hop": 2,
+      "ip": "140.123.103.250",
+      "hostname": "csgate103.cs.ccu.edu.tw",
+      "rtts": [
+        8.13,
+        4.48,
+        5.26
+      ],
+      "timeout": false,
+      "avg_rtt": 5.96
+    },
+    {
+      "hop": 3,
+      "ip": "140.123.9.249",
+      "hostname": null,
+      "rtts": [
+        7.11,
+        7.99,
+        4.66
+      ],
+      "timeout": false,
+      "avg_rtt": 6.59
+    },
+    {
+      "hop": 4,
+      "ip": "140.123.0.246",
+      "hostname": null,
+      "rtts": [
+        5.1,
+        6.98,
+        6.65
+      ],
+      "timeout": false,
+      "avg_rtt": 6.24
+    },
+    {
+      "hop": 5,
+      "ip": "140.130.252.251",
+      "hostname": null,
+      "rtts": [
+        6.23,
+        12.66,
+        8.36
+      ],
+      "timeout": false,
+      "avg_rtt": 9.08
+    },
+    {
+      "hop": 6,
+      "ip": "211.22.226.198",
+      "hostname": "211-22-226-198.caw1-3332.hinet.net",
+      "rtts": [
+        7.06,
+        11.96,
+        6.06
+      ],
+      "timeout": false,
+      "avg_rtt": 8.36
+    },
+    {
+      "hop": 7,
+      "ip": null,
+      "hostname": null,
+      "rtts": [],
+      "timeout": true
+    },
+    {
+      "hop": 8,
+      "ip": null,
+      "hostname": null,
+      "rtts": [],
+      "timeout": true
+    },
+    {
+      "hop": 9,
+      "ip": "220.128.2.217",
+      "hostname": "220-128-2-217.tpdb-3335.hinet.net",
+      "rtts": [
+        24.89,
+        18.02,
+        19.07
+      ],
+      "timeout": false,
+      "avg_rtt": 20.66
+    },
+    {
+      "hop": 10,
+      "ip": "211.72.250.217",
+      "hostname": null,
+      "rtts": [
+        101.05,
+        222.16,
+        196.55
+      ],
+      "timeout": false,
+      "avg_rtt": 173.25
+    },
+    {
+      "hop": 11,
+      "ip": "61.220.62.234",
+      "hostname": null,
+      "rtts": [
+        14.28,
+        17.28,
+        39.13
+      ],
+      "timeout": false,
+      "reached_destination": true,
+      "avg_rtt": 23.56
+    }
+  ],
+  "num_hops": 11,
+  "success": true,
+  "method": "scapy",
+  "category": "ecommerce_tech",
+  "base_domain": "momoshop.com.tw",
+  "service_variant": "www.momoshop.com.tw",
+  "is_bare_domain": false
+}

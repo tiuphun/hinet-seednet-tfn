@@ -1,0 +1,155 @@
+{
+  "timestamp": "2025-10-23T05:36:06.251330",
+  "vantage_point": "university",
+  "target": "ftp.104.com.tw",
+  "target_ip": "210.71.174.246",
+  "protocol": "tcp",
+  "port": 443,
+  "duration_seconds": 24.81,
+  "hops": [
+    {
+      "hop": 1,
+      "ip": "192.168.50.1",
+      "hostname": null,
+      "rtts": [
+        20.69,
+        3.95,
+        4.74
+      ],
+      "timeout": false,
+      "avg_rtt": 9.79
+    },
+    {
+      "hop": 2,
+      "ip": "140.123.103.250",
+      "hostname": "csgate103.cs.ccu.edu.tw",
+      "rtts": [
+        4.63,
+        4.06,
+        4.21
+      ],
+      "timeout": false,
+      "avg_rtt": 4.3
+    },
+    {
+      "hop": 3,
+      "ip": "140.123.9.249",
+      "hostname": null,
+      "rtts": [
+        5.01,
+        7.84,
+        4.28
+      ],
+      "timeout": false,
+      "avg_rtt": 5.71
+    },
+    {
+      "hop": 4,
+      "ip": "140.123.0.246",
+      "hostname": null,
+      "rtts": [
+        6.12,
+        4.39,
+        4.17
+      ],
+      "timeout": false,
+      "avg_rtt": 4.89
+    },
+    {
+      "hop": 5,
+      "ip": "140.130.252.251",
+      "hostname": null,
+      "rtts": [
+        4.96,
+        7.82,
+        5.21
+      ],
+      "timeout": false,
+      "avg_rtt": 6.0
+    },
+    {
+      "hop": 6,
+      "ip": "211.22.226.198",
+      "hostname": "211-22-226-198.caw1-3332.hinet.net",
+      "rtts": [
+        8.45,
+        6.17,
+        9.95
+      ],
+      "timeout": false,
+      "avg_rtt": 8.19
+    },
+    {
+      "hop": 7,
+      "ip": null,
+      "hostname": null,
+      "rtts": [],
+      "timeout": true
+    },
+    {
+      "hop": 8,
+      "ip": null,
+      "hostname": null,
+      "rtts": [],
+      "timeout": true
+    },
+    {
+      "hop": 9,
+      "ip": "220.128.4.101",
+      "hostname": "220-128-4-101.tpdb-3331.hinet.net",
+      "rtts": [
+        24.71,
+        19.27,
+        16.82
+      ],
+      "timeout": false,
+      "avg_rtt": 20.27
+    },
+    {
+      "hop": 10,
+      "ip": "168.95.81.193",
+      "hostname": "h193.s81.ts.hinet.net",
+      "rtts": [
+        36.63,
+        20.9,
+        20.56
+      ],
+      "timeout": false,
+      "avg_rtt": 26.03
+    },
+    {
+      "hop": 11,
+      "ip": null,
+      "hostname": null,
+      "rtts": [],
+      "timeout": true
+    },
+    {
+      "hop": 12,
+      "ip": null,
+      "hostname": null,
+      "rtts": [],
+      "timeout": true
+    },
+    {
+      "hop": 13,
+      "ip": "210.71.174.246",
+      "hostname": "210-71-174-246.hinet-ip.hinet.net",
+      "rtts": [
+        26.97,
+        16.46,
+        16.43
+      ],
+      "timeout": false,
+      "reached_destination": true,
+      "avg_rtt": 19.95
+    }
+  ],
+  "num_hops": 13,
+  "success": true,
+  "method": "scapy",
+  "category": "ecommerce_tech",
+  "base_domain": "104.com.tw",
+  "service_variant": "ftp.104.com.tw",
+  "is_bare_domain": false
+}

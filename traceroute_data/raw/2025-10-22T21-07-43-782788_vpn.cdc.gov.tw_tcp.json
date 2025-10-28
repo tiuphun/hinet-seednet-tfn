@@ -1,0 +1,223 @@
+{
+  "timestamp": "2025-10-22T21:07:43.782788",
+  "vantage_point": "university",
+  "target": "vpn.cdc.gov.tw",
+  "target_ip": "223.200.89.90",
+  "protocol": "tcp",
+  "port": 80,
+  "duration_seconds": 0.74,
+  "hops": [
+    {
+      "hop": 1,
+      "ip": "192.168.50.1",
+      "hostname": null,
+      "rtts": [
+        83.84,
+        4.32,
+        4.32
+      ],
+      "timeout": false,
+      "avg_rtt": 30.83
+    },
+    {
+      "hop": 2,
+      "ip": "140.123.103.250",
+      "hostname": "csgate103.cs.ccu.edu.tw",
+      "rtts": [
+        6.14,
+        4.39,
+        4.37
+      ],
+      "timeout": false,
+      "avg_rtt": 4.97
+    },
+    {
+      "hop": 3,
+      "ip": "140.123.9.249",
+      "hostname": null,
+      "rtts": [
+        4.44,
+        4.3,
+        4.6
+      ],
+      "timeout": false,
+      "avg_rtt": 4.45
+    },
+    {
+      "hop": 4,
+      "ip": "140.123.0.246",
+      "hostname": null,
+      "rtts": [
+        5.45,
+        4.57,
+        4.29
+      ],
+      "timeout": false,
+      "avg_rtt": 4.77
+    },
+    {
+      "hop": 5,
+      "ip": "140.130.252.251",
+      "hostname": null,
+      "rtts": [
+        7.64,
+        6.69,
+        6.52
+      ],
+      "timeout": false,
+      "avg_rtt": 6.95
+    },
+    {
+      "hop": 6,
+      "ip": "192.192.61.142",
+      "hostname": null,
+      "rtts": [
+        7.43,
+        15.01,
+        8.03
+      ],
+      "timeout": false,
+      "avg_rtt": 10.16
+    },
+    {
+      "hop": 7,
+      "ip": "192.192.61.9",
+      "hostname": null,
+      "rtts": [
+        7.23,
+        13.11,
+        17.73
+      ],
+      "timeout": false,
+      "avg_rtt": 12.69
+    },
+    {
+      "hop": 8,
+      "ip": "192.192.61.30",
+      "hostname": null,
+      "rtts": [
+        8.71,
+        8.6,
+        8.18
+      ],
+      "timeout": false,
+      "avg_rtt": 8.5
+    },
+    {
+      "hop": 9,
+      "ip": "192.192.61.4",
+      "hostname": null,
+      "rtts": [
+        9.73,
+        9.28,
+        24.22
+      ],
+      "timeout": false,
+      "avg_rtt": 14.41
+    },
+    {
+      "hop": 10,
+      "ip": "192.192.61.209",
+      "hostname": null,
+      "rtts": [
+        12.45,
+        12.31,
+        8.92
+      ],
+      "timeout": false,
+      "avg_rtt": 11.23
+    },
+    {
+      "hop": 11,
+      "ip": "10.96.81.12",
+      "hostname": null,
+      "rtts": [
+        14.61,
+        12.23,
+        10.36
+      ],
+      "timeout": false,
+      "avg_rtt": 12.4
+    },
+    {
+      "hop": 12,
+      "ip": "210.69.250.126",
+      "hostname": "210-69-250-126.hinet-ip.hinet.net",
+      "rtts": [
+        12.06,
+        11.14,
+        9.79
+      ],
+      "timeout": false,
+      "avg_rtt": 11.0
+    },
+    {
+      "hop": 13,
+      "ip": "210.69.250.101",
+      "hostname": "210-69-250-101.hinet-ip.hinet.net",
+      "rtts": [
+        14.08,
+        11.01,
+        10.59
+      ],
+      "timeout": false,
+      "avg_rtt": 11.89
+    },
+    {
+      "hop": 14,
+      "ip": "210.69.243.109",
+      "hostname": "210-69-243-109.hinet-ip.hinet.net",
+      "rtts": [
+        13.42,
+        20.3,
+        46.4
+      ],
+      "timeout": false,
+      "avg_rtt": 26.71
+    },
+    {
+      "hop": 15,
+      "ip": "223.200.89.89",
+      "hostname": "223-200-89-89.hinet-ip.hinet.net",
+      "rtts": [
+        11.47,
+        13.35,
+        11.13
+      ],
+      "timeout": false,
+      "avg_rtt": 11.98
+    },
+    {
+      "hop": 16,
+      "ip": "223.200.89.90",
+      "hostname": "223-200-89-90.hinet-ip.hinet.net",
+      "rtts": [
+        16.66,
+        19.42,
+        11.52
+      ],
+      "timeout": false,
+      "avg_rtt": 15.87
+    },
+    {
+      "hop": 17,
+      "ip": "223.200.89.90",
+      "hostname": "223-200-89-90.hinet-ip.hinet.net",
+      "rtts": [
+        13.22,
+        15.83,
+        11.74
+      ],
+      "timeout": false,
+      "reached_destination": true,
+      "avg_rtt": 13.6
+    }
+  ],
+  "num_hops": 17,
+  "success": true,
+  "method": "scapy",
+  "category": "government_critical",
+  "base_domain": "cdc.gov.tw",
+  "service_variant": "vpn.cdc.gov.tw",
+  "is_bare_domain": false
+}

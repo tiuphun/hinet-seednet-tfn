@@ -1,0 +1,228 @@
+{
+  "timestamp": "2025-10-23T08:50:24.668498",
+  "vantage_point": "university",
+  "target": "seednet.net",
+  "target_ip": "64.131.64.91",
+  "protocol": "icmp",
+  "port": null,
+  "duration_seconds": 57.63,
+  "hops": [
+    {
+      "hop": 1,
+      "ip": "192.168.50.1",
+      "hostname": null,
+      "rtts": [
+        7.91,
+        6.0,
+        8.68
+      ],
+      "timeout": false,
+      "avg_rtt": 7.53
+    },
+    {
+      "hop": 2,
+      "ip": "140.123.103.250",
+      "hostname": "csgate103.cs.ccu.edu.tw",
+      "rtts": [
+        6.51,
+        5.43,
+        7.45
+      ],
+      "timeout": false,
+      "avg_rtt": 6.46
+    },
+    {
+      "hop": 3,
+      "ip": "140.123.9.249",
+      "hostname": null,
+      "rtts": [
+        10.78,
+        12.02,
+        9.46
+      ],
+      "timeout": false,
+      "avg_rtt": 10.75
+    },
+    {
+      "hop": 4,
+      "ip": "140.123.0.246",
+      "hostname": null,
+      "rtts": [
+        6.87,
+        6.49,
+        6.61
+      ],
+      "timeout": false,
+      "avg_rtt": 6.66
+    },
+    {
+      "hop": 5,
+      "ip": "140.130.252.251",
+      "hostname": null,
+      "rtts": [
+        7.76,
+        8.63,
+        8.79
+      ],
+      "timeout": false,
+      "avg_rtt": 8.39
+    },
+    {
+      "hop": 6,
+      "ip": "192.192.61.142",
+      "hostname": null,
+      "rtts": [
+        10.04,
+        10.82,
+        18.52
+      ],
+      "timeout": false,
+      "avg_rtt": 13.13
+    },
+    {
+      "hop": 7,
+      "ip": "192.192.61.20",
+      "hostname": null,
+      "rtts": [
+        14.5,
+        19.37,
+        22.7
+      ],
+      "timeout": false,
+      "avg_rtt": 18.86
+    },
+    {
+      "hop": 8,
+      "ip": "192.192.61.48",
+      "hostname": null,
+      "rtts": [
+        15.45,
+        18.08,
+        18.08
+      ],
+      "timeout": false,
+      "avg_rtt": 17.2
+    },
+    {
+      "hop": 9,
+      "ip": "192.192.68.62",
+      "hostname": null,
+      "rtts": [
+        13.53,
+        12.66,
+        12.93
+      ],
+      "timeout": false,
+      "avg_rtt": 13.04
+    },
+    {
+      "hop": 10,
+      "ip": "65.49.108.1",
+      "hostname": "e0-11.switch2.tpe1.he.net",
+      "rtts": [
+        57.09
+      ],
+      "timeout": false,
+      "avg_rtt": 57.09
+    },
+    {
+      "hop": 11,
+      "ip": "184.105.80.141",
+      "hostname": "100ge0-79.core2.tyo1.he.net",
+      "rtts": [
+        53.73
+      ],
+      "timeout": false,
+      "avg_rtt": 53.73
+    },
+    {
+      "hop": 12,
+      "ip": null,
+      "hostname": null,
+      "rtts": [],
+      "timeout": true
+    },
+    {
+      "hop": 13,
+      "ip": "184.105.213.117",
+      "hostname": "port-channel11.core2.sea1.he.net",
+      "rtts": [
+        129.01
+      ],
+      "timeout": false,
+      "avg_rtt": 129.01
+    },
+    {
+      "hop": 14,
+      "ip": null,
+      "hostname": null,
+      "rtts": [],
+      "timeout": true
+    },
+    {
+      "hop": 15,
+      "ip": null,
+      "hostname": null,
+      "rtts": [],
+      "timeout": true
+    },
+    {
+      "hop": 16,
+      "ip": null,
+      "hostname": null,
+      "rtts": [],
+      "timeout": true
+    },
+    {
+      "hop": 17,
+      "ip": null,
+      "hostname": null,
+      "rtts": [],
+      "timeout": true
+    },
+    {
+      "hop": 18,
+      "ip": "31.31.38.237",
+      "hostname": "ae-101.br01.wdc-02.us.leaseweb.net",
+      "rtts": [
+        231.93,
+        238.85,
+        280.92
+      ],
+      "timeout": false,
+      "avg_rtt": 250.57
+    },
+    {
+      "hop": 19,
+      "ip": "173.208.126.13",
+      "hostname": "po-1.ce04.wdc-02.us.leaseweb.net",
+      "rtts": [
+        308.26,
+        307.77,
+        303.65
+      ],
+      "timeout": false,
+      "avg_rtt": 306.56
+    },
+    {
+      "hop": 20,
+      "ip": "64.131.64.91",
+      "hostname": "server2.twdomain.com",
+      "rtts": [
+        308.06,
+        285.84,
+        291.58
+      ],
+      "timeout": false,
+      "reached_destination": true,
+      "avg_rtt": 295.16
+    }
+  ],
+  "num_hops": 20,
+  "success": true,
+  "method": "scapy",
+  "category": "telecom",
+  "base_domain": "seednet.net",
+  "service_variant": "seednet.net",
+  "is_bare_domain": true
+}

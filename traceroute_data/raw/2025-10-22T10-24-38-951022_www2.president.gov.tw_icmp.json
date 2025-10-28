@@ -1,0 +1,240 @@
+{
+  "timestamp": "2025-10-22T10:24:38.951022",
+  "vantage_point": "university",
+  "target": "www2.president.gov.tw",
+  "target_ip": "4.216.205.136",
+  "protocol": "icmp",
+  "port": null,
+  "duration_seconds": 51.72,
+  "hops": [
+    {
+      "hop": 1,
+      "ip": "192.168.50.1",
+      "hostname": null,
+      "rtts": [
+        44.0,
+        6.62,
+        6.13
+      ],
+      "timeout": false,
+      "avg_rtt": 18.92
+    },
+    {
+      "hop": 2,
+      "ip": "140.123.103.250",
+      "hostname": "csgate103.cs.ccu.edu.tw",
+      "rtts": [
+        4.59,
+        4.27,
+        4.47
+      ],
+      "timeout": false,
+      "avg_rtt": 4.44
+    },
+    {
+      "hop": 3,
+      "ip": "140.123.9.249",
+      "hostname": null,
+      "rtts": [
+        15.96,
+        9.11,
+        5.05
+      ],
+      "timeout": false,
+      "avg_rtt": 10.04
+    },
+    {
+      "hop": 4,
+      "ip": "140.123.0.246",
+      "hostname": null,
+      "rtts": [
+        19.61,
+        7.58
+      ],
+      "timeout": false,
+      "avg_rtt": 13.59
+    },
+    {
+      "hop": 5,
+      "ip": "140.130.252.251",
+      "hostname": null,
+      "rtts": [
+        12.01,
+        11.1,
+        8.65
+      ],
+      "timeout": false,
+      "avg_rtt": 10.59
+    },
+    {
+      "hop": 6,
+      "ip": "192.192.61.142",
+      "hostname": null,
+      "rtts": [
+        11.23,
+        11.15,
+        12.14
+      ],
+      "timeout": false,
+      "avg_rtt": 11.51
+    },
+    {
+      "hop": 7,
+      "ip": "192.192.61.20",
+      "hostname": null,
+      "rtts": [
+        19.06,
+        16.85,
+        13.54
+      ],
+      "timeout": false,
+      "avg_rtt": 16.48
+    },
+    {
+      "hop": 8,
+      "ip": "192.192.61.48",
+      "hostname": null,
+      "rtts": [
+        13.19,
+        14.91,
+        18.73
+      ],
+      "timeout": false,
+      "avg_rtt": 15.61
+    },
+    {
+      "hop": 9,
+      "ip": "192.192.68.62",
+      "hostname": null,
+      "rtts": [
+        16.18,
+        24.36,
+        15.56
+      ],
+      "timeout": false,
+      "avg_rtt": 18.7
+    },
+    {
+      "hop": 10,
+      "ip": "203.163.222.15",
+      "hostname": "15-222-163-203-static.tpix.net.tw",
+      "rtts": [
+        13.72,
+        20.09,
+        152.43
+      ],
+      "timeout": false,
+      "avg_rtt": 62.08
+    },
+    {
+      "hop": 11,
+      "ip": "104.44.51.226",
+      "hostname": null,
+      "rtts": [
+        16.28,
+        154.76,
+        15.12
+      ],
+      "timeout": false,
+      "avg_rtt": 62.05
+    },
+    {
+      "hop": 12,
+      "ip": "104.44.23.161",
+      "hostname": "ae22-0.maa01-96cbe-1b.ntwk.msn.net",
+      "rtts": [
+        175.06,
+        309.61,
+        44.94
+      ],
+      "timeout": false,
+      "avg_rtt": 176.54
+    },
+    {
+      "hop": 13,
+      "ip": "104.44.17.166",
+      "hostname": "be-3-0.ibr04.cys04.ntwk.msn.net",
+      "rtts": [
+        40.72,
+        47.62,
+        40.73
+      ],
+      "timeout": false,
+      "avg_rtt": 43.02
+    },
+    {
+      "hop": 14,
+      "ip": "104.44.20.24",
+      "hostname": "ae102-0.icr02.tyo30.ntwk.msn.net",
+      "rtts": [
+        106.16,
+        43.48,
+        52.44
+      ],
+      "timeout": false,
+      "avg_rtt": 67.36
+    },
+    {
+      "hop": 15,
+      "ip": null,
+      "hostname": null,
+      "rtts": [],
+      "timeout": true
+    },
+    {
+      "hop": 16,
+      "ip": null,
+      "hostname": null,
+      "rtts": [],
+      "timeout": true
+    },
+    {
+      "hop": 17,
+      "ip": null,
+      "hostname": null,
+      "rtts": [],
+      "timeout": true
+    },
+    {
+      "hop": 18,
+      "ip": null,
+      "hostname": null,
+      "rtts": [],
+      "timeout": true
+    },
+    {
+      "hop": 19,
+      "ip": null,
+      "hostname": null,
+      "rtts": [],
+      "timeout": true
+    },
+    {
+      "hop": 20,
+      "ip": null,
+      "hostname": null,
+      "rtts": [],
+      "timeout": true
+    },
+    {
+      "hop": 21,
+      "ip": "4.216.205.136",
+      "hostname": null,
+      "rtts": [
+        47.11,
+        39.98,
+        42.16
+      ],
+      "timeout": false,
+      "reached_destination": true,
+      "avg_rtt": 43.08
+    }
+  ],
+  "num_hops": 21,
+  "success": true,
+  "method": "scapy",
+  "category": "government_central",
+  "base_domain": "president.gov.tw",
+  "service_variant": "www2.president.gov.tw",
+  "is_bare_domain": false
+}

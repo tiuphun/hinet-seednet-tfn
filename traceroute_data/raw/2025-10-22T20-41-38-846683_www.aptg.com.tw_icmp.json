@@ -1,0 +1,268 @@
+{
+  "timestamp": "2025-10-22T20:41:38.846683",
+  "vantage_point": "university",
+  "target": "www.aptg.com.tw",
+  "target_ip": "210.200.69.126",
+  "protocol": "icmp",
+  "port": null,
+  "duration_seconds": 134.96,
+  "hops": [
+    {
+      "hop": 1,
+      "ip": "192.168.50.1",
+      "hostname": null,
+      "rtts": [
+        16.39,
+        5.0,
+        4.98
+      ],
+      "timeout": false,
+      "avg_rtt": 8.79
+    },
+    {
+      "hop": 2,
+      "ip": "140.123.103.250",
+      "hostname": "csgate103.cs.ccu.edu.tw",
+      "rtts": [
+        6.51,
+        4.8,
+        5.2
+      ],
+      "timeout": false,
+      "avg_rtt": 5.5
+    },
+    {
+      "hop": 3,
+      "ip": "140.123.9.249",
+      "hostname": null,
+      "rtts": [
+        5.35,
+        4.65,
+        5.01
+      ],
+      "timeout": false,
+      "avg_rtt": 5.0
+    },
+    {
+      "hop": 4,
+      "ip": "140.123.0.246",
+      "hostname": null,
+      "rtts": [
+        5.56,
+        5.39,
+        4.93
+      ],
+      "timeout": false,
+      "avg_rtt": 5.29
+    },
+    {
+      "hop": 5,
+      "ip": "140.130.252.251",
+      "hostname": null,
+      "rtts": [
+        10.33,
+        8.71,
+        15.76
+      ],
+      "timeout": false,
+      "avg_rtt": 11.6
+    },
+    {
+      "hop": 6,
+      "ip": "140.123.231.111",
+      "hostname": null,
+      "rtts": [
+        21.03,
+        20.95,
+        17.28
+      ],
+      "timeout": false,
+      "avg_rtt": 19.75
+    },
+    {
+      "hop": 7,
+      "ip": "211.76.96.175",
+      "hostname": null,
+      "rtts": [
+        16.27,
+        17.49,
+        14.43
+      ],
+      "timeout": false,
+      "avg_rtt": 16.06
+    },
+    {
+      "hop": 8,
+      "ip": "211.76.100.53",
+      "hostname": null,
+      "rtts": [
+        18.95,
+        14.14,
+        14.69
+      ],
+      "timeout": false,
+      "avg_rtt": 15.93
+    },
+    {
+      "hop": 9,
+      "ip": null,
+      "hostname": null,
+      "rtts": [],
+      "timeout": true
+    },
+    {
+      "hop": 10,
+      "ip": null,
+      "hostname": null,
+      "rtts": [],
+      "timeout": true
+    },
+    {
+      "hop": 11,
+      "ip": null,
+      "hostname": null,
+      "rtts": [],
+      "timeout": true
+    },
+    {
+      "hop": 12,
+      "ip": null,
+      "hostname": null,
+      "rtts": [],
+      "timeout": true
+    },
+    {
+      "hop": 13,
+      "ip": null,
+      "hostname": null,
+      "rtts": [],
+      "timeout": true
+    },
+    {
+      "hop": 14,
+      "ip": null,
+      "hostname": null,
+      "rtts": [],
+      "timeout": true
+    },
+    {
+      "hop": 15,
+      "ip": null,
+      "hostname": null,
+      "rtts": [],
+      "timeout": true
+    },
+    {
+      "hop": 16,
+      "ip": null,
+      "hostname": null,
+      "rtts": [],
+      "timeout": true
+    },
+    {
+      "hop": 17,
+      "ip": null,
+      "hostname": null,
+      "rtts": [],
+      "timeout": true
+    },
+    {
+      "hop": 18,
+      "ip": null,
+      "hostname": null,
+      "rtts": [],
+      "timeout": true
+    },
+    {
+      "hop": 19,
+      "ip": null,
+      "hostname": null,
+      "rtts": [],
+      "timeout": true
+    },
+    {
+      "hop": 20,
+      "ip": null,
+      "hostname": null,
+      "rtts": [],
+      "timeout": true
+    },
+    {
+      "hop": 21,
+      "ip": null,
+      "hostname": null,
+      "rtts": [],
+      "timeout": true
+    },
+    {
+      "hop": 22,
+      "ip": null,
+      "hostname": null,
+      "rtts": [],
+      "timeout": true
+    },
+    {
+      "hop": 23,
+      "ip": null,
+      "hostname": null,
+      "rtts": [],
+      "timeout": true
+    },
+    {
+      "hop": 24,
+      "ip": null,
+      "hostname": null,
+      "rtts": [],
+      "timeout": true
+    },
+    {
+      "hop": 25,
+      "ip": null,
+      "hostname": null,
+      "rtts": [],
+      "timeout": true
+    },
+    {
+      "hop": 26,
+      "ip": null,
+      "hostname": null,
+      "rtts": [],
+      "timeout": true
+    },
+    {
+      "hop": 27,
+      "ip": null,
+      "hostname": null,
+      "rtts": [],
+      "timeout": true
+    },
+    {
+      "hop": 28,
+      "ip": null,
+      "hostname": null,
+      "rtts": [],
+      "timeout": true
+    },
+    {
+      "hop": 29,
+      "ip": null,
+      "hostname": null,
+      "rtts": [],
+      "timeout": true
+    },
+    {
+      "hop": 30,
+      "ip": null,
+      "hostname": null,
+      "rtts": [],
+      "timeout": true
+    }
+  ],
+  "num_hops": 30,
+  "success": false,
+  "method": "scapy",
+  "category": "telecom",
+  "base_domain": "aptg.com.tw",
+  "service_variant": "www.aptg.com.tw",
+  "is_bare_domain": false
+}

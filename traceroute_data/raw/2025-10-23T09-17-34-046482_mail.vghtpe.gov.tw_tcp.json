@@ -1,0 +1,170 @@
+{
+  "timestamp": "2025-10-23T09:17:34.046482",
+  "vantage_point": "university",
+  "target": "mail.vghtpe.gov.tw",
+  "target_ip": "211.76.246.23",
+  "protocol": "tcp",
+  "port": 443,
+  "duration_seconds": 8.53,
+  "hops": [
+    {
+      "hop": 1,
+      "ip": "192.168.50.1",
+      "hostname": null,
+      "rtts": [
+        15.46,
+        10.09,
+        5.94
+      ],
+      "timeout": false,
+      "avg_rtt": 10.5
+    },
+    {
+      "hop": 2,
+      "ip": "140.123.103.250",
+      "hostname": "csgate103.cs.ccu.edu.tw",
+      "rtts": [
+        6.2,
+        5.99,
+        7.45
+      ],
+      "timeout": false,
+      "avg_rtt": 6.55
+    },
+    {
+      "hop": 3,
+      "ip": "140.123.9.249",
+      "hostname": null,
+      "rtts": [
+        5.69,
+        6.97,
+        5.08
+      ],
+      "timeout": false,
+      "avg_rtt": 5.91
+    },
+    {
+      "hop": 4,
+      "ip": "140.123.0.246",
+      "hostname": null,
+      "rtts": [
+        11.0,
+        9.04,
+        10.65
+      ],
+      "timeout": false,
+      "avg_rtt": 10.23
+    },
+    {
+      "hop": 5,
+      "ip": "211.79.57.25",
+      "hostname": "ccu-ccu-76.twaren.net",
+      "rtts": [
+        19.7,
+        19.62,
+        36.57
+      ],
+      "timeout": false,
+      "avg_rtt": 25.3
+    },
+    {
+      "hop": 6,
+      "ip": "211.73.76.209",
+      "hostname": "tp-a1.twaren.net",
+      "rtts": [
+        17.29,
+        9.24,
+        9.11
+      ],
+      "timeout": false,
+      "avg_rtt": 11.88
+    },
+    {
+      "hop": 7,
+      "ip": "211.73.76.198",
+      "hostname": "tn-a2.twaren.net",
+      "rtts": [
+        13.24,
+        10.16,
+        12.28
+      ],
+      "timeout": false,
+      "avg_rtt": 11.89
+    },
+    {
+      "hop": 8,
+      "ip": "211.73.76.141",
+      "hostname": "hc-a2.twaren.net",
+      "rtts": [
+        13.1,
+        17.32,
+        12.34
+      ],
+      "timeout": false,
+      "avg_rtt": 14.25
+    },
+    {
+      "hop": 9,
+      "ip": "211.73.76.154",
+      "hostname": "nctu-a1.twaren.net",
+      "rtts": [
+        19.43,
+        28.4,
+        13.96
+      ],
+      "timeout": false,
+      "avg_rtt": 20.6
+    },
+    {
+      "hop": 10,
+      "ip": "211.79.53.26",
+      "hostname": "1g-ge-p1.nctu-nctue.twaren.net",
+      "rtts": [
+        10.98,
+        11.57,
+        10.28
+      ],
+      "timeout": false,
+      "avg_rtt": 10.94
+    },
+    {
+      "hop": 11,
+      "ip": "60.251.57.77",
+      "hostname": "60-251-57-77.hinet-ip.hinet.net",
+      "rtts": [
+        16.08,
+        32.94,
+        23.95
+      ],
+      "timeout": false,
+      "avg_rtt": 24.32
+    },
+    {
+      "hop": 12,
+      "ip": null,
+      "hostname": null,
+      "rtts": [],
+      "timeout": true
+    },
+    {
+      "hop": 13,
+      "ip": "211.76.246.23",
+      "hostname": null,
+      "rtts": [
+        28.19,
+        20.05,
+        16.91
+      ],
+      "timeout": false,
+      "reached_destination": true,
+      "avg_rtt": 21.72
+    }
+  ],
+  "num_hops": 13,
+  "success": true,
+  "method": "scapy",
+  "category": "healthcare",
+  "base_domain": "vghtpe.gov.tw",
+  "service_variant": "mail.vghtpe.gov.tw",
+  "is_bare_domain": false
+}

@@ -1,0 +1,177 @@
+{
+  "timestamp": "2025-10-23T06:04:11.396024",
+  "vantage_point": "university",
+  "target": "api.591.com.tw",
+  "target_ip": "203.69.66.154",
+  "protocol": "tcp",
+  "port": 443,
+  "duration_seconds": 12.69,
+  "hops": [
+    {
+      "hop": 1,
+      "ip": "192.168.50.1",
+      "hostname": null,
+      "rtts": [
+        17.29,
+        7.08,
+        6.07
+      ],
+      "timeout": false,
+      "avg_rtt": 10.15
+    },
+    {
+      "hop": 2,
+      "ip": "140.123.103.250",
+      "hostname": "csgate103.cs.ccu.edu.tw",
+      "rtts": [
+        6.17,
+        7.96,
+        4.76
+      ],
+      "timeout": false,
+      "avg_rtt": 6.3
+    },
+    {
+      "hop": 3,
+      "ip": "140.123.9.249",
+      "hostname": null,
+      "rtts": [
+        5.8,
+        5.89,
+        4.94
+      ],
+      "timeout": false,
+      "avg_rtt": 5.54
+    },
+    {
+      "hop": 4,
+      "ip": "140.123.0.246",
+      "hostname": null,
+      "rtts": [
+        6.12,
+        4.87,
+        5.4
+      ],
+      "timeout": false,
+      "avg_rtt": 5.46
+    },
+    {
+      "hop": 5,
+      "ip": "140.130.252.251",
+      "hostname": null,
+      "rtts": [
+        8.93,
+        5.6,
+        6.81
+      ],
+      "timeout": false,
+      "avg_rtt": 7.11
+    },
+    {
+      "hop": 6,
+      "ip": "211.22.226.198",
+      "hostname": "211-22-226-198.caw1-3332.hinet.net",
+      "rtts": [
+        10.12,
+        7.69,
+        14.84
+      ],
+      "timeout": false,
+      "avg_rtt": 10.88
+    },
+    {
+      "hop": 7,
+      "ip": null,
+      "hostname": null,
+      "rtts": [],
+      "timeout": true
+    },
+    {
+      "hop": 8,
+      "ip": "220.128.9.62",
+      "hostname": "220-128-9-62.tylc-3032.hinet.net",
+      "rtts": [
+        20.91,
+        16.92,
+        16.2
+      ],
+      "timeout": false,
+      "avg_rtt": 18.01
+    },
+    {
+      "hop": 9,
+      "ip": "220.128.8.194",
+      "hostname": "220-128-8-194.tyfo-3031.hinet.net",
+      "rtts": [
+        17.33,
+        17.72,
+        18.88
+      ],
+      "timeout": false,
+      "avg_rtt": 17.98
+    },
+    {
+      "hop": 10,
+      "ip": "220.128.9.1",
+      "hostname": "220-128-9-1.snuh-3331.hinet.net",
+      "rtts": [
+        21.87,
+        15.97,
+        17.49
+      ],
+      "timeout": false,
+      "avg_rtt": 18.44
+    },
+    {
+      "hop": 11,
+      "ip": null,
+      "hostname": null,
+      "rtts": [],
+      "timeout": true
+    },
+    {
+      "hop": 12,
+      "ip": "210.71.139.10",
+      "hostname": "210-71-139-10.hinet-ip.hinet.net",
+      "rtts": [
+        33.18,
+        15.06,
+        18.26
+      ],
+      "timeout": false,
+      "avg_rtt": 22.17
+    },
+    {
+      "hop": 13,
+      "ip": "203.69.66.154",
+      "hostname": "203-69-66-154.hinet-ip.hinet.net",
+      "rtts": [
+        16.83,
+        19.09,
+        17.04
+      ],
+      "timeout": false,
+      "avg_rtt": 17.65
+    },
+    {
+      "hop": 14,
+      "ip": "203.69.66.154",
+      "hostname": "203-69-66-154.hinet-ip.hinet.net",
+      "rtts": [
+        15.95,
+        17.76,
+        18.75
+      ],
+      "timeout": false,
+      "reached_destination": true,
+      "avg_rtt": 17.49
+    }
+  ],
+  "num_hops": 14,
+  "success": true,
+  "method": "scapy",
+  "category": "ecommerce_tech",
+  "base_domain": "591.com.tw",
+  "service_variant": "api.591.com.tw",
+  "is_bare_domain": false
+}

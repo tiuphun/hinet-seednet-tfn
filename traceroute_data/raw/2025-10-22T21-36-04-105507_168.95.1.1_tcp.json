@@ -1,0 +1,146 @@
+{
+  "timestamp": "2025-10-22T21:36:04.105507",
+  "vantage_point": "university",
+  "target": "168.95.1.1",
+  "target_ip": "168.95.1.1",
+  "protocol": "tcp",
+  "port": 443,
+  "duration_seconds": 6.52,
+  "hops": [
+    {
+      "hop": 1,
+      "ip": "192.168.50.1",
+      "hostname": null,
+      "rtts": [
+        8.38,
+        12.38,
+        4.73
+      ],
+      "timeout": false,
+      "avg_rtt": 8.5
+    },
+    {
+      "hop": 2,
+      "ip": "140.123.103.250",
+      "hostname": "csgate103.cs.ccu.edu.tw",
+      "rtts": [
+        5.44,
+        4.7,
+        4.87
+      ],
+      "timeout": false,
+      "avg_rtt": 5.0
+    },
+    {
+      "hop": 3,
+      "ip": "140.123.9.249",
+      "hostname": null,
+      "rtts": [
+        4.81,
+        5.03,
+        4.7
+      ],
+      "timeout": false,
+      "avg_rtt": 4.85
+    },
+    {
+      "hop": 4,
+      "ip": "140.123.0.246",
+      "hostname": null,
+      "rtts": [
+        5.57,
+        4.45,
+        7.63
+      ],
+      "timeout": false,
+      "avg_rtt": 5.88
+    },
+    {
+      "hop": 5,
+      "ip": "140.130.252.251",
+      "hostname": null,
+      "rtts": [
+        5.74,
+        6.6,
+        6.82
+      ],
+      "timeout": false,
+      "avg_rtt": 6.39
+    },
+    {
+      "hop": 6,
+      "ip": "211.22.226.198",
+      "hostname": "211-22-226-198.caw1-3332.hinet.net",
+      "rtts": [
+        6.85,
+        14.32,
+        9.59
+      ],
+      "timeout": false,
+      "avg_rtt": 10.25
+    },
+    {
+      "hop": 7,
+      "ip": null,
+      "hostname": null,
+      "rtts": [],
+      "timeout": true
+    },
+    {
+      "hop": 8,
+      "ip": "220.128.25.245",
+      "hostname": "220-128-25-245.skc1-3315.hinet.net",
+      "rtts": [
+        72.8,
+        12.21,
+        7.88
+      ],
+      "timeout": false,
+      "avg_rtt": 30.96
+    },
+    {
+      "hop": 9,
+      "ip": "203.74.40.249",
+      "hostname": "203-74-40-249.hinet-ip.hinet.net",
+      "rtts": [
+        7.48,
+        11.38,
+        6.93
+      ],
+      "timeout": false,
+      "avg_rtt": 8.6
+    },
+    {
+      "hop": 10,
+      "ip": "61.220.0.246",
+      "hostname": "61-220-0-246.hinet-ip.hinet.net",
+      "rtts": [
+        9.6,
+        9.01,
+        10.4
+      ],
+      "timeout": false,
+      "avg_rtt": 9.67
+    },
+    {
+      "hop": 11,
+      "ip": "168.95.1.1",
+      "hostname": "dns.hinet.net",
+      "rtts": [
+        12.9,
+        28.88,
+        8.23
+      ],
+      "timeout": false,
+      "reached_destination": true,
+      "avg_rtt": 16.67
+    }
+  ],
+  "num_hops": 11,
+  "success": true,
+  "method": "scapy",
+  "category": "dns_resolvers",
+  "base_domain": "168.95.1.1",
+  "service_variant": "168.95.1.1",
+  "is_bare_domain": true
+}

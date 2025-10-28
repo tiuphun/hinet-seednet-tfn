@@ -1,0 +1,175 @@
+{
+  "timestamp": "2025-10-22T21:48:37.967924",
+  "vantage_point": "university",
+  "target": "8.8.8.8",
+  "target_ip": "8.8.8.8",
+  "protocol": "tcp",
+  "port": 443,
+  "duration_seconds": 0.69,
+  "hops": [
+    {
+      "hop": 1,
+      "ip": "192.168.50.1",
+      "hostname": null,
+      "rtts": [
+        42.94,
+        10.58,
+        6.48
+      ],
+      "timeout": false,
+      "avg_rtt": 20.0
+    },
+    {
+      "hop": 2,
+      "ip": "140.123.103.250",
+      "hostname": "csgate103.cs.ccu.edu.tw",
+      "rtts": [
+        6.21,
+        7.23,
+        5.94
+      ],
+      "timeout": false,
+      "avg_rtt": 6.46
+    },
+    {
+      "hop": 3,
+      "ip": "140.123.9.249",
+      "hostname": null,
+      "rtts": [
+        5.91,
+        5.4,
+        5.79
+      ],
+      "timeout": false,
+      "avg_rtt": 5.7
+    },
+    {
+      "hop": 4,
+      "ip": "140.123.0.246",
+      "hostname": null,
+      "rtts": [
+        7.72,
+        6.68,
+        7.0
+      ],
+      "timeout": false,
+      "avg_rtt": 7.13
+    },
+    {
+      "hop": 5,
+      "ip": "140.130.252.251",
+      "hostname": null,
+      "rtts": [
+        32.94,
+        8.37,
+        15.83
+      ],
+      "timeout": false,
+      "avg_rtt": 19.05
+    },
+    {
+      "hop": 6,
+      "ip": "192.192.61.142",
+      "hostname": null,
+      "rtts": [
+        11.23,
+        10.89,
+        11.66
+      ],
+      "timeout": false,
+      "avg_rtt": 11.26
+    },
+    {
+      "hop": 7,
+      "ip": "192.192.61.20",
+      "hostname": null,
+      "rtts": [
+        12.63,
+        11.21,
+        12.7
+      ],
+      "timeout": false,
+      "avg_rtt": 12.18
+    },
+    {
+      "hop": 8,
+      "ip": "192.192.61.184",
+      "hostname": null,
+      "rtts": [
+        15.05,
+        13.27,
+        13.46
+      ],
+      "timeout": false,
+      "avg_rtt": 13.93
+    },
+    {
+      "hop": 9,
+      "ip": "192.192.61.203",
+      "hostname": null,
+      "rtts": [
+        12.54,
+        12.9,
+        13.12
+      ],
+      "timeout": false,
+      "avg_rtt": 12.85
+    },
+    {
+      "hop": 10,
+      "ip": "72.14.196.229",
+      "hostname": null,
+      "rtts": [
+        13.0,
+        14.48,
+        11.73
+      ],
+      "timeout": false,
+      "avg_rtt": 13.07
+    },
+    {
+      "hop": 11,
+      "ip": "209.85.254.217",
+      "hostname": null,
+      "rtts": [
+        18.13,
+        13.21,
+        14.96
+      ],
+      "timeout": false,
+      "avg_rtt": 15.43
+    },
+    {
+      "hop": 12,
+      "ip": "209.85.242.125",
+      "hostname": null,
+      "rtts": [
+        13.64,
+        13.37,
+        11.97
+      ],
+      "timeout": false,
+      "avg_rtt": 12.99
+    },
+    {
+      "hop": 13,
+      "ip": "8.8.8.8",
+      "hostname": "dns.google",
+      "rtts": [
+        17.8,
+        13.16,
+        12.73
+      ],
+      "timeout": false,
+      "reached_destination": true,
+      "avg_rtt": 14.56
+    }
+  ],
+  "num_hops": 13,
+  "success": true,
+  "method": "scapy",
+  "category": "dns_resolvers",
+  "base_domain": "8.8.8.8",
+  "service_variant": "8.8.8.8",
+  "is_bare_domain": true
+}

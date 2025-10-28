@@ -1,0 +1,275 @@
+{
+  "timestamp": "2025-10-22T20:18:04.255571",
+  "vantage_point": "university",
+  "target": "portal.nfa.gov.tw",
+  "target_ip": "210.69.173.37",
+  "protocol": "tcp",
+  "port": 80,
+  "duration_seconds": 45.77,
+  "hops": [
+    {
+      "hop": 1,
+      "ip": "192.168.50.1",
+      "hostname": null,
+      "rtts": [
+        7.66,
+        7.66,
+        5.46
+      ],
+      "timeout": false,
+      "avg_rtt": 6.93
+    },
+    {
+      "hop": 2,
+      "ip": "140.123.103.250",
+      "hostname": "csgate103.cs.ccu.edu.tw",
+      "rtts": [
+        7.33,
+        6.78,
+        7.11
+      ],
+      "timeout": false,
+      "avg_rtt": 7.07
+    },
+    {
+      "hop": 3,
+      "ip": "140.123.9.249",
+      "hostname": null,
+      "rtts": [
+        6.6,
+        5.86,
+        7.16
+      ],
+      "timeout": false,
+      "avg_rtt": 6.54
+    },
+    {
+      "hop": 4,
+      "ip": "140.123.0.246",
+      "hostname": null,
+      "rtts": [
+        9.16,
+        9.81,
+        8.74
+      ],
+      "timeout": false,
+      "avg_rtt": 9.24
+    },
+    {
+      "hop": 5,
+      "ip": "140.130.252.251",
+      "hostname": null,
+      "rtts": [
+        8.3,
+        7.81,
+        10.5
+      ],
+      "timeout": false,
+      "avg_rtt": 8.87
+    },
+    {
+      "hop": 6,
+      "ip": "192.192.61.142",
+      "hostname": null,
+      "rtts": [
+        10.94,
+        10.46,
+        7.96
+      ],
+      "timeout": false,
+      "avg_rtt": 9.79
+    },
+    {
+      "hop": 7,
+      "ip": "192.192.61.9",
+      "hostname": null,
+      "rtts": [
+        8.98,
+        8.65,
+        11.38
+      ],
+      "timeout": false,
+      "avg_rtt": 9.67
+    },
+    {
+      "hop": 8,
+      "ip": "192.192.61.30",
+      "hostname": null,
+      "rtts": [
+        21.3,
+        18.02,
+        11.23
+      ],
+      "timeout": false,
+      "avg_rtt": 16.85
+    },
+    {
+      "hop": 9,
+      "ip": "192.192.61.4",
+      "hostname": null,
+      "rtts": [
+        12.85,
+        16.19,
+        15.48
+      ],
+      "timeout": false,
+      "avg_rtt": 14.84
+    },
+    {
+      "hop": 10,
+      "ip": "192.192.61.209",
+      "hostname": null,
+      "rtts": [
+        12.96,
+        23.36,
+        9.71
+      ],
+      "timeout": false,
+      "avg_rtt": 15.34
+    },
+    {
+      "hop": 11,
+      "ip": "10.96.81.12",
+      "hostname": null,
+      "rtts": [
+        9.84,
+        15.94,
+        17.0
+      ],
+      "timeout": false,
+      "avg_rtt": 14.26
+    },
+    {
+      "hop": 12,
+      "ip": "210.69.250.126",
+      "hostname": "210-69-250-126.hinet-ip.hinet.net",
+      "rtts": [
+        14.39,
+        43.65,
+        10.1
+      ],
+      "timeout": false,
+      "avg_rtt": 22.71
+    },
+    {
+      "hop": 13,
+      "ip": "210.69.250.81",
+      "hostname": "210-69-250-81.hinet-ip.hinet.net",
+      "rtts": [
+        15.13,
+        12.53
+      ],
+      "timeout": false,
+      "avg_rtt": 13.83
+    },
+    {
+      "hop": 14,
+      "ip": "210.69.8.141",
+      "hostname": "210-69-8-141.hinet-ip.hinet.net",
+      "rtts": [
+        12.01,
+        12.63,
+        11.43
+      ],
+      "timeout": false,
+      "avg_rtt": 12.02
+    },
+    {
+      "hop": 15,
+      "ip": "210.69.173.37",
+      "hostname": "210-69-173-37.hinet-ip.hinet.net",
+      "rtts": [
+        14.76,
+        10.18,
+        27.63
+      ],
+      "timeout": false,
+      "avg_rtt": 17.52
+    },
+    {
+      "hop": 16,
+      "ip": null,
+      "hostname": null,
+      "rtts": [],
+      "timeout": true
+    },
+    {
+      "hop": 17,
+      "ip": "10.255.255.150",
+      "hostname": null,
+      "rtts": [
+        18.31
+      ],
+      "timeout": false,
+      "avg_rtt": 18.31
+    },
+    {
+      "hop": 18,
+      "ip": "10.255.255.158",
+      "hostname": null,
+      "rtts": [
+        14.86,
+        15.79
+      ],
+      "timeout": false,
+      "avg_rtt": 15.32
+    },
+    {
+      "hop": 19,
+      "ip": "10.255.254.245",
+      "hostname": null,
+      "rtts": [
+        25.01,
+        25.08
+      ],
+      "timeout": false,
+      "avg_rtt": 25.05
+    },
+    {
+      "hop": 20,
+      "ip": null,
+      "hostname": null,
+      "rtts": [],
+      "timeout": true
+    },
+    {
+      "hop": 21,
+      "ip": null,
+      "hostname": null,
+      "rtts": [],
+      "timeout": true
+    },
+    {
+      "hop": 22,
+      "ip": null,
+      "hostname": null,
+      "rtts": [],
+      "timeout": true
+    },
+    {
+      "hop": 23,
+      "ip": null,
+      "hostname": null,
+      "rtts": [],
+      "timeout": true
+    },
+    {
+      "hop": 24,
+      "ip": "210.69.173.37",
+      "hostname": "210-69-173-37.hinet-ip.hinet.net",
+      "rtts": [
+        23.76
+      ],
+      "timeout": false,
+      "reached_destination": true,
+      "avg_rtt": 23.76
+    }
+  ],
+  "num_hops": 24,
+  "success": true,
+  "method": "scapy",
+  "category": "government_critical",
+  "base_domain": "nfa.gov.tw",
+  "service_variant": "portal.nfa.gov.tw",
+  "is_bare_domain": false
+}

@@ -1,0 +1,247 @@
+{
+  "timestamp": "2025-10-22T14:33:51.328663",
+  "vantage_point": "university",
+  "target": "smtp.ntpc.gov.tw",
+  "target_ip": "61.60.125.124",
+  "protocol": "tcp",
+  "port": 80,
+  "duration_seconds": 4.94,
+  "hops": [
+    {
+      "hop": 1,
+      "ip": "192.168.50.1",
+      "hostname": null,
+      "rtts": [
+        19.9,
+        8.87,
+        12.89
+      ],
+      "timeout": false,
+      "avg_rtt": 13.89
+    },
+    {
+      "hop": 2,
+      "ip": "140.123.103.250",
+      "hostname": "csgate103.cs.ccu.edu.tw",
+      "rtts": [
+        6.63,
+        11.17,
+        21.96
+      ],
+      "timeout": false,
+      "avg_rtt": 13.25
+    },
+    {
+      "hop": 3,
+      "ip": "140.123.9.249",
+      "hostname": null,
+      "rtts": [
+        9.36,
+        6.89,
+        6.51
+      ],
+      "timeout": false,
+      "avg_rtt": 7.59
+    },
+    {
+      "hop": 4,
+      "ip": "140.123.0.246",
+      "hostname": null,
+      "rtts": [
+        7.41,
+        9.74,
+        10.6
+      ],
+      "timeout": false,
+      "avg_rtt": 9.25
+    },
+    {
+      "hop": 5,
+      "ip": "140.130.252.251",
+      "hostname": null,
+      "rtts": [
+        11.47,
+        8.35,
+        7.5
+      ],
+      "timeout": false,
+      "avg_rtt": 9.11
+    },
+    {
+      "hop": 6,
+      "ip": "192.192.61.142",
+      "hostname": null,
+      "rtts": [
+        9.67,
+        29.4,
+        35.42
+      ],
+      "timeout": false,
+      "avg_rtt": 24.83
+    },
+    {
+      "hop": 7,
+      "ip": "192.192.61.37",
+      "hostname": null,
+      "rtts": [
+        12.92,
+        14.92,
+        11.48
+      ],
+      "timeout": false,
+      "avg_rtt": 13.11
+    },
+    {
+      "hop": 8,
+      "ip": "192.192.61.32",
+      "hostname": null,
+      "rtts": [
+        13.51,
+        20.6,
+        39.89
+      ],
+      "timeout": false,
+      "avg_rtt": 24.67
+    },
+    {
+      "hop": 9,
+      "ip": "192.192.61.209",
+      "hostname": null,
+      "rtts": [
+        12.81,
+        15.22,
+        13.0
+      ],
+      "timeout": false,
+      "avg_rtt": 13.68
+    },
+    {
+      "hop": 10,
+      "ip": "10.96.81.12",
+      "hostname": null,
+      "rtts": [
+        26.75,
+        17.92,
+        14.71
+      ],
+      "timeout": false,
+      "avg_rtt": 19.79
+    },
+    {
+      "hop": 11,
+      "ip": "210.69.250.126",
+      "hostname": "210-69-250-126.hinet-ip.hinet.net",
+      "rtts": [
+        15.5,
+        34.09,
+        20.77
+      ],
+      "timeout": false,
+      "avg_rtt": 23.45
+    },
+    {
+      "hop": 12,
+      "ip": "210.69.250.49",
+      "hostname": "210-69-250-49.hinet-ip.hinet.net",
+      "rtts": [
+        13.26,
+        13.96,
+        15.39
+      ],
+      "timeout": false,
+      "avg_rtt": 14.2
+    },
+    {
+      "hop": 13,
+      "ip": "61.60.63.177",
+      "hostname": "61-60-63-177.hinet-ip.hinet.net",
+      "rtts": [
+        16.9,
+        22.08,
+        23.46
+      ],
+      "timeout": false,
+      "avg_rtt": 20.81
+    },
+    {
+      "hop": 14,
+      "ip": "61.60.126.231",
+      "hostname": null,
+      "rtts": [
+        17.34,
+        38.47,
+        29.44
+      ],
+      "timeout": false,
+      "avg_rtt": 28.42
+    },
+    {
+      "hop": 15,
+      "ip": "61.60.126.234",
+      "hostname": null,
+      "rtts": [
+        36.61,
+        17.76,
+        20.91
+      ],
+      "timeout": false,
+      "avg_rtt": 25.09
+    },
+    {
+      "hop": 16,
+      "ip": "61.60.125.124",
+      "hostname": "smtp2.ntpc.gov.tw",
+      "rtts": [
+        17.43,
+        17.48,
+        36.26
+      ],
+      "timeout": false,
+      "avg_rtt": 23.72
+    },
+    {
+      "hop": 17,
+      "ip": "61.60.125.124",
+      "hostname": "smtp2.ntpc.gov.tw",
+      "rtts": [
+        18.29,
+        20.0,
+        21.88
+      ],
+      "timeout": false,
+      "avg_rtt": 20.06
+    },
+    {
+      "hop": 18,
+      "ip": "61.60.125.124",
+      "hostname": "smtp2.ntpc.gov.tw",
+      "rtts": [
+        19.49,
+        18.27,
+        18.79
+      ],
+      "timeout": false,
+      "avg_rtt": 18.85
+    },
+    {
+      "hop": 19,
+      "ip": "61.60.125.124",
+      "hostname": "smtp2.ntpc.gov.tw",
+      "rtts": [
+        17.29,
+        17.63,
+        18.35
+      ],
+      "timeout": false,
+      "reached_destination": true,
+      "avg_rtt": 17.76
+    }
+  ],
+  "num_hops": 19,
+  "success": true,
+  "method": "scapy",
+  "category": "government_local",
+  "base_domain": "ntpc.gov.tw",
+  "service_variant": "smtp.ntpc.gov.tw",
+  "is_bare_domain": false
+}

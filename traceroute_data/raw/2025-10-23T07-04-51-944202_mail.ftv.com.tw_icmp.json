@@ -1,0 +1,191 @@
+{
+  "timestamp": "2025-10-23T07:04:51.944202",
+  "vantage_point": "university",
+  "target": "mail.ftv.com.tw",
+  "target_ip": "40.104.20.18",
+  "protocol": "icmp",
+  "port": null,
+  "duration_seconds": 26.46,
+  "hops": [
+    {
+      "hop": 1,
+      "ip": "192.168.50.1",
+      "hostname": null,
+      "rtts": [
+        10.55,
+        7.75,
+        7.18
+      ],
+      "timeout": false,
+      "avg_rtt": 8.49
+    },
+    {
+      "hop": 2,
+      "ip": "140.123.103.250",
+      "hostname": "csgate103.cs.ccu.edu.tw",
+      "rtts": [
+        8.93,
+        6.54,
+        8.9
+      ],
+      "timeout": false,
+      "avg_rtt": 8.12
+    },
+    {
+      "hop": 3,
+      "ip": "140.123.9.249",
+      "hostname": null,
+      "rtts": [
+        10.86,
+        7.48,
+        12.98
+      ],
+      "timeout": false,
+      "avg_rtt": 10.44
+    },
+    {
+      "hop": 4,
+      "ip": "140.123.0.246",
+      "hostname": null,
+      "rtts": [
+        12.7,
+        8.1,
+        5.79
+      ],
+      "timeout": false,
+      "avg_rtt": 8.86
+    },
+    {
+      "hop": 5,
+      "ip": "140.130.252.251",
+      "hostname": null,
+      "rtts": [
+        6.78,
+        6.5,
+        5.48
+      ],
+      "timeout": false,
+      "avg_rtt": 6.25
+    },
+    {
+      "hop": 6,
+      "ip": "192.192.61.142",
+      "hostname": null,
+      "rtts": [
+        21.52,
+        13.56,
+        12.09
+      ],
+      "timeout": false,
+      "avg_rtt": 15.72
+    },
+    {
+      "hop": 7,
+      "ip": "192.192.61.20",
+      "hostname": null,
+      "rtts": [
+        17.69,
+        12.01,
+        10.51
+      ],
+      "timeout": false,
+      "avg_rtt": 13.4
+    },
+    {
+      "hop": 8,
+      "ip": "192.192.61.48",
+      "hostname": null,
+      "rtts": [
+        14.34,
+        13.3,
+        15.63
+      ],
+      "timeout": false,
+      "avg_rtt": 14.42
+    },
+    {
+      "hop": 9,
+      "ip": "192.192.68.62",
+      "hostname": null,
+      "rtts": [
+        14.52,
+        20.18,
+        12.55
+      ],
+      "timeout": false,
+      "avg_rtt": 15.75
+    },
+    {
+      "hop": 10,
+      "ip": "203.163.222.15",
+      "hostname": "15-222-163-203-static.tpix.net.tw",
+      "rtts": [
+        17.34,
+        14.11,
+        15.31
+      ],
+      "timeout": false,
+      "avg_rtt": 15.59
+    },
+    {
+      "hop": 11,
+      "ip": "104.44.51.234",
+      "hostname": null,
+      "rtts": [
+        14.56,
+        16.49,
+        20.33
+      ],
+      "timeout": false,
+      "avg_rtt": 17.13
+    },
+    {
+      "hop": 12,
+      "ip": null,
+      "hostname": null,
+      "rtts": [],
+      "timeout": true
+    },
+    {
+      "hop": 13,
+      "ip": null,
+      "hostname": null,
+      "rtts": [],
+      "timeout": true
+    },
+    {
+      "hop": 14,
+      "ip": null,
+      "hostname": null,
+      "rtts": [],
+      "timeout": true
+    },
+    {
+      "hop": 15,
+      "ip": null,
+      "hostname": null,
+      "rtts": [],
+      "timeout": true
+    },
+    {
+      "hop": 16,
+      "ip": "40.104.20.18",
+      "hostname": null,
+      "rtts": [
+        21.36,
+        9.84,
+        10.09
+      ],
+      "timeout": false,
+      "reached_destination": true,
+      "avg_rtt": 13.76
+    }
+  ],
+  "num_hops": 16,
+  "success": true,
+  "method": "scapy",
+  "category": "media",
+  "base_domain": "ftv.com.tw",
+  "service_variant": "mail.ftv.com.tw",
+  "is_bare_domain": false
+}

@@ -1,0 +1,295 @@
+{
+  "timestamp": "2025-10-22T15:01:12.378043",
+  "vantage_point": "university",
+  "target": "ftp.ntu.edu.tw",
+  "target_ip": "140.112.36.185",
+  "protocol": "icmp",
+  "port": null,
+  "duration_seconds": 112.45,
+  "hops": [
+    {
+      "hop": 1,
+      "ip": "192.168.50.1",
+      "hostname": null,
+      "rtts": [
+        31.59,
+        7.67
+      ],
+      "timeout": false,
+      "avg_rtt": 19.63
+    },
+    {
+      "hop": 2,
+      "ip": "140.123.103.250",
+      "hostname": "csgate103.cs.ccu.edu.tw",
+      "rtts": [
+        14.93,
+        4.9,
+        14.19
+      ],
+      "timeout": false,
+      "avg_rtt": 11.34
+    },
+    {
+      "hop": 3,
+      "ip": "140.123.9.249",
+      "hostname": null,
+      "rtts": [
+        17.44,
+        4.91,
+        4.67
+      ],
+      "timeout": false,
+      "avg_rtt": 9.01
+    },
+    {
+      "hop": 4,
+      "ip": "140.123.0.246",
+      "hostname": null,
+      "rtts": [
+        5.83,
+        5.8,
+        5.21
+      ],
+      "timeout": false,
+      "avg_rtt": 5.61
+    },
+    {
+      "hop": 5,
+      "ip": "140.130.252.251",
+      "hostname": null,
+      "rtts": [
+        8.03,
+        7.03,
+        7.74
+      ],
+      "timeout": false,
+      "avg_rtt": 7.6
+    },
+    {
+      "hop": 6,
+      "ip": "192.192.61.142",
+      "hostname": null,
+      "rtts": [
+        7.94,
+        11.71,
+        7.61
+      ],
+      "timeout": false,
+      "avg_rtt": 9.09
+    },
+    {
+      "hop": 7,
+      "ip": "192.192.61.20",
+      "hostname": null,
+      "rtts": [
+        27.17,
+        8.92,
+        11.95
+      ],
+      "timeout": false,
+      "avg_rtt": 16.01
+    },
+    {
+      "hop": 8,
+      "ip": "192.192.61.81",
+      "hostname": null,
+      "rtts": [
+        10.6,
+        11.11,
+        10.38
+      ],
+      "timeout": false,
+      "avg_rtt": 10.7
+    },
+    {
+      "hop": 9,
+      "ip": "140.112.0.69",
+      "hostname": "wan0069.cc.ntu.edu.tw",
+      "rtts": [
+        12.94,
+        9.79,
+        13.85
+      ],
+      "timeout": false,
+      "avg_rtt": 12.19
+    },
+    {
+      "hop": 10,
+      "ip": "140.112.0.201",
+      "hostname": "core_wan_0201.cc.ntu.edu.tw",
+      "rtts": [
+        12.18,
+        9.84,
+        9.96
+      ],
+      "timeout": false,
+      "avg_rtt": 10.66
+    },
+    {
+      "hop": 11,
+      "ip": "140.112.0.169",
+      "hostname": null,
+      "rtts": [
+        12.63
+      ],
+      "timeout": false,
+      "avg_rtt": 12.63
+    },
+    {
+      "hop": 12,
+      "ip": "140.112.0.169",
+      "hostname": null,
+      "rtts": [
+        33.8
+      ],
+      "timeout": false,
+      "avg_rtt": 33.8
+    },
+    {
+      "hop": 13,
+      "ip": null,
+      "hostname": null,
+      "rtts": [],
+      "timeout": true
+    },
+    {
+      "hop": 14,
+      "ip": null,
+      "hostname": null,
+      "rtts": [],
+      "timeout": true
+    },
+    {
+      "hop": 15,
+      "ip": "140.112.0.169",
+      "hostname": null,
+      "rtts": [
+        39.92
+      ],
+      "timeout": false,
+      "avg_rtt": 39.92
+    },
+    {
+      "hop": 16,
+      "ip": "140.112.0.169",
+      "hostname": null,
+      "rtts": [
+        23.58
+      ],
+      "timeout": false,
+      "avg_rtt": 23.58
+    },
+    {
+      "hop": 17,
+      "ip": "140.112.0.169",
+      "hostname": null,
+      "rtts": [
+        15.85
+      ],
+      "timeout": false,
+      "avg_rtt": 15.85
+    },
+    {
+      "hop": 18,
+      "ip": "140.112.0.169",
+      "hostname": null,
+      "rtts": [
+        19.53
+      ],
+      "timeout": false,
+      "avg_rtt": 19.53
+    },
+    {
+      "hop": 19,
+      "ip": null,
+      "hostname": null,
+      "rtts": [],
+      "timeout": true
+    },
+    {
+      "hop": 20,
+      "ip": null,
+      "hostname": null,
+      "rtts": [],
+      "timeout": true
+    },
+    {
+      "hop": 21,
+      "ip": null,
+      "hostname": null,
+      "rtts": [],
+      "timeout": true
+    },
+    {
+      "hop": 22,
+      "ip": null,
+      "hostname": null,
+      "rtts": [],
+      "timeout": true
+    },
+    {
+      "hop": 23,
+      "ip": null,
+      "hostname": null,
+      "rtts": [],
+      "timeout": true
+    },
+    {
+      "hop": 24,
+      "ip": null,
+      "hostname": null,
+      "rtts": [],
+      "timeout": true
+    },
+    {
+      "hop": 25,
+      "ip": null,
+      "hostname": null,
+      "rtts": [],
+      "timeout": true
+    },
+    {
+      "hop": 26,
+      "ip": null,
+      "hostname": null,
+      "rtts": [],
+      "timeout": true
+    },
+    {
+      "hop": 27,
+      "ip": null,
+      "hostname": null,
+      "rtts": [],
+      "timeout": true
+    },
+    {
+      "hop": 28,
+      "ip": null,
+      "hostname": null,
+      "rtts": [],
+      "timeout": true
+    },
+    {
+      "hop": 29,
+      "ip": null,
+      "hostname": null,
+      "rtts": [],
+      "timeout": true
+    },
+    {
+      "hop": 30,
+      "ip": null,
+      "hostname": null,
+      "rtts": [],
+      "timeout": true
+    }
+  ],
+  "num_hops": 30,
+  "success": false,
+  "method": "scapy",
+  "category": "universities",
+  "base_domain": "ntu.edu.tw",
+  "service_variant": "ftp.ntu.edu.tw",
+  "is_bare_domain": false
+}

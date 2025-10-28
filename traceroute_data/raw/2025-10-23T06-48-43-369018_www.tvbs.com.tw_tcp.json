@@ -1,0 +1,146 @@
+{
+  "timestamp": "2025-10-23T06:48:43.369018",
+  "vantage_point": "university",
+  "target": "www.tvbs.com.tw",
+  "target_ip": "203.69.138.215",
+  "protocol": "tcp",
+  "port": 80,
+  "duration_seconds": 6.55,
+  "hops": [
+    {
+      "hop": 1,
+      "ip": "192.168.50.1",
+      "hostname": null,
+      "rtts": [
+        9.41,
+        16.92,
+        5.58
+      ],
+      "timeout": false,
+      "avg_rtt": 10.64
+    },
+    {
+      "hop": 2,
+      "ip": "140.123.103.250",
+      "hostname": "csgate103.cs.ccu.edu.tw",
+      "rtts": [
+        6.13,
+        5.11,
+        5.1
+      ],
+      "timeout": false,
+      "avg_rtt": 5.45
+    },
+    {
+      "hop": 3,
+      "ip": "140.123.9.249",
+      "hostname": null,
+      "rtts": [
+        9.86,
+        8.39,
+        11.55
+      ],
+      "timeout": false,
+      "avg_rtt": 9.93
+    },
+    {
+      "hop": 4,
+      "ip": "140.123.0.246",
+      "hostname": null,
+      "rtts": [
+        8.21,
+        6.74,
+        35.05
+      ],
+      "timeout": false,
+      "avg_rtt": 16.67
+    },
+    {
+      "hop": 5,
+      "ip": "140.130.252.251",
+      "hostname": null,
+      "rtts": [
+        7.71,
+        7.31,
+        7.65
+      ],
+      "timeout": false,
+      "avg_rtt": 7.56
+    },
+    {
+      "hop": 6,
+      "ip": "211.22.226.198",
+      "hostname": "211-22-226-198.caw1-3332.hinet.net",
+      "rtts": [
+        6.25,
+        6.65,
+        12.08
+      ],
+      "timeout": false,
+      "avg_rtt": 8.33
+    },
+    {
+      "hop": 7,
+      "ip": null,
+      "hostname": null,
+      "rtts": [],
+      "timeout": true
+    },
+    {
+      "hop": 8,
+      "ip": "220.128.9.62",
+      "hostname": "220-128-9-62.tylc-3032.hinet.net",
+      "rtts": [
+        20.68,
+        15.9,
+        33.42
+      ],
+      "timeout": false,
+      "avg_rtt": 23.33
+    },
+    {
+      "hop": 9,
+      "ip": "220.128.9.153",
+      "hostname": "220-128-9-153.tyfo-3332.hinet.net",
+      "rtts": [
+        12.65,
+        27.42,
+        18.05
+      ],
+      "timeout": false,
+      "avg_rtt": 19.37
+    },
+    {
+      "hop": 10,
+      "ip": "203.69.140.21",
+      "hostname": "203-69-140-21.hinet-ip.hinet.net",
+      "rtts": [
+        12.99,
+        18.81,
+        12.48
+      ],
+      "timeout": false,
+      "avg_rtt": 14.76
+    },
+    {
+      "hop": 11,
+      "ip": "203.69.138.215",
+      "hostname": "203-69-138-215.hinet-ip.hinet.net",
+      "rtts": [
+        13.78,
+        10.94,
+        19.79
+      ],
+      "timeout": false,
+      "reached_destination": true,
+      "avg_rtt": 14.84
+    }
+  ],
+  "num_hops": 11,
+  "success": true,
+  "method": "scapy",
+  "category": "media",
+  "base_domain": "tvbs.com.tw",
+  "service_variant": "www.tvbs.com.tw",
+  "is_bare_domain": false
+}

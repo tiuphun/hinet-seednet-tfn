@@ -1,0 +1,342 @@
+{
+  "timestamp": "2025-10-22T13:56:11.667702",
+  "vantage_point": "university",
+  "target": "ns.kcg.gov.tw",
+  "target_ip": "223.200.91.250",
+  "protocol": "icmp",
+  "port": null,
+  "duration_seconds": 5743.56,
+  "hops": [
+    {
+      "hop": 1,
+      "ip": "192.168.50.1",
+      "hostname": null,
+      "rtts": [
+        4.49,
+        6.49,
+        6.19
+      ],
+      "timeout": false,
+      "avg_rtt": 5.72
+    },
+    {
+      "hop": 2,
+      "ip": "140.123.103.250",
+      "hostname": "csgate103.cs.ccu.edu.tw",
+      "rtts": [
+        4.73,
+        4.27,
+        4.7
+      ],
+      "timeout": false,
+      "avg_rtt": 4.57
+    },
+    {
+      "hop": 3,
+      "ip": "140.123.9.249",
+      "hostname": null,
+      "rtts": [
+        10.43,
+        4.58,
+        7.23
+      ],
+      "timeout": false,
+      "avg_rtt": 7.41
+    },
+    {
+      "hop": 4,
+      "ip": "140.123.0.246",
+      "hostname": null,
+      "rtts": [
+        5.62,
+        5.62,
+        4.87
+      ],
+      "timeout": false,
+      "avg_rtt": 5.37
+    },
+    {
+      "hop": 5,
+      "ip": "140.130.252.251",
+      "hostname": null,
+      "rtts": [
+        6.02,
+        5.96,
+        9.42
+      ],
+      "timeout": false,
+      "avg_rtt": 7.13
+    },
+    {
+      "hop": 6,
+      "ip": "192.192.61.142",
+      "hostname": null,
+      "rtts": [
+        7.36,
+        18.46,
+        7.54
+      ],
+      "timeout": false,
+      "avg_rtt": 11.12
+    },
+    {
+      "hop": 7,
+      "ip": "192.192.61.37",
+      "hostname": null,
+      "rtts": [
+        8.93,
+        9.43,
+        18.29
+      ],
+      "timeout": false,
+      "avg_rtt": 12.22
+    },
+    {
+      "hop": 8,
+      "ip": "192.192.61.32",
+      "hostname": null,
+      "rtts": [
+        15.71,
+        9.93,
+        24.24
+      ],
+      "timeout": false,
+      "avg_rtt": 16.63
+    },
+    {
+      "hop": 9,
+      "ip": "192.192.61.209",
+      "hostname": null,
+      "rtts": [
+        10.17,
+        11.01,
+        10.77
+      ],
+      "timeout": false,
+      "avg_rtt": 10.65
+    },
+    {
+      "hop": 10,
+      "ip": "10.96.81.12",
+      "hostname": null,
+      "rtts": [
+        19.3
+      ],
+      "timeout": false,
+      "avg_rtt": 19.3
+    },
+    {
+      "hop": 11,
+      "ip": "10.96.81.12",
+      "hostname": null,
+      "rtts": [
+        13.95
+      ],
+      "timeout": false,
+      "avg_rtt": 13.95
+    },
+    {
+      "hop": 12,
+      "ip": "10.96.81.12",
+      "hostname": null,
+      "rtts": [
+        15.59,
+        130.07
+      ],
+      "timeout": false,
+      "avg_rtt": 72.83
+    },
+    {
+      "hop": 13,
+      "ip": "10.96.81.12",
+      "hostname": null,
+      "rtts": [
+        21.69
+      ],
+      "timeout": false,
+      "avg_rtt": 21.69
+    },
+    {
+      "hop": 14,
+      "ip": "10.96.81.12",
+      "hostname": null,
+      "rtts": [
+        23.3,
+        26.36
+      ],
+      "timeout": false,
+      "avg_rtt": 24.83
+    },
+    {
+      "hop": 15,
+      "ip": "10.96.81.12",
+      "hostname": null,
+      "rtts": [
+        13.0
+      ],
+      "timeout": false,
+      "avg_rtt": 13.0
+    },
+    {
+      "hop": 16,
+      "ip": "10.96.81.12",
+      "hostname": null,
+      "rtts": [
+        14.6
+      ],
+      "timeout": false,
+      "avg_rtt": 14.6
+    },
+    {
+      "hop": 17,
+      "ip": "10.96.81.12",
+      "hostname": null,
+      "rtts": [
+        19.56,
+        23.76
+      ],
+      "timeout": false,
+      "avg_rtt": 21.66
+    },
+    {
+      "hop": 18,
+      "ip": "10.96.81.12",
+      "hostname": null,
+      "rtts": [
+        225.61
+      ],
+      "timeout": false,
+      "avg_rtt": 225.61
+    },
+    {
+      "hop": 19,
+      "ip": "10.96.81.12",
+      "hostname": null,
+      "rtts": [
+        113.82
+      ],
+      "timeout": false,
+      "avg_rtt": 113.82
+    },
+    {
+      "hop": 20,
+      "ip": "10.96.81.12",
+      "hostname": null,
+      "rtts": [
+        37.83,
+        15.24
+      ],
+      "timeout": false,
+      "avg_rtt": 26.54
+    },
+    {
+      "hop": 21,
+      "ip": "10.96.81.12",
+      "hostname": null,
+      "rtts": [
+        14.3
+      ],
+      "timeout": false,
+      "avg_rtt": 14.3
+    },
+    {
+      "hop": 22,
+      "ip": "10.96.81.12",
+      "hostname": null,
+      "rtts": [
+        17.6
+      ],
+      "timeout": false,
+      "avg_rtt": 17.6
+    },
+    {
+      "hop": 23,
+      "ip": "10.96.81.12",
+      "hostname": null,
+      "rtts": [
+        13.95,
+        12.12
+      ],
+      "timeout": false,
+      "avg_rtt": 13.04
+    },
+    {
+      "hop": 24,
+      "ip": "10.96.81.12",
+      "hostname": null,
+      "rtts": [
+        22.28
+      ],
+      "timeout": false,
+      "avg_rtt": 22.28
+    },
+    {
+      "hop": 25,
+      "ip": "10.96.81.12",
+      "hostname": null,
+      "rtts": [
+        43.89
+      ],
+      "timeout": false,
+      "avg_rtt": 43.89
+    },
+    {
+      "hop": 26,
+      "ip": "10.96.81.12",
+      "hostname": null,
+      "rtts": [
+        34.8,
+        14.47
+      ],
+      "timeout": false,
+      "avg_rtt": 24.63
+    },
+    {
+      "hop": 27,
+      "ip": "10.96.81.12",
+      "hostname": null,
+      "rtts": [
+        19.62
+      ],
+      "timeout": false,
+      "avg_rtt": 19.62
+    },
+    {
+      "hop": 28,
+      "ip": "10.96.81.12",
+      "hostname": null,
+      "rtts": [
+        16.07
+      ],
+      "timeout": false,
+      "avg_rtt": 16.07
+    },
+    {
+      "hop": 29,
+      "ip": "10.96.81.12",
+      "hostname": null,
+      "rtts": [
+        18.37
+      ],
+      "timeout": false,
+      "avg_rtt": 18.37
+    },
+    {
+      "hop": 30,
+      "ip": "10.96.81.12",
+      "hostname": null,
+      "rtts": [
+        18.99
+      ],
+      "timeout": false,
+      "avg_rtt": 18.99
+    }
+  ],
+  "num_hops": 30,
+  "success": false,
+  "method": "scapy",
+  "category": "government_local",
+  "base_domain": "kcg.gov.tw",
+  "service_variant": "ns.kcg.gov.tw",
+  "is_bare_domain": false
+}

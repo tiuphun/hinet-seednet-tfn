@@ -1,0 +1,343 @@
+{
+  "timestamp": "2025-10-22T19:55:43.798017",
+  "vantage_point": "university",
+  "target": "ns2.chcg.gov.tw",
+  "target_ip": "210.241.54.106",
+  "protocol": "icmp",
+  "port": null,
+  "duration_seconds": 72.99,
+  "hops": [
+    {
+      "hop": 1,
+      "ip": "192.168.50.1",
+      "hostname": null,
+      "rtts": [
+        30.78,
+        21.25,
+        8.17
+      ],
+      "timeout": false,
+      "avg_rtt": 20.07
+    },
+    {
+      "hop": 2,
+      "ip": "140.123.103.250",
+      "hostname": "csgate103.cs.ccu.edu.tw",
+      "rtts": [
+        7.09,
+        7.34,
+        12.38
+      ],
+      "timeout": false,
+      "avg_rtt": 8.94
+    },
+    {
+      "hop": 3,
+      "ip": "140.123.9.249",
+      "hostname": null,
+      "rtts": [
+        12.22,
+        8.54,
+        12.88
+      ],
+      "timeout": false,
+      "avg_rtt": 11.21
+    },
+    {
+      "hop": 4,
+      "ip": "140.123.0.246",
+      "hostname": null,
+      "rtts": [
+        8.58,
+        7.4,
+        14.14
+      ],
+      "timeout": false,
+      "avg_rtt": 10.04
+    },
+    {
+      "hop": 5,
+      "ip": "140.130.252.251",
+      "hostname": null,
+      "rtts": [
+        7.73,
+        12.18,
+        9.56
+      ],
+      "timeout": false,
+      "avg_rtt": 9.82
+    },
+    {
+      "hop": 6,
+      "ip": "192.192.61.142",
+      "hostname": null,
+      "rtts": [
+        10.1,
+        17.32,
+        21.84
+      ],
+      "timeout": false,
+      "avg_rtt": 16.42
+    },
+    {
+      "hop": 7,
+      "ip": "192.192.61.37",
+      "hostname": null,
+      "rtts": [
+        16.67,
+        29.54,
+        13.3
+      ],
+      "timeout": false,
+      "avg_rtt": 19.84
+    },
+    {
+      "hop": 8,
+      "ip": "192.192.61.32",
+      "hostname": null,
+      "rtts": [
+        54.43,
+        22.66,
+        16.06
+      ],
+      "timeout": false,
+      "avg_rtt": 31.05
+    },
+    {
+      "hop": 9,
+      "ip": "192.192.61.209",
+      "hostname": null,
+      "rtts": [
+        20.52,
+        13.37,
+        17.67
+      ],
+      "timeout": false,
+      "avg_rtt": 17.19
+    },
+    {
+      "hop": 10,
+      "ip": "10.96.81.12",
+      "hostname": null,
+      "rtts": [
+        16.02
+      ],
+      "timeout": false,
+      "avg_rtt": 16.02
+    },
+    {
+      "hop": 11,
+      "ip": "10.96.81.12",
+      "hostname": null,
+      "rtts": [
+        20.57
+      ],
+      "timeout": false,
+      "avg_rtt": 20.57
+    },
+    {
+      "hop": 12,
+      "ip": "10.96.81.12",
+      "hostname": null,
+      "rtts": [
+        19.62
+      ],
+      "timeout": false,
+      "avg_rtt": 19.62
+    },
+    {
+      "hop": 13,
+      "ip": "10.96.81.12",
+      "hostname": null,
+      "rtts": [
+        20.27
+      ],
+      "timeout": false,
+      "avg_rtt": 20.27
+    },
+    {
+      "hop": 14,
+      "ip": "10.96.81.12",
+      "hostname": null,
+      "rtts": [
+        43.27
+      ],
+      "timeout": false,
+      "avg_rtt": 43.27
+    },
+    {
+      "hop": 15,
+      "ip": "10.96.81.12",
+      "hostname": null,
+      "rtts": [
+        51.49,
+        58.64
+      ],
+      "timeout": false,
+      "avg_rtt": 55.06
+    },
+    {
+      "hop": 16,
+      "ip": "10.96.81.12",
+      "hostname": null,
+      "rtts": [
+        34.44
+      ],
+      "timeout": false,
+      "avg_rtt": 34.44
+    },
+    {
+      "hop": 17,
+      "ip": "10.96.81.12",
+      "hostname": null,
+      "rtts": [
+        48.92,
+        25.62
+      ],
+      "timeout": false,
+      "avg_rtt": 37.27
+    },
+    {
+      "hop": 18,
+      "ip": "10.96.81.12",
+      "hostname": null,
+      "rtts": [
+        27.82
+      ],
+      "timeout": false,
+      "avg_rtt": 27.82
+    },
+    {
+      "hop": 19,
+      "ip": "10.96.81.12",
+      "hostname": null,
+      "rtts": [
+        27.7,
+        32.18
+      ],
+      "timeout": false,
+      "avg_rtt": 29.94
+    },
+    {
+      "hop": 20,
+      "ip": "10.96.81.12",
+      "hostname": null,
+      "rtts": [
+        38.82
+      ],
+      "timeout": false,
+      "avg_rtt": 38.82
+    },
+    {
+      "hop": 21,
+      "ip": "10.96.81.12",
+      "hostname": null,
+      "rtts": [
+        33.11,
+        58.31
+      ],
+      "timeout": false,
+      "avg_rtt": 45.71
+    },
+    {
+      "hop": 22,
+      "ip": "10.96.81.12",
+      "hostname": null,
+      "rtts": [
+        49.32
+      ],
+      "timeout": false,
+      "avg_rtt": 49.32
+    },
+    {
+      "hop": 23,
+      "ip": "10.96.81.12",
+      "hostname": null,
+      "rtts": [
+        30.54,
+        23.13
+      ],
+      "timeout": false,
+      "avg_rtt": 26.84
+    },
+    {
+      "hop": 24,
+      "ip": "10.96.81.12",
+      "hostname": null,
+      "rtts": [
+        16.18
+      ],
+      "timeout": false,
+      "avg_rtt": 16.18
+    },
+    {
+      "hop": 25,
+      "ip": "10.96.81.12",
+      "hostname": null,
+      "rtts": [
+        14.05,
+        15.51
+      ],
+      "timeout": false,
+      "avg_rtt": 14.78
+    },
+    {
+      "hop": 26,
+      "ip": "10.96.81.12",
+      "hostname": null,
+      "rtts": [
+        17.35
+      ],
+      "timeout": false,
+      "avg_rtt": 17.35
+    },
+    {
+      "hop": 27,
+      "ip": "10.96.81.12",
+      "hostname": null,
+      "rtts": [
+        22.22
+      ],
+      "timeout": false,
+      "avg_rtt": 22.22
+    },
+    {
+      "hop": 28,
+      "ip": "10.96.81.12",
+      "hostname": null,
+      "rtts": [
+        29.99
+      ],
+      "timeout": false,
+      "avg_rtt": 29.99
+    },
+    {
+      "hop": 29,
+      "ip": "10.96.81.12",
+      "hostname": null,
+      "rtts": [
+        12.27
+      ],
+      "timeout": false,
+      "avg_rtt": 12.27
+    },
+    {
+      "hop": 30,
+      "ip": "10.96.81.12",
+      "hostname": null,
+      "rtts": [
+        37.62,
+        18.5
+      ],
+      "timeout": false,
+      "avg_rtt": 28.06
+    }
+  ],
+  "num_hops": 30,
+  "success": false,
+  "method": "scapy",
+  "category": "government_local",
+  "base_domain": "chcg.gov.tw",
+  "service_variant": "ns2.chcg.gov.tw",
+  "is_bare_domain": false
+}

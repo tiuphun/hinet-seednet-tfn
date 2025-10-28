@@ -1,0 +1,188 @@
+{
+  "timestamp": "2025-10-23T12:32:12.194909",
+  "vantage_point": "university",
+  "target": "yahoo.com.tw",
+  "target_ip": "76.223.84.192",
+  "protocol": "icmp",
+  "port": null,
+  "duration_seconds": 53.39,
+  "hops": [
+    {
+      "hop": 1,
+      "ip": "192.168.50.1",
+      "hostname": null,
+      "rtts": [
+        4.49,
+        6.29,
+        4.44
+      ],
+      "timeout": false,
+      "avg_rtt": 5.07
+    },
+    {
+      "hop": 2,
+      "ip": "140.123.103.250",
+      "hostname": "csgate103.cs.ccu.edu.tw",
+      "rtts": [
+        4.62,
+        4.57,
+        9.48
+      ],
+      "timeout": false,
+      "avg_rtt": 6.22
+    },
+    {
+      "hop": 3,
+      "ip": "140.123.9.249",
+      "hostname": null,
+      "rtts": [
+        4.69,
+        9.44,
+        6.24
+      ],
+      "timeout": false,
+      "avg_rtt": 6.79
+    },
+    {
+      "hop": 4,
+      "ip": "140.123.0.246",
+      "hostname": null,
+      "rtts": [
+        6.04,
+        37.27,
+        4.83
+      ],
+      "timeout": false,
+      "avg_rtt": 16.05
+    },
+    {
+      "hop": 5,
+      "ip": "140.130.252.251",
+      "hostname": null,
+      "rtts": [
+        8.66,
+        6.55,
+        6.77
+      ],
+      "timeout": false,
+      "avg_rtt": 7.33
+    },
+    {
+      "hop": 6,
+      "ip": "192.192.61.142",
+      "hostname": null,
+      "rtts": [
+        7.01,
+        10.03,
+        11.08
+      ],
+      "timeout": false,
+      "avg_rtt": 9.37
+    },
+    {
+      "hop": 7,
+      "ip": "192.192.61.20",
+      "hostname": null,
+      "rtts": [
+        11.15,
+        9.07,
+        11.94
+      ],
+      "timeout": false,
+      "avg_rtt": 10.72
+    },
+    {
+      "hop": 8,
+      "ip": "192.192.61.48",
+      "hostname": null,
+      "rtts": [
+        11.07,
+        12.63,
+        11.91
+      ],
+      "timeout": false,
+      "avg_rtt": 11.87
+    },
+    {
+      "hop": 9,
+      "ip": "192.192.68.62",
+      "hostname": null,
+      "rtts": [
+        10.99,
+        10.44,
+        13.22
+      ],
+      "timeout": false,
+      "avg_rtt": 11.55
+    },
+    {
+      "hop": 10,
+      "ip": null,
+      "hostname": null,
+      "rtts": [],
+      "timeout": true
+    },
+    {
+      "hop": 11,
+      "ip": null,
+      "hostname": null,
+      "rtts": [],
+      "timeout": true
+    },
+    {
+      "hop": 12,
+      "ip": null,
+      "hostname": null,
+      "rtts": [],
+      "timeout": true
+    },
+    {
+      "hop": 13,
+      "ip": null,
+      "hostname": null,
+      "rtts": [],
+      "timeout": true
+    },
+    {
+      "hop": 14,
+      "ip": null,
+      "hostname": null,
+      "rtts": [],
+      "timeout": true
+    },
+    {
+      "hop": 15,
+      "ip": null,
+      "hostname": null,
+      "rtts": [],
+      "timeout": true
+    },
+    {
+      "hop": 16,
+      "ip": null,
+      "hostname": null,
+      "rtts": [],
+      "timeout": true
+    },
+    {
+      "hop": 17,
+      "ip": "76.223.84.192",
+      "hostname": "a7de0457831fd11f7.awsglobalaccelerator.com",
+      "rtts": [
+        48.29,
+        29.98,
+        26.87
+      ],
+      "timeout": false,
+      "reached_destination": true,
+      "avg_rtt": 35.05
+    }
+  ],
+  "num_hops": 17,
+  "success": true,
+  "method": "scapy",
+  "category": "cdn_global",
+  "base_domain": "yahoo.com.tw",
+  "service_variant": "yahoo.com.tw",
+  "is_bare_domain": true
+}

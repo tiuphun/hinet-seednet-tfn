@@ -1,0 +1,292 @@
+{
+  "timestamp": "2025-10-23T05:42:50.798439",
+  "vantage_point": "university",
+  "target": "app.1111.com.tw",
+  "target_ip": "202.153.190.12",
+  "protocol": "icmp",
+  "port": null,
+  "duration_seconds": 106.89,
+  "hops": [
+    {
+      "hop": 1,
+      "ip": "192.168.50.1",
+      "hostname": null,
+      "rtts": [
+        8.56,
+        8.64,
+        5.61
+      ],
+      "timeout": false,
+      "avg_rtt": 7.6
+    },
+    {
+      "hop": 2,
+      "ip": "140.123.103.250",
+      "hostname": "csgate103.cs.ccu.edu.tw",
+      "rtts": [
+        5.8,
+        5.41,
+        6.15
+      ],
+      "timeout": false,
+      "avg_rtt": 5.79
+    },
+    {
+      "hop": 3,
+      "ip": "140.123.9.249",
+      "hostname": null,
+      "rtts": [
+        7.24,
+        5.37,
+        5.14
+      ],
+      "timeout": false,
+      "avg_rtt": 5.92
+    },
+    {
+      "hop": 4,
+      "ip": "140.123.0.246",
+      "hostname": null,
+      "rtts": [
+        14.56,
+        8.52,
+        9.07
+      ],
+      "timeout": false,
+      "avg_rtt": 10.72
+    },
+    {
+      "hop": 5,
+      "ip": "140.130.252.251",
+      "hostname": null,
+      "rtts": [
+        13.35,
+        21.8,
+        13.21
+      ],
+      "timeout": false,
+      "avg_rtt": 16.12
+    },
+    {
+      "hop": 6,
+      "ip": "192.192.61.142",
+      "hostname": null,
+      "rtts": [
+        12.52,
+        10.81,
+        12.28
+      ],
+      "timeout": false,
+      "avg_rtt": 11.87
+    },
+    {
+      "hop": 7,
+      "ip": "192.192.61.20",
+      "hostname": null,
+      "rtts": [
+        14.65,
+        19.43,
+        12.45
+      ],
+      "timeout": false,
+      "avg_rtt": 15.51
+    },
+    {
+      "hop": 8,
+      "ip": "192.192.61.48",
+      "hostname": null,
+      "rtts": [
+        16.16,
+        13.21,
+        13.51
+      ],
+      "timeout": false,
+      "avg_rtt": 14.29
+    },
+    {
+      "hop": 9,
+      "ip": "192.192.68.62",
+      "hostname": null,
+      "rtts": [
+        19.55,
+        15.68,
+        13.37
+      ],
+      "timeout": false,
+      "avg_rtt": 16.2
+    },
+    {
+      "hop": 10,
+      "ip": "65.49.108.1",
+      "hostname": "e0-11.switch2.tpe1.he.net",
+      "rtts": [
+        18.32,
+        23.98
+      ],
+      "timeout": false,
+      "avg_rtt": 21.15
+    },
+    {
+      "hop": 11,
+      "ip": null,
+      "hostname": null,
+      "rtts": [],
+      "timeout": true
+    },
+    {
+      "hop": 12,
+      "ip": "210.171.224.197",
+      "hostname": null,
+      "rtts": [
+        48.59,
+        47.6,
+        52.18
+      ],
+      "timeout": false,
+      "avg_rtt": 49.46
+    },
+    {
+      "hop": 13,
+      "ip": "104.86.65.224",
+      "hostname": "a104-86-65-224.deploy.static.akamaitechnologies.com",
+      "rtts": [
+        47.04,
+        50.86,
+        41.26
+      ],
+      "timeout": false,
+      "avg_rtt": 46.39
+    },
+    {
+      "hop": 14,
+      "ip": "2.17.108.92",
+      "hostname": "a2-17-108-92.deploy.static.akamaitechnologies.com",
+      "rtts": [
+        41.03,
+        47.4,
+        41.09
+      ],
+      "timeout": false,
+      "avg_rtt": 43.17
+    },
+    {
+      "hop": 15,
+      "ip": null,
+      "hostname": null,
+      "rtts": [],
+      "timeout": true
+    },
+    {
+      "hop": 16,
+      "ip": null,
+      "hostname": null,
+      "rtts": [],
+      "timeout": true
+    },
+    {
+      "hop": 17,
+      "ip": null,
+      "hostname": null,
+      "rtts": [],
+      "timeout": true
+    },
+    {
+      "hop": 18,
+      "ip": null,
+      "hostname": null,
+      "rtts": [],
+      "timeout": true
+    },
+    {
+      "hop": 19,
+      "ip": null,
+      "hostname": null,
+      "rtts": [],
+      "timeout": true
+    },
+    {
+      "hop": 20,
+      "ip": null,
+      "hostname": null,
+      "rtts": [],
+      "timeout": true
+    },
+    {
+      "hop": 21,
+      "ip": null,
+      "hostname": null,
+      "rtts": [],
+      "timeout": true
+    },
+    {
+      "hop": 22,
+      "ip": null,
+      "hostname": null,
+      "rtts": [],
+      "timeout": true
+    },
+    {
+      "hop": 23,
+      "ip": null,
+      "hostname": null,
+      "rtts": [],
+      "timeout": true
+    },
+    {
+      "hop": 24,
+      "ip": null,
+      "hostname": null,
+      "rtts": [],
+      "timeout": true
+    },
+    {
+      "hop": 25,
+      "ip": null,
+      "hostname": null,
+      "rtts": [],
+      "timeout": true
+    },
+    {
+      "hop": 26,
+      "ip": null,
+      "hostname": null,
+      "rtts": [],
+      "timeout": true
+    },
+    {
+      "hop": 27,
+      "ip": null,
+      "hostname": null,
+      "rtts": [],
+      "timeout": true
+    },
+    {
+      "hop": 28,
+      "ip": null,
+      "hostname": null,
+      "rtts": [],
+      "timeout": true
+    },
+    {
+      "hop": 29,
+      "ip": null,
+      "hostname": null,
+      "rtts": [],
+      "timeout": true
+    },
+    {
+      "hop": 30,
+      "ip": null,
+      "hostname": null,
+      "rtts": [],
+      "timeout": true
+    }
+  ],
+  "num_hops": 30,
+  "success": false,
+  "method": "scapy",
+  "category": "ecommerce_tech",
+  "base_domain": "1111.com.tw",
+  "service_variant": "app.1111.com.tw",
+  "is_bare_domain": false
+}

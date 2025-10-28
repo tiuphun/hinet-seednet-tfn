@@ -1,0 +1,150 @@
+{
+  "timestamp": "2025-10-22T18:58:20.586614",
+  "vantage_point": "university",
+  "target": "www.ptt.cc",
+  "target_ip": "104.21.30.106",
+  "protocol": "tcp",
+  "port": 80,
+  "duration_seconds": 2.44,
+  "hops": [
+    {
+      "hop": 1,
+      "ip": "192.168.50.1",
+      "hostname": null,
+      "rtts": [
+        17.33,
+        12.75,
+        7.08
+      ],
+      "timeout": false,
+      "avg_rtt": 12.39
+    },
+    {
+      "hop": 2,
+      "ip": "140.123.103.250",
+      "hostname": "csgate103.cs.ccu.edu.tw",
+      "rtts": [
+        5.71,
+        4.78,
+        7.07
+      ],
+      "timeout": false,
+      "avg_rtt": 5.85
+    },
+    {
+      "hop": 3,
+      "ip": "140.123.9.249",
+      "hostname": null,
+      "rtts": [
+        5.48,
+        5.75,
+        5.5
+      ],
+      "timeout": false,
+      "avg_rtt": 5.58
+    },
+    {
+      "hop": 4,
+      "ip": "140.123.0.246",
+      "hostname": null,
+      "rtts": [
+        7.43,
+        5.42,
+        5.17
+      ],
+      "timeout": false,
+      "avg_rtt": 6.01
+    },
+    {
+      "hop": 5,
+      "ip": "140.130.252.251",
+      "hostname": null,
+      "rtts": [
+        16.75,
+        14.66,
+        17.55
+      ],
+      "timeout": false,
+      "avg_rtt": 16.32
+    },
+    {
+      "hop": 6,
+      "ip": "192.192.61.142",
+      "hostname": null,
+      "rtts": [
+        14.16,
+        9.67,
+        8.79
+      ],
+      "timeout": false,
+      "avg_rtt": 10.87
+    },
+    {
+      "hop": 7,
+      "ip": "192.192.61.20",
+      "hostname": null,
+      "rtts": [
+        14.82,
+        10.71,
+        12.58
+      ],
+      "timeout": false,
+      "avg_rtt": 12.7
+    },
+    {
+      "hop": 8,
+      "ip": "192.192.61.48",
+      "hostname": null,
+      "rtts": [
+        14.6,
+        12.78,
+        16.35
+      ],
+      "timeout": false,
+      "avg_rtt": 14.58
+    },
+    {
+      "hop": 9,
+      "ip": "192.192.68.62",
+      "hostname": null,
+      "rtts": [
+        13.94,
+        13.73,
+        15.17
+      ],
+      "timeout": false,
+      "avg_rtt": 14.28
+    },
+    {
+      "hop": 10,
+      "ip": "203.163.222.39",
+      "hostname": "39-222-163-203-static.tpix.net.tw",
+      "rtts": [
+        14.98,
+        17.79
+      ],
+      "timeout": false,
+      "avg_rtt": 16.38
+    },
+    {
+      "hop": 11,
+      "ip": "104.21.30.106",
+      "hostname": null,
+      "rtts": [
+        12.03,
+        16.44,
+        19.86
+      ],
+      "timeout": false,
+      "reached_destination": true,
+      "avg_rtt": 16.11
+    }
+  ],
+  "num_hops": 11,
+  "success": true,
+  "method": "scapy",
+  "category": "ecommerce_tech",
+  "base_domain": "ptt.cc",
+  "service_variant": "www.ptt.cc",
+  "is_bare_domain": false
+}

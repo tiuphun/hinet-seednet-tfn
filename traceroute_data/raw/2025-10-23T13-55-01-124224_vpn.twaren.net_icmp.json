@@ -1,0 +1,330 @@
+{
+  "timestamp": "2025-10-23T13:55:01.124224",
+  "vantage_point": "university",
+  "target": "vpn.twaren.net",
+  "target_ip": "140.110.123.123",
+  "protocol": "icmp",
+  "port": null,
+  "duration_seconds": 113.32,
+  "hops": [
+    {
+      "hop": 1,
+      "ip": "192.168.50.1",
+      "hostname": null,
+      "rtts": [
+        4.43,
+        4.98,
+        3.95
+      ],
+      "timeout": false,
+      "avg_rtt": 4.45
+    },
+    {
+      "hop": 2,
+      "ip": "140.123.103.250",
+      "hostname": "csgate103.cs.ccu.edu.tw",
+      "rtts": [
+        4.66,
+        4.87,
+        4.28
+      ],
+      "timeout": false,
+      "avg_rtt": 4.6
+    },
+    {
+      "hop": 3,
+      "ip": "140.123.9.249",
+      "hostname": null,
+      "rtts": [
+        4.96,
+        6.41,
+        6.74
+      ],
+      "timeout": false,
+      "avg_rtt": 6.04
+    },
+    {
+      "hop": 4,
+      "ip": "140.123.0.246",
+      "hostname": null,
+      "rtts": [
+        10.85,
+        10.14,
+        4.72
+      ],
+      "timeout": false,
+      "avg_rtt": 8.57
+    },
+    {
+      "hop": 5,
+      "ip": "211.79.57.25",
+      "hostname": "ccu-ccu-76.twaren.net",
+      "rtts": [
+        10.34,
+        10.7,
+        9.38
+      ],
+      "timeout": false,
+      "avg_rtt": 10.14
+    },
+    {
+      "hop": 6,
+      "ip": "211.73.76.209",
+      "hostname": "tp-a1.twaren.net",
+      "rtts": [
+        16.6,
+        17.65,
+        9.02
+      ],
+      "timeout": false,
+      "avg_rtt": 14.42
+    },
+    {
+      "hop": 7,
+      "ip": "211.73.76.209",
+      "hostname": "tp-a1.twaren.net",
+      "rtts": [
+        501.34
+      ],
+      "timeout": false,
+      "avg_rtt": 501.34
+    },
+    {
+      "hop": 8,
+      "ip": "211.73.76.209",
+      "hostname": "tp-a1.twaren.net",
+      "rtts": [
+        618.12
+      ],
+      "timeout": false,
+      "avg_rtt": 618.12
+    },
+    {
+      "hop": 9,
+      "ip": "211.73.76.209",
+      "hostname": "tp-a1.twaren.net",
+      "rtts": [
+        523.26
+      ],
+      "timeout": false,
+      "avg_rtt": 523.26
+    },
+    {
+      "hop": 10,
+      "ip": "211.73.76.209",
+      "hostname": "tp-a1.twaren.net",
+      "rtts": [
+        564.07
+      ],
+      "timeout": false,
+      "avg_rtt": 564.07
+    },
+    {
+      "hop": 11,
+      "ip": "211.73.76.209",
+      "hostname": "tp-a1.twaren.net",
+      "rtts": [
+        769.65
+      ],
+      "timeout": false,
+      "avg_rtt": 769.65
+    },
+    {
+      "hop": 12,
+      "ip": "211.73.76.209",
+      "hostname": "tp-a1.twaren.net",
+      "rtts": [
+        527.13
+      ],
+      "timeout": false,
+      "avg_rtt": 527.13
+    },
+    {
+      "hop": 13,
+      "ip": "211.73.76.209",
+      "hostname": "tp-a1.twaren.net",
+      "rtts": [
+        573.9
+      ],
+      "timeout": false,
+      "avg_rtt": 573.9
+    },
+    {
+      "hop": 14,
+      "ip": "211.73.76.209",
+      "hostname": "tp-a1.twaren.net",
+      "rtts": [
+        691.44
+      ],
+      "timeout": false,
+      "avg_rtt": 691.44
+    },
+    {
+      "hop": 15,
+      "ip": "211.73.76.209",
+      "hostname": "tp-a1.twaren.net",
+      "rtts": [
+        769.79
+      ],
+      "timeout": false,
+      "avg_rtt": 769.79
+    },
+    {
+      "hop": 16,
+      "ip": "211.73.76.209",
+      "hostname": "tp-a1.twaren.net",
+      "rtts": [
+        313.4
+      ],
+      "timeout": false,
+      "avg_rtt": 313.4
+    },
+    {
+      "hop": 17,
+      "ip": "211.73.76.209",
+      "hostname": "tp-a1.twaren.net",
+      "rtts": [
+        611.65
+      ],
+      "timeout": false,
+      "avg_rtt": 611.65
+    },
+    {
+      "hop": 18,
+      "ip": "211.73.76.209",
+      "hostname": "tp-a1.twaren.net",
+      "rtts": [
+        740.6
+      ],
+      "timeout": false,
+      "avg_rtt": 740.6
+    },
+    {
+      "hop": 19,
+      "ip": "211.73.76.209",
+      "hostname": "tp-a1.twaren.net",
+      "rtts": [
+        438.74
+      ],
+      "timeout": false,
+      "avg_rtt": 438.74
+    },
+    {
+      "hop": 20,
+      "ip": "211.73.76.209",
+      "hostname": "tp-a1.twaren.net",
+      "rtts": [
+        464.46
+      ],
+      "timeout": false,
+      "avg_rtt": 464.46
+    },
+    {
+      "hop": 21,
+      "ip": "211.73.76.209",
+      "hostname": "tp-a1.twaren.net",
+      "rtts": [
+        764.14
+      ],
+      "timeout": false,
+      "avg_rtt": 764.14
+    },
+    {
+      "hop": 22,
+      "ip": "211.73.76.209",
+      "hostname": "tp-a1.twaren.net",
+      "rtts": [
+        834.92
+      ],
+      "timeout": false,
+      "avg_rtt": 834.92
+    },
+    {
+      "hop": 23,
+      "ip": "211.73.76.209",
+      "hostname": "tp-a1.twaren.net",
+      "rtts": [
+        587.57
+      ],
+      "timeout": false,
+      "avg_rtt": 587.57
+    },
+    {
+      "hop": 24,
+      "ip": "211.73.76.209",
+      "hostname": "tp-a1.twaren.net",
+      "rtts": [
+        642.1
+      ],
+      "timeout": false,
+      "avg_rtt": 642.1
+    },
+    {
+      "hop": 25,
+      "ip": "211.73.76.209",
+      "hostname": "tp-a1.twaren.net",
+      "rtts": [
+        789.37
+      ],
+      "timeout": false,
+      "avg_rtt": 789.37
+    },
+    {
+      "hop": 26,
+      "ip": "211.73.76.209",
+      "hostname": "tp-a1.twaren.net",
+      "rtts": [
+        733.42
+      ],
+      "timeout": false,
+      "avg_rtt": 733.42
+    },
+    {
+      "hop": 27,
+      "ip": "211.73.76.209",
+      "hostname": "tp-a1.twaren.net",
+      "rtts": [
+        692.62
+      ],
+      "timeout": false,
+      "avg_rtt": 692.62
+    },
+    {
+      "hop": 28,
+      "ip": "211.73.76.209",
+      "hostname": "tp-a1.twaren.net",
+      "rtts": [
+        736.93
+      ],
+      "timeout": false,
+      "avg_rtt": 736.93
+    },
+    {
+      "hop": 29,
+      "ip": "211.73.76.209",
+      "hostname": "tp-a1.twaren.net",
+      "rtts": [
+        708.94
+      ],
+      "timeout": false,
+      "avg_rtt": 708.94
+    },
+    {
+      "hop": 30,
+      "ip": "211.73.76.209",
+      "hostname": "tp-a1.twaren.net",
+      "rtts": [
+        687.1
+      ],
+      "timeout": false,
+      "avg_rtt": 687.1
+    }
+  ],
+  "num_hops": 30,
+  "success": false,
+  "method": "scapy",
+  "category": "education_network",
+  "base_domain": "twaren.net",
+  "service_variant": "vpn.twaren.net",
+  "is_bare_domain": false
+}

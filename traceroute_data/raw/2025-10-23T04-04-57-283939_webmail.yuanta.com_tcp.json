@@ -1,0 +1,196 @@
+{
+  "timestamp": "2025-10-23T04:04:57.283939",
+  "vantage_point": "university",
+  "target": "webmail.yuanta.com",
+  "target_ip": "210.71.218.178",
+  "protocol": "tcp",
+  "port": 80,
+  "duration_seconds": 18.97,
+  "hops": [
+    {
+      "hop": 1,
+      "ip": "192.168.50.1",
+      "hostname": null,
+      "rtts": [
+        34.31,
+        7.43,
+        10.82
+      ],
+      "timeout": false,
+      "avg_rtt": 17.52
+    },
+    {
+      "hop": 2,
+      "ip": "140.123.103.250",
+      "hostname": "csgate103.cs.ccu.edu.tw",
+      "rtts": [
+        6.4,
+        6.05,
+        5.94
+      ],
+      "timeout": false,
+      "avg_rtt": 6.13
+    },
+    {
+      "hop": 3,
+      "ip": "140.123.9.249",
+      "hostname": null,
+      "rtts": [
+        6.34,
+        12.21,
+        6.49
+      ],
+      "timeout": false,
+      "avg_rtt": 8.35
+    },
+    {
+      "hop": 4,
+      "ip": "140.123.0.246",
+      "hostname": null,
+      "rtts": [
+        10.34,
+        7.1,
+        7.55
+      ],
+      "timeout": false,
+      "avg_rtt": 8.33
+    },
+    {
+      "hop": 5,
+      "ip": "140.130.252.251",
+      "hostname": null,
+      "rtts": [
+        10.84,
+        41.89,
+        12.28
+      ],
+      "timeout": false,
+      "avg_rtt": 21.67
+    },
+    {
+      "hop": 6,
+      "ip": "211.22.226.198",
+      "hostname": "211-22-226-198.caw1-3332.hinet.net",
+      "rtts": [
+        9.52,
+        11.62,
+        8.06
+      ],
+      "timeout": false,
+      "avg_rtt": 9.73
+    },
+    {
+      "hop": 7,
+      "ip": null,
+      "hostname": null,
+      "rtts": [],
+      "timeout": true
+    },
+    {
+      "hop": 8,
+      "ip": null,
+      "hostname": null,
+      "rtts": [],
+      "timeout": true
+    },
+    {
+      "hop": 9,
+      "ip": "220.128.2.165",
+      "hostname": "220-128-2-165.tpdb-3336.hinet.net",
+      "rtts": [
+        12.09,
+        11.99,
+        29.84
+      ],
+      "timeout": false,
+      "avg_rtt": 17.97
+    },
+    {
+      "hop": 10,
+      "ip": "203.75.72.33",
+      "hostname": "tn-cd-c6r1.router.hinet.net",
+      "rtts": [
+        15.0,
+        15.33,
+        16.32
+      ],
+      "timeout": false,
+      "avg_rtt": 15.55
+    },
+    {
+      "hop": 11,
+      "ip": "203.75.250.165",
+      "hostname": null,
+      "rtts": [
+        11.86,
+        11.96,
+        13.62
+      ],
+      "timeout": false,
+      "avg_rtt": 12.48
+    },
+    {
+      "hop": 12,
+      "ip": null,
+      "hostname": null,
+      "rtts": [],
+      "timeout": true
+    },
+    {
+      "hop": 13,
+      "ip": "210.59.225.233",
+      "hostname": null,
+      "rtts": [
+        17.65,
+        15.12,
+        20.05
+      ],
+      "timeout": false,
+      "avg_rtt": 17.61
+    },
+    {
+      "hop": 14,
+      "ip": "210.71.218.254",
+      "hostname": null,
+      "rtts": [
+        16.24,
+        21.25,
+        18.61
+      ],
+      "timeout": false,
+      "avg_rtt": 18.7
+    },
+    {
+      "hop": 15,
+      "ip": "210.71.218.178",
+      "hostname": null,
+      "rtts": [
+        15.13,
+        16.55,
+        13.89
+      ],
+      "timeout": false,
+      "avg_rtt": 15.19
+    },
+    {
+      "hop": 16,
+      "ip": "210.71.218.178",
+      "hostname": null,
+      "rtts": [
+        15.08,
+        15.51,
+        12.21
+      ],
+      "timeout": false,
+      "reached_destination": true,
+      "avg_rtt": 14.27
+    }
+  ],
+  "num_hops": 16,
+  "success": true,
+  "method": "scapy",
+  "category": "financial_banks",
+  "base_domain": "yuanta.com",
+  "service_variant": "webmail.yuanta.com",
+  "is_bare_domain": false
+}

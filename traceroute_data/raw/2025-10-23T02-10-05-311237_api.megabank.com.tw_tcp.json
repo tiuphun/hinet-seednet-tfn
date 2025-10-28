@@ -1,0 +1,141 @@
+{
+  "timestamp": "2025-10-23T02:10:05.311237",
+  "vantage_point": "university",
+  "target": "api.megabank.com.tw",
+  "target_ip": "203.69.81.105",
+  "protocol": "tcp",
+  "port": 80,
+  "duration_seconds": 12.63,
+  "hops": [
+    {
+      "hop": 1,
+      "ip": "192.168.50.1",
+      "hostname": null,
+      "rtts": [
+        17.1,
+        6.23,
+        9.96
+      ],
+      "timeout": false,
+      "avg_rtt": 11.1
+    },
+    {
+      "hop": 2,
+      "ip": "140.123.103.250",
+      "hostname": "csgate103.cs.ccu.edu.tw",
+      "rtts": [
+        6.02,
+        20.75,
+        12.88
+      ],
+      "timeout": false,
+      "avg_rtt": 13.22
+    },
+    {
+      "hop": 3,
+      "ip": "140.123.9.249",
+      "hostname": null,
+      "rtts": [
+        8.21,
+        6.89,
+        6.72
+      ],
+      "timeout": false,
+      "avg_rtt": 7.27
+    },
+    {
+      "hop": 4,
+      "ip": "140.123.0.246",
+      "hostname": null,
+      "rtts": [
+        7.46,
+        10.12,
+        8.55
+      ],
+      "timeout": false,
+      "avg_rtt": 8.71
+    },
+    {
+      "hop": 5,
+      "ip": "140.130.252.251",
+      "hostname": null,
+      "rtts": [
+        10.83,
+        11.82,
+        12.89
+      ],
+      "timeout": false,
+      "avg_rtt": 11.85
+    },
+    {
+      "hop": 6,
+      "ip": "211.22.226.198",
+      "hostname": "211-22-226-198.caw1-3332.hinet.net",
+      "rtts": [
+        11.92,
+        8.42,
+        8.78
+      ],
+      "timeout": false,
+      "avg_rtt": 9.71
+    },
+    {
+      "hop": 7,
+      "ip": null,
+      "hostname": null,
+      "rtts": [],
+      "timeout": true
+    },
+    {
+      "hop": 8,
+      "ip": null,
+      "hostname": null,
+      "rtts": [],
+      "timeout": true
+    },
+    {
+      "hop": 9,
+      "ip": "220.128.2.165",
+      "hostname": "220-128-2-165.tpdb-3336.hinet.net",
+      "rtts": [
+        20.18,
+        34.9,
+        15.18
+      ],
+      "timeout": false,
+      "avg_rtt": 23.42
+    },
+    {
+      "hop": 10,
+      "ip": "211.72.255.253",
+      "hostname": null,
+      "rtts": [
+        17.05,
+        15.01,
+        15.16
+      ],
+      "timeout": false,
+      "avg_rtt": 15.74
+    },
+    {
+      "hop": 11,
+      "ip": "203.69.81.105",
+      "hostname": null,
+      "rtts": [
+        22.85,
+        23.19,
+        14.46
+      ],
+      "timeout": false,
+      "reached_destination": true,
+      "avg_rtt": 20.17
+    }
+  ],
+  "num_hops": 11,
+  "success": true,
+  "method": "scapy",
+  "category": "financial_banks",
+  "base_domain": "megabank.com.tw",
+  "service_variant": "api.megabank.com.tw",
+  "is_bare_domain": false
+}

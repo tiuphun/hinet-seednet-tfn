@@ -1,0 +1,223 @@
+{
+  "timestamp": "2025-10-22T20:04:37.209224",
+  "vantage_point": "university",
+  "target": "mail.npa.gov.tw",
+  "target_ip": "210.69.154.133",
+  "protocol": "tcp",
+  "port": 80,
+  "duration_seconds": 0.62,
+  "hops": [
+    {
+      "hop": 1,
+      "ip": "192.168.50.1",
+      "hostname": null,
+      "rtts": [
+        13.61,
+        4.47,
+        9.33
+      ],
+      "timeout": false,
+      "avg_rtt": 9.14
+    },
+    {
+      "hop": 2,
+      "ip": "140.123.103.250",
+      "hostname": "csgate103.cs.ccu.edu.tw",
+      "rtts": [
+        4.28,
+        4.85,
+        6.62
+      ],
+      "timeout": false,
+      "avg_rtt": 5.25
+    },
+    {
+      "hop": 3,
+      "ip": "140.123.9.249",
+      "hostname": null,
+      "rtts": [
+        5.01,
+        6.93,
+        4.62
+      ],
+      "timeout": false,
+      "avg_rtt": 5.52
+    },
+    {
+      "hop": 4,
+      "ip": "140.123.0.246",
+      "hostname": null,
+      "rtts": [
+        4.98,
+        4.95,
+        4.34
+      ],
+      "timeout": false,
+      "avg_rtt": 4.76
+    },
+    {
+      "hop": 5,
+      "ip": "140.130.252.251",
+      "hostname": null,
+      "rtts": [
+        5.91,
+        5.73,
+        7.56
+      ],
+      "timeout": false,
+      "avg_rtt": 6.4
+    },
+    {
+      "hop": 6,
+      "ip": "192.192.61.142",
+      "hostname": null,
+      "rtts": [
+        11.09,
+        13.88,
+        14.83
+      ],
+      "timeout": false,
+      "avg_rtt": 13.27
+    },
+    {
+      "hop": 7,
+      "ip": "192.192.61.9",
+      "hostname": null,
+      "rtts": [
+        10.63,
+        9.37,
+        10.45
+      ],
+      "timeout": false,
+      "avg_rtt": 10.15
+    },
+    {
+      "hop": 8,
+      "ip": "192.192.61.30",
+      "hostname": null,
+      "rtts": [
+        9.26,
+        15.02,
+        7.67
+      ],
+      "timeout": false,
+      "avg_rtt": 10.65
+    },
+    {
+      "hop": 9,
+      "ip": "192.192.61.4",
+      "hostname": null,
+      "rtts": [
+        9.01,
+        9.2,
+        14.34
+      ],
+      "timeout": false,
+      "avg_rtt": 10.85
+    },
+    {
+      "hop": 10,
+      "ip": "192.192.61.209",
+      "hostname": null,
+      "rtts": [
+        8.29,
+        7.89,
+        8.31
+      ],
+      "timeout": false,
+      "avg_rtt": 8.16
+    },
+    {
+      "hop": 11,
+      "ip": "10.96.81.12",
+      "hostname": null,
+      "rtts": [
+        9.53,
+        9.7,
+        10.25
+      ],
+      "timeout": false,
+      "avg_rtt": 9.83
+    },
+    {
+      "hop": 12,
+      "ip": "210.69.250.126",
+      "hostname": "210-69-250-126.hinet-ip.hinet.net",
+      "rtts": [
+        10.3,
+        9.59,
+        11.62
+      ],
+      "timeout": false,
+      "avg_rtt": 10.5
+    },
+    {
+      "hop": 13,
+      "ip": "210.69.250.49",
+      "hostname": "210-69-250-49.hinet-ip.hinet.net",
+      "rtts": [
+        19.36,
+        16.66,
+        10.25
+      ],
+      "timeout": false,
+      "avg_rtt": 15.42
+    },
+    {
+      "hop": 14,
+      "ip": "210.69.8.81",
+      "hostname": "210-69-8-81.hinet-ip.hinet.net",
+      "rtts": [
+        13.06,
+        11.6,
+        25.01
+      ],
+      "timeout": false,
+      "avg_rtt": 16.56
+    },
+    {
+      "hop": 15,
+      "ip": "192.168.149.2",
+      "hostname": null,
+      "rtts": [
+        22.58,
+        17.44,
+        13.68
+      ],
+      "timeout": false,
+      "avg_rtt": 17.9
+    },
+    {
+      "hop": 16,
+      "ip": "210.69.154.252",
+      "hostname": null,
+      "rtts": [
+        12.73,
+        14.86,
+        15.86
+      ],
+      "timeout": false,
+      "avg_rtt": 14.48
+    },
+    {
+      "hop": 17,
+      "ip": "210.69.154.133",
+      "hostname": null,
+      "rtts": [
+        14.63,
+        14.56,
+        13.33
+      ],
+      "timeout": false,
+      "reached_destination": true,
+      "avg_rtt": 14.17
+    }
+  ],
+  "num_hops": 17,
+  "success": true,
+  "method": "scapy",
+  "category": "government_critical",
+  "base_domain": "npa.gov.tw",
+  "service_variant": "mail.npa.gov.tw",
+  "is_bare_domain": false
+}

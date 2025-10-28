@@ -1,0 +1,67 @@
+{
+  "timestamp": "2025-10-22T23:27:11.266458",
+  "vantage_point": "university",
+  "target": "portal.ccu.edu.tw",
+  "target_ip": "140.123.26.100",
+  "protocol": "tcp",
+  "port": 443,
+  "duration_seconds": 0.11,
+  "hops": [
+    {
+      "hop": 1,
+      "ip": "192.168.50.1",
+      "hostname": null,
+      "rtts": [
+        6.86,
+        5.9,
+        38.17
+      ],
+      "timeout": false,
+      "avg_rtt": 16.98
+    },
+    {
+      "hop": 2,
+      "ip": "140.123.103.250",
+      "hostname": "csgate103.cs.ccu.edu.tw",
+      "rtts": [
+        9.27,
+        5.53,
+        7.36
+      ],
+      "timeout": false,
+      "avg_rtt": 7.39
+    },
+    {
+      "hop": 3,
+      "ip": "140.123.9.249",
+      "hostname": null,
+      "rtts": [
+        7.23,
+        4.82,
+        4.58
+      ],
+      "timeout": false,
+      "avg_rtt": 5.54
+    },
+    {
+      "hop": 4,
+      "ip": "140.123.26.100",
+      "hostname": "portal.ccu.edu.tw",
+      "rtts": [
+        6.48,
+        6.26,
+        4.26
+      ],
+      "timeout": false,
+      "reached_destination": true,
+      "avg_rtt": 5.67
+    }
+  ],
+  "num_hops": 4,
+  "success": true,
+  "method": "scapy",
+  "category": "universities",
+  "base_domain": "ccu.edu.tw",
+  "service_variant": "portal.ccu.edu.tw",
+  "is_bare_domain": false
+}

@@ -1,0 +1,355 @@
+{
+  "timestamp": "2025-10-22T21:33:11.592651",
+  "vantage_point": "university",
+  "target": "api.cloudflare.com",
+  "target_ip": "104.19.193.29",
+  "protocol": "tcp",
+  "port": 80,
+  "duration_seconds": 43.97,
+  "hops": [
+    {
+      "hop": 1,
+      "ip": "192.168.50.1",
+      "hostname": null,
+      "rtts": [
+        25.79,
+        4.69,
+        6.15
+      ],
+      "timeout": false,
+      "avg_rtt": 12.21
+    },
+    {
+      "hop": 2,
+      "ip": "140.123.103.250",
+      "hostname": "csgate103.cs.ccu.edu.tw",
+      "rtts": [
+        4.93,
+        5.28,
+        4.03
+      ],
+      "timeout": false,
+      "avg_rtt": 4.75
+    },
+    {
+      "hop": 3,
+      "ip": "140.123.9.249",
+      "hostname": null,
+      "rtts": [
+        8.44,
+        4.94,
+        17.43
+      ],
+      "timeout": false,
+      "avg_rtt": 10.27
+    },
+    {
+      "hop": 4,
+      "ip": "140.123.0.246",
+      "hostname": null,
+      "rtts": [
+        19.72,
+        5.15,
+        6.55
+      ],
+      "timeout": false,
+      "avg_rtt": 10.47
+    },
+    {
+      "hop": 5,
+      "ip": "140.130.252.251",
+      "hostname": null,
+      "rtts": [
+        9.46,
+        5.75,
+        6.05
+      ],
+      "timeout": false,
+      "avg_rtt": 7.09
+    },
+    {
+      "hop": 6,
+      "ip": "192.192.61.142",
+      "hostname": null,
+      "rtts": [
+        7.62,
+        26.11,
+        7.47
+      ],
+      "timeout": false,
+      "avg_rtt": 13.73
+    },
+    {
+      "hop": 7,
+      "ip": "192.192.61.20",
+      "hostname": null,
+      "rtts": [
+        9.56,
+        10.86,
+        28.69
+      ],
+      "timeout": false,
+      "avg_rtt": 16.37
+    },
+    {
+      "hop": 8,
+      "ip": "192.192.61.48",
+      "hostname": null,
+      "rtts": [
+        15.19,
+        29.5,
+        10.13
+      ],
+      "timeout": false,
+      "avg_rtt": 18.27
+    },
+    {
+      "hop": 9,
+      "ip": "192.192.68.62",
+      "hostname": null,
+      "rtts": [
+        11.83,
+        13.52,
+        11.32
+      ],
+      "timeout": false,
+      "avg_rtt": 12.22
+    },
+    {
+      "hop": 10,
+      "ip": null,
+      "hostname": null,
+      "rtts": [],
+      "timeout": true
+    },
+    {
+      "hop": 11,
+      "ip": "104.19.193.29",
+      "hostname": null,
+      "rtts": [
+        22.53,
+        10.83,
+        10.81
+      ],
+      "timeout": false,
+      "avg_rtt": 14.72
+    },
+    {
+      "hop": 12,
+      "ip": "104.19.193.29",
+      "hostname": null,
+      "rtts": [
+        9.25,
+        10.66,
+        9.94
+      ],
+      "timeout": false,
+      "avg_rtt": 9.95
+    },
+    {
+      "hop": 13,
+      "ip": "104.19.193.29",
+      "hostname": null,
+      "rtts": [
+        21.99,
+        14.92
+      ],
+      "timeout": false,
+      "avg_rtt": 18.45
+    },
+    {
+      "hop": 14,
+      "ip": "104.19.193.29",
+      "hostname": null,
+      "rtts": [
+        13.76,
+        31.49
+      ],
+      "timeout": false,
+      "avg_rtt": 22.62
+    },
+    {
+      "hop": 15,
+      "ip": "104.19.193.29",
+      "hostname": null,
+      "rtts": [
+        29.15,
+        15.96
+      ],
+      "timeout": false,
+      "avg_rtt": 22.55
+    },
+    {
+      "hop": 16,
+      "ip": "104.19.193.29",
+      "hostname": null,
+      "rtts": [
+        15.15,
+        9.53
+      ],
+      "timeout": false,
+      "avg_rtt": 12.34
+    },
+    {
+      "hop": 17,
+      "ip": "104.19.193.29",
+      "hostname": null,
+      "rtts": [
+        23.08,
+        15.33
+      ],
+      "timeout": false,
+      "avg_rtt": 19.2
+    },
+    {
+      "hop": 18,
+      "ip": "104.19.193.29",
+      "hostname": null,
+      "rtts": [
+        35.22,
+        16.48
+      ],
+      "timeout": false,
+      "avg_rtt": 25.85
+    },
+    {
+      "hop": 19,
+      "ip": "104.19.193.29",
+      "hostname": null,
+      "rtts": [
+        21.63,
+        9.78
+      ],
+      "timeout": false,
+      "avg_rtt": 15.7
+    },
+    {
+      "hop": 20,
+      "ip": "104.19.193.29",
+      "hostname": null,
+      "rtts": [
+        25.36,
+        19.74
+      ],
+      "timeout": false,
+      "avg_rtt": 22.55
+    },
+    {
+      "hop": 21,
+      "ip": "104.19.193.29",
+      "hostname": null,
+      "rtts": [
+        44.04,
+        9.91
+      ],
+      "timeout": false,
+      "avg_rtt": 26.98
+    },
+    {
+      "hop": 22,
+      "ip": "104.19.193.29",
+      "hostname": null,
+      "rtts": [
+        14.47,
+        33.56
+      ],
+      "timeout": false,
+      "avg_rtt": 24.02
+    },
+    {
+      "hop": 23,
+      "ip": "104.19.193.29",
+      "hostname": null,
+      "rtts": [
+        22.57,
+        18.08
+      ],
+      "timeout": false,
+      "avg_rtt": 20.32
+    },
+    {
+      "hop": 24,
+      "ip": "104.19.193.29",
+      "hostname": null,
+      "rtts": [
+        23.56,
+        16.9
+      ],
+      "timeout": false,
+      "avg_rtt": 20.23
+    },
+    {
+      "hop": 25,
+      "ip": "104.19.193.29",
+      "hostname": null,
+      "rtts": [
+        17.78,
+        21.8
+      ],
+      "timeout": false,
+      "avg_rtt": 19.79
+    },
+    {
+      "hop": 26,
+      "ip": "104.19.193.29",
+      "hostname": null,
+      "rtts": [
+        12.99,
+        11.41
+      ],
+      "timeout": false,
+      "avg_rtt": 12.2
+    },
+    {
+      "hop": 27,
+      "ip": "104.19.193.29",
+      "hostname": null,
+      "rtts": [
+        14.4,
+        13.9
+      ],
+      "timeout": false,
+      "avg_rtt": 14.15
+    },
+    {
+      "hop": 28,
+      "ip": "104.19.193.29",
+      "hostname": null,
+      "rtts": [
+        17.6,
+        17.3
+      ],
+      "timeout": false,
+      "avg_rtt": 17.45
+    },
+    {
+      "hop": 29,
+      "ip": "104.19.193.29",
+      "hostname": null,
+      "rtts": [
+        17.95,
+        25.79
+      ],
+      "timeout": false,
+      "avg_rtt": 21.87
+    },
+    {
+      "hop": 30,
+      "ip": "104.19.193.29",
+      "hostname": null,
+      "rtts": [
+        17.66,
+        15.74
+      ],
+      "timeout": false,
+      "avg_rtt": 16.7
+    }
+  ],
+  "num_hops": 30,
+  "success": false,
+  "method": "scapy",
+  "category": "cdn_global",
+  "base_domain": "cloudflare.com",
+  "service_variant": "api.cloudflare.com",
+  "is_bare_domain": false
+}

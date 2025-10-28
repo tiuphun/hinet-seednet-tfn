@@ -1,0 +1,151 @@
+{
+  "timestamp": "2025-10-22T18:52:32.335117",
+  "vantage_point": "university",
+  "target": "mobile01.com",
+  "target_ip": "34.36.92.153",
+  "protocol": "icmp",
+  "port": null,
+  "duration_seconds": 0.85,
+  "hops": [
+    {
+      "hop": 1,
+      "ip": "192.168.50.1",
+      "hostname": null,
+      "rtts": [
+        8.84,
+        8.38,
+        5.68
+      ],
+      "timeout": false,
+      "avg_rtt": 7.63
+    },
+    {
+      "hop": 2,
+      "ip": "140.123.103.250",
+      "hostname": "csgate103.cs.ccu.edu.tw",
+      "rtts": [
+        5.71,
+        5.66,
+        6.01
+      ],
+      "timeout": false,
+      "avg_rtt": 5.79
+    },
+    {
+      "hop": 3,
+      "ip": "140.123.9.249",
+      "hostname": null,
+      "rtts": [
+        5.35,
+        5.78,
+        6.56
+      ],
+      "timeout": false,
+      "avg_rtt": 5.9
+    },
+    {
+      "hop": 4,
+      "ip": "140.123.0.246",
+      "hostname": null,
+      "rtts": [
+        7.42,
+        5.1,
+        5.79
+      ],
+      "timeout": false,
+      "avg_rtt": 6.1
+    },
+    {
+      "hop": 5,
+      "ip": "140.130.252.251",
+      "hostname": null,
+      "rtts": [
+        6.28,
+        38.53,
+        15.01
+      ],
+      "timeout": false,
+      "avg_rtt": 19.94
+    },
+    {
+      "hop": 6,
+      "ip": "192.192.61.142",
+      "hostname": null,
+      "rtts": [
+        10.74,
+        9.81,
+        9.04
+      ],
+      "timeout": false,
+      "avg_rtt": 9.86
+    },
+    {
+      "hop": 7,
+      "ip": "192.192.61.20",
+      "hostname": null,
+      "rtts": [
+        10.65,
+        9.48,
+        9.7
+      ],
+      "timeout": false,
+      "avg_rtt": 9.94
+    },
+    {
+      "hop": 8,
+      "ip": "192.192.61.184",
+      "hostname": null,
+      "rtts": [
+        14.32,
+        11.4,
+        10.86
+      ],
+      "timeout": false,
+      "avg_rtt": 12.19
+    },
+    {
+      "hop": 9,
+      "ip": "192.192.61.203",
+      "hostname": null,
+      "rtts": [
+        17.66,
+        14.45,
+        16.38
+      ],
+      "timeout": false,
+      "avg_rtt": 16.16
+    },
+    {
+      "hop": 10,
+      "ip": "72.14.196.229",
+      "hostname": null,
+      "rtts": [
+        15.81,
+        13.7,
+        13.77
+      ],
+      "timeout": false,
+      "avg_rtt": 14.43
+    },
+    {
+      "hop": 11,
+      "ip": "34.36.92.153",
+      "hostname": "153.92.36.34.bc.googleusercontent.com",
+      "rtts": [
+        46.19,
+        15.5,
+        14.01
+      ],
+      "timeout": false,
+      "reached_destination": true,
+      "avg_rtt": 25.23
+    }
+  ],
+  "num_hops": 11,
+  "success": true,
+  "method": "scapy",
+  "category": "ecommerce_tech",
+  "base_domain": "mobile01.com",
+  "service_variant": "mobile01.com",
+  "is_bare_domain": true
+}

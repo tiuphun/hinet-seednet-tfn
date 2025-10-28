@@ -1,0 +1,181 @@
+{
+  "timestamp": "2025-10-23T10:50:54.799071",
+  "vantage_point": "university",
+  "target": "www.taipower.com.tw",
+  "target_ip": "3.169.121.99",
+  "protocol": "icmp",
+  "port": null,
+  "duration_seconds": 49.36,
+  "hops": [
+    {
+      "hop": 1,
+      "ip": "192.168.50.1",
+      "hostname": null,
+      "rtts": [
+        53.22,
+        8.08,
+        4.92
+      ],
+      "timeout": false,
+      "avg_rtt": 22.07
+    },
+    {
+      "hop": 2,
+      "ip": "140.123.103.250",
+      "hostname": "csgate103.cs.ccu.edu.tw",
+      "rtts": [
+        5.7,
+        6.7,
+        8.86
+      ],
+      "timeout": false,
+      "avg_rtt": 7.09
+    },
+    {
+      "hop": 3,
+      "ip": "140.123.9.249",
+      "hostname": null,
+      "rtts": [
+        6.74,
+        9.29,
+        141.61
+      ],
+      "timeout": false,
+      "avg_rtt": 52.55
+    },
+    {
+      "hop": 4,
+      "ip": "140.123.0.246",
+      "hostname": null,
+      "rtts": [
+        7.54,
+        42.88,
+        49.27
+      ],
+      "timeout": false,
+      "avg_rtt": 33.23
+    },
+    {
+      "hop": 5,
+      "ip": "140.130.252.251",
+      "hostname": null,
+      "rtts": [
+        23.0,
+        20.05,
+        20.28
+      ],
+      "timeout": false,
+      "avg_rtt": 21.11
+    },
+    {
+      "hop": 6,
+      "ip": "192.192.61.142",
+      "hostname": null,
+      "rtts": [
+        29.73,
+        49.25,
+        80.73
+      ],
+      "timeout": false,
+      "avg_rtt": 53.24
+    },
+    {
+      "hop": 7,
+      "ip": "192.192.61.20",
+      "hostname": null,
+      "rtts": [
+        26.67,
+        12.48,
+        24.71
+      ],
+      "timeout": false,
+      "avg_rtt": 21.29
+    },
+    {
+      "hop": 8,
+      "ip": "192.192.61.48",
+      "hostname": null,
+      "rtts": [
+        14.39,
+        15.67,
+        19.04
+      ],
+      "timeout": false,
+      "avg_rtt": 16.37
+    },
+    {
+      "hop": 9,
+      "ip": "192.192.68.62",
+      "hostname": null,
+      "rtts": [
+        21.01,
+        13.45,
+        66.25
+      ],
+      "timeout": false,
+      "avg_rtt": 33.57
+    },
+    {
+      "hop": 10,
+      "ip": null,
+      "hostname": null,
+      "rtts": [],
+      "timeout": true
+    },
+    {
+      "hop": 11,
+      "ip": null,
+      "hostname": null,
+      "rtts": [],
+      "timeout": true
+    },
+    {
+      "hop": 12,
+      "ip": null,
+      "hostname": null,
+      "rtts": [],
+      "timeout": true
+    },
+    {
+      "hop": 13,
+      "ip": null,
+      "hostname": null,
+      "rtts": [],
+      "timeout": true
+    },
+    {
+      "hop": 14,
+      "ip": null,
+      "hostname": null,
+      "rtts": [],
+      "timeout": true
+    },
+    {
+      "hop": 15,
+      "ip": null,
+      "hostname": null,
+      "rtts": [],
+      "timeout": true
+    },
+    {
+      "hop": 16,
+      "ip": "3.169.121.99",
+      "hostname": "server-3-169-121-99.tpe53.r.cloudfront.net",
+      "rtts": [
+        16.15,
+        15.74,
+        15.94
+      ],
+      "timeout": false,
+      "reached_destination": true,
+      "avg_rtt": 15.94
+    }
+  ],
+  "num_hops": 16,
+  "success": true,
+  "method": "scapy",
+  "category": "critical_infra",
+  "base_domain": "taipower.com.tw",
+  "service_variant": "www.taipower.com.tw",
+  "is_bare_domain": false
+}

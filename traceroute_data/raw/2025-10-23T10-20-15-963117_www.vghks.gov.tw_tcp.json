@@ -1,0 +1,151 @@
+{
+  "timestamp": "2025-10-23T10:20:15.963117",
+  "vantage_point": "university",
+  "target": "www.vghks.gov.tw",
+  "target_ip": "203.68.94.45",
+  "protocol": "tcp",
+  "port": 80,
+  "duration_seconds": 1.46,
+  "hops": [
+    {
+      "hop": 1,
+      "ip": "192.168.50.1",
+      "hostname": null,
+      "rtts": [
+        48.32,
+        14.38,
+        40.31
+      ],
+      "timeout": false,
+      "avg_rtt": 34.34
+    },
+    {
+      "hop": 2,
+      "ip": "140.123.103.250",
+      "hostname": "csgate103.cs.ccu.edu.tw",
+      "rtts": [
+        65.39,
+        78.45,
+        151.0
+      ],
+      "timeout": false,
+      "avg_rtt": 98.28
+    },
+    {
+      "hop": 3,
+      "ip": "140.123.9.249",
+      "hostname": null,
+      "rtts": [
+        7.63,
+        64.25,
+        12.71
+      ],
+      "timeout": false,
+      "avg_rtt": 28.2
+    },
+    {
+      "hop": 4,
+      "ip": "140.123.0.246",
+      "hostname": null,
+      "rtts": [
+        23.28,
+        28.18,
+        83.05
+      ],
+      "timeout": false,
+      "avg_rtt": 44.84
+    },
+    {
+      "hop": 5,
+      "ip": "211.79.57.25",
+      "hostname": "ccu-ccu-76.twaren.net",
+      "rtts": [
+        36.74,
+        69.8,
+        75.35
+      ],
+      "timeout": false,
+      "avg_rtt": 60.63
+    },
+    {
+      "hop": 6,
+      "ip": "211.73.76.209",
+      "hostname": "tp-a1.twaren.net",
+      "rtts": [
+        17.8,
+        37.33,
+        46.95
+      ],
+      "timeout": false,
+      "avg_rtt": 34.03
+    },
+    {
+      "hop": 7,
+      "ip": "211.73.76.218",
+      "hostname": "nsysu-a1.twaren.net",
+      "rtts": [
+        90.83,
+        28.82,
+        19.37
+      ],
+      "timeout": false,
+      "avg_rtt": 46.34
+    },
+    {
+      "hop": 8,
+      "ip": "211.79.58.62",
+      "hostname": "vghks_nsysu-a1.twaren.net",
+      "rtts": [
+        63.34,
+        13.27,
+        16.53
+      ],
+      "timeout": false,
+      "avg_rtt": 31.05
+    },
+    {
+      "hop": 9,
+      "ip": "203.68.96.125",
+      "hostname": "gateway.vghks.gov.tw",
+      "rtts": [
+        14.32,
+        22.93,
+        42.78
+      ],
+      "timeout": false,
+      "avg_rtt": 26.68
+    },
+    {
+      "hop": 10,
+      "ip": "10.10.10.246",
+      "hostname": null,
+      "rtts": [
+        54.31,
+        45.54,
+        41.22
+      ],
+      "timeout": false,
+      "avg_rtt": 47.02
+    },
+    {
+      "hop": 11,
+      "ip": "203.68.94.45",
+      "hostname": null,
+      "rtts": [
+        26.42,
+        25.58,
+        18.15
+      ],
+      "timeout": false,
+      "reached_destination": true,
+      "avg_rtt": 23.38
+    }
+  ],
+  "num_hops": 11,
+  "success": true,
+  "method": "scapy",
+  "category": "healthcare",
+  "base_domain": "vghks.gov.tw",
+  "service_variant": "www.vghks.gov.tw",
+  "is_bare_domain": false
+}

@@ -1,0 +1,192 @@
+{
+  "timestamp": "2025-10-23T05:41:03.394683",
+  "vantage_point": "university",
+  "target": "api.1111.com.tw",
+  "target_ip": "202.153.190.13",
+  "protocol": "tcp",
+  "port": 443,
+  "duration_seconds": 11.01,
+  "hops": [
+    {
+      "hop": 1,
+      "ip": "192.168.50.1",
+      "hostname": null,
+      "rtts": [
+        4.31,
+        5.04,
+        4.36
+      ],
+      "timeout": false,
+      "avg_rtt": 4.57
+    },
+    {
+      "hop": 2,
+      "ip": "140.123.103.250",
+      "hostname": "csgate103.cs.ccu.edu.tw",
+      "rtts": [
+        5.22,
+        4.92,
+        4.47
+      ],
+      "timeout": false,
+      "avg_rtt": 4.87
+    },
+    {
+      "hop": 3,
+      "ip": "140.123.9.249",
+      "hostname": null,
+      "rtts": [
+        5.1,
+        4.49,
+        7.51
+      ],
+      "timeout": false,
+      "avg_rtt": 5.7
+    },
+    {
+      "hop": 4,
+      "ip": "140.123.0.246",
+      "hostname": null,
+      "rtts": [
+        5.06,
+        6.14,
+        4.73
+      ],
+      "timeout": false,
+      "avg_rtt": 5.31
+    },
+    {
+      "hop": 5,
+      "ip": "140.130.252.251",
+      "hostname": null,
+      "rtts": [
+        5.2,
+        5.16,
+        8.1
+      ],
+      "timeout": false,
+      "avg_rtt": 6.15
+    },
+    {
+      "hop": 6,
+      "ip": "192.192.61.142",
+      "hostname": null,
+      "rtts": [
+        16.31,
+        8.37,
+        7.54
+      ],
+      "timeout": false,
+      "avg_rtt": 10.74
+    },
+    {
+      "hop": 7,
+      "ip": "192.192.61.20",
+      "hostname": null,
+      "rtts": [
+        10.25,
+        9.32,
+        11.89
+      ],
+      "timeout": false,
+      "avg_rtt": 10.49
+    },
+    {
+      "hop": 8,
+      "ip": "192.192.61.48",
+      "hostname": null,
+      "rtts": [
+        9.14,
+        13.37,
+        10.17
+      ],
+      "timeout": false,
+      "avg_rtt": 10.89
+    },
+    {
+      "hop": 9,
+      "ip": "192.192.68.62",
+      "hostname": null,
+      "rtts": [
+        18.43,
+        10.43,
+        13.13
+      ],
+      "timeout": false,
+      "avg_rtt": 14.0
+    },
+    {
+      "hop": 10,
+      "ip": "65.49.108.1",
+      "hostname": "e0-11.switch2.tpe1.he.net",
+      "rtts": [
+        10.69
+      ],
+      "timeout": false,
+      "avg_rtt": 10.69
+    },
+    {
+      "hop": 11,
+      "ip": null,
+      "hostname": null,
+      "rtts": [],
+      "timeout": true
+    },
+    {
+      "hop": 12,
+      "ip": "210.171.224.197",
+      "hostname": null,
+      "rtts": [
+        49.47,
+        58.37,
+        47.36
+      ],
+      "timeout": false,
+      "avg_rtt": 51.73
+    },
+    {
+      "hop": 13,
+      "ip": "104.86.65.218",
+      "hostname": "a104-86-65-218.deploy.static.akamaitechnologies.com",
+      "rtts": [
+        46.53,
+        48.34,
+        43.41
+      ],
+      "timeout": false,
+      "avg_rtt": 46.09
+    },
+    {
+      "hop": 14,
+      "ip": "2.17.108.90",
+      "hostname": "a2-17-108-90.deploy.static.akamaitechnologies.com",
+      "rtts": [
+        49.67,
+        50.67,
+        50.04
+      ],
+      "timeout": false,
+      "avg_rtt": 50.13
+    },
+    {
+      "hop": 15,
+      "ip": "202.153.190.13",
+      "hostname": "13-190-153-202-static.chief.net.tw",
+      "rtts": [
+        47.8,
+        51.73,
+        49.51
+      ],
+      "timeout": false,
+      "reached_destination": true,
+      "avg_rtt": 49.68
+    }
+  ],
+  "num_hops": 15,
+  "success": true,
+  "method": "scapy",
+  "category": "ecommerce_tech",
+  "base_domain": "1111.com.tw",
+  "service_variant": "api.1111.com.tw",
+  "is_bare_domain": false
+}

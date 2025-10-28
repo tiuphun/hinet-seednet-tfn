@@ -1,0 +1,337 @@
+{
+  "timestamp": "2025-10-22T10:54:07.480490",
+  "vantage_point": "university",
+  "target": "mail.moj.gov.tw",
+  "target_ip": "163.29.130.129",
+  "protocol": "icmp",
+  "port": null,
+  "duration_seconds": 80.4,
+  "hops": [
+    {
+      "hop": 1,
+      "ip": "192.168.50.1",
+      "hostname": null,
+      "rtts": [
+        9.07,
+        6.49,
+        5.89
+      ],
+      "timeout": false,
+      "avg_rtt": 7.15
+    },
+    {
+      "hop": 2,
+      "ip": "140.123.103.250",
+      "hostname": "csgate103.cs.ccu.edu.tw",
+      "rtts": [
+        5.59,
+        13.16,
+        6.01
+      ],
+      "timeout": false,
+      "avg_rtt": 8.25
+    },
+    {
+      "hop": 3,
+      "ip": "140.123.9.249",
+      "hostname": null,
+      "rtts": [
+        7.28,
+        7.26,
+        6.86
+      ],
+      "timeout": false,
+      "avg_rtt": 7.13
+    },
+    {
+      "hop": 4,
+      "ip": "140.123.0.246",
+      "hostname": null,
+      "rtts": [
+        7.78,
+        11.29,
+        6.35
+      ],
+      "timeout": false,
+      "avg_rtt": 8.47
+    },
+    {
+      "hop": 5,
+      "ip": "140.130.252.251",
+      "hostname": null,
+      "rtts": [
+        6.99,
+        7.79,
+        7.12
+      ],
+      "timeout": false,
+      "avg_rtt": 7.3
+    },
+    {
+      "hop": 6,
+      "ip": "192.192.61.142",
+      "hostname": null,
+      "rtts": [
+        18.22,
+        13.51,
+        11.7
+      ],
+      "timeout": false,
+      "avg_rtt": 14.48
+    },
+    {
+      "hop": 7,
+      "ip": "192.192.61.37",
+      "hostname": null,
+      "rtts": [
+        12.34,
+        12.06,
+        10.32
+      ],
+      "timeout": false,
+      "avg_rtt": 11.57
+    },
+    {
+      "hop": 8,
+      "ip": "192.192.61.32",
+      "hostname": null,
+      "rtts": [
+        11.77,
+        12.34,
+        15.73
+      ],
+      "timeout": false,
+      "avg_rtt": 13.28
+    },
+    {
+      "hop": 9,
+      "ip": "192.192.61.209",
+      "hostname": null,
+      "rtts": [
+        10.11,
+        10.5,
+        27.23
+      ],
+      "timeout": false,
+      "avg_rtt": 15.95
+    },
+    {
+      "hop": 10,
+      "ip": "10.96.81.12",
+      "hostname": null,
+      "rtts": [
+        15.38,
+        14.88
+      ],
+      "timeout": false,
+      "avg_rtt": 15.13
+    },
+    {
+      "hop": 11,
+      "ip": "10.96.81.12",
+      "hostname": null,
+      "rtts": [
+        12.85
+      ],
+      "timeout": false,
+      "avg_rtt": 12.85
+    },
+    {
+      "hop": 12,
+      "ip": "10.96.81.12",
+      "hostname": null,
+      "rtts": [
+        109.67
+      ],
+      "timeout": false,
+      "avg_rtt": 109.67
+    },
+    {
+      "hop": 13,
+      "ip": "10.96.81.12",
+      "hostname": null,
+      "rtts": [
+        121.01
+      ],
+      "timeout": false,
+      "avg_rtt": 121.01
+    },
+    {
+      "hop": 14,
+      "ip": "10.96.81.12",
+      "hostname": null,
+      "rtts": [
+        12.88,
+        21.25
+      ],
+      "timeout": false,
+      "avg_rtt": 17.07
+    },
+    {
+      "hop": 15,
+      "ip": "10.96.81.12",
+      "hostname": null,
+      "rtts": [
+        20.21
+      ],
+      "timeout": false,
+      "avg_rtt": 20.21
+    },
+    {
+      "hop": 16,
+      "ip": "10.96.81.12",
+      "hostname": null,
+      "rtts": [
+        85.65
+      ],
+      "timeout": false,
+      "avg_rtt": 85.65
+    },
+    {
+      "hop": 17,
+      "ip": "10.96.81.12",
+      "hostname": null,
+      "rtts": [
+        14.0
+      ],
+      "timeout": false,
+      "avg_rtt": 14.0
+    },
+    {
+      "hop": 18,
+      "ip": "10.96.81.12",
+      "hostname": null,
+      "rtts": [
+        20.96,
+        27.49
+      ],
+      "timeout": false,
+      "avg_rtt": 24.23
+    },
+    {
+      "hop": 19,
+      "ip": null,
+      "hostname": null,
+      "rtts": [],
+      "timeout": true
+    },
+    {
+      "hop": 20,
+      "ip": "10.96.81.12",
+      "hostname": null,
+      "rtts": [
+        20.93,
+        14.58
+      ],
+      "timeout": false,
+      "avg_rtt": 17.75
+    },
+    {
+      "hop": 21,
+      "ip": "10.96.81.12",
+      "hostname": null,
+      "rtts": [
+        14.26
+      ],
+      "timeout": false,
+      "avg_rtt": 14.26
+    },
+    {
+      "hop": 22,
+      "ip": "10.96.81.12",
+      "hostname": null,
+      "rtts": [
+        15.65
+      ],
+      "timeout": false,
+      "avg_rtt": 15.65
+    },
+    {
+      "hop": 23,
+      "ip": "10.96.81.12",
+      "hostname": null,
+      "rtts": [
+        19.22
+      ],
+      "timeout": false,
+      "avg_rtt": 19.22
+    },
+    {
+      "hop": 24,
+      "ip": "10.96.81.12",
+      "hostname": null,
+      "rtts": [
+        19.98
+      ],
+      "timeout": false,
+      "avg_rtt": 19.98
+    },
+    {
+      "hop": 25,
+      "ip": "10.96.81.12",
+      "hostname": null,
+      "rtts": [
+        22.2
+      ],
+      "timeout": false,
+      "avg_rtt": 22.2
+    },
+    {
+      "hop": 26,
+      "ip": "10.96.81.12",
+      "hostname": null,
+      "rtts": [
+        151.17
+      ],
+      "timeout": false,
+      "avg_rtt": 151.17
+    },
+    {
+      "hop": 27,
+      "ip": "10.96.81.12",
+      "hostname": null,
+      "rtts": [
+        15.45
+      ],
+      "timeout": false,
+      "avg_rtt": 15.45
+    },
+    {
+      "hop": 28,
+      "ip": "10.96.81.12",
+      "hostname": null,
+      "rtts": [
+        16.33
+      ],
+      "timeout": false,
+      "avg_rtt": 16.33
+    },
+    {
+      "hop": 29,
+      "ip": "10.96.81.12",
+      "hostname": null,
+      "rtts": [
+        17.53
+      ],
+      "timeout": false,
+      "avg_rtt": 17.53
+    },
+    {
+      "hop": 30,
+      "ip": "10.96.81.12",
+      "hostname": null,
+      "rtts": [
+        17.9
+      ],
+      "timeout": false,
+      "avg_rtt": 17.9
+    }
+  ],
+  "num_hops": 30,
+  "success": false,
+  "method": "scapy",
+  "category": "government_central",
+  "base_domain": "moj.gov.tw",
+  "service_variant": "mail.moj.gov.tw",
+  "is_bare_domain": false
+}

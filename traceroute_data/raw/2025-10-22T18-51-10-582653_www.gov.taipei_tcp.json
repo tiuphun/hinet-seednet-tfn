@@ -1,0 +1,185 @@
+{
+  "timestamp": "2025-10-22T18:51:10.582653",
+  "vantage_point": "university",
+  "target": "www.gov.taipei",
+  "target_ip": "163.29.207.130",
+  "protocol": "tcp",
+  "port": 80,
+  "duration_seconds": 4.57,
+  "hops": [
+    {
+      "hop": 1,
+      "ip": "192.168.50.1",
+      "hostname": null,
+      "rtts": [
+        14.49,
+        4.33,
+        4.18
+      ],
+      "timeout": false,
+      "avg_rtt": 7.67
+    },
+    {
+      "hop": 2,
+      "ip": "140.123.103.250",
+      "hostname": "csgate103.cs.ccu.edu.tw",
+      "rtts": [
+        5.01,
+        4.43,
+        6.65
+      ],
+      "timeout": false,
+      "avg_rtt": 5.36
+    },
+    {
+      "hop": 3,
+      "ip": "140.123.9.249",
+      "hostname": null,
+      "rtts": [
+        4.61,
+        5.41,
+        6.64
+      ],
+      "timeout": false,
+      "avg_rtt": 5.55
+    },
+    {
+      "hop": 4,
+      "ip": "140.123.0.246",
+      "hostname": null,
+      "rtts": [
+        5.46,
+        4.44,
+        6.85
+      ],
+      "timeout": false,
+      "avg_rtt": 5.58
+    },
+    {
+      "hop": 5,
+      "ip": "140.130.252.251",
+      "hostname": null,
+      "rtts": [
+        9.38,
+        10.05,
+        5.36
+      ],
+      "timeout": false,
+      "avg_rtt": 8.26
+    },
+    {
+      "hop": 6,
+      "ip": "192.192.61.142",
+      "hostname": null,
+      "rtts": [
+        7.43,
+        7.47,
+        6.79
+      ],
+      "timeout": false,
+      "avg_rtt": 7.23
+    },
+    {
+      "hop": 7,
+      "ip": "192.192.61.9",
+      "hostname": null,
+      "rtts": [
+        8.27,
+        12.27,
+        36.64
+      ],
+      "timeout": false,
+      "avg_rtt": 19.06
+    },
+    {
+      "hop": 8,
+      "ip": "192.192.61.30",
+      "hostname": null,
+      "rtts": [
+        9.42,
+        13.15,
+        8.36
+      ],
+      "timeout": false,
+      "avg_rtt": 10.31
+    },
+    {
+      "hop": 9,
+      "ip": "192.192.61.4",
+      "hostname": null,
+      "rtts": [
+        9.95,
+        13.19,
+        13.0
+      ],
+      "timeout": false,
+      "avg_rtt": 12.05
+    },
+    {
+      "hop": 10,
+      "ip": "192.192.61.209",
+      "hostname": null,
+      "rtts": [
+        9.98,
+        7.96,
+        8.84
+      ],
+      "timeout": false,
+      "avg_rtt": 8.93
+    },
+    {
+      "hop": 11,
+      "ip": "10.96.81.12",
+      "hostname": null,
+      "rtts": [
+        12.86,
+        9.63,
+        12.06
+      ],
+      "timeout": false,
+      "avg_rtt": 11.52
+    },
+    {
+      "hop": 12,
+      "ip": "210.69.250.126",
+      "hostname": "210-69-250-126.hinet-ip.hinet.net",
+      "rtts": [
+        10.72,
+        9.85,
+        10.95
+      ],
+      "timeout": false,
+      "avg_rtt": 10.51
+    },
+    {
+      "hop": 13,
+      "ip": "210.69.250.81",
+      "hostname": "210-69-250-81.hinet-ip.hinet.net",
+      "rtts": [
+        12.6
+      ],
+      "timeout": false,
+      "avg_rtt": 12.6
+    },
+    {
+      "hop": 14,
+      "ip": "163.29.207.130",
+      "hostname": "163-29-207-130.hinet-ip.hinet.net",
+      "rtts": [
+        21.83,
+        12.95,
+        12.51
+      ],
+      "timeout": false,
+      "reached_destination": true,
+      "avg_rtt": 15.76
+    }
+  ],
+  "num_hops": 14,
+  "success": true,
+  "method": "scapy",
+  "category": "government_local",
+  "base_domain": "gov.taipei",
+  "service_variant": "www.gov.taipei",
+  "is_bare_domain": false
+}

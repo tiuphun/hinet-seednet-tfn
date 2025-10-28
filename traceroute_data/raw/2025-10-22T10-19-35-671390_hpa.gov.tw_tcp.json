@@ -1,0 +1,210 @@
+{
+  "timestamp": "2025-10-22T10:19:35.671390",
+  "vantage_point": "university",
+  "target": "hpa.gov.tw",
+  "target_ip": "210.241.78.16",
+  "protocol": "tcp",
+  "port": 443,
+  "duration_seconds": 2.88,
+  "hops": [
+    {
+      "hop": 1,
+      "ip": "192.168.50.1",
+      "hostname": null,
+      "rtts": [
+        15.78,
+        6.09,
+        5.98
+      ],
+      "timeout": false,
+      "avg_rtt": 9.28
+    },
+    {
+      "hop": 2,
+      "ip": "140.123.103.250",
+      "hostname": "csgate103.cs.ccu.edu.tw",
+      "rtts": [
+        6.93,
+        11.81,
+        8.55
+      ],
+      "timeout": false,
+      "avg_rtt": 9.1
+    },
+    {
+      "hop": 3,
+      "ip": "140.123.9.249",
+      "hostname": null,
+      "rtts": [
+        11.37,
+        8.19,
+        16.7
+      ],
+      "timeout": false,
+      "avg_rtt": 12.09
+    },
+    {
+      "hop": 4,
+      "ip": "140.123.0.246",
+      "hostname": null,
+      "rtts": [
+        10.47,
+        8.84,
+        9.03
+      ],
+      "timeout": false,
+      "avg_rtt": 9.45
+    },
+    {
+      "hop": 5,
+      "ip": "140.130.252.251",
+      "hostname": null,
+      "rtts": [
+        35.42,
+        18.54,
+        13.4
+      ],
+      "timeout": false,
+      "avg_rtt": 22.45
+    },
+    {
+      "hop": 6,
+      "ip": "192.192.61.142",
+      "hostname": null,
+      "rtts": [
+        25.29,
+        13.72,
+        13.82
+      ],
+      "timeout": false,
+      "avg_rtt": 17.61
+    },
+    {
+      "hop": 7,
+      "ip": "192.192.61.9",
+      "hostname": null,
+      "rtts": [
+        22.79,
+        11.42,
+        10.45
+      ],
+      "timeout": false,
+      "avg_rtt": 14.89
+    },
+    {
+      "hop": 8,
+      "ip": "192.192.61.30",
+      "hostname": null,
+      "rtts": [
+        18.9,
+        12.02,
+        10.42
+      ],
+      "timeout": false,
+      "avg_rtt": 13.78
+    },
+    {
+      "hop": 9,
+      "ip": "192.192.61.4",
+      "hostname": null,
+      "rtts": [
+        14.69,
+        16.34,
+        24.36
+      ],
+      "timeout": false,
+      "avg_rtt": 18.46
+    },
+    {
+      "hop": 10,
+      "ip": "192.192.61.209",
+      "hostname": null,
+      "rtts": [
+        19.38,
+        10.61,
+        10.49
+      ],
+      "timeout": false,
+      "avg_rtt": 13.49
+    },
+    {
+      "hop": 11,
+      "ip": "10.96.81.12",
+      "hostname": null,
+      "rtts": [
+        13.94,
+        15.43,
+        10.69
+      ],
+      "timeout": false,
+      "avg_rtt": 13.35
+    },
+    {
+      "hop": 12,
+      "ip": "210.69.250.126",
+      "hostname": "210-69-250-126.hinet-ip.hinet.net",
+      "rtts": [
+        12.47,
+        33.63,
+        12.57
+      ],
+      "timeout": false,
+      "avg_rtt": 19.56
+    },
+    {
+      "hop": 13,
+      "ip": "210.69.250.118",
+      "hostname": "210-69-250-118.hinet-ip.hinet.net",
+      "rtts": [
+        13.02,
+        20.28,
+        11.9
+      ],
+      "timeout": false,
+      "avg_rtt": 15.07
+    },
+    {
+      "hop": 14,
+      "ip": "163.29.222.121",
+      "hostname": "163-29-222-121.hinet-ip.hinet.net",
+      "rtts": [
+        21.81,
+        23.2,
+        24.31
+      ],
+      "timeout": false,
+      "avg_rtt": 23.11
+    },
+    {
+      "hop": 15,
+      "ip": "210.241.78.119",
+      "hostname": "210-241-78-119.hinet-ip.hinet.net",
+      "rtts": [
+        23.66,
+        22.4,
+        22.06
+      ],
+      "timeout": false,
+      "avg_rtt": 22.71
+    },
+    {
+      "hop": 16,
+      "ip": "210.241.78.16",
+      "hostname": "mail.hpa.gov.tw",
+      "rtts": [
+        51.73,
+        61.47
+      ],
+      "timeout": false,
+      "reached_destination": true,
+      "avg_rtt": 56.6
+    }
+  ],
+  "num_hops": 16,
+  "success": true,
+  "method": "scapy",
+  "category": "government_critical",
+  "base_domain": "hpa.gov.tw",
+  "service_variant": "hpa.gov.tw",
+  "is_bare_domain": true
+}

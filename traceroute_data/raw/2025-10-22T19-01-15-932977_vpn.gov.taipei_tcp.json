@@ -1,0 +1,191 @@
+{
+  "timestamp": "2025-10-22T19:01:15.932977",
+  "vantage_point": "university",
+  "target": "vpn.gov.taipei",
+  "target_ip": "60.250.34.230",
+  "protocol": "tcp",
+  "port": 443,
+  "duration_seconds": 25.06,
+  "hops": [
+    {
+      "hop": 1,
+      "ip": "192.168.50.1",
+      "hostname": null,
+      "rtts": [
+        8.23,
+        6.32,
+        5.47
+      ],
+      "timeout": false,
+      "avg_rtt": 6.67
+    },
+    {
+      "hop": 2,
+      "ip": "140.123.103.250",
+      "hostname": "csgate103.cs.ccu.edu.tw",
+      "rtts": [
+        9.31,
+        7.27,
+        8.59
+      ],
+      "timeout": false,
+      "avg_rtt": 8.39
+    },
+    {
+      "hop": 3,
+      "ip": "140.123.9.249",
+      "hostname": null,
+      "rtts": [
+        6.9,
+        6.02,
+        7.05
+      ],
+      "timeout": false,
+      "avg_rtt": 6.66
+    },
+    {
+      "hop": 4,
+      "ip": "140.123.0.246",
+      "hostname": null,
+      "rtts": [
+        31.9,
+        9.73,
+        7.06
+      ],
+      "timeout": false,
+      "avg_rtt": 16.23
+    },
+    {
+      "hop": 5,
+      "ip": "140.130.252.251",
+      "hostname": null,
+      "rtts": [
+        11.0,
+        12.2,
+        7.63
+      ],
+      "timeout": false,
+      "avg_rtt": 10.28
+    },
+    {
+      "hop": 6,
+      "ip": "211.22.226.198",
+      "hostname": "211-22-226-198.caw1-3332.hinet.net",
+      "rtts": [
+        6.82,
+        10.06,
+        12.74
+      ],
+      "timeout": false,
+      "avg_rtt": 9.87
+    },
+    {
+      "hop": 7,
+      "ip": null,
+      "hostname": null,
+      "rtts": [],
+      "timeout": true
+    },
+    {
+      "hop": 8,
+      "ip": "220.128.9.174",
+      "hostname": "220-128-9-174.tylc-3032.hinet.net",
+      "rtts": [
+        22.76,
+        11.92,
+        15.69
+      ],
+      "timeout": false,
+      "avg_rtt": 16.79
+    },
+    {
+      "hop": 9,
+      "ip": "220.128.8.222",
+      "hostname": "220-128-8-222.tyfo-3031.hinet.net",
+      "rtts": [
+        24.56,
+        14.69,
+        12.27
+      ],
+      "timeout": false,
+      "avg_rtt": 17.17
+    },
+    {
+      "hop": 10,
+      "ip": "220.128.8.241",
+      "hostname": "220-128-8-241.tpe4-3331.hinet.net",
+      "rtts": [
+        11.62,
+        11.39,
+        13.26
+      ],
+      "timeout": false,
+      "avg_rtt": 12.09
+    },
+    {
+      "hop": 11,
+      "ip": null,
+      "hostname": null,
+      "rtts": [],
+      "timeout": true
+    },
+    {
+      "hop": 12,
+      "ip": null,
+      "hostname": null,
+      "rtts": [],
+      "timeout": true
+    },
+    {
+      "hop": 13,
+      "ip": "163.29.35.212",
+      "hostname": null,
+      "rtts": [
+        16.26,
+        14.55,
+        10.45
+      ],
+      "timeout": false,
+      "avg_rtt": 13.75
+    },
+    {
+      "hop": 14,
+      "ip": null,
+      "hostname": null,
+      "rtts": [],
+      "timeout": true
+    },
+    {
+      "hop": 15,
+      "ip": "60.250.34.230",
+      "hostname": "60-250-34-230.hinet-ip.hinet.net",
+      "rtts": [
+        33.4,
+        18.53,
+        14.99
+      ],
+      "timeout": false,
+      "avg_rtt": 22.31
+    },
+    {
+      "hop": 16,
+      "ip": "60.250.34.230",
+      "hostname": "60-250-34-230.hinet-ip.hinet.net",
+      "rtts": [
+        23.37,
+        14.09,
+        13.95
+      ],
+      "timeout": false,
+      "reached_destination": true,
+      "avg_rtt": 17.14
+    }
+  ],
+  "num_hops": 16,
+  "success": true,
+  "method": "scapy",
+  "category": "government_local",
+  "base_domain": "gov.taipei",
+  "service_variant": "vpn.gov.taipei",
+  "is_bare_domain": false
+}

@@ -1,0 +1,148 @@
+{
+  "timestamp": "2025-10-23T02:22:19.676722",
+  "vantage_point": "university",
+  "target": "portal.tcb-bank.com.tw",
+  "target_ip": "61.219.233.144",
+  "protocol": "icmp",
+  "port": null,
+  "duration_seconds": 18.83,
+  "hops": [
+    {
+      "hop": 1,
+      "ip": "192.168.50.1",
+      "hostname": null,
+      "rtts": [
+        82.13,
+        7.51,
+        15.12
+      ],
+      "timeout": false,
+      "avg_rtt": 34.92
+    },
+    {
+      "hop": 2,
+      "ip": "140.123.103.250",
+      "hostname": "csgate103.cs.ccu.edu.tw",
+      "rtts": [
+        4.86,
+        4.96,
+        7.68
+      ],
+      "timeout": false,
+      "avg_rtt": 5.83
+    },
+    {
+      "hop": 3,
+      "ip": "140.123.9.249",
+      "hostname": null,
+      "rtts": [
+        5.46,
+        14.84,
+        25.41
+      ],
+      "timeout": false,
+      "avg_rtt": 15.24
+    },
+    {
+      "hop": 4,
+      "ip": "140.123.0.246",
+      "hostname": null,
+      "rtts": [
+        10.77,
+        7.98,
+        7.44
+      ],
+      "timeout": false,
+      "avg_rtt": 8.73
+    },
+    {
+      "hop": 5,
+      "ip": "140.130.252.251",
+      "hostname": null,
+      "rtts": [
+        10.6,
+        8.66,
+        8.52
+      ],
+      "timeout": false,
+      "avg_rtt": 9.26
+    },
+    {
+      "hop": 6,
+      "ip": "211.22.226.198",
+      "hostname": "211-22-226-198.caw1-3332.hinet.net",
+      "rtts": [
+        14.41,
+        10.61,
+        13.12
+      ],
+      "timeout": false,
+      "avg_rtt": 12.71
+    },
+    {
+      "hop": 7,
+      "ip": null,
+      "hostname": null,
+      "rtts": [],
+      "timeout": true
+    },
+    {
+      "hop": 8,
+      "ip": null,
+      "hostname": null,
+      "rtts": [],
+      "timeout": true
+    },
+    {
+      "hop": 9,
+      "ip": "220.128.4.213",
+      "hostname": "220-128-4-213.tpdt-3309.hinet.net",
+      "rtts": [
+        15.81,
+        12.74,
+        23.22
+      ],
+      "timeout": false,
+      "avg_rtt": 17.26
+    },
+    {
+      "hop": 10,
+      "ip": "168.95.209.29",
+      "hostname": "h29.s209.ts.hinet.net",
+      "rtts": [
+        11.81,
+        12.74,
+        12.22
+      ],
+      "timeout": false,
+      "avg_rtt": 12.26
+    },
+    {
+      "hop": 11,
+      "ip": null,
+      "hostname": null,
+      "rtts": [],
+      "timeout": true
+    },
+    {
+      "hop": 12,
+      "ip": "61.219.233.144",
+      "hostname": "61-219-233-144.hinet-ip.hinet.net",
+      "rtts": [
+        17.31,
+        16.59,
+        15.23
+      ],
+      "timeout": false,
+      "reached_destination": true,
+      "avg_rtt": 16.38
+    }
+  ],
+  "num_hops": 12,
+  "success": true,
+  "method": "scapy",
+  "category": "financial_banks",
+  "base_domain": "tcb-bank.com.tw",
+  "service_variant": "portal.tcb-bank.com.tw",
+  "is_bare_domain": false
+}

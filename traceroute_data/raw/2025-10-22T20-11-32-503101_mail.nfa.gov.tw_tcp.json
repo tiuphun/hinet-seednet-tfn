@@ -1,0 +1,308 @@
+{
+  "timestamp": "2025-10-22T20:11:32.503101",
+  "vantage_point": "university",
+  "target": "mail.nfa.gov.tw",
+  "target_ip": "210.69.173.98",
+  "protocol": "tcp",
+  "port": 443,
+  "duration_seconds": 90.53,
+  "hops": [
+    {
+      "hop": 1,
+      "ip": "192.168.50.1",
+      "hostname": null,
+      "rtts": [
+        16.53,
+        60.18,
+        7.94
+      ],
+      "timeout": false,
+      "avg_rtt": 28.22
+    },
+    {
+      "hop": 2,
+      "ip": "140.123.103.250",
+      "hostname": "csgate103.cs.ccu.edu.tw",
+      "rtts": [
+        6.24,
+        6.74,
+        5.71
+      ],
+      "timeout": false,
+      "avg_rtt": 6.23
+    },
+    {
+      "hop": 3,
+      "ip": "140.123.9.249",
+      "hostname": null,
+      "rtts": [
+        5.99,
+        5.89,
+        6.02
+      ],
+      "timeout": false,
+      "avg_rtt": 5.97
+    },
+    {
+      "hop": 4,
+      "ip": "140.123.0.246",
+      "hostname": null,
+      "rtts": [
+        10.2,
+        20.42,
+        11.65
+      ],
+      "timeout": false,
+      "avg_rtt": 14.09
+    },
+    {
+      "hop": 5,
+      "ip": "140.130.252.251",
+      "hostname": null,
+      "rtts": [
+        11.46,
+        10.31,
+        27.7
+      ],
+      "timeout": false,
+      "avg_rtt": 16.49
+    },
+    {
+      "hop": 6,
+      "ip": "192.192.61.142",
+      "hostname": null,
+      "rtts": [
+        11.45,
+        12.95,
+        10.43
+      ],
+      "timeout": false,
+      "avg_rtt": 11.61
+    },
+    {
+      "hop": 7,
+      "ip": "192.192.61.37",
+      "hostname": null,
+      "rtts": [
+        13.44,
+        15.04,
+        15.2
+      ],
+      "timeout": false,
+      "avg_rtt": 14.56
+    },
+    {
+      "hop": 8,
+      "ip": "192.192.61.32",
+      "hostname": null,
+      "rtts": [
+        13.32,
+        12.98,
+        15.96
+      ],
+      "timeout": false,
+      "avg_rtt": 14.09
+    },
+    {
+      "hop": 9,
+      "ip": "192.192.61.209",
+      "hostname": null,
+      "rtts": [
+        9.49,
+        9.6,
+        17.2
+      ],
+      "timeout": false,
+      "avg_rtt": 12.1
+    },
+    {
+      "hop": 10,
+      "ip": "10.96.81.12",
+      "hostname": null,
+      "rtts": [
+        11.49,
+        10.81,
+        11.79
+      ],
+      "timeout": false,
+      "avg_rtt": 11.36
+    },
+    {
+      "hop": 11,
+      "ip": "210.69.250.126",
+      "hostname": "210-69-250-126.hinet-ip.hinet.net",
+      "rtts": [
+        10.99,
+        11.81,
+        11.79
+      ],
+      "timeout": false,
+      "avg_rtt": 11.53
+    },
+    {
+      "hop": 12,
+      "ip": "210.69.250.81",
+      "hostname": "210-69-250-81.hinet-ip.hinet.net",
+      "rtts": [
+        14.58,
+        22.0
+      ],
+      "timeout": false,
+      "avg_rtt": 18.29
+    },
+    {
+      "hop": 13,
+      "ip": "210.69.8.141",
+      "hostname": "210-69-8-141.hinet-ip.hinet.net",
+      "rtts": [
+        14.37,
+        11.74,
+        12.35
+      ],
+      "timeout": false,
+      "avg_rtt": 12.82
+    },
+    {
+      "hop": 14,
+      "ip": "210.69.173.98",
+      "hostname": "mail.nfa.gov.tw",
+      "rtts": [
+        12.76,
+        12.92,
+        13.73
+      ],
+      "timeout": false,
+      "avg_rtt": 13.14
+    },
+    {
+      "hop": 15,
+      "ip": null,
+      "hostname": null,
+      "rtts": [],
+      "timeout": true
+    },
+    {
+      "hop": 16,
+      "ip": "10.255.255.150",
+      "hostname": null,
+      "rtts": [
+        21.48
+      ],
+      "timeout": false,
+      "avg_rtt": 21.48
+    },
+    {
+      "hop": 17,
+      "ip": "10.255.255.158",
+      "hostname": null,
+      "rtts": [
+        16.12,
+        18.18
+      ],
+      "timeout": false,
+      "avg_rtt": 17.15
+    },
+    {
+      "hop": 18,
+      "ip": "10.255.254.245",
+      "hostname": null,
+      "rtts": [
+        17.98,
+        23.07
+      ],
+      "timeout": false,
+      "avg_rtt": 20.52
+    },
+    {
+      "hop": 19,
+      "ip": null,
+      "hostname": null,
+      "rtts": [],
+      "timeout": true
+    },
+    {
+      "hop": 20,
+      "ip": null,
+      "hostname": null,
+      "rtts": [],
+      "timeout": true
+    },
+    {
+      "hop": 21,
+      "ip": null,
+      "hostname": null,
+      "rtts": [],
+      "timeout": true
+    },
+    {
+      "hop": 22,
+      "ip": null,
+      "hostname": null,
+      "rtts": [],
+      "timeout": true
+    },
+    {
+      "hop": 23,
+      "ip": null,
+      "hostname": null,
+      "rtts": [],
+      "timeout": true
+    },
+    {
+      "hop": 24,
+      "ip": null,
+      "hostname": null,
+      "rtts": [],
+      "timeout": true
+    },
+    {
+      "hop": 25,
+      "ip": null,
+      "hostname": null,
+      "rtts": [],
+      "timeout": true
+    },
+    {
+      "hop": 26,
+      "ip": null,
+      "hostname": null,
+      "rtts": [],
+      "timeout": true
+    },
+    {
+      "hop": 27,
+      "ip": null,
+      "hostname": null,
+      "rtts": [],
+      "timeout": true
+    },
+    {
+      "hop": 28,
+      "ip": null,
+      "hostname": null,
+      "rtts": [],
+      "timeout": true
+    },
+    {
+      "hop": 29,
+      "ip": null,
+      "hostname": null,
+      "rtts": [],
+      "timeout": true
+    },
+    {
+      "hop": 30,
+      "ip": null,
+      "hostname": null,
+      "rtts": [],
+      "timeout": true
+    }
+  ],
+  "num_hops": 30,
+  "success": false,
+  "method": "scapy",
+  "category": "government_critical",
+  "base_domain": "nfa.gov.tw",
+  "service_variant": "mail.nfa.gov.tw",
+  "is_bare_domain": false
+}

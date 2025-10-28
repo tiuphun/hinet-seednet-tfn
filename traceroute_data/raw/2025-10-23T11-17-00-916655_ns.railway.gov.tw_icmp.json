@@ -1,0 +1,342 @@
+{
+  "timestamp": "2025-10-23T11:17:00.916655",
+  "vantage_point": "university",
+  "target": "ns.railway.gov.tw",
+  "target_ip": "210.241.64.252",
+  "protocol": "icmp",
+  "port": null,
+  "duration_seconds": 74.73,
+  "hops": [
+    {
+      "hop": 1,
+      "ip": "192.168.50.1",
+      "hostname": null,
+      "rtts": [
+        17.04,
+        7.0,
+        10.95
+      ],
+      "timeout": false,
+      "avg_rtt": 11.66
+    },
+    {
+      "hop": 2,
+      "ip": "140.123.103.250",
+      "hostname": "csgate103.cs.ccu.edu.tw",
+      "rtts": [
+        9.82,
+        11.99,
+        7.54
+      ],
+      "timeout": false,
+      "avg_rtt": 9.78
+    },
+    {
+      "hop": 3,
+      "ip": "140.123.9.249",
+      "hostname": null,
+      "rtts": [
+        7.28,
+        7.27,
+        9.57
+      ],
+      "timeout": false,
+      "avg_rtt": 8.04
+    },
+    {
+      "hop": 4,
+      "ip": "140.123.0.246",
+      "hostname": null,
+      "rtts": [
+        9.64,
+        7.97,
+        9.64
+      ],
+      "timeout": false,
+      "avg_rtt": 9.08
+    },
+    {
+      "hop": 5,
+      "ip": "140.130.252.251",
+      "hostname": null,
+      "rtts": [
+        8.69,
+        10.5,
+        14.41
+      ],
+      "timeout": false,
+      "avg_rtt": 11.2
+    },
+    {
+      "hop": 6,
+      "ip": "192.192.61.142",
+      "hostname": null,
+      "rtts": [
+        51.26,
+        11.56,
+        13.67
+      ],
+      "timeout": false,
+      "avg_rtt": 25.5
+    },
+    {
+      "hop": 7,
+      "ip": "192.192.61.37",
+      "hostname": null,
+      "rtts": [
+        13.28,
+        10.91,
+        12.22
+      ],
+      "timeout": false,
+      "avg_rtt": 12.14
+    },
+    {
+      "hop": 8,
+      "ip": "192.192.61.32",
+      "hostname": null,
+      "rtts": [
+        16.18,
+        15.7,
+        16.91
+      ],
+      "timeout": false,
+      "avg_rtt": 16.26
+    },
+    {
+      "hop": 9,
+      "ip": "192.192.61.209",
+      "hostname": null,
+      "rtts": [
+        19.94,
+        15.94,
+        15.56
+      ],
+      "timeout": false,
+      "avg_rtt": 17.15
+    },
+    {
+      "hop": 10,
+      "ip": "10.96.81.12",
+      "hostname": null,
+      "rtts": [
+        22.85,
+        24.52
+      ],
+      "timeout": false,
+      "avg_rtt": 23.69
+    },
+    {
+      "hop": 11,
+      "ip": "10.96.81.12",
+      "hostname": null,
+      "rtts": [
+        23.15
+      ],
+      "timeout": false,
+      "avg_rtt": 23.15
+    },
+    {
+      "hop": 12,
+      "ip": "10.96.81.12",
+      "hostname": null,
+      "rtts": [
+        23.31
+      ],
+      "timeout": false,
+      "avg_rtt": 23.31
+    },
+    {
+      "hop": 13,
+      "ip": "10.96.81.12",
+      "hostname": null,
+      "rtts": [
+        19.56,
+        38.97
+      ],
+      "timeout": false,
+      "avg_rtt": 29.27
+    },
+    {
+      "hop": 14,
+      "ip": "10.96.81.12",
+      "hostname": null,
+      "rtts": [
+        16.98
+      ],
+      "timeout": false,
+      "avg_rtt": 16.98
+    },
+    {
+      "hop": 15,
+      "ip": "10.96.81.12",
+      "hostname": null,
+      "rtts": [
+        16.89,
+        21.48
+      ],
+      "timeout": false,
+      "avg_rtt": 19.19
+    },
+    {
+      "hop": 16,
+      "ip": "10.96.81.12",
+      "hostname": null,
+      "rtts": [
+        32.3
+      ],
+      "timeout": false,
+      "avg_rtt": 32.3
+    },
+    {
+      "hop": 17,
+      "ip": "10.96.81.12",
+      "hostname": null,
+      "rtts": [
+        23.91,
+        34.8
+      ],
+      "timeout": false,
+      "avg_rtt": 29.35
+    },
+    {
+      "hop": 18,
+      "ip": "10.96.81.12",
+      "hostname": null,
+      "rtts": [
+        24.82
+      ],
+      "timeout": false,
+      "avg_rtt": 24.82
+    },
+    {
+      "hop": 19,
+      "ip": "10.96.81.12",
+      "hostname": null,
+      "rtts": [
+        30.82
+      ],
+      "timeout": false,
+      "avg_rtt": 30.82
+    },
+    {
+      "hop": 20,
+      "ip": "10.96.81.12",
+      "hostname": null,
+      "rtts": [
+        23.69
+      ],
+      "timeout": false,
+      "avg_rtt": 23.69
+    },
+    {
+      "hop": 21,
+      "ip": "10.96.81.12",
+      "hostname": null,
+      "rtts": [
+        30.29
+      ],
+      "timeout": false,
+      "avg_rtt": 30.29
+    },
+    {
+      "hop": 22,
+      "ip": "10.96.81.12",
+      "hostname": null,
+      "rtts": [
+        33.95,
+        22.93
+      ],
+      "timeout": false,
+      "avg_rtt": 28.44
+    },
+    {
+      "hop": 23,
+      "ip": "10.96.81.12",
+      "hostname": null,
+      "rtts": [
+        34.42
+      ],
+      "timeout": false,
+      "avg_rtt": 34.42
+    },
+    {
+      "hop": 24,
+      "ip": "10.96.81.12",
+      "hostname": null,
+      "rtts": [
+        16.36
+      ],
+      "timeout": false,
+      "avg_rtt": 16.36
+    },
+    {
+      "hop": 25,
+      "ip": "10.96.81.12",
+      "hostname": null,
+      "rtts": [
+        22.03
+      ],
+      "timeout": false,
+      "avg_rtt": 22.03
+    },
+    {
+      "hop": 26,
+      "ip": "10.96.81.12",
+      "hostname": null,
+      "rtts": [
+        26.4
+      ],
+      "timeout": false,
+      "avg_rtt": 26.4
+    },
+    {
+      "hop": 27,
+      "ip": "10.96.81.12",
+      "hostname": null,
+      "rtts": [
+        69.56
+      ],
+      "timeout": false,
+      "avg_rtt": 69.56
+    },
+    {
+      "hop": 28,
+      "ip": "10.96.81.12",
+      "hostname": null,
+      "rtts": [
+        58.29
+      ],
+      "timeout": false,
+      "avg_rtt": 58.29
+    },
+    {
+      "hop": 29,
+      "ip": "10.96.81.12",
+      "hostname": null,
+      "rtts": [
+        17.99,
+        57.99
+      ],
+      "timeout": false,
+      "avg_rtt": 37.99
+    },
+    {
+      "hop": 30,
+      "ip": "10.96.81.12",
+      "hostname": null,
+      "rtts": [
+        20.28
+      ],
+      "timeout": false,
+      "avg_rtt": 20.28
+    }
+  ],
+  "num_hops": 30,
+  "success": false,
+  "method": "scapy",
+  "category": "critical_infra",
+  "base_domain": "railway.gov.tw",
+  "service_variant": "ns.railway.gov.tw",
+  "is_bare_domain": false
+}

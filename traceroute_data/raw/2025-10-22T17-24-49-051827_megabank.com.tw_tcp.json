@@ -1,0 +1,153 @@
+{
+  "timestamp": "2025-10-22T17:24:49.051827",
+  "vantage_point": "university",
+  "target": "megabank.com.tw",
+  "target_ip": "203.66.132.201",
+  "protocol": "tcp",
+  "port": 80,
+  "duration_seconds": 13.03,
+  "hops": [
+    {
+      "hop": 1,
+      "ip": "192.168.50.1",
+      "hostname": null,
+      "rtts": [
+        8.67,
+        7.08,
+        5.26
+      ],
+      "timeout": false,
+      "avg_rtt": 7.0
+    },
+    {
+      "hop": 2,
+      "ip": "140.123.103.250",
+      "hostname": "csgate103.cs.ccu.edu.tw",
+      "rtts": [
+        5.07,
+        4.56,
+        7.43
+      ],
+      "timeout": false,
+      "avg_rtt": 5.69
+    },
+    {
+      "hop": 3,
+      "ip": "140.123.9.249",
+      "hostname": null,
+      "rtts": [
+        6.97,
+        7.64,
+        5.37
+      ],
+      "timeout": false,
+      "avg_rtt": 6.66
+    },
+    {
+      "hop": 4,
+      "ip": "140.123.0.246",
+      "hostname": null,
+      "rtts": [
+        9.08,
+        4.84,
+        6.94
+      ],
+      "timeout": false,
+      "avg_rtt": 6.95
+    },
+    {
+      "hop": 5,
+      "ip": "140.130.252.251",
+      "hostname": null,
+      "rtts": [
+        5.57,
+        6.2,
+        7.85
+      ],
+      "timeout": false,
+      "avg_rtt": 6.54
+    },
+    {
+      "hop": 6,
+      "ip": "211.22.226.198",
+      "hostname": "211-22-226-198.caw1-3332.hinet.net",
+      "rtts": [
+        6.26,
+        5.92,
+        5.61
+      ],
+      "timeout": false,
+      "avg_rtt": 5.93
+    },
+    {
+      "hop": 7,
+      "ip": null,
+      "hostname": null,
+      "rtts": [],
+      "timeout": true
+    },
+    {
+      "hop": 8,
+      "ip": null,
+      "hostname": null,
+      "rtts": [],
+      "timeout": true
+    },
+    {
+      "hop": 9,
+      "ip": "220.128.2.5",
+      "hostname": "220-128-2-5.tpdb-3315.hinet.net",
+      "rtts": [
+        32.41,
+        15.18,
+        14.17
+      ],
+      "timeout": false,
+      "avg_rtt": 20.59
+    },
+    {
+      "hop": 10,
+      "ip": "203.75.188.193",
+      "hostname": "203-75-188-193.hinet-ip.hinet.net",
+      "rtts": [
+        19.28,
+        23.61,
+        13.12
+      ],
+      "timeout": false,
+      "avg_rtt": 18.67
+    },
+    {
+      "hop": 11,
+      "ip": "210.65.22.37",
+      "hostname": "210-65-22-37.hinet-ip.hinet.net",
+      "rtts": [
+        15.47,
+        16.38,
+        13.72
+      ],
+      "timeout": false,
+      "avg_rtt": 15.19
+    },
+    {
+      "hop": 12,
+      "ip": "203.66.132.201",
+      "hostname": "www.icbc.com.tw",
+      "rtts": [
+        11.14,
+        13.69,
+        12.19
+      ],
+      "timeout": false,
+      "reached_destination": true,
+      "avg_rtt": 12.34
+    }
+  ],
+  "num_hops": 12,
+  "success": true,
+  "method": "scapy",
+  "category": "financial_banks",
+  "base_domain": "megabank.com.tw",
+  "service_variant": "megabank.com.tw",
+  "is_bare_domain": true
+}

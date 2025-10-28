@@ -1,0 +1,160 @@
+{
+  "timestamp": "2025-10-23T04:18:04.109647",
+  "vantage_point": "university",
+  "target": "ftp.tdcc.com.tw",
+  "target_ip": "203.74.20.154",
+  "protocol": "icmp",
+  "port": null,
+  "duration_seconds": 18.93,
+  "hops": [
+    {
+      "hop": 1,
+      "ip": "192.168.50.1",
+      "hostname": null,
+      "rtts": [
+        8.75,
+        6.67,
+        5.99
+      ],
+      "timeout": false,
+      "avg_rtt": 7.14
+    },
+    {
+      "hop": 2,
+      "ip": "140.123.103.250",
+      "hostname": "csgate103.cs.ccu.edu.tw",
+      "rtts": [
+        6.17,
+        7.78,
+        9.02
+      ],
+      "timeout": false,
+      "avg_rtt": 7.66
+    },
+    {
+      "hop": 3,
+      "ip": "140.123.9.249",
+      "hostname": null,
+      "rtts": [
+        27.27,
+        6.47,
+        6.06
+      ],
+      "timeout": false,
+      "avg_rtt": 13.27
+    },
+    {
+      "hop": 4,
+      "ip": "140.123.0.246",
+      "hostname": null,
+      "rtts": [
+        8.67,
+        6.8,
+        6.94
+      ],
+      "timeout": false,
+      "avg_rtt": 7.47
+    },
+    {
+      "hop": 5,
+      "ip": "140.130.252.251",
+      "hostname": null,
+      "rtts": [
+        6.79,
+        13.58,
+        7.64
+      ],
+      "timeout": false,
+      "avg_rtt": 9.34
+    },
+    {
+      "hop": 6,
+      "ip": "211.22.226.198",
+      "hostname": "211-22-226-198.caw1-3332.hinet.net",
+      "rtts": [
+        7.14,
+        8.86,
+        13.58
+      ],
+      "timeout": false,
+      "avg_rtt": 9.86
+    },
+    {
+      "hop": 7,
+      "ip": null,
+      "hostname": null,
+      "rtts": [],
+      "timeout": true
+    },
+    {
+      "hop": 8,
+      "ip": null,
+      "hostname": null,
+      "rtts": [],
+      "timeout": true
+    },
+    {
+      "hop": 9,
+      "ip": "220.128.4.221",
+      "hostname": "220-128-4-221.tpdt-3310.hinet.net",
+      "rtts": [
+        32.54,
+        14.99,
+        15.12
+      ],
+      "timeout": false,
+      "avg_rtt": 20.88
+    },
+    {
+      "hop": 10,
+      "ip": "168.95.211.45",
+      "hostname": "h45.s211.ts.hinet.net",
+      "rtts": [
+        17.09,
+        18.25,
+        20.72
+      ],
+      "timeout": false,
+      "avg_rtt": 18.69
+    },
+    {
+      "hop": 11,
+      "ip": null,
+      "hostname": null,
+      "rtts": [],
+      "timeout": true
+    },
+    {
+      "hop": 12,
+      "ip": "203.69.62.217",
+      "hostname": "203-69-62-217.hinet-ip.hinet.net",
+      "rtts": [
+        27.61,
+        15.35,
+        14.0
+      ],
+      "timeout": false,
+      "avg_rtt": 18.99
+    },
+    {
+      "hop": 13,
+      "ip": "203.74.20.154",
+      "hostname": "203-74-20-154.hinet-ip.hinet.net",
+      "rtts": [
+        15.27,
+        21.3,
+        26.34
+      ],
+      "timeout": false,
+      "reached_destination": true,
+      "avg_rtt": 20.97
+    }
+  ],
+  "num_hops": 13,
+  "success": true,
+  "method": "scapy",
+  "category": "financial_infra",
+  "base_domain": "tdcc.com.tw",
+  "service_variant": "ftp.tdcc.com.tw",
+  "is_bare_domain": false
+}

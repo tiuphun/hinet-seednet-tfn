@@ -1,0 +1,31 @@
+{
+  "timestamp": "2025-10-23T10:31:23.699807",
+  "vantage_point": "university",
+  "target": "vghtc.gov.tw",
+  "target_ip": "127.0.0.1",
+  "protocol": "tcp",
+  "port": 443,
+  "duration_seconds": 0.01,
+  "hops": [
+    {
+      "hop": 1,
+      "ip": "127.0.0.1",
+      "hostname": "localhost",
+      "rtts": [
+        1.9,
+        1.7,
+        1.82
+      ],
+      "timeout": false,
+      "reached_destination": true,
+      "avg_rtt": 1.81
+    }
+  ],
+  "num_hops": 1,
+  "success": true,
+  "method": "scapy",
+  "category": "healthcare",
+  "base_domain": "vghtc.gov.tw",
+  "service_variant": "vghtc.gov.tw",
+  "is_bare_domain": true
+}

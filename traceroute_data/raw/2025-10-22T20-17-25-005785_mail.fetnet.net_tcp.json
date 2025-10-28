@@ -1,0 +1,313 @@
+{
+  "timestamp": "2025-10-22T20:17:25.005785",
+  "vantage_point": "university",
+  "target": "mail.fetnet.net",
+  "target_ip": "61.20.33.126",
+  "protocol": "tcp",
+  "port": 80,
+  "duration_seconds": 91.4,
+  "hops": [
+    {
+      "hop": 1,
+      "ip": "192.168.50.1",
+      "hostname": null,
+      "rtts": [
+        18.24,
+        7.55,
+        4.72
+      ],
+      "timeout": false,
+      "avg_rtt": 10.17
+    },
+    {
+      "hop": 2,
+      "ip": "140.123.103.250",
+      "hostname": "csgate103.cs.ccu.edu.tw",
+      "rtts": [
+        5.26,
+        4.38,
+        4.11
+      ],
+      "timeout": false,
+      "avg_rtt": 4.58
+    },
+    {
+      "hop": 3,
+      "ip": "140.123.9.249",
+      "hostname": null,
+      "rtts": [
+        12.16,
+        5.7,
+        14.31
+      ],
+      "timeout": false,
+      "avg_rtt": 10.72
+    },
+    {
+      "hop": 4,
+      "ip": "140.123.0.246",
+      "hostname": null,
+      "rtts": [
+        16.57,
+        4.43,
+        7.83
+      ],
+      "timeout": false,
+      "avg_rtt": 9.61
+    },
+    {
+      "hop": 5,
+      "ip": "140.130.252.251",
+      "hostname": null,
+      "rtts": [
+        15.18,
+        6.47,
+        12.17
+      ],
+      "timeout": false,
+      "avg_rtt": 11.27
+    },
+    {
+      "hop": 6,
+      "ip": "192.192.61.142",
+      "hostname": null,
+      "rtts": [
+        12.48,
+        7.62,
+        10.34
+      ],
+      "timeout": false,
+      "avg_rtt": 10.15
+    },
+    {
+      "hop": 7,
+      "ip": "192.192.61.20",
+      "hostname": null,
+      "rtts": [
+        14.12,
+        8.97,
+        10.82
+      ],
+      "timeout": false,
+      "avg_rtt": 11.3
+    },
+    {
+      "hop": 8,
+      "ip": "192.192.61.66",
+      "hostname": null,
+      "rtts": [
+        11.85,
+        10.33,
+        22.18
+      ],
+      "timeout": false,
+      "avg_rtt": 14.79
+    },
+    {
+      "hop": 9,
+      "ip": "192.192.68.30",
+      "hostname": null,
+      "rtts": [
+        20.09,
+        24.42,
+        26.68
+      ],
+      "timeout": false,
+      "avg_rtt": 23.73
+    },
+    {
+      "hop": 10,
+      "ip": "203.79.254.53",
+      "hostname": "203-79-254-53.ebix.net.tw",
+      "rtts": [
+        16.33,
+        12.01,
+        12.03
+      ],
+      "timeout": false,
+      "avg_rtt": 13.46
+    },
+    {
+      "hop": 11,
+      "ip": "211.76.96.166",
+      "hostname": null,
+      "rtts": [
+        35.48,
+        19.3,
+        16.92
+      ],
+      "timeout": false,
+      "avg_rtt": 23.9
+    },
+    {
+      "hop": 12,
+      "ip": "139.175.58.130",
+      "hostname": "r58-130.seed.net.tw",
+      "rtts": [
+        12.3,
+        12.02,
+        11.68
+      ],
+      "timeout": false,
+      "avg_rtt": 12.0
+    },
+    {
+      "hop": 13,
+      "ip": "139.175.58.28",
+      "hostname": "r58-28.seed.net.tw",
+      "rtts": [
+        13.46,
+        15.07,
+        15.39
+      ],
+      "timeout": false,
+      "avg_rtt": 14.64
+    },
+    {
+      "hop": 14,
+      "ip": "139.175.58.46",
+      "hostname": "r58-46.seed.net.tw",
+      "rtts": [
+        18.24,
+        22.76,
+        13.88
+      ],
+      "timeout": false,
+      "avg_rtt": 18.29
+    },
+    {
+      "hop": 15,
+      "ip": "10.65.29.18",
+      "hostname": null,
+      "rtts": [
+        15.26,
+        12.66,
+        18.9
+      ],
+      "timeout": false,
+      "avg_rtt": 15.61
+    },
+    {
+      "hop": 16,
+      "ip": "10.1.255.69",
+      "hostname": null,
+      "rtts": [
+        20.17,
+        22.76,
+        16.53
+      ],
+      "timeout": false,
+      "avg_rtt": 19.82
+    },
+    {
+      "hop": 17,
+      "ip": "10.1.255.70",
+      "hostname": null,
+      "rtts": [
+        14.51,
+        14.88,
+        16.78
+      ],
+      "timeout": false,
+      "avg_rtt": 15.39
+    },
+    {
+      "hop": 18,
+      "ip": null,
+      "hostname": null,
+      "rtts": [],
+      "timeout": true
+    },
+    {
+      "hop": 19,
+      "ip": null,
+      "hostname": null,
+      "rtts": [],
+      "timeout": true
+    },
+    {
+      "hop": 20,
+      "ip": null,
+      "hostname": null,
+      "rtts": [],
+      "timeout": true
+    },
+    {
+      "hop": 21,
+      "ip": null,
+      "hostname": null,
+      "rtts": [],
+      "timeout": true
+    },
+    {
+      "hop": 22,
+      "ip": null,
+      "hostname": null,
+      "rtts": [],
+      "timeout": true
+    },
+    {
+      "hop": 23,
+      "ip": null,
+      "hostname": null,
+      "rtts": [],
+      "timeout": true
+    },
+    {
+      "hop": 24,
+      "ip": null,
+      "hostname": null,
+      "rtts": [],
+      "timeout": true
+    },
+    {
+      "hop": 25,
+      "ip": null,
+      "hostname": null,
+      "rtts": [],
+      "timeout": true
+    },
+    {
+      "hop": 26,
+      "ip": null,
+      "hostname": null,
+      "rtts": [],
+      "timeout": true
+    },
+    {
+      "hop": 27,
+      "ip": null,
+      "hostname": null,
+      "rtts": [],
+      "timeout": true
+    },
+    {
+      "hop": 28,
+      "ip": null,
+      "hostname": null,
+      "rtts": [],
+      "timeout": true
+    },
+    {
+      "hop": 29,
+      "ip": null,
+      "hostname": null,
+      "rtts": [],
+      "timeout": true
+    },
+    {
+      "hop": 30,
+      "ip": null,
+      "hostname": null,
+      "rtts": [],
+      "timeout": true
+    }
+  ],
+  "num_hops": 30,
+  "success": false,
+  "method": "scapy",
+  "category": "telecom",
+  "base_domain": "fetnet.net",
+  "service_variant": "mail.fetnet.net",
+  "is_bare_domain": false
+}

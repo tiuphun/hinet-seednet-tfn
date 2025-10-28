@@ -1,0 +1,181 @@
+{
+  "timestamp": "2025-10-22T17:46:50.266528",
+  "vantage_point": "university",
+  "target": "www.firstbank.com.tw",
+  "target_ip": "23.32.13.129",
+  "protocol": "tcp",
+  "port": 443,
+  "duration_seconds": 37.65,
+  "hops": [
+    {
+      "hop": 1,
+      "ip": "192.168.50.1",
+      "hostname": null,
+      "rtts": [
+        7.5,
+        4.65,
+        4.08
+      ],
+      "timeout": false,
+      "avg_rtt": 5.41
+    },
+    {
+      "hop": 2,
+      "ip": "140.123.103.250",
+      "hostname": "csgate103.cs.ccu.edu.tw",
+      "rtts": [
+        4.97,
+        3.97,
+        7.46
+      ],
+      "timeout": false,
+      "avg_rtt": 5.47
+    },
+    {
+      "hop": 3,
+      "ip": "140.123.9.249",
+      "hostname": null,
+      "rtts": [
+        4.58,
+        4.19,
+        4.11
+      ],
+      "timeout": false,
+      "avg_rtt": 4.29
+    },
+    {
+      "hop": 4,
+      "ip": "140.123.0.246",
+      "hostname": null,
+      "rtts": [
+        7.56,
+        11.57,
+        4.91
+      ],
+      "timeout": false,
+      "avg_rtt": 8.01
+    },
+    {
+      "hop": 5,
+      "ip": "140.130.252.251",
+      "hostname": null,
+      "rtts": [
+        7.9,
+        5.68,
+        5.46
+      ],
+      "timeout": false,
+      "avg_rtt": 6.35
+    },
+    {
+      "hop": 6,
+      "ip": "192.192.61.142",
+      "hostname": null,
+      "rtts": [
+        20.35,
+        8.85,
+        7.79
+      ],
+      "timeout": false,
+      "avg_rtt": 12.33
+    },
+    {
+      "hop": 7,
+      "ip": "192.192.61.20",
+      "hostname": null,
+      "rtts": [
+        12.8,
+        12.61,
+        15.14
+      ],
+      "timeout": false,
+      "avg_rtt": 13.52
+    },
+    {
+      "hop": 8,
+      "ip": "192.192.61.48",
+      "hostname": null,
+      "rtts": [
+        9.39,
+        14.31,
+        18.76
+      ],
+      "timeout": false,
+      "avg_rtt": 14.15
+    },
+    {
+      "hop": 9,
+      "ip": "192.192.68.62",
+      "hostname": null,
+      "rtts": [
+        11.98,
+        10.29,
+        11.89
+      ],
+      "timeout": false,
+      "avg_rtt": 11.39
+    },
+    {
+      "hop": 10,
+      "ip": null,
+      "hostname": null,
+      "rtts": [],
+      "timeout": true
+    },
+    {
+      "hop": 11,
+      "ip": null,
+      "hostname": null,
+      "rtts": [],
+      "timeout": true
+    },
+    {
+      "hop": 12,
+      "ip": null,
+      "hostname": null,
+      "rtts": [],
+      "timeout": true
+    },
+    {
+      "hop": 13,
+      "ip": null,
+      "hostname": null,
+      "rtts": [],
+      "timeout": true
+    },
+    {
+      "hop": 14,
+      "ip": null,
+      "hostname": null,
+      "rtts": [],
+      "timeout": true
+    },
+    {
+      "hop": 15,
+      "ip": null,
+      "hostname": null,
+      "rtts": [],
+      "timeout": true
+    },
+    {
+      "hop": 16,
+      "ip": "23.32.13.129",
+      "hostname": "a23-32-13-129.deploy.static.akamaitechnologies.com",
+      "rtts": [
+        99.86,
+        50.63,
+        44.94
+      ],
+      "timeout": false,
+      "reached_destination": true,
+      "avg_rtt": 65.14
+    }
+  ],
+  "num_hops": 16,
+  "success": true,
+  "method": "scapy",
+  "category": "financial_banks",
+  "base_domain": "firstbank.com.tw",
+  "service_variant": "www.firstbank.com.tw",
+  "is_bare_domain": false
+}

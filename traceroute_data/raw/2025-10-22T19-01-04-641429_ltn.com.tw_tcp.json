@@ -1,0 +1,151 @@
+{
+  "timestamp": "2025-10-22T19:01:04.641429",
+  "vantage_point": "university",
+  "target": "ltn.com.tw",
+  "target_ip": "34.80.242.206",
+  "protocol": "tcp",
+  "port": 80,
+  "duration_seconds": 1.2,
+  "hops": [
+    {
+      "hop": 1,
+      "ip": "192.168.50.1",
+      "hostname": null,
+      "rtts": [
+        14.97,
+        16.71,
+        5.92
+      ],
+      "timeout": false,
+      "avg_rtt": 12.53
+    },
+    {
+      "hop": 2,
+      "ip": "140.123.103.250",
+      "hostname": "csgate103.cs.ccu.edu.tw",
+      "rtts": [
+        6.6,
+        12.48,
+        10.0
+      ],
+      "timeout": false,
+      "avg_rtt": 9.69
+    },
+    {
+      "hop": 3,
+      "ip": "140.123.9.249",
+      "hostname": null,
+      "rtts": [
+        8.15,
+        6.64,
+        6.18
+      ],
+      "timeout": false,
+      "avg_rtt": 6.99
+    },
+    {
+      "hop": 4,
+      "ip": "140.123.0.246",
+      "hostname": null,
+      "rtts": [
+        7.15,
+        7.99,
+        6.47
+      ],
+      "timeout": false,
+      "avg_rtt": 7.2
+    },
+    {
+      "hop": 5,
+      "ip": "140.130.252.251",
+      "hostname": null,
+      "rtts": [
+        9.37,
+        34.74,
+        12.33
+      ],
+      "timeout": false,
+      "avg_rtt": 18.81
+    },
+    {
+      "hop": 6,
+      "ip": "192.192.61.142",
+      "hostname": null,
+      "rtts": [
+        12.19,
+        11.7,
+        21.33
+      ],
+      "timeout": false,
+      "avg_rtt": 15.07
+    },
+    {
+      "hop": 7,
+      "ip": "192.192.61.20",
+      "hostname": null,
+      "rtts": [
+        20.38,
+        29.66,
+        14.4
+      ],
+      "timeout": false,
+      "avg_rtt": 21.48
+    },
+    {
+      "hop": 8,
+      "ip": "192.192.61.184",
+      "hostname": null,
+      "rtts": [
+        12.73,
+        13.99,
+        13.85
+      ],
+      "timeout": false,
+      "avg_rtt": 13.52
+    },
+    {
+      "hop": 9,
+      "ip": "192.192.61.203",
+      "hostname": null,
+      "rtts": [
+        16.78,
+        16.95,
+        14.66
+      ],
+      "timeout": false,
+      "avg_rtt": 16.13
+    },
+    {
+      "hop": 10,
+      "ip": "72.14.196.229",
+      "hostname": null,
+      "rtts": [
+        10.57,
+        13.23,
+        15.48
+      ],
+      "timeout": false,
+      "avg_rtt": 13.09
+    },
+    {
+      "hop": 11,
+      "ip": "34.80.242.206",
+      "hostname": "206.242.80.34.bc.googleusercontent.com",
+      "rtts": [
+        17.01,
+        16.5,
+        16.28
+      ],
+      "timeout": false,
+      "reached_destination": true,
+      "avg_rtt": 16.6
+    }
+  ],
+  "num_hops": 11,
+  "success": true,
+  "method": "scapy",
+  "category": "media",
+  "base_domain": "ltn.com.tw",
+  "service_variant": "ltn.com.tw",
+  "is_bare_domain": true
+}

@@ -1,0 +1,127 @@
+{
+  "timestamp": "2025-10-22T18:18:30.137888",
+  "vantage_point": "university",
+  "target": "www.momoshop.com.tw",
+  "target_ip": "163.28.5.201",
+  "protocol": "icmp",
+  "port": null,
+  "duration_seconds": 0.39,
+  "hops": [
+    {
+      "hop": 1,
+      "ip": "192.168.50.1",
+      "hostname": null,
+      "rtts": [
+        10.72,
+        18.94,
+        18.74
+      ],
+      "timeout": false,
+      "avg_rtt": 16.13
+    },
+    {
+      "hop": 2,
+      "ip": "140.123.103.250",
+      "hostname": "csgate103.cs.ccu.edu.tw",
+      "rtts": [
+        4.62,
+        6.71,
+        5.18
+      ],
+      "timeout": false,
+      "avg_rtt": 5.5
+    },
+    {
+      "hop": 3,
+      "ip": "140.123.9.249",
+      "hostname": null,
+      "rtts": [
+        4.95,
+        4.76,
+        4.9
+      ],
+      "timeout": false,
+      "avg_rtt": 4.87
+    },
+    {
+      "hop": 4,
+      "ip": "140.123.0.246",
+      "hostname": null,
+      "rtts": [
+        5.22,
+        4.96,
+        18.86
+      ],
+      "timeout": false,
+      "avg_rtt": 9.68
+    },
+    {
+      "hop": 5,
+      "ip": "140.130.252.251",
+      "hostname": null,
+      "rtts": [
+        6.7,
+        6.04,
+        25.37
+      ],
+      "timeout": false,
+      "avg_rtt": 12.7
+    },
+    {
+      "hop": 6,
+      "ip": "192.192.61.142",
+      "hostname": null,
+      "rtts": [
+        11.53,
+        9.92,
+        41.66
+      ],
+      "timeout": false,
+      "avg_rtt": 21.04
+    },
+    {
+      "hop": 7,
+      "ip": "192.192.61.20",
+      "hostname": null,
+      "rtts": [
+        9.65,
+        9.01,
+        11.0
+      ],
+      "timeout": false,
+      "avg_rtt": 9.89
+    },
+    {
+      "hop": 8,
+      "ip": "192.192.61.48",
+      "hostname": null,
+      "rtts": [
+        11.5,
+        9.31,
+        10.99
+      ],
+      "timeout": false,
+      "avg_rtt": 10.6
+    },
+    {
+      "hop": 9,
+      "ip": "163.28.5.201",
+      "hostname": null,
+      "rtts": [
+        34.6,
+        10.28,
+        12.89
+      ],
+      "timeout": false,
+      "reached_destination": true,
+      "avg_rtt": 19.26
+    }
+  ],
+  "num_hops": 9,
+  "success": true,
+  "method": "scapy",
+  "category": "ecommerce_tech",
+  "base_domain": "momoshop.com.tw",
+  "service_variant": "www.momoshop.com.tw",
+  "is_bare_domain": false
+}

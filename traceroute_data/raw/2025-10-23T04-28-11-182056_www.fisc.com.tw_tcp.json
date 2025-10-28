@@ -1,0 +1,153 @@
+{
+  "timestamp": "2025-10-23T04:28:11.182056",
+  "vantage_point": "university",
+  "target": "www.fisc.com.tw",
+  "target_ip": "61.218.86.231",
+  "protocol": "tcp",
+  "port": 80,
+  "duration_seconds": 12.57,
+  "hops": [
+    {
+      "hop": 1,
+      "ip": "192.168.50.1",
+      "hostname": null,
+      "rtts": [
+        17.2,
+        4.72,
+        4.11
+      ],
+      "timeout": false,
+      "avg_rtt": 8.68
+    },
+    {
+      "hop": 2,
+      "ip": "140.123.103.250",
+      "hostname": "csgate103.cs.ccu.edu.tw",
+      "rtts": [
+        4.52,
+        4.27,
+        4.01
+      ],
+      "timeout": false,
+      "avg_rtt": 4.27
+    },
+    {
+      "hop": 3,
+      "ip": "140.123.9.249",
+      "hostname": null,
+      "rtts": [
+        4.67,
+        5.67,
+        6.57
+      ],
+      "timeout": false,
+      "avg_rtt": 5.64
+    },
+    {
+      "hop": 4,
+      "ip": "140.123.0.246",
+      "hostname": null,
+      "rtts": [
+        5.31,
+        4.87,
+        5.23
+      ],
+      "timeout": false,
+      "avg_rtt": 5.14
+    },
+    {
+      "hop": 5,
+      "ip": "140.130.252.251",
+      "hostname": null,
+      "rtts": [
+        5.79,
+        6.07,
+        5.43
+      ],
+      "timeout": false,
+      "avg_rtt": 5.76
+    },
+    {
+      "hop": 6,
+      "ip": "211.22.226.198",
+      "hostname": "211-22-226-198.caw1-3332.hinet.net",
+      "rtts": [
+        5.89,
+        6.33,
+        5.58
+      ],
+      "timeout": false,
+      "avg_rtt": 5.93
+    },
+    {
+      "hop": 7,
+      "ip": null,
+      "hostname": null,
+      "rtts": [],
+      "timeout": true
+    },
+    {
+      "hop": 8,
+      "ip": null,
+      "hostname": null,
+      "rtts": [],
+      "timeout": true
+    },
+    {
+      "hop": 9,
+      "ip": "220.128.8.10",
+      "hostname": "220-128-8-10.tyfo-3031.hinet.net",
+      "rtts": [
+        33.42,
+        19.77,
+        14.69
+      ],
+      "timeout": false,
+      "avg_rtt": 22.63
+    },
+    {
+      "hop": 10,
+      "ip": "220.128.8.241",
+      "hostname": "220-128-8-241.tpe4-3331.hinet.net",
+      "rtts": [
+        14.84,
+        15.9,
+        16.46
+      ],
+      "timeout": false,
+      "avg_rtt": 15.73
+    },
+    {
+      "hop": 11,
+      "ip": "168.95.228.77",
+      "hostname": "h77.s228.ts.hinet.net",
+      "rtts": [
+        22.81,
+        21.46,
+        30.31
+      ],
+      "timeout": false,
+      "avg_rtt": 24.86
+    },
+    {
+      "hop": 12,
+      "ip": "61.218.86.231",
+      "hostname": "61-218-86-231.hinet-ip.hinet.net",
+      "rtts": [
+        16.21,
+        18.88,
+        15.37
+      ],
+      "timeout": false,
+      "reached_destination": true,
+      "avg_rtt": 16.82
+    }
+  ],
+  "num_hops": 12,
+  "success": true,
+  "method": "scapy",
+  "category": "financial_infra",
+  "base_domain": "fisc.com.tw",
+  "service_variant": "www.fisc.com.tw",
+  "is_bare_domain": false
+}

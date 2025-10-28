@@ -1,0 +1,151 @@
+{
+  "timestamp": "2025-10-23T08:23:15.141594",
+  "vantage_point": "university",
+  "target": "www.aptg.com.tw",
+  "target_ip": "210.200.69.126",
+  "protocol": "tcp",
+  "port": 80,
+  "duration_seconds": 0.38,
+  "hops": [
+    {
+      "hop": 1,
+      "ip": "192.168.50.1",
+      "hostname": null,
+      "rtts": [
+        13.75,
+        4.51,
+        4.79
+      ],
+      "timeout": false,
+      "avg_rtt": 7.68
+    },
+    {
+      "hop": 2,
+      "ip": "140.123.103.250",
+      "hostname": "csgate103.cs.ccu.edu.tw",
+      "rtts": [
+        4.6,
+        6.28,
+        3.94
+      ],
+      "timeout": false,
+      "avg_rtt": 4.94
+    },
+    {
+      "hop": 3,
+      "ip": "140.123.9.249",
+      "hostname": null,
+      "rtts": [
+        4.19,
+        3.88,
+        4.21
+      ],
+      "timeout": false,
+      "avg_rtt": 4.09
+    },
+    {
+      "hop": 4,
+      "ip": "140.123.0.246",
+      "hostname": null,
+      "rtts": [
+        5.13,
+        4.33,
+        6.26
+      ],
+      "timeout": false,
+      "avg_rtt": 5.24
+    },
+    {
+      "hop": 5,
+      "ip": "140.130.252.251",
+      "hostname": null,
+      "rtts": [
+        5.3,
+        9.16,
+        5.96
+      ],
+      "timeout": false,
+      "avg_rtt": 6.81
+    },
+    {
+      "hop": 6,
+      "ip": "140.123.231.111",
+      "hostname": null,
+      "rtts": [
+        10.72,
+        13.46,
+        16.63
+      ],
+      "timeout": false,
+      "avg_rtt": 13.6
+    },
+    {
+      "hop": 7,
+      "ip": "211.76.96.176",
+      "hostname": null,
+      "rtts": [
+        18.99,
+        21.26,
+        18.96
+      ],
+      "timeout": false,
+      "avg_rtt": 19.74
+    },
+    {
+      "hop": 8,
+      "ip": "211.76.100.61",
+      "hostname": null,
+      "rtts": [
+        27.66,
+        13.21,
+        10.29
+      ],
+      "timeout": false,
+      "avg_rtt": 17.05
+    },
+    {
+      "hop": 9,
+      "ip": "210.200.80.254",
+      "hostname": "210-200-80-254.d3.static.apol.com.tw",
+      "rtts": [
+        9.22,
+        9.24,
+        10.66
+      ],
+      "timeout": false,
+      "avg_rtt": 9.71
+    },
+    {
+      "hop": 10,
+      "ip": "210.200.80.254",
+      "hostname": "210-200-80-254.d3.static.apol.com.tw",
+      "rtts": [
+        13.62,
+        11.55,
+        14.38
+      ],
+      "timeout": false,
+      "avg_rtt": 13.18
+    },
+    {
+      "hop": 11,
+      "ip": "210.200.69.126",
+      "hostname": null,
+      "rtts": [
+        9.91,
+        19.55,
+        10.41
+      ],
+      "timeout": false,
+      "reached_destination": true,
+      "avg_rtt": 13.29
+    }
+  ],
+  "num_hops": 11,
+  "success": true,
+  "method": "scapy",
+  "category": "telecom",
+  "base_domain": "aptg.com.tw",
+  "service_variant": "www.aptg.com.tw",
+  "is_bare_domain": false
+}

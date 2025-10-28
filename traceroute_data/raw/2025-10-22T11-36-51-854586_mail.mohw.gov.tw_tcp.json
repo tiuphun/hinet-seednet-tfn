@@ -1,0 +1,215 @@
+{
+  "timestamp": "2025-10-22T11:36:51.854586",
+  "vantage_point": "university",
+  "target": "mail.mohw.gov.tw",
+  "target_ip": "203.65.100.180",
+  "protocol": "tcp",
+  "port": 443,
+  "duration_seconds": 14.2,
+  "hops": [
+    {
+      "hop": 1,
+      "ip": "192.168.50.1",
+      "hostname": null,
+      "rtts": [
+        6.12,
+        7.46,
+        4.33
+      ],
+      "timeout": false,
+      "avg_rtt": 5.97
+    },
+    {
+      "hop": 2,
+      "ip": "140.123.103.250",
+      "hostname": "csgate103.cs.ccu.edu.tw",
+      "rtts": [
+        8.05,
+        5.14,
+        5.18
+      ],
+      "timeout": false,
+      "avg_rtt": 6.12
+    },
+    {
+      "hop": 3,
+      "ip": "140.123.9.249",
+      "hostname": null,
+      "rtts": [
+        4.81,
+        6.04,
+        22.34
+      ],
+      "timeout": false,
+      "avg_rtt": 11.06
+    },
+    {
+      "hop": 4,
+      "ip": "140.123.0.246",
+      "hostname": null,
+      "rtts": [
+        5.74,
+        8.64
+      ],
+      "timeout": false,
+      "avg_rtt": 7.19
+    },
+    {
+      "hop": 5,
+      "ip": "140.130.252.251",
+      "hostname": null,
+      "rtts": [
+        6.23,
+        5.13,
+        9.45
+      ],
+      "timeout": false,
+      "avg_rtt": 6.94
+    },
+    {
+      "hop": 6,
+      "ip": "192.192.61.142",
+      "hostname": null,
+      "rtts": [
+        9.31,
+        16.86,
+        8.0
+      ],
+      "timeout": false,
+      "avg_rtt": 11.39
+    },
+    {
+      "hop": 7,
+      "ip": "192.192.61.37",
+      "hostname": null,
+      "rtts": [
+        8.25,
+        8.48,
+        10.7
+      ],
+      "timeout": false,
+      "avg_rtt": 9.14
+    },
+    {
+      "hop": 8,
+      "ip": "192.192.61.32",
+      "hostname": null,
+      "rtts": [
+        9.63,
+        13.48,
+        18.7
+      ],
+      "timeout": false,
+      "avg_rtt": 13.94
+    },
+    {
+      "hop": 9,
+      "ip": "192.192.61.209",
+      "hostname": null,
+      "rtts": [
+        14.26,
+        9.27,
+        28.01
+      ],
+      "timeout": false,
+      "avg_rtt": 17.18
+    },
+    {
+      "hop": 10,
+      "ip": "10.96.81.12",
+      "hostname": null,
+      "rtts": [
+        16.34,
+        10.94,
+        11.68
+      ],
+      "timeout": false,
+      "avg_rtt": 12.99
+    },
+    {
+      "hop": 11,
+      "ip": "210.69.250.126",
+      "hostname": "210-69-250-126.hinet-ip.hinet.net",
+      "rtts": [
+        12.09,
+        11.59,
+        13.24
+      ],
+      "timeout": false,
+      "avg_rtt": 12.31
+    },
+    {
+      "hop": 12,
+      "ip": "210.69.250.81",
+      "hostname": "210-69-250-81.hinet-ip.hinet.net",
+      "rtts": [
+        12.11,
+        13.14
+      ],
+      "timeout": false,
+      "avg_rtt": 12.62
+    },
+    {
+      "hop": 13,
+      "ip": "210.69.10.13",
+      "hostname": "210-69-10-13.hinet-ip.hinet.net",
+      "rtts": [
+        13.58,
+        13.1,
+        13.7
+      ],
+      "timeout": false,
+      "avg_rtt": 13.46
+    },
+    {
+      "hop": 14,
+      "ip": "203.65.100.252",
+      "hostname": null,
+      "rtts": [
+        12.64,
+        15.93,
+        13.47
+      ],
+      "timeout": false,
+      "avg_rtt": 14.01
+    },
+    {
+      "hop": 15,
+      "ip": "203.65.106.3",
+      "hostname": null,
+      "rtts": [
+        16.51,
+        15.04,
+        173.48
+      ],
+      "timeout": false,
+      "avg_rtt": 68.34
+    },
+    {
+      "hop": 16,
+      "ip": null,
+      "hostname": null,
+      "rtts": [],
+      "timeout": true
+    },
+    {
+      "hop": 17,
+      "ip": "203.65.100.180",
+      "hostname": null,
+      "rtts": [
+        15.64,
+        21.22
+      ],
+      "timeout": false,
+      "reached_destination": true,
+      "avg_rtt": 18.43
+    }
+  ],
+  "num_hops": 17,
+  "success": true,
+  "method": "scapy",
+  "category": "government_central",
+  "base_domain": "mohw.gov.tw",
+  "service_variant": "mail.mohw.gov.tw",
+  "is_bare_domain": false
+}

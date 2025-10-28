@@ -1,0 +1,174 @@
+{
+  "timestamp": "2025-10-23T07:04:08.201083",
+  "vantage_point": "university",
+  "target": "www.cts.com.tw",
+  "target_ip": "3.169.137.7",
+  "protocol": "tcp",
+  "port": 443,
+  "duration_seconds": 30.83,
+  "hops": [
+    {
+      "hop": 1,
+      "ip": "192.168.50.1",
+      "hostname": null,
+      "rtts": [
+        40.35,
+        8.97,
+        7.41
+      ],
+      "timeout": false,
+      "avg_rtt": 18.91
+    },
+    {
+      "hop": 2,
+      "ip": "140.123.103.250",
+      "hostname": "csgate103.cs.ccu.edu.tw",
+      "rtts": [
+        7.43,
+        6.03,
+        6.65
+      ],
+      "timeout": false,
+      "avg_rtt": 6.7
+    },
+    {
+      "hop": 3,
+      "ip": "140.123.9.249",
+      "hostname": null,
+      "rtts": [
+        4.95,
+        6.22,
+        6.01
+      ],
+      "timeout": false,
+      "avg_rtt": 5.73
+    },
+    {
+      "hop": 4,
+      "ip": "140.123.0.246",
+      "hostname": null,
+      "rtts": [
+        6.45,
+        7.08,
+        5.91
+      ],
+      "timeout": false,
+      "avg_rtt": 6.48
+    },
+    {
+      "hop": 5,
+      "ip": "140.130.252.251",
+      "hostname": null,
+      "rtts": [
+        9.65,
+        8.44,
+        10.43
+      ],
+      "timeout": false,
+      "avg_rtt": 9.51
+    },
+    {
+      "hop": 6,
+      "ip": "192.192.61.142",
+      "hostname": null,
+      "rtts": [
+        13.12,
+        13.85,
+        11.85
+      ],
+      "timeout": false,
+      "avg_rtt": 12.94
+    },
+    {
+      "hop": 7,
+      "ip": "192.192.61.20",
+      "hostname": null,
+      "rtts": [
+        34.65,
+        13.92,
+        12.71
+      ],
+      "timeout": false,
+      "avg_rtt": 20.43
+    },
+    {
+      "hop": 8,
+      "ip": "192.192.61.48",
+      "hostname": null,
+      "rtts": [
+        14.81,
+        18.33,
+        37.7
+      ],
+      "timeout": false,
+      "avg_rtt": 23.61
+    },
+    {
+      "hop": 9,
+      "ip": "192.192.68.62",
+      "hostname": null,
+      "rtts": [
+        13.73,
+        16.47,
+        14.27
+      ],
+      "timeout": false,
+      "avg_rtt": 14.82
+    },
+    {
+      "hop": 10,
+      "ip": null,
+      "hostname": null,
+      "rtts": [],
+      "timeout": true
+    },
+    {
+      "hop": 11,
+      "ip": null,
+      "hostname": null,
+      "rtts": [],
+      "timeout": true
+    },
+    {
+      "hop": 12,
+      "ip": null,
+      "hostname": null,
+      "rtts": [],
+      "timeout": true
+    },
+    {
+      "hop": 13,
+      "ip": null,
+      "hostname": null,
+      "rtts": [],
+      "timeout": true
+    },
+    {
+      "hop": 14,
+      "ip": null,
+      "hostname": null,
+      "rtts": [],
+      "timeout": true
+    },
+    {
+      "hop": 15,
+      "ip": "3.169.137.7",
+      "hostname": "server-3-169-137-7.tpe54.r.cloudfront.net",
+      "rtts": [
+        21.88,
+        12.46,
+        10.71
+      ],
+      "timeout": false,
+      "reached_destination": true,
+      "avg_rtt": 15.02
+    }
+  ],
+  "num_hops": 15,
+  "success": true,
+  "method": "scapy",
+  "category": "media",
+  "base_domain": "cts.com.tw",
+  "service_variant": "www.cts.com.tw",
+  "is_bare_domain": false
+}

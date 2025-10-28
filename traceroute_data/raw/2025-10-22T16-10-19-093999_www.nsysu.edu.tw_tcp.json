@@ -1,0 +1,157 @@
+{
+  "timestamp": "2025-10-22T16:10:19.093999",
+  "vantage_point": "university",
+  "target": "www.nsysu.edu.tw",
+  "target_ip": "140.117.13.241",
+  "protocol": "tcp",
+  "port": 443,
+  "duration_seconds": 8.83,
+  "hops": [
+    {
+      "hop": 1,
+      "ip": "192.168.50.1",
+      "hostname": null,
+      "rtts": [
+        28.46,
+        4.26,
+        7.5
+      ],
+      "timeout": false,
+      "avg_rtt": 13.41
+    },
+    {
+      "hop": 2,
+      "ip": "140.123.103.250",
+      "hostname": "csgate103.cs.ccu.edu.tw",
+      "rtts": [
+        5.42,
+        5.72,
+        8.49
+      ],
+      "timeout": false,
+      "avg_rtt": 6.54
+    },
+    {
+      "hop": 3,
+      "ip": "140.123.9.249",
+      "hostname": null,
+      "rtts": [
+        9.94,
+        26.79,
+        19.1
+      ],
+      "timeout": false,
+      "avg_rtt": 18.61
+    },
+    {
+      "hop": 4,
+      "ip": "140.123.0.246",
+      "hostname": null,
+      "rtts": [
+        13.97,
+        14.69,
+        17.99
+      ],
+      "timeout": false,
+      "avg_rtt": 15.55
+    },
+    {
+      "hop": 5,
+      "ip": "211.79.57.25",
+      "hostname": "ccu-ccu-76.twaren.net",
+      "rtts": [
+        12.27,
+        17.34,
+        32.23
+      ],
+      "timeout": false,
+      "avg_rtt": 20.61
+    },
+    {
+      "hop": 6,
+      "ip": "211.73.76.209",
+      "hostname": "tp-a1.twaren.net",
+      "rtts": [
+        81.07,
+        17.14,
+        23.33
+      ],
+      "timeout": false,
+      "avg_rtt": 40.51
+    },
+    {
+      "hop": 7,
+      "ip": "211.73.76.218",
+      "hostname": "nsysu-a1.twaren.net",
+      "rtts": [
+        14.11,
+        11.87,
+        23.25
+      ],
+      "timeout": false,
+      "avg_rtt": 16.41
+    },
+    {
+      "hop": 8,
+      "ip": "211.79.58.26",
+      "hostname": "nsysu_nsysu-a1.twaren.net",
+      "rtts": [
+        38.97,
+        24.12,
+        24.94
+      ],
+      "timeout": false,
+      "avg_rtt": 29.34
+    },
+    {
+      "hop": 9,
+      "ip": "140.117.232.34",
+      "hostname": null,
+      "rtts": [
+        47.48,
+        36.55,
+        18.91
+      ],
+      "timeout": false,
+      "avg_rtt": 34.31
+    },
+    {
+      "hop": 10,
+      "ip": null,
+      "hostname": null,
+      "rtts": [],
+      "timeout": true
+    },
+    {
+      "hop": 11,
+      "ip": "140.117.232.78",
+      "hostname": null,
+      "rtts": [
+        19.83,
+        12.86,
+        22.12
+      ],
+      "timeout": false,
+      "avg_rtt": 18.27
+    },
+    {
+      "hop": 12,
+      "ip": "140.117.13.241",
+      "hostname": "math.nsysu.edu.tw",
+      "rtts": [
+        21.63,
+        13.88
+      ],
+      "timeout": false,
+      "reached_destination": true,
+      "avg_rtt": 17.75
+    }
+  ],
+  "num_hops": 12,
+  "success": true,
+  "method": "scapy",
+  "category": "universities",
+  "base_domain": "nsysu.edu.tw",
+  "service_variant": "www.nsysu.edu.tw",
+  "is_bare_domain": false
+}

@@ -1,0 +1,271 @@
+{
+  "timestamp": "2025-10-23T10:08:30.576818",
+  "vantage_point": "university",
+  "target": "vpn.kmuh.org.tw",
+  "target_ip": "211.22.15.174",
+  "protocol": "icmp",
+  "port": null,
+  "duration_seconds": 134.54,
+  "hops": [
+    {
+      "hop": 1,
+      "ip": "192.168.50.1",
+      "hostname": null,
+      "rtts": [
+        8.39,
+        6.99,
+        5.19
+      ],
+      "timeout": false,
+      "avg_rtt": 6.86
+    },
+    {
+      "hop": 2,
+      "ip": "140.123.103.250",
+      "hostname": "csgate103.cs.ccu.edu.tw",
+      "rtts": [
+        6.14,
+        11.29,
+        8.41
+      ],
+      "timeout": false,
+      "avg_rtt": 8.61
+    },
+    {
+      "hop": 3,
+      "ip": "140.123.9.249",
+      "hostname": null,
+      "rtts": [
+        7.23,
+        16.11,
+        30.63
+      ],
+      "timeout": false,
+      "avg_rtt": 17.99
+    },
+    {
+      "hop": 4,
+      "ip": "140.123.0.246",
+      "hostname": null,
+      "rtts": [
+        8.04,
+        7.0,
+        7.39
+      ],
+      "timeout": false,
+      "avg_rtt": 7.48
+    },
+    {
+      "hop": 5,
+      "ip": "140.130.252.251",
+      "hostname": null,
+      "rtts": [
+        8.57,
+        8.0,
+        8.62
+      ],
+      "timeout": false,
+      "avg_rtt": 8.4
+    },
+    {
+      "hop": 6,
+      "ip": "211.22.226.198",
+      "hostname": "211-22-226-198.caw1-3332.hinet.net",
+      "rtts": [
+        9.04,
+        42.2,
+        10.42
+      ],
+      "timeout": false,
+      "avg_rtt": 20.55
+    },
+    {
+      "hop": 7,
+      "ip": null,
+      "hostname": null,
+      "rtts": [],
+      "timeout": true
+    },
+    {
+      "hop": 8,
+      "ip": "220.128.25.89",
+      "hostname": "220-128-25-89.skc1-3331.hinet.net",
+      "rtts": [
+        23.37,
+        12.03,
+        17.88
+      ],
+      "timeout": false,
+      "avg_rtt": 17.76
+    },
+    {
+      "hop": 9,
+      "ip": "168.95.228.221",
+      "hostname": "h221.s228.ts.hinet.net",
+      "rtts": [
+        11.73,
+        9.58,
+        11.67
+      ],
+      "timeout": false,
+      "avg_rtt": 10.99
+    },
+    {
+      "hop": 10,
+      "ip": null,
+      "hostname": null,
+      "rtts": [],
+      "timeout": true
+    },
+    {
+      "hop": 11,
+      "ip": null,
+      "hostname": null,
+      "rtts": [],
+      "timeout": true
+    },
+    {
+      "hop": 12,
+      "ip": null,
+      "hostname": null,
+      "rtts": [],
+      "timeout": true
+    },
+    {
+      "hop": 13,
+      "ip": null,
+      "hostname": null,
+      "rtts": [],
+      "timeout": true
+    },
+    {
+      "hop": 14,
+      "ip": null,
+      "hostname": null,
+      "rtts": [],
+      "timeout": true
+    },
+    {
+      "hop": 15,
+      "ip": null,
+      "hostname": null,
+      "rtts": [],
+      "timeout": true
+    },
+    {
+      "hop": 16,
+      "ip": null,
+      "hostname": null,
+      "rtts": [],
+      "timeout": true
+    },
+    {
+      "hop": 17,
+      "ip": null,
+      "hostname": null,
+      "rtts": [],
+      "timeout": true
+    },
+    {
+      "hop": 18,
+      "ip": null,
+      "hostname": null,
+      "rtts": [],
+      "timeout": true
+    },
+    {
+      "hop": 19,
+      "ip": "220.128.25.78",
+      "hostname": "220-128-25-78.skc1-3052.hinet.net",
+      "rtts": [
+        1647.72
+      ],
+      "timeout": false,
+      "avg_rtt": 1647.72
+    },
+    {
+      "hop": 20,
+      "ip": null,
+      "hostname": null,
+      "rtts": [],
+      "timeout": true
+    },
+    {
+      "hop": 21,
+      "ip": null,
+      "hostname": null,
+      "rtts": [],
+      "timeout": true
+    },
+    {
+      "hop": 22,
+      "ip": null,
+      "hostname": null,
+      "rtts": [],
+      "timeout": true
+    },
+    {
+      "hop": 23,
+      "ip": null,
+      "hostname": null,
+      "rtts": [],
+      "timeout": true
+    },
+    {
+      "hop": 24,
+      "ip": null,
+      "hostname": null,
+      "rtts": [],
+      "timeout": true
+    },
+    {
+      "hop": 25,
+      "ip": null,
+      "hostname": null,
+      "rtts": [],
+      "timeout": true
+    },
+    {
+      "hop": 26,
+      "ip": null,
+      "hostname": null,
+      "rtts": [],
+      "timeout": true
+    },
+    {
+      "hop": 27,
+      "ip": null,
+      "hostname": null,
+      "rtts": [],
+      "timeout": true
+    },
+    {
+      "hop": 28,
+      "ip": null,
+      "hostname": null,
+      "rtts": [],
+      "timeout": true
+    },
+    {
+      "hop": 29,
+      "ip": null,
+      "hostname": null,
+      "rtts": [],
+      "timeout": true
+    },
+    {
+      "hop": 30,
+      "ip": null,
+      "hostname": null,
+      "rtts": [],
+      "timeout": true
+    }
+  ],
+  "num_hops": 30,
+  "success": false,
+  "method": "scapy",
+  "category": "healthcare",
+  "base_domain": "kmuh.org.tw",
+  "service_variant": "vpn.kmuh.org.tw",
+  "is_bare_domain": false
+}

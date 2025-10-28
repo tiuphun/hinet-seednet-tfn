@@ -1,0 +1,132 @@
+{
+  "timestamp": "2025-10-23T13:48:16.894969",
+  "vantage_point": "university",
+  "target": "smtp.twaren.net",
+  "target_ip": "211.79.61.5",
+  "protocol": "tcp",
+  "port": 80,
+  "duration_seconds": 13.71,
+  "hops": [
+    {
+      "hop": 1,
+      "ip": "192.168.50.1",
+      "hostname": null,
+      "rtts": [
+        13.69,
+        6.15,
+        4.94
+      ],
+      "timeout": false,
+      "avg_rtt": 8.26
+    },
+    {
+      "hop": 2,
+      "ip": "140.123.103.250",
+      "hostname": "csgate103.cs.ccu.edu.tw",
+      "rtts": [
+        7.67,
+        5.4,
+        4.04
+      ],
+      "timeout": false,
+      "avg_rtt": 5.7
+    },
+    {
+      "hop": 3,
+      "ip": "140.123.9.249",
+      "hostname": null,
+      "rtts": [
+        5.04,
+        4.43,
+        4.6
+      ],
+      "timeout": false,
+      "avg_rtt": 4.69
+    },
+    {
+      "hop": 4,
+      "ip": "140.123.0.246",
+      "hostname": null,
+      "rtts": [
+        6.83,
+        4.35,
+        5.14
+      ],
+      "timeout": false,
+      "avg_rtt": 5.44
+    },
+    {
+      "hop": 5,
+      "ip": "211.79.57.25",
+      "hostname": "ccu-ccu-76.twaren.net",
+      "rtts": [
+        6.29,
+        5.79,
+        7.43
+      ],
+      "timeout": false,
+      "avg_rtt": 6.5
+    },
+    {
+      "hop": 6,
+      "ip": "211.73.76.209",
+      "hostname": "tp-a1.twaren.net",
+      "rtts": [
+        8.0,
+        9.4,
+        20.1
+      ],
+      "timeout": false,
+      "avg_rtt": 12.5
+    },
+    {
+      "hop": 7,
+      "ip": "211.79.60.30",
+      "hostname": null,
+      "rtts": [
+        7.86,
+        6.87,
+        6.11
+      ],
+      "timeout": false,
+      "avg_rtt": 6.95
+    },
+    {
+      "hop": 8,
+      "ip": "211.79.60.62",
+      "hostname": null,
+      "rtts": [
+        9.15,
+        7.92,
+        6.3
+      ],
+      "timeout": false,
+      "avg_rtt": 7.79
+    },
+    {
+      "hop": 9,
+      "ip": null,
+      "hostname": null,
+      "rtts": [],
+      "timeout": true
+    },
+    {
+      "hop": 10,
+      "ip": "211.79.61.5",
+      "hostname": "mail1.twaren.net",
+      "rtts": [
+        811.76
+      ],
+      "timeout": false,
+      "reached_destination": true,
+      "avg_rtt": 811.76
+    }
+  ],
+  "num_hops": 10,
+  "success": true,
+  "method": "scapy",
+  "category": "education_network",
+  "base_domain": "twaren.net",
+  "service_variant": "smtp.twaren.net",
+  "is_bare_domain": false
+}

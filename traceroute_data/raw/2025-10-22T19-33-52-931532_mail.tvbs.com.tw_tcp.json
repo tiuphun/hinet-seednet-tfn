@@ -1,0 +1,191 @@
+{
+  "timestamp": "2025-10-22T19:33:52.931532",
+  "vantage_point": "university",
+  "target": "mail.tvbs.com.tw",
+  "target_ip": "40.104.20.2",
+  "protocol": "tcp",
+  "port": 80,
+  "duration_seconds": 25.07,
+  "hops": [
+    {
+      "hop": 1,
+      "ip": "192.168.50.1",
+      "hostname": null,
+      "rtts": [
+        8.0,
+        7.48,
+        5.05
+      ],
+      "timeout": false,
+      "avg_rtt": 6.84
+    },
+    {
+      "hop": 2,
+      "ip": "140.123.103.250",
+      "hostname": "csgate103.cs.ccu.edu.tw",
+      "rtts": [
+        8.19,
+        4.39,
+        4.87
+      ],
+      "timeout": false,
+      "avg_rtt": 5.82
+    },
+    {
+      "hop": 3,
+      "ip": "140.123.9.249",
+      "hostname": null,
+      "rtts": [
+        5.69,
+        5.01,
+        4.76
+      ],
+      "timeout": false,
+      "avg_rtt": 5.15
+    },
+    {
+      "hop": 4,
+      "ip": "140.123.0.246",
+      "hostname": null,
+      "rtts": [
+        5.75,
+        6.22,
+        6.88
+      ],
+      "timeout": false,
+      "avg_rtt": 6.28
+    },
+    {
+      "hop": 5,
+      "ip": "140.130.252.251",
+      "hostname": null,
+      "rtts": [
+        9.3,
+        13.05,
+        7.76
+      ],
+      "timeout": false,
+      "avg_rtt": 10.04
+    },
+    {
+      "hop": 6,
+      "ip": "192.192.61.142",
+      "hostname": null,
+      "rtts": [
+        10.19,
+        13.67,
+        8.86
+      ],
+      "timeout": false,
+      "avg_rtt": 10.91
+    },
+    {
+      "hop": 7,
+      "ip": "192.192.61.20",
+      "hostname": null,
+      "rtts": [
+        12.64,
+        12.6,
+        13.25
+      ],
+      "timeout": false,
+      "avg_rtt": 12.83
+    },
+    {
+      "hop": 8,
+      "ip": "192.192.61.48",
+      "hostname": null,
+      "rtts": [
+        15.08,
+        20.95,
+        31.37
+      ],
+      "timeout": false,
+      "avg_rtt": 22.47
+    },
+    {
+      "hop": 9,
+      "ip": "192.192.68.62",
+      "hostname": null,
+      "rtts": [
+        12.24,
+        13.7,
+        12.44
+      ],
+      "timeout": false,
+      "avg_rtt": 12.79
+    },
+    {
+      "hop": 10,
+      "ip": "203.163.222.15",
+      "hostname": "15-222-163-203-static.tpix.net.tw",
+      "rtts": [
+        15.7,
+        14.35,
+        14.88
+      ],
+      "timeout": false,
+      "avg_rtt": 14.98
+    },
+    {
+      "hop": 11,
+      "ip": "104.44.51.234",
+      "hostname": null,
+      "rtts": [
+        14.99,
+        16.05,
+        17.52
+      ],
+      "timeout": false,
+      "avg_rtt": 16.19
+    },
+    {
+      "hop": 12,
+      "ip": null,
+      "hostname": null,
+      "rtts": [],
+      "timeout": true
+    },
+    {
+      "hop": 13,
+      "ip": null,
+      "hostname": null,
+      "rtts": [],
+      "timeout": true
+    },
+    {
+      "hop": 14,
+      "ip": null,
+      "hostname": null,
+      "rtts": [],
+      "timeout": true
+    },
+    {
+      "hop": 15,
+      "ip": null,
+      "hostname": null,
+      "rtts": [],
+      "timeout": true
+    },
+    {
+      "hop": 16,
+      "ip": "40.104.20.2",
+      "hostname": null,
+      "rtts": [
+        28.27,
+        21.41,
+        12.84
+      ],
+      "timeout": false,
+      "reached_destination": true,
+      "avg_rtt": 20.84
+    }
+  ],
+  "num_hops": 16,
+  "success": true,
+  "method": "scapy",
+  "category": "media",
+  "base_domain": "tvbs.com.tw",
+  "service_variant": "mail.tvbs.com.tw",
+  "is_bare_domain": false
+}

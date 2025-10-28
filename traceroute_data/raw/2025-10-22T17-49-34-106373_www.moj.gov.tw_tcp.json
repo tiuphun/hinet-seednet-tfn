@@ -1,0 +1,204 @@
+{
+  "timestamp": "2025-10-22T17:49:34.106373",
+  "vantage_point": "university",
+  "target": "www.moj.gov.tw",
+  "target_ip": "163.29.130.159",
+  "protocol": "tcp",
+  "port": 443,
+  "duration_seconds": 11.72,
+  "hops": [
+    {
+      "hop": 1,
+      "ip": "192.168.50.1",
+      "hostname": null,
+      "rtts": [
+        87.36,
+        4.97,
+        20.98
+      ],
+      "timeout": false,
+      "avg_rtt": 37.77
+    },
+    {
+      "hop": 2,
+      "ip": "140.123.103.250",
+      "hostname": "csgate103.cs.ccu.edu.tw",
+      "rtts": [
+        6.32,
+        13.33,
+        18.71
+      ],
+      "timeout": false,
+      "avg_rtt": 12.79
+    },
+    {
+      "hop": 3,
+      "ip": "140.123.9.249",
+      "hostname": null,
+      "rtts": [
+        13.2,
+        10.92,
+        12.24
+      ],
+      "timeout": false,
+      "avg_rtt": 12.12
+    },
+    {
+      "hop": 4,
+      "ip": "140.123.0.246",
+      "hostname": null,
+      "rtts": [
+        11.85,
+        13.91,
+        7.13
+      ],
+      "timeout": false,
+      "avg_rtt": 10.96
+    },
+    {
+      "hop": 5,
+      "ip": "140.130.252.251",
+      "hostname": null,
+      "rtts": [
+        14.41,
+        33.02,
+        13.11
+      ],
+      "timeout": false,
+      "avg_rtt": 20.18
+    },
+    {
+      "hop": 6,
+      "ip": "192.192.61.142",
+      "hostname": null,
+      "rtts": [
+        10.68,
+        11.19,
+        7.54
+      ],
+      "timeout": false,
+      "avg_rtt": 9.8
+    },
+    {
+      "hop": 7,
+      "ip": "192.192.61.37",
+      "hostname": null,
+      "rtts": [
+        10.55,
+        12.07,
+        10.14
+      ],
+      "timeout": false,
+      "avg_rtt": 10.92
+    },
+    {
+      "hop": 8,
+      "ip": "192.192.61.32",
+      "hostname": null,
+      "rtts": [
+        12.82,
+        9.25,
+        9.88
+      ],
+      "timeout": false,
+      "avg_rtt": 10.65
+    },
+    {
+      "hop": 9,
+      "ip": "192.192.61.209",
+      "hostname": null,
+      "rtts": [
+        9.72,
+        10.94,
+        23.21
+      ],
+      "timeout": false,
+      "avg_rtt": 14.62
+    },
+    {
+      "hop": 10,
+      "ip": "10.96.81.12",
+      "hostname": null,
+      "rtts": [
+        26.5,
+        12.28,
+        20.89
+      ],
+      "timeout": false,
+      "avg_rtt": 19.89
+    },
+    {
+      "hop": 11,
+      "ip": "210.69.250.126",
+      "hostname": "210-69-250-126.hinet-ip.hinet.net",
+      "rtts": [
+        15.42,
+        12.85,
+        12.41
+      ],
+      "timeout": false,
+      "avg_rtt": 13.56
+    },
+    {
+      "hop": 12,
+      "ip": "210.69.250.81",
+      "hostname": "210-69-250-81.hinet-ip.hinet.net",
+      "rtts": [
+        14.72,
+        15.54,
+        15.01
+      ],
+      "timeout": false,
+      "avg_rtt": 15.09
+    },
+    {
+      "hop": 13,
+      "ip": "163.29.46.141",
+      "hostname": "163-29-46-141.hinet-ip.hinet.net",
+      "rtts": [
+        12.0,
+        11.24,
+        14.3
+      ],
+      "timeout": false,
+      "avg_rtt": 12.51
+    },
+    {
+      "hop": 14,
+      "ip": "10.255.100.3",
+      "hostname": null,
+      "rtts": [
+        15.7,
+        13.27,
+        20.11
+      ],
+      "timeout": false,
+      "avg_rtt": 16.36
+    },
+    {
+      "hop": 15,
+      "ip": null,
+      "hostname": null,
+      "rtts": [],
+      "timeout": true
+    },
+    {
+      "hop": 16,
+      "ip": "163.29.130.159",
+      "hostname": null,
+      "rtts": [
+        832.1
+      ],
+      "timeout": false,
+      "reached_destination": true,
+      "avg_rtt": 832.1
+    }
+  ],
+  "num_hops": 16,
+  "success": true,
+  "method": "scapy",
+  "category": "government_central",
+  "base_domain": "moj.gov.tw",
+  "service_variant": "www.moj.gov.tw",
+  "is_bare_domain": false
+}

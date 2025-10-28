@@ -1,0 +1,277 @@
+{
+  "timestamp": "2025-10-23T11:27:18.706049",
+  "vantage_point": "university",
+  "target": "mail.metro.taipei",
+  "target_ip": "111.235.209.12",
+  "protocol": "icmp",
+  "port": null,
+  "duration_seconds": 129.82,
+  "hops": [
+    {
+      "hop": 1,
+      "ip": "192.168.50.1",
+      "hostname": null,
+      "rtts": [
+        35.5,
+        42.19,
+        5.52
+      ],
+      "timeout": false,
+      "avg_rtt": 27.74
+    },
+    {
+      "hop": 2,
+      "ip": "140.123.103.250",
+      "hostname": "csgate103.cs.ccu.edu.tw",
+      "rtts": [
+        12.57,
+        34.62,
+        31.05
+      ],
+      "timeout": false,
+      "avg_rtt": 26.08
+    },
+    {
+      "hop": 3,
+      "ip": "140.123.9.249",
+      "hostname": null,
+      "rtts": [
+        19.75,
+        10.12,
+        31.59
+      ],
+      "timeout": false,
+      "avg_rtt": 20.49
+    },
+    {
+      "hop": 4,
+      "ip": "140.123.0.246",
+      "hostname": null,
+      "rtts": [
+        17.93,
+        9.72,
+        9.54
+      ],
+      "timeout": false,
+      "avg_rtt": 12.4
+    },
+    {
+      "hop": 5,
+      "ip": "140.130.252.251",
+      "hostname": null,
+      "rtts": [
+        45.98,
+        20.33,
+        47.73
+      ],
+      "timeout": false,
+      "avg_rtt": 38.01
+    },
+    {
+      "hop": 6,
+      "ip": "211.22.226.198",
+      "hostname": "211-22-226-198.caw1-3332.hinet.net",
+      "rtts": [
+        32.27,
+        26.42,
+        31.62
+      ],
+      "timeout": false,
+      "avg_rtt": 30.1
+    },
+    {
+      "hop": 7,
+      "ip": null,
+      "hostname": null,
+      "rtts": [],
+      "timeout": true
+    },
+    {
+      "hop": 8,
+      "ip": null,
+      "hostname": null,
+      "rtts": [],
+      "timeout": true
+    },
+    {
+      "hop": 9,
+      "ip": "220.128.1.153",
+      "hostname": "220-128-1-153.tpdb-4511.hinet.net",
+      "rtts": [
+        13.53,
+        11.15,
+        11.35
+      ],
+      "timeout": false,
+      "avg_rtt": 12.01
+    },
+    {
+      "hop": 10,
+      "ip": "210.242.214.5",
+      "hostname": "210-242-214-5.hinet-ip.hinet.net",
+      "rtts": [
+        18.6,
+        13.59,
+        16.49
+      ],
+      "timeout": false,
+      "avg_rtt": 16.23
+    },
+    {
+      "hop": 11,
+      "ip": "101.3.10.249",
+      "hostname": null,
+      "rtts": [
+        16.55,
+        17.36,
+        26.51
+      ],
+      "timeout": false,
+      "avg_rtt": 20.14
+    },
+    {
+      "hop": 12,
+      "ip": null,
+      "hostname": null,
+      "rtts": [],
+      "timeout": true
+    },
+    {
+      "hop": 13,
+      "ip": null,
+      "hostname": null,
+      "rtts": [],
+      "timeout": true
+    },
+    {
+      "hop": 14,
+      "ip": null,
+      "hostname": null,
+      "rtts": [],
+      "timeout": true
+    },
+    {
+      "hop": 15,
+      "ip": null,
+      "hostname": null,
+      "rtts": [],
+      "timeout": true
+    },
+    {
+      "hop": 16,
+      "ip": null,
+      "hostname": null,
+      "rtts": [],
+      "timeout": true
+    },
+    {
+      "hop": 17,
+      "ip": null,
+      "hostname": null,
+      "rtts": [],
+      "timeout": true
+    },
+    {
+      "hop": 18,
+      "ip": null,
+      "hostname": null,
+      "rtts": [],
+      "timeout": true
+    },
+    {
+      "hop": 19,
+      "ip": null,
+      "hostname": null,
+      "rtts": [],
+      "timeout": true
+    },
+    {
+      "hop": 20,
+      "ip": "220.128.27.42",
+      "hostname": "220-128-27-42.tne1-3052.hinet.net",
+      "rtts": [
+        2032.85,
+        1997.25
+      ],
+      "timeout": false,
+      "avg_rtt": 2015.05
+    },
+    {
+      "hop": 21,
+      "ip": null,
+      "hostname": null,
+      "rtts": [],
+      "timeout": true
+    },
+    {
+      "hop": 22,
+      "ip": null,
+      "hostname": null,
+      "rtts": [],
+      "timeout": true
+    },
+    {
+      "hop": 23,
+      "ip": null,
+      "hostname": null,
+      "rtts": [],
+      "timeout": true
+    },
+    {
+      "hop": 24,
+      "ip": null,
+      "hostname": null,
+      "rtts": [],
+      "timeout": true
+    },
+    {
+      "hop": 25,
+      "ip": null,
+      "hostname": null,
+      "rtts": [],
+      "timeout": true
+    },
+    {
+      "hop": 26,
+      "ip": null,
+      "hostname": null,
+      "rtts": [],
+      "timeout": true
+    },
+    {
+      "hop": 27,
+      "ip": null,
+      "hostname": null,
+      "rtts": [],
+      "timeout": true
+    },
+    {
+      "hop": 28,
+      "ip": null,
+      "hostname": null,
+      "rtts": [],
+      "timeout": true
+    },
+    {
+      "hop": 29,
+      "ip": null,
+      "hostname": null,
+      "rtts": [],
+      "timeout": true
+    },
+    {
+      "hop": 30,
+      "ip": null,
+      "hostname": null,
+      "rtts": [],
+      "timeout": true
+    }
+  ],
+  "num_hops": 30,
+  "success": false,
+  "method": "scapy",
+  "category": "critical_infra",
+  "base_domain": "metro.taipei",
+  "service_variant": "mail.metro.taipei",
+  "is_bare_domain": false
+}

@@ -1,0 +1,150 @@
+{
+  "timestamp": "2025-10-22T18:01:27.157960",
+  "vantage_point": "university",
+  "target": "www.moea.gov.tw",
+  "target_ip": "104.18.1.113",
+  "protocol": "tcp",
+  "port": 80,
+  "duration_seconds": 2.48,
+  "hops": [
+    {
+      "hop": 1,
+      "ip": "192.168.50.1",
+      "hostname": null,
+      "rtts": [
+        16.25,
+        13.16,
+        3.92
+      ],
+      "timeout": false,
+      "avg_rtt": 11.11
+    },
+    {
+      "hop": 2,
+      "ip": "140.123.103.250",
+      "hostname": "csgate103.cs.ccu.edu.tw",
+      "rtts": [
+        4.25,
+        5.18,
+        4.12
+      ],
+      "timeout": false,
+      "avg_rtt": 4.52
+    },
+    {
+      "hop": 3,
+      "ip": "140.123.9.249",
+      "hostname": null,
+      "rtts": [
+        3.86,
+        4.26,
+        8.07
+      ],
+      "timeout": false,
+      "avg_rtt": 5.4
+    },
+    {
+      "hop": 4,
+      "ip": "140.123.0.246",
+      "hostname": null,
+      "rtts": [
+        4.89,
+        4.87,
+        9.4
+      ],
+      "timeout": false,
+      "avg_rtt": 6.39
+    },
+    {
+      "hop": 5,
+      "ip": "140.130.252.251",
+      "hostname": null,
+      "rtts": [
+        17.75,
+        5.44,
+        6.93
+      ],
+      "timeout": false,
+      "avg_rtt": 10.04
+    },
+    {
+      "hop": 6,
+      "ip": "192.192.61.142",
+      "hostname": null,
+      "rtts": [
+        12.31,
+        10.02,
+        14.96
+      ],
+      "timeout": false,
+      "avg_rtt": 12.43
+    },
+    {
+      "hop": 7,
+      "ip": "192.192.61.20",
+      "hostname": null,
+      "rtts": [
+        15.3,
+        9.91,
+        14.87
+      ],
+      "timeout": false,
+      "avg_rtt": 13.36
+    },
+    {
+      "hop": 8,
+      "ip": "192.192.61.48",
+      "hostname": null,
+      "rtts": [
+        9.08,
+        35.13,
+        19.88
+      ],
+      "timeout": false,
+      "avg_rtt": 21.36
+    },
+    {
+      "hop": 9,
+      "ip": "192.192.68.62",
+      "hostname": null,
+      "rtts": [
+        22.84,
+        13.96,
+        11.6
+      ],
+      "timeout": false,
+      "avg_rtt": 16.13
+    },
+    {
+      "hop": 10,
+      "ip": "203.163.222.39",
+      "hostname": "39-222-163-203-static.tpix.net.tw",
+      "rtts": [
+        10.36,
+        10.72
+      ],
+      "timeout": false,
+      "avg_rtt": 10.54
+    },
+    {
+      "hop": 11,
+      "ip": "104.18.1.113",
+      "hostname": null,
+      "rtts": [
+        25.0,
+        17.11,
+        13.56
+      ],
+      "timeout": false,
+      "reached_destination": true,
+      "avg_rtt": 18.56
+    }
+  ],
+  "num_hops": 11,
+  "success": true,
+  "method": "scapy",
+  "category": "government_central",
+  "base_domain": "moea.gov.tw",
+  "service_variant": "www.moea.gov.tw",
+  "is_bare_domain": false
+}

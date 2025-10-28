@@ -1,0 +1,339 @@
+{
+  "timestamp": "2025-10-22T19:11:23.003516",
+  "vantage_point": "university",
+  "target": "smtp.kcg.gov.tw",
+  "target_ip": "223.200.91.225",
+  "protocol": "icmp",
+  "port": null,
+  "duration_seconds": 77.05,
+  "hops": [
+    {
+      "hop": 1,
+      "ip": "192.168.50.1",
+      "hostname": null,
+      "rtts": [
+        15.08,
+        8.62,
+        8.0
+      ],
+      "timeout": false,
+      "avg_rtt": 10.57
+    },
+    {
+      "hop": 2,
+      "ip": "140.123.103.250",
+      "hostname": "csgate103.cs.ccu.edu.tw",
+      "rtts": [
+        6.26,
+        5.48,
+        6.2
+      ],
+      "timeout": false,
+      "avg_rtt": 5.98
+    },
+    {
+      "hop": 3,
+      "ip": "140.123.9.249",
+      "hostname": null,
+      "rtts": [
+        7.45,
+        6.43,
+        5.32
+      ],
+      "timeout": false,
+      "avg_rtt": 6.4
+    },
+    {
+      "hop": 4,
+      "ip": "140.123.0.246",
+      "hostname": null,
+      "rtts": [
+        7.43,
+        7.6,
+        6.72
+      ],
+      "timeout": false,
+      "avg_rtt": 7.25
+    },
+    {
+      "hop": 5,
+      "ip": "140.130.252.251",
+      "hostname": null,
+      "rtts": [
+        27.8,
+        8.71,
+        10.67
+      ],
+      "timeout": false,
+      "avg_rtt": 15.73
+    },
+    {
+      "hop": 6,
+      "ip": "192.192.61.142",
+      "hostname": null,
+      "rtts": [
+        12.95,
+        11.5,
+        11.32
+      ],
+      "timeout": false,
+      "avg_rtt": 11.92
+    },
+    {
+      "hop": 7,
+      "ip": "192.192.61.37",
+      "hostname": null,
+      "rtts": [
+        10.92,
+        11.8,
+        15.48
+      ],
+      "timeout": false,
+      "avg_rtt": 12.73
+    },
+    {
+      "hop": 8,
+      "ip": "192.192.61.32",
+      "hostname": null,
+      "rtts": [
+        19.73,
+        13.48,
+        20.55
+      ],
+      "timeout": false,
+      "avg_rtt": 17.92
+    },
+    {
+      "hop": 9,
+      "ip": "192.192.61.209",
+      "hostname": null,
+      "rtts": [
+        11.89,
+        10.01,
+        13.37
+      ],
+      "timeout": false,
+      "avg_rtt": 11.76
+    },
+    {
+      "hop": 10,
+      "ip": "10.96.81.12",
+      "hostname": null,
+      "rtts": [
+        13.25
+      ],
+      "timeout": false,
+      "avg_rtt": 13.25
+    },
+    {
+      "hop": 11,
+      "ip": "10.96.81.12",
+      "hostname": null,
+      "rtts": [
+        20.15
+      ],
+      "timeout": false,
+      "avg_rtt": 20.15
+    },
+    {
+      "hop": 12,
+      "ip": "10.96.81.12",
+      "hostname": null,
+      "rtts": [
+        14.2
+      ],
+      "timeout": false,
+      "avg_rtt": 14.2
+    },
+    {
+      "hop": 13,
+      "ip": "10.96.81.12",
+      "hostname": null,
+      "rtts": [
+        17.29,
+        11.55
+      ],
+      "timeout": false,
+      "avg_rtt": 14.42
+    },
+    {
+      "hop": 14,
+      "ip": "10.96.81.12",
+      "hostname": null,
+      "rtts": [
+        21.18
+      ],
+      "timeout": false,
+      "avg_rtt": 21.18
+    },
+    {
+      "hop": 15,
+      "ip": "10.96.81.12",
+      "hostname": null,
+      "rtts": [
+        13.71
+      ],
+      "timeout": false,
+      "avg_rtt": 13.71
+    },
+    {
+      "hop": 16,
+      "ip": "10.96.81.12",
+      "hostname": null,
+      "rtts": [
+        16.93,
+        35.04
+      ],
+      "timeout": false,
+      "avg_rtt": 25.98
+    },
+    {
+      "hop": 17,
+      "ip": "10.96.81.12",
+      "hostname": null,
+      "rtts": [
+        18.38
+      ],
+      "timeout": false,
+      "avg_rtt": 18.38
+    },
+    {
+      "hop": 18,
+      "ip": "10.96.81.12",
+      "hostname": null,
+      "rtts": [
+        16.71
+      ],
+      "timeout": false,
+      "avg_rtt": 16.71
+    },
+    {
+      "hop": 19,
+      "ip": "10.96.81.12",
+      "hostname": null,
+      "rtts": [
+        11.65,
+        30.25
+      ],
+      "timeout": false,
+      "avg_rtt": 20.95
+    },
+    {
+      "hop": 20,
+      "ip": "10.96.81.12",
+      "hostname": null,
+      "rtts": [
+        19.72
+      ],
+      "timeout": false,
+      "avg_rtt": 19.72
+    },
+    {
+      "hop": 21,
+      "ip": "10.96.81.12",
+      "hostname": null,
+      "rtts": [
+        19.36
+      ],
+      "timeout": false,
+      "avg_rtt": 19.36
+    },
+    {
+      "hop": 22,
+      "ip": "10.96.81.12",
+      "hostname": null,
+      "rtts": [
+        15.28
+      ],
+      "timeout": false,
+      "avg_rtt": 15.28
+    },
+    {
+      "hop": 23,
+      "ip": "10.96.81.12",
+      "hostname": null,
+      "rtts": [
+        32.63,
+        14.91
+      ],
+      "timeout": false,
+      "avg_rtt": 23.77
+    },
+    {
+      "hop": 24,
+      "ip": "10.96.81.12",
+      "hostname": null,
+      "rtts": [
+        24.41
+      ],
+      "timeout": false,
+      "avg_rtt": 24.41
+    },
+    {
+      "hop": 25,
+      "ip": "10.96.81.12",
+      "hostname": null,
+      "rtts": [
+        81.84
+      ],
+      "timeout": false,
+      "avg_rtt": 81.84
+    },
+    {
+      "hop": 26,
+      "ip": "10.96.81.12",
+      "hostname": null,
+      "rtts": [
+        25.04,
+        24.85
+      ],
+      "timeout": false,
+      "avg_rtt": 24.95
+    },
+    {
+      "hop": 27,
+      "ip": null,
+      "hostname": null,
+      "rtts": [],
+      "timeout": true
+    },
+    {
+      "hop": 28,
+      "ip": "10.96.81.12",
+      "hostname": null,
+      "rtts": [
+        18.83,
+        28.0
+      ],
+      "timeout": false,
+      "avg_rtt": 23.41
+    },
+    {
+      "hop": 29,
+      "ip": "10.96.81.12",
+      "hostname": null,
+      "rtts": [
+        27.0
+      ],
+      "timeout": false,
+      "avg_rtt": 27.0
+    },
+    {
+      "hop": 30,
+      "ip": "10.96.81.12",
+      "hostname": null,
+      "rtts": [
+        29.77
+      ],
+      "timeout": false,
+      "avg_rtt": 29.77
+    }
+  ],
+  "num_hops": 30,
+  "success": false,
+  "method": "scapy",
+  "category": "government_local",
+  "base_domain": "kcg.gov.tw",
+  "service_variant": "smtp.kcg.gov.tw",
+  "is_bare_domain": false
+}

@@ -5156,3 +5156,43 @@
 2025-10-22 10:01:53,894 - INFO - Running: traceroute -w 3 -q 3 -m 30 -T -p 80 140.109.1.5
 2025-10-22 10:01:54,924 - INFO - Running: traceroute -w 3 -q 3 -m 30 -T -p 443 140.109.1.5
 2025-10-22 10:01:55,940 - INFO - Running: traceroute -w 3 -q 3 -m 30 -I 140.109.13.5
+2025-10-22 10:03:55,946 - ERROR - Traceroute to ns1.sinica.edu.tw timed out
+2025-10-22 10:03:56,954 - INFO - Running: traceroute -w 3 -q 3 -m 30 -T -p 80 140.109.13.5
+2025-10-22 10:03:57,979 - INFO - Running: traceroute -w 3 -q 3 -m 30 -T -p 443 140.109.13.5
+2025-10-22 10:03:59,003 - INFO - Running: traceroute -w 3 -q 3 -m 30 -I 103.130.253.5
+2025-10-22 10:04:01,560 - INFO - Found interesting router: csgate103.cs.ccu.edu.tw (140.123.103.250)
+2025-10-22 10:04:01,561 - INFO - Found interesting router: ccu-ccu-76.twaren.net (211.79.57.25)
+2025-10-22 10:04:01,561 - INFO - Found interesting router: tp-a1.twaren.net (211.73.76.209)
+2025-10-22 10:04:01,563 - INFO - Found interesting router: tp-a1.twaren.net (211.73.76.81)
+2025-10-22 10:04:01,563 - INFO - Found interesting router: tp-a2.twaren.net (211.73.76.66)
+2025-10-22 10:04:01,564 - INFO - Found interesting router: sinica-a1.twaren.net (211.73.76.98)
+2025-10-22 10:04:02,571 - INFO - Running: traceroute -w 3 -q 3 -m 30 -T -p 80 103.130.253.5
+2025-10-22 10:04:03,587 - INFO - Running: traceroute -w 3 -q 3 -m 30 -T -p 443 103.130.253.5
+2025-10-22 10:04:04,608 - INFO - Running: traceroute -w 3 -q 3 -m 30 -I 140.109.4.111
+2025-10-22 10:04:24,819 - INFO - Found interesting router: csgate103.cs.ccu.edu.tw (140.123.103.250)
+2025-10-22 10:04:24,821 - INFO - Found interesting router: app.sinica.edu.tw (140.109.4.111)
+2025-10-22 10:04:25,824 - INFO - Running: traceroute -w 3 -q 3 -m 30 -T -p 80 140.109.4.111
+2025-10-22 10:04:26,838 - INFO - Running: traceroute -w 3 -q 3 -m 30 -T -p 443 140.109.4.111
+2025-10-22 10:04:27,857 - INFO - Running: traceroute -w 3 -q 3 -m 30 -I 140.109.251.21
+2025-10-22 10:06:27,862 - ERROR - Traceroute to vpn.sinica.edu.tw timed out
+2025-10-22 10:06:28,870 - INFO - Running: traceroute -w 3 -q 3 -m 30 -T -p 80 140.109.251.21
+2025-10-22 10:06:29,890 - INFO - Running: traceroute -w 3 -q 3 -m 30 -T -p 443 140.109.251.21
+2025-10-22 10:06:31,305 - INFO - Summary saved to traceroute_data/summary_20251022_024308.json
+2025-10-22 10:06:31,337 - INFO - CSV exported to traceroute_data/traceroutes_20251022_024308.csv
+2025-10-22 10:06:31,357 - INFO - Interesting routers JSON saved to traceroute_data/interesting_routers_20251022_024308.json
+2025-10-22 10:06:31,360 - INFO - Interesting routers text file saved to traceroute_data/interesting_routers_20251022_024308.txt
+2025-10-22 10:06:31,419 - INFO - Loaded 1131 traceroute results
+2025-10-22 10:06:31,437 - INFO - Analysis report saved to traceroute_data/analysis_report_20251022_100631.txt
+2025-10-22 10:06:31,470 - INFO - Processing category: government_central
+2025-10-22 10:06:31,471 - INFO - Progress: 1/132 - president.gov.tw
+2025-10-22 10:06:34,208 - INFO - Found 2 reachable service(s) for president.gov.tw
+2025-10-22 10:06:34,211 - INFO - Running: traceroute -w 3 -q 3 -m 30 -I 203.66.34.43
+2025-10-22 10:06:43,539 - INFO - Found interesting router: csgate103.cs.ccu.edu.tw (140.123.103.250)
+2025-10-22 10:06:43,540 - INFO - Found interesting router: 211-22-226-198.caw1-3332.hinet.net (211.22.226.198)
+2025-10-22 10:06:43,540 - INFO - Found interesting router: 220-128-19-22.chch-3032.hinet.net (220.128.19.22)
+2025-10-22 10:06:43,540 - INFO - Found interesting router: 220-128-20-17.chch-3331.hinet.net (220.128.20.17)
+2025-10-22 10:06:43,540 - INFO - Found interesting router: pths-3502.hinet.net (211.22.228.141)
+2025-10-22 10:06:43,540 - INFO - Found interesting router: 203-66-34-43.hinet-ip.hinet.net (203.66.34.43)
+2025-10-22 10:06:44,546 - INFO - Running: traceroute -w 3 -q 3 -m 30 -T -p 80 203.66.34.43
+2025-10-22 10:06:45,564 - INFO - Running: traceroute -w 3 -q 3 -m 30 -T -p 443 203.66.34.43
+2025-10-22 10:06:46,584 - INFO - Running: traceroute -w 3 -q 3 -m 30 -I 4.216.205.136

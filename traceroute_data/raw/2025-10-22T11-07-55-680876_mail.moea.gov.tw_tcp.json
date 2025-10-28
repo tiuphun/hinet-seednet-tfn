@@ -1,0 +1,183 @@
+{
+  "timestamp": "2025-10-22T11:07:55.680876",
+  "vantage_point": "university",
+  "target": "mail.moea.gov.tw",
+  "target_ip": "211.72.250.1",
+  "protocol": "tcp",
+  "port": 80,
+  "duration_seconds": 21.26,
+  "hops": [
+    {
+      "hop": 1,
+      "ip": "192.168.50.1",
+      "hostname": null,
+      "rtts": [
+        26.55,
+        6.38,
+        7.61
+      ],
+      "timeout": false,
+      "avg_rtt": 13.51
+    },
+    {
+      "hop": 2,
+      "ip": "140.123.103.250",
+      "hostname": "csgate103.cs.ccu.edu.tw",
+      "rtts": [
+        10.45,
+        17.79,
+        9.27
+      ],
+      "timeout": false,
+      "avg_rtt": 12.5
+    },
+    {
+      "hop": 3,
+      "ip": "140.123.9.249",
+      "hostname": null,
+      "rtts": [
+        6.53,
+        7.29,
+        9.43
+      ],
+      "timeout": false,
+      "avg_rtt": 7.75
+    },
+    {
+      "hop": 4,
+      "ip": "140.123.0.246",
+      "hostname": null,
+      "rtts": [
+        8.18,
+        12.23,
+        17.2
+      ],
+      "timeout": false,
+      "avg_rtt": 12.54
+    },
+    {
+      "hop": 5,
+      "ip": "140.130.252.251",
+      "hostname": null,
+      "rtts": [
+        11.04,
+        18.16,
+        9.75
+      ],
+      "timeout": false,
+      "avg_rtt": 12.98
+    },
+    {
+      "hop": 6,
+      "ip": "211.22.226.198",
+      "hostname": "211-22-226-198.caw1-3332.hinet.net",
+      "rtts": [
+        10.16,
+        7.73,
+        13.41
+      ],
+      "timeout": false,
+      "avg_rtt": 10.43
+    },
+    {
+      "hop": 7,
+      "ip": null,
+      "hostname": null,
+      "rtts": [],
+      "timeout": true
+    },
+    {
+      "hop": 8,
+      "ip": null,
+      "hostname": null,
+      "rtts": [],
+      "timeout": true
+    },
+    {
+      "hop": 9,
+      "ip": "220.128.2.217",
+      "hostname": "220-128-2-217.tpdb-3335.hinet.net",
+      "rtts": [
+        23.89,
+        26.97,
+        24.37
+      ],
+      "timeout": false,
+      "avg_rtt": 25.08
+    },
+    {
+      "hop": 10,
+      "ip": "203.75.72.13",
+      "hostname": "tn-cd-c6r1.router.hinet.net",
+      "rtts": [
+        20.11,
+        16.51,
+        35.74
+      ],
+      "timeout": false,
+      "avg_rtt": 24.12
+    },
+    {
+      "hop": 11,
+      "ip": "203.75.250.225",
+      "hostname": null,
+      "rtts": [
+        12.38,
+        13.78,
+        14.15
+      ],
+      "timeout": false,
+      "avg_rtt": 13.44
+    },
+    {
+      "hop": 12,
+      "ip": "203.69.108.32",
+      "hostname": null,
+      "rtts": [
+        23.91,
+        16.76,
+        14.8
+      ],
+      "timeout": false,
+      "avg_rtt": 18.49
+    },
+    {
+      "hop": 13,
+      "ip": "61.220.56.69",
+      "hostname": null,
+      "rtts": [
+        46.86,
+        15.32,
+        32.46
+      ],
+      "timeout": false,
+      "avg_rtt": 31.55
+    },
+    {
+      "hop": 14,
+      "ip": null,
+      "hostname": null,
+      "rtts": [],
+      "timeout": true
+    },
+    {
+      "hop": 15,
+      "ip": "211.72.250.1",
+      "hostname": "mx.gov.mailcloud.tw",
+      "rtts": [
+        22.86,
+        28.49
+      ],
+      "timeout": false,
+      "reached_destination": true,
+      "avg_rtt": 25.67
+    }
+  ],
+  "num_hops": 15,
+  "success": true,
+  "method": "scapy",
+  "category": "government_central",
+  "base_domain": "moea.gov.tw",
+  "service_variant": "mail.moea.gov.tw",
+  "is_bare_domain": false
+}

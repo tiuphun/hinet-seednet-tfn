@@ -1,0 +1,345 @@
+{
+  "timestamp": "2025-10-22T20:20:46.702217",
+  "vantage_point": "university",
+  "target": "ns.immigration.gov.tw",
+  "target_ip": "210.241.79.7",
+  "protocol": "icmp",
+  "port": null,
+  "duration_seconds": 68.27,
+  "hops": [
+    {
+      "hop": 1,
+      "ip": "192.168.50.1",
+      "hostname": null,
+      "rtts": [
+        5.36,
+        4.7,
+        4.23
+      ],
+      "timeout": false,
+      "avg_rtt": 4.76
+    },
+    {
+      "hop": 2,
+      "ip": "140.123.103.250",
+      "hostname": "csgate103.cs.ccu.edu.tw",
+      "rtts": [
+        4.92,
+        8.28,
+        4.4
+      ],
+      "timeout": false,
+      "avg_rtt": 5.87
+    },
+    {
+      "hop": 3,
+      "ip": "140.123.9.249",
+      "hostname": null,
+      "rtts": [
+        4.58,
+        4.32,
+        6.99
+      ],
+      "timeout": false,
+      "avg_rtt": 5.3
+    },
+    {
+      "hop": 4,
+      "ip": "140.123.0.246",
+      "hostname": null,
+      "rtts": [
+        8.67,
+        5.58,
+        4.8
+      ],
+      "timeout": false,
+      "avg_rtt": 6.35
+    },
+    {
+      "hop": 5,
+      "ip": "140.130.252.251",
+      "hostname": null,
+      "rtts": [
+        20.69,
+        6.18,
+        7.61
+      ],
+      "timeout": false,
+      "avg_rtt": 11.49
+    },
+    {
+      "hop": 6,
+      "ip": "192.192.61.142",
+      "hostname": null,
+      "rtts": [
+        29.82,
+        7.6,
+        11.2
+      ],
+      "timeout": false,
+      "avg_rtt": 16.21
+    },
+    {
+      "hop": 7,
+      "ip": "192.192.61.37",
+      "hostname": null,
+      "rtts": [
+        9.37,
+        10.99,
+        25.01
+      ],
+      "timeout": false,
+      "avg_rtt": 15.12
+    },
+    {
+      "hop": 8,
+      "ip": "192.192.61.32",
+      "hostname": null,
+      "rtts": [
+        12.75,
+        24.8,
+        10.9
+      ],
+      "timeout": false,
+      "avg_rtt": 16.15
+    },
+    {
+      "hop": 9,
+      "ip": "192.192.61.209",
+      "hostname": null,
+      "rtts": [
+        10.38,
+        10.73,
+        9.72
+      ],
+      "timeout": false,
+      "avg_rtt": 10.28
+    },
+    {
+      "hop": 10,
+      "ip": "10.96.81.12",
+      "hostname": null,
+      "rtts": [
+        15.25,
+        20.46
+      ],
+      "timeout": false,
+      "avg_rtt": 17.86
+    },
+    {
+      "hop": 11,
+      "ip": "10.96.81.12",
+      "hostname": null,
+      "rtts": [
+        13.26
+      ],
+      "timeout": false,
+      "avg_rtt": 13.26
+    },
+    {
+      "hop": 12,
+      "ip": "10.96.81.12",
+      "hostname": null,
+      "rtts": [
+        22.54,
+        23.99
+      ],
+      "timeout": false,
+      "avg_rtt": 23.27
+    },
+    {
+      "hop": 13,
+      "ip": "10.96.81.12",
+      "hostname": null,
+      "rtts": [
+        36.02
+      ],
+      "timeout": false,
+      "avg_rtt": 36.02
+    },
+    {
+      "hop": 14,
+      "ip": "10.96.81.12",
+      "hostname": null,
+      "rtts": [
+        46.55,
+        18.43
+      ],
+      "timeout": false,
+      "avg_rtt": 32.49
+    },
+    {
+      "hop": 15,
+      "ip": "10.96.81.12",
+      "hostname": null,
+      "rtts": [
+        17.94
+      ],
+      "timeout": false,
+      "avg_rtt": 17.94
+    },
+    {
+      "hop": 16,
+      "ip": "10.96.81.12",
+      "hostname": null,
+      "rtts": [
+        46.23
+      ],
+      "timeout": false,
+      "avg_rtt": 46.23
+    },
+    {
+      "hop": 17,
+      "ip": "10.96.81.12",
+      "hostname": null,
+      "rtts": [
+        14.15
+      ],
+      "timeout": false,
+      "avg_rtt": 14.15
+    },
+    {
+      "hop": 18,
+      "ip": "10.96.81.12",
+      "hostname": null,
+      "rtts": [
+        14.29
+      ],
+      "timeout": false,
+      "avg_rtt": 14.29
+    },
+    {
+      "hop": 19,
+      "ip": "10.96.81.12",
+      "hostname": null,
+      "rtts": [
+        14.54
+      ],
+      "timeout": false,
+      "avg_rtt": 14.54
+    },
+    {
+      "hop": 20,
+      "ip": "10.96.81.12",
+      "hostname": null,
+      "rtts": [
+        50.44,
+        45.97
+      ],
+      "timeout": false,
+      "avg_rtt": 48.2
+    },
+    {
+      "hop": 21,
+      "ip": "10.96.81.12",
+      "hostname": null,
+      "rtts": [
+        36.25
+      ],
+      "timeout": false,
+      "avg_rtt": 36.25
+    },
+    {
+      "hop": 22,
+      "ip": "10.96.81.12",
+      "hostname": null,
+      "rtts": [
+        21.57,
+        48.52
+      ],
+      "timeout": false,
+      "avg_rtt": 35.05
+    },
+    {
+      "hop": 23,
+      "ip": "10.96.81.12",
+      "hostname": null,
+      "rtts": [
+        22.9
+      ],
+      "timeout": false,
+      "avg_rtt": 22.9
+    },
+    {
+      "hop": 24,
+      "ip": "10.96.81.12",
+      "hostname": null,
+      "rtts": [
+        16.91,
+        31.38
+      ],
+      "timeout": false,
+      "avg_rtt": 24.14
+    },
+    {
+      "hop": 25,
+      "ip": "10.96.81.12",
+      "hostname": null,
+      "rtts": [
+        26.16
+      ],
+      "timeout": false,
+      "avg_rtt": 26.16
+    },
+    {
+      "hop": 26,
+      "ip": "10.96.81.12",
+      "hostname": null,
+      "rtts": [
+        25.03,
+        24.27
+      ],
+      "timeout": false,
+      "avg_rtt": 24.65
+    },
+    {
+      "hop": 27,
+      "ip": "10.96.81.12",
+      "hostname": null,
+      "rtts": [
+        22.34
+      ],
+      "timeout": false,
+      "avg_rtt": 22.34
+    },
+    {
+      "hop": 28,
+      "ip": "10.96.81.12",
+      "hostname": null,
+      "rtts": [
+        20.8,
+        32.0
+      ],
+      "timeout": false,
+      "avg_rtt": 26.4
+    },
+    {
+      "hop": 29,
+      "ip": "10.96.81.12",
+      "hostname": null,
+      "rtts": [
+        26.99
+      ],
+      "timeout": false,
+      "avg_rtt": 26.99
+    },
+    {
+      "hop": 30,
+      "ip": "10.96.81.12",
+      "hostname": null,
+      "rtts": [
+        16.12,
+        19.28
+      ],
+      "timeout": false,
+      "avg_rtt": 17.7
+    }
+  ],
+  "num_hops": 30,
+  "success": false,
+  "method": "scapy",
+  "category": "government_critical",
+  "base_domain": "immigration.gov.tw",
+  "service_variant": "ns.immigration.gov.tw",
+  "is_bare_domain": false
+}

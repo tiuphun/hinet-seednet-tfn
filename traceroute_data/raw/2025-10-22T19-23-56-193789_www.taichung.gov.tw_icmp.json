@@ -1,0 +1,148 @@
+{
+  "timestamp": "2025-10-22T19:23:56.193789",
+  "vantage_point": "university",
+  "target": "www.taichung.gov.tw",
+  "target_ip": "203.66.32.135",
+  "protocol": "icmp",
+  "port": null,
+  "duration_seconds": 21.13,
+  "hops": [
+    {
+      "hop": 1,
+      "ip": "192.168.50.1",
+      "hostname": null,
+      "rtts": [
+        5.46,
+        7.9,
+        11.45
+      ],
+      "timeout": false,
+      "avg_rtt": 8.27
+    },
+    {
+      "hop": 2,
+      "ip": "140.123.103.250",
+      "hostname": "csgate103.cs.ccu.edu.tw",
+      "rtts": [
+        4.75,
+        34.21,
+        4.82
+      ],
+      "timeout": false,
+      "avg_rtt": 14.59
+    },
+    {
+      "hop": 3,
+      "ip": "140.123.9.249",
+      "hostname": null,
+      "rtts": [
+        4.46,
+        4.12,
+        4.55
+      ],
+      "timeout": false,
+      "avg_rtt": 4.38
+    },
+    {
+      "hop": 4,
+      "ip": "140.123.0.246",
+      "hostname": null,
+      "rtts": [
+        5.39,
+        4.67,
+        4.97
+      ],
+      "timeout": false,
+      "avg_rtt": 5.01
+    },
+    {
+      "hop": 5,
+      "ip": "140.130.252.251",
+      "hostname": null,
+      "rtts": [
+        6.86,
+        17.65,
+        6.77
+      ],
+      "timeout": false,
+      "avg_rtt": 10.43
+    },
+    {
+      "hop": 6,
+      "ip": "211.22.226.198",
+      "hostname": "211-22-226-198.caw1-3332.hinet.net",
+      "rtts": [
+        6.89,
+        5.39,
+        9.41
+      ],
+      "timeout": false,
+      "avg_rtt": 7.23
+    },
+    {
+      "hop": 7,
+      "ip": null,
+      "hostname": null,
+      "rtts": [],
+      "timeout": true
+    },
+    {
+      "hop": 8,
+      "ip": null,
+      "hostname": null,
+      "rtts": [],
+      "timeout": true
+    },
+    {
+      "hop": 9,
+      "ip": null,
+      "hostname": null,
+      "rtts": [],
+      "timeout": true
+    },
+    {
+      "hop": 10,
+      "ip": "220.128.13.133",
+      "hostname": "220-128-13-133.tpn2-3301.hinet.net",
+      "rtts": [
+        26.91,
+        15.57,
+        17.43
+      ],
+      "timeout": false,
+      "avg_rtt": 19.97
+    },
+    {
+      "hop": 11,
+      "ip": "211.22.224.137",
+      "hostname": "211-22-224-137.hinet-ip.hinet.net",
+      "rtts": [
+        14.71,
+        16.21,
+        16.0
+      ],
+      "timeout": false,
+      "avg_rtt": 15.64
+    },
+    {
+      "hop": 12,
+      "ip": "203.66.32.135",
+      "hostname": "203-66-32-135.hinet-ip.hinet.net",
+      "rtts": [
+        14.38,
+        14.96,
+        12.08
+      ],
+      "timeout": false,
+      "reached_destination": true,
+      "avg_rtt": 13.81
+    }
+  ],
+  "num_hops": 12,
+  "success": true,
+  "method": "scapy",
+  "category": "government_local",
+  "base_domain": "taichung.gov.tw",
+  "service_variant": "www.taichung.gov.tw",
+  "is_bare_domain": false
+}

@@ -1,0 +1,308 @@
+{
+  "timestamp": "2025-10-22T19:53:02.803186",
+  "vantage_point": "university",
+  "target": "ns1.chcg.gov.tw",
+  "target_ip": "210.69.54.171",
+  "protocol": "tcp",
+  "port": 80,
+  "duration_seconds": 86.68,
+  "hops": [
+    {
+      "hop": 1,
+      "ip": "192.168.50.1",
+      "hostname": null,
+      "rtts": [
+        26.76,
+        10.19,
+        10.55
+      ],
+      "timeout": false,
+      "avg_rtt": 15.83
+    },
+    {
+      "hop": 2,
+      "ip": "140.123.103.250",
+      "hostname": "csgate103.cs.ccu.edu.tw",
+      "rtts": [
+        6.01,
+        20.64,
+        9.65
+      ],
+      "timeout": false,
+      "avg_rtt": 12.1
+    },
+    {
+      "hop": 3,
+      "ip": "140.123.9.249",
+      "hostname": null,
+      "rtts": [
+        7.78,
+        8.48,
+        9.19
+      ],
+      "timeout": false,
+      "avg_rtt": 8.48
+    },
+    {
+      "hop": 4,
+      "ip": "140.123.0.246",
+      "hostname": null,
+      "rtts": [
+        11.33,
+        11.13,
+        9.42
+      ],
+      "timeout": false,
+      "avg_rtt": 10.63
+    },
+    {
+      "hop": 5,
+      "ip": "140.130.252.251",
+      "hostname": null,
+      "rtts": [
+        9.04,
+        14.51,
+        18.51
+      ],
+      "timeout": false,
+      "avg_rtt": 14.02
+    },
+    {
+      "hop": 6,
+      "ip": "192.192.61.142",
+      "hostname": null,
+      "rtts": [
+        9.62,
+        14.74,
+        21.36
+      ],
+      "timeout": false,
+      "avg_rtt": 15.24
+    },
+    {
+      "hop": 7,
+      "ip": "192.192.61.37",
+      "hostname": null,
+      "rtts": [
+        13.63,
+        21.0,
+        16.92
+      ],
+      "timeout": false,
+      "avg_rtt": 17.18
+    },
+    {
+      "hop": 8,
+      "ip": "192.192.61.32",
+      "hostname": null,
+      "rtts": [
+        11.89,
+        47.17,
+        12.36
+      ],
+      "timeout": false,
+      "avg_rtt": 23.81
+    },
+    {
+      "hop": 9,
+      "ip": "192.192.61.209",
+      "hostname": null,
+      "rtts": [
+        19.4,
+        16.3,
+        19.26
+      ],
+      "timeout": false,
+      "avg_rtt": 18.32
+    },
+    {
+      "hop": 10,
+      "ip": "10.96.81.12",
+      "hostname": null,
+      "rtts": [
+        44.24,
+        27.58,
+        26.47
+      ],
+      "timeout": false,
+      "avg_rtt": 32.76
+    },
+    {
+      "hop": 11,
+      "ip": "210.69.250.126",
+      "hostname": "210-69-250-126.hinet-ip.hinet.net",
+      "rtts": [
+        16.74,
+        15.43,
+        16.48
+      ],
+      "timeout": false,
+      "avg_rtt": 16.22
+    },
+    {
+      "hop": 12,
+      "ip": "210.69.253.186",
+      "hostname": "210-69-253-186.hinet-ip.hinet.net",
+      "rtts": [
+        21.52,
+        32.65,
+        41.07
+      ],
+      "timeout": false,
+      "avg_rtt": 31.75
+    },
+    {
+      "hop": 13,
+      "ip": "210.69.221.61",
+      "hostname": "210-69-221-61.hinet-ip.hinet.net",
+      "rtts": [
+        27.01,
+        17.99,
+        26.27
+      ],
+      "timeout": false,
+      "avg_rtt": 23.76
+    },
+    {
+      "hop": 14,
+      "ip": "210.69.253.138",
+      "hostname": "210-69-253-138.hinet-ip.hinet.net",
+      "rtts": [
+        40.67,
+        21.22,
+        27.76
+      ],
+      "timeout": false,
+      "avg_rtt": 29.88
+    },
+    {
+      "hop": 15,
+      "ip": "210.241.29.133",
+      "hostname": null,
+      "rtts": [
+        21.56,
+        15.11,
+        17.47
+      ],
+      "timeout": false,
+      "avg_rtt": 18.05
+    },
+    {
+      "hop": 16,
+      "ip": "210.69.54.126",
+      "hostname": null,
+      "rtts": [
+        48.85,
+        22.03,
+        20.15
+      ],
+      "timeout": false,
+      "avg_rtt": 30.34
+    },
+    {
+      "hop": 17,
+      "ip": null,
+      "hostname": null,
+      "rtts": [],
+      "timeout": true
+    },
+    {
+      "hop": 18,
+      "ip": null,
+      "hostname": null,
+      "rtts": [],
+      "timeout": true
+    },
+    {
+      "hop": 19,
+      "ip": null,
+      "hostname": null,
+      "rtts": [],
+      "timeout": true
+    },
+    {
+      "hop": 20,
+      "ip": null,
+      "hostname": null,
+      "rtts": [],
+      "timeout": true
+    },
+    {
+      "hop": 21,
+      "ip": null,
+      "hostname": null,
+      "rtts": [],
+      "timeout": true
+    },
+    {
+      "hop": 22,
+      "ip": null,
+      "hostname": null,
+      "rtts": [],
+      "timeout": true
+    },
+    {
+      "hop": 23,
+      "ip": null,
+      "hostname": null,
+      "rtts": [],
+      "timeout": true
+    },
+    {
+      "hop": 24,
+      "ip": null,
+      "hostname": null,
+      "rtts": [],
+      "timeout": true
+    },
+    {
+      "hop": 25,
+      "ip": null,
+      "hostname": null,
+      "rtts": [],
+      "timeout": true
+    },
+    {
+      "hop": 26,
+      "ip": null,
+      "hostname": null,
+      "rtts": [],
+      "timeout": true
+    },
+    {
+      "hop": 27,
+      "ip": null,
+      "hostname": null,
+      "rtts": [],
+      "timeout": true
+    },
+    {
+      "hop": 28,
+      "ip": null,
+      "hostname": null,
+      "rtts": [],
+      "timeout": true
+    },
+    {
+      "hop": 29,
+      "ip": null,
+      "hostname": null,
+      "rtts": [],
+      "timeout": true
+    },
+    {
+      "hop": 30,
+      "ip": null,
+      "hostname": null,
+      "rtts": [],
+      "timeout": true
+    }
+  ],
+  "num_hops": 30,
+  "success": false,
+  "method": "scapy",
+  "category": "government_local",
+  "base_domain": "chcg.gov.tw",
+  "service_variant": "ns1.chcg.gov.tw",
+  "is_bare_domain": false
+}

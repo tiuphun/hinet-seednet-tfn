@@ -1,0 +1,346 @@
+{
+  "timestamp": "2025-10-22T18:09:14.982125",
+  "vantage_point": "university",
+  "target": "motc.gov.tw",
+  "target_ip": "210.69.99.1",
+  "protocol": "icmp",
+  "port": null,
+  "duration_seconds": 66.26,
+  "hops": [
+    {
+      "hop": 1,
+      "ip": "192.168.50.1",
+      "hostname": null,
+      "rtts": [
+        10.76,
+        4.18,
+        3.94
+      ],
+      "timeout": false,
+      "avg_rtt": 6.29
+    },
+    {
+      "hop": 2,
+      "ip": "140.123.103.250",
+      "hostname": "csgate103.cs.ccu.edu.tw",
+      "rtts": [
+        8.08,
+        4.31,
+        5.68
+      ],
+      "timeout": false,
+      "avg_rtt": 6.02
+    },
+    {
+      "hop": 3,
+      "ip": "140.123.9.249",
+      "hostname": null,
+      "rtts": [
+        6.7,
+        4.67,
+        4.45
+      ],
+      "timeout": false,
+      "avg_rtt": 5.27
+    },
+    {
+      "hop": 4,
+      "ip": "140.123.0.246",
+      "hostname": null,
+      "rtts": [
+        5.56,
+        8.32,
+        5.62
+      ],
+      "timeout": false,
+      "avg_rtt": 6.5
+    },
+    {
+      "hop": 5,
+      "ip": "140.130.252.251",
+      "hostname": null,
+      "rtts": [
+        10.55,
+        10.1,
+        12.84
+      ],
+      "timeout": false,
+      "avg_rtt": 11.16
+    },
+    {
+      "hop": 6,
+      "ip": "192.192.61.142",
+      "hostname": null,
+      "rtts": [
+        17.5,
+        8.57,
+        12.78
+      ],
+      "timeout": false,
+      "avg_rtt": 12.95
+    },
+    {
+      "hop": 7,
+      "ip": "192.192.61.9",
+      "hostname": null,
+      "rtts": [
+        9.57,
+        17.92,
+        23.83
+      ],
+      "timeout": false,
+      "avg_rtt": 17.11
+    },
+    {
+      "hop": 8,
+      "ip": "192.192.61.30",
+      "hostname": null,
+      "rtts": [
+        8.79,
+        8.52,
+        8.24
+      ],
+      "timeout": false,
+      "avg_rtt": 8.52
+    },
+    {
+      "hop": 9,
+      "ip": "192.192.61.4",
+      "hostname": null,
+      "rtts": [
+        10.07,
+        14.45,
+        10.06
+      ],
+      "timeout": false,
+      "avg_rtt": 11.53
+    },
+    {
+      "hop": 10,
+      "ip": "192.192.61.209",
+      "hostname": null,
+      "rtts": [
+        8.01,
+        8.99,
+        19.86
+      ],
+      "timeout": false,
+      "avg_rtt": 12.29
+    },
+    {
+      "hop": 11,
+      "ip": "10.96.81.12",
+      "hostname": null,
+      "rtts": [
+        14.32,
+        15.34
+      ],
+      "timeout": false,
+      "avg_rtt": 14.83
+    },
+    {
+      "hop": 12,
+      "ip": "10.96.81.12",
+      "hostname": null,
+      "rtts": [
+        47.02
+      ],
+      "timeout": false,
+      "avg_rtt": 47.02
+    },
+    {
+      "hop": 13,
+      "ip": "10.96.81.12",
+      "hostname": null,
+      "rtts": [
+        55.54
+      ],
+      "timeout": false,
+      "avg_rtt": 55.54
+    },
+    {
+      "hop": 14,
+      "ip": "10.96.81.12",
+      "hostname": null,
+      "rtts": [
+        20.15
+      ],
+      "timeout": false,
+      "avg_rtt": 20.15
+    },
+    {
+      "hop": 15,
+      "ip": "10.96.81.12",
+      "hostname": null,
+      "rtts": [
+        23.2,
+        23.58
+      ],
+      "timeout": false,
+      "avg_rtt": 23.39
+    },
+    {
+      "hop": 16,
+      "ip": "10.96.81.12",
+      "hostname": null,
+      "rtts": [
+        18.22
+      ],
+      "timeout": false,
+      "avg_rtt": 18.22
+    },
+    {
+      "hop": 17,
+      "ip": "10.96.81.12",
+      "hostname": null,
+      "rtts": [
+        23.52
+      ],
+      "timeout": false,
+      "avg_rtt": 23.52
+    },
+    {
+      "hop": 18,
+      "ip": "10.96.81.12",
+      "hostname": null,
+      "rtts": [
+        17.6
+      ],
+      "timeout": false,
+      "avg_rtt": 17.6
+    },
+    {
+      "hop": 19,
+      "ip": "10.96.81.12",
+      "hostname": null,
+      "rtts": [
+        20.59,
+        19.15
+      ],
+      "timeout": false,
+      "avg_rtt": 19.87
+    },
+    {
+      "hop": 20,
+      "ip": "10.96.81.12",
+      "hostname": null,
+      "rtts": [
+        11.27
+      ],
+      "timeout": false,
+      "avg_rtt": 11.27
+    },
+    {
+      "hop": 21,
+      "ip": "10.96.81.12",
+      "hostname": null,
+      "rtts": [
+        27.94,
+        31.89
+      ],
+      "timeout": false,
+      "avg_rtt": 29.91
+    },
+    {
+      "hop": 22,
+      "ip": "10.96.81.12",
+      "hostname": null,
+      "rtts": [
+        34.56
+      ],
+      "timeout": false,
+      "avg_rtt": 34.56
+    },
+    {
+      "hop": 23,
+      "ip": "10.96.81.12",
+      "hostname": null,
+      "rtts": [
+        13.26,
+        15.68
+      ],
+      "timeout": false,
+      "avg_rtt": 14.47
+    },
+    {
+      "hop": 24,
+      "ip": "10.96.81.12",
+      "hostname": null,
+      "rtts": [
+        12.54
+      ],
+      "timeout": false,
+      "avg_rtt": 12.54
+    },
+    {
+      "hop": 25,
+      "ip": "10.96.81.12",
+      "hostname": null,
+      "rtts": [
+        18.78,
+        13.29
+      ],
+      "timeout": false,
+      "avg_rtt": 16.04
+    },
+    {
+      "hop": 26,
+      "ip": "10.96.81.12",
+      "hostname": null,
+      "rtts": [
+        11.49
+      ],
+      "timeout": false,
+      "avg_rtt": 11.49
+    },
+    {
+      "hop": 27,
+      "ip": "10.96.81.12",
+      "hostname": null,
+      "rtts": [
+        14.35,
+        12.27
+      ],
+      "timeout": false,
+      "avg_rtt": 13.31
+    },
+    {
+      "hop": 28,
+      "ip": "10.96.81.12",
+      "hostname": null,
+      "rtts": [
+        34.02
+      ],
+      "timeout": false,
+      "avg_rtt": 34.02
+    },
+    {
+      "hop": 29,
+      "ip": "10.96.81.12",
+      "hostname": null,
+      "rtts": [
+        25.56,
+        107.21
+      ],
+      "timeout": false,
+      "avg_rtt": 66.38
+    },
+    {
+      "hop": 30,
+      "ip": "10.96.81.12",
+      "hostname": null,
+      "rtts": [
+        22.37
+      ],
+      "timeout": false,
+      "avg_rtt": 22.37
+    }
+  ],
+  "num_hops": 30,
+  "success": false,
+  "method": "scapy",
+  "category": "government_central",
+  "base_domain": "motc.gov.tw",
+  "service_variant": "motc.gov.tw",
+  "is_bare_domain": true
+}

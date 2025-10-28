@@ -1,0 +1,343 @@
+{
+  "timestamp": "2025-10-22T14:18:42.046104",
+  "vantage_point": "university",
+  "target": "mail.taichung.gov.tw",
+  "target_ip": "210.69.115.235",
+  "protocol": "icmp",
+  "port": null,
+  "duration_seconds": 72.06,
+  "hops": [
+    {
+      "hop": 1,
+      "ip": "192.168.50.1",
+      "hostname": null,
+      "rtts": [
+        14.93,
+        5.28,
+        4.55
+      ],
+      "timeout": false,
+      "avg_rtt": 8.25
+    },
+    {
+      "hop": 2,
+      "ip": "140.123.103.250",
+      "hostname": "csgate103.cs.ccu.edu.tw",
+      "rtts": [
+        5.96,
+        5.27,
+        4.66
+      ],
+      "timeout": false,
+      "avg_rtt": 5.3
+    },
+    {
+      "hop": 3,
+      "ip": "140.123.9.249",
+      "hostname": null,
+      "rtts": [
+        6.82,
+        4.79,
+        5.12
+      ],
+      "timeout": false,
+      "avg_rtt": 5.58
+    },
+    {
+      "hop": 4,
+      "ip": "140.123.0.246",
+      "hostname": null,
+      "rtts": [
+        9.81,
+        4.6,
+        7.39
+      ],
+      "timeout": false,
+      "avg_rtt": 7.27
+    },
+    {
+      "hop": 5,
+      "ip": "140.130.252.251",
+      "hostname": null,
+      "rtts": [
+        14.64,
+        7.53,
+        12.75
+      ],
+      "timeout": false,
+      "avg_rtt": 11.64
+    },
+    {
+      "hop": 6,
+      "ip": "192.192.61.142",
+      "hostname": null,
+      "rtts": [
+        7.38,
+        7.63,
+        9.38
+      ],
+      "timeout": false,
+      "avg_rtt": 8.13
+    },
+    {
+      "hop": 7,
+      "ip": "192.192.61.37",
+      "hostname": null,
+      "rtts": [
+        10.37,
+        12.65,
+        12.27
+      ],
+      "timeout": false,
+      "avg_rtt": 11.76
+    },
+    {
+      "hop": 8,
+      "ip": "192.192.61.32",
+      "hostname": null,
+      "rtts": [
+        13.37,
+        11.21,
+        10.12
+      ],
+      "timeout": false,
+      "avg_rtt": 11.57
+    },
+    {
+      "hop": 9,
+      "ip": "192.192.61.209",
+      "hostname": null,
+      "rtts": [
+        16.43,
+        25.4,
+        15.65
+      ],
+      "timeout": false,
+      "avg_rtt": 19.16
+    },
+    {
+      "hop": 10,
+      "ip": "10.96.81.12",
+      "hostname": null,
+      "rtts": [
+        12.03,
+        19.78
+      ],
+      "timeout": false,
+      "avg_rtt": 15.91
+    },
+    {
+      "hop": 11,
+      "ip": "10.96.81.12",
+      "hostname": null,
+      "rtts": [
+        21.88
+      ],
+      "timeout": false,
+      "avg_rtt": 21.88
+    },
+    {
+      "hop": 12,
+      "ip": "10.96.81.12",
+      "hostname": null,
+      "rtts": [
+        17.88,
+        15.2
+      ],
+      "timeout": false,
+      "avg_rtt": 16.54
+    },
+    {
+      "hop": 13,
+      "ip": "10.96.81.12",
+      "hostname": null,
+      "rtts": [
+        20.98
+      ],
+      "timeout": false,
+      "avg_rtt": 20.98
+    },
+    {
+      "hop": 14,
+      "ip": "10.96.81.12",
+      "hostname": null,
+      "rtts": [
+        15.2
+      ],
+      "timeout": false,
+      "avg_rtt": 15.2
+    },
+    {
+      "hop": 15,
+      "ip": "10.96.81.12",
+      "hostname": null,
+      "rtts": [
+        12.72
+      ],
+      "timeout": false,
+      "avg_rtt": 12.72
+    },
+    {
+      "hop": 16,
+      "ip": "10.96.81.12",
+      "hostname": null,
+      "rtts": [
+        18.19,
+        19.28
+      ],
+      "timeout": false,
+      "avg_rtt": 18.73
+    },
+    {
+      "hop": 17,
+      "ip": "10.96.81.12",
+      "hostname": null,
+      "rtts": [
+        17.66
+      ],
+      "timeout": false,
+      "avg_rtt": 17.66
+    },
+    {
+      "hop": 18,
+      "ip": "10.96.81.12",
+      "hostname": null,
+      "rtts": [
+        12.12,
+        21.96
+      ],
+      "timeout": false,
+      "avg_rtt": 17.04
+    },
+    {
+      "hop": 19,
+      "ip": "10.96.81.12",
+      "hostname": null,
+      "rtts": [
+        18.85
+      ],
+      "timeout": false,
+      "avg_rtt": 18.85
+    },
+    {
+      "hop": 20,
+      "ip": "10.96.81.12",
+      "hostname": null,
+      "rtts": [
+        16.19,
+        36.06
+      ],
+      "timeout": false,
+      "avg_rtt": 26.12
+    },
+    {
+      "hop": 21,
+      "ip": "10.96.81.12",
+      "hostname": null,
+      "rtts": [
+        13.63
+      ],
+      "timeout": false,
+      "avg_rtt": 13.63
+    },
+    {
+      "hop": 22,
+      "ip": "10.96.81.12",
+      "hostname": null,
+      "rtts": [
+        28.63,
+        12.23
+      ],
+      "timeout": false,
+      "avg_rtt": 20.43
+    },
+    {
+      "hop": 23,
+      "ip": "10.96.81.12",
+      "hostname": null,
+      "rtts": [
+        15.31
+      ],
+      "timeout": false,
+      "avg_rtt": 15.31
+    },
+    {
+      "hop": 24,
+      "ip": "10.96.81.12",
+      "hostname": null,
+      "rtts": [
+        53.07
+      ],
+      "timeout": false,
+      "avg_rtt": 53.07
+    },
+    {
+      "hop": 25,
+      "ip": "10.96.81.12",
+      "hostname": null,
+      "rtts": [
+        50.1
+      ],
+      "timeout": false,
+      "avg_rtt": 50.1
+    },
+    {
+      "hop": 26,
+      "ip": "10.96.81.12",
+      "hostname": null,
+      "rtts": [
+        20.1
+      ],
+      "timeout": false,
+      "avg_rtt": 20.1
+    },
+    {
+      "hop": 27,
+      "ip": "10.96.81.12",
+      "hostname": null,
+      "rtts": [
+        14.38,
+        23.28
+      ],
+      "timeout": false,
+      "avg_rtt": 18.83
+    },
+    {
+      "hop": 28,
+      "ip": "10.96.81.12",
+      "hostname": null,
+      "rtts": [
+        20.36
+      ],
+      "timeout": false,
+      "avg_rtt": 20.36
+    },
+    {
+      "hop": 29,
+      "ip": "10.96.81.12",
+      "hostname": null,
+      "rtts": [
+        11.4
+      ],
+      "timeout": false,
+      "avg_rtt": 11.4
+    },
+    {
+      "hop": 30,
+      "ip": "10.96.81.12",
+      "hostname": null,
+      "rtts": [
+        20.19
+      ],
+      "timeout": false,
+      "avg_rtt": 20.19
+    }
+  ],
+  "num_hops": 30,
+  "success": false,
+  "method": "scapy",
+  "category": "government_local",
+  "base_domain": "taichung.gov.tw",
+  "service_variant": "mail.taichung.gov.tw",
+  "is_bare_domain": false
+}

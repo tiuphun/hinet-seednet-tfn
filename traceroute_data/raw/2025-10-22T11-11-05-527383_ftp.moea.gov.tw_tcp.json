@@ -1,0 +1,350 @@
+{
+  "timestamp": "2025-10-22T11:11:05.527383",
+  "vantage_point": "university",
+  "target": "ftp.moea.gov.tw",
+  "target_ip": "210.69.122.2",
+  "protocol": "tcp",
+  "port": 80,
+  "duration_seconds": 77.5,
+  "hops": [
+    {
+      "hop": 1,
+      "ip": "192.168.50.1",
+      "hostname": null,
+      "rtts": [
+        4.5,
+        13.8,
+        5.76
+      ],
+      "timeout": false,
+      "avg_rtt": 8.02
+    },
+    {
+      "hop": 2,
+      "ip": "140.123.103.250",
+      "hostname": "csgate103.cs.ccu.edu.tw",
+      "rtts": [
+        7.68,
+        8.45,
+        16.72
+      ],
+      "timeout": false,
+      "avg_rtt": 10.95
+    },
+    {
+      "hop": 3,
+      "ip": "140.123.9.249",
+      "hostname": null,
+      "rtts": [
+        10.89,
+        11.41,
+        11.82
+      ],
+      "timeout": false,
+      "avg_rtt": 11.37
+    },
+    {
+      "hop": 4,
+      "ip": "140.123.0.246",
+      "hostname": null,
+      "rtts": [
+        17.81,
+        30.51,
+        13.79
+      ],
+      "timeout": false,
+      "avg_rtt": 20.7
+    },
+    {
+      "hop": 5,
+      "ip": "140.130.252.251",
+      "hostname": null,
+      "rtts": [
+        21.7,
+        29.42,
+        6.41
+      ],
+      "timeout": false,
+      "avg_rtt": 19.18
+    },
+    {
+      "hop": 6,
+      "ip": "192.192.61.142",
+      "hostname": null,
+      "rtts": [
+        15.65,
+        12.85,
+        9.55
+      ],
+      "timeout": false,
+      "avg_rtt": 12.68
+    },
+    {
+      "hop": 7,
+      "ip": "192.192.61.9",
+      "hostname": null,
+      "rtts": [
+        8.19,
+        23.58,
+        9.48
+      ],
+      "timeout": false,
+      "avg_rtt": 13.75
+    },
+    {
+      "hop": 8,
+      "ip": "192.192.61.30",
+      "hostname": null,
+      "rtts": [
+        19.9,
+        14.66,
+        9.47
+      ],
+      "timeout": false,
+      "avg_rtt": 14.68
+    },
+    {
+      "hop": 9,
+      "ip": "192.192.61.4",
+      "hostname": null,
+      "rtts": [
+        22.87,
+        44.37,
+        10.18
+      ],
+      "timeout": false,
+      "avg_rtt": 25.81
+    },
+    {
+      "hop": 10,
+      "ip": "192.192.61.209",
+      "hostname": null,
+      "rtts": [
+        10.43,
+        12.03,
+        14.64
+      ],
+      "timeout": false,
+      "avg_rtt": 12.37
+    },
+    {
+      "hop": 11,
+      "ip": "10.96.81.12",
+      "hostname": null,
+      "rtts": [
+        21.66,
+        23.6,
+        19.21
+      ],
+      "timeout": false,
+      "avg_rtt": 21.49
+    },
+    {
+      "hop": 12,
+      "ip": "210.69.250.126",
+      "hostname": "210-69-250-126.hinet-ip.hinet.net",
+      "rtts": [
+        18.64,
+        17.06,
+        21.85
+      ],
+      "timeout": false,
+      "avg_rtt": 19.18
+    },
+    {
+      "hop": 13,
+      "ip": null,
+      "hostname": null,
+      "rtts": [],
+      "timeout": true
+    },
+    {
+      "hop": 14,
+      "ip": "210.69.8.17",
+      "hostname": "210-69-8-17.hinet-ip.hinet.net",
+      "rtts": [
+        166.72,
+        79.49,
+        45.79
+      ],
+      "timeout": false,
+      "avg_rtt": 97.33
+    },
+    {
+      "hop": 15,
+      "ip": "223.200.89.126",
+      "hostname": "223-200-89-126.hinet-ip.hinet.net",
+      "rtts": [
+        91.88,
+        38.39,
+        41.17
+      ],
+      "timeout": false,
+      "avg_rtt": 57.15
+    },
+    {
+      "hop": 16,
+      "ip": "223.200.89.126",
+      "hostname": "223-200-89-126.hinet-ip.hinet.net",
+      "rtts": [
+        1035.33
+      ],
+      "timeout": false,
+      "avg_rtt": 1035.33
+    },
+    {
+      "hop": 17,
+      "ip": "223.200.89.126",
+      "hostname": "223-200-89-126.hinet-ip.hinet.net",
+      "rtts": [
+        1051.58,
+        1049.26
+      ],
+      "timeout": false,
+      "avg_rtt": 1050.42
+    },
+    {
+      "hop": 18,
+      "ip": "223.200.89.126",
+      "hostname": "223-200-89-126.hinet-ip.hinet.net",
+      "rtts": [
+        1023.63
+      ],
+      "timeout": false,
+      "avg_rtt": 1023.63
+    },
+    {
+      "hop": 19,
+      "ip": "223.200.89.126",
+      "hostname": "223-200-89-126.hinet-ip.hinet.net",
+      "rtts": [
+        1050.21,
+        1129.06
+      ],
+      "timeout": false,
+      "avg_rtt": 1089.63
+    },
+    {
+      "hop": 20,
+      "ip": "223.200.89.126",
+      "hostname": "223-200-89-126.hinet-ip.hinet.net",
+      "rtts": [
+        1244.89
+      ],
+      "timeout": false,
+      "avg_rtt": 1244.89
+    },
+    {
+      "hop": 21,
+      "ip": "223.200.89.126",
+      "hostname": "223-200-89-126.hinet-ip.hinet.net",
+      "rtts": [
+        1056.18,
+        1028.37
+      ],
+      "timeout": false,
+      "avg_rtt": 1042.28
+    },
+    {
+      "hop": 22,
+      "ip": "223.200.89.126",
+      "hostname": "223-200-89-126.hinet-ip.hinet.net",
+      "rtts": [
+        1006.57
+      ],
+      "timeout": false,
+      "avg_rtt": 1006.57
+    },
+    {
+      "hop": 23,
+      "ip": "223.200.89.126",
+      "hostname": "223-200-89-126.hinet-ip.hinet.net",
+      "rtts": [
+        1079.33,
+        1033.72
+      ],
+      "timeout": false,
+      "avg_rtt": 1056.53
+    },
+    {
+      "hop": 24,
+      "ip": "223.200.89.126",
+      "hostname": "223-200-89-126.hinet-ip.hinet.net",
+      "rtts": [
+        1068.38
+      ],
+      "timeout": false,
+      "avg_rtt": 1068.38
+    },
+    {
+      "hop": 25,
+      "ip": "223.200.89.126",
+      "hostname": "223-200-89-126.hinet-ip.hinet.net",
+      "rtts": [
+        1128.83,
+        1074.53
+      ],
+      "timeout": false,
+      "avg_rtt": 1101.68
+    },
+    {
+      "hop": 26,
+      "ip": "223.200.89.126",
+      "hostname": "223-200-89-126.hinet-ip.hinet.net",
+      "rtts": [
+        1032.34
+      ],
+      "timeout": false,
+      "avg_rtt": 1032.34
+    },
+    {
+      "hop": 27,
+      "ip": "223.200.89.126",
+      "hostname": "223-200-89-126.hinet-ip.hinet.net",
+      "rtts": [
+        1060.37,
+        1029.96
+      ],
+      "timeout": false,
+      "avg_rtt": 1045.16
+    },
+    {
+      "hop": 28,
+      "ip": "223.200.89.126",
+      "hostname": "223-200-89-126.hinet-ip.hinet.net",
+      "rtts": [
+        1047.4
+      ],
+      "timeout": false,
+      "avg_rtt": 1047.4
+    },
+    {
+      "hop": 29,
+      "ip": "223.200.89.126",
+      "hostname": "223-200-89-126.hinet-ip.hinet.net",
+      "rtts": [
+        1166.45,
+        1132.48
+      ],
+      "timeout": false,
+      "avg_rtt": 1149.47
+    },
+    {
+      "hop": 30,
+      "ip": "223.200.89.126",
+      "hostname": "223-200-89-126.hinet-ip.hinet.net",
+      "rtts": [
+        1009.19
+      ],
+      "timeout": false,
+      "avg_rtt": 1009.19
+    }
+  ],
+  "num_hops": 30,
+  "success": false,
+  "method": "scapy",
+  "category": "government_central",
+  "base_domain": "moea.gov.tw",
+  "service_variant": "ftp.moea.gov.tw",
+  "is_bare_domain": false
+}

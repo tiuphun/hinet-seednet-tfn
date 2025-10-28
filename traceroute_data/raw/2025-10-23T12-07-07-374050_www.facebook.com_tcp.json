@@ -1,0 +1,240 @@
+{
+  "timestamp": "2025-10-23T12:07:07.374050",
+  "vantage_point": "university",
+  "target": "www.facebook.com",
+  "target_ip": "57.144.144.1",
+  "protocol": "tcp",
+  "port": 443,
+  "duration_seconds": 12.84,
+  "hops": [
+    {
+      "hop": 1,
+      "ip": "192.168.50.1",
+      "hostname": null,
+      "rtts": [
+        13.91,
+        10.48,
+        7.71
+      ],
+      "timeout": false,
+      "avg_rtt": 10.7
+    },
+    {
+      "hop": 2,
+      "ip": "140.123.103.250",
+      "hostname": "csgate103.cs.ccu.edu.tw",
+      "rtts": [
+        44.47,
+        7.69,
+        12.24
+      ],
+      "timeout": false,
+      "avg_rtt": 21.47
+    },
+    {
+      "hop": 3,
+      "ip": "140.123.9.249",
+      "hostname": null,
+      "rtts": [
+        5.34,
+        32.68,
+        16.24
+      ],
+      "timeout": false,
+      "avg_rtt": 18.09
+    },
+    {
+      "hop": 4,
+      "ip": "140.123.0.246",
+      "hostname": null,
+      "rtts": [
+        49.12,
+        6.65,
+        5.57
+      ],
+      "timeout": false,
+      "avg_rtt": 20.45
+    },
+    {
+      "hop": 5,
+      "ip": "140.130.252.251",
+      "hostname": null,
+      "rtts": [
+        12.07,
+        35.54,
+        10.49
+      ],
+      "timeout": false,
+      "avg_rtt": 19.37
+    },
+    {
+      "hop": 6,
+      "ip": "192.192.61.142",
+      "hostname": null,
+      "rtts": [
+        7.48,
+        15.01,
+        21.03
+      ],
+      "timeout": false,
+      "avg_rtt": 14.51
+    },
+    {
+      "hop": 7,
+      "ip": "192.192.61.20",
+      "hostname": null,
+      "rtts": [
+        14.09,
+        14.76,
+        13.89
+      ],
+      "timeout": false,
+      "avg_rtt": 14.25
+    },
+    {
+      "hop": 8,
+      "ip": "192.192.61.66",
+      "hostname": null,
+      "rtts": [
+        12.64,
+        69.68,
+        21.52
+      ],
+      "timeout": false,
+      "avg_rtt": 34.61
+    },
+    {
+      "hop": 9,
+      "ip": "192.192.68.30",
+      "hostname": null,
+      "rtts": [
+        10.36,
+        14.81,
+        16.84
+      ],
+      "timeout": false,
+      "avg_rtt": 14.0
+    },
+    {
+      "hop": 10,
+      "ip": "210.176.44.153",
+      "hostname": "unknown.telstraglobal.net",
+      "rtts": [
+        14.25,
+        41.01,
+        47.41
+      ],
+      "timeout": false,
+      "avg_rtt": 34.22
+    },
+    {
+      "hop": 11,
+      "ip": "202.84.137.254",
+      "hostname": "i-91.ttak-core02.telstraglobal.net",
+      "rtts": [
+        14.84,
+        18.76
+      ],
+      "timeout": false,
+      "avg_rtt": 16.8
+    },
+    {
+      "hop": 12,
+      "ip": null,
+      "hostname": null,
+      "rtts": [],
+      "timeout": true
+    },
+    {
+      "hop": 13,
+      "ip": "202.84.141.109",
+      "hostname": "i-15152.sgcn-core01.telstraglobal.net",
+      "rtts": [
+        69.23,
+        79.1
+      ],
+      "timeout": false,
+      "avg_rtt": 74.16
+    },
+    {
+      "hop": 14,
+      "ip": "202.84.207.182",
+      "hostname": "unknown.telstraglobal.net",
+      "rtts": [
+        63.54,
+        71.95,
+        64.92
+      ],
+      "timeout": false,
+      "avg_rtt": 66.8
+    },
+    {
+      "hop": 15,
+      "ip": "157.240.68.34",
+      "hostname": "ae22.pr08.sin1.tfbnw.net",
+      "rtts": [
+        75.11,
+        72.56,
+        70.03
+      ],
+      "timeout": false,
+      "avg_rtt": 72.57
+    },
+    {
+      "hop": 16,
+      "ip": "129.134.54.186",
+      "hostname": "po202.asw01.sin11.tfbnw.net",
+      "rtts": [
+        63.82,
+        77.06,
+        69.61
+      ],
+      "timeout": false,
+      "avg_rtt": 70.16
+    },
+    {
+      "hop": 17,
+      "ip": "129.134.95.212",
+      "hostname": "psw01.sin11.tfbnw.net",
+      "rtts": [
+        125.25,
+        72.34,
+        93.19
+      ],
+      "timeout": false,
+      "avg_rtt": 96.93
+    },
+    {
+      "hop": 18,
+      "ip": "129.134.57.108",
+      "hostname": "msw1aa.01.sin11.tfbnw.net",
+      "rtts": [
+        75.52,
+        72.98,
+        70.11
+      ],
+      "timeout": false,
+      "avg_rtt": 72.87
+    },
+    {
+      "hop": 19,
+      "ip": "57.144.144.1",
+      "hostname": "edge-star-mini-shv-01-sin11.facebook.com",
+      "rtts": [
+        65.3,
+        76.04,
+        81.3
+      ],
+      "timeout": false,
+      "reached_destination": true,
+      "avg_rtt": 74.21
+    }
+  ],
+  "num_hops": 19,
+  "success": true,
+  "method": "scapy",
+  "category": "cdn_global",
+  "base_domain": "facebook.com",
+  "service_variant": "www.facebook.com",
+  "is_bare_domain": false
+}

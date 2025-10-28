@@ -1,0 +1,187 @@
+{
+  "timestamp": "2025-10-23T05:51:08.049982",
+  "vantage_point": "university",
+  "target": "ftp.yes123.com.tw",
+  "target_ip": "218.211.34.41",
+  "protocol": "icmp",
+  "port": null,
+  "duration_seconds": 0.61,
+  "hops": [
+    {
+      "hop": 1,
+      "ip": "192.168.50.1",
+      "hostname": null,
+      "rtts": [
+        14.3,
+        6.47,
+        6.59
+      ],
+      "timeout": false,
+      "avg_rtt": 9.12
+    },
+    {
+      "hop": 2,
+      "ip": "140.123.103.250",
+      "hostname": "csgate103.cs.ccu.edu.tw",
+      "rtts": [
+        8.08,
+        5.75,
+        4.15
+      ],
+      "timeout": false,
+      "avg_rtt": 5.99
+    },
+    {
+      "hop": 3,
+      "ip": "140.123.9.249",
+      "hostname": null,
+      "rtts": [
+        4.94,
+        4.44,
+        5.42
+      ],
+      "timeout": false,
+      "avg_rtt": 4.93
+    },
+    {
+      "hop": 4,
+      "ip": "140.123.0.246",
+      "hostname": null,
+      "rtts": [
+        6.31,
+        5.14,
+        5.8
+      ],
+      "timeout": false,
+      "avg_rtt": 5.75
+    },
+    {
+      "hop": 5,
+      "ip": "140.130.252.251",
+      "hostname": null,
+      "rtts": [
+        6.74,
+        7.34,
+        5.31
+      ],
+      "timeout": false,
+      "avg_rtt": 6.46
+    },
+    {
+      "hop": 6,
+      "ip": "192.192.61.142",
+      "hostname": null,
+      "rtts": [
+        7.53,
+        9.89,
+        11.91
+      ],
+      "timeout": false,
+      "avg_rtt": 9.78
+    },
+    {
+      "hop": 7,
+      "ip": "192.192.61.20",
+      "hostname": null,
+      "rtts": [
+        9.25,
+        12.36,
+        33.31
+      ],
+      "timeout": false,
+      "avg_rtt": 18.31
+    },
+    {
+      "hop": 8,
+      "ip": "192.192.61.48",
+      "hostname": null,
+      "rtts": [
+        10.3,
+        12.88,
+        12.43
+      ],
+      "timeout": false,
+      "avg_rtt": 11.87
+    },
+    {
+      "hop": 9,
+      "ip": "192.72.123.73",
+      "hostname": "h73-192-72-123.seed.net.tw",
+      "rtts": [
+        15.38,
+        15.75,
+        11.45
+      ],
+      "timeout": false,
+      "avg_rtt": 14.19
+    },
+    {
+      "hop": 10,
+      "ip": "139.175.57.63",
+      "hostname": "r57-63.seed.net.tw",
+      "rtts": [
+        16.72,
+        14.23,
+        13.2
+      ],
+      "timeout": false,
+      "avg_rtt": 14.72
+    },
+    {
+      "hop": 11,
+      "ip": "139.175.56.142",
+      "hostname": "r56-142.seed.net.tw",
+      "rtts": [
+        24.26,
+        11.91,
+        12.28
+      ],
+      "timeout": false,
+      "avg_rtt": 16.15
+    },
+    {
+      "hop": 12,
+      "ip": "192.72.107.190",
+      "hostname": "h190-192-72-107.seed.net.tw",
+      "rtts": [
+        12.04,
+        12.42,
+        12.54
+      ],
+      "timeout": false,
+      "avg_rtt": 12.33
+    },
+    {
+      "hop": 13,
+      "ip": "220.228.20.154",
+      "hostname": null,
+      "rtts": [
+        18.84,
+        30.71,
+        14.02
+      ],
+      "timeout": false,
+      "avg_rtt": 21.19
+    },
+    {
+      "hop": 14,
+      "ip": "218.211.34.41",
+      "hostname": "mail.yes123.com.tw",
+      "rtts": [
+        12.06,
+        15.09,
+        19.27
+      ],
+      "timeout": false,
+      "reached_destination": true,
+      "avg_rtt": 15.47
+    }
+  ],
+  "num_hops": 14,
+  "success": true,
+  "method": "scapy",
+  "category": "ecommerce_tech",
+  "base_domain": "yes123.com.tw",
+  "service_variant": "ftp.yes123.com.tw",
+  "is_bare_domain": false
+}

@@ -1,0 +1,158 @@
+{
+  "timestamp": "2025-10-23T08:20:58.821621",
+  "vantage_point": "university",
+  "target": "aptg.com.tw",
+  "target_ip": "210.200.64.235",
+  "protocol": "tcp",
+  "port": 443,
+  "duration_seconds": 6.76,
+  "hops": [
+    {
+      "hop": 1,
+      "ip": "192.168.50.1",
+      "hostname": null,
+      "rtts": [
+        14.11,
+        4.32,
+        8.2
+      ],
+      "timeout": false,
+      "avg_rtt": 8.88
+    },
+    {
+      "hop": 2,
+      "ip": "140.123.103.250",
+      "hostname": "csgate103.cs.ccu.edu.tw",
+      "rtts": [
+        5.04,
+        31.15,
+        4.36
+      ],
+      "timeout": false,
+      "avg_rtt": 13.52
+    },
+    {
+      "hop": 3,
+      "ip": "140.123.9.249",
+      "hostname": null,
+      "rtts": [
+        4.9,
+        7.98,
+        12.91
+      ],
+      "timeout": false,
+      "avg_rtt": 8.6
+    },
+    {
+      "hop": 4,
+      "ip": "140.123.0.246",
+      "hostname": null,
+      "rtts": [
+        5.54,
+        34.98,
+        9.73
+      ],
+      "timeout": false,
+      "avg_rtt": 16.75
+    },
+    {
+      "hop": 5,
+      "ip": "140.130.252.251",
+      "hostname": null,
+      "rtts": [
+        16.52,
+        6.21,
+        34.0
+      ],
+      "timeout": false,
+      "avg_rtt": 18.91
+    },
+    {
+      "hop": 6,
+      "ip": "140.123.231.111",
+      "hostname": null,
+      "rtts": [
+        24.19,
+        57.46,
+        28.98
+      ],
+      "timeout": false,
+      "avg_rtt": 36.88
+    },
+    {
+      "hop": 7,
+      "ip": "211.76.96.175",
+      "hostname": null,
+      "rtts": [
+        32.65,
+        19.56,
+        16.67
+      ],
+      "timeout": false,
+      "avg_rtt": 22.96
+    },
+    {
+      "hop": 8,
+      "ip": "211.76.100.61",
+      "hostname": null,
+      "rtts": [
+        17.75,
+        15.33,
+        10.11
+      ],
+      "timeout": false,
+      "avg_rtt": 14.4
+    },
+    {
+      "hop": 9,
+      "ip": "210.200.80.254",
+      "hostname": "210-200-80-254.d3.static.apol.com.tw",
+      "rtts": [
+        12.1,
+        14.89,
+        14.13
+      ],
+      "timeout": false,
+      "avg_rtt": 13.71
+    },
+    {
+      "hop": 10,
+      "ip": null,
+      "hostname": null,
+      "rtts": [],
+      "timeout": true
+    },
+    {
+      "hop": 11,
+      "ip": "210.200.64.235",
+      "hostname": null,
+      "rtts": [
+        21.55,
+        9.24,
+        8.94
+      ],
+      "timeout": false,
+      "avg_rtt": 13.24
+    },
+    {
+      "hop": 12,
+      "ip": "210.200.64.235",
+      "hostname": null,
+      "rtts": [
+        14.37,
+        17.09,
+        17.91
+      ],
+      "timeout": false,
+      "reached_destination": true,
+      "avg_rtt": 16.46
+    }
+  ],
+  "num_hops": 12,
+  "success": true,
+  "method": "scapy",
+  "category": "telecom",
+  "base_domain": "aptg.com.tw",
+  "service_variant": "aptg.com.tw",
+  "is_bare_domain": true
+}

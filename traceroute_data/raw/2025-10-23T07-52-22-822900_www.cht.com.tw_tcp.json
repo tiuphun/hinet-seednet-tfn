@@ -1,0 +1,134 @@
+{
+  "timestamp": "2025-10-23T07:52:22.822900",
+  "vantage_point": "university",
+  "target": "www.cht.com.tw",
+  "target_ip": "203.66.35.107",
+  "protocol": "tcp",
+  "port": 443,
+  "duration_seconds": 6.55,
+  "hops": [
+    {
+      "hop": 1,
+      "ip": "192.168.50.1",
+      "hostname": null,
+      "rtts": [
+        19.05,
+        14.48,
+        9.24
+      ],
+      "timeout": false,
+      "avg_rtt": 14.26
+    },
+    {
+      "hop": 2,
+      "ip": "140.123.103.250",
+      "hostname": "csgate103.cs.ccu.edu.tw",
+      "rtts": [
+        6.2,
+        6.47,
+        6.07
+      ],
+      "timeout": false,
+      "avg_rtt": 6.25
+    },
+    {
+      "hop": 3,
+      "ip": "140.123.9.249",
+      "hostname": null,
+      "rtts": [
+        6.2,
+        11.41,
+        7.68
+      ],
+      "timeout": false,
+      "avg_rtt": 8.43
+    },
+    {
+      "hop": 4,
+      "ip": "140.123.0.246",
+      "hostname": null,
+      "rtts": [
+        13.67,
+        7.8,
+        42.63
+      ],
+      "timeout": false,
+      "avg_rtt": 21.37
+    },
+    {
+      "hop": 5,
+      "ip": "140.130.252.251",
+      "hostname": null,
+      "rtts": [
+        7.77,
+        10.16,
+        12.54
+      ],
+      "timeout": false,
+      "avg_rtt": 10.16
+    },
+    {
+      "hop": 6,
+      "ip": "211.22.226.198",
+      "hostname": "211-22-226-198.caw1-3332.hinet.net",
+      "rtts": [
+        7.97,
+        8.97,
+        7.99
+      ],
+      "timeout": false,
+      "avg_rtt": 8.31
+    },
+    {
+      "hop": 7,
+      "ip": null,
+      "hostname": null,
+      "rtts": [],
+      "timeout": true
+    },
+    {
+      "hop": 8,
+      "ip": "220.128.26.133",
+      "hostname": "220-128-26-133.tne1-3331.hinet.net",
+      "rtts": [
+        21.81,
+        7.49,
+        12.73
+      ],
+      "timeout": false,
+      "avg_rtt": 14.01
+    },
+    {
+      "hop": 9,
+      "ip": "211.22.229.89",
+      "hostname": "211-22-229-89.hinet-ip.hinet.net",
+      "rtts": [
+        9.61,
+        13.57,
+        20.8
+      ],
+      "timeout": false,
+      "avg_rtt": 14.66
+    },
+    {
+      "hop": 10,
+      "ip": "203.66.35.107",
+      "hostname": "203-66-35-107.hinet-ip.hinet.net",
+      "rtts": [
+        7.0,
+        7.12,
+        9.94
+      ],
+      "timeout": false,
+      "reached_destination": true,
+      "avg_rtt": 8.02
+    }
+  ],
+  "num_hops": 10,
+  "success": true,
+  "method": "scapy",
+  "category": "telecom",
+  "base_domain": "cht.com.tw",
+  "service_variant": "www.cht.com.tw",
+  "is_bare_domain": false
+}

@@ -1,0 +1,151 @@
+{
+  "timestamp": "2025-10-22T21:31:37.799834",
+  "vantage_point": "university",
+  "target": "cloudflare.com",
+  "target_ip": "104.16.133.229",
+  "protocol": "icmp",
+  "port": null,
+  "duration_seconds": 10.71,
+  "hops": [
+    {
+      "hop": 1,
+      "ip": "192.168.50.1",
+      "hostname": null,
+      "rtts": [
+        10.19,
+        6.1,
+        7.1
+      ],
+      "timeout": false,
+      "avg_rtt": 7.8
+    },
+    {
+      "hop": 2,
+      "ip": "140.123.103.250",
+      "hostname": "csgate103.cs.ccu.edu.tw",
+      "rtts": [
+        6.2,
+        7.34,
+        7.52
+      ],
+      "timeout": false,
+      "avg_rtt": 7.02
+    },
+    {
+      "hop": 3,
+      "ip": "140.123.9.249",
+      "hostname": null,
+      "rtts": [
+        7.07,
+        6.43,
+        6.44
+      ],
+      "timeout": false,
+      "avg_rtt": 6.65
+    },
+    {
+      "hop": 4,
+      "ip": "140.123.0.246",
+      "hostname": null,
+      "rtts": [
+        13.8,
+        9.26,
+        9.44
+      ],
+      "timeout": false,
+      "avg_rtt": 10.83
+    },
+    {
+      "hop": 5,
+      "ip": "140.130.252.251",
+      "hostname": null,
+      "rtts": [
+        10.02,
+        9.04,
+        12.71
+      ],
+      "timeout": false,
+      "avg_rtt": 10.59
+    },
+    {
+      "hop": 6,
+      "ip": "192.192.61.142",
+      "hostname": null,
+      "rtts": [
+        9.04,
+        12.17,
+        11.75
+      ],
+      "timeout": false,
+      "avg_rtt": 10.99
+    },
+    {
+      "hop": 7,
+      "ip": "192.192.61.20",
+      "hostname": null,
+      "rtts": [
+        15.15,
+        16.67,
+        20.41
+      ],
+      "timeout": false,
+      "avg_rtt": 17.41
+    },
+    {
+      "hop": 8,
+      "ip": "192.192.61.48",
+      "hostname": null,
+      "rtts": [
+        44.36,
+        13.77,
+        19.0
+      ],
+      "timeout": false,
+      "avg_rtt": 25.71
+    },
+    {
+      "hop": 9,
+      "ip": "192.192.68.62",
+      "hostname": null,
+      "rtts": [
+        15.54,
+        13.64,
+        62.97
+      ],
+      "timeout": false,
+      "avg_rtt": 30.72
+    },
+    {
+      "hop": 10,
+      "ip": "203.163.222.39",
+      "hostname": "39-222-163-203-static.tpix.net.tw",
+      "rtts": [
+        12.61,
+        14.0,
+        13.03
+      ],
+      "timeout": false,
+      "avg_rtt": 13.21
+    },
+    {
+      "hop": 11,
+      "ip": "104.16.133.229",
+      "hostname": null,
+      "rtts": [
+        15.91,
+        12.78,
+        15.72
+      ],
+      "timeout": false,
+      "reached_destination": true,
+      "avg_rtt": 14.8
+    }
+  ],
+  "num_hops": 11,
+  "success": true,
+  "method": "scapy",
+  "category": "cdn_global",
+  "base_domain": "cloudflare.com",
+  "service_variant": "cloudflare.com",
+  "is_bare_domain": true
+}

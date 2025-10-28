@@ -1,0 +1,339 @@
+{
+  "timestamp": "2025-10-22T11:56:39.213840",
+  "vantage_point": "university",
+  "target": "www.gov.taipei",
+  "target_ip": "163.29.207.130",
+  "protocol": "icmp",
+  "port": null,
+  "duration_seconds": 76.27,
+  "hops": [
+    {
+      "hop": 1,
+      "ip": "192.168.50.1",
+      "hostname": null,
+      "rtts": [
+        10.33,
+        5.98,
+        16.34
+      ],
+      "timeout": false,
+      "avg_rtt": 10.88
+    },
+    {
+      "hop": 2,
+      "ip": "140.123.103.250",
+      "hostname": "csgate103.cs.ccu.edu.tw",
+      "rtts": [
+        5.98,
+        5.64,
+        7.96
+      ],
+      "timeout": false,
+      "avg_rtt": 6.53
+    },
+    {
+      "hop": 3,
+      "ip": "140.123.9.249",
+      "hostname": null,
+      "rtts": [
+        5.08,
+        4.31,
+        5.69
+      ],
+      "timeout": false,
+      "avg_rtt": 5.03
+    },
+    {
+      "hop": 4,
+      "ip": "140.123.0.246",
+      "hostname": null,
+      "rtts": [
+        5.95,
+        5.85,
+        6.23
+      ],
+      "timeout": false,
+      "avg_rtt": 6.01
+    },
+    {
+      "hop": 5,
+      "ip": "140.130.252.251",
+      "hostname": null,
+      "rtts": [
+        9.54,
+        8.53,
+        13.12
+      ],
+      "timeout": false,
+      "avg_rtt": 10.4
+    },
+    {
+      "hop": 6,
+      "ip": "192.192.61.142",
+      "hostname": null,
+      "rtts": [
+        12.17,
+        10.6,
+        10.85
+      ],
+      "timeout": false,
+      "avg_rtt": 11.21
+    },
+    {
+      "hop": 7,
+      "ip": "192.192.61.37",
+      "hostname": null,
+      "rtts": [
+        12.62,
+        14.22,
+        11.86
+      ],
+      "timeout": false,
+      "avg_rtt": 12.9
+    },
+    {
+      "hop": 8,
+      "ip": "192.192.61.32",
+      "hostname": null,
+      "rtts": [
+        19.58,
+        12.85,
+        13.23
+      ],
+      "timeout": false,
+      "avg_rtt": 15.22
+    },
+    {
+      "hop": 9,
+      "ip": "192.192.61.209",
+      "hostname": null,
+      "rtts": [
+        10.81,
+        11.06,
+        14.32
+      ],
+      "timeout": false,
+      "avg_rtt": 12.06
+    },
+    {
+      "hop": 10,
+      "ip": "10.96.81.12",
+      "hostname": null,
+      "rtts": [
+        17.23
+      ],
+      "timeout": false,
+      "avg_rtt": 17.23
+    },
+    {
+      "hop": 11,
+      "ip": "10.96.81.12",
+      "hostname": null,
+      "rtts": [
+        18.08
+      ],
+      "timeout": false,
+      "avg_rtt": 18.08
+    },
+    {
+      "hop": 12,
+      "ip": "10.96.81.12",
+      "hostname": null,
+      "rtts": [
+        12.25
+      ],
+      "timeout": false,
+      "avg_rtt": 12.25
+    },
+    {
+      "hop": 13,
+      "ip": "10.96.81.12",
+      "hostname": null,
+      "rtts": [
+        45.89,
+        14.38
+      ],
+      "timeout": false,
+      "avg_rtt": 30.14
+    },
+    {
+      "hop": 14,
+      "ip": "10.96.81.12",
+      "hostname": null,
+      "rtts": [
+        21.96
+      ],
+      "timeout": false,
+      "avg_rtt": 21.96
+    },
+    {
+      "hop": 15,
+      "ip": "10.96.81.12",
+      "hostname": null,
+      "rtts": [
+        22.88
+      ],
+      "timeout": false,
+      "avg_rtt": 22.88
+    },
+    {
+      "hop": 16,
+      "ip": "10.96.81.12",
+      "hostname": null,
+      "rtts": [
+        21.59,
+        37.8
+      ],
+      "timeout": false,
+      "avg_rtt": 29.7
+    },
+    {
+      "hop": 17,
+      "ip": "10.96.81.12",
+      "hostname": null,
+      "rtts": [
+        22.69
+      ],
+      "timeout": false,
+      "avg_rtt": 22.69
+    },
+    {
+      "hop": 18,
+      "ip": "10.96.81.12",
+      "hostname": null,
+      "rtts": [
+        11.34
+      ],
+      "timeout": false,
+      "avg_rtt": 11.34
+    },
+    {
+      "hop": 19,
+      "ip": "10.96.81.12",
+      "hostname": null,
+      "rtts": [
+        15.09,
+        13.64
+      ],
+      "timeout": false,
+      "avg_rtt": 14.37
+    },
+    {
+      "hop": 20,
+      "ip": null,
+      "hostname": null,
+      "rtts": [],
+      "timeout": true
+    },
+    {
+      "hop": 21,
+      "ip": "10.96.81.12",
+      "hostname": null,
+      "rtts": [
+        63.22,
+        12.32
+      ],
+      "timeout": false,
+      "avg_rtt": 37.77
+    },
+    {
+      "hop": 22,
+      "ip": "10.96.81.12",
+      "hostname": null,
+      "rtts": [
+        24.81
+      ],
+      "timeout": false,
+      "avg_rtt": 24.81
+    },
+    {
+      "hop": 23,
+      "ip": "10.96.81.12",
+      "hostname": null,
+      "rtts": [
+        20.76
+      ],
+      "timeout": false,
+      "avg_rtt": 20.76
+    },
+    {
+      "hop": 24,
+      "ip": "10.96.81.12",
+      "hostname": null,
+      "rtts": [
+        18.38
+      ],
+      "timeout": false,
+      "avg_rtt": 18.38
+    },
+    {
+      "hop": 25,
+      "ip": "10.96.81.12",
+      "hostname": null,
+      "rtts": [
+        28.88,
+        14.35
+      ],
+      "timeout": false,
+      "avg_rtt": 21.61
+    },
+    {
+      "hop": 26,
+      "ip": "10.96.81.12",
+      "hostname": null,
+      "rtts": [
+        13.67
+      ],
+      "timeout": false,
+      "avg_rtt": 13.67
+    },
+    {
+      "hop": 27,
+      "ip": "10.96.81.12",
+      "hostname": null,
+      "rtts": [
+        28.47,
+        31.44
+      ],
+      "timeout": false,
+      "avg_rtt": 29.95
+    },
+    {
+      "hop": 28,
+      "ip": "10.96.81.12",
+      "hostname": null,
+      "rtts": [
+        20.25
+      ],
+      "timeout": false,
+      "avg_rtt": 20.25
+    },
+    {
+      "hop": 29,
+      "ip": "10.96.81.12",
+      "hostname": null,
+      "rtts": [
+        16.97
+      ],
+      "timeout": false,
+      "avg_rtt": 16.97
+    },
+    {
+      "hop": 30,
+      "ip": "10.96.81.12",
+      "hostname": null,
+      "rtts": [
+        28.02
+      ],
+      "timeout": false,
+      "avg_rtt": 28.02
+    }
+  ],
+  "num_hops": 30,
+  "success": false,
+  "method": "scapy",
+  "category": "government_local",
+  "base_domain": "gov.taipei",
+  "service_variant": "www.gov.taipei",
+  "is_bare_domain": false
+}

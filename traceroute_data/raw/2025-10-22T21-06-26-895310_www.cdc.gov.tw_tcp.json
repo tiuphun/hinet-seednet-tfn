@@ -1,0 +1,134 @@
+{
+  "timestamp": "2025-10-22T21:06:26.895310",
+  "vantage_point": "university",
+  "target": "www.cdc.gov.tw",
+  "target_ip": "203.66.35.98",
+  "protocol": "tcp",
+  "port": 443,
+  "duration_seconds": 6.81,
+  "hops": [
+    {
+      "hop": 1,
+      "ip": "192.168.50.1",
+      "hostname": null,
+      "rtts": [
+        13.04,
+        3.85,
+        4.02
+      ],
+      "timeout": false,
+      "avg_rtt": 6.97
+    },
+    {
+      "hop": 2,
+      "ip": "140.123.103.250",
+      "hostname": "csgate103.cs.ccu.edu.tw",
+      "rtts": [
+        5.04,
+        6.7,
+        4.83
+      ],
+      "timeout": false,
+      "avg_rtt": 5.52
+    },
+    {
+      "hop": 3,
+      "ip": "140.123.9.249",
+      "hostname": null,
+      "rtts": [
+        4.75,
+        5.93,
+        4.98
+      ],
+      "timeout": false,
+      "avg_rtt": 5.22
+    },
+    {
+      "hop": 4,
+      "ip": "140.123.0.246",
+      "hostname": null,
+      "rtts": [
+        9.12,
+        4.62,
+        4.32
+      ],
+      "timeout": false,
+      "avg_rtt": 6.02
+    },
+    {
+      "hop": 5,
+      "ip": "140.130.252.251",
+      "hostname": null,
+      "rtts": [
+        11.94,
+        9.9,
+        8.17
+      ],
+      "timeout": false,
+      "avg_rtt": 10.0
+    },
+    {
+      "hop": 6,
+      "ip": "211.22.226.198",
+      "hostname": "211-22-226-198.caw1-3332.hinet.net",
+      "rtts": [
+        6.51,
+        5.41,
+        7.29
+      ],
+      "timeout": false,
+      "avg_rtt": 6.4
+    },
+    {
+      "hop": 7,
+      "ip": null,
+      "hostname": null,
+      "rtts": [],
+      "timeout": true
+    },
+    {
+      "hop": 8,
+      "ip": "220.128.26.37",
+      "hostname": "220-128-26-37.tne1-3331.hinet.net",
+      "rtts": [
+        23.13,
+        21.16,
+        11.95
+      ],
+      "timeout": false,
+      "avg_rtt": 18.75
+    },
+    {
+      "hop": 9,
+      "ip": "211.22.229.89",
+      "hostname": "211-22-229-89.hinet-ip.hinet.net",
+      "rtts": [
+        12.06,
+        9.69,
+        15.05
+      ],
+      "timeout": false,
+      "avg_rtt": 12.27
+    },
+    {
+      "hop": 10,
+      "ip": "203.66.35.98",
+      "hostname": "203-66-35-98.hinet-ip.hinet.net",
+      "rtts": [
+        10.94,
+        12.8,
+        10.35
+      ],
+      "timeout": false,
+      "reached_destination": true,
+      "avg_rtt": 11.36
+    }
+  ],
+  "num_hops": 10,
+  "success": true,
+  "method": "scapy",
+  "category": "government_critical",
+  "base_domain": "cdc.gov.tw",
+  "service_variant": "www.cdc.gov.tw",
+  "is_bare_domain": false
+}

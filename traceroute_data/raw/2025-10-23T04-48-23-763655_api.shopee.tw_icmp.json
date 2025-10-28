@@ -1,0 +1,262 @@
+{
+  "timestamp": "2025-10-23T04:48:23.763655",
+  "vantage_point": "university",
+  "target": "api.shopee.tw",
+  "target_ip": "147.136.172.159",
+  "protocol": "icmp",
+  "port": null,
+  "duration_seconds": 39.16,
+  "hops": [
+    {
+      "hop": 1,
+      "ip": "192.168.50.1",
+      "hostname": null,
+      "rtts": [
+        8.07,
+        6.0,
+        6.5
+      ],
+      "timeout": false,
+      "avg_rtt": 6.86
+    },
+    {
+      "hop": 2,
+      "ip": "140.123.103.250",
+      "hostname": "csgate103.cs.ccu.edu.tw",
+      "rtts": [
+        6.61,
+        39.48,
+        5.11
+      ],
+      "timeout": false,
+      "avg_rtt": 17.07
+    },
+    {
+      "hop": 3,
+      "ip": "140.123.9.249",
+      "hostname": null,
+      "rtts": [
+        9.68,
+        5.53,
+        6.72
+      ],
+      "timeout": false,
+      "avg_rtt": 7.31
+    },
+    {
+      "hop": 4,
+      "ip": "140.123.0.246",
+      "hostname": null,
+      "rtts": [
+        8.39,
+        5.37,
+        5.8
+      ],
+      "timeout": false,
+      "avg_rtt": 6.52
+    },
+    {
+      "hop": 5,
+      "ip": "140.130.252.251",
+      "hostname": null,
+      "rtts": [
+        10.42,
+        9.17,
+        7.13
+      ],
+      "timeout": false,
+      "avg_rtt": 8.91
+    },
+    {
+      "hop": 6,
+      "ip": "192.192.61.142",
+      "hostname": null,
+      "rtts": [
+        9.11,
+        20.31,
+        11.4
+      ],
+      "timeout": false,
+      "avg_rtt": 13.61
+    },
+    {
+      "hop": 7,
+      "ip": "192.192.61.20",
+      "hostname": null,
+      "rtts": [
+        16.21,
+        13.07,
+        14.06
+      ],
+      "timeout": false,
+      "avg_rtt": 14.45
+    },
+    {
+      "hop": 8,
+      "ip": "192.192.61.48",
+      "hostname": null,
+      "rtts": [
+        14.19,
+        16.11,
+        16.81
+      ],
+      "timeout": false,
+      "avg_rtt": 15.7
+    },
+    {
+      "hop": 9,
+      "ip": "192.192.68.62",
+      "hostname": null,
+      "rtts": [
+        13.81,
+        14.87,
+        21.93
+      ],
+      "timeout": false,
+      "avg_rtt": 16.87
+    },
+    {
+      "hop": 10,
+      "ip": "210.176.44.177",
+      "hostname": "unknown.telstraglobal.net",
+      "rtts": [
+        15.68,
+        13.98,
+        41.79
+      ],
+      "timeout": false,
+      "avg_rtt": 23.82
+    },
+    {
+      "hop": 11,
+      "ip": "202.84.137.254",
+      "hostname": "i-91.ttak-core02.telstraglobal.net",
+      "rtts": [
+        14.62,
+        15.58
+      ],
+      "timeout": false,
+      "avg_rtt": 15.1
+    },
+    {
+      "hop": 12,
+      "ip": null,
+      "hostname": null,
+      "rtts": [],
+      "timeout": true
+    },
+    {
+      "hop": 13,
+      "ip": "202.84.141.109",
+      "hostname": "i-15152.sgcn-core01.telstraglobal.net",
+      "rtts": [
+        61.55,
+        61.48,
+        60.84
+      ],
+      "timeout": false,
+      "avg_rtt": 61.29
+    },
+    {
+      "hop": 14,
+      "ip": "202.84.207.182",
+      "hostname": "unknown.telstraglobal.net",
+      "rtts": [
+        61.2,
+        61.18,
+        131.61
+      ],
+      "timeout": false,
+      "avg_rtt": 84.66
+    },
+    {
+      "hop": 15,
+      "ip": "210.57.38.175",
+      "hostname": "unknown.telstraglobal.net",
+      "rtts": [
+        59.29,
+        58.47,
+        63.29
+      ],
+      "timeout": false,
+      "avg_rtt": 60.35
+    },
+    {
+      "hop": 16,
+      "ip": "143.92.108.196",
+      "hostname": null,
+      "rtts": [
+        65.38,
+        60.46,
+        61.58
+      ],
+      "timeout": false,
+      "avg_rtt": 62.47
+    },
+    {
+      "hop": 17,
+      "ip": "143.92.119.222",
+      "hostname": null,
+      "rtts": [
+        63.02,
+        64.59,
+        63.35
+      ],
+      "timeout": false,
+      "avg_rtt": 63.65
+    },
+    {
+      "hop": 18,
+      "ip": "143.92.119.225",
+      "hostname": null,
+      "rtts": [
+        64.2,
+        64.16,
+        66.74
+      ],
+      "timeout": false,
+      "avg_rtt": 65.03
+    },
+    {
+      "hop": 19,
+      "ip": null,
+      "hostname": null,
+      "rtts": [],
+      "timeout": true
+    },
+    {
+      "hop": 20,
+      "ip": null,
+      "hostname": null,
+      "rtts": [],
+      "timeout": true
+    },
+    {
+      "hop": 21,
+      "ip": null,
+      "hostname": null,
+      "rtts": [],
+      "timeout": true
+    },
+    {
+      "hop": 22,
+      "ip": "147.136.172.159",
+      "hostname": null,
+      "rtts": [
+        64.77,
+        59.21,
+        61.88
+      ],
+      "timeout": false,
+      "reached_destination": true,
+      "avg_rtt": 61.95
+    }
+  ],
+  "num_hops": 22,
+  "success": true,
+  "method": "scapy",
+  "category": "ecommerce_tech",
+  "base_domain": "shopee.tw",
+  "service_variant": "api.shopee.tw",
+  "is_bare_domain": false
+}

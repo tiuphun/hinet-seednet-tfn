@@ -1,0 +1,149 @@
+{
+  "timestamp": "2025-10-22T18:47:16.075706",
+  "vantage_point": "university",
+  "target": "104.com.tw",
+  "target_ip": "104.18.9.226",
+  "protocol": "tcp",
+  "port": 80,
+  "duration_seconds": 4.43,
+  "hops": [
+    {
+      "hop": 1,
+      "ip": "192.168.50.1",
+      "hostname": null,
+      "rtts": [
+        5.93,
+        5.95,
+        6.41
+      ],
+      "timeout": false,
+      "avg_rtt": 6.1
+    },
+    {
+      "hop": 2,
+      "ip": "140.123.103.250",
+      "hostname": "csgate103.cs.ccu.edu.tw",
+      "rtts": [
+        6.73,
+        5.68,
+        4.7
+      ],
+      "timeout": false,
+      "avg_rtt": 5.7
+    },
+    {
+      "hop": 3,
+      "ip": "140.123.9.249",
+      "hostname": null,
+      "rtts": [
+        5.16,
+        5.22,
+        5.88
+      ],
+      "timeout": false,
+      "avg_rtt": 5.42
+    },
+    {
+      "hop": 4,
+      "ip": "140.123.0.246",
+      "hostname": null,
+      "rtts": [
+        7.07,
+        9.24,
+        7.49
+      ],
+      "timeout": false,
+      "avg_rtt": 7.93
+    },
+    {
+      "hop": 5,
+      "ip": "140.130.252.251",
+      "hostname": null,
+      "rtts": [
+        7.02,
+        11.1,
+        9.85
+      ],
+      "timeout": false,
+      "avg_rtt": 9.32
+    },
+    {
+      "hop": 6,
+      "ip": "192.192.61.142",
+      "hostname": null,
+      "rtts": [
+        11.96,
+        8.94,
+        12.5
+      ],
+      "timeout": false,
+      "avg_rtt": 11.13
+    },
+    {
+      "hop": 7,
+      "ip": "192.192.61.20",
+      "hostname": null,
+      "rtts": [
+        12.15,
+        10.64,
+        13.36
+      ],
+      "timeout": false,
+      "avg_rtt": 12.05
+    },
+    {
+      "hop": 8,
+      "ip": "192.192.61.48",
+      "hostname": null,
+      "rtts": [
+        19.16,
+        15.02,
+        21.02
+      ],
+      "timeout": false,
+      "avg_rtt": 18.4
+    },
+    {
+      "hop": 9,
+      "ip": "192.192.68.62",
+      "hostname": null,
+      "rtts": [
+        12.19,
+        13.66,
+        17.09
+      ],
+      "timeout": false,
+      "avg_rtt": 14.31
+    },
+    {
+      "hop": 10,
+      "ip": "203.163.222.39",
+      "hostname": "39-222-163-203-static.tpix.net.tw",
+      "rtts": [
+        14.04
+      ],
+      "timeout": false,
+      "avg_rtt": 14.04
+    },
+    {
+      "hop": 11,
+      "ip": "104.18.9.226",
+      "hostname": null,
+      "rtts": [
+        30.78,
+        14.68,
+        21.85
+      ],
+      "timeout": false,
+      "reached_destination": true,
+      "avg_rtt": 22.44
+    }
+  ],
+  "num_hops": 11,
+  "success": true,
+  "method": "scapy",
+  "category": "ecommerce_tech",
+  "base_domain": "104.com.tw",
+  "service_variant": "104.com.tw",
+  "is_bare_domain": true
+}

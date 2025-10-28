@@ -1,0 +1,139 @@
+{
+  "timestamp": "2025-10-22T22:20:29.326046",
+  "vantage_point": "university",
+  "target": "www.ncku.edu.tw",
+  "target_ip": "140.116.248.21",
+  "protocol": "tcp",
+  "port": 80,
+  "duration_seconds": 0.46,
+  "hops": [
+    {
+      "hop": 1,
+      "ip": "192.168.50.1",
+      "hostname": null,
+      "rtts": [
+        13.46,
+        5.21,
+        7.67
+      ],
+      "timeout": false,
+      "avg_rtt": 8.78
+    },
+    {
+      "hop": 2,
+      "ip": "140.123.103.250",
+      "hostname": "csgate103.cs.ccu.edu.tw",
+      "rtts": [
+        40.42,
+        12.4,
+        6.48
+      ],
+      "timeout": false,
+      "avg_rtt": 19.77
+    },
+    {
+      "hop": 3,
+      "ip": "140.123.9.249",
+      "hostname": null,
+      "rtts": [
+        6.48,
+        8.63,
+        6.66
+      ],
+      "timeout": false,
+      "avg_rtt": 7.26
+    },
+    {
+      "hop": 4,
+      "ip": "140.123.0.246",
+      "hostname": null,
+      "rtts": [
+        7.93,
+        12.22,
+        9.68
+      ],
+      "timeout": false,
+      "avg_rtt": 9.94
+    },
+    {
+      "hop": 5,
+      "ip": "211.79.57.25",
+      "hostname": "ccu-ccu-76.twaren.net",
+      "rtts": [
+        10.91,
+        16.91,
+        10.58
+      ],
+      "timeout": false,
+      "avg_rtt": 12.8
+    },
+    {
+      "hop": 6,
+      "ip": "211.73.76.209",
+      "hostname": "tp-a1.twaren.net",
+      "rtts": [
+        9.06,
+        9.21,
+        12.31
+      ],
+      "timeout": false,
+      "avg_rtt": 10.19
+    },
+    {
+      "hop": 7,
+      "ip": "211.73.76.214",
+      "hostname": "ncku-a1.twaren.net",
+      "rtts": [
+        15.14,
+        14.7,
+        8.68
+      ],
+      "timeout": false,
+      "avg_rtt": 12.84
+    },
+    {
+      "hop": 8,
+      "ip": "211.79.56.26",
+      "hostname": "ncku-76-ncku.twaren.net",
+      "rtts": [
+        14.59,
+        15.53,
+        10.81
+      ],
+      "timeout": false,
+      "avg_rtt": 13.64
+    },
+    {
+      "hop": 9,
+      "ip": "140.116.243.78",
+      "hostname": null,
+      "rtts": [
+        14.42,
+        36.14,
+        19.1
+      ],
+      "timeout": false,
+      "avg_rtt": 23.22
+    },
+    {
+      "hop": 10,
+      "ip": "140.116.248.21",
+      "hostname": null,
+      "rtts": [
+        10.93,
+        11.37,
+        12.19
+      ],
+      "timeout": false,
+      "reached_destination": true,
+      "avg_rtt": 11.5
+    }
+  ],
+  "num_hops": 10,
+  "success": true,
+  "method": "scapy",
+  "category": "universities",
+  "base_domain": "ncku.edu.tw",
+  "service_variant": "www.ncku.edu.tw",
+  "is_bare_domain": false
+}

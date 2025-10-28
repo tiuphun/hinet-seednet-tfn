@@ -1,0 +1,143 @@
+{
+  "timestamp": "2025-10-23T02:55:08.148672",
+  "vantage_point": "university",
+  "target": "www.fubon.com",
+  "target_ip": "60.251.175.11",
+  "protocol": "tcp",
+  "port": 80,
+  "duration_seconds": 24.78,
+  "hops": [
+    {
+      "hop": 1,
+      "ip": "192.168.50.1",
+      "hostname": null,
+      "rtts": [
+        9.31,
+        6.04,
+        5.32
+      ],
+      "timeout": false,
+      "avg_rtt": 6.89
+    },
+    {
+      "hop": 2,
+      "ip": "140.123.103.250",
+      "hostname": "csgate103.cs.ccu.edu.tw",
+      "rtts": [
+        5.98,
+        4.95,
+        5.62
+      ],
+      "timeout": false,
+      "avg_rtt": 5.52
+    },
+    {
+      "hop": 3,
+      "ip": "140.123.9.249",
+      "hostname": null,
+      "rtts": [
+        5.44,
+        6.6,
+        4.82
+      ],
+      "timeout": false,
+      "avg_rtt": 5.62
+    },
+    {
+      "hop": 4,
+      "ip": "140.123.0.246",
+      "hostname": null,
+      "rtts": [
+        8.24,
+        5.34,
+        5.42
+      ],
+      "timeout": false,
+      "avg_rtt": 6.33
+    },
+    {
+      "hop": 5,
+      "ip": "140.130.252.251",
+      "hostname": null,
+      "rtts": [
+        7.28,
+        7.59,
+        10.96
+      ],
+      "timeout": false,
+      "avg_rtt": 8.61
+    },
+    {
+      "hop": 6,
+      "ip": "211.22.226.198",
+      "hostname": "211-22-226-198.caw1-3332.hinet.net",
+      "rtts": [
+        7.42,
+        9.99,
+        9.24
+      ],
+      "timeout": false,
+      "avg_rtt": 8.88
+    },
+    {
+      "hop": 7,
+      "ip": null,
+      "hostname": null,
+      "rtts": [],
+      "timeout": true
+    },
+    {
+      "hop": 8,
+      "ip": null,
+      "hostname": null,
+      "rtts": [],
+      "timeout": true
+    },
+    {
+      "hop": 9,
+      "ip": "220.128.4.225",
+      "hostname": "220-128-4-225.tpdt-3310.hinet.net",
+      "rtts": [
+        15.84,
+        16.5,
+        14.71
+      ],
+      "timeout": false,
+      "avg_rtt": 15.68
+    },
+    {
+      "hop": 10,
+      "ip": null,
+      "hostname": null,
+      "rtts": [],
+      "timeout": true
+    },
+    {
+      "hop": 11,
+      "ip": null,
+      "hostname": null,
+      "rtts": [],
+      "timeout": true
+    },
+    {
+      "hop": 12,
+      "ip": "60.251.175.11",
+      "hostname": "60-251-175-11.hinet-ip.hinet.net",
+      "rtts": [
+        50.01,
+        29.4,
+        18.24
+      ],
+      "timeout": false,
+      "reached_destination": true,
+      "avg_rtt": 32.55
+    }
+  ],
+  "num_hops": 12,
+  "success": true,
+  "method": "scapy",
+  "category": "financial_banks",
+  "base_domain": "fubon.com",
+  "service_variant": "www.fubon.com",
+  "is_bare_domain": false
+}

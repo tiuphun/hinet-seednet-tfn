@@ -1,0 +1,139 @@
+{
+  "timestamp": "2025-10-23T03:41:09.819098",
+  "vantage_point": "university",
+  "target": "www.skbank.com.tw",
+  "target_ip": "163.28.83.113",
+  "protocol": "icmp",
+  "port": null,
+  "duration_seconds": 4.91,
+  "hops": [
+    {
+      "hop": 1,
+      "ip": "192.168.50.1",
+      "hostname": null,
+      "rtts": [
+        7.51,
+        6.27,
+        4.35
+      ],
+      "timeout": false,
+      "avg_rtt": 6.04
+    },
+    {
+      "hop": 2,
+      "ip": "140.123.103.250",
+      "hostname": "csgate103.cs.ccu.edu.tw",
+      "rtts": [
+        4.81,
+        4.92,
+        9.37
+      ],
+      "timeout": false,
+      "avg_rtt": 6.37
+    },
+    {
+      "hop": 3,
+      "ip": "140.123.9.249",
+      "hostname": null,
+      "rtts": [
+        6.28,
+        4.72,
+        4.79
+      ],
+      "timeout": false,
+      "avg_rtt": 5.26
+    },
+    {
+      "hop": 4,
+      "ip": "140.123.0.246",
+      "hostname": null,
+      "rtts": [
+        5.17,
+        6.02,
+        6.29
+      ],
+      "timeout": false,
+      "avg_rtt": 5.83
+    },
+    {
+      "hop": 5,
+      "ip": "140.130.252.251",
+      "hostname": null,
+      "rtts": [
+        5.93,
+        6.02,
+        79.46
+      ],
+      "timeout": false,
+      "avg_rtt": 30.47
+    },
+    {
+      "hop": 6,
+      "ip": "192.192.61.142",
+      "hostname": null,
+      "rtts": [
+        14.87,
+        10.59,
+        15.29
+      ],
+      "timeout": false,
+      "avg_rtt": 13.58
+    },
+    {
+      "hop": 7,
+      "ip": "192.192.61.9",
+      "hostname": null,
+      "rtts": [
+        8.68,
+        7.41,
+        7.98
+      ],
+      "timeout": false,
+      "avg_rtt": 8.02
+    },
+    {
+      "hop": 8,
+      "ip": "192.192.61.121",
+      "hostname": null,
+      "rtts": [
+        14.35,
+        20.79,
+        10.68
+      ],
+      "timeout": false,
+      "avg_rtt": 15.27
+    },
+    {
+      "hop": 9,
+      "ip": "140.128.251.245",
+      "hostname": null,
+      "rtts": [
+        13.44,
+        17.08,
+        11.5
+      ],
+      "timeout": false,
+      "avg_rtt": 14.01
+    },
+    {
+      "hop": 10,
+      "ip": "163.28.83.113",
+      "hostname": null,
+      "rtts": [
+        30.92,
+        7.86,
+        18.44
+      ],
+      "timeout": false,
+      "reached_destination": true,
+      "avg_rtt": 19.07
+    }
+  ],
+  "num_hops": 10,
+  "success": true,
+  "method": "scapy",
+  "category": "financial_banks",
+  "base_domain": "skbank.com.tw",
+  "service_variant": "www.skbank.com.tw",
+  "is_bare_domain": false
+}

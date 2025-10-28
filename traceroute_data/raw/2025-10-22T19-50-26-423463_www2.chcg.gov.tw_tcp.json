@@ -1,0 +1,222 @@
+{
+  "timestamp": "2025-10-22T19:50:26.423463",
+  "vantage_point": "university",
+  "target": "www2.chcg.gov.tw",
+  "target_ip": "210.69.54.91",
+  "protocol": "tcp",
+  "port": 443,
+  "duration_seconds": 2.96,
+  "hops": [
+    {
+      "hop": 1,
+      "ip": "192.168.50.1",
+      "hostname": null,
+      "rtts": [
+        11.6,
+        4.66,
+        4.16
+      ],
+      "timeout": false,
+      "avg_rtt": 6.81
+    },
+    {
+      "hop": 2,
+      "ip": "140.123.103.250",
+      "hostname": "csgate103.cs.ccu.edu.tw",
+      "rtts": [
+        16.56,
+        6.92
+      ],
+      "timeout": false,
+      "avg_rtt": 11.74
+    },
+    {
+      "hop": 3,
+      "ip": "140.123.9.249",
+      "hostname": null,
+      "rtts": [
+        14.92,
+        7.86,
+        9.57
+      ],
+      "timeout": false,
+      "avg_rtt": 10.78
+    },
+    {
+      "hop": 4,
+      "ip": "140.123.0.246",
+      "hostname": null,
+      "rtts": [
+        15.73,
+        10.21,
+        22.67
+      ],
+      "timeout": false,
+      "avg_rtt": 16.2
+    },
+    {
+      "hop": 5,
+      "ip": "140.130.252.251",
+      "hostname": null,
+      "rtts": [
+        13.03,
+        28.1,
+        11.07
+      ],
+      "timeout": false,
+      "avg_rtt": 17.4
+    },
+    {
+      "hop": 6,
+      "ip": "192.192.61.142",
+      "hostname": null,
+      "rtts": [
+        10.07,
+        36.94,
+        12.86
+      ],
+      "timeout": false,
+      "avg_rtt": 19.96
+    },
+    {
+      "hop": 7,
+      "ip": "192.192.61.9",
+      "hostname": null,
+      "rtts": [
+        16.59,
+        9.13,
+        10.97
+      ],
+      "timeout": false,
+      "avg_rtt": 12.23
+    },
+    {
+      "hop": 8,
+      "ip": "192.192.61.30",
+      "hostname": null,
+      "rtts": [
+        22.3,
+        13.97,
+        14.14
+      ],
+      "timeout": false,
+      "avg_rtt": 16.8
+    },
+    {
+      "hop": 9,
+      "ip": "192.192.61.4",
+      "hostname": null,
+      "rtts": [
+        20.09,
+        15.96,
+        15.74
+      ],
+      "timeout": false,
+      "avg_rtt": 17.26
+    },
+    {
+      "hop": 10,
+      "ip": "192.192.61.209",
+      "hostname": null,
+      "rtts": [
+        11.3,
+        11.56,
+        11.92
+      ],
+      "timeout": false,
+      "avg_rtt": 11.59
+    },
+    {
+      "hop": 11,
+      "ip": "10.96.81.12",
+      "hostname": null,
+      "rtts": [
+        11.2,
+        16.34,
+        14.84
+      ],
+      "timeout": false,
+      "avg_rtt": 14.13
+    },
+    {
+      "hop": 12,
+      "ip": "210.69.250.126",
+      "hostname": "210-69-250-126.hinet-ip.hinet.net",
+      "rtts": [
+        17.67,
+        28.74,
+        17.43
+      ],
+      "timeout": false,
+      "avg_rtt": 21.28
+    },
+    {
+      "hop": 13,
+      "ip": "210.69.250.98",
+      "hostname": "210-69-250-98.hinet-ip.hinet.net",
+      "rtts": [
+        18.06,
+        16.48,
+        17.77
+      ],
+      "timeout": false,
+      "avg_rtt": 17.44
+    },
+    {
+      "hop": 14,
+      "ip": "210.69.253.202",
+      "hostname": "210-69-253-202.hinet-ip.hinet.net",
+      "rtts": [
+        18.1,
+        13.94,
+        22.4
+      ],
+      "timeout": false,
+      "avg_rtt": 18.15
+    },
+    {
+      "hop": 15,
+      "ip": "210.69.253.138",
+      "hostname": "210-69-253-138.hinet-ip.hinet.net",
+      "rtts": [
+        16.89,
+        38.05,
+        22.92
+      ],
+      "timeout": false,
+      "avg_rtt": 25.95
+    },
+    {
+      "hop": 16,
+      "ip": "210.241.29.133",
+      "hostname": null,
+      "rtts": [
+        20.48,
+        27.01,
+        29.12
+      ],
+      "timeout": false,
+      "avg_rtt": 25.54
+    },
+    {
+      "hop": 17,
+      "ip": "210.69.54.91",
+      "hostname": null,
+      "rtts": [
+        17.88,
+        27.57,
+        41.61
+      ],
+      "timeout": false,
+      "reached_destination": true,
+      "avg_rtt": 29.02
+    }
+  ],
+  "num_hops": 17,
+  "success": true,
+  "method": "scapy",
+  "category": "government_local",
+  "base_domain": "chcg.gov.tw",
+  "service_variant": "www2.chcg.gov.tw",
+  "is_bare_domain": false
+}

@@ -1,0 +1,345 @@
+{
+  "timestamp": "2025-10-23T07:13:40.641009",
+  "vantage_point": "university",
+  "target": "webmail.pts.org.tw",
+  "target_ip": "61.67.73.245",
+  "protocol": "icmp",
+  "port": null,
+  "duration_seconds": 68.37,
+  "hops": [
+    {
+      "hop": 1,
+      "ip": "192.168.50.1",
+      "hostname": null,
+      "rtts": [
+        33.61,
+        4.62,
+        4.93
+      ],
+      "timeout": false,
+      "avg_rtt": 14.39
+    },
+    {
+      "hop": 2,
+      "ip": "140.123.103.250",
+      "hostname": "csgate103.cs.ccu.edu.tw",
+      "rtts": [
+        5.31,
+        5.08,
+        5.15
+      ],
+      "timeout": false,
+      "avg_rtt": 5.18
+    },
+    {
+      "hop": 3,
+      "ip": "140.123.9.249",
+      "hostname": null,
+      "rtts": [
+        5.15,
+        6.8,
+        4.52
+      ],
+      "timeout": false,
+      "avg_rtt": 5.49
+    },
+    {
+      "hop": 4,
+      "ip": "140.123.0.246",
+      "hostname": null,
+      "rtts": [
+        10.46,
+        12.08,
+        12.93
+      ],
+      "timeout": false,
+      "avg_rtt": 11.82
+    },
+    {
+      "hop": 5,
+      "ip": "140.130.252.251",
+      "hostname": null,
+      "rtts": [
+        13.27,
+        5.33,
+        7.56
+      ],
+      "timeout": false,
+      "avg_rtt": 8.72
+    },
+    {
+      "hop": 6,
+      "ip": "192.192.61.142",
+      "hostname": null,
+      "rtts": [
+        8.72,
+        9.06,
+        10.37
+      ],
+      "timeout": false,
+      "avg_rtt": 9.38
+    },
+    {
+      "hop": 7,
+      "ip": "192.192.61.9",
+      "hostname": null,
+      "rtts": [
+        8.1,
+        11.84,
+        7.21
+      ],
+      "timeout": false,
+      "avg_rtt": 9.05
+    },
+    {
+      "hop": 8,
+      "ip": "192.192.61.30",
+      "hostname": null,
+      "rtts": [
+        9.45,
+        8.62,
+        10.42
+      ],
+      "timeout": false,
+      "avg_rtt": 9.5
+    },
+    {
+      "hop": 9,
+      "ip": "192.192.61.4",
+      "hostname": null,
+      "rtts": [
+        12.54,
+        9.05,
+        12.61
+      ],
+      "timeout": false,
+      "avg_rtt": 11.4
+    },
+    {
+      "hop": 10,
+      "ip": "192.192.61.209",
+      "hostname": null,
+      "rtts": [
+        8.69,
+        9.37,
+        12.18
+      ],
+      "timeout": false,
+      "avg_rtt": 10.08
+    },
+    {
+      "hop": 11,
+      "ip": "10.96.81.12",
+      "hostname": null,
+      "rtts": [
+        10.84,
+        28.39
+      ],
+      "timeout": false,
+      "avg_rtt": 19.62
+    },
+    {
+      "hop": 12,
+      "ip": "10.96.81.12",
+      "hostname": null,
+      "rtts": [
+        28.16
+      ],
+      "timeout": false,
+      "avg_rtt": 28.16
+    },
+    {
+      "hop": 13,
+      "ip": "10.96.81.12",
+      "hostname": null,
+      "rtts": [
+        13.05,
+        37.76
+      ],
+      "timeout": false,
+      "avg_rtt": 25.41
+    },
+    {
+      "hop": 14,
+      "ip": "10.96.81.12",
+      "hostname": null,
+      "rtts": [
+        21.51
+      ],
+      "timeout": false,
+      "avg_rtt": 21.51
+    },
+    {
+      "hop": 15,
+      "ip": "10.96.81.12",
+      "hostname": null,
+      "rtts": [
+        21.81,
+        20.62
+      ],
+      "timeout": false,
+      "avg_rtt": 21.21
+    },
+    {
+      "hop": 16,
+      "ip": "10.96.81.12",
+      "hostname": null,
+      "rtts": [
+        37.92
+      ],
+      "timeout": false,
+      "avg_rtt": 37.92
+    },
+    {
+      "hop": 17,
+      "ip": "10.96.81.12",
+      "hostname": null,
+      "rtts": [
+        42.96
+      ],
+      "timeout": false,
+      "avg_rtt": 42.96
+    },
+    {
+      "hop": 18,
+      "ip": "10.96.81.12",
+      "hostname": null,
+      "rtts": [
+        14.44,
+        19.67
+      ],
+      "timeout": false,
+      "avg_rtt": 17.05
+    },
+    {
+      "hop": 19,
+      "ip": "10.96.81.12",
+      "hostname": null,
+      "rtts": [
+        26.28
+      ],
+      "timeout": false,
+      "avg_rtt": 26.28
+    },
+    {
+      "hop": 20,
+      "ip": "10.96.81.12",
+      "hostname": null,
+      "rtts": [
+        23.54
+      ],
+      "timeout": false,
+      "avg_rtt": 23.54
+    },
+    {
+      "hop": 21,
+      "ip": "10.96.81.12",
+      "hostname": null,
+      "rtts": [
+        24.58
+      ],
+      "timeout": false,
+      "avg_rtt": 24.58
+    },
+    {
+      "hop": 22,
+      "ip": "10.96.81.12",
+      "hostname": null,
+      "rtts": [
+        29.65,
+        26.33
+      ],
+      "timeout": false,
+      "avg_rtt": 27.99
+    },
+    {
+      "hop": 23,
+      "ip": "10.96.81.12",
+      "hostname": null,
+      "rtts": [
+        21.63
+      ],
+      "timeout": false,
+      "avg_rtt": 21.63
+    },
+    {
+      "hop": 24,
+      "ip": "10.96.81.12",
+      "hostname": null,
+      "rtts": [
+        19.93
+      ],
+      "timeout": false,
+      "avg_rtt": 19.93
+    },
+    {
+      "hop": 25,
+      "ip": "10.96.81.12",
+      "hostname": null,
+      "rtts": [
+        25.33,
+        23.03
+      ],
+      "timeout": false,
+      "avg_rtt": 24.18
+    },
+    {
+      "hop": 26,
+      "ip": "10.96.81.12",
+      "hostname": null,
+      "rtts": [
+        37.48
+      ],
+      "timeout": false,
+      "avg_rtt": 37.48
+    },
+    {
+      "hop": 27,
+      "ip": "10.96.81.12",
+      "hostname": null,
+      "rtts": [
+        80.12
+      ],
+      "timeout": false,
+      "avg_rtt": 80.12
+    },
+    {
+      "hop": 28,
+      "ip": "10.96.81.12",
+      "hostname": null,
+      "rtts": [
+        24.67,
+        19.86
+      ],
+      "timeout": false,
+      "avg_rtt": 22.27
+    },
+    {
+      "hop": 29,
+      "ip": "10.96.81.12",
+      "hostname": null,
+      "rtts": [
+        23.19
+      ],
+      "timeout": false,
+      "avg_rtt": 23.19
+    },
+    {
+      "hop": 30,
+      "ip": "10.96.81.12",
+      "hostname": null,
+      "rtts": [
+        13.5
+      ],
+      "timeout": false,
+      "avg_rtt": 13.5
+    }
+  ],
+  "num_hops": 30,
+  "success": false,
+  "method": "scapy",
+  "category": "media",
+  "base_domain": "pts.org.tw",
+  "service_variant": "webmail.pts.org.tw",
+  "is_bare_domain": false
+}

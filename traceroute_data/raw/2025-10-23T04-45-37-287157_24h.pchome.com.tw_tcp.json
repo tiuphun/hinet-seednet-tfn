@@ -1,0 +1,150 @@
+{
+  "timestamp": "2025-10-23T04:45:37.287157",
+  "vantage_point": "university",
+  "target": "24h.pchome.com.tw",
+  "target_ip": "34.149.253.14",
+  "protocol": "tcp",
+  "port": 443,
+  "duration_seconds": 2.49,
+  "hops": [
+    {
+      "hop": 1,
+      "ip": "192.168.50.1",
+      "hostname": null,
+      "rtts": [
+        16.11,
+        8.64
+      ],
+      "timeout": false,
+      "avg_rtt": 12.38
+    },
+    {
+      "hop": 2,
+      "ip": "140.123.103.250",
+      "hostname": "csgate103.cs.ccu.edu.tw",
+      "rtts": [
+        19.18,
+        5.97,
+        8.09
+      ],
+      "timeout": false,
+      "avg_rtt": 11.08
+    },
+    {
+      "hop": 3,
+      "ip": "140.123.9.249",
+      "hostname": null,
+      "rtts": [
+        5.45,
+        8.11,
+        5.76
+      ],
+      "timeout": false,
+      "avg_rtt": 6.44
+    },
+    {
+      "hop": 4,
+      "ip": "140.123.0.246",
+      "hostname": null,
+      "rtts": [
+        15.35,
+        6.03,
+        12.96
+      ],
+      "timeout": false,
+      "avg_rtt": 11.45
+    },
+    {
+      "hop": 5,
+      "ip": "140.130.252.251",
+      "hostname": null,
+      "rtts": [
+        8.73,
+        9.59,
+        10.32
+      ],
+      "timeout": false,
+      "avg_rtt": 9.55
+    },
+    {
+      "hop": 6,
+      "ip": "192.192.61.142",
+      "hostname": null,
+      "rtts": [
+        16.1,
+        14.73,
+        15.68
+      ],
+      "timeout": false,
+      "avg_rtt": 15.5
+    },
+    {
+      "hop": 7,
+      "ip": "192.192.61.20",
+      "hostname": null,
+      "rtts": [
+        14.06,
+        17.59,
+        12.04
+      ],
+      "timeout": false,
+      "avg_rtt": 14.56
+    },
+    {
+      "hop": 8,
+      "ip": "192.192.61.184",
+      "hostname": null,
+      "rtts": [
+        13.44,
+        12.3,
+        14.2
+      ],
+      "timeout": false,
+      "avg_rtt": 13.31
+    },
+    {
+      "hop": 9,
+      "ip": "192.192.61.203",
+      "hostname": null,
+      "rtts": [
+        15.73,
+        17.22,
+        14.2
+      ],
+      "timeout": false,
+      "avg_rtt": 15.72
+    },
+    {
+      "hop": 10,
+      "ip": "72.14.196.229",
+      "hostname": null,
+      "rtts": [
+        18.47,
+        25.98,
+        13.33
+      ],
+      "timeout": false,
+      "avg_rtt": 19.26
+    },
+    {
+      "hop": 11,
+      "ip": "34.149.253.14",
+      "hostname": "14.253.149.34.bc.googleusercontent.com",
+      "rtts": [
+        16.77,
+        19.13,
+        14.78
+      ],
+      "timeout": false,
+      "reached_destination": true,
+      "avg_rtt": 16.89
+    }
+  ],
+  "num_hops": 11,
+  "success": true,
+  "method": "scapy",
+  "category": "ecommerce_tech",
+  "base_domain": "24h.pchome.com.tw",
+  "service_variant": "24h.pchome.com.tw",
+  "is_bare_domain": true
+}

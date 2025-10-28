@@ -1,0 +1,223 @@
+{
+  "timestamp": "2025-10-22T18:24:25.575136",
+  "vantage_point": "university",
+  "target": "mohw.gov.tw",
+  "target_ip": "203.65.99.200",
+  "protocol": "tcp",
+  "port": 443,
+  "duration_seconds": 0.8,
+  "hops": [
+    {
+      "hop": 1,
+      "ip": "192.168.50.1",
+      "hostname": null,
+      "rtts": [
+        6.53,
+        5.95,
+        5.38
+      ],
+      "timeout": false,
+      "avg_rtt": 5.95
+    },
+    {
+      "hop": 2,
+      "ip": "140.123.103.250",
+      "hostname": "csgate103.cs.ccu.edu.tw",
+      "rtts": [
+        5.6,
+        5.62,
+        5.22
+      ],
+      "timeout": false,
+      "avg_rtt": 5.48
+    },
+    {
+      "hop": 3,
+      "ip": "140.123.9.249",
+      "hostname": null,
+      "rtts": [
+        5.32,
+        4.61,
+        8.63
+      ],
+      "timeout": false,
+      "avg_rtt": 6.19
+    },
+    {
+      "hop": 4,
+      "ip": "140.123.0.246",
+      "hostname": null,
+      "rtts": [
+        6.12,
+        7.36,
+        5.84
+      ],
+      "timeout": false,
+      "avg_rtt": 6.44
+    },
+    {
+      "hop": 5,
+      "ip": "140.130.252.251",
+      "hostname": null,
+      "rtts": [
+        6.42,
+        7.69,
+        6.9
+      ],
+      "timeout": false,
+      "avg_rtt": 7.0
+    },
+    {
+      "hop": 6,
+      "ip": "192.192.61.142",
+      "hostname": null,
+      "rtts": [
+        37.02,
+        16.23,
+        11.09
+      ],
+      "timeout": false,
+      "avg_rtt": 21.45
+    },
+    {
+      "hop": 7,
+      "ip": "192.192.61.9",
+      "hostname": null,
+      "rtts": [
+        10.85,
+        10.31,
+        10.09
+      ],
+      "timeout": false,
+      "avg_rtt": 10.42
+    },
+    {
+      "hop": 8,
+      "ip": "192.192.61.30",
+      "hostname": null,
+      "rtts": [
+        11.83,
+        13.68,
+        12.4
+      ],
+      "timeout": false,
+      "avg_rtt": 12.64
+    },
+    {
+      "hop": 9,
+      "ip": "192.192.61.4",
+      "hostname": null,
+      "rtts": [
+        17.86,
+        11.91,
+        15.09
+      ],
+      "timeout": false,
+      "avg_rtt": 14.95
+    },
+    {
+      "hop": 10,
+      "ip": "192.192.61.209",
+      "hostname": null,
+      "rtts": [
+        11.94,
+        13.26,
+        17.43
+      ],
+      "timeout": false,
+      "avg_rtt": 14.21
+    },
+    {
+      "hop": 11,
+      "ip": "10.96.81.12",
+      "hostname": null,
+      "rtts": [
+        17.29,
+        19.61,
+        22.86
+      ],
+      "timeout": false,
+      "avg_rtt": 19.92
+    },
+    {
+      "hop": 12,
+      "ip": "210.69.250.126",
+      "hostname": "210-69-250-126.hinet-ip.hinet.net",
+      "rtts": [
+        15.58,
+        13.5,
+        22.98
+      ],
+      "timeout": false,
+      "avg_rtt": 17.35
+    },
+    {
+      "hop": 13,
+      "ip": "210.69.250.118",
+      "hostname": "210-69-250-118.hinet-ip.hinet.net",
+      "rtts": [
+        14.53,
+        13.48,
+        14.12
+      ],
+      "timeout": false,
+      "avg_rtt": 14.04
+    },
+    {
+      "hop": 14,
+      "ip": "163.29.183.101",
+      "hostname": "163-29-183-101.hinet-ip.hinet.net",
+      "rtts": [
+        13.35,
+        15.33,
+        15.53
+      ],
+      "timeout": false,
+      "avg_rtt": 14.74
+    },
+    {
+      "hop": 15,
+      "ip": "203.65.100.252",
+      "hostname": null,
+      "rtts": [
+        11.65,
+        13.7,
+        19.99
+      ],
+      "timeout": false,
+      "avg_rtt": 15.11
+    },
+    {
+      "hop": 16,
+      "ip": "203.65.106.3",
+      "hostname": null,
+      "rtts": [
+        12.88,
+        16.86,
+        27.6
+      ],
+      "timeout": false,
+      "avg_rtt": 19.11
+    },
+    {
+      "hop": 17,
+      "ip": "203.65.99.200",
+      "hostname": "www.mohw.gov.tw",
+      "rtts": [
+        15.31,
+        14.16,
+        14.99
+      ],
+      "timeout": false,
+      "reached_destination": true,
+      "avg_rtt": 14.82
+    }
+  ],
+  "num_hops": 17,
+  "success": true,
+  "method": "scapy",
+  "category": "government_central",
+  "base_domain": "mohw.gov.tw",
+  "service_variant": "mohw.gov.tw",
+  "is_bare_domain": true
+}

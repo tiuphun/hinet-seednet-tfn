@@ -1,0 +1,175 @@
+{
+  "timestamp": "2025-10-23T13:29:31.837396",
+  "vantage_point": "university",
+  "target": "203.133.1.8",
+  "target_ip": "203.133.1.8",
+  "protocol": "icmp",
+  "port": null,
+  "duration_seconds": 1.35,
+  "hops": [
+    {
+      "hop": 1,
+      "ip": "192.168.50.1",
+      "hostname": null,
+      "rtts": [
+        10.11,
+        7.24,
+        5.11
+      ],
+      "timeout": false,
+      "avg_rtt": 7.49
+    },
+    {
+      "hop": 2,
+      "ip": "140.123.103.250",
+      "hostname": "csgate103.cs.ccu.edu.tw",
+      "rtts": [
+        8.36,
+        10.97,
+        8.77
+      ],
+      "timeout": false,
+      "avg_rtt": 9.37
+    },
+    {
+      "hop": 3,
+      "ip": "140.123.9.249",
+      "hostname": null,
+      "rtts": [
+        10.69,
+        4.78,
+        4.9
+      ],
+      "timeout": false,
+      "avg_rtt": 6.79
+    },
+    {
+      "hop": 4,
+      "ip": "140.123.0.246",
+      "hostname": null,
+      "rtts": [
+        6.15,
+        12.52,
+        12.34
+      ],
+      "timeout": false,
+      "avg_rtt": 10.34
+    },
+    {
+      "hop": 5,
+      "ip": "140.130.252.251",
+      "hostname": null,
+      "rtts": [
+        16.78,
+        11.44,
+        36.8
+      ],
+      "timeout": false,
+      "avg_rtt": 21.67
+    },
+    {
+      "hop": 6,
+      "ip": "140.123.231.108",
+      "hostname": null,
+      "rtts": [
+        10.61,
+        11.04,
+        11.82
+      ],
+      "timeout": false,
+      "avg_rtt": 11.16
+    },
+    {
+      "hop": 7,
+      "ip": "203.187.6.106",
+      "hostname": "tayang-m49-g2-10-cyccatv.ix.kbtelecom.net",
+      "rtts": [
+        11.94,
+        14.2,
+        9.12
+      ],
+      "timeout": false,
+      "avg_rtt": 11.75
+    },
+    {
+      "hop": 8,
+      "ip": "203.187.26.93",
+      "hostname": "peikong-m49-10g1-2-dayang.ix.kbtelecom.net",
+      "rtts": [
+        13.35,
+        9.73,
+        8.81
+      ],
+      "timeout": false,
+      "avg_rtt": 10.63
+    },
+    {
+      "hop": 9,
+      "ip": "203.187.26.89",
+      "hostname": "chialein-m49-10g1-2-peikong.ix.kbtelecom.net",
+      "rtts": [
+        9.97,
+        13.1,
+        12.64
+      ],
+      "timeout": false,
+      "avg_rtt": 11.9
+    },
+    {
+      "hop": 10,
+      "ip": "203.187.26.85",
+      "hostname": "sdtv-br93-eth1-45-chialein.ix.kbtelecom.net",
+      "rtts": [
+        12.86,
+        13.96,
+        9.92
+      ],
+      "timeout": false,
+      "avg_rtt": 12.25
+    },
+    {
+      "hop": 11,
+      "ip": "203.187.6.173",
+      "hostname": "tpnoc1-sc93-po10-sdtv.ix.kbtelecom.net",
+      "rtts": [
+        14.9,
+        11.43,
+        12.88
+      ],
+      "timeout": false,
+      "avg_rtt": 13.07
+    },
+    {
+      "hop": 12,
+      "ip": "203.187.6.53",
+      "hostname": "tpnoc1-c68-po82-sc93.ix.kbtelecom.net",
+      "rtts": [
+        42.25,
+        53.49,
+        10.39
+      ],
+      "timeout": false,
+      "avg_rtt": 35.38
+    },
+    {
+      "hop": 13,
+      "ip": "203.133.1.8",
+      "hostname": "dns1.giga.net.tw",
+      "rtts": [
+        12.42,
+        13.35,
+        37.08
+      ],
+      "timeout": false,
+      "reached_destination": true,
+      "avg_rtt": 20.95
+    }
+  ],
+  "num_hops": 13,
+  "success": true,
+  "method": "scapy",
+  "category": "dns_resolvers",
+  "base_domain": "203.133.1.8",
+  "service_variant": "203.133.1.8",
+  "is_bare_domain": true
+}

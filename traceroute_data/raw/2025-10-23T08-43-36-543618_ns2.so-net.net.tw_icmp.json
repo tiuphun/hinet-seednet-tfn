@@ -1,0 +1,247 @@
+{
+  "timestamp": "2025-10-23T08:43:36.543618",
+  "vantage_point": "university",
+  "target": "ns2.so-net.net.tw",
+  "target_ip": "61.64.127.2",
+  "protocol": "icmp",
+  "port": null,
+  "duration_seconds": 0.9,
+  "hops": [
+    {
+      "hop": 1,
+      "ip": "192.168.50.1",
+      "hostname": null,
+      "rtts": [
+        18.38,
+        6.36,
+        6.2
+      ],
+      "timeout": false,
+      "avg_rtt": 10.31
+    },
+    {
+      "hop": 2,
+      "ip": "140.123.103.250",
+      "hostname": "csgate103.cs.ccu.edu.tw",
+      "rtts": [
+        5.42,
+        5.46,
+        5.66
+      ],
+      "timeout": false,
+      "avg_rtt": 5.51
+    },
+    {
+      "hop": 3,
+      "ip": "140.123.9.249",
+      "hostname": null,
+      "rtts": [
+        6.59,
+        5.03,
+        5.38
+      ],
+      "timeout": false,
+      "avg_rtt": 5.67
+    },
+    {
+      "hop": 4,
+      "ip": "140.123.0.246",
+      "hostname": null,
+      "rtts": [
+        15.38,
+        12.15,
+        10.11
+      ],
+      "timeout": false,
+      "avg_rtt": 12.55
+    },
+    {
+      "hop": 5,
+      "ip": "140.130.252.251",
+      "hostname": null,
+      "rtts": [
+        7.67,
+        18.87,
+        7.83
+      ],
+      "timeout": false,
+      "avg_rtt": 11.46
+    },
+    {
+      "hop": 6,
+      "ip": "192.192.61.142",
+      "hostname": null,
+      "rtts": [
+        13.64,
+        26.62,
+        21.04
+      ],
+      "timeout": false,
+      "avg_rtt": 20.43
+    },
+    {
+      "hop": 7,
+      "ip": "192.192.61.20",
+      "hostname": null,
+      "rtts": [
+        13.77,
+        11.42,
+        12.19
+      ],
+      "timeout": false,
+      "avg_rtt": 12.46
+    },
+    {
+      "hop": 8,
+      "ip": "192.192.61.48",
+      "hostname": null,
+      "rtts": [
+        13.84,
+        13.43,
+        14.33
+      ],
+      "timeout": false,
+      "avg_rtt": 13.87
+    },
+    {
+      "hop": 9,
+      "ip": "192.192.68.62",
+      "hostname": null,
+      "rtts": [
+        17.86,
+        14.3,
+        15.95
+      ],
+      "timeout": false,
+      "avg_rtt": 16.04
+    },
+    {
+      "hop": 10,
+      "ip": "203.163.222.6",
+      "hostname": "6-222-163-203-static.tpix.net.tw",
+      "rtts": [
+        13.07,
+        14.65,
+        19.55
+      ],
+      "timeout": false,
+      "avg_rtt": 15.76
+    },
+    {
+      "hop": 11,
+      "ip": "103.123.252.133",
+      "hostname": "133-252-123-103-static.chief.net.tw",
+      "rtts": [
+        20.89,
+        13.23,
+        14.56
+      ],
+      "timeout": false,
+      "avg_rtt": 16.23
+    },
+    {
+      "hop": 12,
+      "ip": "223.26.64.137",
+      "hostname": "137-64-26-223-static.chief.net.tw",
+      "rtts": [
+        15.66,
+        34.4,
+        14.94
+      ],
+      "timeout": false,
+      "avg_rtt": 21.67
+    },
+    {
+      "hop": 13,
+      "ip": "113.21.84.113",
+      "hostname": "tw5-ro0.as134522.net",
+      "rtts": [
+        12.1,
+        12.22,
+        11.39
+      ],
+      "timeout": false,
+      "avg_rtt": 11.9
+    },
+    {
+      "hop": 14,
+      "ip": "113.21.84.114",
+      "hostname": "tw5-ro0.as134522.net",
+      "rtts": [
+        12.01,
+        17.83,
+        16.65
+      ],
+      "timeout": false,
+      "avg_rtt": 15.5
+    },
+    {
+      "hop": 15,
+      "ip": "219.84.176.122",
+      "hostname": null,
+      "rtts": [
+        12.68,
+        10.69,
+        11.3
+      ],
+      "timeout": false,
+      "avg_rtt": 11.56
+    },
+    {
+      "hop": 16,
+      "ip": "219.84.176.142",
+      "hostname": null,
+      "rtts": [
+        27.43,
+        31.42,
+        39.31
+      ],
+      "timeout": false,
+      "avg_rtt": 32.72
+    },
+    {
+      "hop": 17,
+      "ip": "61.64.127.249",
+      "hostname": "gw.so-net.net.tw",
+      "rtts": [
+        14.97,
+        31.7,
+        16.08
+      ],
+      "timeout": false,
+      "avg_rtt": 20.92
+    },
+    {
+      "hop": 18,
+      "ip": "61.64.127.249",
+      "hostname": "gw.so-net.net.tw",
+      "rtts": [
+        12.48,
+        11.02,
+        11.47
+      ],
+      "timeout": false,
+      "avg_rtt": 11.66
+    },
+    {
+      "hop": 19,
+      "ip": "61.64.127.2",
+      "hostname": "ns2.so-net.net.tw",
+      "rtts": [
+        11.75,
+        9.98,
+        12.15
+      ],
+      "timeout": false,
+      "reached_destination": true,
+      "avg_rtt": 11.29
+    }
+  ],
+  "num_hops": 19,
+  "success": true,
+  "method": "scapy",
+  "category": "telecom",
+  "base_domain": "so-net.net.tw",
+  "service_variant": "ns2.so-net.net.tw",
+  "is_bare_domain": false
+}

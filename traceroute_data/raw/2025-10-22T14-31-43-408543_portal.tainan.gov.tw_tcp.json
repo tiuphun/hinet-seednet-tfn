@@ -1,0 +1,186 @@
+{
+  "timestamp": "2025-10-22T14:31:43.408543",
+  "vantage_point": "university",
+  "target": "portal.tainan.gov.tw",
+  "target_ip": "210.242.150.38",
+  "protocol": "tcp",
+  "port": 443,
+  "duration_seconds": 30.85,
+  "hops": [
+    {
+      "hop": 1,
+      "ip": "192.168.50.1",
+      "hostname": null,
+      "rtts": [
+        12.22,
+        14.64,
+        5.88
+      ],
+      "timeout": false,
+      "avg_rtt": 10.91
+    },
+    {
+      "hop": 2,
+      "ip": "140.123.103.250",
+      "hostname": "csgate103.cs.ccu.edu.tw",
+      "rtts": [
+        6.28,
+        5.81,
+        7.83
+      ],
+      "timeout": false,
+      "avg_rtt": 6.64
+    },
+    {
+      "hop": 3,
+      "ip": "140.123.9.249",
+      "hostname": null,
+      "rtts": [
+        6.73,
+        8.26,
+        6.41
+      ],
+      "timeout": false,
+      "avg_rtt": 7.13
+    },
+    {
+      "hop": 4,
+      "ip": "140.123.0.246",
+      "hostname": null,
+      "rtts": [
+        7.36,
+        9.08,
+        7.05
+      ],
+      "timeout": false,
+      "avg_rtt": 7.83
+    },
+    {
+      "hop": 5,
+      "ip": "140.130.252.251",
+      "hostname": null,
+      "rtts": [
+        8.44,
+        7.51,
+        8.74
+      ],
+      "timeout": false,
+      "avg_rtt": 8.23
+    },
+    {
+      "hop": 6,
+      "ip": "211.22.226.198",
+      "hostname": "211-22-226-198.caw1-3332.hinet.net",
+      "rtts": [
+        13.2,
+        7.37,
+        8.0
+      ],
+      "timeout": false,
+      "avg_rtt": 9.52
+    },
+    {
+      "hop": 7,
+      "ip": null,
+      "hostname": null,
+      "rtts": [],
+      "timeout": true
+    },
+    {
+      "hop": 8,
+      "ip": null,
+      "hostname": null,
+      "rtts": [],
+      "timeout": true
+    },
+    {
+      "hop": 9,
+      "ip": "220.128.2.225",
+      "hostname": "220-128-2-225.tpdb-3316.hinet.net",
+      "rtts": [
+        14.71,
+        14.28,
+        17.0
+      ],
+      "timeout": false,
+      "avg_rtt": 15.33
+    },
+    {
+      "hop": 10,
+      "ip": "168.95.229.13",
+      "hostname": "h13.s229.ts.hinet.net",
+      "rtts": [
+        15.87,
+        13.09,
+        23.71
+      ],
+      "timeout": false,
+      "avg_rtt": 17.56
+    },
+    {
+      "hop": 11,
+      "ip": null,
+      "hostname": null,
+      "rtts": [],
+      "timeout": true
+    },
+    {
+      "hop": 12,
+      "ip": "203.69.108.45",
+      "hostname": null,
+      "rtts": [
+        58.3,
+        13.36,
+        12.62
+      ],
+      "timeout": false,
+      "avg_rtt": 28.09
+    },
+    {
+      "hop": 13,
+      "ip": null,
+      "hostname": null,
+      "rtts": [],
+      "timeout": true
+    },
+    {
+      "hop": 14,
+      "ip": null,
+      "hostname": null,
+      "rtts": [],
+      "timeout": true
+    },
+    {
+      "hop": 15,
+      "ip": "210.242.70.113",
+      "hostname": null,
+      "rtts": [
+        14.76,
+        13.04,
+        11.9
+      ],
+      "timeout": false,
+      "avg_rtt": 13.23
+    },
+    {
+      "hop": 16,
+      "ip": "210.242.150.38",
+      "hostname": null,
+      "rtts": [
+        17.67,
+        18.28,
+        15.52
+      ],
+      "timeout": false,
+      "reached_destination": true,
+      "avg_rtt": 17.16
+    }
+  ],
+  "num_hops": 16,
+  "success": true,
+  "method": "scapy",
+  "category": "government_local",
+  "base_domain": "tainan.gov.tw",
+  "service_variant": "portal.tainan.gov.tw",
+  "is_bare_domain": false
+}

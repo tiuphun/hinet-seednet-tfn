@@ -1,0 +1,345 @@
+{
+  "timestamp": "2025-10-22T20:44:08.999797",
+  "vantage_point": "university",
+  "target": "app.judicial.gov.tw",
+  "target_ip": "210.69.124.197",
+  "protocol": "icmp",
+  "port": null,
+  "duration_seconds": 68.52,
+  "hops": [
+    {
+      "hop": 1,
+      "ip": "192.168.50.1",
+      "hostname": null,
+      "rtts": [
+        7.74,
+        6.06,
+        5.08
+      ],
+      "timeout": false,
+      "avg_rtt": 6.29
+    },
+    {
+      "hop": 2,
+      "ip": "140.123.103.250",
+      "hostname": "csgate103.cs.ccu.edu.tw",
+      "rtts": [
+        6.82,
+        7.61,
+        6.57
+      ],
+      "timeout": false,
+      "avg_rtt": 7.0
+    },
+    {
+      "hop": 3,
+      "ip": "140.123.9.249",
+      "hostname": null,
+      "rtts": [
+        7.75,
+        7.9,
+        8.97
+      ],
+      "timeout": false,
+      "avg_rtt": 8.21
+    },
+    {
+      "hop": 4,
+      "ip": "140.123.0.246",
+      "hostname": null,
+      "rtts": [
+        7.17,
+        6.87,
+        7.4
+      ],
+      "timeout": false,
+      "avg_rtt": 7.15
+    },
+    {
+      "hop": 5,
+      "ip": "140.130.252.251",
+      "hostname": null,
+      "rtts": [
+        5.57,
+        10.39,
+        5.94
+      ],
+      "timeout": false,
+      "avg_rtt": 7.3
+    },
+    {
+      "hop": 6,
+      "ip": "192.192.61.142",
+      "hostname": null,
+      "rtts": [
+        9.25,
+        11.14,
+        9.16
+      ],
+      "timeout": false,
+      "avg_rtt": 9.85
+    },
+    {
+      "hop": 7,
+      "ip": "192.192.61.37",
+      "hostname": null,
+      "rtts": [
+        14.07,
+        26.16,
+        15.15
+      ],
+      "timeout": false,
+      "avg_rtt": 18.46
+    },
+    {
+      "hop": 8,
+      "ip": "192.192.61.32",
+      "hostname": null,
+      "rtts": [
+        10.59,
+        13.26,
+        13.63
+      ],
+      "timeout": false,
+      "avg_rtt": 12.49
+    },
+    {
+      "hop": 9,
+      "ip": "192.192.61.209",
+      "hostname": null,
+      "rtts": [
+        26.95,
+        12.58,
+        17.88
+      ],
+      "timeout": false,
+      "avg_rtt": 19.14
+    },
+    {
+      "hop": 10,
+      "ip": "10.96.81.12",
+      "hostname": null,
+      "rtts": [
+        18.84
+      ],
+      "timeout": false,
+      "avg_rtt": 18.84
+    },
+    {
+      "hop": 11,
+      "ip": "10.96.81.12",
+      "hostname": null,
+      "rtts": [
+        27.26,
+        27.1
+      ],
+      "timeout": false,
+      "avg_rtt": 27.18
+    },
+    {
+      "hop": 12,
+      "ip": "10.96.81.12",
+      "hostname": null,
+      "rtts": [
+        23.76
+      ],
+      "timeout": false,
+      "avg_rtt": 23.76
+    },
+    {
+      "hop": 13,
+      "ip": "10.96.81.12",
+      "hostname": null,
+      "rtts": [
+        11.4,
+        21.36
+      ],
+      "timeout": false,
+      "avg_rtt": 16.38
+    },
+    {
+      "hop": 14,
+      "ip": "10.96.81.12",
+      "hostname": null,
+      "rtts": [
+        28.47
+      ],
+      "timeout": false,
+      "avg_rtt": 28.47
+    },
+    {
+      "hop": 15,
+      "ip": "10.96.81.12",
+      "hostname": null,
+      "rtts": [
+        30.17,
+        49.35
+      ],
+      "timeout": false,
+      "avg_rtt": 39.76
+    },
+    {
+      "hop": 16,
+      "ip": "10.96.81.12",
+      "hostname": null,
+      "rtts": [
+        43.38
+      ],
+      "timeout": false,
+      "avg_rtt": 43.38
+    },
+    {
+      "hop": 17,
+      "ip": "10.96.81.12",
+      "hostname": null,
+      "rtts": [
+        72.49
+      ],
+      "timeout": false,
+      "avg_rtt": 72.49
+    },
+    {
+      "hop": 18,
+      "ip": "10.96.81.12",
+      "hostname": null,
+      "rtts": [
+        28.11
+      ],
+      "timeout": false,
+      "avg_rtt": 28.11
+    },
+    {
+      "hop": 19,
+      "ip": "10.96.81.12",
+      "hostname": null,
+      "rtts": [
+        23.24,
+        24.63
+      ],
+      "timeout": false,
+      "avg_rtt": 23.93
+    },
+    {
+      "hop": 20,
+      "ip": "10.96.81.12",
+      "hostname": null,
+      "rtts": [
+        12.94
+      ],
+      "timeout": false,
+      "avg_rtt": 12.94
+    },
+    {
+      "hop": 21,
+      "ip": "10.96.81.12",
+      "hostname": null,
+      "rtts": [
+        21.47,
+        16.89
+      ],
+      "timeout": false,
+      "avg_rtt": 19.18
+    },
+    {
+      "hop": 22,
+      "ip": "10.96.81.12",
+      "hostname": null,
+      "rtts": [
+        16.88
+      ],
+      "timeout": false,
+      "avg_rtt": 16.88
+    },
+    {
+      "hop": 23,
+      "ip": "10.96.81.12",
+      "hostname": null,
+      "rtts": [
+        23.31,
+        19.67
+      ],
+      "timeout": false,
+      "avg_rtt": 21.49
+    },
+    {
+      "hop": 24,
+      "ip": "10.96.81.12",
+      "hostname": null,
+      "rtts": [
+        14.16
+      ],
+      "timeout": false,
+      "avg_rtt": 14.16
+    },
+    {
+      "hop": 25,
+      "ip": "10.96.81.12",
+      "hostname": null,
+      "rtts": [
+        28.01,
+        12.44
+      ],
+      "timeout": false,
+      "avg_rtt": 20.23
+    },
+    {
+      "hop": 26,
+      "ip": "10.96.81.12",
+      "hostname": null,
+      "rtts": [
+        25.71
+      ],
+      "timeout": false,
+      "avg_rtt": 25.71
+    },
+    {
+      "hop": 27,
+      "ip": "10.96.81.12",
+      "hostname": null,
+      "rtts": [
+        48.59,
+        23.82
+      ],
+      "timeout": false,
+      "avg_rtt": 36.2
+    },
+    {
+      "hop": 28,
+      "ip": "10.96.81.12",
+      "hostname": null,
+      "rtts": [
+        14.71
+      ],
+      "timeout": false,
+      "avg_rtt": 14.71
+    },
+    {
+      "hop": 29,
+      "ip": "10.96.81.12",
+      "hostname": null,
+      "rtts": [
+        29.75,
+        29.86
+      ],
+      "timeout": false,
+      "avg_rtt": 29.8
+    },
+    {
+      "hop": 30,
+      "ip": "10.96.81.12",
+      "hostname": null,
+      "rtts": [
+        24.21
+      ],
+      "timeout": false,
+      "avg_rtt": 24.21
+    }
+  ],
+  "num_hops": 30,
+  "success": false,
+  "method": "scapy",
+  "category": "government_critical",
+  "base_domain": "judicial.gov.tw",
+  "service_variant": "app.judicial.gov.tw",
+  "is_bare_domain": false
+}

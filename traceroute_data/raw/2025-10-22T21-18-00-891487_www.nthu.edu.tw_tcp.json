@@ -1,0 +1,175 @@
+{
+  "timestamp": "2025-10-22T21:18:00.891487",
+  "vantage_point": "university",
+  "target": "www.nthu.edu.tw",
+  "target_ip": "140.114.69.135",
+  "protocol": "tcp",
+  "port": 80,
+  "duration_seconds": 0.41,
+  "hops": [
+    {
+      "hop": 1,
+      "ip": "192.168.50.1",
+      "hostname": null,
+      "rtts": [
+        14.94,
+        4.54,
+        4.92
+      ],
+      "timeout": false,
+      "avg_rtt": 8.13
+    },
+    {
+      "hop": 2,
+      "ip": "140.123.103.250",
+      "hostname": "csgate103.cs.ccu.edu.tw",
+      "rtts": [
+        10.36,
+        23.97,
+        4.17
+      ],
+      "timeout": false,
+      "avg_rtt": 12.83
+    },
+    {
+      "hop": 3,
+      "ip": "140.123.9.249",
+      "hostname": null,
+      "rtts": [
+        7.48,
+        5.04,
+        4.37
+      ],
+      "timeout": false,
+      "avg_rtt": 5.63
+    },
+    {
+      "hop": 4,
+      "ip": "140.123.0.246",
+      "hostname": null,
+      "rtts": [
+        8.72,
+        4.76,
+        5.02
+      ],
+      "timeout": false,
+      "avg_rtt": 6.17
+    },
+    {
+      "hop": 5,
+      "ip": "140.130.252.251",
+      "hostname": null,
+      "rtts": [
+        6.88,
+        7.88,
+        8.69
+      ],
+      "timeout": false,
+      "avg_rtt": 7.82
+    },
+    {
+      "hop": 6,
+      "ip": "192.192.61.142",
+      "hostname": null,
+      "rtts": [
+        11.55,
+        11.13,
+        7.06
+      ],
+      "timeout": false,
+      "avg_rtt": 9.91
+    },
+    {
+      "hop": 7,
+      "ip": "192.192.61.9",
+      "hostname": null,
+      "rtts": [
+        7.72,
+        7.42,
+        14.21
+      ],
+      "timeout": false,
+      "avg_rtt": 9.78
+    },
+    {
+      "hop": 8,
+      "ip": "192.192.61.30",
+      "hostname": null,
+      "rtts": [
+        8.47,
+        10.04,
+        8.31
+      ],
+      "timeout": false,
+      "avg_rtt": 8.94
+    },
+    {
+      "hop": 9,
+      "ip": "192.192.61.109",
+      "hostname": null,
+      "rtts": [
+        8.78,
+        9.57,
+        11.03
+      ],
+      "timeout": false,
+      "avg_rtt": 9.79
+    },
+    {
+      "hop": 10,
+      "ip": "140.114.1.69",
+      "hostname": "c7609c-c6509.nthu.edu.tw",
+      "rtts": [
+        10.79,
+        9.87,
+        11.36
+      ],
+      "timeout": false,
+      "avg_rtt": 10.67
+    },
+    {
+      "hop": 11,
+      "ip": "140.114.1.82",
+      "hostname": null,
+      "rtts": [
+        9.26,
+        9.16,
+        12.73
+      ],
+      "timeout": false,
+      "avg_rtt": 10.38
+    },
+    {
+      "hop": 12,
+      "ip": "140.114.0.58",
+      "hostname": null,
+      "rtts": [
+        8.49,
+        8.93,
+        10.9
+      ],
+      "timeout": false,
+      "avg_rtt": 9.44
+    },
+    {
+      "hop": 13,
+      "ip": "140.114.69.135",
+      "hostname": "www.nthu.edu.tw",
+      "rtts": [
+        10.18,
+        10.87,
+        9.82
+      ],
+      "timeout": false,
+      "reached_destination": true,
+      "avg_rtt": 10.29
+    }
+  ],
+  "num_hops": 13,
+  "success": true,
+  "method": "scapy",
+  "category": "universities",
+  "base_domain": "nthu.edu.tw",
+  "service_variant": "www.nthu.edu.tw",
+  "is_bare_domain": false
+}

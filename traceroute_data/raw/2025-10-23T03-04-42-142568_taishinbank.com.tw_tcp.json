@@ -1,0 +1,169 @@
+{
+  "timestamp": "2025-10-23T03:04:42.142568",
+  "vantage_point": "university",
+  "target": "taishinbank.com.tw",
+  "target_ip": "202.6.104.20",
+  "protocol": "tcp",
+  "port": 80,
+  "duration_seconds": 37.06,
+  "hops": [
+    {
+      "hop": 1,
+      "ip": "192.168.50.1",
+      "hostname": null,
+      "rtts": [
+        21.12,
+        6.34,
+        7.08
+      ],
+      "timeout": false,
+      "avg_rtt": 11.51
+    },
+    {
+      "hop": 2,
+      "ip": "140.123.103.250",
+      "hostname": "csgate103.cs.ccu.edu.tw",
+      "rtts": [
+        6.92,
+        8.16,
+        6.88
+      ],
+      "timeout": false,
+      "avg_rtt": 7.32
+    },
+    {
+      "hop": 3,
+      "ip": "140.123.9.249",
+      "hostname": null,
+      "rtts": [
+        6.08,
+        5.9,
+        7.7
+      ],
+      "timeout": false,
+      "avg_rtt": 6.56
+    },
+    {
+      "hop": 4,
+      "ip": "140.123.0.246",
+      "hostname": null,
+      "rtts": [
+        6.24,
+        6.58,
+        7.37
+      ],
+      "timeout": false,
+      "avg_rtt": 6.73
+    },
+    {
+      "hop": 5,
+      "ip": "140.130.252.251",
+      "hostname": null,
+      "rtts": [
+        8.47,
+        10.96,
+        5.89
+      ],
+      "timeout": false,
+      "avg_rtt": 8.44
+    },
+    {
+      "hop": 6,
+      "ip": "211.22.226.198",
+      "hostname": "211-22-226-198.caw1-3332.hinet.net",
+      "rtts": [
+        9.19,
+        7.89,
+        9.05
+      ],
+      "timeout": false,
+      "avg_rtt": 8.71
+    },
+    {
+      "hop": 7,
+      "ip": null,
+      "hostname": null,
+      "rtts": [],
+      "timeout": true
+    },
+    {
+      "hop": 8,
+      "ip": null,
+      "hostname": null,
+      "rtts": [],
+      "timeout": true
+    },
+    {
+      "hop": 9,
+      "ip": "220.128.4.225",
+      "hostname": "220-128-4-225.tpdt-3310.hinet.net",
+      "rtts": [
+        17.94,
+        14.41,
+        13.77
+      ],
+      "timeout": false,
+      "avg_rtt": 15.37
+    },
+    {
+      "hop": 10,
+      "ip": null,
+      "hostname": null,
+      "rtts": [],
+      "timeout": true
+    },
+    {
+      "hop": 11,
+      "ip": null,
+      "hostname": null,
+      "rtts": [],
+      "timeout": true
+    },
+    {
+      "hop": 12,
+      "ip": "202.39.35.117",
+      "hostname": "202-39-35-117.hinet-ip.hinet.net",
+      "rtts": [
+        28.55,
+        18.64,
+        20.59
+      ],
+      "timeout": false,
+      "avg_rtt": 22.59
+    },
+    {
+      "hop": 13,
+      "ip": null,
+      "hostname": null,
+      "rtts": [],
+      "timeout": true
+    },
+    {
+      "hop": 14,
+      "ip": null,
+      "hostname": null,
+      "rtts": [],
+      "timeout": true
+    },
+    {
+      "hop": 15,
+      "ip": "202.6.104.20",
+      "hostname": null,
+      "rtts": [
+        91.43,
+        13.42,
+        17.71
+      ],
+      "timeout": false,
+      "reached_destination": true,
+      "avg_rtt": 40.85
+    }
+  ],
+  "num_hops": 15,
+  "success": true,
+  "method": "scapy",
+  "category": "financial_banks",
+  "base_domain": "taishinbank.com.tw",
+  "service_variant": "taishinbank.com.tw",
+  "is_bare_domain": true
+}

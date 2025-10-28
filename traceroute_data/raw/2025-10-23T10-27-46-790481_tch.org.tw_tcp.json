@@ -1,0 +1,169 @@
+{
+  "timestamp": "2025-10-23T10:27:46.790481",
+  "vantage_point": "university",
+  "target": "tch.org.tw",
+  "target_ip": "118.163.238.164",
+  "protocol": "tcp",
+  "port": 80,
+  "duration_seconds": 37.28,
+  "hops": [
+    {
+      "hop": 1,
+      "ip": "192.168.50.1",
+      "hostname": null,
+      "rtts": [
+        8.08,
+        7.01,
+        5.68
+      ],
+      "timeout": false,
+      "avg_rtt": 6.92
+    },
+    {
+      "hop": 2,
+      "ip": "140.123.103.250",
+      "hostname": "csgate103.cs.ccu.edu.tw",
+      "rtts": [
+        8.25,
+        6.21,
+        11.09
+      ],
+      "timeout": false,
+      "avg_rtt": 8.52
+    },
+    {
+      "hop": 3,
+      "ip": "140.123.9.249",
+      "hostname": null,
+      "rtts": [
+        6.67,
+        8.39,
+        10.57
+      ],
+      "timeout": false,
+      "avg_rtt": 8.54
+    },
+    {
+      "hop": 4,
+      "ip": "140.123.0.246",
+      "hostname": null,
+      "rtts": [
+        7.54,
+        8.1,
+        9.81
+      ],
+      "timeout": false,
+      "avg_rtt": 8.48
+    },
+    {
+      "hop": 5,
+      "ip": "140.130.252.251",
+      "hostname": null,
+      "rtts": [
+        9.02,
+        5.81,
+        6.48
+      ],
+      "timeout": false,
+      "avg_rtt": 7.1
+    },
+    {
+      "hop": 6,
+      "ip": "211.22.226.198",
+      "hostname": "211-22-226-198.caw1-3332.hinet.net",
+      "rtts": [
+        8.6,
+        17.6,
+        11.47
+      ],
+      "timeout": false,
+      "avg_rtt": 12.56
+    },
+    {
+      "hop": 7,
+      "ip": null,
+      "hostname": null,
+      "rtts": [],
+      "timeout": true
+    },
+    {
+      "hop": 8,
+      "ip": null,
+      "hostname": null,
+      "rtts": [],
+      "timeout": true
+    },
+    {
+      "hop": 9,
+      "ip": "220.128.24.185",
+      "hostname": "220-128-24-185.ttml-3331.hinet.net",
+      "rtts": [
+        21.09,
+        11.31,
+        31.27
+      ],
+      "timeout": false,
+      "avg_rtt": 21.22
+    },
+    {
+      "hop": 10,
+      "ip": null,
+      "hostname": null,
+      "rtts": [],
+      "timeout": true
+    },
+    {
+      "hop": 11,
+      "ip": null,
+      "hostname": null,
+      "rtts": [],
+      "timeout": true
+    },
+    {
+      "hop": 12,
+      "ip": null,
+      "hostname": null,
+      "rtts": [],
+      "timeout": true
+    },
+    {
+      "hop": 13,
+      "ip": null,
+      "hostname": null,
+      "rtts": [],
+      "timeout": true
+    },
+    {
+      "hop": 14,
+      "ip": "118.163.238.163",
+      "hostname": "tch.org.tw",
+      "rtts": [
+        29.43,
+        33.39,
+        21.42
+      ],
+      "timeout": false,
+      "avg_rtt": 28.08
+    },
+    {
+      "hop": 15,
+      "ip": "118.163.238.164",
+      "hostname": "tch.org.tw",
+      "rtts": [
+        19.26,
+        20.25,
+        22.26
+      ],
+      "timeout": false,
+      "reached_destination": true,
+      "avg_rtt": 20.59
+    }
+  ],
+  "num_hops": 15,
+  "success": true,
+  "method": "scapy",
+  "category": "healthcare",
+  "base_domain": "tch.org.tw",
+  "service_variant": "tch.org.tw",
+  "is_bare_domain": true
+}

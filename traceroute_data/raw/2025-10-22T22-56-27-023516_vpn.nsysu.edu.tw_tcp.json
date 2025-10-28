@@ -1,0 +1,163 @@
+{
+  "timestamp": "2025-10-22T22:56:27.023516",
+  "vantage_point": "university",
+  "target": "vpn.nsysu.edu.tw",
+  "target_ip": "140.117.111.1",
+  "protocol": "tcp",
+  "port": 80,
+  "duration_seconds": 0.52,
+  "hops": [
+    {
+      "hop": 1,
+      "ip": "192.168.50.1",
+      "hostname": null,
+      "rtts": [
+        26.04,
+        6.58,
+        8.54
+      ],
+      "timeout": false,
+      "avg_rtt": 13.72
+    },
+    {
+      "hop": 2,
+      "ip": "140.123.103.250",
+      "hostname": "csgate103.cs.ccu.edu.tw",
+      "rtts": [
+        6.18,
+        5.83,
+        6.18
+      ],
+      "timeout": false,
+      "avg_rtt": 6.06
+    },
+    {
+      "hop": 3,
+      "ip": "140.123.9.249",
+      "hostname": null,
+      "rtts": [
+        7.13,
+        5.84,
+        10.24
+      ],
+      "timeout": false,
+      "avg_rtt": 7.74
+    },
+    {
+      "hop": 4,
+      "ip": "140.123.0.246",
+      "hostname": null,
+      "rtts": [
+        10.68,
+        6.48,
+        15.15
+      ],
+      "timeout": false,
+      "avg_rtt": 10.77
+    },
+    {
+      "hop": 5,
+      "ip": "211.79.57.25",
+      "hostname": "ccu-ccu-76.twaren.net",
+      "rtts": [
+        18.45,
+        9.57,
+        43.29
+      ],
+      "timeout": false,
+      "avg_rtt": 23.77
+    },
+    {
+      "hop": 6,
+      "ip": "211.73.76.209",
+      "hostname": "tn-a1.twaren.net",
+      "rtts": [
+        18.3,
+        12.39,
+        11.12
+      ],
+      "timeout": false,
+      "avg_rtt": 13.94
+    },
+    {
+      "hop": 7,
+      "ip": "211.73.76.218",
+      "hostname": "nsysu-a1.twaren.net",
+      "rtts": [
+        10.51,
+        11.66,
+        14.29
+      ],
+      "timeout": false,
+      "avg_rtt": 12.15
+    },
+    {
+      "hop": 8,
+      "ip": "211.79.58.26",
+      "hostname": "nsysu_nsysu-a1.twaren.net",
+      "rtts": [
+        16.81,
+        9.69,
+        12.78
+      ],
+      "timeout": false,
+      "avg_rtt": 13.09
+    },
+    {
+      "hop": 9,
+      "ip": "140.117.232.34",
+      "hostname": null,
+      "rtts": [
+        15.13,
+        14.93,
+        11.74
+      ],
+      "timeout": false,
+      "avg_rtt": 13.93
+    },
+    {
+      "hop": 10,
+      "ip": "140.117.232.86",
+      "hostname": null,
+      "rtts": [
+        21.8,
+        26.89,
+        14.03
+      ],
+      "timeout": false,
+      "avg_rtt": 20.91
+    },
+    {
+      "hop": 11,
+      "ip": "140.117.232.14",
+      "hostname": null,
+      "rtts": [
+        12.51,
+        10.18,
+        11.61
+      ],
+      "timeout": false,
+      "avg_rtt": 11.43
+    },
+    {
+      "hop": 12,
+      "ip": "140.117.111.1",
+      "hostname": null,
+      "rtts": [
+        25.84,
+        12.17,
+        10.46
+      ],
+      "timeout": false,
+      "reached_destination": true,
+      "avg_rtt": 16.16
+    }
+  ],
+  "num_hops": 12,
+  "success": true,
+  "method": "scapy",
+  "category": "universities",
+  "base_domain": "nsysu.edu.tw",
+  "service_variant": "vpn.nsysu.edu.tw",
+  "is_bare_domain": false
+}

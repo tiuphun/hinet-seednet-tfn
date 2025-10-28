@@ -1,0 +1,149 @@
+{
+  "timestamp": "2025-10-23T03:23:44.327625",
+  "vantage_point": "university",
+  "target": "www.sinopac.com",
+  "target_ip": "211.76.148.17",
+  "protocol": "tcp",
+  "port": 443,
+  "duration_seconds": 32.91,
+  "hops": [
+    {
+      "hop": 1,
+      "ip": "192.168.50.1",
+      "hostname": null,
+      "rtts": [
+        7.52,
+        4.33,
+        4.39
+      ],
+      "timeout": false,
+      "avg_rtt": 5.41
+    },
+    {
+      "hop": 2,
+      "ip": "140.123.103.250",
+      "hostname": "csgate103.cs.ccu.edu.tw",
+      "rtts": [
+        4.86,
+        4.4,
+        4.36
+      ],
+      "timeout": false,
+      "avg_rtt": 4.54
+    },
+    {
+      "hop": 3,
+      "ip": "140.123.9.249",
+      "hostname": null,
+      "rtts": [
+        5.39,
+        8.08,
+        5.48
+      ],
+      "timeout": false,
+      "avg_rtt": 6.32
+    },
+    {
+      "hop": 4,
+      "ip": "140.123.0.246",
+      "hostname": null,
+      "rtts": [
+        11.86,
+        11.31,
+        7.49
+      ],
+      "timeout": false,
+      "avg_rtt": 10.22
+    },
+    {
+      "hop": 5,
+      "ip": "140.130.252.251",
+      "hostname": null,
+      "rtts": [
+        10.12,
+        7.69,
+        10.0
+      ],
+      "timeout": false,
+      "avg_rtt": 9.27
+    },
+    {
+      "hop": 6,
+      "ip": "211.22.226.198",
+      "hostname": "211-22-226-198.caw1-3332.hinet.net",
+      "rtts": [
+        7.37,
+        8.22,
+        15.03
+      ],
+      "timeout": false,
+      "avg_rtt": 10.21
+    },
+    {
+      "hop": 7,
+      "ip": null,
+      "hostname": null,
+      "rtts": [],
+      "timeout": true
+    },
+    {
+      "hop": 8,
+      "ip": null,
+      "hostname": null,
+      "rtts": [],
+      "timeout": true
+    },
+    {
+      "hop": 9,
+      "ip": "220.128.4.217",
+      "hostname": "220-128-4-217.tpdt-3309.hinet.net",
+      "rtts": [
+        44.39,
+        22.81,
+        20.49
+      ],
+      "timeout": false,
+      "avg_rtt": 29.23
+    },
+    {
+      "hop": 10,
+      "ip": null,
+      "hostname": null,
+      "rtts": [],
+      "timeout": true
+    },
+    {
+      "hop": 11,
+      "ip": null,
+      "hostname": null,
+      "rtts": [],
+      "timeout": true
+    },
+    {
+      "hop": 12,
+      "ip": null,
+      "hostname": null,
+      "rtts": [],
+      "timeout": true
+    },
+    {
+      "hop": 13,
+      "ip": "211.76.148.17",
+      "hostname": null,
+      "rtts": [
+        17.72,
+        31.69
+      ],
+      "timeout": false,
+      "reached_destination": true,
+      "avg_rtt": 24.7
+    }
+  ],
+  "num_hops": 13,
+  "success": true,
+  "method": "scapy",
+  "category": "financial_banks",
+  "base_domain": "sinopac.com",
+  "service_variant": "www.sinopac.com",
+  "is_bare_domain": false
+}

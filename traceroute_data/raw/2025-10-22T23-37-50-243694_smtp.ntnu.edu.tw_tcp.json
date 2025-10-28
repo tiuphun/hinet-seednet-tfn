@@ -1,0 +1,163 @@
+{
+  "timestamp": "2025-10-22T23:37:50.243694",
+  "vantage_point": "university",
+  "target": "smtp.ntnu.edu.tw",
+  "target_ip": "140.122.65.156",
+  "protocol": "tcp",
+  "port": 443,
+  "duration_seconds": 0.64,
+  "hops": [
+    {
+      "hop": 1,
+      "ip": "192.168.50.1",
+      "hostname": null,
+      "rtts": [
+        35.88,
+        7.59,
+        4.15
+      ],
+      "timeout": false,
+      "avg_rtt": 15.87
+    },
+    {
+      "hop": 2,
+      "ip": "140.123.103.250",
+      "hostname": "csgate103.cs.ccu.edu.tw",
+      "rtts": [
+        5.12,
+        7.78,
+        5.03
+      ],
+      "timeout": false,
+      "avg_rtt": 5.98
+    },
+    {
+      "hop": 3,
+      "ip": "140.123.9.249",
+      "hostname": null,
+      "rtts": [
+        4.45,
+        8.49,
+        6.42
+      ],
+      "timeout": false,
+      "avg_rtt": 6.45
+    },
+    {
+      "hop": 4,
+      "ip": "140.123.0.246",
+      "hostname": null,
+      "rtts": [
+        14.46,
+        30.28,
+        4.72
+      ],
+      "timeout": false,
+      "avg_rtt": 16.49
+    },
+    {
+      "hop": 5,
+      "ip": "140.130.252.251",
+      "hostname": null,
+      "rtts": [
+        9.89,
+        18.5,
+        5.26
+      ],
+      "timeout": false,
+      "avg_rtt": 11.22
+    },
+    {
+      "hop": 6,
+      "ip": "192.192.61.142",
+      "hostname": null,
+      "rtts": [
+        51.39,
+        35.63,
+        36.93
+      ],
+      "timeout": false,
+      "avg_rtt": 41.32
+    },
+    {
+      "hop": 7,
+      "ip": "192.192.61.20",
+      "hostname": null,
+      "rtts": [
+        56.73,
+        22.54,
+        23.09
+      ],
+      "timeout": false,
+      "avg_rtt": 34.12
+    },
+    {
+      "hop": 8,
+      "ip": "192.192.61.81",
+      "hostname": null,
+      "rtts": [
+        15.55,
+        19.96,
+        28.43
+      ],
+      "timeout": false,
+      "avg_rtt": 21.31
+    },
+    {
+      "hop": 9,
+      "ip": "192.192.7.158",
+      "hostname": null,
+      "rtts": [
+        14.95,
+        14.33,
+        14.55
+      ],
+      "timeout": false,
+      "avg_rtt": 14.61
+    },
+    {
+      "hop": 10,
+      "ip": "140.122.6.209",
+      "hostname": null,
+      "rtts": [
+        11.62,
+        10.34,
+        17.76
+      ],
+      "timeout": false,
+      "avg_rtt": 13.24
+    },
+    {
+      "hop": 11,
+      "ip": "140.122.6.146",
+      "hostname": null,
+      "rtts": [
+        14.76,
+        18.37,
+        11.45
+      ],
+      "timeout": false,
+      "avg_rtt": 14.86
+    },
+    {
+      "hop": 12,
+      "ip": "140.122.65.156",
+      "hostname": "mg156.ntnu.edu.tw",
+      "rtts": [
+        13.84,
+        14.03,
+        9.49
+      ],
+      "timeout": false,
+      "reached_destination": true,
+      "avg_rtt": 12.45
+    }
+  ],
+  "num_hops": 12,
+  "success": true,
+  "method": "scapy",
+  "category": "universities",
+  "base_domain": "ntnu.edu.tw",
+  "service_variant": "smtp.ntnu.edu.tw",
+  "is_bare_domain": false
+}

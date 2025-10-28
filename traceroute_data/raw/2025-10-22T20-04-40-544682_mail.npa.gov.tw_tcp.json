@@ -1,0 +1,210 @@
+{
+  "timestamp": "2025-10-22T20:04:40.544682",
+  "vantage_point": "university",
+  "target": "mail.npa.gov.tw",
+  "target_ip": "210.69.154.133",
+  "protocol": "tcp",
+  "port": 443,
+  "duration_seconds": 2.83,
+  "hops": [
+    {
+      "hop": 1,
+      "ip": "192.168.50.1",
+      "hostname": null,
+      "rtts": [
+        14.6,
+        4.75
+      ],
+      "timeout": false,
+      "avg_rtt": 9.68
+    },
+    {
+      "hop": 2,
+      "ip": "140.123.103.250",
+      "hostname": "csgate103.cs.ccu.edu.tw",
+      "rtts": [
+        43.9,
+        8.15,
+        7.44
+      ],
+      "timeout": false,
+      "avg_rtt": 19.83
+    },
+    {
+      "hop": 3,
+      "ip": "140.123.9.249",
+      "hostname": null,
+      "rtts": [
+        6.11,
+        5.75,
+        6.46
+      ],
+      "timeout": false,
+      "avg_rtt": 6.11
+    },
+    {
+      "hop": 4,
+      "ip": "140.123.0.246",
+      "hostname": null,
+      "rtts": [
+        9.42,
+        7.07,
+        7.11
+      ],
+      "timeout": false,
+      "avg_rtt": 7.87
+    },
+    {
+      "hop": 5,
+      "ip": "140.130.252.251",
+      "hostname": null,
+      "rtts": [
+        7.91,
+        8.69,
+        7.42
+      ],
+      "timeout": false,
+      "avg_rtt": 8.01
+    },
+    {
+      "hop": 6,
+      "ip": "192.192.61.142",
+      "hostname": null,
+      "rtts": [
+        10.54,
+        11.17,
+        10.5
+      ],
+      "timeout": false,
+      "avg_rtt": 10.74
+    },
+    {
+      "hop": 7,
+      "ip": "192.192.61.37",
+      "hostname": null,
+      "rtts": [
+        13.46,
+        18.61,
+        25.46
+      ],
+      "timeout": false,
+      "avg_rtt": 19.18
+    },
+    {
+      "hop": 8,
+      "ip": "192.192.61.32",
+      "hostname": null,
+      "rtts": [
+        16.58,
+        11.41,
+        12.45
+      ],
+      "timeout": false,
+      "avg_rtt": 13.48
+    },
+    {
+      "hop": 9,
+      "ip": "192.192.61.209",
+      "hostname": null,
+      "rtts": [
+        12.76,
+        20.3,
+        13.97
+      ],
+      "timeout": false,
+      "avg_rtt": 15.68
+    },
+    {
+      "hop": 10,
+      "ip": "10.96.81.12",
+      "hostname": null,
+      "rtts": [
+        14.71,
+        13.42,
+        18.83
+      ],
+      "timeout": false,
+      "avg_rtt": 15.65
+    },
+    {
+      "hop": 11,
+      "ip": "210.69.250.126",
+      "hostname": "210-69-250-126.hinet-ip.hinet.net",
+      "rtts": [
+        15.33,
+        15.32,
+        20.38
+      ],
+      "timeout": false,
+      "avg_rtt": 17.01
+    },
+    {
+      "hop": 12,
+      "ip": "210.69.250.49",
+      "hostname": "210-69-250-49.hinet-ip.hinet.net",
+      "rtts": [
+        15.6,
+        30.27,
+        51.75
+      ],
+      "timeout": false,
+      "avg_rtt": 32.54
+    },
+    {
+      "hop": 13,
+      "ip": "210.69.8.81",
+      "hostname": "210-69-8-81.hinet-ip.hinet.net",
+      "rtts": [
+        25.51,
+        15.87,
+        14.72
+      ],
+      "timeout": false,
+      "avg_rtt": 18.7
+    },
+    {
+      "hop": 14,
+      "ip": "192.168.149.2",
+      "hostname": null,
+      "rtts": [
+        14.56,
+        17.95,
+        18.68
+      ],
+      "timeout": false,
+      "avg_rtt": 17.06
+    },
+    {
+      "hop": 15,
+      "ip": "210.69.154.252",
+      "hostname": null,
+      "rtts": [
+        14.97,
+        15.81,
+        15.6
+      ],
+      "timeout": false,
+      "avg_rtt": 15.46
+    },
+    {
+      "hop": 16,
+      "ip": "210.69.154.133",
+      "hostname": null,
+      "rtts": [
+        17.99,
+        15.45,
+        20.6
+      ],
+      "timeout": false,
+      "reached_destination": true,
+      "avg_rtt": 18.01
+    }
+  ],
+  "num_hops": 16,
+  "success": true,
+  "method": "scapy",
+  "category": "government_critical",
+  "base_domain": "npa.gov.tw",
+  "service_variant": "mail.npa.gov.tw",
+  "is_bare_domain": false
+}
